@@ -1,2 +1,4 @@
 * text=auto !eol
+/Makefile -text
+/apertium-ita.ita.acx -text
 /apertium-ita.ita.dix -text
