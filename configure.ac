@@ -9,4 +9,6 @@ m4_define([required_apertium_version], [3.3.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
 
 
+AP_MKINCLUDE
+
 AC_OUTPUT([Makefile apertium-ita.pc])
