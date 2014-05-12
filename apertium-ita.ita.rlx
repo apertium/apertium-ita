@@ -1,0 +1,49 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+SETS
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+LIST A = adj ;
+LIST Adv = adv ;
+LIST Pron = prn ;
+LIST N = n ;
+LIST V = v ;
+LIST Det = det ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Interj = ij ;
+LIST Num = num ;
+LIST Cm = cm ;
+
+LIST Interr = itg ;
+
+# All possible word categories
+
+SET WORD = N | V | A | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ;
+
+SET MARK =  Cm | ("\\") | ("\;") ;
+
+SET WORDMARK = WORD | MARK ;
+
+SET N-MOD = A | Det | Num | (n gen) | (prn gen) ;
+
+# Categories which cannot be part of a noun phrase
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+
+# Barriers
+
+SET S-BOUNDARY = CS | Interr | EOS;
+
+SECTION
+
+
+SELECT (therightreading) IF (0 (sometag));

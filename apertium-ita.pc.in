@@ -1,0 +1,9 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ita
+srcdir=@datarootdir@/apertium/apertium-ita
+
+Name: apertium-ita
+Description: Finite-state morphological transducer for Italian
+Version: @VERSION@
