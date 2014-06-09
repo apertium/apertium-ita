@@ -53,15 +53,15 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_ita_libdir: This is where the compiled binaries go
+#   apertium_ita_dir: This is where the compiled binaries go
 #   apertium_ita_srcdir: This is where the source files go
 
-apertium_itadir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_itadir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_ita_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_ita_DATA=$(TARGETS_COMMON) $(LANG1).prob
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
 noinst_DATA=modes/$(LANG1)-morph.mode
