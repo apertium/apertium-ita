@@ -8,6 +8,7 @@ LANG1=ita
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
+	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
 
@@ -24,6 +25,7 @@ $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 
 $(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
+	apertium-validate-acx $(BASENAME).$(LANG1).acx
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
@@ -31,6 +33,11 @@ $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 
 $(LANG1).automorf.att.gz: $(LANG1).automorf.bin
 	lt-print $< | gzip -9 -c > $@
+
+# Post-generator
+$(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
 
 ###############################################################################
 ## Disambiguation rules

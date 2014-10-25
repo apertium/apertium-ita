@@ -10,6 +10,7 @@
 /apertium-ita.ita.rlx -text
 /apertium-ita.ita.tsx -text svneol=unset#application/xml
 /apertium-ita.pc.in -text
+/apertium-ita.post-ita.dix -text
 /autogen.sh -text
 /configure.ac -text
 /ita.prob -text
