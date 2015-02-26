@@ -73840,6 +73840,8 @@
     <e lm="Allah"><i>Allah</i><par n="Juan__np"/></e>
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Afghanistan__np"/></e>
     <e lm="America"><i>America</i><par n="Europa__np"/></e>
+    <e lm="Tulsa"><i>Tulsa</i><par n="Europa__np"/></e>
+    <e lm="Oklahoma"><i>Oklahoma</i><par n="Afghanistan__np"/></e>
     <e lm="Ana"><i>Ana</i><par n="María__np"/></e>
     <e lm="Andalusia"><i>Andalusia</i><par n="Afghanistan__np"/></e>
     <e lm="Andorra"><i>Andorra</i><par n="Afghanistan__np"/></e>
@@ -74845,6 +74847,7 @@
     <e lm="alligatore"><i>alligator</i><par n="abat/e__n"/></e>
     <e lm="allocuzione"><i>allocuzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="alloggio"><i>alloggi</i><par n="abbagli/o__n"/></e>
+    <e lm="colloquio"><i>colloqui</i><par n="abbagli/o__n"/></e>
     <e lm="alloro"><i>allor</i><par n="abbain/o__n"/></e>
     <e lm="allucinazione"><i>allucinazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="alluminio"><i>allumini</i><par n="abbagli/o__n"/></e>
@@ -75216,6 +75219,7 @@
     <e lm="bandiera"><i>bandier</i><par n="cas/a__n"/></e>
     <e lm="bara"><i>bar</i><par n="cas/a__n"/></e>
     <e lm="bar"><i>bar</i><par n="albatros__n"/></e>
+    <e lm="hijab"><i>hijab</i><par n="albatros__n"/></e>
     <e lm="baracca"><i>baracc</i><par n="tasc/a__n"/></e>
     <e lm="baratro"><i>baratr</i><par n="abbain/o__n"/></e>
     <e lm="baratto"><i>baratt</i><par n="abbain/o__n"/></e>
@@ -75734,6 +75738,7 @@
     <e lm="commercializzazione"><i>commercializzazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="commerciante"><i>commerciant</i><par n="albanes/e__n"/></e>
     <e lm="commesso"><i>commess</i><par n="abbain/o__n"/></e>
+    <e lm="commessa"><i>commess</i><par n="cas/a__n"/></e>
     <e lm="commissario"><i>commissari</i><par n="abbain/o__n"/></e>
     <e lm="commissione"><i>commission</i><par n="abbreviazion/e__n"/></e>
     <e lm="committente"><i>committent</i><par n="abat/e__n"/></e>
@@ -81904,6 +81909,7 @@
     <e lm="indagare"><i>indag</i><par n="abbarbic/are__vblex"/></e>
     <e lm="indebolire"><i>indebol</i><par n="abbell/ire__vblex"/></e>
     <e lm="indicare"><i>indic</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="indossare"><i>indoss</i><par n="abbacin/are__vblex"/></e>
     <e lm="infiltrare"><i>infiltr</i><par n="abbacin/are__vblex"/></e>
     <e lm="informare"><i>inform</i><par n="abbacin/are__vblex"/></e>
     <e lm="ingannare"><i>ingann</i><par n="abbacin/are__vblex"/></e>
