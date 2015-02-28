@@ -75052,9 +75052,12 @@
     <e lm="artrosi"><i>artrosi</i><par n="abilità__n"/></e>
     <e lm="asbesto"><i>asbest</i><par n="abbain/o__n"/></e>
     <e lm="ascia"><i>asc</i><par n="alzatacc/ia__n"/></e>
+    <e lm="fascia"><i>fasc</i><par n="alzatacc/ia__n"/></e>
     <e lm="ascella"><i>ascell</i><par n="cas/a__n"/></e>
+    <e lm="regia"><i>regi</i><par n="cas/a__n"/></e>
     <e lm="ascendente"><i>ascendent</i><par n="abat/e__n"/></e>
     <e lm="ascenso"><i>ascens</i><par n="abbain/o__n"/></e>
+    <e lm="peccato"><i>peccat</i><par n="abbain/o__n"/></e>
     <e lm="ascensore"><i>ascensor</i><par n="abat/e__n"/></e>
     <e lm="ascesso"><i>ascess</i><par n="abbain/o__n"/></e>
     <e lm="asilo"><i>asil</i><par n="abbain/o__n"/></e>
@@ -78217,11 +78220,13 @@
     <e lm="risata"><i>risat</i><par n="cas/a__n"/></e>
     <e lm="riscaldamento"><i>riscaldament</i><par n="abbain/o__n"/></e>
     <e lm="riscaldatore"><i>riscaldator</i><par n="abat/e__n"/></e>
+    <e lm="confine"><i>confin</i><par n="abat/e__n"/></e>
     <e lm="rischio"><i>rischi</i><par n="abbagli/o__n"/></e>
     <e lm="riscossione"><i>riscossion</i><par n="abbreviazion/e__n"/></e>
     <e lm="riso"><i>ris</i><par n="abbain/o__n"/></e>
     <e lm="risoluzione"><i>risoluzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="risorsa"><i>risors</i><par n="cas/a__n"/></e>
+    <e lm="vettura"><i>vettur</i><par n="cas/a__n"/></e>
     <e lm="risparmio"><i>risparmi</i><par n="abbagli/o__n"/></e>
     <e lm="risposta"><i>rispost</i><par n="cas/a__n"/></e>
     <e lm="ristorante"><i>ristorant</i><par n="abat/e__n"/></e>
@@ -78234,7 +78239,7 @@
     <e lm="fianco"><i>fianc</i><par n="fung/o__n"/></e>
     <e lm="ritorno"><i>ritorn</i><par n="abbain/o__n"/></e>
     <e lm="ritratto"><i>ritratt</i><par n="abbain/o__n"/></e>
-    <e lm="supporto"><i>supporto</i><par n="abbain/o__n"/></e>
+    <e lm="supporto"><i>support</i><par n="abbain/o__n"/></e>
     <e lm="dipinto"><i>dipint</i><par n="abbain/o__n"/></e>
     <e lm="fumetto"><i>fumett</i><par n="abbain/o__n"/></e>
     <e lm="rituale"><i>ritual</i><par n="abat/e__n"/></e>
@@ -78312,10 +78317,13 @@
     <e lm="sanzione"><i>sanzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="sapere"><i>saper</i><par n="abat/e__n"/></e>
     <e lm="sapone"><i>sapon</i><par n="abat/e__n"/></e>
+    <e lm="monte"><i>mont</i><par n="abat/e__n"/></e>
     <e lm="sarcasmo"><i>sarcasm</i><par n="abbain/o__n"/></e>
+    <e lm="soldo"><i>sold</i><par n="abbain/o__n"/></e>
     <e lm="sarcofago"><i>sarcofag</i><par n="abbain/o__n"/></e>
     <e lm="sardina"><i>sardin</i><par n="cas/a__n"/></e>
     <e lm="satellite"><i>satellit</i><par n="abat/e__n"/></e>
+
     <e lm="satira"><i>satir</i><par n="cas/a__n"/></e>
     <e lm="sauna"><i>saun</i><par n="cas/a__n"/></e>
     <e lm="sbarra"><i>sbarr</i><par n="cas/a__n"/></e>
@@ -78682,6 +78690,9 @@
     <e lm="telecomunicazione"><i>telecomunicazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="tenacità"><i>tenacità</i><par n="abilità__n"/></e>
     <e lm="auto"><i>auto</i><par n="abilità__n"/></e>
+    <e lm="moto"><i>moto</i><par n="abilità__n"/></e>
+    <e lm="ipotesi"><i>ipotesi</i><par n="abilità__n"/></e>
+    <e lm="moto"><i>moto</i><par n="abbain/o__n"/></e>
     <e lm="truppa"><i>trupp</i><par n="cas/a__n"/></e>
     <e lm="fax"><i>fax</i><par n="albatros__n"/></e>
     <e lm="ficus"><i>ficus</i><par n="albatros__n"/></e>
@@ -78691,10 +78702,12 @@
     <e lm="telescopio"><i>telescopi</i><par n="abbagli/o__n"/></e>
     <e lm="televideo"><i>televideo</i><par n="albatros__n"/></e>
     <e lm="televisione"><i>television</i><par n="abbreviazion/e__n"/></e>
+    <e lm="corte"><i>corti</i><par n="abbreviazion/e__n"/></e>
     <e lm="televisore"><i>televisor</i><par n="abat/e__n"/></e>
     <e lm="tempo"><i>temp</i><par n="abbain/o__n"/></e>
     <e lm="tempio"><i>tempi</i><par n="abbagli/o__n"/></e>
     <e lm="temperatura"><i>temperatur</i><par n="cas/a__n"/></e>
+
     <e lm="temperino"><i>temperin</i><par n="abbain/o__n"/></e>
     <e lm="tempio"><i>tempio</i><par n="ace__n"/></e>
     <e lm="tendenza"><i>tendenz</i><par n="cas/a__n"/></e>
