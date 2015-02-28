@@ -75054,12 +75054,14 @@
     <e lm="ascia"><i>asc</i><par n="alzatacc/ia__n"/></e>
     <e lm="fascia"><i>fasc</i><par n="alzatacc/ia__n"/></e>
     <e lm="ascella"><i>ascell</i><par n="cas/a__n"/></e>
+    <e lm="avventura"><i>avventur</i><par n="cas/a__n"/></e>
     <e lm="regia"><i>regi</i><par n="cas/a__n"/></e>
     <e lm="ascendente"><i>ascendent</i><par n="abat/e__n"/></e>
     <e lm="ascenso"><i>ascens</i><par n="abbain/o__n"/></e>
     <e lm="peccato"><i>peccat</i><par n="abbain/o__n"/></e>
     <e lm="ascensore"><i>ascensor</i><par n="abat/e__n"/></e>
     <e lm="ascesso"><i>ascess</i><par n="abbain/o__n"/></e>
+    <e lm="impegno"><i>impegn</i><par n="abbain/o__n"/></e>
     <e lm="asilo"><i>asil</i><par n="abbain/o__n"/></e>
     <e lm="asilo nido"><i>asil</i><par n="abbain/o__n"/><p><l><b/>nido</l><r><g><b/>nido</g></r></p></e>
     <e lm="asimmetria"><i>asimmetri</i><par n="cas/a__n"/></e>
@@ -75224,6 +75226,7 @@
     <e lm="bandiera"><i>bandier</i><par n="cas/a__n"/></e>
     <e lm="bara"><i>bar</i><par n="cas/a__n"/></e>
     <e lm="bar"><i>bar</i><par n="albatros__n"/></e>
+    <e lm="team"><i>team</i><par n="albatros__n"/></e>
     <e lm="hijab"><i>hijab</i><par n="albatros__n"/></e>
     <e lm="baracca"><i>baracc</i><par n="tasc/a__n"/></e>
     <e lm="baratro"><i>baratr</i><par n="abbain/o__n"/></e>
@@ -75251,6 +75254,7 @@
     <e lm="battaglione"><i>battaglion</i><par n="abat/e__n"/></e>
     <e lm="battente"><i>battent</i><par n="abat/e__n"/></e>
     <e lm="batterio"><i>batteri</i><par n="abbagli/o__n"/></e>
+    <e lm="esordio"><i>esordi</i><par n="abbagli/o__n"/></e>
     <e lm="batteriologia"><i>batteriologi</i><par n="cas/a__n"/></e>
     <e lm="battesimo"><i>battesim</i><par n="abbain/o__n"/></e>
     <e lm="bava"><i>bav</i><par n="cas/a__n"/></e>
@@ -75278,6 +75282,7 @@
     <e lm="bicchiere"><i>bicchier</i><par n="abat/e__n"/></e>
     <e lm="bicicletta"><i>biciclett</i><par n="cas/a__n"/></e>
     <e lm="bidet"><i>bidet</i><par n="albatros__n"/></e>
+    <e lm="test"><i>test</i><par n="albatros__n"/></e>
     <e lm="biglietteria"><i>biglietteri</i><par n="cas/a__n"/></e>
     <e lm="bilancia"><i>bilanc</i><par n="alzatacc/ia__n"/></e>
     <e lm="bilancio"><i>bilanci</i><par n="abbagli/o__n"/></e>
@@ -75392,6 +75397,7 @@
     <e lm="colpevole"><i>colpevol</i><par n="albanes/e__n"/></e>
     <e lm="colto"><i>colt</i><par n="bambin/o__n"/></e>
     <e lm="coma"><i>com</i><par n="autom/a__n"/></e>
+    <e lm="collega"><i>colleg</i><par n="autom/a__n"/></e>
     <!--<e lm="combattente"><i>combattent</i><par n="abat/e__n"/></e>-->
     <e lm="composto"><i>compost</i><par n="abbain/o__n"/></e>
     <e lm="contrazione"><i>contrazion</i><par n="abbreviazion/e__n"/></e>
@@ -77595,6 +77601,7 @@
     <e lm="operatore"><i>operat</i><par n="agricolt/ore__n"/></e>
     <e lm="operazione"><i>operazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="opinione"><i>opinion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="variante"><i>variant</i><par n="abbreviazion/e__n"/></e>
     <e lm="autoclave"><i>autoclav</i><par n="abbreviazion/e__n"/></e>
     <e lm="opponente"><i>opponent</i><par n="albanes/e__n"/></e>
     <e lm="oppositore"><i>opposit</i><par n="agricolt/ore__n"/></e>
@@ -77602,8 +77609,10 @@
     <e lm="opzione"><i>opzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="secessione"><i>secession</i><par n="abbreviazion/e__n"/></e>
     <e lm="annessione"><i>annession</i><par n="abbreviazion/e__n"/></e>
-	
+    <e lm="legame"><i>legam</i><par n="agricolt/ore__n"/></e>
     <e lm="ora"><i>or</i><par n="cas/a__n"/></e>
+    <e lm="testimonianza"><i>testimonianz</i><par n="cas/a__n"/></e>
+    <e lm="alternativa"><i>alternativ</i><par n="cas/a__n"/></e>
     <e lm="oro"><i>or</i><par n="abbain/o__n"/></e>
     <e lm="orafo"><i>oraf</i><par n="abbain/o__n"/></e>
     <e lm="orario"><i>orari</i><par n="abbagli/o__n"/></e>
