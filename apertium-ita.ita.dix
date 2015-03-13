@@ -1226,7 +1226,7 @@
 
 
     </pardef> -->
-    <pardef n="S__cantate">
+    <pardef n="S__cantate1">
       <e>
 	<p>
 	  <l>mi</l>
@@ -1308,7 +1308,7 @@
 
 
     </pardef>
-    <pardef n="S__cantate">
+    <pardef n="S__cantate2">
       <e>
 	<p>
 	  <l>ve</l>
@@ -1319,7 +1319,7 @@
 
 
     </pardef>
-    <pardef n="S__cantate">
+    <pardef n="S__cantate3">
       <e>
 	<p>
 	  <l>me</l>
