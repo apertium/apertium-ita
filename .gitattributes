@@ -12,6 +12,7 @@
 /apertium-ita.pc.in -text
 /apertium-ita.post-ita.dix -text
 /autogen.sh -text
+/ciao -text
 /configure.ac -text
 /ita.prob -text
 /modes.xml -text svneol=unset#application/xml
