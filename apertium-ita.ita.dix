@@ -82744,6 +82744,7 @@
     <e lm="dentro"><i>dentro</i><par n="accanto__pr"/></e>
     <e lm="dentro"><i>dentro<b/></i><par n="/di__pr"/></e>
     <e lm="dietro"><i>dietro</i><par n="accanto__pr"/></e>
+    <e lm="dietro a"><i>dietro<b/></i><par n="/a__pr"/></e>
     <e lm="dinanzi a"><i>dinanzi<b/></i><par n="/a__pr"/></e>
     <e lm="dopo"><i>dopo</i><par n="accanto__pr"/></e>
     <e lm="durante"><i>durante</i><par n="accanto__pr"/></e>
@@ -84015,9 +84016,8 @@
     <e r="LR" lm="dove">
       <p>
         <l>dov'</l> 
-        <r>dove</r> 
+        <r>dove<s n="adv"/><s n="itg"/></r> 
       </p>
-      <par n="ieri__adv" /> 
     </e>
     <e r="LR" lm="tanto">
       <p>
@@ -84026,7 +84026,8 @@
       </p>
         <par n="ieri__adv" /> 
     </e>
-
+    <e r="LR" lm="devere"><p><l>dev'</l><r>devere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="devere"><p><l>dev'</l><r>devere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   </section>
 
 
