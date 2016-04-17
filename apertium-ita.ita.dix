@@ -21105,9 +21105,11 @@
     <e lm="tramite"><i>tramite</i><par n="accanto__pr"/></e>
     <e lm="tra"><i>tra</i><par n="accanto__pr"/></e>
     <e lm="tranne"><i>tranne</i><par n="accanto__pr"/></e>
-      <e r="LR" lm="verso"><i>verso</i><par n="accanto__pr"/></e>
+    <e r="LR" lm="verso"><i>verso</i><par n="accanto__pr"/></e>
     <e lm="vicino a"><i>vicino<b/></i><par n="/a__pr"/></e>
-<!--       ******************************      (adv) group      ******************************    -->
+
+    <!-- SECTION: Adverbs --> 
+
     <e lm="abilmente"><i>abilmente</i><par n="ieri__adv"/></e>
     <e lm="allerta"><i>allerta</i><par n="ieri__adv"/></e>
     <e lm="attraverso"><i>attraverso</i><par n="ieri__adv"/></e>
