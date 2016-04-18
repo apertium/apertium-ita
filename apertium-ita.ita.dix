@@ -21014,6 +21014,7 @@
       <e r="RL" lm="vi"><p><l><a/>vi</l><r>vi</r></p><par n="vi__prn"/></e>
     <e lm="gli"><par n="/gli__prn"/></e>
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
+    <e lm="vi"><i>vi</i><par n="ne__prn"/></e>
     <e lm="nessuno"><i>nessun</i><par n="qualcun/o__prn"/></e>
     <e lm="niente"><i>niente</i><par n="qualcosa__prn"/></e>
     <e lm="noi"><i>noi</i><par n="noi__prn"/></e>
