@@ -16106,6 +16106,7 @@
     <e lm="papa"><i>pap</i><par n="autom/a__n"/></e>
     <e lm="pappagallo"><i>pappagall</i><par n="abbain/o__n"/></e>
     <e lm="pappagallino"><i>pappagallin</i><par n="bambin/o__n"/></e>
+    <e lm="cagnolino"><i>cagnolin</i><par n="bambin/o__n"/></e>
     <e lm="paprica"><i>papric</i><par n="tasc/a__n"/></e>
     <e lm="papà"><i>papà</i><par n="albatros__n"/></e>
     <e lm="parabola"><i>parabol</i><par n="cas/a__n"/></e>
@@ -20121,6 +20122,7 @@
     <e lm="criticare"><i>critic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="cucire"><i>cuc</i><par n="cuc/ire__vblex"/></e>
     <e lm="cucinare"><i>cucin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avvicinare"><i>avvicin</i><par n="abbacin/are__vblex"/></e> <!-- FIXME: CHECK -->
     <e lm="culminare"><i>culmin</i><par n="abbacin/are__vblex"/></e>
     <e lm="curare"><i>cur</i><par n="abbacin/are__vblex"/></e>
     <e lm="dare"><i>d</i><par n="d/are__vblex"/></e>
@@ -20725,6 +20727,7 @@
     <e lm="tutelare"><i>tutel</i><par n="abbacin/are__vblex"/></e>
     <e lm="ubicare"><i>ubic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="uccidere"><i>ucci</i><par n="acclu/dere__vblex"/></e>
+    <e lm="ridere"><i>ri</i><par n="acclu/dere__vblex"/></e> <!-- FIXME: CHECK -->
     <e lm="umanizzare"><i>umanizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="umiliare"><i>umili</i><par n="abbacchi/are__vblex"/></e>
     <e lm="unire"><i>un</i><par n="abbell/ire__vblex"/></e>
