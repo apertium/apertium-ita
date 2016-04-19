@@ -18,6 +18,9 @@ LIST Interj = ij ;
 LIST Num = num ;
 LIST Cm = cm ;
 
+LIST Sotto = "sotto" ;
+LIST Pr = pr ; 
+
 LIST Interr = itg ;
 
 # All possible word categories
@@ -47,3 +50,5 @@ SECTION
 
 
 SELECT (therightreading) IF (0 (sometag));
+
+SELECT Pr IF (0 Sotto) (1 Det) ;
