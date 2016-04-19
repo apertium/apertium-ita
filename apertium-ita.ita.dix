@@ -13114,6 +13114,7 @@
     <e lm="accampamento"><i>accampament</i><par n="abbain/o__n"/></e>
     <e lm="accelerazione"><i>accelerazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="accendino"><i>accendin</i><par n="abbain/o__n"/></e>
+    <e lm="stuzzichino"><i>stuzzichin</i><par n="abbain/o__n"/></e>
     <e lm="accento"><i>accent</i><par n="abbain/o__n"/></e>
     <e lm="accesso"><i>access</i><par n="abbain/o__n"/></e>
     <e lm="accessorio"><i>accessori</i><par n="abbagli/o__n"/></e>
@@ -13282,6 +13283,7 @@
     <e lm="ambasciata"><i>ambasciat</i><par n="cas/a__n"/></e>
     <e lm="ambasciatore"><i>ambasciat</i><par n="agricolt/ore__n"/></e>
     <e lm="ambiente"><i>ambient</i><par n="abat/e__n"/></e>
+    <e lm="ingrediente"><i>ingredient</i><par n="abat/e__n"/></e>
     <e lm="ambiguità"><i>ambiguità</i><par n="abilità__n"/></e>
     <e lm="ambito"><i>ambit</i><par n="abbain/o__n"/></e>
     <e lm="ambizione"><i>ambizion</i><par n="abbreviazion/e__n"/></e>
@@ -16388,6 +16390,7 @@
     <e lm="presidente"><i>president</i><par n="baron/e__n"/></e>
     <e lm="presidenza"><i>presidenz</i><par n="cas/a__n"/></e>
     <e lm="pressione"><i>pression</i><par n="abbreviazion/e__n"/></e>
+    <e lm="precisione"><i>precision</i><par n="abbreviazion/e__n"/></e>
     <e lm="prestigio"><i>prestigi</i><par n="abbagli/o__n"/></e>
     <e lm="prete"><i>pret</i><par n="abat/e__n"/></e>
     <e lm="pretesa"><i>pretes</i><par n="cas/a__n"/></e>
@@ -19479,6 +19482,7 @@
     <e lm="vacante"><i>vaca</i><par n="abbacchia/nte__adj"/></e>
     <e lm="vaginale"><i>vaginal</i><par n="albanes/e__adj"/></e>
     <e lm="valenziano"><i>valenzian</i><par n="abbandonat/o__adj"/></e>
+    <e lm="veneziano"><i>venezian</i><par n="abbandonat/o__adj"/></e>
     <e lm="vano"><i>van</i><par n="abbandonat/o__adj"/></e>
     <e lm="vantaggioso"><i>vantaggios</i><par n="abbandonat/o__adj"/></e>
     <e lm="vecchio"><i>vecchi</i><par n="ampi/o__adj"/></e>
@@ -21368,6 +21372,7 @@
     <e lm="durante l'inverno"><i>durante<b/>l'inverno</i><par n="ieri__adv"/></e>
     <e lm="durante la primavera"><i>durante<b/>la<b/>primavera</i><par n="ieri__adv"/></e>
     <e lm="etc"><i>etc</i><par n="ieri__adv"/></e>
+    <e lm="ecc"><i>ecc</i><par n="ieri__adv"/></e>
     <e lm="eccessivamente"><i>eccessivamente</i><par n="ieri__adv"/></e>
     <e lm="eccetera"><i>eccetera</i><par n="ieri__adv"/></e>
     <e lm="eccezionalmente"><i>eccezionalmente</i><par n="ieri__adv"/></e>
