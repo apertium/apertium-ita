@@ -11679,6 +11679,9 @@
 
     <!-- SECTION: Nombres propios -->
 
+    <e lm="Andrea"><i>Andrea</i><par n="María__np"/></e>
+    <e lm="Andrea"><i>Andrea</i><par n="Juan__np"/></e>
+
     <e lm="Betis"><i>Betis</i><par n="Juan__np"/></e>
     <e lm="Gómez"><i>Gómez</i><par n="Juan__np"/></e>
     <e lm="Fini"><i>Fini</i><par n="Juan__np"/></e>
@@ -13410,6 +13413,48 @@
       <e r="LR" lm="meglio"><i>meglio</i><par n="ieri__adv"/></e>
       <e r="LR" lm="maggior"><i>maggior</i><par n="extra__adj"/></e>
     <e lm="lavoratore"><i>lavorat</i><par n="agricolt/ore__n"/></e>
+
+    <e lm="allattare"><i>allatt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ammaestrare"><i>ammaestr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="bollare"><i>boll</i><par n="abbacin/are__vblex"/></e>
+    <e lm="calcinare"><i>calcin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="chetare"><i>chet</i><par n="abbacin/are__vblex"/></e>
+    <e lm="commisurare"><i>commisur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="computerizzare"><i>computerizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="contrassegnare"><i>contrassegn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="contrattare"><i>contratt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="correlare"><i>correl</i><par n="abbacin/are__vblex"/></e>
+    <e lm="crivellare"><i>crivell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="deliberare"><i>deliber</i><par n="abbacin/are__vblex"/></e>
+    <e lm="detronizzare"><i>detronizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="dimensionare"><i>dimension</i><par n="abbacin/are__vblex"/></e>
+    <e lm="espugnare"><i>espugn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="impersonare"><i>imperson</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incornare"><i>incorn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="infamare"><i>infam</i><par n="abbacin/are__vblex"/></e>
+    <e lm="martirizzare"><i>martirizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="propagandare"><i>propagand</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rapinare"><i>rapin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rastrellare"><i>rastrell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rattoppare"><i>rattopp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riattizzare"><i>riattizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimpinguare"><i>rimpingu</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimpinzare"><i>rimpinz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sfrattare"><i>sfratt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sgravare"><i>sgrav</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sigillare"><i>sigill</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spodestare"><i>spodest</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spolverare"><i>spolver</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spuntare"><i>spunt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="strapazzare"><i>strapazz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="stuprare"><i>stupr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="titillare"><i>titill</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tosare"><i>tos</i><par n="abbacin/are__vblex"/></e>
+    <e lm="transennare"><i>transenn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="trasfigurare"><i>trasfigur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ufficializzare"><i>ufficializz</i><par n="abbacin/are__vblex"/></e>
+
+
     <e lm="fissare"><i>fiss</i><par n="abbacin/are__vblex"/></e>
     <e lm="sborsare"><i>sbors</i><par n="abbacin/are__vblex"/></e>
     <e lm="fisso"><i>fiss</i><par n="abbandonat/o__adj"/></e>
@@ -13650,6 +13695,7 @@
     <e lm="abbigliamento"><i>abbigliament</i><par n="abbain/o__n"/></e>
     <e lm="abbonamento"><i>abbonament</i><par n="abbain/o__n"/></e>
     <e lm="abbonato"><i>abbonat</i><par n="bambin/o__n"/></e>
+    <e lm="patrono"><i>patron</i><par n="bambin/o__n"/></e>
     <e lm="abbondanza"><i>abbondanz</i><par n="cas/a__n"/></e>
     <e lm="abbordaggio"><i>abbordaggi</i><par n="abbagli/o__n"/></e>
     <e lm="abbozzo"><i>abbozz</i><par n="abbain/o__n"/></e>
@@ -18073,7 +18119,6 @@
     <e lm="patrigno"><i>patrign</i><par n="abbain/o__n"/></e>
     <e lm="patriottismo"><i>patriottism</i><par n="abbain/o__n"/></e>
     <e lm="patronato"><i>patronat</i><par n="abbain/o__n"/></e>
-    <e lm="patrono"><i>patron</i><par n="abbain/o__n"/></e>
     <e lm="patteggiamento"><i>patteggiament</i><par n="abbain/o__n"/></e>
     <e lm="pattino"><i>pattin</i><par n="abbain/o__n"/></e>
     <e lm="pattugliamento"><i>pattugliament</i><par n="abbain/o__n"/></e>
@@ -21913,6 +21958,7 @@
     <e lm="lehendakari"><i>lehendakari</i><par n="blogger__n"/></e>
     <e lm="leitmotiv"><i>leitmotiv</i><par n="albatros__n"/></e>
     <e lm="lemma"><i>lemm</i><par n="autom/a__n"/></e>
+    <e lm="stemma"><i>stemm</i><par n="autom/a__n"/></e>
     <e lm="leninismo"><i>leninism</i><par n="abbain/o__n"/></e>
     <e lm="leninista"><i>leninist</i><par n="suicid/a__n"/></e>
     <e lm="lente"><i>lent</i><par n="abbreviazion/e__n"/></e>
@@ -28621,6 +28667,9 @@
       <e r="LR" lm="sull'"><p><l>sull'</l><r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="un'"><p><l>un'</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>cent'</l><r>cento<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+
+      <e r="LR" lm="sant'"><p><l>sant'</l><r>santo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="sant'"><p><l>sant'</l><r>santo<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
       <e r="LR" lm="un po'"><p><l>un<b/>po'</l><r>un<b/>pò</r></p><par n="ieri__adv" /></e>
       <e r="LR" lm="com'"><p><l>com'</l><r>come</r></p><par n="ieri__adv" /></e>
