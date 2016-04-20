@@ -13025,7 +13025,6 @@
     <e lm="analogicamente"><i>analogicamente</i><par n="ieri__adv"/></e>
     <e lm="anatomicamente"><i>anatomicamente</i><par n="ieri__adv"/></e>
     <e lm="ancestralmente"><i>ancestralmente</i><par n="ieri__adv"/></e>
-    <e lm="anch'"><i>anch'</i><par n="ieri__adv"/></e>
     <e lm="ancóra"><i>ancóra</i><par n="ieri__adv"/></e>
     <e lm="animatamente"><i>animatamente</i><par n="ieri__adv"/></e>
     <e lm="anticipatamente"><i>anticipatamente</i><par n="ieri__adv"/></e>
@@ -28604,6 +28603,7 @@
       <e r="LR" lm="cos'"><p><l>cos'</l><r>cosa</r></p><par n="che__prn" /></e>
 
       <e r="LR" lm="vicino all'"><p><l>vicino<b/>all'</l><r>vicino<b/>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="anch'"><p><l>anch'</l><r>anche</r></p><par n="ieri__adv"/></e>
       <e r="LR" lm="all'"><p><l>all'</l><r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="coll'"><p><l>coll'</l><r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
