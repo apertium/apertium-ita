@@ -23,10 +23,11 @@ $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
-$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix $(BASENAME).$(LANG1).acx .deps/.d
 	apertium-validate-dictionary $<
 	apertium-validate-acx $(BASENAME).$(LANG1).acx
-	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
+	@AWK@ -f ./inline_e.awk $(BASENAME).$(LANG1).dix | @AWK@ -f ./i_to_p.awk | @AWK@ -f ./sustituye_caracteres.awk > .deps/$(BASENAME).$(LANG1).dix.apos
+	lt-comp lr .deps/$(BASENAME).$(LANG1).dix.apos $@ $(BASENAME).$(LANG1).acx
 
 $(LANG1).autogen.att.gz: $(LANG1).autogen.bin
 	lt-print $< | gzip -9 -c -n > $@

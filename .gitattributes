@@ -14,5 +14,8 @@
 /autogen.sh -text
 /ciao -text
 /configure.ac -text
+/i_to_p.awk.in -text
+/inline_e.awk.in -text
 /ita.prob -text
 /modes.xml -text svneol=unset#application/xml
+/sustituye_caracteres.awk.in -text

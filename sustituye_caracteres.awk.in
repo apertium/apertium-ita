@@ -1,0 +1,41 @@
+#!@AWKPATH@ -f
+
+function modifica_l(cad                ,PARTES)
+{
+  split(cad, PARTES, "</l>");
+  gsub("à<", "a'<", PARTES[1]);
+  gsub("à$", "a'", PARTES[1]);
+  gsub("è<", "e'<", PARTES[1]);
+  gsub("è$", "e'", PARTES[1]);
+  gsub("ì<", "i'<", PARTES[1]);
+  gsub("ì$", "i'", PARTES[1]);
+  gsub("ò<", "o'<", PARTES[1]);
+  gsub("ò$", "o'", PARTES[1]);
+  gsub("ù<", "u'<", PARTES[1]);
+  gsub("ù$", "u'", PARTES[1]);
+  return PARTES[1] "</l>" PARTES[2]; 
+}
+
+
+{
+  print;
+  
+  if(index($0, "<e") && index($0, "</e>"))
+  {
+    nf = split($0, PARTES, "<l>");
+    res = PARTES[1];
+    for(i = 2; i <= nf; i++)
+    {
+      res = res "<l>" modifica_l(PARTES[i]) 
+    }
+    if(res != $0)
+    {
+      if (!index(res, "r=\"LR\""))
+      {
+        gsub("<e", "<e r=\"LR\"", res);
+      }
+
+      print res;
+    }
+  }
+}
