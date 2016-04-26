@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -691,6 +691,15 @@
         </p>
         <par n="vocals"/>
       </e>
+
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>dall'</r>
+        </p>
+        <par n="numeros"/>
+      </e>
+
       <e>
         <p>
           <l><b/><a/>il<b/></l>
@@ -895,6 +904,14 @@
           <r>nell'</r>
         </p>
         <par n="vocals"/>
+      </e>
+
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>nell'</r>
+        </p>
+        <par n="numeros"/>
       </e>
 
       <e>
@@ -1347,6 +1364,22 @@
           <r/>
         </p>
         <par n="a"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>e<b/></l>
+          <r>e<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>e<b/></l>
+          <r>ed<b/></r>
+        </p>
+        <par n="vocal_sin_h"/>
       </e>
 
       <e>
