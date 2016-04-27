@@ -611,6 +611,7 @@
       <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p></e>
       <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -681,6 +682,7 @@
       <e><p><l>igano</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iga</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>igere</l><r>igere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>iger</l><r>igere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
       <e><p><l>igevamo</l><r>igere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>igevo</l><r>igere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>igevate</l><r>igere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -5208,10 +5210,10 @@
       <e r="LR"><p><l>desser</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dessero</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>desse</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>dute</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>duta</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>duti</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>duto</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dute</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>duta</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>duti</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>duto</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sse</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>ssa</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ssi</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
@@ -20814,6 +20816,7 @@
     <e lm="pregiudiziale"><i>pregiudizial</i><par n="albanes/e__adj"/></e>
     <e lm="miserabile"><i>miserabil</i><par n="albanes/e__adj"/></e>
     <e lm="agroindustriale"><i>agroindustrial</i><par n="albanes/e__adj"/></e>
+    <e lm="agroindustriale"><i>agroindustrial</i><par n="agroalimentar/e__adj"/></e>
     <e lm="omologabile"><i>omologabil</i><par n="albanes/e__adj"/></e>
     <e lm="precedente"><i>precedent</i><par n="albanes/e__adj"/></e>
     <e lm="disabile"><i>disabil</i><par n="albanes/e__adj"/></e>
@@ -30895,7 +30898,6 @@
     <e lm="aggressivo"><i>aggressiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="agile"><i>agil</i><par n="albanes/e__adj"/></e>
     <e lm="agricolo"><i>agricol</i><par n="abbandonat/o__adj"/></e>
-    <e lm="agroindustriale"><i>agroindustrial</i><par n="agroalimentar/e__adj"/></e>
     <e lm="albanese"><i>albanes</i><par n="albanes/e__adj"/></e>
     <e lm="albino"><i>albin</i><par n="abbandonat/o__adj"/></e>
     <e lm="alcalino"><i>alcalin</i><par n="abbandonat/o__adj"/></e>

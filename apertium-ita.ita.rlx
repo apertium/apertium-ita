@@ -19,6 +19,7 @@ LIST Num = num ;
 LIST Cm = cm ;
 
 LIST Sotto = "sotto" ;
+LIST Io = "io" ;
 LIST Pr = pr ; 
 
 LIST Interr = itg ;
@@ -48,7 +49,6 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 SECTION
 
-
-SELECT (therightreading) IF (0 (sometag));
+SELECT Pron IF (0 Io) ;
 
 SELECT Pr IF (0 Sotto) (1 Det) ;
