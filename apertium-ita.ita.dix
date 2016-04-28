@@ -26738,6 +26738,7 @@
     <e lm="cileno"><i>cilen</i><par n="bambin/o__n"/></e>
     <e lm="ciliegia"><i>ciliegi</i><par n="cas/a__n"/></e>
     <e lm="cilindro"><i>cilindr</i><par n="abbain/o__n"/></e>
+    <e lm="cima"><i>cim</i><par n="autom/a__n"/></e>
     <e lm="cimitero"><i>cimiter</i><par n="abbain/o__n"/></e>
     <e lm="cinema"><i>cinema</i><par n="albatros__n"/></e>
     <e lm="cinematografia"><i>cinematografi</i><par n="cas/a__n"/></e>
@@ -27842,6 +27843,7 @@
     <e lm="guerriglia"><i>guerrigli</i><par n="cas/a__n"/></e>
     <e lm="guerrigliero"><i>guerriglier</i><par n="segretari/o__n"/></e>
     <e lm="gufo"><i>guf</i><par n="abbain/o__n"/></e>
+    <e lm="guglia"><i>gugli</i><par n="cas/a__n"/></e>
     <e lm="guinzaglio"><i>guinzagli</i><par n="abbagli/o__n"/></e>
     <e lm="gusto"><i>gust</i><par n="abbain/o__n"/></e>
 <!--    
@@ -28401,6 +28403,7 @@
     <e lm="metastasi"><i>metastasi</i><par n="abilità__n"/></e>
     <e lm="meteorite"><i>meteorit</i><par n="abat/e__n"/></e>
     <e lm="meteorologia"><i>meteorologi</i><par n="cas/a__n"/></e>
+    <e lm="massiccio"><i>massicci</i><par n="abbagli/o__n"/></e>
     <e lm="metodo"><i>metod</i><par n="abbain/o__n"/></e>
     <e lm="metro"><i>metr</i><par n="abbain/o__n"/></e>
     <e lm="metropoli"><i>metropoli</i><par n="abilità__n"/></e>
@@ -31077,6 +31080,7 @@
     <e lm="solito"><i>solit</i><par n="abbandonat/o__adj"/></e>
     <e lm="estivo"><i>estiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="burocratico"><i>burocratic</i><par n="tecnic/o__adj"/></e>
+    <e lm="calcareo"><i>calcare</i><par n="abbandonat/o__adj"/></e>
     <e lm="calcistico"><i>calcistic</i><par n="tecnic/o__adj"/></e>
     <e lm="calcolatore"><i>calcolat</i><par n="calcolat/ore__adj"/></e>
     <e lm="caldo"><i>cald</i><par n="abbandonat/o__adj"/></e>
@@ -31297,6 +31301,7 @@
     <e lm="docile"><i>docil</i><par n="albanes/e__adj"/></e>
     <e lm="documentale"><i>documental</i><par n="albanes/e__adj"/></e>
     <e lm="dolce"><i>dolc</i><par n="albanes/e__adj"/></e>
+    <e lm="dolomitico"><i>dolomitico</i><par n="tecnic/o__adj"/></e>
     <e lm="doloroso"><i>doloros</i><par n="abbandonat/o__adj"/></e>
     <e lm="dominicale"><i>dominical</i><par n="albanes/e__adj"/></e>
     <e lm="doppio"><i>doppi</i><par n="abbandonat/o__adj"/></e>
