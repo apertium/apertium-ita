@@ -30994,6 +30994,8 @@
     <e lm="atemporale"><i>atemporal</i><par n="albanes/e__adj"/></e>
     <e lm="atlantico"><i>atlantic</i><par n="tecnic/o__adj"/></e>
     <e lm="atletico"><i>atletic</i><par n="tecnic/o__adj"/></e>
+    <e lm="sovietico"><i>sovietic</i><par n="tecnic/o__adj"/></e>
+    <e lm="poetico"><i>poetic</i><par n="tecnic/o__adj"/></e>
     <e lm="attivo"><i>attiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="atto"><i>att</i><par n="abbandonat/o__adj"/></e>
     <e lm="attonito"><i>attonit</i><par n="abbandonat/o__adj"/></e>
@@ -31057,6 +31059,7 @@
     <e lm="brutale"><i>brutal</i><par n="albanes/e__adj"/></e>
     <e lm="brutto"><i>brutt</i><par n="abbandonat/o__adj"/></e>
     <e lm="bugiardo"><i>bugiard</i><par n="abbandonat/o__adj"/></e>
+    <e lm="sardo"><i>sard</i><par n="abbandonat/o__adj"/></e>
     <e lm="bulgaro"><i>bulgar</i><par n="abbandonat/o__adj"/></e>
     <e lm="buono"><i>buon</i><par n="abbandonat/o__adj"/></e>
     <e lm="televisivo"><i>televisiv</i><par n="abbandonat/o__adj"/></e>
@@ -32409,6 +32412,7 @@
     <e lm="consenare"><i>consen</i><par n="abbacin/are__vblex"/></e>
     <e lm="contentare"><i>content</i><par n="abbacin/are__vblex"/></e>
     <e lm="cooperare"><i>cooper</i><par n="abbacin/are__vblex"/></e>
+    <e lm="adoperare"><i>adoper</i><par n="abbacin/are__vblex"/></e>
     <e lm="cospirare"><i>cospir</i><par n="abbacin/are__vblex"/></e>
     <e lm="disfare"><i>disf</i><par n="abbacin/are__vblex"/></e>
     <e lm="disinfettare"><i>disinfett</i><par n="abbacin/are__vblex"/></e>
