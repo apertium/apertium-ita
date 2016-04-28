@@ -12784,6 +12784,7 @@
     <e lm="Shanghai"><i>Shanghai</i><par n="Afghanistan__np"/></e>
     <e lm="Simón"><i>Simón</i><par n="Juan__np"/></e>
     <e lm="Singapore"><i>Singapore</i><par n="Afghanistan__np"/></e>
+    <e lm="Siniscola"><i>Siniscola</i><par n="Afghanistan__np"/></e>
     <e lm="Siria"><i>Siria</i><par n="Afghanistan__np"/></e>
     <e lm="Sitges"><i>Sitges</i><par n="Afghanistan__np"/></e>
     <e lm="Sofia"><i>Sofia</i><par n="María__np"/></e>
@@ -23170,6 +23171,7 @@
     <e lm="espresso"><i>espress</i><par n="abbain/o__n"/></e>
     <e lm="espulso"><i>espuls</i><par n="abbain/o__n"/></e>
     <e lm="esserino"><i>esserin</i><par n="abbain/o__n"/></e>
+    <e lm="estensivo"><i>estensiv</i><par n="abbain/o__n"/></e>
     <e lm="esterrefatto"><i>esterrefatt</i><par n="abbain/o__n"/></e>
     <e lm="estetismo"><i>estetism</i><par n="abbain/o__n"/></e>
     <e lm="estimo"><i>estim</i><par n="abbain/o__n"/></e>
@@ -24541,6 +24543,7 @@
     <e lm="presenzialismo"><i>presenzialism</i><par n="abbain/o__n"/></e>
     <e lm="preservativo"><i>preservativ</i><par n="abbain/o__n"/></e>
     <e lm="presidenzialismo"><i>presidenzialism</i><par n="abbain/o__n"/></e>
+    <e lm="presidio"><i>presidio</i><par n="abbain/o__n"/></e>
     <e lm="pressappochismo"><i>pressappochism</i><par n="abbain/o__n"/></e>
     <e lm="presupposto"><i>presuppost</i><par n="abbain/o__n"/></e>
     <e lm="pretesto"><i>pretest</i><par n="abbain/o__n"/></e>
@@ -26509,6 +26512,7 @@
     <e lm="calvario"><i>calvari</i><par n="abbagli/o__n"/></e>
     <e lm="calzino"><i>calzin</i><par n="abbain/o__n"/></e>
     <e lm="camaleonte"><i>camaleont</i><par n="abat/e__n"/></e>
+    <e lm="camaleontico"><i>camaleontico</i><par n="cosmetic/o__n"/></e>
     <e lm="camarilla"><i>camarill</i><par n="cas/a__n"/></e>
     <e lm="cambio"><i>cambi</i><par n="abbagli/o__n"/></e>
     <e lm="cambiamento"><i>cambiament</i><par n="abbain/o__n"/></e>
@@ -26804,6 +26808,7 @@
     <e lm="colonna"><i>colonn</i><par n="cas/a__n"/></e>
     <e lm="colonnello"><i>colonnell</i><par n="abbain/o__n"/></e>
     <e lm="colono"><i>colon</i><par n="abbain/o__n"/></e>
+    <e lm="colorazione"><i>colorazione</i><par n="abbreviazion/e__n"/></e>
     <e lm="colore"><i>color</i><par n="abat/e__n"/></e>
     <e lm="colpa"><i>colp</i><par n="cas/a__n"/></e>
     <e lm="colpo"><i>colp</i><par n="abbain/o__n"/></e>
@@ -27028,6 +27033,7 @@
     <e lm="crociata"><i>crociat</i><par n="cas/a__n"/></e>
     <e lm="crociera"><i>crocier</i><par n="cas/a__n"/></e>
     <e lm="crocifisso"><i>crocifiss</i><par n="abbain/o__n"/></e>
+    <e lm="cromatoforo"><i>cromatofor</i><par n="abbain/o__n"/></e>
     <e lm="cromosoma"><i>cromosom</i><par n="autom/a__n"/></e>
     <e lm="cronaca"><i>cronac</i><par n="tasc/a__n"/></e>
     <e lm="cronologia"><i>cronologi</i><par n="cas/a__n"/></e>
@@ -27381,6 +27387,7 @@
     <e lm="epatite"><i>epatit</i><par n="abbreviazion/e__n"/></e>
     <e lm="epicentro"><i>epicentr</i><par n="abbain/o__n"/></e>
     <e lm="epidemia"><i>epidemi</i><par n="cas/a__n"/></e>
+    <e lm="epidermide"><i>epidermid</i><par n="abat/e__n"/></e>
     <e lm="epilessia"><i>epilessi</i><par n="cas/a__n"/></e>
     <e lm="episodio"><i>episodi</i><par n="abbagli/o__n"/></e>
     <e lm="epistemologia"><i>epistemologi</i><par n="cas/a__n"/></e>
@@ -28996,6 +29003,7 @@
     <e lm="polso"><i>pols</i><par n="abbain/o__n"/></e>
     <e lm="polvere"><i>polver</i><par n="abbreviazion/e__n"/></e>
     <e lm="pomeriggio"><i>pomeriggi</i><par n="abbagli/o__n"/></e>
+    <e lm="pompia"><i>pompi</i><par n="cas/a__n"/></e>
     <e lm="ponte"><i>pont</i><par n="abat/e__n"/></e>
     <e lm="pop"><i>pop</i><par n="albatros__n"/></e>
     <e lm="popolarità"><i>popolarità</i><par n="abilità__n"/></e>
@@ -29262,6 +29270,7 @@
     <e lm="richiesta"><i>richiest</i><par n="cas/a__n"/></e>
     <e lm="ricerca"><i>ricerc</i><par n="tasc/a__n"/></e>
     <e lm="ricercatore"><i>ricercat</i><par n="agricolt/ore__n"/></e>
+    <e lm="ricetta"><i>ricett</i><par n="cas/a__n"/></e>
     <e lm="richiamo"><i>richiam</i><par n="abbain/o__n"/></e>
     <e lm="ricongiungimento"><i>ricongiungiment</i><par n="abbain/o__n"/></e>
     <e lm="ricordo"><i>ricord</i><par n="abbain/o__n"/></e>
@@ -29283,6 +29292,7 @@
     <e lm="rima"><i>rim</i><par n="cas/a__n"/></e>
     <e lm="rimborso"><i>rimbors</i><par n="abbain/o__n"/></e>
     <e lm="rimedio"><i>rimedi</i><par n="abbagli/o__n"/></e>
+    <e lm="rinascita"><i>rinascit</i><par n="cas/a__n"/></e>
     <e lm="rinascimento"><i>rinasciment</i><par n="abbain/o__n"/></e>
     <e lm="rinnovo"><i>rinnov</i><par n="abbain/o__n"/></e>
     <e lm="riparo"><i>ripar</i><par n="abbain/o__n"/></e>
@@ -29296,6 +29306,7 @@
     <e lm="risata"><i>risat</i><par n="cas/a__n"/></e>
     <e lm="riscaldamento"><i>riscaldament</i><par n="abbain/o__n"/></e>
     <e lm="riscaldatore"><i>riscaldator</i><par n="abat/e__n"/></e>
+    <e lm="riscoperta"><i>riscopert</i><par n="cas/a__n"/></e>
     <e lm="confine"><i>confin</i><par n="abat/e__n"/></e>
     <e lm="rischio"><i>rischi</i><par n="abbagli/o__n"/></e>
     <e lm="riscossione"><i>riscossion</i><par n="abbreviazion/e__n"/></e>
@@ -31323,6 +31334,7 @@
     <e lm="empirico"><i>empiric</i><par n="tecnic/o__adj"/></e>
     <e lm="endemico"><i>endemic</i><par n="tecnic/o__adj"/></e>
     <e lm="ennesimo"><i>ennesim</i><par n="abbandonat/o__adj"/></e>
+    <e lm="enogastronomico"><i>enogastronomico</i><par n="tecnic/o__adj"/></e>
     <e lm="enorme"><i>enorm</i><par n="albanes/e__adj"/></e>
     <e lm="equivalente"><i>equivale</i><par n="abbacchia/nte__adj"/></e>
     <e lm="equivalente"><i>equivalent</i><par n="albanes/e__adj"/></e>
@@ -31962,6 +31974,7 @@
     <e lm="russo"><i>russ</i><par n="abbandonat/o__adj"/></e>
     <e lm="sacro"><i>sacr</i><par n="abbandonat/o__adj"/></e>
     <e lm="salariale"><i>salarial</i><par n="albanes/e__adj"/></e>
+    <e lm="salato"><i>salat</i><par n="abbandonat/o__adj"/></e>
     <e lm="salino"><i>salin</i><par n="abbandonat/o__adj"/></e>
     <e lm="sano"><i>san</i><par n="abbandonat/o__adj"/></e>
     <e lm="sanguinario"><i>sanguinari</i><par n="abbandonat/o__adj"/></e>
@@ -32009,6 +32022,7 @@
     <e lm="sincero"><i>sincer</i><par n="abbandonat/o__adj"/></e>
     <e lm="sindacale"><i>sindacal</i><par n="albanes/e__adj"/></e>
     <e lm="singolare"><i>singolar</i><par n="albanes/e__adj"/></e>
+    <e lm="siniscolese"><i>singolar</i><par n="albanes/e__adj"/></e>
     <e lm="sinistro"><i>sinistr</i><par n="abbandonat/o__adj"/></e>
     <e lm="sinistrato"><i>sinistrat</i><par n="abbandonat/o__adj"/></e>
     <e lm="sinonimo"><i>sinonim</i><par n="sinonim/o__adj"/></e>
