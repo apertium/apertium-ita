@@ -23162,6 +23162,7 @@
     <e lm="esausto"><i>esaust</i><par n="abbain/o__n"/></e>
     <e lm="esborso"><i>esbors</i><par n="abbain/o__n"/></e>
     <e lm="escluso"><i>esclus</i><par n="abbain/o__n"/></e>
+    <e lm="escursionista"><i>escursionist</i><par n="suicid/a__n"/></e>
     <e lm="esibizionismo"><i>esibizionism</i><par n="abbain/o__n"/></e>
     <e lm="esonero"><i>esoner</i><par n="abbain/o__n"/></e>
     <e lm="esorcismo"><i>esorcism</i><par n="abbain/o__n"/></e>
@@ -23290,6 +23291,7 @@
     <e lm="fiuto"><i>fiut</i><par n="abbain/o__n"/></e>
     <e lm="flaconcino"><i>flaconcin</i><par n="abbain/o__n"/></e>
     <e lm="flagello"><i>flagell</i><par n="abbain/o__n"/></e>
+    <e lm="florofaunistico"><i>florofaunistic</i><par n="abbain/o__n"/></e>
     <e lm="fluido"><i>fluid</i><par n="abbain/o__n"/></e>
     <e lm="fluoro"><i>fluor</i><par n="abbain/o__n"/></e>
     <e lm="flutto"><i>flutt</i><par n="abbain/o__n"/></e>
@@ -23445,6 +23447,7 @@
     <e lm="giovincello"><i>giovincell</i><par n="abbain/o__n"/></e>
     <e lm="giovinetto"><i>giovinett</i><par n="abbain/o__n"/></e>
     <e lm="giovinotto"><i>giovinott</i><par n="abbain/o__n"/></e>
+    <e lm="gipeto"><i>gipet</i><par n="abbain/o__n"/></e>
     <e lm="giramento"><i>girament</i><par n="abbain/o__n"/></e>
     <e lm="giretto"><i>girett</i><par n="abbain/o__n"/></e>
     <e lm="girino"><i>girin</i><par n="abbain/o__n"/></e>
@@ -26265,6 +26268,7 @@
     <e lm="avviso"><i>avvis</i><par n="abbain/o__n"/></e>
     <e lm="avvocato"><i>avvocat</i><par n="abbain/o__n"/></e>
     <e lm="avvocatura"><i>avvocatur</i><par n="cas/a__n"/></e>
+    <e lm="avvoltoio"><i>avvoltoi</i><par n="abbagli/o__n"/></e>
     <e lm="azienda"><i>aziend</i><par n="cas/a__n"/></e>
     <e lm="azimut"><i>azimut</i><par n="albatros__n"/></e>
     <e lm="azione"><i>azion</i><par n="albanes/e__n"/></e>
@@ -26374,6 +26378,7 @@
     <e lm="biologo"><i>biolog</i><par n="cosmetic/o__n"/></e>
     <e lm="biologia"><i>biologi</i><par n="cas/a__n"/></e>
     <e lm="biopsia"><i>biopsi</i><par n="cas/a__n"/></e>
+    <e lm="biotopo"><i>biotop</i><par n="abbain/o__n"/></e>
     <e lm="birillo"><i>birill</i><par n="abbagli/o__n"/></e>
     <e lm="birra"><i>birr</i><par n="cas/a__n"/></e>
     <e lm="biscotto"><i>biscott</i><par n="abbain/o__n"/></e>
@@ -27380,6 +27385,7 @@
     <e lm="encefalite"><i>encefalit</i><par n="abbreviazion/e__n"/></e>
     <e lm="enciclopedia"><i>enciclopedi</i><par n="cas/a__n"/></e>
     <e lm="enclave"><i>enclav</i><par n="abbreviazion/e__n"/></e>
+    <e lm="endemism"><i>endemism/i><par n="abbain/o__n"/></e>
     <e lm="energia"><i>energi</i><par n="cas/a__n"/></e>
     <e lm="enigma"><i>enigm</i><par n="autom/a__n"/></e>
     <e lm="ente"><i>ent</i><par n="abat/e__n"/></e>
@@ -28988,6 +28994,7 @@
     <e lm="poema"><i>poem</i><par n="autom/a__n"/></e>
     <e lm="poesia"><i>poesi</i><par n="cas/a__n"/></e>
     <e lm="poeta"><i>poet</i><par n="poet/a__n"/></e>
+    <e lm="poiana"><i>poian</i><par n="cas/a__n"/></e>
     <e lm="polo"><i>pol</i><par n="abbain/o__n"/></e>
     <e lm="polacco"><i>polacc</i><par n="tedesc/o__n"/></e>
     <e lm="polemica"><i>polemic</i><par n="tasc/a__n"/></e>
@@ -29291,6 +29298,7 @@
     <e lm="rifrazione"><i>rifrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="rigenerazione"><i>rigenerazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="rigore"><i>rigor</i><par n="abat/e__n"/></e>
+    <e lm="rilevanza"><i>rilevanz</i><par n="cas/a__n"/></e>
     <e lm="rilevazione"><i>rilevazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="rilievo"><i>riliev</i><par n="abbain/o__n"/></e>
     <e lm="rima"><i>rim</i><par n="cas/a__n"/></e>
@@ -29984,6 +29992,7 @@
     <e lm="vassoio"><i>vassoi</i><par n="abbagli/o__n"/></e>
     <e lm="vedovo"><i>vedov</i><par n="bambin/o__n"/></e>
     <e lm="vegetale"><i>vegetal</i><par n="abat/e__n"/></e>
+    <e lm="vegetazionale"><i>vegetazional</i><par n="abbreviazion/e__n"/></e>
     <e lm="vegetazione"><i>vegetazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="veglia"><i>vegli</i><par n="cas/a__n"/></e>
     <e lm="veicolo"><i>veicol</i><par n="abbain/o__n"/></e>
@@ -32085,6 +32094,7 @@
     <e lm="strano"><i>stran</i><par n="abbandonat/o__adj"/></e>
     <e lm="straniero"><i>stranier</i><par n="abbandonat/o__adj"/></e>
     <e lm="straordinario"><i>straordinari</i><par n="abbandonat/o__adj"/></e>
+    <e lm="strapiombante"><i>strapiomba</i><par n="abbacchia/nte__adj"/></e>
     <e lm="strategico"><i>strategic</i><par n="tecnic/o__adj"/></e>
     <e lm="stretto"><i>strett</i><par n="abbandonat/o__adj"/></e>
     <e lm="strumentale"><i>strumental</i><par n="albanes/e__adj"/></e>
