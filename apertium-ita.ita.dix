@@ -11216,6 +11216,11 @@
       <e><p><l></l><r><s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
     </pardef>
     
+    <pardef n="/ci__prn">
+      <e r="LR"><p><l>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e r="RL"><p><l><a/>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    </pardef>
+ 
     <pardef n="noi__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -18883,7 +18888,6 @@
     <e lm="bravamente"><i>bravamente</i><par n="ieri__adv"/></e>
     <e lm="brillantemente"><i>brillantemente</i><par n="ieri__adv"/></e>
     <e lm="burocraticamente"><i>burocraticamente</i><par n="ieri__adv"/></e>
-    <e lm="c'"><i>c'</i><par n="ieri__adv"/></e>
     <e lm="caldamente"><i>caldamente</i><par n="ieri__adv"/></e>
     <e lm="calorosamente"><i>calorosamente</i><par n="ieri__adv"/></e>
     <e lm="candidamente"><i>candidamente</i><par n="ieri__adv"/></e>
@@ -18894,7 +18898,6 @@
     <e lm="causalmente"><i>causalmente</i><par n="ieri__adv"/></e>
     <e lm="chirurgicamente"><i>chirurgicamente</i><par n="ieri__adv"/></e>
     <e lm="chissà"><i>chissà</i><par n="ieri__adv"/></e>
-    <e lm="ci"><i>ci</i><par n="ieri__adv"/></e>
     <e lm="cioé"><i>cioé</i><par n="ieri__adv"/></e>
     <e lm="circolarmente"><i>circolarmente</i><par n="ieri__adv"/></e>
     <e lm="civilmente"><i>civilmente</i><par n="ieri__adv"/></e>
@@ -33731,6 +33734,7 @@
     <e lm="gli"><par n="/gli__prn"/></e>
     <e lm="ne"><i>ne</i><par n="ne__prn"/></e>
     <e lm="vi"><i>vi</i><par n="ne__prn"/></e>
+    <e lm="ci"><i></i><par n="/ci__prn"/></e>
     <e lm="nessuno"><i>nessun</i><par n="qualcun/o__prn"/></e>
     <e lm="niente"><i>niente</i><par n="qualcosa__prn"/></e>
     <e lm="noi"><i>noi</i><par n="noi__prn"/></e>
@@ -34889,6 +34893,7 @@
       <e r="LR" lm="dell'"><p><l>dell'</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>	         
       <e r="LR" lm="l'"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="LR" lm="nell'"><p><l>nell'</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="quand'"><p><l>quand'</l><r>quando<s n="rel"/><s n="adv"/></r></p></e>
       <e r="LR" lm="quell'"><p><l>quell'</l><r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
