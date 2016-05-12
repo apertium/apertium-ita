@@ -17464,6 +17464,7 @@
     <e lm="massacratore"><i>massacrator</i><par n="abat/e__n"/></e>
     <e lm="omone"><i>omon</i><par n="abat/e__n"/></e>
     <e lm="maestrale"><i>maestral</i><par n="abat/e__n"/></e>
+    <e lm="migrante"><i>migrant</i><par n="abat/e__n"/></e>
     <e lm="torpore"><i>torpor</i><par n="abat/e__n"/></e>
     <e lm="annunciatore"><i>annunciator</i><par n="abat/e__n"/></e>
     <e lm="forcone"><i>forcon</i><par n="abat/e__n"/></e>
@@ -21991,6 +21992,7 @@
     <e lm="abitato"><i>abitat</i><par n="abbain/o__n"/></e>
     <e lm="abitino"><i>abitin</i><par n="abbain/o__n"/></e>
     <e lm="abulico"><i>abulic</i><par n="abbain/o__n"/></e>
+    <e lm="libico"><i>libic</i><par n="abbain/o__n"/></e>
     <e lm="abusivismo"><i>abusivism</i><par n="abbain/o__n"/></e>
     <e lm="abusivo"><i>abusiv</i><par n="abbain/o__n"/></e>
     <e lm="acaro"><i>acar</i><par n="abbain/o__n"/></e>
@@ -23768,6 +23770,7 @@
     <e lm="lazzaretto"><i>lazzarett</i><par n="abbain/o__n"/></e>
     <e lm="lazzo"><i>lazz</i><par n="abbain/o__n"/></e>
     <e lm="leaderino"><i>leaderin</i><par n="abbain/o__n"/></e>
+    <e lm="lealtà"><i>lealtà</i><par n="abilità__n"/></e>
     <e lm="leggio"><i>leggi</i><par n="abbain/o__n"/></e>
     <e lm="leghismo"><i>leghism</i><par n="abbain/o__n"/></e>
     <e lm="lembo"><i>lemb</i><par n="abbain/o__n"/></e>
@@ -24193,6 +24196,7 @@
     <e lm="ombrellino"><i>ombrellin</i><par n="abbain/o__n"/></e>
     <e lm="ometto"><i>omett</i><par n="abbain/o__n"/></e>
     <e lm="omino"><i>omin</i><par n="abbain/o__n"/></e>
+    <e lm="omogeneo"><i>omogene</i><par n="abbain/o__n"/></e>
     <e lm="omogeneizzato"><i>omogeneizzat</i><par n="abbain/o__n"/></e>
     <e lm="omonimo"><i>omonim</i><par n="abbain/o__n"/></e>
     <e lm="omuncolo"><i>omuncol</i><par n="abbain/o__n"/></e>
@@ -29421,6 +29425,7 @@
     <e lm="sacrificio"><i>sacrifici</i><par n="abbagli/o__n"/></e>
     <e lm="sadismo"><i>sadism</i><par n="abbain/o__n"/></e>
     <e lm="saggio"><i>sagg</i><par n="sagg/io__n"/></e>
+    <e lm="svolta"><i>rivolt</i><par n="cas/a__n"/></e>
 <!--
     <e lm="saggio"><i>saggi</i><par n="abbagli/o__n"/></e>-->
     <e lm="sale"><i>sal</i><par n="abat/e__n"/></e>
@@ -30980,6 +30985,7 @@
     <e lm="ammirevole"><i>ammirevol</i><par n="albanes/e__adj"/></e>
     <e lm="amorale"><i>amoral</i><par n="albanes/e__adj"/></e>
     <e lm="ampio"><i>ampi</i><par n="ampi/o__adj"/></e>
+    <e lm="acustico"><i>acustic</i><par n="tecnic/o__adj"/></e>
     <e lm="anale"><i>anal</i><par n="albanes/e__adj"/></e>
     <e lm="analfabeta"><i>analfabet</i><par n="suicid/a__adj"/></e>
     <e lm="analitico"><i>analitic</i><par n="tecnic/o__adj"/></e>
@@ -31684,6 +31690,7 @@
     <e lm="letterario"><i>letterari</i><par n="cosiddett/o__adj"/></e>
     <e lm="libero"><i>liber</i><par n="abbandonat/o__adj"/></e>
     <e lm="liberale"><i>liberal</i><par n="albanes/e__adj"/></e>
+    <e lm="libico"><i>libic</i><par n="tecnic/o__adj"/></e>
     <e lm="lineare"><i>linear</i><par n="albanes/e__adj"/></e>
     <e lm="linguistico"><i>linguistic</i><par n="cosiddett/o__adj"/></e>
     <e lm="liquido"><i>liquid</i><par n="abbandonat/o__adj"/></e>
@@ -32218,6 +32225,7 @@
     <e lm="vacante"><i>vaca</i><par n="abbacchia/nte__adj"/></e>
     <e lm="vaginale"><i>vaginal</i><par n="albanes/e__adj"/></e>
     <e lm="valenziano"><i>valenzian</i><par n="abbandonat/o__adj"/></e>
+    <e lm="valido"><i>valid</i><par n="abbandonat/o__adj"/></e>
     <e lm="veneziano"><i>venezian</i><par n="abbandonat/o__adj"/></e>
     <e lm="vano"><i>van</i><par n="abbandonat/o__adj"/></e>
     <e lm="vantaggioso"><i>vantaggios</i><par n="abbandonat/o__adj"/></e>
@@ -32310,6 +32318,7 @@
     <e lm="allora"><i>allora</i><par n="siccome__cnjadv"/></e>
     <e lm="basta che"><i>basta<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="bensì"><i>bensì</i><par n="siccome__cnjadv"/></e>
+    <e lm="nel contempo"><i>nel<b/>contempo</i><par n="siccome__cnjadv"/></e>
     <e lm="ciò nonostante"><i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
     <e lm="però" r="LR"><i>però</i><par n="siccome__cnjadv"/></e>
     <e lm="col fine di"><i>col<b/>fine<b/>di</i><par n="siccome__cnjadv"/></e>
@@ -32882,6 +32891,7 @@
     <e lm="decedere"><i>deced</i><par n="cred/ere__vblex"/></e>
     <e lm="decidere"><i>deci</i><par n="acclu/dere__vblex"/></e>
     <e lm="decongestionare"><i>decongestion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="declassare"><i>declassar</i><par n="abbacin/are__vblex"/></e>
     <e lm="decretare"><i>decret</i><par n="abbacin/are__vblex"/></e>
     <e lm="dedicare"><i>dedic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="definire"><i>defin</i><par n="abbell/ire__vblex"/></e>
@@ -33046,8 +33056,10 @@
     <e lm="imparare"><i>impar</i><par n="abbacin/are__vblex"/></e>
     <e lm="impartire"><i>impart</i><par n="abbrut/ire__vblex"/></e>
     <e lm="impedire"><i>imped</i><par n="abbell/ire__vblex"/></e>
+    <e lm="impegnare"><i>impegn</i><par n="abbacin/are__vblex"/></e>
     <e lm="imperare"><i>imper</i><par n="abbacin/are__vblex"/></e>
     <e lm="impiegare"><i>impieg</i><par n="alberg/are__vblex"/></e>
+    <e lm="implementare"><i>implement</i><par n="abbacin/are__vblex"/></e>
     <e lm="implicare"><i>implic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="importare"><i>import</i><par n="abbacin/are__vblex"/></e>
     <e lm="importunare"><i>importun</i><par n="abbacin/are__vblex"/></e>
@@ -33064,6 +33076,7 @@
     <e lm="inclinare"><i>inclin</i><par n="abbacin/are__vblex"/></e>
     <e lm="incollare"><i>incoll</i><par n="abbacin/are__vblex"/></e>
     <e lm="incontrare"><i>incontr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incoraggiare"><i>incoraggiar</i><par n="abbacin/are__vblex"/></e>
     <e lm="incorrere"><i>incor</i><par n="accor/rere__vblex"/></e>
     <e lm="incorporare"><i>incorpor</i><par n="abbacin/are__vblex"/></e>
     <e lm="incrementare"><i>increment</i><par n="abbacin/are__vblex"/></e>
@@ -33350,6 +33363,7 @@
     <e lm="rivendicare"><i>rivendic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="rivitalizzare"><i>rivitalizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="rubare"><i>rub</i><par n="abbacin/are__vblex"/></e>
+
     <e lm="sedere"><i>s</i><par n="s/edere__vblex"/></e>
     <e lm="sapere"><i>s</i><par n="s/apere__vblex"/></e>
     <e lm="sacrificare"><i>sacrific</i><par n="abbarbic/are__vblex"/></e>
@@ -33362,6 +33376,7 @@
     <e lm="santificare"><i>santific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="sanzionare"><i>sanzion</i><par n="abbacin/are__vblex"/></e>
     <e lm="saturare"><i>satur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sbagliare"><i>sbagli</i><par n="abbacin/are__vblex"/></e>
     <e lm="scamiciare"><i>scamic</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="scappare"><i>scapp</i><par n="abbacin/are__vblex"/></e>
     <e lm="scavare"><i>scav</i><par n="abbacin/are__vblex"/></e>
@@ -33408,6 +33423,7 @@
     <e lm="sospirare"><i>sospir</i><par n="abbacin/are__vblex"/></e>
     <e lm="sostenere"><i>sost</i><par n="appart/enere__vblex"/></e>
     <e lm="sostituire"><i>sostitu</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="sottolineare"><i>sottolinear</i><par n="abbacin/are__vblex"/></e>
     <e lm="sottovalutare"><i>sottovalut</i><par n="abbacin/are__vblex"/></e>
     <e lm="sottrarre"><i>sottra</i><par n="astra/rre__vblex"/></e>
     <e lm="sperare"><i>sper</i><par n="abbacin/are__vblex"/><p><l><b/>che</l><r><g><b/>che</g></r></p></e>
