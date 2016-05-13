@@ -598,16 +598,20 @@
       <e r="LR"><p><l>aron</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>i</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p></e>
-      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>i</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ar</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
+
       <e><p><l>are</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
+      <e r="LR"><p><l>ar</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>ar</l><r>are<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+
       <e><p><l>avamo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>avo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>avate</l><r>are<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -667,8 +671,11 @@
       <e><p><l>essero</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>esse</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>igi</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>igi</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>igano</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iga</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>igere</l><r>igere<s n="vblex"/><s n="inf"/></r></p></e>
@@ -731,9 +738,12 @@
       <e><p><l>cquero</l><r>scere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>cque</l><r>scere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>sciamo</l><r>scere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>sciamo</l><r>scere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>scete</l><r>scere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>scete</l><r>scere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>sca</l><r>scere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>sci</l><r>scere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>sci</l><r>scere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>scano</l><r>scere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>scer</l><r>scere<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>scere</l><r>scere<s n="vblex"/><s n="inf"/></r></p></e>
@@ -797,8 +807,11 @@
       <e><p><l>ssero</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>sse</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>vano</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>va</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -864,8 +877,11 @@
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>hiamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>hiamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>hino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>hi</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ar</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
@@ -933,18 +949,23 @@
       <e><p><l>iedero</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>ette</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iede</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+
+      <e><p><l>à</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e>
       <e r="LR"><p><l>a'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>o'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ai</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>à</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e>
-      <e r="LR"><p><l>ian</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>iano</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ia</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>iano</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ian</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+
       <e><p><l>are</l><r>are<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>ar</l><r>are<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+
       <e><p><l>avamo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>avo</l><r>are<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>avate</l><r>are<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1004,8 +1025,11 @@
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>amo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>amo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>n</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>no</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l></l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1071,8 +1095,11 @@
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>hiamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>hiamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>hin</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>hino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>hi</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1138,8 +1165,11 @@
       <e><p><l>ulsero</l><r>ellere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ulse</l><r>ellere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>elliamo</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>elliamo</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>elli</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>elli</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ellan</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ellano</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ella</l><r>ellere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1205,8 +1235,11 @@
       <e><p><l>erono</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>è</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ano</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1311,8 +1344,11 @@
       <e><p><l>nsero</l><r>mere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nse</l><r>mere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>miamo</l><r>mere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>miamo</l><r>mere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>mete</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mete</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>mi</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>mi</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>man</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>mano</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ma</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1378,8 +1414,11 @@
       <e><p><l>irono</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ì</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>isci</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>isci</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>iscan</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iscano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>isca</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1445,8 +1484,11 @@
       <e><p><l>irono</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ì</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e r="RL"><p><l>isci</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>isci</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="RL"><p><l>iscan</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l>iscano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l>isca</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1512,8 +1554,11 @@
       <e><p><l>iarono</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iò</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>iare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>iare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>iate</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>iate</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ia</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ia</l><r>iare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>in</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ino</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1643,8 +1688,11 @@
       <e><p><l>irono</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ì</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>an</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1710,8 +1758,11 @@
       <e><p><l>irono</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ì</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>iscan</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iscano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>isca</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1777,8 +1828,11 @@
       <e><p><l>dero</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>de</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ano</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -1972,8 +2026,11 @@
       <e><p><l>ettero</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ette</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ano</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2039,8 +2096,11 @@
       <e><p><l>sero</l><r>ndere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>ndere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ndiamo</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ndiamo</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ndete</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ndete</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ndi</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ndi</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ndan</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ndano</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nda</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2106,8 +2166,11 @@
       <e><p><l>sero</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>gano</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ga</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2173,8 +2236,11 @@
       <e><p><l>sero</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dano</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>da</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2240,8 +2306,11 @@
       <e><p><l>lsero</l><r>gliere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lse</l><r>gliere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>gliamo</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gliamo</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>gliete</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gliete</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>gli</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>gli</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>lgan</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lgano</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lga</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2307,8 +2376,11 @@
       <e><p><l>ddero</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dde</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dano</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>da</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2438,8 +2510,11 @@
       <e><p><l>sero</l><r>rere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>rere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>riamo</l><r>rere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>riamo</l><r>rere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>rete</l><r>rere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>rete</l><r>rere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ri</l><r>rere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ri</l><r>rere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ran</l><r>rere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>rano</l><r>rere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ra</l><r>rere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2506,8 +2581,11 @@
       <e><p><l>accrebbero</l><r>accrescere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>accrebbe</l><r>accrescere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>accresciamo</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>accresciamo</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>accrescete</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>accrescete</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>accresci</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>accresci</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>accrescan</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>accrescano</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>accresca</l><r>accrescere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2575,8 +2653,11 @@
       <e><p><l>issero</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>isse</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iciamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ici</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ici</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ican</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>icano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ica</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2642,8 +2723,11 @@
       <e><p><l>ennero</l><r>enire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enne</l><r>enire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eniamo</l><r>enire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>eniamo</l><r>enire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>enite</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enite</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ieni</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ieni</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>engan</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>engano</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enga</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2709,8 +2793,11 @@
       <e><p><l>ussero</l><r>urre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>usse</l><r>urre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>uciamo</l><r>urre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uciamo</l><r>urre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ucete</l><r>urre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ucete</l><r>urre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>uci</l><r>urre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>uci</l><r>urre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ucan</l><r>urre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ucano</l><r>urre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>uca</l><r>urre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2776,8 +2863,11 @@
       <e><p><l>sero</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>gano</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ga</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2843,8 +2933,11 @@
       <e><p><l>ssero</l><r>ggere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ssè</l><r>ggere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ggiamo</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ggiamo</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ggete</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ggete</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ggi</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ggi</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ggan</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ggano</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>gga</l><r>ggere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2910,8 +3003,11 @@
       <e><p><l>isero</l><r>ettere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ise</l><r>ettere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ettiamo</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ettiamo</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ettete</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ettete</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>etti</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>etti</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ettan</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ettano</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>etta</l><r>ettere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2977,9 +3073,12 @@
       <e><p><l>andarono</l><r>andare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>andò</l><r>andare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>andiamo</l><r>andare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>andiamo</l><r>andare<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>andate</l><r>andare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>andate</l><r>andare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>va'</l><r>andare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>vai</l><r>andare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>vai</l><r>andare<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>vadan</l><r>andare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vadano</l><r>andare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vada</l><r>andare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3045,8 +3144,11 @@
       <e><p><l>sero</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>niamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>niamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>nete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>nete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ni</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ni</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ngan</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ngano</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nga</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3112,8 +3214,11 @@
       <e><p><l>rvero</l><r>rire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>rve</l><r>rire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>riamo</l><r>rire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>riamo</l><r>rire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>rite</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>rite</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ri</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ri</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ian</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iano</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ia</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3179,8 +3284,11 @@
       <e><p><l>ennero</l><r>enere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enne</l><r>enere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eniamo</l><r>enere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>eniamo</l><r>enere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>enete</l><r>enere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enete</l><r>enere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ieni</l><r>enere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ieni</l><r>enere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>engan</l><r>enere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>engano</l><r>enere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enga</l><r>enere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3246,8 +3354,11 @@
       <e><p><l>rirono</l><r>rire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>rì</l><r>rire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>riamo</l><r>rire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>riamo</l><r>rire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>rite</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>rite</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ri</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ri</l><r>rire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ran</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>rano</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ra</l><r>rire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3313,8 +3424,11 @@
       <e><p><l>sero</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>sè</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dano</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>da</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3380,8 +3494,11 @@
       <e><p><l>sero</l><r>ndere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>ndere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ndiamo</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ndiamo</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ndete</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ndete</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ndi</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ndi</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ndan</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ndano</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nda</l><r>ndere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3447,8 +3564,11 @@
       <e><p><l>ssero</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>sse</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>van</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vano</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>va</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3514,8 +3634,11 @@
       <e><p><l>sero</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>vere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>viamo</l><r>vere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vete</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>vere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>van</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vano</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>va</l><r>vere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3581,9 +3704,12 @@
       <e><p><l>ecero</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ece</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>acciamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>acciamo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>a'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e r="LR"><p><l>a'</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>ai</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ai</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>accian</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>acciano</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>accia</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3649,8 +3775,11 @@
       <e><p><l>nsero</l><r>mere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nse</l><r>mere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>miamo</l><r>mere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>miamo</l><r>mere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>mete</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>mete</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>mi</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>mi</l><r>mere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>man</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>mano</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ma</l><r>mere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3716,8 +3845,11 @@
       <e><p><l>ssero</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>sse</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ggan</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ggano</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>gga</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3783,8 +3915,11 @@
       <e><p><l>erono</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>è</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ano</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3850,8 +3985,11 @@
       <e><p><l>cerono</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>cè</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ciamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ciamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>cete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>cete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ci</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ci</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>can</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>cano</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ca</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3917,8 +4055,11 @@
       <e><p><l>nerono</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nè</l><r>rre<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>niamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>niamo</l><r>rre<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>nete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>nete</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ni</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ni</l><r>rre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ngan</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ngano</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>nga</l><r>rre<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3984,8 +4125,11 @@
       <e><p><l>lsero</l><r>gliere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lsè</l><r>gliere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>gliamo</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gliamo</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>gliete</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gliete</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>gli</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>gli</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>lgan</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lgano</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>lga</l><r>gliere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4109,8 +4253,11 @@
       <e><p><l>ebbero</l><r>avere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ebbe</l><r>avere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>abbiamo</l><r>avere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>abbiamo</l><r>avere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>abbiate</l><r>avere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>abbiate</l><r>avere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>abbi</l><r>avere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>abbi</l><r>avere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>abbian</l><r>avere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>abbiano</l><r>avere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>abbia</l><r>avere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4304,8 +4451,11 @@
       <e><p><l>ennero</l><r>enire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enne</l><r>enire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eniamo</l><r>enire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>eniamo</l><r>enire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>enite</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>enite</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ieni</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ieni</l><r>enire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>engan</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>engano</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>enga</l><r>enire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4371,8 +4521,11 @@
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>amo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>amo</l><r>are<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ate</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>in</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4438,8 +4591,11 @@
       <e><p><l>sero</l><r>cere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>cere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ciamo</l><r>cere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ciamo</l><r>cere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>cete</l><r>cere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>cete</l><r>cere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ci</l><r>cere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ci</l><r>cere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>can</l><r>cere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>cano</l><r>cere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ca</l><r>cere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4505,8 +4661,11 @@
       <e><p><l>issero</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>isse</l><r>ire<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iciamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iciamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>ici</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ici</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ican</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>icano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ica</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4572,8 +4731,11 @@
       <e><p><l>ollero</l><r>olere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>olle</l><r>olere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ogliamo</l><r>olere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ogliamo</l><r>olere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>olete</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olete</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>uoi</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>uoi</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>oglian</l><r>olere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ogliano</l><r>olere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>oglia</l><r>olere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4640,8 +4802,11 @@
       <e><p><l>vvero</l><r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vve</l><r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>viamo</l><r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>viamo</l><r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>vete</l><r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>vete</l><r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>vi</l><r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>vi</l><r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>van</l><r>re<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>vano</l><r>re<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>va</l><r>re<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4707,8 +4872,11 @@
       <e><p><l>ernerono</l><r>ernere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ernè</l><r>ernere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>erniamo</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>erniamo</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ernete</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ernete</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>erni</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>erni</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>ernan</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ernano</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>erna</l><r>ernere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4774,8 +4942,11 @@
       <e><p><l>sero</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>se</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>diamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>iamo</l><r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>dete</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>di</l><r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>dano</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>da</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
