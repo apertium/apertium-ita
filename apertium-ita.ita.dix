@@ -125,7 +125,7 @@
       <e><p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
     
     <pardef n="S__cantandomi">
@@ -134,8 +134,8 @@
       <e><p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-      <e><p><l>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
     
     <pardef n="S__cantandoti">
@@ -144,8 +144,8 @@
       <e><p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-      <e><p><l>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
     
     <pardef n="S__cantandosi">
@@ -154,8 +154,8 @@
       <e><p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-      <e><p><l>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
     
     <pardef n="S__cantarglie">
@@ -164,8 +164,8 @@
       <e><p><l>li</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-      <e><p><l>ne</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-      <e><p><l>ci</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
     </pardef>
 
 <!-- 
