@@ -699,10 +699,80 @@
       <e r="LR"><p><l>igan</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>igano</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>igesse</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e> <!-- CHECK -->
+      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e> <!-- CHECK -->
+      <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e> <!-- CHECK -->
       <e><p><l>etto</l><r>igere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igo</l><r>igere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igete</l><r>igere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igi</l><r>igere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igon</l><r>igere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igono</l><r>igere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ige</l><r>igere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iga</l><r>igere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>iga</l><r>igere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igan</l><r>igere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igano</l><r>igere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iga</l><r>igere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="red/igere__vblex">
+      <e><p><l>igeremmo</l><r>igere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igerei</l><r>igere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igereste</l><r>igere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igeresti</l><r>igere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igerebber</l><r>igere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igerebbero</l><r>igere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igerebbe</l><r>igere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igeremo</l><r>igere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igerò</l><r>igere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igerete</l><r>igere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igerai</l><r>igere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igerann</l><r>igere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igerà</l><r>igere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igeranno</l><r>igere<s n="vblex"/><s n="fti"/><s n="pl"/><s n="pl"/></r></p></e>
+      <e><p><l>igendo</l><r>igere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>igendo</l><r>igere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e><p><l>igemmo</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>assi</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igei</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igeste</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igesti</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igerono</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>assero</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>asse</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igé</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>igi</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>igi</l><r>igere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>igano</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iga</l><r>igere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igere</l><r>igere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>iger</l><r>igere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e><p><l>igevamo</l><r>igere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igevo</l><r>igere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igevate</l><r>igere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igevi</l><r>igere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igevan</l><r>igere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igevano</l><r>igere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igeva</l><r>igere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>igessimo</l><r>igere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>igessi</l><r>igere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>igiate</l><r>igere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>igessi</l><r>igere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>igan</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igano</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>igesse</l><r>igere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>atto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e> <!-- CHECK -->
+      <e><p><l>atto</l><r>igere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e> <!-- CHECK -->
+      <e><p><l>atto</l><r>igere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e> <!-- CHECK -->
+      <e><p><l>atto</l><r>igere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>igiamo</l><r>igere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>igo</l><r>igere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>igete</l><r>igere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -6109,6 +6179,80 @@
     </pardef>
     
     <pardef n="cospar/gere__vblex">
+      <e><p><l>geremmo</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gerei</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gereste</l><r>gere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>geresti</l><r>gere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gerebber</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gerebbero</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gerebbe</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>geremo</l><r>gere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gerò</l><r>gere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gerete</l><r>gere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gerai</l><r>gere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>geran</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>geranno</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gerà</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>gendo</l><r>gere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>gendo</l><r>gere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e><p><l>gemmo</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>si</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>geste</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gesti</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ser</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>sero</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>se</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gano</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ger</l><r>gere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>gere</l><r>gere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ger</l><r>gere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e><p><l>gevamo</l><r>gere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gevo</l><r>gere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gevate</l><r>gere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gevi</l><r>gere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gevan</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gevano</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>geva</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>gessimo</l><r>gere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>gessi</l><r>gere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>geste</l><r>gere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gessi</l><r>gere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gesser</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gessero</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gesse</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>se</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>sa</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>si</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>so</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>te</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ta</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ti</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>to</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>go</l><r>gere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gon</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gono</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ge</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>giate</l><r>gere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>gano</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="emer/gere__vblex">
       <e><p><l>geremmo</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>gerei</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>gereste</l><r>gere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -33039,7 +33183,19 @@
     <e lm="conciliare"><i>concili</i><par n="abbacchi/are__vblex"/></e>
     <e lm="confidare"><i>confid</i><par n="abbacin/are__vblex"/></e>
     <e lm="deplorare"><i>deplor</i><par n="abbacin/are__vblex"/></e>
-    <e lm="emergere"><i>emer</i><par n="cospar/gere__vblex"/></e>
+    <e lm="emergere"><i>emer</i><par n="emer/gere__vblex"/></e>
+    <e lm="aspergere"><i>asper</i><par n="emer/gere__vblex"/></e>
+    <e lm="astergere"><i>aster</i><par n="emer/gere__vblex"/></e>
+    <e lm="convergere"><i>conver</i><par n="emer/gere__vblex"/></e>
+    <e lm="cospergere"><i>cosper</i><par n="emer/gere__vblex"/></e>
+    <e lm="detergere"><i>deter</i><par n="emer/gere__vblex"/></e>
+    <e lm="dispergere"><i>disper</i><par n="emer/gere__vblex"/></e>
+    <e lm="divergere"><i>diver</i><par n="emer/gere__vblex"/></e>
+    <e lm="immergere"><i>immer</i><par n="emer/gere__vblex"/></e>
+    <e lm="riemergere"><i>riemer</i><par n="emer/gere__vblex"/></e>
+    <e lm="sommergere"><i>sommer</i><par n="emer/gere__vblex"/></e>
+    <e lm="spergere"><i>sper</i><par n="emer/gere__vblex"/></e>
+    <e lm="tergere"><i>ter</i><par n="emer/gere__vblex"/></e>
     <e lm="fidare"><i>fid</i><par n="abbacin/are__vblex"/></e>
     <e lm="immaginare"><i>immagin</i><par n="abbacin/are__vblex"/></e>
     <e lm="inumidire"><i>inumid</i><par n="abbell/ire__vblex"/></e>
@@ -33181,8 +33337,6 @@
     <e lm="avvelenare"><i>avvelen</i><par n="abbacin/are__vblex"/></e>
     <e lm="avvertire"><i>avvert</i><par n="abbrut/ire__vblex"/></e>
     <e lm="avviare"><i>avvi</i><par n="avvi/are__vblex"/></e>
-    <e lm="avvolgere"><i>avvol</i><par n="accin/gere__vblex"/></e>
-    <e lm="svolgere"><i>svolg</i><par n="accin/gere__vblex"/></e>
     <e lm="bagnare"><i>bagn</i><par n="abbacin/are__vblex"/></e>
     <e lm="ballare"><i>ball</i><par n="abbacin/are__vblex"/></e>
     <e lm="basare"><i>bas</i><par n="abbacin/are__vblex"/></e>
@@ -33983,6 +34137,727 @@
     <e lm="votare"><i>vot</i><par n="abbacin/are__vblex"/></e>
     <e lm="includere"><i>inclu</i><par n="acclu/dere__vblex"/></e>
     <e lm="inumare"><i>inum</i><par n="abbacin/are__vblex"/></e>
+
+    <e lm="abbagliare"><i>abbagli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="abbaiare"><i>abbai</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="abbreviare"><i>abbrevi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accambiare"><i>accambi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accessoriare"><i>accessori</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accopiare"><i>accopi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="adunghiare"><i>adunghi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="aggraffiare"><i>aggraffi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="aggranchiare"><i>aggranchi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="aggranfiare"><i>aggranfi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="alleviare"><i>allevi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="abbaiare"><i>abbai</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="abbinare"><i>abbin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="abbonare"><i>abbon</i><par n="abbacin/are__vblex"/></e>
+    <e lm="abbozzare"><i>abbozz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="abilitare"><i>abilit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="abrogare"><i>abrog</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accadere"><i>accad</i><par n="ca/dere__vblex"/></e>
+    <e lm="accantonare"><i>accanton</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accatastare"><i>accatast</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accecare"><i>accec</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accennare"><i>accenn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accertare"><i>accert</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accomunare"><i>accomun</i><par n="abbacin/are__vblex"/></e>
+    <e lm="acconsentire"><i>acconsent</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="accontentare"><i>accontent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="accoppiare"><i>accoppi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accorciare"><i>accorc</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accorgere"><i>accor</i><par n="accin/gere__vblex"/></e>
+    <e lm="accostare"><i>accost</i><par n="abbacin/are__vblex"/></e>
+    <e lm="acquisire"><i>acquis</i><par n="abbell/ire__vblex"/></e>
+    <e lm="acuire"><i>acu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="addolorare"><i>addolor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="addormentare"><i>addorment</i><par n="abbacin/are__vblex"/></e>
+    <e lm="adempiere"><i>ademp</i><par n="compi/ere__vblex"/></e> <!-- FIXME: CHECK: adempiere, adempire: cf. verbix.com -->
+    <e lm="adibire"><i>adib</i><par n="abbell/ire__vblex"/></e>
+    <e lm="adirare"><i>adir</i><par n="abbacin/are__vblex"/></e>
+    <e lm="adocchiare"><i>adocchi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="affascinare"><i>affascin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="affiancare"><i>affianc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="affiggere"><i>affi</i><par n="affi/ggere__vblex"/></e>
+    <e lm="affinare"><i>affin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="affittare"><i>affitt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="affluire"><i>afflu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="affogare"><i>affog</i><par n="abbacin/are__vblex"/></e>
+    <e lm="affrancare"><i>affranc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="agevolare"><i>agevol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="aggiogare"><i>aggiog</i><par n="abbacin/are__vblex"/></e>
+    <e lm="aggiudicare"><i>aggiudic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="aggiustare"><i>aggiust</i><par n="abbacin/are__vblex"/></e>
+    <e lm="aggregare"><i>aggreg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="agognare"><i>agogn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="alare"><i>al</i><par n="abbacin/are__vblex"/></e>
+    <e lm="allargare"><i>allarg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="alleare"><i>alle</i><par n="abbacin/are__vblex"/></e>
+    <e lm="allegare"><i>alleg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="allevare"><i>allev</i><par n="abbacin/are__vblex"/></e>
+    <e lm="allontanare"><i>allontan</i><par n="abbacin/are__vblex"/></e>
+    <e lm="allungare"><i>allung</i><par n="abbacin/are__vblex"/></e>
+    <e lm="altercare"><i>alterc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ammassare"><i>ammass</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ammazzare"><i>ammazz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ammodernare"><i>ammodern</i><par n="abbacin/are__vblex"/></e>
+    <e lm="amnistiare"><i>amnisti</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="annoiare"><i>annoi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="annullare"><i>annull</i><par n="abbacin/are__vblex"/></e>
+    <e lm="appaltare"><i>appalt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="appassionare"><i>appassion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="appellare"><i>appell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="appendere"><i>appe</i><par n="acce/ndere__vblex"/></e>
+    <e lm="approfittare"><i>approfitt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="approfondire"><i>approfond</i><par n="abbell/ire__vblex"/></e>
+    <e lm="approntare"><i>appront</i><par n="abbacin/are__vblex"/></e>
+    <e lm="archiviare"><i>archivi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="arrabbiare"><i>arrabbi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="arricchire"><i>arricch</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="arrostire"><i>arrost</i><par n="abbell/ire__vblex"/></e>
+    <e lm="arrotare"><i>arrot</i><par n="abbacin/are__vblex"/></e>
+    <e lm="assaggiare"><i>assagg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="assalire"><i>assal</i><par n="abbell/ire__vblex"/></e>
+    <e lm="assecondare"><i>assecond</i><par n="abbacin/are__vblex"/></e>
+    <e lm="assediare"><i>assedi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="assoggettare"><i>assoggett</i><par n="abbacin/are__vblex"/></e>
+    <e lm="assomigliare"><i>assomigli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="attentare"><i>attent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="attingere"><i>attin</i><par n="accin/gere__vblex"/></e>
+    <e lm="attirare"><i>attir</i><par n="abbacin/are__vblex"/></e>
+    <e lm="attuare"><i>attu</i><par n="abbacin/are__vblex"/></e>
+    <e lm="autenticare"><i>autentic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avallare"><i>avall</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avvalorare"><i>avvalor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avvicendare"><i>avvicend</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avvisare"><i>avvis</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avvistare"><i>avvist</i><par n="abbacin/are__vblex"/></e>
+    <e lm="azionare"><i>azion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="azzannare"><i>azzann</i><par n="abbacin/are__vblex"/></e>
+    <e lm="baciare"><i>bac</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="bandire"><i>band</i><par n="abbell/ire__vblex"/></e>
+    <e lm="bastare"><i>bast</i><par n="abbacin/are__vblex"/></e>
+    <e lm="bendare"><i>bend</i><par n="abbacin/are__vblex"/></e>
+    <e lm="beneficiare"><i>benefic</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="bestemmiare"><i>bestemmi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="bollire"><i>boll</i><par n="abbell/ire__vblex"/></e>
+    <e lm="braccare"><i>bracc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="bruciare"><i>bruc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="bucare"><i>buc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="buttare"><i>butt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="calpestare"><i>calpest</i><par n="abbacin/are__vblex"/></e>
+    <e lm="calzare"><i>calz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="campare"><i>camp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="campionare"><i>campion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="candire"><i>cand</i><par n="abbell/ire__vblex"/></e>
+    <e lm="canzonare"><i>canzon</i><par n="abbacin/are__vblex"/></e>
+    <e lm="capitare"><i>capit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="capovolgere"><i>capovol</i><par n="accor/gere__vblex"/></e>
+    <e lm="avvolgere"><i>avvol</i><par n="accor/gere__vblex"/></e>
+    <e lm="svolgere"><i>svolg</i><par n="accor/gere__vblex"/></e>
+    <e lm="caricare"><i>caric</i><par n="abbacin/are__vblex"/></e>
+    <e lm="carreggiare"><i>carregg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="chiacchierare"><i>chiacchier</i><par n="abbacin/are__vblex"/></e>
+    <e lm="chiarire"><i>chiar</i><par n="abbell/ire__vblex"/></e>
+    <e lm="codificare"><i>codific</i><par n="abbacin/are__vblex"/></e>
+    <e lm="cogliere"><i>co</i><par n="co/gliere__vblex"/></e>
+    <e lm="coinvolgere"><i>coinvol</i><par n="accor/gere__vblex"/></e>
+    <e lm="collaudare"><i>collaud</i><par n="abbacin/are__vblex"/></e>
+    <e lm="collegare"><i>colleg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="collezionare"><i>collezion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="colonnare"><i>colonn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="colorire"><i>color</i><par n="abbell/ire__vblex"/></e>
+    <e lm="commuovere"><i>comm</i><par n="comm/uovere__vblex"/></e>
+    <e lm="muovere"><i>m</i><par n="comm/uovere__vblex"/></e>
+    <e lm="promuovere"><i>prom</i><par n="comm/uovere__vblex"/></e>
+    <e lm="ricommuovere"><i>ricomm</i><par n="comm/uovere__vblex"/></e>
+    <e lm="rimuovere"><i>rim</i><par n="comm/uovere__vblex"/></e>
+    <e lm="scommuovere"><i>scomm</i><par n="comm/uovere__vblex"/></e>
+    <e lm="smuovere"><i>sm</i><par n="comm/uovere__vblex"/></e>
+    <e lm="sommuovere"><i>somm</i><par n="comm/uovere__vblex"/></e>
+    <e lm="comparire"><i>compa</i><par n="appa/rire__vblex"/></e>
+    <e lm="apparire"><i>appa</i><par n="appa/rire__vblex"/></e>
+    <e lm="disparire"><i>dispa</i><par n="appa/rire__vblex"/></e>
+    <e lm="riapparire"><i>riappa</i><par n="appa/rire__vblex"/></e>
+    <e lm="ricomparire"><i>ricompa</i><par n="appa/rire__vblex"/></e>
+    <e lm="scomparire"><i>scompa</i><par n="appa/rire__vblex"/></e>
+    <e lm="sparire"><i>spa</i><par n="appa/rire__vblex"/></e>
+    <e lm="trasparire"><i>traspa</i><par n="appa/rire__vblex"/></e>
+    <e lm="concernere"><i>concern</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="concorrere"><i>concor</i><par n="accor/rere__vblex"/></e>
+    <e lm="concretizzare"><i>concretizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="condire"><i>cond</i><par n="abbell/ire__vblex"/></e>
+    <e lm="congedare"><i>conged</i><par n="abbacin/are__vblex"/></e>
+    <e lm="conguagliare"><i>conguagli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="consorziare"><i>consorzi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="contemperare"><i>contemper</i><par n="abbacin/are__vblex"/></e>
+    <e lm="contestare"><i>contest</i><par n="abbacin/are__vblex"/></e>
+    <e lm="contraffare"><i>contraff</i><par n="abbacin/are__vblex"/></e>
+    <e lm="contrapporre"><i>contrappo</i><par n="antepo/rre__vblex"/></e>
+    <e lm="contrariare"><i>contrari</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="convenire"><i>conv</i><par n="avv/enire__vblex"/></e>
+    <e lm="addivenire"><i>addiv</i><par n="avv/enire__vblex"/></e>
+    <e lm="antivenire"><i>antiv</i><par n="avv/enire__vblex"/></e>
+    <e lm="avvenire"><i>avv</i><par n="avv/enire__vblex"/></e>
+    <e lm="circonvenire"><i>circonv</i><par n="avv/enire__vblex"/></e>
+    <e lm="contravenire"><i>contrav</i><par n="avv/enire__vblex"/></e>
+    <e lm="devenire"><i>dev</i><par n="avv/enire__vblex"/></e>
+    <e lm="disconvenire"><i>disconv</i><par n="avv/enire__vblex"/></e>
+    <e lm="divenire"><i>div</i><par n="avv/enire__vblex"/></e>
+    <e lm="intervenire"><i>interv</i><par n="avv/enire__vblex"/></e>
+    <e lm="intravvenire"><i>intravv</i><par n="avv/enire__vblex"/></e>
+    <e lm="pervenire"><i>perv</i><par n="avv/enire__vblex"/></e>
+    <e lm="prevenire"><i>prev</i><par n="avv/enire__vblex"/></e>
+    <e lm="provenire"><i>prov</i><par n="avv/enire__vblex"/></e>
+    <e lm="riconvenire"><i>riconv</i><par n="avv/enire__vblex"/></e>
+    <e lm="rinvenire"><i>rinv</i><par n="avv/enire__vblex"/></e>
+    <e lm="rivenire"><i>riv</i><par n="avv/enire__vblex"/></e>
+    <e lm="sconvenire"><i>sconv</i><par n="avv/enire__vblex"/></e>
+    <e lm="sopravvenire"><i>sopravv</i><par n="avv/enire__vblex"/></e>
+    <e lm="sovvenire"><i>sovv</i><par n="avv/enire__vblex"/></e>
+    <e lm="svenire"><i>sv</i><par n="avv/enire__vblex"/></e>
+    <e lm="venire"><i>v</i><par n="avv/enire__vblex"/></e>
+    <e lm="convivere"><i>convi</i><par n="rivi/vere__vblex"/></e>
+    <e lm="coricare"><i>coric</i><par n="abbacin/are__vblex"/></e>
+    <e lm="coronare"><i>coron</i><par n="abbacin/are__vblex"/></e>
+    <e lm="restringere"><i>r</i><par n="r/estringere__vblex"/></e>
+    <e lm="costringere"><i>costr</i><par n="str/ingere__vblex"/></e>
+    <e lm="astringere"><i>astr</i><par n="str/ingere__vblex"/></e>
+    <e lm="ricostringere"><i>ricostr</i><par n="str/ingere__vblex"/></e>
+    <e lm="stringere"><i>str</i><par n="str/ingere__vblex"/></e>
+    <e lm="nuocere"><i>n</i><par n="n/uocere__vblex"/></e>
+    <e lm="cuocere"><i>c</i><par n="c/uocere__vblex"/></e>
+    <e lm="concuocere"><i>conc</i><par n="c/uocere__vblex"/></e>
+    <e lm="precuocere"><i>prec</i><par n="c/uocere__vblex"/></e>
+    <e lm="ricuocere"><i>ric</i><par n="c/uocere__vblex"/></e>
+    <e lm="scuocere"><i>sc</i><par n="c/uocere__vblex"/></e>
+    <e lm="stracuocere"><i>strac</i><par n="c/uocere__vblex"/></e>
+    <e lm="curiosare"><i>curios</i><par n="abbacin/are__vblex"/></e>
+    <e lm="custodire"><i>custod</i><par n="abbell/ire__vblex"/></e>
+    <e lm="dannare"><i>dann</i><par n="abbacin/are__vblex"/></e>
+    <e lm="danneggiare"><i>dannegg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="danzare"><i>danz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="debbiare"><i>debbi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="decadere"><i>decad</i><par n="ca/dere__vblex"/></e>
+    <e lm="ricadere"><i>ricad</i><par n="ca/dere__vblex"/></e>
+    <e lm="decentrare"><i>decentr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="decimare"><i>decim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="decorrere"><i>decor</i><par n="accor/rere__vblex"/></e>
+    <e lm="degnare"><i>degn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="delinquere"><i>delinqu</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="deludere"><i>delu</i><par n="acclu/dere__vblex"/></e>
+    <e lm="deprivare"><i>depriv</i><par n="abbacin/are__vblex"/></e>
+    <e lm="derogare"><i>derog</i><par n="abbacin/are__vblex"/></e>
+    <e lm="destituire"><i>destitu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="detergere"><i>deter</i><par n="accin/gere__vblex"/></e>
+    <e lm="detrarre"><i>detra</i><par n="astra/rre__vblex"/></e>
+    <e lm="deviare"><i>devi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="dibattere"><i>dibatt</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="differire"><i>differ</i><par n="abbell/ire__vblex"/></e>
+    <e lm="diffidare"><i>diffid</i><par n="abbacin/are__vblex"/></e>
+    <e lm="digitare"><i>digit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="digiunare"><i>digiun</i><par n="abbacin/are__vblex"/></e>
+    <e lm="dimenticare"><i>dimentic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="dimezzare"><i>dimezz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="dipingere"><i>dipin</i><par n="accin/gere__vblex"/></e>
+    <e lm="diplomare"><i>diplom</i><par n="abbacin/are__vblex"/></e>
+    <e lm="discendere"><i>disce</i><par n="acce/ndere__vblex"/></e>
+    <e lm="discutere"><i>discu</i><par n="discu/tere__vblex"/></e>
+    <e lm="escutere"><i>escu</i><par n="discu/tere__vblex"/></e>
+    <e lm="incutere"><i>incu</i><par n="discu/tere__vblex"/></e>
+    <e lm="disdire"><i>disd</i><par n="abbell/ire__vblex"/></e>
+    <e lm="disgiungere"><i>disgiun</i><par n="accin/gere__vblex"/></e>
+    <e lm="disperare"><i>disper</i><par n="abbacin/are__vblex"/></e>
+    <e lm="disperdere"><i>disper</i><par n="per/dere__vblex"/></e>
+    <e lm="dispiacere"><i>dispiac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="compiacere"><i>compiac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="giacere"><i>giac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="piacere"><i>piac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="scompiacere"><i>scompiac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="soggiacere"><i>soggiac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="spiacere"><i>spiac</i><par n="compiac/ere__vblex"/></e>
+    <e lm="distinguere"><i>distin</i><par n="distin/guere__vblex"/></e>
+    <e lm="distrarre"><i>distra</i><par n="astra/rre__vblex"/></e>
+    <e lm="disturbare"><i>disturb</i><par n="abbacin/are__vblex"/></e>
+    <e lm="domare"><i>dom</i><par n="abbacin/are__vblex"/></e>
+    <e lm="domiciliare"><i>domicili</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="dubitare"><i>dubit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="eccedere"><i>ecced</i><par n="conce/dere__vblex"/></e>
+    <e lm="concedere"><i>conced</i><par n="conce/dere__vblex"/></e>
+    <e lm="decedere"><i>deced</i><par n="conce/dere__vblex"/></e>
+    <e lm="retrocedere"><i>retroced</i><par n="conce/dere__vblex"/></e>
+    <e lm="sucedere"><i>suced</i><par n="conce/dere__vblex"/></e>
+    <e lm="eccitare"><i>eccit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="effeminare"><i>effemin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="eguagliare"><i>eguagli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="emarginare"><i>emargin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="emozionare"><i>emozion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="erogare"><i>erog</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esautorare"><i>esautor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="eseguire"><i>esegu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="esemplificare"><i>esemplific</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esentare"><i>esent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esiliare"><i>esili</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esitare"><i>esit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esonerare"><i>esoner</i><par n="abbacin/are__vblex"/></e>
+    <e lm="espletare"><i>esplet</i><par n="abbacin/are__vblex"/></e>
+    <e lm="esplicare"><i>esplic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="espropriare"><i>espropri</i><par n="abbacin/are__vblex"/></e>
+    <e lm="estraniare"><i>estrani</i><par n="abbacin/are__vblex"/></e>
+    <e lm="estrarre"><i>estra</i><par n="astra/rre__vblex"/></e>
+    <e lm="falsare"><i>fals</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fare"><i>f</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fasciare"><i>fasc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="fatturare"><i>fattur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fendere"><i>fe</i><par n="acce/ndere__vblex"/></e>
+    <e lm="ferire"><i>fer</i><par n="abbell/ire__vblex"/></e>
+    <e lm="ficcare"><i>ficc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fidanzare"><i>fidanz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="filare"><i>fil</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fiscalizzare"><i>fiscalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fischiare"><i>fischi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="foggiare"><i>fogg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="fomentare"><i>foment</i><par n="abbacin/are__vblex"/></e>
+    <e lm="forgiare"><i>forg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="fregare"><i>freg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="frequentare"><i>frequent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="fruire"><i>fru</i><par n="abbell/ire__vblex"/></e>
+    <e lm="fucilare"><i>fucil</i><par n="abbacin/are__vblex"/></e>
+    <e lm="gemmare"><i>gemm</i><par n="abbacin/are__vblex"/></e>
+    <e lm="germogliare"><i>germogli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="gestire"><i>gest</i><par n="abbell/ire__vblex"/></e>
+    <e lm="giustiziare"><i>giustizi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="globalizzare"><i>globalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="gonfiare"><i>gonfi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="graziare"><i>grazi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="guadare"><i>guad</i><par n="abbacin/are__vblex"/></e>
+    <e lm="guarire"><i>guar</i><par n="abbell/ire__vblex"/></e>
+    <e lm="guerreggiare"><i>guerregg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="illudere"><i>illu</i><par n="acclu/dere__vblex"/></e>
+    <e lm="imbrigliare"><i>imbrigli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="imbruttire"><i>imbrutt</i><par n="abbell/ire__vblex"/></e>
+    <e lm="immatricolare"><i>immatricol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="impanare"><i>impan</i><par n="abbacin/are__vblex"/></e>
+    <e lm="impazzire"><i>impazz</i><par n="abbell/ire__vblex"/></e>
+    <e lm="impiccare"><i>impicc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="imporre"><i>impo</i><par n="antepo/rre__vblex"/></e>
+    <e lm="impostare"><i>impost</i><par n="abbacin/are__vblex"/></e>
+    <e lm="imprigionare"><i>imprigion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="improntare"><i>impront</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incamerare"><i>incamer</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incanalare"><i>incanal</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incaricare"><i>incaric</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incassare"><i>incass</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incidere"><i>inci</i><par n="acclu/dere__vblex"/></e>
+    <e lm="incolpare"><i>incolp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="incominciare"><i>incominc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="incoraggiare"><i>incoragg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="incrinare"><i>incrin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="indirizzare"><i>indirizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="individuare"><i>individu</i><par n="abbacin/are__vblex"/></e>
+    <e lm="infarinare"><i>infarin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="infastidire"><i>infastid</i><par n="abbell/ire__vblex"/></e>
+    <e lm="infeudare"><i>infeud</i><par n="abbacin/are__vblex"/></e>
+    <e lm="infittire"><i>infitt</i><par n="abbell/ire__vblex"/></e>
+    <e lm="ingiungere"><i>ingiun</i><par n="accor/gere__vblex"/></e>
+    <e lm="inglobare"><i>inglob</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ingoiare"><i>ingoi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ingrandire"><i>ingrand</i><par n="abbell/ire__vblex"/></e>
+    <e lm="innamorare"><i>innamor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="innovare"><i>innov</i><par n="abbacin/are__vblex"/></e>
+    <e lm="inoltrare"><i>inoltr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="inquadrare"><i>inquadr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="inquinare"><i>inquin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="insanguinare"><i>insanguin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="instradare"><i>instrad</i><par n="abbacin/are__vblex"/></e>
+    <e lm="intascare"><i>intasc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="intendere"><i>inte</i><par n="acce/ndere__vblex"/></e>
+    <e lm="interagire"><i>interag</i><par n="abbell/ire__vblex"/></e>
+    <e lm="interpellare"><i>interpell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="interrare"><i>interr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="intimare"><i>intim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="intraprendere"><i>intrapre</i><par n="acce/ndere__vblex"/></e>
+    <e lm="introitare"><i>introit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="intuire"><i>intu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="invadere"><i>inva</i><par n="inva/dere__vblex"/></e>
+    <e lm="abradere"><i>abra</i><par n="inva/dere__vblex"/></e>
+    <e lm="dissuadere"><i>dissua</i><par n="inva/dere__vblex"/></e>
+    <e lm="evadere"><i>eva</i><par n="inva/dere__vblex"/></e>
+    <e lm="persuadere"><i>persua</i><par n="inva/dere__vblex"/></e>
+    <e lm="pervadere"><i>perva</i><par n="inva/dere__vblex"/></e>
+    <e lm="radere"><i>ra</i><par n="inva/dere__vblex"/></e>
+    <e lm="suadere"><i>sua</i><par n="inva/dere__vblex"/></e>
+    <e lm="ipotizzare"><i>ipotizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="iscrivere"><i>iscri</i><par n="ascri/vere__vblex"/></e>
+    <e lm="isolare"><i>isol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ispirare"><i>ispir</i><par n="abbacin/are__vblex"/></e>
+    <e lm="istituire"><i>istitu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="laureare"><i>laure</i><par n="abbacin/are__vblex"/></e>
+    <e lm="leccare"><i>lecc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ledere"><i>le</i><par n="le/dere__vblex"/></e>
+    <e lm="legiferare"><i>legifer</i><par n="abbacin/are__vblex"/></e>
+    <e lm="levare"><i>lev</i><par n="abbacin/are__vblex"/></e>
+    <e lm="lisciare"><i>lisc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="lottare"><i>lott</i><par n="abbacin/are__vblex"/></e>
+    <e lm="maledire"><i>maled</i><par n="abbell/ire__vblex"/></e>
+    <e lm="maneggiare"><i>manegg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="marciare"><i>marc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="marcire"><i>marc</i><par n="abbell/ire__vblex"/></e>
+    <e lm="marinare"><i>marin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="massimizzare"><i>massimizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="medicare"><i>medic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="mettere"><i>m</i><par n="amm/ettere__vblex"/></e>
+    <e lm="ammettere"><i>amm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="commettere"><i>comm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="compromettere"><i>comprom</i><par n="amm/ettere__vblex"/></e>
+    <e lm="dimettere"><i>dim</i><par n="amm/ettere__vblex"/></e>
+    <e lm="discomettere"><i>discom</i><par n="amm/ettere__vblex"/></e>
+    <e lm="dismettere"><i>dism</i><par n="amm/ettere__vblex"/></e>
+    <e lm="emettere"><i>em</i><par n="amm/ettere__vblex"/></e>
+    <e lm="estromettere"><i>estrom</i><par n="amm/ettere__vblex"/></e>
+    <e lm="frammettere"><i>framm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="immettere"><i>imm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="inframettere"><i>infram</i><par n="amm/ettere__vblex"/></e>
+    <e lm="inframmettere"><i>inframm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="intramettere"><i>intram</i><par n="amm/ettere__vblex"/></e>
+    <e lm="intromettere"><i>introm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="manimettere"><i>manim</i><par n="amm/ettere__vblex"/></e>
+    <e lm="manomettere"><i>manom</i><par n="amm/ettere__vblex"/></e>
+    <e lm="omettere"><i>om</i><par n="amm/ettere__vblex"/></e>
+    <e lm="permettere"><i>perm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="premettere"><i>prem</i><par n="amm/ettere__vblex"/></e>
+    <e lm="pretermettere"><i>preterm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="promettere"><i>prom</i><par n="amm/ettere__vblex"/></e>
+    <e lm="radiotransmettere"><i>radiotransm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="riammettere"><i>riamm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="transmettere"><i>transm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="minare"><i>min</i><par n="abbacin/are__vblex"/></e>
+    <e lm="minorare"><i>minor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="misurare"><i>misur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="modellare"><i>modell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="monitorare"><i>monitor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="mungere"><i>mun</i><par n="accin/gere__vblex"/></e>
+    <e lm="murare"><i>mur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="musicare"><i>music</i><par n="abbacin/are__vblex"/></e>
+    <e lm="naturalizzare"><i>naturalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="negoziare"><i>negozi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="nutrire"><i>nutr</i><par n="abbell/ire__vblex"/></e>
+    <e lm="obliterare"><i>obliter</i><par n="abbacin/are__vblex"/></e>
+    <e lm="odorare"><i>odor</i><par n="abbacin/are__vblex"/></e>
+    <e lm="opporre"><i>oppo</i><par n="antepo/rre__vblex"/></e>
+    <e lm="opprimere"><i>oppr</i><par n="compr/imere__vblex"/></e>
+    <e lm="comprimere"><i>compr</i><par n="compr/imere__vblex"/></e>
+    <e lm="decomprimere"><i>decompr</i><par n="compr/imere__vblex"/></e>
+    <e lm="esprimere"><i>espr</i><par n="compr/imere__vblex"/></e>
+    <e lm="imprimere"><i>impr</i><par n="compr/imere__vblex"/></e>
+    <e lm="precomprimere"><i>precompr</i><par n="compr/imere__vblex"/></e>
+    <e lm="reprimere"><i>repr</i><par n="compr/imere__vblex"/></e>
+    <e lm="sopprimere"><i>soppr</i><par n="compr/imere__vblex"/></e>
+    <e lm="originare"><i>origin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ostentare"><i>ostent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ovviare"><i>ovvi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pacificare"><i>pacific</i><par n="abbacin/are__vblex"/></e>
+    <e lm="paragonare"><i>paragon</i><par n="abbacin/are__vblex"/></e>
+    <e lm="parare"><i>par</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pascolare"><i>pascol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="passare"><i>pass</i><par n="abbacin/are__vblex"/></e>
+    <e lm="patire"><i>pat</i><par n="abbell/ire__vblex"/></e>
+    <e lm="patrocinare"><i>patrocin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pattuire"><i>pattu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="penalizzare"><i>penalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="penare"><i>pen</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pensionare"><i>pension</i><par n="abbacin/are__vblex"/></e>
+    <e lm="periziare"><i>perizi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="perquisire"><i>perquis</i><par n="abbell/ire__vblex"/></e>
+    <e lm="perseguitare"><i>perseguit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pestare"><i>pest</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pettegolare"><i>pettegol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="picchiare"><i>picchi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="pigiare"><i>pig</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="poetare"><i>poet</i><par n="abbacin/are__vblex"/></e>
+    <e lm="porgere"><i>por</i><par n="accin/gere__vblex"/></e>
+    <e lm="potenziare"><i>potenzi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="pranzare"><i>pranz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="predisporre"><i>predispo</i><par n="antepo/rre__vblex"/></e>
+    <e lm="prelevare"><i>prelev</i><par n="abbacin/are__vblex"/></e>
+    <e lm="presenziare"><i>presenzi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="presiedere"><i>presied</i><par n="s/edere__vblex"/></e>
+    <e lm="pressare"><i>press</i><par n="abbacin/are__vblex"/></e>
+    <e lm="presumere"><i>presu</i><par n="riassu/mere__vblex"/></e>
+    <e lm="assumere"><i>assu</i><par n="riassu/mere__vblex"/></e>
+    <e lm="consumere"><i>consu</i><par n="riassu/mere__vblex"/></e>
+    <e lm="desumere"><i>desu</i><par n="riassu/mere__vblex"/></e>
+    <e lm="riassumere"><i>riassu</i><par n="riassu/mere__vblex"/></e>
+    <e lm="preventivare"><i>preventiv</i><par n="abbacin/are__vblex"/></e>
+    <e lm="procedere"><i>proced</i><par n="acced/ere__vblex"/></e>
+    <e lm="processare"><i>process</i><par n="abbacin/are__vblex"/></e>
+    <e lm="procrastinare"><i>procrastin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="profetizzare"><i>profetizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="progredire"><i>progred</i><par n="abbell/ire__vblex"/></e>
+    <e lm="prolungare"><i>prolung</i><par n="abbacin/are__vblex"/></e>
+    <e lm="promulgare"><i>promulg</i><par n="abbacin/are__vblex"/></e>
+    <e lm="proporzionare"><i>proporzion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="provare"><i>prov</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pulire"><i>pul</i><par n="abbell/ire__vblex"/></e>
+    <e lm="pungere"><i>pun</i><par n="accin/gere__vblex"/></e>
+    <e lm="putrefare"><i>putref</i><par n="abbacin/are__vblex"/></e>
+    <e lm="quadrare"><i>quadr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="quotare"><i>quot</i><par n="abbacin/are__vblex"/></e>
+    <e lm="raddrizzare"><i>raddrizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rafforzare"><i>rafforz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="raffreddare"><i>raffredd</i><par n="abbacin/are__vblex"/></e>
+    <e lm="raggruppare"><i>raggrupp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ragguagliare"><i>ragguagli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="rammendare"><i>rammend</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rassegnare"><i>rassegn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rasserenare"><i>rasseren</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rassicurare"><i>rassicur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rateizzare"><i>rateizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ravvisare"><i>ravvis</i><par n="abbacin/are__vblex"/></e>
+    <e lm="recapitare"><i>recapit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="recepire"><i>recep</i><par n="abbell/ire__vblex"/></e>
+    <e lm="recintare"><i>recint</i><par n="abbacin/are__vblex"/></e>
+    <e lm="reclutare"><i>reclut</i><par n="abbacin/are__vblex"/></e>
+    <e lm="redigere"><i>red</i><par n="red/igere__vblex"/></e>
+    <e lm="reggere"><i>re</i><par n="affi/ggere__vblex"/></e>
+    <e lm="regionalizzare"><i>regionalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="remunerare"><i>remuner</i><par n="abbacin/are__vblex"/></e>
+    <e lm="reperire"><i>reper</i><par n="abbell/ire__vblex"/></e>
+    <e lm="requisire"><i>requis</i><par n="abbell/ire__vblex"/></e>
+    <e lm="resistere"><i>re</i><par n="con/sistere__vblex"/></e>
+    <e lm="assistere"><i>as</i><par n="con/sistere__vblex"/></e>
+    <e lm="coesistere"><i>coe</i><par n="con/sistere__vblex"/></e>
+    <e lm="consistere"><i>con</i><par n="con/sistere__vblex"/></e>
+    <e lm="desistere"><i>de</i><par n="con/sistere__vblex"/></e>
+    <e lm="insistere"><i>in</i><par n="con/sistere__vblex"/></e>
+    <e lm="persistere"><i>per</i><par n="con/sistere__vblex"/></e>
+    <e lm="preesistere"><i>pree</i><par n="con/sistere__vblex"/></e>
+    <e lm="radioassistere"><i>radioas</i><par n="con/sistere__vblex"/></e>
+    <e lm="resistere"><i>re</i><par n="con/sistere__vblex"/></e>
+    <e lm="servoassistere"><i>pree</i><par n="con/sistere__vblex"/></e>
+    <e lm="sussistere"><i>sus</i><par n="con/sistere__vblex"/></e>
+    <e lm="respingere"><i>respin</i><par n="accin/gere__vblex"/></e>
+    <e lm="responsabilizzare"><i>responsabilizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rettificare"><i>rettific</i><par n="abbacin/are__vblex"/></e>
+    <e lm="revocare"><i>revoc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ribellare"><i>ribell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ricomprendere"><i>ricompre</i><par n="acce/ndere__vblex"/></e>
+    <e lm="ricoprire"><i>ricop</i><par n="ap/rire__vblex"/></e>
+    <e lm="ricoverare"><i>ricover</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rientrare"><i>rientr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riequilibrare"><i>riequilibr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riflettere"><i>rifle</i><par n="conne/ttere__vblex"/></e>
+    <e lm="annettere"><i>anne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="circonflettere"><i>circonfle</i><par n="conne/ttere__vblex"/></e>
+    <e lm="connettere"><i>conne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="deflettere"><i>defle</i><par n="conne/ttere__vblex"/></e>
+    <e lm="flettere"><i>fle</i><par n="conne/ttere__vblex"/></e>
+    <e lm="genuflettere"><i>genufle</i><par n="conne/ttere__vblex"/></e>
+    <e lm="interconnettere"><i>interconne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="riannettere"><i>rianne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="riconnettere"><i>riconne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="sconnettere"><i>sconne</i><par n="conne/ttere__vblex"/></e>
+    <e lm="riformare"><i>riform</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rigettare"><i>rigett</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rilasciare"><i>rilasc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="rimandare"><i>rimand</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimare"><i>rim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimediare"><i>rimedi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimpiazzare"><i>rimpiazz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rimproverare"><i>rimprover</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rinchiudere"><i>rinchiu</i><par n="acclu/dere__vblex"/></e>
+    <e lm="rinforzare"><i>rinforz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ringraziare"><i>ringrazi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="rinunciare"><i>rinunc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="rinviare"><i>rinvi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riordinare"><i>riordin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riposare"><i>ripos</i><par n="abbacin/are__vblex"/></e>
+    <e lm="riprodurre"><i>riprod</i><par n="add/urre__vblex"/></e>
+    <e lm="risanare"><i>risan</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rischiare"><i>rischi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="riscontrare"><i>riscontr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ritardare"><i>ritard</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ritenere"><i>rit</i><par n="appart/enere__vblex"/></e>
+    <e lm="ritrovare"><i>ritrov</i><par n="abbacin/are__vblex"/></e>
+    <e lm="rivestire"><i>rivest</i><par n="abbell/ire__vblex"/></e>
+    <e lm="rivolgere"><i>rivol</i><par n="accor/gere__vblex"/></e>
+    <e lm="rodere"><i>ro</i><par n="acclu/dere__vblex"/></e>
+    <e lm="corrodere"><i>corro</i><par n="acclu/dere__vblex"/></e>
+    <e lm="erodere"><i>ero</i><par n="acclu/dere__vblex"/></e>
+    <e lm="esplodere"><i>esplo</i><par n="acclu/dere__vblex"/></e>
+    <e lm="riesplodere"><i>riesplo</i><par n="acclu/dere__vblex"/></e>
+    <e lm="rovesciare"><i>rovesc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="rovinare"><i>rovin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ruttare"><i>rutt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="salare"><i>sal</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sanguinare"><i>sanguin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sbadigliare"><i>sbadigli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="sbattere"><i>sbatt</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="sbrigare"><i>sbrig</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scadere"><i>scad</i><par n="ca/dere__vblex"/></e>
+    <e lm="scalare"><i>scal</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scambiare"><i>scambi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scattare"><i>scatt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scherzare"><i>scherz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="schiacciare"><i>schiacc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="schierare"><i>schier</i><par n="abbacin/are__vblex"/></e>
+    <e lm="schizzare"><i>schizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scimmiottare"><i>scimmiott</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sciogliere"><i>scio</i><par n="co/gliere__vblex"/></e> <!-- FIXME: CHECK: cf. verbix.com -->
+    <e lm="scolare"><i>scol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scompigliare"><i>scompigli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="scontrare"><i>scontr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scoppiare"><i>scoppi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="scordare"><i>scord</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scoreggiare"><i>scoregg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="scorrere"><i>scor</i><par n="accor/rere__vblex"/></e>
+    <e lm="scrutare"><i>scrut</i><par n="abbacin/are__vblex"/></e>
+    <e lm="scuoiare"><i>scuoi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sedare"><i>sed</i><par n="abbacin/are__vblex"/></e>
+    <e lm="segnare"><i>segn</i><par n="abbacin/are__vblex"/></e>
+    <e lm="selezionare"><i>selezion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sellare"><i>sell</i><par n="abbacin/are__vblex"/></e>
+    <e lm="seppellire"><i>seppell</i><par n="abbell/ire__vblex"/></e>
+    <e lm="sequestrare"><i>sequestr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="serbare"><i>serb</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sfiduciare"><i>sfiduc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="sfilare"><i>sfil</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sfiorare"><i>sfior</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sfoggiare"><i>sfogg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="sfogliare"><i>sfogli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="sfollare"><i>sfoll</i><par n="abbacin/are__vblex"/></e>
+    <e lm="singhiozzare"><i>singhiozz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sistemare"><i>sistem</i><par n="abbacin/are__vblex"/></e>
+    <e lm="smaltire"><i>smalt</i><par n="abbell/ire__vblex"/></e>
+    <e lm="smarrire"><i>smarr</i><par n="abbell/ire__vblex"/></e>
+    <e lm="smerciare"><i>smerc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="smettere"><i>sm</i><par n="amm/ettere__vblex"/></e>
+    <e lm="sminuire"><i>sminu</i><par n="abbell/ire__vblex"/></e>
+    <e lm="smontare"><i>smont</i><par n="abbacin/are__vblex"/></e>
+    <e lm="soccombere"><i>soccomb</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="socializzare"><i>socializz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="soffocare"><i>soffoc</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="somigliare"><i>somigli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="sommare"><i>somm</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sopperire"><i>sopper</i><par n="abbell/ire__vblex"/></e>
+    <e lm="soppiantare"><i>soppiant</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sopraffare"><i>sopraff</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sopravanzare"><i>sopravanz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sopravvivere"><i>sopravvi</i><par n="rivi/vere__vblex"/></e>
+    <e lm="sorteggiare"><i>sortegg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="sorvegliare"><i>sorvegli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="sospettare"><i>sospett</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sostare"><i>sost</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sottolineare"><i>sottoline</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sottoscrivere"><i>sottoscri</i><par n="ascri/vere__vblex"/></e>
+    <e lm="spalancare"><i>spalanc</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="spalmare"><i>spalm</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sparare"><i>spar</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spargere"><i>spar</i><par n="cospar/gere__vblex"/></e>
+    <e lm="cospargere"><i>cospar</i><par n="cospar/gere__vblex"/></e>
+    <e lm="ricospargere"><i>ricospar</i><par n="cospar/gere__vblex"/></e>
+    <e lm="sparire"><i>spar</i><par n="abbell/ire__vblex"/></e>
+    <e lm="sparpagliare"><i>sparpagli</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="spaventare"><i>spavent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spazzare"><i>spazz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="specchiare"><i>specchi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="spedire"><i>sped</i><par n="abbell/ire__vblex"/></e>
+    <e lm="spendere"><i>spe</i><par n="acce/ndere__vblex"/></e>
+    <e lm="sperare"><i>sper</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spesare"><i>spes</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spettare"><i>spett</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spezzare"><i>spezz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spinare"><i>spin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="spogliare"><i>spogli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="squittire"><i>squitt</i><par n="abbell/ire__vblex"/></e>
+    <e lm="sradicare"><i>sradic</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="staccare"><i>stacc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="stancare"><i>stanc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="stimolare"><i>stimol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="stirare"><i>stir</i><par n="abbacin/are__vblex"/></e>
+    <e lm="strapiombare"><i>strapiomb</i><par n="abbacin/are__vblex"/></e>
+    <e lm="strappare"><i>strapp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="strutturare"><i>struttur</i><par n="abbacin/are__vblex"/></e>
+    <e lm="subordinare"><i>subordin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="succhiare"><i>succhi</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="suddividere"><i>suddivi</i><par n="acclu/dere__vblex"/></e>
+    <e lm="supportare"><i>support</i><par n="abbacin/are__vblex"/></e>
+    <e lm="svantaggiare"><i>svantagg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="svegliare"><i>svegli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="svincolare"><i>svincol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="svitare"><i>svit</i><par n="abbacin/are__vblex"/></e>
+    <e lm="svolgere"><i>svol</i><par n="accor/gere__vblex"/></e>
+    <e lm="svuotare"><i>svuot</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tappare"><i>tapp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="targare"><i>targ</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tariffare"><i>tariff</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tassare"><i>tass</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tastare"><i>tast</i><par n="abbacin/are__vblex"/></e>
+    <e lm="teorizzare"><i>teorizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tingere"><i>tin</i><par n="infin/gere__vblex"/></e>
+    <e lm="accingere"><i>accin</i><par n="infin/gere__vblex"/></e>
+    <e lm="attingere"><i>attin</i><par n="infin/gere__vblex"/></e>
+    <e lm="cingere"><i>cin</i><par n="infin/gere__vblex"/></e>
+    <e lm="contingere"><i>contin</i><par n="infin/gere__vblex"/></e>
+    <e lm="dipingere"><i>dipin</i><par n="infin/gere__vblex"/></e>
+    <e lm="fingere"><i>fin</i><par n="infin/gere__vblex"/></e>
+    <e lm="infingere"><i>infin</i><par n="infin/gere__vblex"/></e>
+    <e lm="intingere"><i>intin</i><par n="infin/gere__vblex"/></e>
+    <e lm="precingere"><i>precin</i><par n="infin/gere__vblex"/></e>
+    <e lm="recingere"><i>recin</i><par n="infin/gere__vblex"/></e>
+    <e lm="respingere"><i>respin</i><par n="infin/gere__vblex"/></e>
+    <e lm="ricingere"><i>ricin</i><par n="infin/gere__vblex"/></e>
+    <e lm="ritingere"><i>ritin</i><par n="infin/gere__vblex"/></e>
+    <e lm="scingere"><i>scin</i><par n="infin/gere__vblex"/></e>
+    <e lm="sospingere"><i>sospin</i><par n="infin/gere__vblex"/></e>
+    <e lm="spingere"><i>spin</i><par n="infin/gere__vblex"/></e>
+    <e lm="tormentare"><i>torment</i><par n="abbacin/are__vblex"/></e>
+    <e lm="totalizzare"><i>totalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tracciare"><i>tracc</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="tradire"><i>trad</i><par n="abbell/ire__vblex"/></e>
+    <e lm="trafficare"><i>traffic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="tramontare"><i>tramont</i><par n="abbacin/are__vblex"/></e>
+    <e lm="trascinare"><i>trascin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="trascorrere"><i>trascor</i><par n="accor/rere__vblex"/></e>
+    <e lm="accorrere"><i>accor</i><par n="accor/rere__vblex"/></e>
+    <e lm="concorrere"><i>concor</i><par n="accor/rere__vblex"/></e>
+    <e lm="correre"><i>cor</i><par n="accor/rere__vblex"/></e>
+    <e lm="decorrere"><i>decor</i><par n="accor/rere__vblex"/></e>
+    <e lm="discorrere"><i>discor</i><par n="accor/rere__vblex"/></e>
+    <e lm="incorrere"><i>incor</i><par n="accor/rere__vblex"/></e>
+    <e lm="intercorrere"><i>intercor</i><par n="accor/rere__vblex"/></e>
+    <e lm="occorrere"><i>occor</i><par n="accor/rere__vblex"/></e>
+    <e lm="percorrere"><i>percor</i><par n="accor/rere__vblex"/></e>
+    <e lm="precorrere"><i>precor</i><par n="accor/rere__vblex"/></e>
+    <e lm="ricorrere"><i>ricor</i><par n="accor/rere__vblex"/></e>
+    <e lm="rincorrere"><i>rincor</i><par n="accor/rere__vblex"/></e>
+    <e lm="ripercorrere"><i>ripercor</i><par n="accor/rere__vblex"/></e>
+    <e lm="riscorrere"><i>riscor</i><par n="accor/rere__vblex"/></e>
+    <e lm="scorrere"><i>scor</i><par n="accor/rere__vblex"/></e>
+    <e lm="soccorrere"><i>soccor</i><par n="accor/rere__vblex"/></e>
+    <e lm="transcorrere"><i>transcor</i><par n="accor/rere__vblex"/></e>
+    <e lm="trascorrere"><i>trascor</i><par n="accor/rere__vblex"/></e>
+    <e lm="trascrivere"><i>trascri</i><par n="ascri/vere__vblex"/></e>
+    <e lm="trattenere"><i>tratt</i><par n="appart/enere__vblex"/></e>
+    <e lm="ultimare"><i>ultim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ungere"><i>un</i><par n="accin/gere__vblex"/></e>
+    <e lm="urinare"><i>urin</i><par n="abbacin/are__vblex"/></e>
+    <e lm="urlare"><i>url</i><par n="abbacin/are__vblex"/></e>
+    <e lm="usufruire"><i>usufru</i><par n="abbell/ire__vblex"/></e>
+    <e lm="vagliare"><i>vagli</i><par n="accapigli/are__vblex"/></e>
+    <e lm="valorizzare"><i>valorizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="vantare"><i>vant</i><par n="abbacin/are__vblex"/></e>
+    <e lm="veicolare"><i>veicol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="vendicare"><i>vendic</i><par n="abbacin/are__vblex"/></e>
+    <e lm="verbalizzare"><i>verbalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="vidimare"><i>vidim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="vietare"><i>viet</i><par n="abbacin/are__vblex"/></e>
+    <e lm="vincolare"><i>vincol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="voltare"><i>volt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="zappare"><i>zapp</i><par n="abbacin/are__vblex"/></e>
+    <e lm="zittire"><i>zitt</i><par n="abbell/ire__vblex"/></e>
+
+
 <!--       ******************************      (detnt) group      ******************************    -->
     <e lm="lo"><i>lo</i><par n="lo__detnt"/></e>
 <!--       ******************************      (num) group      ******************************    -->
