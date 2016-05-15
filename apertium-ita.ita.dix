@@ -27546,6 +27546,7 @@
     <e lm="comunione"><i>comunion</i><par n="abbreviazion/e__n"/></e>
     <e lm="comunismo"><i>comunism</i><par n="abbain/o__n"/></e>
     <e lm="comunista"><i>comunist</i><par n="suicid/a__n"/></e>
+    <e lm="esperantista"><i>esperantist</i><par n="suicid/a__n"/></e>
     <e lm="comunità"><i>comunità</i><par n="abilità__n"/></e>
     <e lm="cono"><i>con</i><par n="abbain/o__n"/></e>
     <e lm="conca"><i>conc</i><par n="tasc/a__n"/></e>
@@ -28108,7 +28109,7 @@
     <e lm="esito"><i>esit</i><par n="abbain/o__n"/></e>
     <e lm="esodo"><i>esod</i><par n="abbain/o__n"/></e>
     <e lm="espansione"><i>espansion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="esperanto"><i>esperanto</i><par n="albatros__n"/></e>
+    <e lm="esperanto"><i>esperanto</i><par n="ace__n"/></e>
     <e lm="esperienza"><i>esperienz</i><par n="cas/a__n"/></e>
     <e lm="esperimento"><i>esperiment</i><par n="abbain/o__n"/></e>
     <e lm="esperto"><i>espert</i><par n="bambin/o__n"/></e>
@@ -31808,6 +31809,7 @@
     <e lm="comune"><i>comun</i><par n="albanes/e__adj"/></e>
     <e lm="comunale"><i>comunal</i><par n="albanes/e__adj"/></e>
     <e lm="comunista"><i>comunist</i><par n="suicid/a__adj"/></e>
+    <e lm="esperantista"><i>esperantist</i><par n="suicid/a__adj"/></e>
     <e lm="concettuale"><i>concettual</i><par n="albanes/e__adj"/></e>
     <e lm="conciliatore"><i>conciliat</i><par n="accentrat/ore__adj"/></e>
     <e lm="concomitante"><i>concomitant</i><par n="albanes/e__adj"/></e>
@@ -32890,12 +32892,6 @@
     <e lm="proprietario"><i>proprietari</i><par n="abbandonat/o__adj"/></e>
     <e lm="ventesimo"><i>ventesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="vincitore"><i>vincit</i><par n="accentrat/ore__adj"/></e>
-    <e lm="alare"><i>alar</i><par n="albanes/e__adj"/></e>
-    <e lm="domiciliare"><i>domiciliar</i><par n="albanes/e__adj"/></e>
-    <e lm="scalare"><i>scalar</i><par n="albanes/e__adj"/></e>
-    <e lm="scolare"><i>scolar</i><par n="albanes/e__adj"/></e>
-    <e lm="veicolare"><i>veicolar</i><par n="albanes/e__adj"/></e>
-    <e lm="vincolare"><i>vincolar</i><par n="albanes/e__adj"/></e>
 
 <!--       ******************************      (verb) group      ******************************    -->
     <e lm="avere"><par n="/avere__vbhaver"/></e>
