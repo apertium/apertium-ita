@@ -18102,7 +18102,8 @@
     <e lm="confederale"><i>confederal</i><par n="abat/e__n"/></e>
     <e lm="occhialone"><i>occhialon</i><par n="abat/e__n"/></e>
     <e lm="polietilene"><i>polietilen</i><par n="abat/e__n"/></e>
-    <e lm="estone"><i>eston</i><par n="abat/e__n"/></e>
+    <e lm="estone"><i>eston</i><par n="albanes/e__n"/></e>
+    <e lm="estone"><i>eston</i><par n="albanes/e__adj"/></e>
     <e lm="locatore"><i>locator</i><par n="abat/e__n"/></e>
     <e lm="succube"><i>succub</i><par n="abat/e__n"/></e>
     <e lm="agone"><i>agon</i><par n="abat/e__n"/></e>
@@ -18128,7 +18129,8 @@
     <e lm="pratone"><i>praton</i><par n="abat/e__n"/></e>
     <e lm="decodificatore"><i>decodificator</i><par n="abat/e__n"/></e>
     <e lm="intagliatore"><i>intagliator</i><par n="abat/e__n"/></e>
-    <e lm="lettone"><i>letton</i><par n="abat/e__n"/></e>
+    <e lm="lettone"><i>letton</i><par n="albanes/e__n"/></e>
+    <e lm="lettone"><i>letton</i><par n="albanes/e__adj"/></e>
     <e lm="videoterminale"><i>videoterminal</i><par n="abat/e__n"/></e>
     <e lm="superburocrate"><i>superburocrat</i><par n="abat/e__n"/></e>
     <e lm="convertitore"><i>convertitor</i><par n="abat/e__n"/></e>
@@ -18298,7 +18300,7 @@
     <e lm="negoziante"><i>negoziant</i><par n="abat/e__n"/></e>
     <e lm="difensore"><i>difensor</i><par n="abat/e__n"/></e>
     <e lm="luccicante"><i>luccicant</i><par n="abat/e__n"/></e>
-    <e lm="islandese"><i>islandes</i><par n="abat/e__n"/></e>
+    <e lm="islandese"><i>islandes</i><par n="albanes/e__n"/></e>
     <e lm="esecutore"><i>esecutor</i><par n="abat/e__n"/></e>
     <e lm="inquinatore"><i>inquinator</i><par n="abat/e__n"/></e>
     <e lm="maiale"><i>maial</i><par n="abat/e__n"/></e>
@@ -22773,13 +22775,13 @@
     <e lm="analcolico"><i>analcolic</i><par n="abbain/o__n"/></e>
     <e lm="analfabetismo"><i>analfabetism</i><par n="abbain/o__n"/></e>
     <e lm="analgesico"><i>analgesic</i><par n="abbain/o__n"/></e>
-    <e lm="anatomopatologo"><i>anatomopatolog</i><par n="abbain/o__n"/></e>
+    <e lm="anatomopatologo"><i>anatomopatolog</i><par n="tedesc/o__n"/></e>
     <e lm="anatroccolo"><i>anatroccol</i><par n="abbain/o__n"/></e>
     <e lm="andamento"><i>andament</i><par n="abbain/o__n"/></e>
     <e lm="andazzo"><i>andazz</i><par n="abbain/o__n"/></e>
     <e lm="andito"><i>andit</i><par n="abbain/o__n"/></e>
     <e lm="andreottiano"><i>andreottian</i><par n="abbain/o__n"/></e>
-    <e lm="andrologo"><i>androlog</i><par n="abbain/o__n"/></e>
+    <e lm="andrologo"><i>androlog</i><par n="tedesc/o__n"/></e>
     <e lm="anelito"><i>anelit</i><par n="abbain/o__n"/></e>
     <e lm="anellino"><i>anellin</i><par n="abbain/o__n"/></e>
     <e lm="anfratto"><i>anfratt</i><par n="abbain/o__n"/></e>
@@ -22812,7 +22814,7 @@
     <e lm="antipasto"><i>antipast</i><par n="abbain/o__n"/></e>
     <e lm="antisemitismo"><i>antisemitism</i><par n="abbain/o__n"/></e>
     <e lm="antro"><i>antr</i><par n="abbain/o__n"/></e>
-    <e lm="antropologo"><i>antropolog</i><par n="abbain/o__n"/></e>
+    <e lm="antropologo"><i>antropolog</i><par n="tedesc/o__n"/></e>
     <e lm="apocrifo"><i>apocrif</i><par n="abbain/o__n"/></e>
     <e lm="apostrofo"><i>apostrof</i><par n="abbain/o__n"/></e>
     <e lm="appaluso"><i>appalus</i><par n="abbain/o__n"/></e>
@@ -22893,7 +22895,7 @@
     <e lm="astensionismo"><i>astensionism</i><par n="abbain/o__n"/></e>
     <e lm="astenuto"><i>astenut</i><par n="abbain/o__n"/></e>
     <e lm="astrofisico"><i>astrofisic</i><par n="abbain/o__n"/></e>
-    <e lm="astrologo"><i>astrolog</i><par n="abbain/o__n"/></e>
+    <e lm="astrologo"><i>astrolog</i><par n="tedesc/o__n"/></e>
     <e lm="astruso"><i>astrus</i><par n="abbain/o__n"/></e>
     <e lm="astuto"><i>astut</i><par n="abbain/o__n"/></e>
     <e lm="atalantino"><i>atalantin</i><par n="abbain/o__n"/></e>
@@ -23029,7 +23031,7 @@
     <e lm="bicameralismo"><i>bicameralism</i><par n="abbain/o__n"/></e>
     <e lm="bicchierino"><i>bicchierin</i><par n="abbain/o__n"/></e>
     <e lm="bidello"><i>bidell</i><par n="abbain/o__n"/></e>
-    <e lm="bielorusso"><i>bieloruss</i><par n="abbain/o__n"/></e>
+    <e lm="bielorusso"><i>bieloruss</i><par n="bambin/o__n"/></e>
     <e lm="bigliettino"><i>bigliettin</i><par n="abbain/o__n"/></e>
     <e lm="biglietto"><i>bigliett</i><par n="abbain/o__n"/></e>
     <e lm="bigottismo"><i>bigottism</i><par n="abbain/o__n"/></e>
@@ -23234,7 +23236,7 @@
     <e lm="carbonaro"><i>carbonar</i><par n="abbain/o__n"/></e>
     <e lm="carboncino"><i>carboncin</i><par n="abbain/o__n"/></e>
     <e lm="carcerato"><i>carcerat</i><par n="abbain/o__n"/></e>
-    <e lm="cardiologo"><i>cardiolog</i><par n="abbain/o__n"/></e>
+    <e lm="cardiologo"><i>cardiolog</i><par n="tedesc/o__n"/></e>
     <e lm="cardo"><i>card</i><par n="abbain/o__n"/></e>
     <e lm="caricamento"><i>caricament</i><par n="abbain/o__n"/></e>
     <e lm="carmelitano"><i>carmelitan</i><par n="abbain/o__n"/></e>
@@ -23354,7 +23356,7 @@
     <e lm="clavicembalo"><i>clavicembal</i><par n="abbain/o__n"/></e>
     <e lm="clericalismo"><i>clericalism</i><par n="abbain/o__n"/></e>
     <e lm="clientelismo"><i>clientelism</i><par n="abbain/o__n"/></e>
-    <e lm="climatologo"><i>climatolog</i><par n="abbain/o__n"/></e>
+    <e lm="climatologo"><i>climatolog</i><par n="tedesc/o__n"/></e>
     <e lm="clintoniano"><i>clintonian</i><par n="abbain/o__n"/></e>
     <e lm="coacervo"><i>coacerv</i><par n="abbain/o__n"/></e>
     <e lm="coagulo"><i>coagul</i><par n="abbain/o__n"/></e>
@@ -23541,7 +23543,7 @@
     <e lm="coscritto"><i>coscritt</i><par n="abbain/o__n"/></e>
     <e lm="cosentino"><i>cosentin</i><par n="abbain/o__n"/></e>
     <e lm="cosmo"><i>cosm</i><par n="abbain/o__n"/></e>
-    <e lm="cosmologo"><i>cosmolog</i><par n="abbain/o__n"/></e>
+    <e lm="cosmologo"><i>cosmolog</i><par n="tedesc/o__n"/></e>
     <e lm="cosmopolitismo"><i>cosmopolitism</i><par n="abbain/o__n"/></e>
     <e lm="cospetto"><i>cospett</i><par n="abbain/o__n"/></e>
     <e lm="cossighiano"><i>cossighian</i><par n="abbain/o__n"/></e>
@@ -23560,7 +23562,7 @@
     <e lm="craxismo"><i>craxism</i><par n="abbain/o__n"/></e>
     <e lm="creolo"><i>creol</i><par n="abbain/o__n"/></e>
     <e lm="crepitio"><i>crepiti</i><par n="abbain/o__n"/></e>
-    <e lm="criminologo"><i>criminolog</i><par n="abbain/o__n"/></e>
+    <e lm="criminologo"><i>criminolog</i><par n="tedesc/o__n"/></e>
     <e lm="cristo"><i>crist</i><par n="abbain/o__n"/></e>
     <e lm="croato"><i>croat</i><par n="abbain/o__n"/></e>
     <e lm="croato-bosniaco"><i>croato-bosniac</i><par n="abbain/o__n"/></e>
@@ -23636,7 +23638,7 @@
     <e lm="deposto"><i>depost</i><par n="abbain/o__n"/></e>
     <e lm="deragliamento"><i>deragliament</i><par n="abbain/o__n"/></e>
     <e lm="derelitto"><i>derelitt</i><par n="abbain/o__n"/></e>
-    <e lm="dermatologo"><i>dermatolog</i><par n="abbain/o__n"/></e>
+    <e lm="dermatologo"><i>dermatolog</i><par n="tedesc/o__n"/></e>
     <e lm="desolato"><i>desolat</i><par n="abbain/o__n"/></e>
     <e lm="destriero"><i>destrier</i><par n="abbain/o__n"/></e>
     <e lm="destro"><i>destr</i><par n="abbain/o__n"/></e>
@@ -23648,7 +23650,7 @@
     <e lm="detto"><i>dett</i><par n="abbain/o__n"/></e>
     <e lm="devoto"><i>devot</i><par n="abbain/o__n"/></e>
     <e lm="diabetico"><i>diabetic</i><par n="abbain/o__n"/></e>
-    <e lm="diabetologo"><i>diabetolog</i><par n="abbain/o__n"/></e>
+    <e lm="diabetologo"><i>diabetolog</i><par n="tedesc/o__n"/></e>
     <e lm="diacono"><i>diacon</i><par n="abbain/o__n"/></e>
     <e lm="dializzato"><i>dializzat</i><par n="abbain/o__n"/></e>
     <e lm="dialoghetto"><i>dialoghett</i><par n="abbain/o__n"/></e>
@@ -23658,8 +23660,8 @@
     <e lm="dicastero"><i>dicaster</i><par n="abbain/o__n"/></e>
     <e lm="didascalismo"><i>didascalism</i><par n="abbain/o__n"/></e>
     <e lm="diessino"><i>diessin</i><par n="abbain/o__n"/></e>
-    <e lm="dietologo"><i>dietolog</i><par n="abbain/o__n"/></e>
-    <e lm="dietrologo"><i>dietrolog</i><par n="abbain/o__n"/></e>
+    <e lm="dietologo"><i>dietolog</i><par n="tedesc/o__n"/></e>
+    <e lm="dietrologo"><i>dietrolog</i><par n="tedesc/o__n"/></e>
     <e lm="difensivismo"><i>difensivism</i><par n="abbain/o__n"/></e>
     <e lm="differimento"><i>differiment</i><par n="abbain/o__n"/></e>
     <e lm="diffidato"><i>diffidat</i><par n="abbain/o__n"/></e>
@@ -23780,11 +23782,11 @@
     <e lm="eccentrico"><i>eccentric</i><par n="abbain/o__n"/></e>
     <e lm="eccesso"><i>eccess</i><par n="abbain/o__n"/></e>
     <e lm="eclettismo"><i>eclettism</i><par n="abbain/o__n"/></e>
-    <e lm="ecologo"><i>ecolog</i><par n="abbain/o__n"/></e>
+    <e lm="ecologo"><i>ecolog</i><par n="tedesc/o__n"/></e>
     <e lm="editto"><i>editt</i><par n="abbain/o__n"/></e>
     <e lm="efebo"><i>efeb</i><par n="abbain/o__n"/></e>
     <e lm="efferato"><i>efferat</i><par n="abbain/o__n"/></e>
-    <e lm="egittologo"><i>egittolog</i><par n="abbain/o__n"/></e>
+    <e lm="egittologo"><i>egittolog</i><par n="tedesc/o__n"/></e>
     <e lm="egocentrico"><i>egocentric</i><par n="abbain/o__n"/></e>
     <e lm="egoismo"><i>egoism</i><par n="abbain/o__n"/></e>
     <e lm="elaborato"><i>elaborat</i><par n="abbain/o__n"/></e>
@@ -23801,7 +23803,7 @@
     <e lm="elzeviro"><i>elzevir</i><par n="abbain/o__n"/></e>
     <e lm="emarginato"><i>emarginat</i><par n="abbain/o__n"/></e>
     <e lm="ematocrito"><i>ematocrit</i><par n="abbain/o__n"/></e>
-    <e lm="ematologo"><i>ematolog</i><par n="abbain/o__n"/></e>
+    <e lm="ematologo"><i>ematolog</i><par n="tedesc/o__n"/></e>
     <e lm="emedamento"><i>emedament</i><par n="abbain/o__n"/></e>
     <e lm="emerito"><i>emerit</i><par n="abbain/o__n"/></e>
     <e lm="emigrato"><i>emigrat</i><par n="abbain/o__n"/></e>
@@ -23816,14 +23818,14 @@
     <e lm="emulo"><i>emul</i><par n="abbain/o__n"/></e>
     <e lm="endecasillabo"><i>endecasillab</i><par n="abbain/o__n"/></e>
     <e lm="energumeno"><i>energumen</i><par n="abbain/o__n"/></e>
-    <e lm="enologo"><i>enolog</i><par n="abbain/o__n"/></e>
-    <e lm="entomologo"><i>entomolog</i><par n="abbain/o__n"/></e>
+    <e lm="enologo"><i>enolog</i><par n="tedesc/o__n"/></e>
+    <e lm="entomologo"><i>entomolog</i><par n="tedesc/o__n"/></e>
     <e lm="entusiasmo"><i>entusiasm</i><par n="abbain/o__n"/></e>
     <e lm="epicureo"><i>epicure</i><par n="abbain/o__n"/></e>
-    <e lm="epidemiologo"><i>epidemiolog</i><par n="abbain/o__n"/></e>
+    <e lm="epidemiologo"><i>epidemiolog</i><par n="tedesc/o__n"/></e>
     <e lm="epigono"><i>epigon</i><par n="abbain/o__n"/></e>
     <e lm="episcopato"><i>episcopat</i><par n="abbain/o__n"/></e>
-    <e lm="epistemologo"><i>epistemolog</i><par n="abbain/o__n"/></e>
+    <e lm="epistemologo"><i>epistemolog</i><par n="tedesc/o__n"/></e>
     <e lm="epiteto"><i>epitet</i><par n="abbain/o__n"/></e>
     <e lm="equilibrismo"><i>equilibrism</i><par n="abbain/o__n"/></e>
     <e lm="equipaggiamento"><i>equipaggiament</i><par n="abbain/o__n"/></e>
@@ -23865,15 +23867,15 @@
     <e lm="esubero"><i>esuber</i><par n="abbain/o__n"/></e>
     <e lm="eterno"><i>etern</i><par n="abbain/o__n"/></e>
     <e lm="eteronimo"><i>eteronim</i><par n="abbain/o__n"/></e>
-    <e lm="etnologo"><i>etnolog</i><par n="abbain/o__n"/></e>
-    <e lm="etologo"><i>etolog</i><par n="abbain/o__n"/></e>
+    <e lm="etnologo"><i>etnolog</i><par n="tedesc/o__n"/></e>
+    <e lm="etologo"><i>etolog</i><par n="tedesc/o__n"/></e>
     <e lm="etto"><i>ett</i><par n="abbain/o__n"/></e>
-    <e lm="eurocrato"><i>eurocrat</i><par n="abbain/o__n"/></e>
-    <e lm="eurodeputato"><i>eurodeputat</i><par n="abbain/o__n"/></e>
+    <e lm="eurocrato"><i>eurocrat</i><par n="bambin/o__n"/></e>
+    <e lm="eurodeputato"><i>eurodeputat</i><par n="bambin/o__n"/></e>
     <e lm="europeismo"><i>europeism</i><par n="abbain/o__n"/></e>
     <e lm="europrestito"><i>europrestit</i><par n="abbain/o__n"/></e>
-    <e lm="euroscettico"><i>euroscettic</i><par n="abbain/o__n"/></e>
-    <e lm="evangelico"><i>evangelic</i><par n="abbain/o__n"/></e>
+    <e lm="euroscettico"><i>euroscettic</i><par n="bambin/o__n"/></e>
+    <e lm="evangelico"><i>evangelic</i><par n="bambin/o__n"/></e>
     <e lm="evaso"><i>evas</i><par n="abbain/o__n"/></e>
     <e lm="evo"><i>ev</i><par n="abbain/o__n"/></e>
     <e lm="fabbricato"><i>fabbricat</i><par n="abbain/o__n"/></e>
@@ -23898,7 +23900,7 @@
     <e lm="fardello"><i>fardell</i><par n="abbain/o__n"/></e>
     <e lm="faretto"><i>farett</i><par n="abbain/o__n"/></e>
     <e lm="fariseo"><i>farise</i><par n="abbain/o__n"/></e>
-    <e lm="farmacologo"><i>farmacolog</i><par n="abbain/o__n"/></e>
+    <e lm="farmacologo"><i>farmacolog</i><par n="tedesc/o__n"/></e>
     <e lm="fascicoletto"><i>fascicolett</i><par n="abbain/o__n"/></e>
     <e lm="fascino"><i>fascin</i><par n="abbain/o__n"/></e>
     <e lm="fasto"><i>fast</i><par n="abbain/o__n"/></e>
@@ -23952,7 +23954,7 @@
     <e lm="filmetto"><i>filmett</i><par n="abbain/o__n"/></e>
     <e lm="filmino"><i>filmin</i><par n="abbain/o__n"/></e>
     <e lm="filogovernativo"><i>filogovernativ</i><par n="abbain/o__n"/></e>
-    <e lm="filologo"><i>filolog</i><par n="abbain/o__n"/></e>
+    <e lm="filologo"><i>filolog</i><par n="tedesc/o__n"/></e>
     <e lm="finaziamento"><i>finaziament</i><par n="abbain/o__n"/></e>
     <e lm="finimondo"><i>finimond</i><par n="abbain/o__n"/></e>
     <e lm="finnico"><i>finnic</i><par n="abbain/o__n"/></e>
@@ -23965,7 +23967,7 @@
     <e lm="fiorino"><i>fiorin</i><par n="abbain/o__n"/></e>
     <e lm="fiotto"><i>fiott</i><par n="abbain/o__n"/></e>
     <e lm="fischietto"><i>fischiett</i><par n="abbain/o__n"/></e>
-    <e lm="fisiologo"><i>fisiolog</i><par n="abbain/o__n"/></e>
+    <e lm="fisiologo"><i>fisiolog</i><par n="tedesc/o__n"/></e>
     <e lm="fitofarmaco"><i>fitofarmac</i><par n="abbain/o__n"/></e>
     <e lm="fiumiciattolo"><i>fiumiciattol</i><par n="abbain/o__n"/></e>
     <e lm="fiuto"><i>fiut</i><par n="abbain/o__n"/></e>
@@ -24047,7 +24049,7 @@
     <e lm="fustino"><i>fustin</i><par n="abbain/o__n"/></e>
     <e lm="fusto"><i>fust</i><par n="abbain/o__n"/></e>
     <e lm="futurismo"><i>futurism</i><par n="abbain/o__n"/></e>
-    <e lm="futurologo"><i>futurolog</i><par n="abbain/o__n"/></e>
+    <e lm="futurologo"><i>futurolog</i><par n="tedesc/o__n"/></e>
     <e lm="gabbiotto"><i>gabbiott</i><par n="abbain/o__n"/></e>
     <e lm="gagliardetto"><i>gagliardett</i><par n="abbain/o__n"/></e>
     <e lm="gagliardo"><i>gagliard</i><par n="abbain/o__n"/></e>
@@ -24066,7 +24068,7 @@
     <e lm="garofano"><i>garofan</i><par n="abbain/o__n"/></e>
     <e lm="garretto"><i>garrett</i><par n="abbain/o__n"/></e>
     <e lm="gasdotto"><i>gasdott</i><par n="abbain/o__n"/></e>
-    <e lm="gastroenterologo"><i>gastroenterolog</i><par n="abbain/o__n"/></e>
+    <e lm="gastroenterologo"><i>gastroenterolog</i><par n="tedesc/o__n"/></e>
     <e lm="gastronomo"><i>gastronom</i><par n="abbain/o__n"/></e>
     <e lm="gattino"><i>gattin</i><par n="abbain/o__n"/></e>
     <e lm="gattopardo"><i>gattopard</i><par n="abbain/o__n"/></e>
@@ -24081,13 +24083,13 @@
     <e lm="genoano"><i>genoan</i><par n="abbain/o__n"/></e>
     <e lm="genuino"><i>genuin</i><par n="abbain/o__n"/></e>
     <e lm="geofono"><i>geofon</i><par n="abbain/o__n"/></e>
-    <e lm="geografo"><i>geograf</i><par n="abbain/o__n"/></e>
-    <e lm="geologo"><i>geolog</i><par n="abbain/o__n"/></e>
+    <e lm="geografo"><i>geograf</i><par n="bambin/o__n"/></e>
+    <e lm="geologo"><i>geolog</i><par n="tedesc/o__n"/></e>
     <e lm="georgiano"><i>georgian</i><par n="abbain/o__n"/></e>
     <e lm="germanico"><i>germanic</i><par n="abbain/o__n"/></e>
     <e lm="germano"><i>german</i><par n="abbain/o__n"/></e>
     <e lm="geroglifico"><i>geroglific</i><par n="abbain/o__n"/></e>
-    <e lm="gerontologo"><i>gerontolog</i><par n="abbain/o__n"/></e>
+    <e lm="gerontologo"><i>gerontolog</i><par n="tedesc/o__n"/></e>
     <e lm="gessato"><i>gessat</i><par n="abbain/o__n"/></e>
     <e lm="gessetto"><i>gessett</i><par n="abbain/o__n"/></e>
     <e lm="gesso"><i>gess</i><par n="abbain/o__n"/></e>
@@ -24214,7 +24216,7 @@
     <e lm="handicappato"><i>handicappat</i><par n="abbain/o__n"/></e>
     <e lm="ibrido"><i>ibrid</i><par n="abbain/o__n"/></e>
     <e lm="ideologismo"><i>ideologism</i><par n="abbain/o__n"/></e>
-    <e lm="ideologo"><i>ideolog</i><par n="abbain/o__n"/></e>
+    <e lm="ideologo"><i>ideolog</i><par n="tedesc/o__n"/></e>
     <e lm="idoneo"><i>idone</i><par n="abbain/o__n"/></e>
     <e lm="ignaro"><i>ignar</i><par n="abbain/o__n"/></e>
     <e lm="ignoto"><i>ignot</i><par n="abbain/o__n"/></e>
@@ -24234,7 +24236,7 @@
     <e lm="immobilismo"><i>immobilism</i><par n="abbain/o__n"/></e>
     <e lm="immobilizzo"><i>immobilizz</i><par n="abbain/o__n"/></e>
     <e lm="immondo"><i>immond</i><par n="abbain/o__n"/></e>
-    <e lm="immunologo"><i>immunolog</i><par n="abbain/o__n"/></e>
+    <e lm="immunologo"><i>immunolog</i><par n="tedesc/o__n"/></e>
     <e lm="impasto"><i>impast</i><par n="abbain/o__n"/></e>
     <e lm="impedimento"><i>impediment</i><par n="abbain/o__n"/></e>
     <e lm="imperfetto"><i>imperfett</i><par n="abbain/o__n"/></e>
@@ -24487,11 +24489,11 @@
     <e lm="macigno"><i>macign</i><par n="abbain/o__n"/></e>
     <e lm="macinino"><i>macinin</i><par n="abbain/o__n"/></e>
     <e lm="maestrino"><i>maestrin</i><par n="abbain/o__n"/></e>
-    <e lm="mafiologo"><i>mafiolog</i><par n="abbain/o__n"/></e>
-    <e lm="mafioso"><i>mafios</i><par n="abbain/o__n"/></e>
+    <e lm="mafiologo"><i>mafiolog</i><par n="tedesc/o__n"/></e>
+    <e lm="mafioso"><i>mafios</i><par n="bambin/o__n"/></e>
     <e lm="maggiolino"><i>maggiolin</i><par n="abbain/o__n"/></e>
-    <e lm="maghrebino"><i>maghrebin</i><par n="abbain/o__n"/></e>
-    <e lm="magiaro"><i>magiar</i><par n="abbain/o__n"/></e>
+    <e lm="maghrebino"><i>maghrebin</i><par n="bambin/o__n"/></e>
+    <e lm="magiaro"><i>magiar</i><par n="bambin/o__n"/></e>
     <e lm="magistero"><i>magister</i><par n="abbain/o__n"/></e>
     <e lm="magliaro"><i>magliar</i><par n="abbain/o__n"/></e>
     <e lm="maglioncino"><i>maglioncin</i><par n="abbain/o__n"/></e>
@@ -24504,8 +24506,8 @@
     <e lm="malanno"><i>malann</i><par n="abbain/o__n"/></e>
     <e lm="malcapitato"><i>malcapitat</i><par n="abbain/o__n"/></e>
     <e lm="maldestro"><i>maldestr</i><par n="abbain/o__n"/></e>
-    <e lm="maledetto"><i>maledett</i><par n="abbain/o__n"/></e>
-    <e lm="maleducato"><i>maleducat</i><par n="abbain/o__n"/></e>
+    <e lm="maledetto"><i>maledett</i><par n="bambin/o__n"/></e>
+    <e lm="maleducato"><i>maleducat</i><par n="bambin/o__n"/></e>
     <e lm="malefico"><i>malefic</i><par n="abbain/o__n"/></e>
     <e lm="malfunzionamento"><i>malfunzionament</i><par n="abbain/o__n"/></e>
     <e lm="malgoverno"><i>malgovern</i><par n="abbain/o__n"/></e>
@@ -24568,7 +24570,7 @@
     <e lm="masochismo"><i>masochism</i><par n="abbain/o__n"/></e>
     <e lm="massimalismo"><i>massimalism</i><par n="abbain/o__n"/></e>
     <e lm="massimo"><i>massim</i><par n="abbain/o__n"/></e>
-    <e lm="massmediologo"><i>massmediolog</i><par n="abbain/o__n"/></e>
+    <e lm="massmediologo"><i>massmediolog</i><par n="tedesc/o__n"/></e>
     <e lm="masso"><i>mass</i><par n="abbain/o__n"/></e>
     <e lm="mastino"><i>mastin</i><par n="abbain/o__n"/></e>
     <e lm="mastro"><i>mastr</i><par n="abbain/o__n"/></e>
@@ -24621,8 +24623,8 @@
     <e lm="metano"><i>metan</i><par n="abbain/o__n"/></e>
     <e lm="metanodotto"><i>metanodott</i><par n="abbain/o__n"/></e>
     <e lm="metanolo"><i>metanol</i><par n="abbain/o__n"/></e>
-    <e lm="meteorologo"><i>meteorolog</i><par n="abbain/o__n"/></e>
-    <e lm="metereologo"><i>metereolog</i><par n="abbain/o__n"/></e>
+    <e lm="meteorologo"><i>meteorolog</i><par n="tedesc/o__n"/></e>
+    <e lm="metereologo"><i>metereolog</i><par n="tedesc/o__n"/></e>
     <e lm="métro"><i>métr</i><par n="abbain/o__n"/></e>
     <e lm="metronomo"><i>metronom</i><par n="abbain/o__n"/></e>
     <e lm="mezzadro"><i>mezzadr</i><par n="abbain/o__n"/></e>
@@ -24633,7 +24635,7 @@
     <e lm="mezzogiorno"><i>mezzogiorn</i><par n="abbain/o__n"/></e>
     <e lm="mezzosoprano"><i>mezzosopran</i><par n="abbain/o__n"/></e>
     <e lm="miagolio"><i>miagoli</i><par n="abbain/o__n"/></e>
-    <e lm="microbiologo"><i>microbiolog</i><par n="abbain/o__n"/></e>
+    <e lm="microbiologo"><i>microbiolog</i><par n="tedesc/o__n"/></e>
     <e lm="microbo"><i>microb</i><par n="abbain/o__n"/></e>
     <e lm="microcircuito"><i>microcircuit</i><par n="abbain/o__n"/></e>
     <e lm="microcosmo"><i>microcosm</i><par n="abbain/o__n"/></e>
@@ -24726,10 +24728,10 @@
     <e lm="musetto"><i>musett</i><par n="abbain/o__n"/></e>
     <e lm="musico"><i>music</i><par n="abbain/o__n"/></e>
     <e lm="musicofilo"><i>musicofil</i><par n="abbain/o__n"/></e>
-    <e lm="musicologo"><i>musicolog</i><par n="abbain/o__n"/></e>
+    <e lm="musicologo"><i>musicolog</i><par n="tedesc/o__n"/></e>
     <e lm="musino"><i>musin</i><par n="abbain/o__n"/></e>
     <e lm="muso"><i>mus</i><par n="abbain/o__n"/></e>
-    <e lm="mussulmano"><i>mussulman</i><par n="abbain/o__n"/></e>
+    <e lm="mussulmano"><i>mussulman</i><par n="bambin/o__n"/></e>
     <e lm="mutamento"><i>mutament</i><par n="abbain/o__n"/></e>
     <e lm="mutismo"><i>mutism</i><par n="abbain/o__n"/></e>
     <e lm="mutuo"><i>mutu</i><par n="abbain/o__n"/></e>
@@ -24765,7 +24767,7 @@
     <e lm="neoliberismo"><i>neoliberism</i><par n="abbain/o__n"/></e>
     <e lm="neologismo"><i>neologism</i><par n="abbain/o__n"/></e>
     <e lm="neoministro"><i>neoministr</i><par n="abbain/o__n"/></e>
-    <e lm="neonatologo"><i>neonatolog</i><par n="abbain/o__n"/></e>
+    <e lm="neonatologo"><i>neonatolog</i><par n="tedesc/o__n"/></e>
     <e lm="neonazismo"><i>neonazism</i><par n="abbain/o__n"/></e>
     <e lm="neopatentato"><i>neopatentat</i><par n="abbain/o__n"/></e>
     <e lm="neopromosso"><i>neopromoss</i><par n="abbain/o__n"/></e>
@@ -24779,9 +24781,9 @@
     <e lm="nesso"><i>ness</i><par n="abbain/o__n"/></e>
     <e lm="netto"><i>nett</i><par n="abbain/o__n"/></e>
     <e lm="netturbino"><i>netturbin</i><par n="abbain/o__n"/></e>
-    <e lm="neurobiologo"><i>neurobiolog</i><par n="abbain/o__n"/></e>
-    <e lm="neurofisiologo"><i>neurofisiolog</i><par n="abbain/o__n"/></e>
-    <e lm="neurologo"><i>neurolog</i><par n="abbain/o__n"/></e>
+    <e lm="neurobiologo"><i>neurobiolog</i><par n="tedesc/o__n"/></e>
+    <e lm="neurofisiologo"><i>neurofisiolog</i><par n="tedesc/o__n"/></e>
+    <e lm="neurologo"><i>neurolog</i><par n="tedesc/o__n"/></e>
     <e lm="neuroscienziato"><i>neuroscienziat</i><par n="abbain/o__n"/></e>
     <e lm="neutralismo"><i>neutralism</i><par n="abbain/o__n"/></e>
     <e lm="neutrino"><i>neutrin</i><par n="abbain/o__n"/></e>
@@ -24846,7 +24848,7 @@
     <e lm="omogeneizzato"><i>omogeneizzat</i><par n="abbain/o__n"/></e>
     <e lm="omonimo"><i>omonim</i><par n="abbain/o__n"/></e>
     <e lm="omuncolo"><i>omuncol</i><par n="abbain/o__n"/></e>
-    <e lm="oncologo"><i>oncolog</i><par n="abbain/o__n"/></e>
+    <e lm="oncologo"><i>oncolog</i><par n="tedesc/o__n"/></e>
     <e lm="ondeggiamento"><i>ondeggiament</i><par n="abbain/o__n"/></e>
     <e lm="onesto"><i>onest</i><par n="abbain/o__n"/></e>
     <e lm="operato"><i>operat</i><par n="abbain/o__n"/></e>
@@ -24865,7 +24867,7 @@
     <e lm="orientalismo"><i>orientalism</i><par n="abbain/o__n"/></e>
     <e lm="oriundo"><i>oriund</i><par n="abbain/o__n"/></e>
     <e lm="orlo"><i>orl</i><par n="abbain/o__n"/></e>
-    <e lm="ornitologo"><i>ornitolog</i><par n="abbain/o__n"/></e>
+    <e lm="ornitologo"><i>ornitolog</i><par n="tedesc/o__n"/></e>
     <e lm="orologino"><i>orologin</i><par n="abbain/o__n"/></e>
     <e lm="oroscopo"><i>oroscop</i><par n="abbain/o__n"/></e>
     <e lm="orpello"><i>orpell</i><par n="abbain/o__n"/></e>
@@ -24873,7 +24875,8 @@
     <e lm="orsacchiotto"><i>orsacchiott</i><par n="abbain/o__n"/></e>
     <e lm="orsetto"><i>orsett</i><par n="abbain/o__n"/></e>
     <e lm="orticello"><i>orticell</i><par n="abbain/o__n"/></e>
-    <e lm="ortodosso"><i>ortodoss</i><par n="abbain/o__n"/></e>
+    <e lm="ortodosso"><i>ortodoss</i><par n="bambin/o__n"/></e>
+    <e lm="ortodosso"><i>ortodoss</i><par n="cosiddett/o__adj"/></e>
     <e lm="ortolano"><i>ortolan</i><par n="abbain/o__n"/></e>
     <e lm="ortopedico"><i>ortopedic</i><par n="abbain/o__n"/></e>
     <e lm="oscuramento"><i>oscurament</i><par n="abbain/o__n"/></e>
@@ -24915,8 +24918,8 @@
     <e lm="palazzinaro"><i>palazzinar</i><par n="abbain/o__n"/></e>
     <e lm="palazzotto"><i>palazzott</i><par n="abbain/o__n"/></e>
     <e lm="palchetto"><i>palchett</i><par n="abbain/o__n"/></e>
-    <e lm="paleoantropologo"><i>paleoantropolog</i><par n="abbain/o__n"/></e>
-    <e lm="paleontologo"><i>paleontolog</i><par n="abbain/o__n"/></e>
+    <e lm="paleoantropologo"><i>paleoantropolog</i><par n="tedesc/o__n"/></e>
+    <e lm="paleontologo"><i>paleontolog</i><par n="tedesc/o__n"/></e>
     <e lm="palermitano"><i>palermitan</i><par n="abbain/o__n"/></e>
     <e lm="paletto"><i>palett</i><par n="abbain/o__n"/></e>
     <e lm="palinsensto"><i>palinsenst</i><par n="abbain/o__n"/></e>
@@ -24994,7 +24997,7 @@
     <e lm="patibolo"><i>patibol</i><par n="abbain/o__n"/></e>
     <e lm="patimento"><i>patiment</i><par n="abbain/o__n"/></e>
     <e lm="patito"><i>patit</i><par n="abbain/o__n"/></e>
-    <e lm="patologo"><i>patolog</i><par n="abbain/o__n"/></e>
+    <e lm="patologo"><i>patolog</i><par n="tedesc/o__n"/></e>
     <e lm="patriarcato"><i>patriarcat</i><par n="abbain/o__n"/></e>
     <e lm="patrigno"><i>patrign</i><par n="abbain/o__n"/></e>
     <e lm="patriottismo"><i>patriottism</i><par n="abbain/o__n"/></e>
@@ -25116,7 +25119,7 @@
     <e lm="pizzicotto"><i>pizzicott</i><par n="abbain/o__n"/></e>
     <e lm="pizzo"><i>pizz</i><par n="abbain/o__n"/></e>
     <e lm="placebo"><i>placeb</i><par n="abbain/o__n"/></e>
-    <e lm="planetologo"><i>planetolog</i><par n="abbain/o__n"/></e>
+    <e lm="planetologo"><i>planetolog</i><par n="tedesc/o__n"/></e>
     <e lm="plastico"><i>plastic</i><par n="abbain/o__n"/></e>
     <e lm="platano"><i>platan</i><par n="abbain/o__n"/></e>
     <e lm="platonismo"><i>platonism</i><par n="abbain/o__n"/></e>
@@ -25128,7 +25131,7 @@
     <e lm="plurilinguismo"><i>plurilinguism</i><par n="abbain/o__n"/></e>
     <e lm="pluripartitismo"><i>pluripartitism</i><par n="abbain/o__n"/></e>
     <e lm="plutonio"><i>plutoni</i><par n="abbain/o__n"/></e>
-    <e lm="podologo"><i>podolog</i><par n="abbain/o__n"/></e>
+    <e lm="podologo"><i>podolog</i><par n="tedesc/o__n"/></e>
     <e lm="poemetto"><i>poemett</i><par n="abbain/o__n"/></e>
     <e lm="polemico"><i>polemic</i><par n="abbain/o__n"/></e>
     <e lm="policlinico"><i>policlinic</i><par n="abbain/o__n"/></e>
@@ -25136,7 +25139,7 @@
     <e lm="polimero"><i>polimer</i><par n="abbain/o__n"/></e>
     <e lm="polistirolo"><i>polistirol</i><par n="abbain/o__n"/></e>
     <e lm="politecnico"><i>politecnic</i><par n="abbain/o__n"/></e>
-    <e lm="politologo"><i>politolog</i><par n="abbain/o__n"/></e>
+    <e lm="politologo"><i>politolog</i><par n="tedesc/o__n"/></e>
     <e lm="poliuretano"><i>poliuretan</i><par n="abbain/o__n"/></e>
     <e lm="pollastro"><i>pollastr</i><par n="abbain/o__n"/></e>
     <e lm="polpastrello"><i>polpastrell</i><par n="abbain/o__n"/></e>
@@ -25354,7 +25357,7 @@
     <e lm="radicamento"><i>radicament</i><par n="abbain/o__n"/></e>
     <e lm="radiocomando"><i>radiocomand</i><par n="abbain/o__n"/></e>
     <e lm="radiogoniometro"><i>radiogoniometr</i><par n="abbain/o__n"/></e>
-    <e lm="radiologo"><i>radiolog</i><par n="abbain/o__n"/></e>
+    <e lm="radiologo"><i>radiolog</i><par n="tedesc/o__n"/></e>
     <e lm="radiomicrofono"><i>radiomicrofon</i><par n="abbain/o__n"/></e>
     <e lm="radiotelefono"><i>radiotelefon</i><par n="abbain/o__n"/></e>
     <e lm="raduno"><i>radun</i><par n="abbain/o__n"/></e>
@@ -25616,7 +25619,7 @@
     <e lm="ruggito"><i>ruggit</i><par n="abbain/o__n"/></e>
     <e lm="rullino"><i>rullin</i><par n="abbain/o__n"/></e>
     <e lm="rullo"><i>rull</i><par n="abbain/o__n"/></e>
-    <e lm="rumeno"><i>rumen</i><par n="abbain/o__n"/></e>
+    <e lm="rumeno"><i>rumen</i><par n="bambin/o__n"/></e>
     <e lm="ruolino"><i>ruolin</i><par n="abbain/o__n"/></e>
     <e lm="ruttino"><i>ruttin</i><par n="abbain/o__n"/></e>
     <e lm="rutto"><i>rutt</i><par n="abbain/o__n"/></e>
@@ -25790,7 +25793,7 @@
     <e lm="semilibero"><i>semiliber</i><par n="abbain/o__n"/></e>
     <e lm="seminato"><i>seminat</i><par n="abbain/o__n"/></e>
     <e lm="seminterrato"><i>seminterrat</i><par n="abbain/o__n"/></e>
-    <e lm="semiologo"><i>semiolog</i><par n="abbain/o__n"/></e>
+    <e lm="semiologo"><i>semiolog</i><par n="tedesc/o__n"/></e>
     <e lm="semipresidenzialismo"><i>semipresidenzialism</i><par n="abbain/o__n"/></e>
     <e lm="semitono"><i>semiton</i><par n="abbain/o__n"/></e>
     <e lm="sempiterno"><i>sempitern</i><par n="abbain/o__n"/></e>
@@ -25811,8 +25814,8 @@
     <e lm="servizietto"><i>serviziett</i><par n="abbain/o__n"/></e>
     <e lm="servosterzo"><i>servosterz</i><par n="abbain/o__n"/></e>
     <e lm="sessantottino"><i>sessantottin</i><par n="abbain/o__n"/></e>
-    <e lm="sessuofobo"><i>sessuofob</i><par n="abbain/o__n"/></e>
-    <e lm="sessuologo"><i>sessuolog</i><par n="abbain/o__n"/></e>
+    <e lm="sessuofobo"><i>sessuofob</i><par n="bambin/o__n"/></e>
+    <e lm="sessuologo"><i>sessuolog</i><par n="tedesc/o__n"/></e>
     <e lm="sestetto"><i>sestett</i><par n="abbain/o__n"/></e>
     <e lm="settarismo"><i>settarism</i><par n="abbain/o__n"/></e>
     <e lm="settennato"><i>settennat</i><par n="abbain/o__n"/></e>
@@ -25875,19 +25878,20 @@
     <e lm="singulto"><i>singult</i><par n="abbain/o__n"/></e>
     <e lm="sinistro"><i>sinistr</i><par n="abbain/o__n"/></e>
     <e lm="sinodo"><i>sinod</i><par n="abbain/o__n"/></e>
-    <e lm="sinologo"><i>sinolog</i><par n="abbain/o__n"/></e>
+    <e lm="sinologo"><i>sinolog</i><par n="tedesc/o__n"/></e>
     <e lm="sintomo"><i>sintom</i><par n="abbain/o__n"/></e>
     <e lm="sionismo"><i>sionism</i><par n="abbain/o__n"/></e>
     <e lm="siparietto"><i>sipariett</i><par n="abbain/o__n"/></e>
     <e lm="siracusano"><i>siracusan</i><par n="abbain/o__n"/></e>
     <e lm="siriano"><i>sirian</i><par n="abbain/o__n"/></e>
     <e lm="sismografo"><i>sismograf</i><par n="abbain/o__n"/></e>
-    <e lm="sismologo"><i>sismolog</i><par n="abbain/o__n"/></e>
+    <e lm="sismologo"><i>sismolog</i><par n="tedesc/o__n"/></e>
     <e lm="sistemino"><i>sistemin</i><par n="abbain/o__n"/></e>
     <e lm="slavo"><i>slav</i><par n="abbain/o__n"/></e>
     <e lm="slittamento"><i>slittament</i><par n="abbain/o__n"/></e>
     <e lm="slittino"><i>slittin</i><par n="abbain/o__n"/></e>
-    <e lm="sloveno"><i>sloven</i><par n="abbain/o__n"/></e>
+    <e lm="sloveno"><i>sloven</i><par n="bambin/o__n"/></e>
+    <e lm="slovacco"><i>slovacc</i><par n="tedesc/o__n"/></e>
     <e lm="smaliziato"><i>smaliziat</i><par n="abbain/o__n"/></e>
     <e lm="smaltimento"><i>smaltiment</i><par n="abbain/o__n"/></e>
     <e lm="smantellamento"><i>smantellament</i><par n="abbain/o__n"/></e>
@@ -25905,7 +25909,7 @@
     <e lm="sobbalzo"><i>sobbalz</i><par n="abbain/o__n"/></e>
     <e lm="soccorso"><i>soccors</i><par n="abbain/o__n"/></e>
     <e lm="socialdemocratico"><i>socialdemocratic</i><par n="abbain/o__n"/></e>
-    <e lm="sociobiologo"><i>sociobiolog</i><par n="abbain/o__n"/></e>
+    <e lm="sociobiologo"><i>sociobiolog</i><par n="tedesc/o__n"/></e>
     <e lm="sociologismo"><i>sociologism</i><par n="abbain/o__n"/></e>
     <e lm="soddisfacimento"><i>soddisfaciment</i><par n="abbain/o__n"/></e>
     <e lm="soffietto"><i>soffiett</i><par n="abbain/o__n"/></e>
@@ -25966,7 +25970,7 @@
     <e lm="sottotipo"><i>sottotip</i><par n="abbain/o__n"/></e>
     <e lm="sottotitolo"><i>sottotitol</i><par n="abbain/o__n"/></e>
     <e lm="sovietico"><i>sovietic</i><par n="abbain/o__n"/></e>
-    <e lm="sovietologo"><i>sovietolog</i><par n="abbain/o__n"/></e>
+    <e lm="sovietologo"><i>sovietolog</i><par n="tedesc/o__n"/></e>
     <e lm="sovracuto"><i>sovracut</i><par n="abbain/o__n"/></e>
     <e lm="sovraffollamento"><i>sovraffollament</i><par n="abbain/o__n"/></e>
     <e lm="sovrappasso"><i>sovrappass</i><par n="abbain/o__n"/></e>
@@ -25990,7 +25994,7 @@
     <e lm="specialismo"><i>specialism</i><par n="abbain/o__n"/></e>
     <e lm="specifico"><i>specific</i><par n="abbain/o__n"/></e>
     <e lm="spegnimento"><i>spegniment</i><par n="abbain/o__n"/></e>
-    <e lm="speleologo"><i>speleolog</i><par n="abbain/o__n"/></e>
+    <e lm="speleologo"><i>speleolog</i><par n="tedesc/o__n"/></e>
     <e lm="spensierato"><i>spensierat</i><par n="abbain/o__n"/></e>
     <e lm="spericolato"><i>spericolat</i><par n="abbain/o__n"/></e>
     <e lm="sperimentalismo"><i>sperimentalism</i><par n="abbain/o__n"/></e>
@@ -26182,7 +26186,7 @@
     <e lm="tavolino"><i>tavolin</i><par n="abbain/o__n"/></e>
     <e lm="teatrino"><i>teatrin</i><par n="abbain/o__n"/></e>
     <e lm="tecnicismo"><i>tecnicism</i><par n="abbain/o__n"/></e>
-    <e lm="tecnologo"><i>tecnolog</i><par n="abbain/o__n"/></e>
+    <e lm="tecnologo"><i>tecnolog</i><par n="tedesc/o__n"/></e>
     <e lm="tedio"><i>tedi</i><par n="abbain/o__n"/></e>
     <e lm="tedoforo"><i>tedofor</i><par n="abbain/o__n"/></e>
     <e lm="telecomando"><i>telecomand</i><par n="abbain/o__n"/></e>
@@ -26206,7 +26210,7 @@
     <e lm="tenorino"><i>tenorin</i><par n="abbain/o__n"/></e>
     <e lm="tentacolo"><i>tentacol</i><par n="abbain/o__n"/></e>
     <e lm="tentennamento"><i>tentennament</i><par n="abbain/o__n"/></e>
-    <e lm="teologo"><i>teolog</i><par n="abbain/o__n"/></e>
+    <e lm="teologo"><i>teolog</i><par n="tedesc/o__n"/></e>
     <e lm="teorico"><i>teoric</i><par n="abbain/o__n"/></e>
     <e lm="teppismo"><i>teppism</i><par n="abbain/o__n"/></e>
     <e lm="tergicristallo"><i>tergicristall</i><par n="abbain/o__n"/></e>
@@ -26276,9 +26280,9 @@
     <e lm="tortello"><i>tortell</i><par n="abbain/o__n"/></e>
     <e lm="torto"><i>tort</i><par n="abbain/o__n"/></e>
     <e lm="torturato"><i>torturat</i><par n="abbain/o__n"/></e>
-    <e lm="toscano"><i>toscan</i><par n="abbain/o__n"/></e>
+    <e lm="toscano"><i>toscan</i><par n="bambin/o__n"/></e>
     <e lm="tossico"><i>tossic</i><par n="abbain/o__n"/></e>
-    <e lm="tossicologo"><i>tossicolog</i><par n="abbain/o__n"/></e>
+    <e lm="tossicologo"><i>tossicolog</i><par n="tedesc/o__n"/></e>
     <e lm="totalitarismo"><i>totalitarism</i><par n="abbain/o__n"/></e>
     <e lm="totonero"><i>totoner</i><par n="abbain/o__n"/></e>
     <e lm="tovagliolino"><i>tovagliolin</i><par n="abbain/o__n"/></e>
@@ -26370,7 +26374,8 @@
     <e lm="turbinio"><i>turbini</i><par n="abbain/o__n"/></e>
     <e lm="turbolento"><i>turbolent</i><par n="abbain/o__n"/></e>
     <e lm="turibolo"><i>turibol</i><par n="abbain/o__n"/></e>
-    <e lm="tuttologo"><i>tuttolog</i><par n="abbain/o__n"/></e>
+    <e lm="tuttologo"><i>tuttolog</i><par n="tedesc/o__n"/></e>
+    <e lm="turcologo"><i>turcolog</i><par n="tedesc/o__n"/></e>
     <e lm="uccellino"><i>uccellin</i><par n="abbain/o__n"/></e>
     <e lm="ucciso"><i>uccis</i><par n="abbain/o__n"/></e>
     <e lm="ucraino"><i>ucrain</i><par n="bambin/o__n"/></e>
@@ -26379,7 +26384,8 @@
     <e lm="ulano"><i>ulan</i><par n="abbain/o__n"/></e>
     <e lm="uliveto"><i>ulivet</i><par n="abbain/o__n"/></e>
     <e lm="ultimo"><i>ultim</i><par n="abbain/o__n"/></e>
-    <e lm="ultraortodosso"><i>ultraortodoss</i><par n="abbain/o__n"/></e>
+    <e lm="ultraortodosso"><i>ultraortodoss</i><par n="bambin/o__n"/></e>
+    <e lm="ultraortodosso"><i>ultraortodoss</i><par n="cosiddett/o__adj"/></e>
     <e lm="ululato"><i>ululat</i><par n="abbain/o__n"/></e>
     <e lm="umanesimo"><i>umanesim</i><par n="abbain/o__n"/></e>
     <e lm="umbro"><i>umbr</i><par n="abbain/o__n"/></e>
@@ -26393,7 +26399,7 @@
     <e lm="uno"><i>un</i><par n="abbain/o__n"/></e>
     <e lm="unto"><i>unt</i><par n="abbain/o__n"/></e>
     <e lm="urletto"><i>urlett</i><par n="abbain/o__n"/></e>
-    <e lm="urologo"><i>urolog</i><par n="abbain/o__n"/></e>
+    <e lm="urologo"><i>urolog</i><par n="tedesc/o__n"/></e>
     <e lm="urto"><i>urt</i><par n="abbain/o__n"/></e>
     <e lm="uruguayano"><i>uruguayan</i><par n="abbain/o__n"/></e>
     <e lm="uso"><i>us</i><par n="abbain/o__n"/></e>
@@ -26475,7 +26481,7 @@
     <e lm="viottolo"><i>viottol</i><par n="abbain/o__n"/></e>
     <e lm="virgolettato"><i>virgolettat</i><par n="abbain/o__n"/></e>
     <e lm="virgulto"><i>virgult</i><par n="abbain/o__n"/></e>
-    <e lm="virologo"><i>virolog</i><par n="abbain/o__n"/></e>
+    <e lm="virologo"><i>virolog</i><par n="tedesc/o__n"/></e>
     <e lm="virtuosismo"><i>virtuosism</i><par n="abbain/o__n"/></e>
     <e lm="virtuoso"><i>virtuos</i><par n="abbain/o__n"/></e>
     <e lm="visetto"><i>visett</i><par n="abbain/o__n"/></e>
@@ -26500,9 +26506,10 @@
     <e lm="volontarismo"><i>volontarism</i><par n="abbain/o__n"/></e>
     <e lm="volumetto"><i>volumett</i><par n="abbain/o__n"/></e>
     <e lm="voyeurismo"><i>voyeurism</i><par n="abbain/o__n"/></e>
-    <e lm="vulcanologo"><i>vulcanolog</i><par n="abbain/o__n"/></e>
+    <e lm="vulcanologo"><i>vulcanolog</i><par n="tedesc/o__n"/></e>
     <e lm="watusso"><i>watuss</i><par n="abbain/o__n"/></e>
-    <e lm="xenofobo"><i>xenofob</i><par n="abbain/o__n"/></e>
+    <e lm="xenofobo"><i>xenofob</i><par n="bambin/o__n"/></e>
+    <e lm="xenofobo"><i>xenofob</i><par n="cosiddett/o__adj"/></e>
     <e lm="xenotrapianto"><i>xenotrapiant</i><par n="abbain/o__n"/></e>
     <e lm="yuppismo"><i>yuppism</i><par n="abbain/o__n"/></e>
     <e lm="zainetto"><i>zainett</i><par n="abbain/o__n"/></e>
@@ -26518,7 +26525,7 @@
     <e lm="zingaro"><i>zingar</i><par n="abbain/o__n"/></e>
     <e lm="zoccolo"><i>zoccol</i><par n="abbain/o__n"/></e>
     <e lm="zolfo"><i>zolf</i><par n="abbain/o__n"/></e>
-    <e lm="zoologo"><i>zoolog</i><par n="abbain/o__n"/></e>
+    <e lm="zoologo"><i>zoolog</i><par n="tedesc/o__n"/></e>
 
     <e lm="adulazione"><i>adulazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="adulterazione"><i>adulterazion</i><par n="abbreviazion/e__n"/></e>
@@ -29331,6 +29338,8 @@
     <e lm="omeopatia"><i>omeopati</i><par n="cas/a__n"/></e>
     <e lm="omicidio"><i>omicidi</i><par n="abbagli/o__n"/></e>
     <e lm="omofobia"><i>omofobi</i><par n="cas/a__n"/></e>
+    <e lm="omofobo"><i>omofob</i><par n="bambin/o__n"/></e>
+    <e lm="omofobo"><i>omofob</i><par n="cosiddett/o__adj"/></e>
     <e lm="omologazione"><i>omologazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="omosessuale"><i>omosessual</i><par n="abat/e__n"/></e>
     <e lm="omosessualità"><i>omosessualità</i><par n="abilità__n"/></e>
@@ -30036,7 +30045,7 @@
     <e lm="ruota"><i>ruot</i><par n="cas/a__n"/></e>
     <e lm="ruscello"><i>ruscell</i><par n="abbain/o__n"/></e>
     <e lm="ruspa"><i>rusp</i><par n="cas/a__n"/></e>
-    <e lm="russo"><i>russ</i><par n="abbain/o__n"/></e>
+    <e lm="russo"><i>russ</i><par n="bambin/o__n"/></e>
     <e lm="sabato"><i>sabat</i><par n="abbain/o__n"/></e>
     <e lm="sabbia"><i>sabbi</i><par n="cas/a__n"/></e>
     <e lm="sabotaggio"><i>sabotaggi</i><par n="abbagli/o__n"/></e>
@@ -32634,6 +32643,7 @@
     <e lm="rumoroso"><i>rumoros</i><par n="abbandonat/o__adj"/></e>
     <e lm="rurale"><i>rural</i><par n="albanes/e__adj"/></e>
     <e lm="russo"><i>russ</i><par n="cosiddett/o__adj"/></e>
+    <e lm="bielorusso"><i>bieloruss</i><par n="cosiddett/o__adj"/></e>
     <e lm="sacro"><i>sacr</i><par n="abbandonat/o__adj"/></e>
     <e lm="salariale"><i>salarial</i><par n="albanes/e__adj"/></e>
     <e lm="salato"><i>salat</i><par n="abbandonat/o__adj"/></e>
@@ -36664,6 +36674,7 @@
     <e lm="buio"><i>bui</i><par n="ampi/o__adj"/></e>
     <e lm="sdentato"><i>sdentat</i><par n="cosiddett/o__adj"/></e>
     <e lm="sloveno"><i>sloven</i><par n="cosiddett/o__adj"/></e>
+    <e lm="slovacco"><i>slovacc</i><par n="cosiddett/o__adj"/></e>
     <e lm="sciolto"><i>sciolt</i><par n="cosiddett/o__adj"/></e>
     <e lm="sparso"><i>spars</i><par n="cosiddett/o__adj"/></e>
     <e lm="statutario"><i>statutari</i><par n="ampi/o__adj"/></e>
