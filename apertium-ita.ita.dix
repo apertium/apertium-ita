@@ -6616,6 +6616,82 @@
       <e><p><l>sca</l><r>scere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="god/ere__vblex">
+      <e><p><l>eremmo</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>erei</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ereste</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>eresti</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>erebbero</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>erebbe</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>remmo</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>rei</l><r>ere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>reste</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>resti</l><r>ere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>rebbero</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>rebbe</l><r>ere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>remo</l><r>ere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>rò</l><r>ere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>rete</l><r>ere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>rai</l><r>ere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ranno</l><r>ere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>rà</l><r>ere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>endo</l><r>ere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>endo</l><r>ere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e><p><l>emmo</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ei</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>etti</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>este</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>esti</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>erono</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ettero</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ette</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>è</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ano</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>ere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>er</l><r>ere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ere</l><r>ere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>er</l><r>ere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e><p><l>evamo</l><r>ere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>evo</l><r>ere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>evate</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>evi</l><r>ere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>evan</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>evano</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>eva</l><r>ere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>essimo</l><r>ere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>essi</l><r>ere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>este</l><r>ere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>essi</l><r>ere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>esser</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>essero</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>esse</l><r>ere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ute</l><r>ere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>uta</l><r>ere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>uti</l><r>ere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>uto</l><r>ere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>o</l><r>ere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ete</l><r>ere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>ere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>on</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ono</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>ere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iamo</l><r>ere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>iate</l><r>ere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>an</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ano</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>ere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="cuc/ire__vblex">
       <e><p><l>iremmo</l><r>ire<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>irei</l><r>ire<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -19901,7 +19977,7 @@
     <e lm="semestrale"><i>semestral</i><par n="agroalimentar/e__adj"/></e>
     <e lm="scorso"><i>scors</i><par n="cosiddett/o__adj"/></e>
     <e lm="scoglio"><i>scogl</i><par n="marina/io__n"/></e>
-      <e r="LR" lm="dire pronta a"><i>d</i><par n="d/ire__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e>
+    <e r="LR" lm="dire pronta a"><i>d</i><par n="d/ire__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e>
 <!--    
       <e r="LR" lm="essere pronta a"><i></i><par n="/essere__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e> -->
       <e r="LR" lm="guidato da"><i>guidat</i><par n="abbandonat/o__adj"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
@@ -32944,7 +33020,9 @@
     <e lm="dovere essere"><i>d</i><par n="d/overe__vbmod"/><p><l><b/>essere</l><r><g><b/>essere</g></r></p></e>-->
     <e lm="avere bisogno di"><par n="/avere_bisogno_di__vbmod"/></e>
     <e lm="avere bisogno che"><par n="/avere_bisogno_che__vbmod"/></e>
-      <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
+    <e lm="avere bisogno"><i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
+    <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
+    <e lm="fare erba"><i>f</i><par n="f/are__vblex"/><p><l><b/>erba</l><r><g><b/>erba</g></r></p></e>
 
 <!--       ******************************      (cnjsub) group      ******************************    -->
     <e lm="anche se"><i>anche<b/>se</i><par n="affinché__cnjsub"/></e>
@@ -33060,12 +33138,15 @@
     <e lm="sterminare"><i>stermin</i><par n="abbacin/are__vblex"/></e>
     <e lm="esplorare"><i>esplor</i><par n="abbacin/are__vblex"/></e>
     <e lm="fiorire"><i>fior</i><par n="abbell/ire__vblex"/></e>
+    <e lm="inerbire"><i>inerb</i><par n="abbell/ire__vblex"/></e>
     <e lm="proibire"><i>proib</i><par n="abbell/ire__vblex"/></e>
     <e lm="inserire"><i>inser</i><par n="abbell/ire__vblex"/></e>
     <e lm="ammonire"><i>ammon</i><par n="abbell/ire__vblex"/></e>
     <e lm="civilizzare"><i>civilizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="normativizzare"><i>normativizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="commercializzare"><i>commercializz</i><par n="abbacin/are__vblex"/></e>
     <e lm="classificare"><i>classific</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="delegificare"><i>delegific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="piegare"><i>pieg</i><par n="alberg/are__vblex"/></e>
     <e lm="promettere"><i>prom</i><par n="amm/ettere__vblex"/></e>
     <e lm="simboleggiare"><i>simbolegg</i><par n="abbiosc/iare__vblex"/></e>
@@ -33397,6 +33478,9 @@
     <e lm="cacare"><i>cac</i><par n="abbarbic/are__vblex"/></e>
     <e lm="cacciare"><i>cacc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="cadere"><i>ca</i><par n="ca/dere__vblex"/></e>
+    <e lm="accadere"><i>acca</i><par n="ca/dere__vblex"/></e>
+    <e lm="accidere"><i>acci</i><par n="ca/dere__vblex"/></e>
+    <e lm="riaccadere"><i>riacca</i><par n="ca/dere__vblex"/></e>
     <e lm="cagare"><i>cag</i><par n="abbarbic/are__vblex"/></e>
     <e lm="calare"><i>cal</i><par n="abbacin/are__vblex"/></e>
     <e lm="calcolare"><i>calcol</i><par n="abbacin/are__vblex"/></e>
@@ -33526,6 +33610,8 @@
     <e lm="crescere"><i>cre</i><par n="cre/scere__vblex"/></e>
     <e lm="creare"><i>cre</i><par n="abbacin/are__vblex"/></e>
     <e lm="credere"><i>cred</i><par n="cred/ere__vblex"/></e>
+    <e lm="godere"><i>god</i><par n="cred/ere__vblex"/></e>
+    <e lm="stragodere"><i>stragod</i><par n="cred/ere__vblex"/></e>
     <e lm="criticare"><i>critic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="cucire"><i>cuc</i><par n="cuc/ire__vblex"/></e>
     <e lm="cucinare"><i>cucin</i><par n="abbacin/are__vblex"/></e>
@@ -33792,6 +33878,7 @@
     <e lm="lustrare"><i>lustr</i><par n="abbacin/are__vblex"/></e>
     <e lm="morire"><i>m</i><par n="m/orire__vblex"/></e>
     <e lm="mettere"><i>m</i><par n="amm/ettere__vblex"/></e>
+    <e lm="mettere insieme"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>insieme</l><r><g><b/>insieme</g></r></p></e>
     <e lm="malversare"><i>malvers</i><par n="abbacin/are__vblex"/></e>
     <e lm="mancare"><i>manc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="mandare"><i>mand</i><par n="abbacin/are__vblex"/></e>
