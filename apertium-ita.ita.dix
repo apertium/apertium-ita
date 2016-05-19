@@ -286,6 +286,8 @@
     </pardef>
  -->
     <pardef n="S__cantiamo">
+      <e r="RL"><p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>	<!-- provisionalmente, como S__canta -->
+      <e r="RL"><p><l>te</l><r>ti<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>	<!-- provisionalmente, como S__canta -->
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandomi"/></e>
       <e><p><l>ti</l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -305,6 +307,7 @@
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e r="RL"><p><l>ce</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantarci"/></e> <!-- provisionalmente, como S__canta -->
     </pardef>
 
     <pardef n="S__da"> <!-- Para los imperativos monosílabos -->
