@@ -20118,6 +20118,27 @@
     <e lm="revisare"><i>revis</i><par n="abbacin/are__vblex"/></e>
     <e lm="concoradare"><i>concorad</i><par n="abbacin/are__vblex"/></e>
     <e lm="convenzionare"><i>convenzion</i><par n="abbacin/are__vblex"/></e>
+    <e lm="concoradare"><i>concorad</i><par n="abbacin/are__vblex"/></e>
+    <e lm="calculare"><i>calcul</i><par n="abbacin/are__vblex"/></e>
+    <e lm="areggiare"><i>aregg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="assembleare"><i>assemble</i><par n="abbacin/are__vblex"/></e>
+    <e lm="pagliare"><i>pagli</i><par n="abbacin/are__vblex"/></e>
+    <e lm="patentare"><i>patent</i><par n="abbacin/are__vblex"/></e>
+    <e lm="proseggiare"><i>prosegg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="poetare"><i>poet</i><par n="abbacin/are__vblex"/></e>
+    <e lm="mazzare"><i>mazz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="melare"><i>mel</i><par n="abbacin/are__vblex"/></e>
+    <e lm="gragnuolare"><i>gragnuol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="avocare"><i>avoc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="appropiare"><i>appropi</i><par n="abbacin/are__vblex"/></e>
+    <e lm="abbiadare"><i>abbiad</i><par n="abbacin/are__vblex"/></e>
+    <e lm="mietere"><i>miet</i><par n="abbatt/ere__vblex"/></e>
+    <e lm="presiedere"><i>presi</i><par n="poss/edere__vblex"/></e>
+    <e lm="risedere"><i>ris</i><par n="s/edere__vblex"/></e>
+    <e lm="risiedere"><i>risi</i><par n="s/edere__vblex"/></e>
+    <e lm="soprassedere"><i>soprass</i><par n="s/edere__vblex"/></e>
+    <e lm="abbonire"><i>abbon</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="impelosire"><i>impelos</i><par n="abbrut/ire__vblex"/></e>
 
 
     <e lm="fissare"><i>fiss</i><par n="abbacin/are__vblex"/></e>
@@ -33098,15 +33119,18 @@
     <e lm="avere bisogno"><i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
     <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
     <e lm="dare una conferenza"><i>f</i><par n="d/are__vblex"/><p><l><b/>una<b/>conferenza</l><r><g><b/>una<b/>conferenza</g></r></p></e>
+    <e lm="fare attenzione"><i>f</i><par n="f/are__vblex"/><p><l><b/>attenzione</l><r><g><b/>attenzione</g></r></p></e>
     <e lm="fare erba"><i>f</i><par n="f/are__vblex"/><p><l><b/>erba</l><r><g><b/>erba</g></r></p></e>
     <e lm="fare ombra"><i>f</i><par n="f/are__vblex"/><p><l><b/>ombra</l><r><g><b/>ombra</g></r></p></e>
     <e lm="fare male"><i>f</i><par n="f/are__vblex"/><p><l><b/>male</l><r><g><b/>male</g></r></p></e>
     <e lm="fare figli"><i>f</i><par n="f/are__vblex"/><p><l><b/>figli</l><r><g><b/>figli</g></r></p></e>
     <e lm="fare il formaggio"><i>f</i><par n="f/are__vblex"/><p><l><b/>il<b/>formaggio</l><r><g><b/>il<b/>formaggio</g></r></p></e>
     <e lm="fare legna"><i>f</i><par n="f/are__vblex"/><p><l><b/>legna</l><r><g><b/>legna</g></r></p></e>
+    <e lm="fare poesie"><i>f</i><par n="f/are__vblex"/><p><l><b/>poesie</l><r><g><b/>poesie</g></r></p></e>
     <e lm="fare una ragazzata"><i>f</i><par n="f/are__vblex"/><p><l><b/>una<b/>ragazzata</l><r><g><b/>una<b/>ragazzata</g></r></p></e>
     <e lm="mandare via"><i>mand</i><par n="abbacin/are__vblex"/><p><l><b/>via</l><r><g><b/>via</g></r></p></e>
     <e lm="mettere insieme"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>insieme</l><r><g><b/>insieme</g></r></p></e>
+    <e lm="passare la settimana"><i>pass</i><par n="abbacin/are__vblex"/><p><l><b/>la<b/>settimana</l><r><g><b/>la<b/>settimana</g></r></p></e>
     <e lm="prendere coscienza"><i>pre</i><par n="acce/ndere__vblex"/><p><l><b/>coscienza</l><r><g><b/>coscienza</g></r></p></e>
     <e lm="raccontare storie"><i>raccont</i><par n="abbacin/are__vblex"/><p><l><b/>storie</l><r><g><b/>storie</g></r></p></e>
 
@@ -34385,14 +34409,14 @@
     <e lm="acconsentire"><i>acconsent</i><par n="abbrut/ire__vblex"/></e>
     <e lm="accontentare"><i>accontent</i><par n="abbacin/are__vblex"/></e>
     <e lm="accoppiare"><i>accoppi</i><par n="abbacchi/are__vblex"/></e>
-    <e lm="accorciare"><i>accorc</i><par n="abbacchi/are__vblex"/></e>
+    <e lm="accorciare"><i>accorc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="accorgere"><i>accor</i><par n="accin/gere__vblex"/></e>
     <e lm="accostare"><i>accost</i><par n="abbacin/are__vblex"/></e>
     <e lm="acquisire"><i>acquis</i><par n="abbell/ire__vblex"/></e>
     <e lm="acuire"><i>acu</i><par n="abbell/ire__vblex"/></e>
     <e lm="addolorare"><i>addolor</i><par n="abbacin/are__vblex"/></e>
     <e lm="addormentare"><i>addorment</i><par n="abbacin/are__vblex"/></e>
-    <e lm="adempiere"><i>ademp</i><par n="compi/ere__vblex"/></e> <!-- FIXME: CHECK: adempiere, adempire: cf. verbix.com -->
+    <e lm="adempiere"><i>adempi</i><par n="compi/ere__vblex"/></e> <!-- FIXME: CHECK: adempiere, adempire: cf. verbix.com -->
     <e lm="adibire"><i>adib</i><par n="abbell/ire__vblex"/></e>
     <e lm="adirare"><i>adir</i><par n="abbacin/are__vblex"/></e>
     <e lm="adocchiare"><i>adocchi</i><par n="abbacchi/are__vblex"/></e>
@@ -34524,7 +34548,6 @@
     <e lm="intervenire"><i>interv</i><par n="avv/enire__vblex"/></e>
     <e lm="intravvenire"><i>intravv</i><par n="avv/enire__vblex"/></e>
     <e lm="pervenire"><i>perv</i><par n="avv/enire__vblex"/></e>
-    <e lm="provenire"><i>prov</i><par n="avv/enire__vblex"/></e>
     <e lm="riconvenire"><i>riconv</i><par n="avv/enire__vblex"/></e>
     <e lm="rinvenire"><i>rinv</i><par n="avv/enire__vblex"/></e>
     <e lm="rivenire"><i>riv</i><par n="avv/enire__vblex"/></e>
