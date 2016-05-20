@@ -20139,6 +20139,8 @@
     <e lm="soprassedere"><i>soprass</i><par n="s/edere__vblex"/></e>
     <e lm="abbonire"><i>abbon</i><par n="abbrut/ire__vblex"/></e>
     <e lm="impelosire"><i>impelos</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="avocare"><i>avoc</i><par n="abbacin/are__vblex"/></e>
+    <e lm="federare"><i>feder</i><par n="abbacin/are__vblex"/></e>
 
 
     <e lm="fissare"><i>fiss</i><par n="abbacin/are__vblex"/></e>
@@ -20362,7 +20364,6 @@
     <e lm="Btp" c="Buono del Tesoro Poliennale"><i>Btp</i><par n="BBVA__n"/></e>
     <e lm="Bloomberg"><i>Bloomberg</i><par n="ABC__np"/></e>
     <e lm="Asl" c="Azienda Sanitaria Locale"><i>Asl</i><par n="TV__n"/></e>
-      <e r="LR" lm="stretta"><i>strett</i><par n="cas/a__n"/></e>
     <e lm="bisogno"><i>bisogn</i><par n="abbain/o__n"/></e>
     <e lm="corporate tax"><i>corporate<b/>tax</i><par n="abilità__n"/></e>
     <e lm="ecco"><i>ecco</i><par n="salve__ij"/></e>
@@ -36407,6 +36408,29 @@
     <e lm="sospettosamente"><i>sospettosamente</i><par n="ieri__adv"/></e>
     <e lm="inaccettabilmente"><i>inaccettabilmente</i><par n="ieri__adv"/></e>
     <e lm="a posteriori"><i>a<b/>posteriori</i><par n="ieri__adv"/></e>
+    <e lm="esimente"><i>esimente</i><par n="ieri__adv"/></e>
+    <e lm="nulla"><i>nulla</i><par n="ieri__adv"/></e>
+    <e lm="tuttavia"><i>tuttavia</i><par n="ieri__adv"/></e>
+    <e lm="improvvisamente"><i>improvvisamente</i><par n="ieri__adv"/></e>
+    <e lm="di meno"><i>di<b/>meno</i><par n="ieri__adv"/></e>
+    <e lm="infatti"><i>infatti</i><par n="ieri__adv"/></e>
+    <e lm="quest'anno"><i>quest'anno</i><par n="ieri__adv"/></e>
+    <e lm="se nel caso"><i>se nel caso</i><par n="ieri__adv"/></e>
+    <e lm="siccome"><i>sottilmente</i><par n="ieri__adv"/></e>
+    <e lm="qua"><i>qua</i><par n="ieri__adv"/></e>
+    <e lm="in poco tempo"><i>in poco tempo</i><par n="ieri__adv"/></e>
+    <e lm="in avanti"><i>in avanti</i><par n="ieri__adv"/></e>
+    <e lm="in mezzo"><i>in mezzo</i><par n="ieri__adv"/></e>
+    <e lm="di meno"><i>di meno</i><par n="ieri__adv"/></e>
+    <e lm="appresso"><i>appresso</i><par n="ieri__adv"/></e>
+    <e lm="ala"><i>ala</i><par n="ieri__adv"/></e>
+    <e lm="di sera"><i>di sera</i><par n="ieri__adv"/></e>
+    <e lm="a forza"><i>a forza</i><par n="ieri__adv"/></e>
+    <e lm="avantieri"><i>avantieri</i><par n="ieri__adv"/></e>
+    <e lm="stesso"><i>stesso</i><par n="ieri__adv"/></e>
+    <e lm="meglio"><i>meglio</i><par n="ieri__adv"/></e>
+
+
     <e lm="abusivo"><i>abusiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="accessorio"><i>accessori</i><par n="abbandonat/o__adj"/></e>
     <e lm="accorato"><i>accorat</i><par n="abbandonat/o__adj"/></e>
