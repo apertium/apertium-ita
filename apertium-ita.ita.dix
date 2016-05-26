@@ -13130,29 +13130,29 @@
     <e lm="Roma"><i>Roma</i><par n="Europa__np"/></e>
 
     <e lm="Arbus"><i>Arbus</i><par n="Afghanistan__np"/></e>
-    <e lm="Barumini"><i>Barumini</i><par n="Díez__np"/></e>
+    <e lm="Barumini"><i>Barumini</i><par n="Afghanistan__np"/></e>
     <e lm="Collinas"><i>Collinas</i><par n="Afghanistan__np"/></e>
-    <e lm="Furtei"><i>Furtei</i><par n="Díez__np"/></e>
-    <e lm="Genuri"><i>Genuri</i><par n="Díez__np"/></e>
-    <e lm="Gesturi"><i>Gesturi</i><par n="Díez__np"/></e>
+    <e lm="Furtei"><i>Furtei</i><par n="Afghanistan__np"/></e>
+    <e lm="Genuri"><i>Genuri</i><par n="Afghanistan__np"/></e>
+    <e lm="Gesturi"><i>Gesturi</i><par n="Afghanistan__np"/></e>
     <e lm="Gonnosfanadiga"><i>Gonnosfanadiga</i><par n="Europa__np"/></e>
-    <e lm="Guspini"><i>Guspini</i><par n="Díez__np"/></e>
+    <e lm="Guspini"><i>Guspini</i><par n="Afghanistan__np"/></e>
     <e lm="Las Plassas"><i>Las<b/>Plassas</i><par n="Maldive__np"/></e>
     <e lm="Lunamatrona"><i>Lunamatrona</i><par n="Europa__np"/></e>
     <e lm="Pabillonis"><i>Pabillonis</i><par n="Afghanistan__np"/></e>
     <e lm="Pauli Arbarei"><i>Pauli<b/>Arbarei</i><par n="USA__np"/></e>
-    <e lm="Samassi"><i>Samassi</i><par n="Díez__np"/></e>
+    <e lm="Samassi"><i>Samassi</i><par n="Afghanistan__np"/></e>
     <e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Afghanistan__np"/></e>
-    <e lm="Seddori"><i>Seddori</i><par n="Díez__np"/></e>
+    <e lm="Seddori"><i>Seddori</i><par n="Afghanistan__np"/></e>
     <e lm="Serramanna"><i>Serramanna</i><par n="Europa__np"/></e>
     <e lm="Sardara"><i>Sardara</i><par n="Europa__np"/></e>
     <e lm="Segariu"><i>Segariu</i><par n="Afghanistan__np"/></e>
-    <e lm="Samassi"><i>Samassi</i><par n="Díez__np"/></e>
-    <e lm="Serrenti"><i>Serrenti</i><par n="Díez__np"/></e>
+    <e lm="Samassi"><i>Samassi</i><par n="Afghanistan__np"/></e>
+    <e lm="Serrenti"><i>Serrenti</i><par n="Afghanistan__np"/></e>
     <e lm="Setzu"><i>Setzu</i><par n="Afghanistan__np"/></e>
-    <e lm="Siddi"><i>Siddi</i><par n="Díez__np"/></e>
-    <e lm="Tuili"><i>Tuili</i><par n="Díez__np"/></e>
-    <e lm="Turri"><i>Turri</i><par n="Díez__np"/></e>
+    <e lm="Siddi"><i>Siddi</i><par n="Afghanistan__np"/></e>
+    <e lm="Tuili"><i>Tuili</i><par n="Afghanistan__np"/></e>
+    <e lm="Turri"><i>Turri</i><par n="Afghanistan__np"/></e>
     <e lm="Ussaramanna"><i>Ussaramanna</i><par n="Europa__np"/></e>
     <e lm="Villacidro"><i>Villacidro</i><par n="Afghanistan__np"/></e>
     <e lm="Villmar"><i>Villamar</i><par n="Afghanistan__np"/></e>
@@ -15432,6 +15432,38 @@
     <e lm="Smeraldo"><i>Smeraldo</i><par n="Juan__np"/></e>
     <e lm="Aspasio"><i>Aspasio</i><par n="Juan__np"/></e>
     <e lm="Arsilio"><i>Arsilio</i><par n="Juan__np"/></e>
+
+    <e lm="Aggius"><i>Aggius</i><par n="Afghanistan__np"/></e>
+    <e lm="Aglientu"><i>Aggius</i><par n="Afghanistan__np"/></e>
+    <e lm="Alà dei Sardi"><i>Alà<b/>dei<b/>Sardi</i><par n="Afghanistan__np"/></e>
+    <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
+    <e lm="Badesi"><i>Badesi</i><par n="Afghanistan__np"/></e>   
+    <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
+    <e lm="Berchidda"><i>Berchidda</i><par n="Europa__np"/></e>
+    <e lm="Bortigiadas"><i>Bortigiadas</i><par n="Europa__np"/></e>
+    <e lm="Buddusò"><i>Buddusò</i><par n="Afghanistan__np"/></e>
+    <e lm="Budoni"><i>Budoni</i><par n="Afghanistan__np"/></e>
+    <e lm="Calangianus"><i>Calangianus</i><par n="Afghanistan__np"/></e>
+    <e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Afghanistan__np"/></e>
+    <e lm="Figari"><i>Figari</i><par n="Afghanistan__np"/></e>
+    <e lm="La Maddalena "><i>La<b/>Maddalena </i><par n="Europa__np"/></e>
+    <e lm="Figari"><i>Figari</i><par n="Afghanistan__np"/></e>
+    <e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
+    <e lm="Luogosanto"><i>Luogosanto</i><par n="Afghanistan__np"/></e>
+    <e lm="Luras"><i>Luras</i><par n="Afghanistan__np"/></e>
+    <e lm="Monti"><i>Monti</i><par n="Afghanistan__np"/></e>
+    <e lm="Olbia"><i>Olbia</i><par n="Europa__np"/></e>
+    <e lm="Oschiri"><i>Oschiri</i><par n="Afghanistan__np"/></e>
+    <e lm="Padru"><i>Padru</i><par n="Afghanistan__np"/></e>
+    <e lm="Palau"><i>Lu<b/>Palau</i><par n="Afghanistan__np"/></e>
+    <e lm="Sant'Antonio di Gallura"><i>Loiri<b/>Sant'<b/>Antonio<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
+    <e lm="Santa Teresa di Gallura"><i>Santa<b/>Teresa<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
+    <e lm="San Teodoro"><i>San<b/>Teodoro</i><par n="Afghanistan__np"/></e>
+    <e lm="Telti"><i>Telti</i><par n="Afghanistan__np"/></e>
+    <e lm="Tempio Pausania"><i>Tempio<b/>Pausania</i><par n="Afghanistan__np"/></e>
+    <e lm="Trinità d'Agultu e Vignola"><i>Trinità<b/>d'<b/>Agultu<b/>e<b/>Vignola</i><par n="Afghanistan__np"/></e>
+
+
     <e lm="Biancardo"><i>Biancardo</i><par n="Juan__np"/></e>
     <e lm="Ario"><i>Ario</i><par n="Juan__np"/></e>
     <e lm="Gioiana"><i>Gioiana</i><par n="María__np"/></e>
