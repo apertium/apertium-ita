@@ -13128,6 +13128,37 @@
     <e lm="Napoli"><i>Napoli</i><par n="Afghanistan__np"/></e>
     <e lm="Italia"><i>Italia</i><par n="Europa__np"/></e>
     <e lm="Roma"><i>Roma</i><par n="Europa__np"/></e>
+
+    <e lm="Arbus"><i>Arbus</i><par n="Afghanistan__np"/></e>
+    <e lm="Barumini"><i>Barumini</i><par n="Díez__np"/></e>
+    <e lm="Collinas"><i>Collinas</i><par n="Afghanistan__np"/></e>
+    <e lm="Furtei"><i>Furtei</i><par n="Díez__np"/></e>
+    <e lm="Genuri"><i>Genuri</i><par n="Díez__np"/></e>
+    <e lm="Gesturi"><i>Gesturi</i><par n="Díez__np"/></e>
+    <e lm="Gonnosfanadiga"><i>Gonnosfanadiga</i><par n="Europa__np"/></e>
+    <e lm="Guspini"><i>Guspini</i><par n="Díez__np"/></e>
+    <e lm="Las Plassas"><i>Las<b/>Plassas</i><par n="Maldive__np"/></e>
+    <e lm="Lunamatrona"><i>Lunamatrona</i><par n="Europa__np"/></e>
+    <e lm="Pabillonis"><i>Pabillonis</i><par n="Afghanistan__np"/></e>
+    <e lm="Pauli Arbarei"><i>Pauli<b/>Arbarei</i><par n="USA__np"/></e>
+    <e lm="Samassi"><i>Samassi</i><par n="Díez__np"/></e>
+    <e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Afghanistan__np"/></e>
+    <e lm="Seddori"><i>Seddori</i><par n="Díez__np"/></e>
+    <e lm="Serramanna"><i>Serramanna</i><par n="Europa__np"/></e>
+    <e lm="Sardara"><i>Sardara</i><par n="Europa__np"/></e>
+    <e lm="Segariu"><i>Segariu</i><par n="Afghanistan__np"/></e>
+    <e lm="Samassi"><i>Samassi</i><par n="Díez__np"/></e>
+    <e lm="Serrenti"><i>Serrenti</i><par n="Díez__np"/></e>
+    <e lm="Setzu"><i>Setzu</i><par n="Afghanistan__np"/></e>
+    <e lm="Siddi"><i>Siddi</i><par n="Díez__np"/></e>
+    <e lm="Tuili"><i>Tuili</i><par n="Díez__np"/></e>
+    <e lm="Turri"><i>Turri</i><par n="Díez__np"/></e>
+    <e lm="Ussaramanna"><i>Ussaramanna</i><par n="Europa__np"/></e>
+    <e lm="Villacidro"><i>Villacidro</i><par n="Afghanistan__np"/></e>
+    <e lm="Villmar"><i>Villamar</i><par n="Afghanistan__np"/></e>
+    <e lm="Villanovaforru"><i>Villanovaforru</i><par n="Afghanistan__np"/></e>
+    <e lm="Villanovafranca"><i>Villanovafranca</i><par n="Europa__np"/></e>
+
     <e lm="Simferopoli"><i>Simferopoli</i><par n="Europa__np"/></e>
     <e lm="Sebastopoli"><i>Sebastopoli</i><par n="Europa__np"/></e>		    
     <e lm="Romania"><i>Romania</i><par n="Europa__np"/></e>
@@ -18087,9 +18118,9 @@
     <e lm="catetere"><i>cateter</i><par n="abat/e__n"/></e>
     <e lm="ambulante"><i>ambulant</i><par n="abat/e__n"/></e>
     <e lm="commentatore"><i>commentator</i><par n="abat/e__n"/></e>
-    <e lm="lussemburghese"><i>lussemburghes</i><par n="abat/e__n"/></e>
+    <e lm="lussemburghese"><i>lussemburghes</i><par n="albanes/e__n"/></e>
     <e lm="pietrone"><i>pietron</i><par n="abat/e__n"/></e>
-    <e lm="cingalese"><i>cingales</i><par n="abat/e__n"/></e>
+    <e lm="cingalese"><i>cingales</i><par n="albanes/e__n"/></e>
     <e lm="faldone"><i>faldon</i><par n="abat/e__n"/></e>
     <e lm="risparmiatore"><i>risparmiator</i><par n="abat/e__n"/></e>
     <e lm="madrigale"><i>madrigal</i><par n="abat/e__n"/></e>
@@ -18105,7 +18136,7 @@
     <e lm="alone"><i>alon</i><par n="abat/e__n"/></e>
     <e lm="stroncatore"><i>stroncator</i><par n="abat/e__n"/></e>
     <e lm="trasversale"><i>trasversal</i><par n="abat/e__n"/></e>
-    <e lm="senegalese"><i>senegales</i><par n="abat/e__n"/></e>
+    <e lm="senegalese"><i>senegales</i><par n="albanes/e__n"/></e>
     <e lm="strangolatore"><i>strangolator</i><par n="abat/e__n"/></e>
     <e lm="appaltatore"><i>appaltator</i><par n="abat/e__n"/></e>
     <e lm="soprannome"><i>soprannom</i><par n="abat/e__n"/></e>
@@ -18127,13 +18158,13 @@
     <e lm="contraente"><i>contraent</i><par n="abat/e__n"/></e>
     <e lm="prosatore"><i>prosator</i><par n="abat/e__n"/></e>
     <e lm="palleggiatore"><i>palleggiator</i><par n="abat/e__n"/></e>
-    <e lm="eschimese"><i>eschimes</i><par n="abat/e__n"/></e>
+    <e lm="eschimese"><i>eschimes</i><par n="albanes/e__n"/></e>
     <e lm="crinale"><i>crinal</i><par n="abat/e__n"/></e>
     <e lm="vialone"><i>vialon</i><par n="abat/e__n"/></e>
     <e lm="allestitore"><i>allestitor</i><par n="abat/e__n"/></e>
     <e lm="fabbricatore"><i>fabbricator</i><par n="abat/e__n"/></e>
     <e lm="monolite"><i>monolit</i><par n="abat/e__n"/></e>
-    <e lm="cementiere"><i>cementier</i><par n="abat/e__n"/></e>
+    <e lm="cementiere"><i>cementier</i><par n="albanes/e__n"/></e>
     <e lm="esquimese"><i>esquimes</i><par n="abat/e__n"/></e>
     <e lm="abituale"><i>abitual</i><par n="abat/e__n"/></e>
     <e lm="quarantennale"><i>quarantennal</i><par n="abat/e__n"/></e>
@@ -18151,7 +18182,7 @@
     <e lm="striscione"><i>striscion</i><par n="abat/e__n"/></e>
     <e lm="onorevole"><i>onorevol</i><par n="abat/e__n"/></e>
     <e lm="parruccone"><i>parruccon</i><par n="abat/e__n"/></e>
-    <e lm="livornese"><i>livornes</i><par n="abat/e__n"/></e>
+    <e lm="livornese"><i>livornes</i><par n="albanes/e__n"/></e>
     <e lm="baleniere"><i>balenier</i><par n="abat/e__n"/></e>
     <e lm="tramviere"><i>tramvier</i><par n="abat/e__n"/></e>
     <e lm="visore"><i>visor</i><par n="abat/e__n"/></e>
@@ -18166,7 +18197,7 @@
     <e lm="disamore"><i>disamor</i><par n="abat/e__n"/></e>
     <e lm="fendente"><i>fendent</i><par n="abat/e__n"/></e>
     <e lm="artificiere"><i>artificier</i><par n="abat/e__n"/></e>
-    <e lm="lecchese"><i>lecches</i><par n="abat/e__n"/></e>
+    <e lm="lecchese"><i>lecches</i><par n="albanes/e__n"/></e>
     <e lm="congelatore"><i>congelator</i><par n="abat/e__n"/></e>
     <e lm="demolitore"><i>demolitor</i><par n="abat/e__n"/></e>
     <e lm="nuvolone"><i>nuvolon</i><par n="abat/e__n"/></e>
@@ -18213,7 +18244,7 @@
     <e lm="avventore"><i>avventor</i><par n="abat/e__n"/></e>
     <e lm="residente"><i>resident</i><par n="abat/e__n"/></e>
     <e lm="corrispondente"><i>corrispondent</i><par n="abat/e__n"/></e>
-    <e lm="politichese"><i>politiches</i><par n="abat/e__n"/></e>
+    <e lm="politichese"><i>politiches</i><par n="albanes/e__n"/></e>
     <e lm="trombone"><i>trombon</i><par n="abat/e__n"/></e>
     <e lm="ottone"><i>otton</i><par n="abat/e__n"/></e>
     <e lm="inventore"><i>inventor</i><par n="abat/e__n"/></e>
@@ -18297,7 +18328,7 @@
     <e lm="distillatore"><i>distillator</i><par n="abat/e__n"/></e>
     <e lm="labbrone"><i>labbron</i><par n="abat/e__n"/></e>
     <e lm="trionfatore"><i>trionfator</i><par n="abat/e__n"/></e>
-    <e lm="gelese"><i>geles</i><par n="abat/e__n"/></e>
+    <e lm="gelese"><i>geles</i><par n="albanes/e__n"/></e>
     <e lm="spione"><i>spion</i><par n="abat/e__n"/></e>
     <e lm="infame"><i>infam</i><par n="abat/e__n"/></e>
     <e lm="malvivente"><i>malvivent</i><par n="abat/e__n"/></e>
@@ -18328,7 +18359,7 @@
     <e lm="buontempone"><i>buontempon</i><par n="abat/e__n"/></e>
     <e lm="melone"><i>melon</i><par n="abat/e__n"/></e>
     <e lm="inconveniente"><i>inconvenient</i><par n="abat/e__n"/></e>
-    <e lm="siamese"><i>siames</i><par n="abat/e__n"/></e>
+    <e lm="siamese"><i>siames</i><par n="albanes/e__n"/></e>
     <e lm="cialtrone"><i>cialtron</i><par n="abat/e__n"/></e>
     <e lm="supercampione"><i>supercampion</i><par n="abat/e__n"/></e>
     <e lm="spilungone"><i>spilungon</i><par n="abat/e__n"/></e>
@@ -18354,7 +18385,7 @@
     <e lm="emigrante"><i>emigrant</i><par n="abat/e__n"/></e>
     <e lm="nipote"><i>nipot</i><par n="abat/e__n"/></e>
     <e lm="calice"><i>calic</i><par n="abat/e__n"/></e>
-    <e lm="pratese"><i>prates</i><par n="abat/e__n"/></e>
+    <e lm="pratese"><i>prates</i><par n="albanes/e__n"/></e>
     <e lm="piumone"><i>piumon</i><par n="abat/e__n"/></e>
     <e lm="designatore"><i>designator</i><par n="abat/e__n"/></e>
     <e lm="trasgressore"><i>trasgressor</i><par n="abat/e__n"/></e>
@@ -18385,7 +18416,7 @@
     <e lm="riluttante"><i>riluttant</i><par n="abat/e__n"/></e>
     <e lm="sedile"><i>sedil</i><par n="abat/e__n"/></e>
     <e lm="lungodegente"><i>lungodegent</i><par n="abat/e__n"/></e>
-    <e lm="sassarese"><i>sassares</i><par n="abat/e__n"/></e>
+    <e lm="sassarese"><i>sassares</i><par n="albanes/e__n"/></e>
     <e lm="frontaliere"><i>frontalier</i><par n="abat/e__n"/></e>
     <e lm="rampante"><i>rampant</i><par n="abat/e__n"/></e>
     <e lm="pontefice"><i>pontefic</i><par n="abat/e__n"/></e>
@@ -18407,21 +18438,21 @@
     <e lm="costume"><i>costum</i><par n="abat/e__n"/></e>
     <e lm="deferente"><i>deferent</i><par n="abat/e__n"/></e>
     <e lm="nutriente"><i>nutrient</i><par n="abat/e__n"/></e>
-    <e lm="bavarese"><i>bavares</i><par n="abat/e__n"/></e>
+    <e lm="bavarese"><i>bavares</i><par n="albanes/e__n"/></e>
     <e lm="giudicante"><i>giudicant</i><par n="abat/e__n"/></e>
     <e lm="rapace"><i>rapac</i><par n="abat/e__n"/></e>
     <e lm="dolente"><i>dolent</i><par n="abat/e__n"/></e>
     <e lm="turgore"><i>turgor</i><par n="abat/e__n"/></e>
     <e lm="evasore"><i>evasor</i><par n="abat/e__n"/></e>
     <e lm="vecchione"><i>vecchion</i><par n="abat/e__n"/></e>
-    <e lm="veronese"><i>verones</i><par n="abat/e__n"/></e>
+    <e lm="veronese"><i>verones</i><par n="albanes/e__n"/></e>
     <e lm="novantenne"><i>novantenn</i><par n="abat/e__n"/></e>
     <e lm="flacone"><i>flacon</i><par n="abat/e__n"/></e>
     <e lm="lugubre"><i>lugubr</i><par n="abat/e__n"/></e>
     <e lm="amicone"><i>amicon</i><par n="abat/e__n"/></e>
     <e lm="megadirigente"><i>megadirigent</i><par n="abat/e__n"/></e>
     <e lm="cartomante"><i>cartomant</i><par n="abat/e__n"/></e>
-    <e lm="maltese"><i>maltes</i><par n="abat/e__n"/></e>
+    <e lm="maltese"><i>maltes</i><par n="albanes/e__n"/></e>
     <e lm="incursore"><i>incursor</i><par n="abat/e__n"/></e>
     <e lm="supercarcere"><i>supercarcer</i><par n="abat/e__n"/></e>
     <e lm="narcotrafficante"><i>narcotrafficant</i><par n="abat/e__n"/></e>
@@ -18471,7 +18502,7 @@
     <e lm="caprone"><i>capron</i><par n="abat/e__n"/></e>
     <e lm="cappottone"><i>cappotton</i><par n="abat/e__n"/></e>
     <e lm="cantiere"><i>cantier</i><par n="abat/e__n"/></e>
-    <e lm="newyorkese"><i>newyorkes</i><par n="abat/e__n"/></e>
+    <e lm="newyorkese"><i>newyorkes</i><par n="albanes/e__n"/></e>
     <e lm="parmense"><i>parmens</i><par n="abat/e__n"/></e>
     <e lm="provveditore"><i>provveditor</i><par n="abat/e__n"/></e>
     <e lm="oppressore"><i>oppressor</i><par n="abat/e__n"/></e>
@@ -18489,7 +18520,7 @@
     <e lm="camminatore"><i>camminator</i><par n="abat/e__n"/></e>
     <e lm="rocciatore"><i>rocciator</i><par n="abat/e__n"/></e>
     <e lm="paralume"><i>paralum</i><par n="abat/e__n"/></e>
-    <e lm="biellese"><i>bielles</i><par n="abat/e__n"/></e>
+    <e lm="biellese"><i>bielles</i><par n="albanes/e__n"/></e>
     <e lm="contraltare"><i>contraltar</i><par n="abat/e__n"/></e>
     <e lm="cosceneggiatore"><i>cosceneggiator</i><par n="abat/e__n"/></e>
     <e lm="paciere"><i>pacier</i><par n="abat/e__n"/></e>
@@ -18528,7 +18559,7 @@
     <e lm="tornante"><i>tornant</i><par n="abat/e__n"/></e>
     <e lm="atlante"><i>atlant</i><par n="abat/e__n"/></e>
     <e lm="grassone"><i>grasson</i><par n="abat/e__n"/></e>
-    <e lm="messinese"><i>messines</i><par n="abat/e__n"/></e>
+    <e lm="messinese"><i>messines</i><par n="albanes/e__n"/></e>
     <e lm="singolare"><i>singolar</i><par n="abat/e__n"/></e>
     <e lm="padellone"><i>padellon</i><par n="abat/e__n"/></e>
     <e lm="cesenate"><i>cesenat</i><par n="abat/e__n"/></e>
@@ -18547,7 +18578,7 @@
     <e lm="pagante"><i>pagant</i><par n="abat/e__n"/></e>
     <e lm="superficiale"><i>superficial</i><par n="abat/e__n"/></e>
     <e lm="metadone"><i>metadon</i><par n="abat/e__n"/></e>
-    <e lm="milanese"><i>milanes</i><par n="abat/e__n"/></e>
+    <e lm="milanese"><i>milanes</i><par n="albanes/e__n"/></e>
     <e lm="venticinquennale"><i>venticinquennal</i><par n="abat/e__n"/></e>
     <e lm="clamore"><i>clamor</i><par n="abat/e__n"/></e>
     <e lm="lungagnone"><i>lungagnon</i><par n="abat/e__n"/></e>
@@ -18564,7 +18595,7 @@
     <e lm="cinegiornale"><i>cinegiornal</i><par n="abat/e__n"/></e>
     <e lm="protone"><i>proton</i><par n="abat/e__n"/></e>
     <e lm="cespite"><i>cespit</i><par n="abat/e__n"/></e>
-    <e lm="palestinese"><i>palestines</i><par n="abat/e__n"/></e>
+    <e lm="palestinese"><i>palestines</i><par n="albanes/e__n"/></e>
     <e lm="petulante"><i>petulant</i><par n="abat/e__n"/></e>
     <e lm="capitone"><i>capiton</i><par n="abat/e__n"/></e>
     <e lm="primate"><i>primat</i><par n="abat/e__n"/></e>
@@ -18577,7 +18608,7 @@
     <e lm="scopritore"><i>scopritor</i><par n="abat/e__n"/></e>
     <e lm="neosenatore"><i>neosenator</i><par n="abat/e__n"/></e>
     <e lm="gendarme"><i>gendarm</i><par n="abat/e__n"/></e>
-    <e lm="bellunese"><i>bellunes</i><par n="abat/e__n"/></e>
+    <e lm="bellunese"><i>bellunes</i><par n="albanes/e__n"/></e>
     <e lm="cerchione"><i>cerchion</i><par n="abat/e__n"/></e>
     <e lm="legame"><i>legam</i><par n="abat/e__n"/></e>
     <e lm="cospiratore"><i>cospirator</i><par n="abat/e__n"/></e>
@@ -18608,9 +18639,9 @@
     <e lm="rastrellatore"><i>rastrellator</i><par n="abat/e__n"/></e>
     <e lm="bruciore"><i>brucior</i><par n="abat/e__n"/></e>
     <e lm="torpedone"><i>torpedon</i><par n="abat/e__n"/></e>
-    <e lm="congolese"><i>congoles</i><par n="abat/e__n"/></e>
+    <e lm="congolese"><i>congoles</i><par n="albanes/e__n"/></e>
     <e lm="tavolone"><i>tavolon</i><par n="abat/e__n"/></e>
-    <e lm="valdese"><i>valdes</i><par n="abat/e__n"/></e>
+    <e lm="valdese"><i>valdes</i><par n="albanes/e__n"/></e>
     <e lm="scimmione"><i>scimmion</i><par n="abat/e__n"/></e>
     <e lm="pannolone"><i>pannolon</i><par n="abat/e__n"/></e>
     <e lm="copione"><i>copion</i><par n="abat/e__n"/></e>
@@ -18649,7 +18680,7 @@
     <e lm="piagnone"><i>piagnon</i><par n="abat/e__n"/></e>
     <e lm="tracciatore"><i>tracciator</i><par n="abat/e__n"/></e>
     <e lm="controviale"><i>controvial</i><par n="abat/e__n"/></e>
-    <e lm="vercellese"><i>vercelles</i><par n="abat/e__n"/></e>
+    <e lm="vercellese"><i>vercelles</i><par n="albanes/e__n"/></e>
     <e lm="correttore"><i>correttor</i><par n="abat/e__n"/></e>
     <e lm="reduce"><i>reduc</i><par n="abat/e__n"/></e>
     <e lm="nobile"><i>nobil</i><par n="abat/e__n"/></e>
@@ -18665,7 +18696,7 @@
     <e lm="baule"><i>baul</i><par n="abat/e__n"/></e>
     <e lm="illustratore"><i>illustrator</i><par n="abat/e__n"/></e>
     <e lm="bersagliere"><i>bersaglier</i><par n="abat/e__n"/></e>
-    <e lm="thailandese"><i>thailandes</i><par n="abat/e__n"/></e>
+    <e lm="thailandese"><i>thailandes</i><par n="albanes/e__n"/></e>
     <e lm="piedone"><i>piedon</i><par n="abat/e__n"/></e>
     <e lm="cinese"><i>cines</i><par n="albanes/e__n"/></e>
     <e lm="pistone"><i>piston</i><par n="abat/e__n"/></e>
@@ -18679,10 +18710,10 @@
     <e lm="pensionante"><i>pensionant</i><par n="abat/e__n"/></e>
     <e lm="dirottatore"><i>dirottator</i><par n="abat/e__n"/></e>
     <e lm="ponente"><i>ponent</i><par n="abat/e__n"/></e>
-    <e lm="novarese"><i>novares</i><par n="abat/e__n"/></e>
+    <e lm="novarese"><i>novares</i><par n="albanes/e__n"/></e>
     <e lm="subappaltatore"><i>subappaltator</i><par n="abat/e__n"/></e>
-    <e lm="leccese"><i>lecces</i><par n="abat/e__n"/></e>
-    <e lm="nepalese"><i>nepales</i><par n="abat/e__n"/></e>
+    <e lm="leccese"><i>lecces</i><par n="albanes/e__n"/></e>
+    <e lm="nepalese"><i>nepales</i><par n="albanes/e__n"/></e>
     <e lm="librone"><i>libron</i><par n="abat/e__n"/></e>
     <e lm="fautore"><i>fautor</i><par n="abat/e__n"/></e>
     <e lm="viceconsole"><i>viceconsol</i><par n="abat/e__n"/></e>
@@ -18691,16 +18722,16 @@
     <e lm="sperimentatore"><i>sperimentator</i><par n="abat/e__n"/></e>
     <e lm="scrutatore"><i>scrutator</i><par n="abat/e__n"/></e>
     <e lm="confidente"><i>confident</i><par n="abat/e__n"/></e>
-    <e lm="ticinese"><i>ticines</i><par n="abat/e__n"/></e>
+    <e lm="ticinese"><i>ticines</i><par n="albanes/e__n"/></e>
     <e lm="minerale"><i>mineral</i><par n="abat/e__n"/></e>
     <e lm="conducente"><i>conducent</i><par n="abat/e__n"/></e>
     <e lm="privatizzatore"><i>privatizzator</i><par n="abat/e__n"/></e>
-    <e lm="pistoiese"><i>pistoies</i><par n="abat/e__n"/></e>
+    <e lm="pistoiese"><i>pistoies</i><par n="albanes/e__n"/></e>
     <e lm="pugnale"><i>pugnal</i><par n="abat/e__n"/></e>
     <e lm="magazziniere"><i>magazzinier</i><par n="abat/e__n"/></e>
     <e lm="lichene"><i>lichen</i><par n="abat/e__n"/></e>
     <e lm="spacciatore"><i>spacciator</i><par n="abat/e__n"/></e>
-    <e lm="nuorese"><i>nuores</i><par n="abat/e__n"/></e>
+    <e lm="nuorese"><i>nuores</i><par n="albanes/e__n"/></e>
     <e lm="istitutore"><i>istitutor</i><par n="abat/e__n"/></e>
     <e lm="fricchettone"><i>fricchetton</i><par n="abat/e__n"/></e>
     <e lm="autoproduttore"><i>autoproduttor</i><par n="abat/e__n"/></e>
@@ -18718,7 +18749,7 @@
     <e lm="mittente"><i>mittent</i><par n="abat/e__n"/></e>
     <e lm="stallone"><i>stallon</i><par n="abat/e__n"/></e>
     <e lm="misuratore"><i>misurator</i><par n="abat/e__n"/></e>
-    <e lm="corleonese"><i>corleones</i><par n="abat/e__n"/></e>
+    <e lm="corleonese"><i>corleones</i><par n="albanes/e__n"/></e>
     <e lm="incompetente"><i>incompetent</i><par n="abat/e__n"/></e>
     <e lm="elegante"><i>elegant</i><par n="abat/e__n"/></e>
     <e lm="battitore"><i>battitor</i><par n="abat/e__n"/></e>
@@ -18731,7 +18762,7 @@
     <e lm="addestratore"><i>addestrator</i><par n="abat/e__n"/></e>
     <e lm="collagene"><i>collagen</i><par n="abat/e__n"/></e>
     <e lm="esportatore"><i>esportator</i><par n="abat/e__n"/></e>
-    <e lm="portoghese"><i>portoghes</i><par n="abat/e__n"/></e>
+    <e lm="portoghese"><i>portoghes</i><par n="albanes/e__n"/></e>
     <e lm="boccale"><i>boccal</i><par n="abat/e__n"/></e>
     <e lm="giovanottone"><i>giovanotton</i><par n="abat/e__n"/></e>
     <e lm="gregge"><i>gregg</i><par n="abat/e__n"/></e>
@@ -18739,7 +18770,7 @@
     <e lm="sifone"><i>sifon</i><par n="abat/e__n"/></e>
     <e lm="seguace"><i>seguac</i><par n="abat/e__n"/></e>
     <e lm="pallettone"><i>palletton</i><par n="abat/e__n"/></e>
-    <e lm="ateniese"><i>atenies</i><par n="abat/e__n"/></e>
+    <e lm="ateniese"><i>atenies</i><par n="albanes/e__n"/></e>
     <e lm="deforme"><i>deform</i><par n="abat/e__n"/></e>
     <e lm="uscente"><i>uscent</i><par n="abat/e__n"/></e>
     <e lm="benestante"><i>benestant</i><par n="abat/e__n"/></e>
@@ -18747,12 +18778,12 @@
     <e lm="carburante"><i>carburant</i><par n="abat/e__n"/></e>
     <e lm="viandante"><i>viandant</i><par n="abat/e__n"/></e>
     <e lm="antipatizzante"><i>antipatizzant</i><par n="abat/e__n"/></e>
-    <e lm="pechinese"><i>pechines</i><par n="abat/e__n"/></e>
+    <e lm="pechinese"><i>pechines</i><par n="albanes/e__n"/></e>
     <e lm="perticone"><i>perticon</i><par n="abat/e__n"/></e>
     <e lm="vicedirettore"><i>vicedirettor</i><par n="abat/e__n"/></e>
     <e lm="vibratore"><i>vibrator</i><par n="abat/e__n"/></e>
     <e lm="utilizzatore"><i>utilizzator</i><par n="abat/e__n"/></e>
-    <e lm="neozelandese"><i>neozelandes</i><par n="abat/e__n"/></e>
+    <e lm="neozelandese"><i>neozelandes</i><par n="albanes/e__n"/></e>
     <e lm="pitone"><i>piton</i><par n="abat/e__n"/></e>
     <e lm="concedente"><i>concedent</i><par n="abat/e__n"/></e>
     <e lm="cammelliere"><i>cammellier</i><par n="abat/e__n"/></e>
@@ -18767,7 +18798,7 @@
     <e lm="commilitone"><i>commiliton</i><par n="abat/e__n"/></e>
     <e lm="torrefattore"><i>torrefattor</i><par n="abat/e__n"/></e>
     <e lm="ventitreenne"><i>ventitreenn</i><par n="abat/e__n"/></e>
-    <e lm="barese"><i>bares</i><par n="abat/e__n"/></e>
+    <e lm="barese"><i>bares</i><par n="albanes/e__n"/></e>
     <e lm="silicone"><i>silicon</i><par n="abat/e__n"/></e>
     <e lm="ferrarese"><i>ferrares</i><par n="abat/e__n"/></e>
     <e lm="contrafforte"><i>contraffort</i><par n="abat/e__n"/></e>
@@ -18778,7 +18809,7 @@
     <e lm="marginale"><i>marginal</i><par n="abat/e__n"/></e>
     <e lm="digitale"><i>digital</i><par n="abat/e__n"/></e>
     <e lm="sterminatore"><i>sterminator</i><par n="abat/e__n"/></e>
-    <e lm="circense"><i>circens</i><par n="abat/e__n"/></e>
+    <e lm="circense"><i>circens</i><par n="albanes/e__n"/></e>
     <e lm="fellone"><i>fellon</i><par n="abat/e__n"/></e>
     <e lm="pistolone"><i>pistolon</i><par n="abat/e__n"/></e>
     <e lm="insabbiatore"><i>insabbiator</i><par n="abat/e__n"/></e>
@@ -18801,7 +18832,7 @@
     <e lm="cappone"><i>cappon</i><par n="abat/e__n"/></e>
     <e lm="pungente"><i>pungent</i><par n="abat/e__n"/></e>
     <e lm="tessitore"><i>tessitor</i><par n="abat/e__n"/></e>
-    <e lm="pordenonese"><i>pordenones</i><par n="abat/e__n"/></e>
+    <e lm="pordenonese"><i>pordenones</i><par n="albanes/e__n"/></e>
     <e lm="alzatore"><i>alzator</i><par n="abat/e__n"/></e>
     <e lm="bottiglione"><i>bottiglion</i><par n="abat/e__n"/></e>
     <e lm="nordirlandese"><i>nordirlandes</i><par n="abat/e__n"/></e>
@@ -18813,10 +18844,10 @@
     <e lm="eversore"><i>eversor</i><par n="abat/e__n"/></e>
     <e lm="tampone"><i>tampon</i><par n="abat/e__n"/></e>
     <e lm="liceale"><i>liceal</i><par n="abat/e__n"/></e>
-    <e lm="londinese"><i>londines</i><par n="abat/e__n"/></e>
+    <e lm="londinese"><i>londines</i><par n="albanes/e__n"/></e>
     <e lm="riesame"><i>riesam</i><par n="abat/e__n"/></e>
     <e lm="affabulatore"><i>affabulator</i><par n="abat/e__n"/></e>
-    <e lm="scozzese"><i>scozzes</i><par n="abat/e__n"/></e>
+    <e lm="scozzese"><i>scozzes</i><par n="albanes/e__n"/></e>
     <e lm="inceneritore"><i>inceneritor</i><par n="abat/e__n"/></e>
     <e lm="antieroe"><i>antiero</i><par n="abat/e__n"/></e>
     <e lm="volgare"><i>volgar</i><par n="abat/e__n"/></e>
@@ -18824,11 +18855,11 @@
     <e lm="spezzone"><i>spezzon</i><par n="abat/e__n"/></e>
     <e lm="pianificatore"><i>pianificator</i><par n="abat/e__n"/></e>
     <e lm="intelligente"><i>intelligent</i><par n="abat/e__n"/></e>
-    <e lm="berlinese"><i>berlines</i><par n="abat/e__n"/></e>
+    <e lm="berlinese"><i>berlines</i><par n="albanes/e__n"/></e>
     <e lm="mondiale"><i>mondial</i><par n="abat/e__n"/></e>
     <e lm="compilatore"><i>compilator</i><par n="abat/e__n"/></e>
     <e lm="predatore"><i>predator</i><par n="abat/e__n"/></e>
-    <e lm="cuneese"><i>cunees</i><par n="abat/e__n"/></e>
+    <e lm="cuneese"><i>cunees</i><par n="albanes/e__n"/></e>
     <e lm="ricostituente"><i>ricostituent</i><par n="abat/e__n"/></e>
     <e lm="soggiornante"><i>soggiornant</i><par n="abat/e__n"/></e>
     <e lm="possidente"><i>possident</i><par n="abat/e__n"/></e>
@@ -18836,7 +18867,7 @@
     <e lm="sciame"><i>sciam</i><par n="abat/e__n"/></e>
     <e lm="gaudente"><i>gaudent</i><par n="abat/e__n"/></e>
     <e lm="riduttore"><i>riduttor</i><par n="abat/e__n"/></e>
-    <e lm="cortinese"><i>cortines</i><par n="abat/e__n"/></e>
+    <e lm="cortinese"><i>cortines</i><par n="albanes/e__n"/></e>
     <e lm="mormone"><i>mormon</i><par n="abat/e__n"/></e>
     <e lm="ricevente"><i>ricevent</i><par n="abat/e__n"/></e>
     <e lm="cerimoniere"><i>cerimonier</i><par n="abat/e__n"/></e>
@@ -18895,7 +18926,7 @@
     <e lm="istigatore"><i>istigator</i><par n="abat/e__n"/></e>
     <e lm="cornicione"><i>cornicion</i><par n="abat/e__n"/></e>
     <e lm="iettatore"><i>iettator</i><par n="abat/e__n"/></e>
-    <e lm="pesarese"><i>pesares</i><par n="abat/e__n"/></e>
+    <e lm="pesarese"><i>pesares</i><par n="albanes/e__n"/></e>
     <e lm="neoimprenditore"><i>neoimprenditor</i><par n="abat/e__n"/></e>
     <e lm="canalone"><i>canalon</i><par n="abat/e__n"/></e>
     <e lm="assalitore"><i>assalitor</i><par n="abat/e__n"/></e>
@@ -18903,7 +18934,7 @@
     <e lm="volumone"><i>volumon</i><par n="abat/e__n"/></e>
     <e lm="bitume"><i>bitum</i><par n="abat/e__n"/></e>
     <e lm="laziale"><i>lazial</i><par n="abat/e__n"/></e>
-    <e lm="udinese"><i>udines</i><par n="abat/e__n"/></e>
+    <e lm="udinese"><i>udines</i><par n="albanes/e__n"/></e>
     <e lm="selettore"><i>selettor</i><par n="abat/e__n"/></e>
     <e lm="armiere"><i>armier</i><par n="abat/e__n"/></e>
     <e lm="recalcitrante"><i>recalcitrant</i><par n="abat/e__n"/></e>
@@ -18923,9 +18954,9 @@
     <e lm="sentore"><i>sentor</i><par n="abat/e__n"/></e>
     <e lm="versante"><i>versant</i><par n="abat/e__n"/></e>
     <e lm="nume"><i>num</i><par n="abat/e__n"/></e>
-    <e lm="viennese"><i>viennes</i><par n="abat/e__n"/></e>
+    <e lm="viennese"><i>viennes</i><par n="albanes/e__n"/></e>
     <e lm="protettore"><i>protettor</i><par n="abat/e__n"/></e>
-    <e lm="tirolese"><i>tiroles</i><par n="abat/e__n"/></e>
+    <e lm="tirolese"><i>tiroles</i><par n="albanes/e__n"/></e>
     <e lm="duellante"><i>duellant</i><par n="abat/e__n"/></e>
     <e lm="usciere"><i>uscier</i><par n="abat/e__n"/></e>
     <e lm="cantautore"><i>cantautor</i><par n="abat/e__n"/></e>
@@ -18942,7 +18973,7 @@
     <e lm="possente"><i>possent</i><par n="abat/e__n"/></e>
     <e lm="mattacchione"><i>mattacchion</i><par n="abat/e__n"/></e>
     <e lm="scalpore"><i>scalpor</i><par n="abat/e__n"/></e>
-    <e lm="pugliese"><i>puglies</i><par n="abat/e__n"/></e>
+    <e lm="pugliese"><i>puglies</i><par n="albanes/e__n"/></e>
     <e lm="impreditore"><i>impreditor</i><par n="abat/e__n"/></e>
     <e lm="scassinatore"><i>scassinator</i><par n="abat/e__n"/></e>
     <e lm="baccanale"><i>baccanal</i><par n="abat/e__n"/></e>
@@ -18961,7 +18992,7 @@
     <e lm="vicequestore"><i>vicequestor</i><par n="abat/e__n"/></e>
     <e lm="superospite"><i>superospit</i><par n="abat/e__n"/></e>
     <e lm="raccoglitore"><i>raccoglitor</i><par n="abat/e__n"/></e>
-    <e lm="cretese"><i>cretes</i><par n="abat/e__n"/></e>
+    <e lm="cretese"><i>cretes</i><par n="albanes/e__n"/></e>
     <e lm="grigiore"><i>grigior</i><par n="abat/e__n"/></e>
     <e lm="accompagnatore"><i>accompagnator</i><par n="abat/e__n"/></e>
     <e lm="collaboratore"><i>collaborator</i><par n="abat/e__n"/></e>
@@ -18976,7 +19007,7 @@
     <e lm="restauratore"><i>restaurator</i><par n="abat/e__n"/></e>
     <e lm="originale"><i>original</i><par n="abat/e__n"/></e>
     <e lm="burocrate"><i>burocrat</i><par n="abat/e__n"/></e>
-    <e lm="zairese"><i>zaires</i><par n="abat/e__n"/></e>
+    <e lm="zairese"><i>zaires</i><par n="albanes/e__n"/></e>
     <e lm="erogatore"><i>erogator</i><par n="abat/e__n"/></e>
     <e lm="ventiseienne"><i>ventiseienn</i><par n="abat/e__n"/></e>
     <e lm="torturatore"><i>torturator</i><par n="abat/e__n"/></e>
@@ -18995,9 +19026,9 @@
     <e lm="oste"><i>ost</i><par n="abat/e__n"/></e>
     <e lm="deflettore"><i>deflettor</i><par n="abat/e__n"/></e>
     <e lm="sessantenne"><i>sessantenn</i><par n="abat/e__n"/></e>
-    <e lm="modenese"><i>modenes</i><par n="abat/e__n"/></e>
+    <e lm="modenese"><i>modenes</i><par n="albanes/e__n"/></e>
     <e lm="lattante"><i>lattant</i><par n="abat/e__n"/></e>
-    <e lm="lucchese"><i>lucches</i><par n="abat/e__n"/></e>
+    <e lm="lucchese"><i>lucches</i><par n="albanes/e__n"/></e>
     <e lm="pattinatore"><i>pattinator</i><par n="abat/e__n"/></e>
     <e lm="tentatore"><i>tentator</i><par n="abat/e__n"/></e>
     <e lm="trilione"><i>trilion</i><par n="abat/e__n"/></e>
@@ -19009,7 +19040,7 @@
     <e lm="bollitore"><i>bollitor</i><par n="abat/e__n"/></e>
     <e lm="gommone"><i>gommon</i><par n="abat/e__n"/></e>
     <e lm="pappone"><i>pappon</i><par n="abat/e__n"/></e>
-    <e lm="valtellinese"><i>valtellines</i><par n="abat/e__n"/></e>
+    <e lm="valtellinese"><i>valtellines</i><par n="albanes/e__n"/></e>
     <e lm="parlamentare"><i>parlamentar</i><par n="abat/e__n"/></e>
     <e lm="malfattore"><i>malfattor</i><par n="abat/e__n"/></e>
     <e lm="condensatore"><i>condensator</i><par n="abat/e__n"/></e>
@@ -19107,7 +19138,7 @@
     <e lm="portuale"><i>portual</i><par n="abat/e__n"/></e>
     <e lm="sublime"><i>sublim</i><par n="abat/e__n"/></e>
     <e lm="sostenitore"><i>sostenitor</i><par n="abat/e__n"/></e>
-    <e lm="burocratese"><i>burocrates</i><par n="abat/e__n"/></e>
+    <e lm="burocratese"><i>burocrates</i><par n="albanes/e__n"/></e>
     <e lm="tuffatore"><i>tuffator</i><par n="abat/e__n"/></e>
     <e lm="teleimbonitore"><i>teleimbonitor</i><par n="abat/e__n"/></e>
     <e lm="innovatore"><i>innovator</i><par n="abat/e__n"/></e>
@@ -19121,7 +19152,7 @@
     <e lm="megalomane"><i>megaloman</i><par n="abat/e__n"/></e>
     <e lm="supereroe"><i>superero</i><par n="abat/e__n"/></e>
     <e lm="borsone"><i>borson</i><par n="abat/e__n"/></e>
-    <e lm="ruandese"><i>ruandes</i><par n="abat/e__n"/></e>
+    <e lm="ruandese"><i>ruandes</i><par n="albanes/e__n"/></e>
     <e lm="raffinatore"><i>raffinator</i><par n="abat/e__n"/></e>
     <e lm="folle"><i>foll</i><par n="abat/e__n"/></e>
     <e lm="settentrionale"><i>settentrional</i><par n="abat/e__n"/></e>
@@ -19299,7 +19330,7 @@
     <e lm="scaglione"><i>scaglion</i><par n="abat/e__n"/></e>
     <e lm="recettore"><i>recettor</i><par n="abat/e__n"/></e>
     <e lm="generatore"><i>generator</i><par n="abat/e__n"/></e>
-    <e lm="pescarese"><i>pescares</i><par n="abat/e__n"/></e>
+    <e lm="pescarese"><i>pescares</i><par n="albanes/e__n"/></e>
     <e lm="spessore"><i>spessor</i><par n="abat/e__n"/></e>
     <e lm="infelice"><i>infelic</i><par n="abat/e__n"/></e>
     <e lm="posteggiatore"><i>posteggiator</i><par n="abat/e__n"/></e>
@@ -19359,7 +19390,7 @@
     <e lm="sperone"><i>speron</i><par n="abat/e__n"/></e>
     <e lm="alfiere"><i>alfier</i><par n="abat/e__n"/></e>
     <e lm="terrone"><i>terron</i><par n="abat/e__n"/></e>
-    <e lm="piemontese"><i>piemontes</i><par n="abat/e__n"/></e>
+    <e lm="piemontese"><i>piemontes</i><par n="albanes/e__n"/></e>
     <e lm="seduttore"><i>seduttor</i><par n="abat/e__n"/></e>
     <e lm="candeliere"><i>candelier</i><par n="abat/e__n"/></e>
     <e lm="dissacratore"><i>dissacrator</i><par n="abat/e__n"/></e>
@@ -19404,9 +19435,9 @@
     <e lm="paramilitare"><i>paramilitar</i><par n="abat/e__n"/></e>
     <e lm="estensore"><i>estensor</i><par n="abat/e__n"/></e>
     <e lm="incisore"><i>incisor</i><par n="abat/e__n"/></e>
-    <e lm="calabrese"><i>calabres</i><par n="abat/e__n"/></e>
+    <e lm="calabrese"><i>calabres</i><par n="albanes/e__n"/></e>
     <e lm="liberatore"><i>liberator</i><par n="abat/e__n"/></e>
-    <e lm="sanremese"><i>sanremes</i><par n="abat/e__n"/></e>
+    <e lm="sanremese"><i>sanremes</i><par n="albanes/e__n"/></e>
     <e lm="riproduttore"><i>riproduttor</i><par n="abat/e__n"/></e>
     <e lm="petroliere"><i>petrolier</i><par n="abat/e__n"/></e>
     <e lm="tizzone"><i>tizzon</i><par n="abat/e__n"/></e>
@@ -19452,8 +19483,8 @@
     <e lm="sottogenere"><i>sottogener</i><par n="abat/e__n"/></e>
     <e lm="creditore"><i>creditor</i><par n="abat/e__n"/></e>
     <e lm="recensore"><i>recensor</i><par n="abat/e__n"/></e>
-    <e lm="cremonese"><i>cremones</i><par n="abat/e__n"/></e>
-    <e lm="camerunese"><i>camerunes</i><par n="abat/e__n"/></e>
+    <e lm="cremonese"><i>cremones</i><par n="albanes/e__n"/></e>
+    <e lm="camerunese"><i>camerunes</i><par n="albanes/e__n"/></e>
     <e lm="braciere"><i>bracier</i><par n="abat/e__n"/></e>
     <e lm="ombrellone"><i>ombrellon</i><par n="abat/e__n"/></e>
     <e lm="vascone"><i>vascon</i><par n="abat/e__n"/></e>
@@ -19480,7 +19511,7 @@
     <e lm="calzettone"><i>calzetton</i><par n="abat/e__n"/></e>
     <e lm="monocolore"><i>monocolor</i><par n="abat/e__n"/></e>
     <e lm="contendente"><i>contendent</i><par n="abat/e__n"/></e>
-    <e lm="gallese"><i>galles</i><par n="abat/e__n"/></e>
+    <e lm="gallese"><i>galles</i><par n="albanes/e__n"/></e>
     <e lm="professorone"><i>professoron</i><par n="abat/e__n"/></e>
     <e lm="intransigente"><i>intransigent</i><par n="abat/e__n"/></e>
     <e lm="pendolare"><i>pendolar</i><par n="abat/e__n"/></e>
@@ -19512,7 +19543,7 @@
     <e lm="possessore"><i>possessor</i><par n="abat/e__n"/></e>
     <e lm="troncone"><i>troncon</i><par n="abat/e__n"/></e>
     <e lm="mecenate"><i>mecenat</i><par n="abat/e__n"/></e>
-    <e lm="malese"><i>males</i><par n="abat/e__n"/></e>
+    <e lm="malese"><i>males</i><par n="albanes/e__n"/></e>
     <e lm="continuatore"><i>continuator</i><par n="abat/e__n"/></e>
     <e lm="saccente"><i>saccent</i><par n="abat/e__n"/></e>
     <e lm="paginone"><i>paginon</i><par n="abat/e__n"/></e>
@@ -19520,7 +19551,7 @@
     <e lm="insegnante"><i>insegnant</i><par n="abat/e__n"/></e>
     <e lm="aliante"><i>aliant</i><par n="abat/e__n"/></e>
     <e lm="divulgatore"><i>divulgator</i><par n="abat/e__n"/></e>
-    <e lm="pavese"><i>paves</i><par n="abat/e__n"/></e>
+    <e lm="pavese"><i>paves</i><par n="albanes/e__n"/></e>
     <e lm="paperone"><i>paperon</i><par n="abat/e__n"/></e>
     <e lm="anticipatore"><i>anticipator</i><par n="abat/e__n"/></e>
     <e lm="cesellatore"><i>cesellator</i><par n="abat/e__n"/></e>
@@ -19535,7 +19566,7 @@
     <e lm="esaminatore"><i>esaminator</i><par n="abat/e__n"/></e>
     <e lm="aspirante"><i>aspirant</i><par n="abat/e__n"/></e>
     <e lm="dentone"><i>denton</i><par n="abat/e__n"/></e>
-    <e lm="francofortese"><i>francofortes</i><par n="abat/e__n"/></e>
+    <e lm="francofortese"><i>francofortes</i><par n="albanes/e__n"/></e>
     <e lm="manipolatore"><i>manipolator</i><par n="abat/e__n"/></e>
     <e lm="nuotatore"><i>nuotator</i><par n="abat/e__n"/></e>
     <e lm="caporale"><i>caporal</i><par n="abat/e__n"/></e>
@@ -19561,7 +19592,7 @@
     <e lm="bevitore"><i>bevitor</i><par n="abat/e__n"/></e>
     <e lm="tormentatore"><i>tormentator</i><par n="abat/e__n"/></e>
     <e lm="famigliare"><i>famigliar</i><par n="abat/e__n"/></e>
-    <e lm="lionese"><i>liones</i><par n="abat/e__n"/></e>
+    <e lm="lionese"><i>liones</i><par n="albanes/e__n"/></e>
     <e lm="biscione"><i>biscion</i><par n="abat/e__n"/></e>
     <e lm="musicante"><i>musicant</i><par n="abat/e__n"/></e>
     <e lm="legislatore"><i>legislator</i><par n="abat/e__n"/></e>
@@ -19572,7 +19603,7 @@
     <e lm="emergente"><i>emergent</i><par n="abat/e__n"/></e>
     <e lm="condizionatore"><i>condizionator</i><par n="abat/e__n"/></e>
     <e lm="marciatore"><i>marciator</i><par n="abat/e__n"/></e>
-    <e lm="bengalese"><i>bengales</i><par n="abat/e__n"/></e>
+    <e lm="bengalese"><i>bengales</i><par n="albanes/e__n"/></e>
     <e lm="collaborante"><i>collaborant</i><par n="abat/e__n"/></e>
     <e lm="bioingegnere"><i>bioingegner</i><par n="abat/e__n"/></e>
     <e lm="agrume"><i>agrum</i><par n="abat/e__n"/></e>
@@ -19598,7 +19629,7 @@
     <e lm="cerone"><i>ceron</i><par n="abat/e__n"/></e>
     <e lm="incosciente"><i>incoscient</i><par n="abat/e__n"/></e>
     <e lm="presule"><i>presul</i><par n="abat/e__n"/></e>
-    <e lm="marsigliese"><i>marsiglies</i><par n="abat/e__n"/></e>
+    <e lm="marsigliese"><i>marsiglies</i><par n="albanes/e__n"/></e>
     <e lm="preliminare"><i>preliminar</i><par n="abat/e__n"/></e>
     <e lm="frequentatore"><i>frequentator</i><par n="abat/e__n"/></e>
     <e lm="idrante"><i>idrant</i><par n="abat/e__n"/></e>
@@ -19623,7 +19654,7 @@
     <e lm="tranviere"><i>tranvier</i><par n="abat/e__n"/></e>
     <e lm="ventennale"><i>ventennal</i><par n="abat/e__n"/></e>
     <e lm="suggeritore"><i>suggeritor</i><par n="abat/e__n"/></e>
-    <e lm="singalese"><i>singales</i><par n="abat/e__n"/></e>
+    <e lm="singalese"><i>singales</i><par n="albanes/e__n"/></e>
     <e lm="tritone"><i>triton</i><par n="abat/e__n"/></e>
     <e lm="truce"><i>truc</i><par n="abat/e__n"/></e>
     <e lm="ristoratore"><i>ristorator</i><par n="abat/e__n"/></e>
@@ -26964,7 +26995,7 @@
     <e lm="aquilone"><i>aquilon</i><par n="abat/e__n"/></e>
     <e lm="arabo"><i>arab</i><par n="bambin/o__n"/></e>
     <e lm="arachide"><i>arachid</i><par n="abat/e__n"/></e>
-    <e lm="aragonese"><i>aragones</i><par n="abat/e__n"/></e>
+    <e lm="aragonese"><i>aragones</i><par n="albanes/e__n"/></e>
     <e lm="araldo"><i>arald</i><par n="abbain/o__n"/></e>
     <e lm="arancia"><i>aranc</i><par n="alzatacc/ia__n"/></e>
     <e lm="arancione"><i>arancion</i><par n="abat/e__n"/></e>
@@ -26997,7 +27028,7 @@
     <e lm="armata"><i>armat</i><par n="cas/a__n"/></e>
     <e lm="armistizio"><i>armistizi</i><par n="abbagli/o__n"/></e>
     <e lm="armonia"><i>armoni</i><par n="cas/a__n"/></e>
-    <e lm="arnese"><i>arnes</i><par n="abat/e__n"/></e>
+    <e lm="arnese"><i>arnes</i><par n="albanes/e__n"/></e>
     <e lm="aroma"><i>arom</i><par n="autom/a__n"/></e>
     <e lm="arpa"><i>arp</i><par n="cas/a__n"/></e>
     <e lm="arpia"><i>arpi</i><par n="cas/a__n"/></e>
@@ -27290,7 +27321,7 @@
     <e lm="bombo"><i>bomb</i><par n="abbain/o__n"/></e>
     <e lm="bonifico"><i>bonific</i><par n="abbain/o__n"/></e>
     <e lm="bordo"><i>bord</i><par n="abbain/o__n"/></e>
-    <e lm="borghese"><i>borghes</i><par n="abat/e__n"/></e>
+    <e lm="borghese"><i>borghes</i><par n="albanes/e__n"/></e>
     <e lm="borghesia"><i>borghesi</i><par n="cas/a__n"/></e>
     <e lm="borsa"><i>bors</i><par n="cas/a__n"/></e>
     <e lm="borsello"><i>borsell</i><par n="abbain/o__n"/></e>
@@ -29259,7 +29290,7 @@
     <e lm="merito"><i>merit</i><par n="abbain/o__n"/></e>
     <e lm="sito"><i>sit</i><par n="abbain/o__n"/></e>
     <e lm="merletto"><i>merlett</i><par n="abbain/o__n"/></e>
-    <e lm="mese"><i>mes</i><par n="abat/e__n"/></e>
+    <e lm="mese"><i>mes</i><par n="albanes/e__n"/></e>
     <e lm="mesone"><i>meson</i><par n="abat/e__n"/></e>
     <e lm="mesoterapia"><i>mesoterapi</i><par n="cas/a__n"/></e>
     <e lm="messa"><i>mess</i><par n="cas/a__n"/></e>
@@ -29627,7 +29658,7 @@
     <e lm="padrino"><i>padrin</i><par n="abbain/o__n"/></e>
     <e lm="padrone"><i>padron</i><par n="infermier/e__n"/></e>
     <e lm="paella"><i>paella</i><par n="abilità__n"/></e>
-    <e lm="paese"><i>paes</i><par n="abat/e__n"/></e>
+    <e lm="paese"><i>paes</i><par n="albanes/e__n"/></e>
     <e lm="paesaggio"><i>paesaggi</i><par n="abbagli/o__n"/></e>
     <e lm="pagano"><i>pagan</i><par n="bambin/o__n"/></e>
     <e lm="pagina"><i>pagin</i><par n="cas/a__n"/></e>
@@ -37467,8 +37498,8 @@
       <e r="LR" lm="com'"><p><l>com'</l><r>come</r></p><par n="ieri__adv" /></e>
       <e r="LR" lm="dov'"><p><l>dov'</l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
       <e r="LR" lm="tant'"><p><l>tant'</l><r>tanto</r></p><par n="ieri__adv" /></e>
-      <e r="LR" lm="dev'"><p><l>dev'</l><r>devere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR" lm="dev'"><p><l>dev'</l><r>devere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="dev'"><p><l>dev'</l><r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="dev'"><p><l>dev'</l><r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   </section>	
   <section id="final" type="inconditional">
       <e><par n="pardret"/></e>
