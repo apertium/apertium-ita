@@ -326,13 +326,14 @@
       <e><p><l>vvi</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>vve</l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__cantandoti"/></e>
 
-      <e><p><l>lla</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>llo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>lla</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>lli</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>lle</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>llo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>nne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
       <e><p><l>cci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+      <e><p><l>cce</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/><j/></r></p><par n="S__cantarci"/></e>
     </pardef>
     
     <pardef n="salve__ij">
