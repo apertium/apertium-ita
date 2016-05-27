@@ -7101,10 +7101,11 @@
       <e><p><l>iciamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e>
-      <e r="LR"><p><l>i'</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e> <!-- WARNING! No hi ha forma RL -->
-      <e r="LR"><p><l>ì</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e> <!-- WARNING! No hi ha forma RL -->
-      <e r="LR"><p><l>ican</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e> <!-- WARNING! No hi ha forma RL -->
+      <e r="LR"><p><l>i'</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ì</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ican</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>icano</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ica</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ir</l><r>ire<s n="vblex"/><s n="inf"/></r></p></e>
@@ -9045,17 +9046,17 @@
     </pardef>
   
     <pardef n="poss/edere__vblex">
+      <e r="LR"><p><l>ederemmo</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iederemmo</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>iederemmo</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ederei</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>iederei</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>iederei</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>edereste</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>iedereste</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>iedereste</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ederesti</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
       <e><p><l>iederesti</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>iederesti</l><r>edere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ederebbero</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iederebbero</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>iederebbero</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>iederebbe</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ederebbe</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>iederebbe</l><r>edere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ederemo</l><r>edere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iederemo</l><r>edere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -9071,7 +9072,9 @@
       <e><p><l>iederà</l><r>edere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>edendo</l><r>edere<s n="vblex"/><s n="ger"/></r></p></e>
       <e><p><l>edendo</l><r>edere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
-      <e><p><l>edevo</l><r>edere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e r="LR"><p><l>eggendo</l><r>edere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e r="LR"><p><l>eggendo</l><r>edere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e r="LR"><p><l>edevo</l><r>edere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
       <e><p><l>edemmo</l><r>edere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>edei</l><r>edere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>edeste</l><r>edere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -9117,10 +9120,15 @@
       <e r="LR"><p><l>ediamo</l><r>edere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iediamo</l><r>edere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>iedo</l><r>edere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>edo</l><r>edere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eggo</l><r>edere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>edete</l><r>edere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>iedete</l><r>edere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>iedi</l><r>edere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>edi</l><r>edere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>iedon</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>edono</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>eggono</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iedono</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>iede</l><r>edere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ediamo</l><r>edere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -10954,6 +10962,9 @@
       <e><p><l>ovessero</l><r>overe<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ovesse</l><r>overe<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ovuto</l><r>overe<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ovuti</l><r>overe<s n="vbmod"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ovuta</l><r>overe<s n="vbmod"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ovute</l><r>overe<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>obbiamo</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>evo</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ovete</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -11250,9 +11261,9 @@
     
     <pardef n="qualcun/o__det">
       <e r="LR"><p><l>o</l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l><a/></l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l></l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><a/></l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="alcun__det">
