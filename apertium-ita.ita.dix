@@ -750,7 +750,7 @@
       <e><p><l>assi</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>igei</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>igeste</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>igesti</l><r>ere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>igesti</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>igerono</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>assero</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>asse</l><r>igere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4530,6 +4530,9 @@
       <e><p><l>avessero</l><r>avere<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>avesse</l><r>avere<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>avuto</l><r>avere<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>avute</l><r>avere<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>avuta</l><r>avere<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>avuti</l><r>avere<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>abbiamo</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ho</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>avete</l><r>avere<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
