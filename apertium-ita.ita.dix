@@ -25124,9 +25124,9 @@
     <e lm="nordcoreano"><i>nordcorean</i><par n="bambin/o__n"/></e>
     <e lm="nordafricano"><i>nordafrican</i><par n="cosiddett/o__adj"/></e>
     <e lm="nordcoreano"><i>nordcorean</i><par n="cosiddett/o__adj"/></e>
-    <e lm="nordico"><i>nordic</i><par n="bambin/o__n"/></e>
+    <e lm="nordico"><i>nordic</i><par n="tecnic/o__adj"/></e>
     <e lm="normanno"><i>normann</i><par n="bambin/o__n"/></e>
-    <e lm="nordico"><i>nordic</i><par n="cosiddett/o__adj"/></e>
+    <e lm="nordico"><i>nordic</i><par n="tecnic/o__adj"/></e>
     <e lm="normanno"><i>normann</i><par n="cosiddett/o__adj"/></e>
     <e lm="normografo"><i>normograf</i><par n="abbain/o__n"/></e>
     <e lm="nostalgico"><i>nostalgic</i><par n="bambin/o__n"/></e>
@@ -26210,7 +26210,7 @@
     <e lm="slittamento"><i>slittament</i><par n="abbain/o__n"/></e>
     <e lm="slittino"><i>slittin</i><par n="abbain/o__n"/></e>
     <e lm="sloveno"><i>sloven</i><par n="bambin/o__n"/></e>
-    <e lm="slovacco"><i>slovacc</i><par n="tedesc/o__n"/></e>
+    <e lm="slovacco"><i>slovacc</i><par n="caric/o__adj"/></e>
     <e lm="smaliziato"><i>smaliziat</i><par n="abbain/o__n"/></e>
     <e lm="smaltimento"><i>smaltiment</i><par n="abbain/o__n"/></e>
     <e lm="smantellamento"><i>smantellament</i><par n="abbain/o__n"/></e>
@@ -32428,7 +32428,7 @@
     <e lm="galiziano"><i>galizian</i><par n="cosiddett/o__adj"/></e>
     <e lm="galleggiante"><i>galleggia</i><par n="abbacchia/nte__adj"/></e>
     <e lm="galleggiante"><i>galleggiant</i><par n="albanes/e__adj"/></e>
-    <e lm="gallico"><i>gallic</i><par n="cosiddett/o__adj"/></e>
+    <e lm="gallico"><i>gallic</i><par n="tecnic/o__adj"/></e>
     <e lm="gelatinoso"><i>gelatinos</i><par n="abbandonat/o__adj"/></e>
     <e lm="generale"><i>general</i><par n="albanes/e__adj"/></e>
     <e lm="generazionale"><i>generazional</i><par n="albanes/e__adj"/></e>
@@ -32632,7 +32632,7 @@
     <e lm="liberale"><i>liberal</i><par n="albanes/e__adj"/></e>
     <e lm="libico"><i>libic</i><par n="tecnic/o__adj"/></e>
     <e lm="lineare"><i>linear</i><par n="albanes/e__adj"/></e>
-    <e lm="linguistico"><i>linguistic</i><par n="cosiddett/o__adj"/></e>
+    <e lm="linguistico"><i>linguistic</i><par n="tecnic/o__adj"/></e>
     <e lm="liquido"><i>liquid</i><par n="abbandonat/o__adj"/></e>
     <e lm="litorale"><i>litoral</i><par n="albanes/e__adj"/></e>
     <e lm="lituano"><i>lituan</i><par n="cosiddett/o__adj"/></e>
@@ -32793,7 +32793,7 @@
     <e lm="orizzontale"><i>orizzontal</i><par n="albanes/e__adj"/></e>
     <e lm="ostile"><i>ostil</i><par n="albanes/e__adj"/></e>
     <e lm="ostinato"><i>ostinat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="ottico"><i>ottic</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ottico"><i>ottic</i><par n="tecnic/o__adj"/></e>
     <e lm="ovale"><i>oval</i><par n="albanes/e__adj"/></e>
     <e lm="ovoidale"><i>ovoidal</i><par n="albanes/e__adj"/></e>
     <e lm="ovvio"><i>ovvi</i><par n="abbandonat/o__adj"/></e>
@@ -36684,7 +36684,7 @@
     <e lm="sentito"><i>sentit</i><par n="abbandonat/o__adj"/></e>
     <e lm="sollecito"><i>sollecit</i><par n="abbandonat/o__adj"/></e>
     <e lm="spedito"><i>spedit</i><par n="abbandonat/o__adj"/></e>
-    <e lm="stanco"><i>stanc</i><par n="abbandonat/o__adj"/></e>
+    <e lm="stanco"><i>stanc</i><par n="caric/o__adj"/></e>
     <e lm="studiato"><i>studiat</i><par n="abbandonat/o__adj"/></e>
     <e lm="subordinato"><i>subordinat</i><par n="abbandonat/o__adj"/></e>
     <e lm="sussidiario"><i>sussidiari</i><par n="abbandonat/o__adj"/></e>
@@ -36698,7 +36698,7 @@
     <e lm="vergognoso"><i>vergognos</i><par n="abbandonat/o__adj"/></e>
     <e lm="vertiginoso"><i>vertiginos</i><par n="abbandonat/o__adj"/></e>
     <e lm="vicendevole"><i>vicendevol</i><par n="albanes/e__adj"/></e>
-    <e lm="vigliacco"><i>vigliacc</i><par n="abbandonat/o__adj"/></e>
+    <e lm="vigliacco"><i>vigliacc</i><par n="caric/o__adj"/></e>
     <e lm="vocazionale"><i>vocazional</i><par n="albanes/e__adj"/></e>
     <e lm="complessivo"><i>complessiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="disonesto"><i>disonest</i><par n="abbandonat/o__adj"/></e>
@@ -36810,7 +36810,7 @@
     <e lm="improprio"><i>impropri</i><par n="abbandonat/o__adj"/></e>
     <e lm="indubbio"><i>indubbi</i><par n="abbandonat/o__adj"/></e>
     <e lm="intensivo"><i>intensiv</i><par n="abbandonat/o__adj"/></e>
-    <e lm="intrinseco"><i>intrinsec</i><par n="abbandonat/o__adj"/></e>
+    <e lm="intrinseco"><i>intrinsec</i><par n="tecnic/o__adj"/></e>
     <e lm="intuitivo"><i>intuitiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="ironico"><i>ironic</i><par n="tecnic/o__adj"/></e>
     <e lm="linguistico"><i>linguistic</i><par n="tecnic/o__adj"/></e>
@@ -36847,7 +36847,7 @@
     <e lm="strenuo"><i>strenu</i><par n="abbandonat/o__adj"/></e>
     <e lm="tragico"><i>tragic</i><par n="tecnic/o__adj"/></e>
     <e lm="unitario"><i>unitari</i><par n="abbandonat/o__adj"/></e>
-    <e lm="univoco"><i>univoc</i><par n="abbandonat/o__adj"/></e>
+    <e lm="univoco"><i>univoc</i><par n="tecnic/o__adj"/></e>
     <e lm="vago"><i>vag</i><par n="caric/o__adj"/></e>
     <e lm="vario"><i>vari</i><par n="abbandonat/o__adj"/></e>
     <e lm="vivo"><i>viv</i><par n="abbandonat/o__adj"/></e>
