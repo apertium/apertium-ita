@@ -13190,7 +13190,6 @@
     <e lm="Serramanna"><i>Serramanna</i><par n="Europa__np"/></e>
     <e lm="Sardara"><i>Sardara</i><par n="Europa__np"/></e>
     <e lm="Segariu"><i>Segariu</i><par n="Afghanistan__np"/></e>
-    <e lm="Samassi"><i>Samassi</i><par n="Afghanistan__np"/></e>
     <e lm="Serrenti"><i>Serrenti</i><par n="Afghanistan__np"/></e>
     <e lm="Setzu"><i>Setzu</i><par n="Afghanistan__np"/></e>
     <e lm="Siddi"><i>Siddi</i><par n="Afghanistan__np"/></e>
@@ -15481,7 +15480,6 @@
     <e lm="Alà dei Sardi"><i>Alà<b/>dei<b/>Sardi</i><par n="Afghanistan__np"/></e>
     <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
     <e lm="Badesi"><i>Badesi</i><par n="Afghanistan__np"/></e>   
-    <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
     <e lm="Berchidda"><i>Berchidda</i><par n="Europa__np"/></e>
     <e lm="Bortigiadas"><i>Bortigiadas</i><par n="Europa__np"/></e>
     <e lm="Buddusò"><i>Buddusò</i><par n="Afghanistan__np"/></e>
@@ -15490,7 +15488,6 @@
     <e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Afghanistan__np"/></e>
     <e lm="Figari"><i>Figari</i><par n="Afghanistan__np"/></e>
     <e lm="La Maddalena "><i>La<b/>Maddalena </i><par n="Europa__np"/></e>
-    <e lm="Figari"><i>Figari</i><par n="Afghanistan__np"/></e>
     <e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
     <e lm="Luogosanto"><i>Luogosanto</i><par n="Afghanistan__np"/></e>
     <e lm="Luras"><i>Luras</i><par n="Afghanistan__np"/></e>
@@ -15508,7 +15505,6 @@
 
     
     <e lm="Aidomaggiore"><i>Aidomaggiore</i><par n="Afghanistan__np"/></e>
-    <e lm="Albagiara"><i>Albagiara</i><par n="Europa__np"/></e>
     <e lm="Albagiara"><i>Albagiara</i><par n="Europa__np"/></e>
     <e lm="Ales"><i>Ales</i><par n="Afghanistan__np"/></e>
     <e lm="Ardauli"><i>Ardauli</i><par n="Afghanistan__np"/></e>
@@ -16663,7 +16659,6 @@
     <e lm="Fiorenza"><i>Fiorenza</i><par n="María__np"/></e>
     <e lm="Nemorino"><i>Nemorino</i><par n="Juan__np"/></e>
     <e lm="Ferrara"><i>Ferrara</i><par n="Europa__np"/></e>
-    <e lm="Villacidro"><i>Villacidro</i><par n="Afghanistan__np"/></e>
     <e lm="Umberto"><i>Umberto</i><par n="Juan__np"/></e>
     <e lm="Danilo"><i>Danilo</i><par n="Juan__np"/></e>
     <e lm="Ladislava"><i>Ladislava</i><par n="María__np"/></e>
@@ -17388,7 +17383,6 @@
     <e lm="Cipriano"><i>Cipriano</i><par n="Juan__np"/></e>
     <e lm="Jesolo"><i>Jesolo</i><par n="Afghanistan__np"/></e>
     <e lm="Iside"><i>Iside</i><par n="María__np"/></e>
-    <e lm="Olbia"><i>Olbia</i><par n="Europa__np"/></e>
     <e lm="Rachis"><i>Rachis</i><par n="Juan__np"/></e>
     <e lm="Eduina"><i>Eduina</i><par n="María__np"/></e>
     <e lm="Maggiorina"><i>Maggiorina</i><par n="María__np"/></e>
@@ -20244,7 +20238,6 @@
     <e lm="revisare"><i>revis</i><par n="abbacin/are__vblex"/></e>
     <e lm="concoradare"><i>concorad</i><par n="abbacin/are__vblex"/></e>
     <e lm="convenzionare"><i>convenzion</i><par n="abbacin/are__vblex"/></e>
-    <e lm="concoradare"><i>concorad</i><par n="abbacin/are__vblex"/></e>
     <e lm="calculare"><i>calcul</i><par n="abbacin/are__vblex"/></e>
     <e lm="areggiare"><i>aregg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="assembleare"><i>assemble</i><par n="abbacin/are__vblex"/></e>
@@ -20265,7 +20258,6 @@
     <e lm="soprassedere"><i>soprass</i><par n="s/edere__vblex"/></e>
     <e lm="abbonire"><i>abbon</i><par n="abbrut/ire__vblex"/></e>
     <e lm="impelosire"><i>impelos</i><par n="abbrut/ire__vblex"/></e>
-    <e lm="avocare"><i>avoc</i><par n="abbacin/are__vblex"/></e>
     <e lm="federare"><i>feder</i><par n="abbacin/are__vblex"/></e>
 
 
@@ -34536,7 +34528,6 @@
     <e lm="acconsentire"><i>acconsent</i><par n="abbrut/ire__vblex"/></e>
     <e lm="accontentare"><i>accontent</i><par n="abbacin/are__vblex"/></e>
     <e lm="accoppiare"><i>accoppi</i><par n="abbacchi/are__vblex"/></e>
-    <e lm="accorciare"><i>accorc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="accorgere"><i>accor</i><par n="accin/gere__vblex"/></e>
     <e lm="accostare"><i>accost</i><par n="abbacin/are__vblex"/></e>
     <e lm="acquisire"><i>acquis</i><par n="abbell/ire__vblex"/></e>
@@ -34930,7 +34921,6 @@
     <e lm="pettegolare"><i>pettegol</i><par n="abbacin/are__vblex"/></e>
     <e lm="picchiare"><i>picchi</i><par n="abbacchi/are__vblex"/></e>
     <e lm="pigiare"><i>pig</i><par n="abbiosc/iare__vblex"/></e>
-    <e lm="poetare"><i>poet</i><par n="abbacin/are__vblex"/></e>
     <e lm="porgere"><i>por</i><par n="accin/gere__vblex"/></e>
     <e lm="potenziare"><i>potenzi</i><par n="abbacchi/are__vblex"/></e>
     <e lm="pranzare"><i>pranz</i><par n="abbacin/are__vblex"/></e>
@@ -36813,7 +36803,6 @@
     <e lm="intrinseco"><i>intrinsec</i><par n="tecnic/o__adj"/></e>
     <e lm="intuitivo"><i>intuitiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="ironico"><i>ironic</i><par n="tecnic/o__adj"/></e>
-    <e lm="linguistico"><i>linguistic</i><par n="tecnic/o__adj"/></e>
     <e lm="marcato"><i>marcat</i><par n="abbandonat/o__adj"/></e>
     <e lm="massiccio"><i>massicci</i><par n="abbandonat/o__adj"/></e>
     <e lm="mero"><i>mer</i><par n="abbandonat/o__adj"/></e>
