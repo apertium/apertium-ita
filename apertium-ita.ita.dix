@@ -165,7 +165,7 @@
       <e><p><l>le</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
       <e><p><l>ne</l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+<!--      <e><p><l>ci</l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e> no real i genera problemes al testvoc ita-srd -->
     </pardef>
 
     <pardef n="S__cantarci">
@@ -11331,12 +11331,6 @@
       <e><p><l>e<b/>le</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef> 
     
-    <pardef n="tutt'e du/e_i__det">
-      <e r="LR"><p><l>e<b/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="RL"><p><l>e<b/><a/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><p><l>e<b/>le</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>        
-    
     <pardef n="accanto__pr">
       <e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
@@ -12677,6 +12671,11 @@
     <e lm="un altro"><par n="/un_altro__det"/></e>
     <e lm="vario"><i>vari</i><par n="vari/o__det"/></e>
     <e lm="vostro"><i>vostr</i><par n="vostr/o__det"/></e>
+
+    <e lm="entrambi i"><i>entramb</i><par n="entramb/i_i__det"/></e>
+    <e lm="tutt'e due i"><p><l>tutt'e<b/>due<b/>i</l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="tutt'e due i"><p><l>tutt'e<b/>due<b/>le</l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+
 
     <!-- SECTION: Relativos -->
  
@@ -31847,9 +31846,6 @@
     <e lm="magari"><i>magari</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (adj) group      ******************************    -->
-    <e lm="entrambi"><i>entramb</i><par n="entramb/i_i__det"/></e>
-    <e lm="tutt'e due"><i>tutt'e du</i><par n="tutt'e du/e_i__det"/></e>
-
     <e lm="abbronzato"><i>abbronzat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbonato"><i>abbonat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbondante"><i>abbonda</i><par n="abbacchia/nte__adj"/></e>
