@@ -11329,12 +11329,18 @@
       <e r="LR"><p><l>i<b/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l>i<b/><a/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e<b/>le</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-     
+    </pardef> 
+    
+    <pardef n="tutt'e du/e_i__det">
+      <e r="LR"><p><l>e<b/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>e<b/><a/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>e<b/>le</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>        
+    
     <pardef n="accanto__pr">
       <e><p><l></l><r><s n="pr"/></r></p></e>
     </pardef>
-    
+
     <pardef n="/a__pr">
       <e r="LR"><p><l>a</l><r>a<s n="pr"/></r></p></e>
       <e r="LR"><p><l>ad</l><r>a<s n="pr"/></r></p></e>
@@ -12563,11 +12569,11 @@
       <e r="LR"><p><l>i<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>il<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>le<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>la<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>la<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>i<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l><a/>il<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>le<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="RL"><p><l><a/>la<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><a/>la<b/>loro</l><r>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="/il_loro__prn">
@@ -12642,7 +12648,7 @@
     <e lm="alcun"><i>alcun</i><par n="alcun__det"/></e>
 <!--<e lm="qualcun"><i>qualcun</i><par n="alcun__det"/></e>-->
     <e lm="certo"><i>cert</i><par n="cert/o__det"/></e>
-    <e lm="diverso"><i>divers</i><par n="vari/o__det"/></e>
+    <e lm="diverso"><i>divers</i><par n="cert/o__det"/></e>
     <e lm="il"><par n="/il__det"/></e>
     <e lm="il loro"><par n="/il_loro__det"/></e>
     <e lm="il mio"><par n="/il_mio__det"/></e>
@@ -31842,6 +31848,8 @@
 
 <!--       ******************************      (adj) group      ******************************    -->
     <e lm="entrambi"><i>entramb</i><par n="entramb/i_i__det"/></e>
+    <e lm="tutt'e due"><i>tutt'e due</i><par n="tutt'e du/e_i__det"/></e>
+
     <e lm="abbronzato"><i>abbronzat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbonato"><i>abbonat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbondante"><i>abbonda</i><par n="abbacchia/nte__adj"/></e>
@@ -35371,8 +35379,9 @@
       <e r="LR" lm="te li"><p><l>te li</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR" lm="te lo"><p><l>te lo</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR" lm="te ne"><p><l>te ne</l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <e lm="tutti e due"><p><l>tutte<b/>e<b/>due</l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
-    <e lm="tutti e due"><p><l>tutti<b/>e<b/>due</l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+   
+
+    <e lm="tutt'e due"><p><l>tutt'e<b/>due</l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e lm="entrambi"><p><l>entrambe</l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="entrambi"><p><l>entrambi</l><r>entrambi<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 
@@ -35502,7 +35511,9 @@
     <e lm="fuorché"><i>fuorché</i><par n="accanto__pr"/></e>
     <e lm="fuori"><i>fuori</i><par n="accanto__pr"/></e>
     <e lm="fuori di"><i>fuori<b/></i><par n="/di__pr"/></e>
+    <e lm="fuori da"><i>fuori<b/></i><par n="/da__pr"/></e>
     <e lm="in attesa di"><i>in<b/>attesa<b/></i><par n="/di__pr"/></e>
+    <e lm="in mezzo a"><i>in<b/>mezzo<b/>a</i><par n="/a__pr"/></e>
     <e lm="innanzi a"><i>innanzi<b/></i><par n="/a__pr"/></e>
     <e lm="insieme a"><i>insieme<b/></i><par n="/a__pr"/></e>
     <e lm="intorno a"><i>intorno<b/></i><par n="/a__pr"/></e>
