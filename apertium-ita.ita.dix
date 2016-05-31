@@ -25123,7 +25123,6 @@
     <e lm="nordcoreano"><i>nordcorean</i><par n="cosiddett/o__adj"/></e>
     <e lm="nordico"><i>nordic</i><par n="tecnic/o__adj"/></e>
     <e lm="normanno"><i>normann</i><par n="bambin/o__n"/></e>
-    <e lm="nordico"><i>nordic</i><par n="tedesc/o__n"/></e>
     <e lm="normanno"><i>normann</i><par n="cosiddett/o__adj"/></e>
     <e lm="normografo"><i>normograf</i><par n="abbain/o__n"/></e>
     <e lm="nostalgico"><i>nostalgic</i><par n="bambin/o__n"/></e>
@@ -25376,6 +25375,7 @@
     <e lm="petardo"><i>petard</i><par n="abbain/o__n"/></e>
     <e lm="petrodollaro"><i>petrodollar</i><par n="abbain/o__n"/></e>
     <e lm="petrolchimico"><i>petrolchimic</i><par n="abbain/o__n"/></e>
+    <e lm="petrolchimico"><i>petrolchimic</i><par n="tecnic/o__adj"/></e>
     <e lm="pettegolezzo"><i>pettegolezz</i><par n="abbain/o__n"/></e>
     <e lm="pettegolo"><i>pettegol</i><par n="abbain/o__n"/></e>
     <e lm="pettirosso"><i>pettiross</i><par n="abbain/o__n"/></e>
@@ -27723,7 +27723,6 @@
     <e lm="chilometro"><i>chilometr</i><par n="abbain/o__n"/></e>
     <e lm="chimera"><i>chimer</i><par n="cas/a__n"/></e>
     <e lm="chimica"><i>chimic</i><par n="tasc/a__n"/></e>
-    <e lm="chimico"><i>chimic</i><par n="cosmetic/o__n"/></e>
     <e lm="chiocciola"><i>chiocciol</i><par n="cas/a__n"/></e>
     <e lm="chiodo"><i>chiod</i><par n="abbain/o__n"/></e>
     <e lm="chiosco"><i>chiosc</i><par n="fung/o__n"/></e>
@@ -29353,7 +29352,6 @@
     <e lm="medaglia"><i>medagli</i><par n="cas/a__n"/></e>
     <e lm="media"><i>medi</i><par n="cas/a__n"/></e>
     <e lm="mediazione"><i>mediazion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="medico"><i>medic</i><par n="sopran/o__n"/></e>
     <e lm="medicina"><i>medicin</i><par n="cas/a__n"/></e>
     <e lm="meditazione"><i>meditazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="mega"><i>mega</i><par n="blogger__n"/></e>
@@ -37335,7 +37333,6 @@
     <e lm="mandarino"><i>mandarin</i><par n="bambin/o__n"/></e>
     <e lm="matassa"><i>matass</i><par n="cas/a__n"/></e>
     <e lm="matricola"><i>matricol</i><par n="cas/a__n"/></e>
-    <e lm="medico"><i>medic</i><par n="fung/o__n"/></e>
     <e lm="menzogna"><i>menzogn</i><par n="cas/a__n"/></e>
     <e lm="meraviglia"><i>meravigli</i><par n="cas/a__n"/></e>
     <e lm="metodologia"><i>metodologi</i><par n="cas/a__n"/></e>
