@@ -345,6 +345,15 @@
       <e><p><l>e</l><r>e<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="fin/e__n">
+      <e><p><l>i</l><r>e<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>issimo</l><r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>issimi</l><r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>issima</l><r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>issime</l><r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="tasc/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -37264,7 +37273,6 @@
     <e lm="fiera"><i>fier</i><par n="cas/a__n"/></e>
     <e lm="figura"><i>figur</i><par n="cas/a__n"/></e>
     <e lm="fila"><i>fil</i><par n="cas/a__n"/></e>
-    <e lm="fine"><i>fine</i><par n="abat/e__n"/></e>
     <e lm="fiocco"><i>fiocc</i><par n="fung/o__n"/></e>
     <e lm="fisco"><i>fisc</i><par n="fung/o__n"/></e>
     <e lm="flamengo"><i>flameng</i><par n="fung/o__n"/></e>
