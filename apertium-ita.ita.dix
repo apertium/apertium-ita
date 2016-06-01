@@ -11245,6 +11245,11 @@
       <e><p><l>e</l><r>e<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="alchimist/a__adj">
+      <e><p><l>a</l><r>a<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>a<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="suicid/a__adj">
       <e><p><l>i</l><r>a<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>a<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -11262,11 +11267,6 @@
       <e><p><l>a</l><r>a<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>he</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="alchimist/a__adj">
-      <e><p><l>a</l><r>a<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>i</l><r>a<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="tedesc/o__adj">
@@ -32230,7 +32230,7 @@
     <e lm="costante"><i>costant</i><par n="fin/e__adj"/></e>
     <e lm="costituente"><i>costituent</i><par n="fin/e__adj"/></e>
     <e lm="costituzionale"><i>costituzional</i><par n="fin/e__adj"/></e>
-    <e lm="costituzionalista"><i>costituzionalist</i><par n="alchimist/a__adj"/></e>
+    <e lm="costituzionalista"><i>costituzionalist</i><par n="suicid/a__adj"/></e>
     <e lm="costoso"><i>costos</i><par n="abbandonat/o__adj"/></e>
     <e lm="costruttivo"><i>costruttiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="cranico"><i>cranic</i><par n="tecnic/o__adj"/></e>
@@ -37984,6 +37984,387 @@
     <e lm="èquipe"><i>èquipe</i><par n="abilità__n"/></e>
     <e lm="équipe"><i>équipe</i><par n="abilità__n"/></e>
 
+    <e lm="abortista"><i>abortist</i><par n="suicid/a__n"/></e>
+    <e lm="affarista"><i>affarist</i><par n="suicid/a__n"/></e>
+    <e lm="agonista"><i>agonist</i><par n="suicid/a__n"/></e>
+    <e lm="alchimista"><i>alchimist</i><par n="suicid/a__n"/></e>
+    <e lm="alcolista"><i>alcolist</i><par n="suicid/a__n"/></e>
+    <e lm="alfista"><i>alfist</i><par n="suicid/a__n"/></e>
+    <e lm="alimentarista"><i>alimentarist</i><par n="suicid/a__n"/></e>
+    <e lm="alpinista"><i>alpinist</i><par n="suicid/a__n"/></e>
+    <e lm="ambientalista"><i>ambientalist</i><par n="suicid/a__n"/></e>
+    <e lm="anestesista"><i>anestesist</i><par n="suicid/a__n"/></e>
+    <e lm="anglista"><i>anglist</i><par n="suicid/a__n"/></e>
+    <e lm="animalista"><i>animalist</i><par n="suicid/a__n"/></e>
+    <e lm="antiabortista"><i>antiabortist</i><par n="suicid/a__n"/></e>
+    <e lm="anticonformista"><i>anticonformist</i><par n="suicid/a__n"/></e>
+    <e lm="antifascista"><i>antifascist</i><par n="suicid/a__n"/></e>
+    <e lm="antiproibizionista"><i>antiproibizionist</i><par n="suicid/a__n"/></e>
+    <e lm="antisandinista"><i>antisandinist</i><par n="suicid/a__n"/></e>
+    <e lm="arabista"><i>arabist</i><par n="suicid/a__n"/></e>
+    <e lm="archivista"><i>archivist</i><par n="suicid/a__n"/></e>
+    <e lm="arrivista"><i>arrivist</i><par n="suicid/a__n"/></e>
+    <e lm="articolista"><i>articolist</i><par n="suicid/a__n"/></e>
+    <e lm="assenteista"><i>assenteist</i><par n="suicid/a__n"/></e>
+    <e lm="astensionista"><i>astensionist</i><par n="suicid/a__n"/></e>
+    <e lm="astrattista"><i>astrattist</i><par n="suicid/a__n"/></e>
+    <e lm="autista"><i>autist</i><par n="suicid/a__n"/></e>
+    <e lm="automobilista"><i>automobilist</i><par n="suicid/a__n"/></e>
+    <e lm="autonomista"><i>autonomist</i><par n="suicid/a__n"/></e>
+    <e lm="avanguardista"><i>avanguardist</i><par n="suicid/a__n"/></e>
+    <e lm="barista"><i>barist</i><par n="suicid/a__n"/></e>
+    <e lm="basista"><i>basist</i><par n="suicid/a__n"/></e>
+    <e lm="bassista"><i>bassist</i><par n="suicid/a__n"/></e>
+    <e lm="batterista"><i>batterist</i><par n="suicid/a__n"/></e>
+    <e lm="battista"><i>battist</i><par n="suicid/a__n"/></e>
+    <e lm="biblista"><i>biblist</i><par n="suicid/a__n"/></e>
+    <e lm="borsista"><i>borsist</i><par n="suicid/a__n"/></e>
+    <e lm="brigatista"><i>brigatist</i><par n="suicid/a__n"/></e>
+    <e lm="buddhista"><i>buddhist</i><par n="suicid/a__n"/></e>
+    <e lm="buddista"><i>buddist</i><par n="suicid/a__n"/></e>
+    <e lm="buonista"><i>buonist</i><par n="suicid/a__n"/></e>
+    <e lm="cabalista"><i>cabalist</i><par n="suicid/a__n"/></e>
+    <e lm="cabarettista"><i>cabarettist</i><par n="suicid/a__n"/></e>
+    <e lm="calvinista"><i>calvinist</i><par n="suicid/a__n"/></e>
+    <e lm="cambista"><i>cambist</i><par n="suicid/a__n"/></e>
+    <e lm="camorrista"><i>camorrist</i><par n="suicid/a__n"/></e>
+    <e lm="canoista"><i>canoist</i><par n="suicid/a__n"/></e>
+    <e lm="caratterista"><i>caratterist</i><par n="suicid/a__n"/></e>
+    <e lm="caricaturista"><i>caricaturist</i><par n="suicid/a__n"/></e>
+    <e lm="carrierista"><i>carrierist</i><par n="suicid/a__n"/></e>
+    <e lm="carrista"><i>carrist</i><par n="suicid/a__n"/></e>
+    <e lm="cartellonista"><i>cartellonist</i><par n="suicid/a__n"/></e>
+    <e lm="cassettista"><i>cassettist</i><par n="suicid/a__n"/></e>
+    <e lm="cattocomunista"><i>cattocomunist</i><par n="suicid/a__n"/></e>
+    <e lm="centometrista"><i>centometrist</i><par n="suicid/a__n"/></e>
+    <e lm="centralinista"><i>centralinist</i><par n="suicid/a__n"/></e>
+    <e lm="centrista"><i>centrist</i><par n="suicid/a__n"/></e>
+    <e lm="ceramista"><i>ceramist</i><par n="suicid/a__n"/></e>
+    <e lm="cestista"><i>cestist</i><par n="suicid/a__n"/></e>
+    <e lm="chitarrista"><i>chitarrist</i><par n="suicid/a__n"/></e>
+    <e lm="cicloturista"><i>cicloturist</i><par n="suicid/a__n"/></e>
+    <e lm="civilista"><i>civilist</i><par n="suicid/a__n"/></e>
+    <e lm="clarinettista"><i>clarinettist</i><par n="suicid/a__n"/></e>
+    <e lm="classicista"><i>classicist</i><par n="suicid/a__n"/></e>
+    <e lm="co-protagonista"><i>co-protagonist</i><par n="suicid/a__n"/></e>
+    <e lm="collaborazionista"><i>collaborazionist</i><par n="suicid/a__n"/></e>
+    <e lm="colonialista"><i>colonialist</i><par n="suicid/a__n"/></e>
+    <e lm="colorista"><i>colorist</i><par n="suicid/a__n"/></e>
+    <e lm="commercialista"><i>commercialist</i><par n="suicid/a__n"/></e>
+    <e lm="concertista"><i>concertist</i><par n="suicid/a__n"/></e>
+    <e lm="conformista"><i>conformist</i><par n="suicid/a__n"/></e>
+    <e lm="congressista"><i>congressist</i><par n="suicid/a__n"/></e>
+    <e lm="contrabbassista"><i>contrabbassist</i><par n="suicid/a__n"/></e>
+    <e lm="contropiedista"><i>contropiedist</i><par n="suicid/a__n"/></e>
+    <e lm="convegnista"><i>convegnist</i><par n="suicid/a__n"/></e>
+    <e lm="copista"><i>copist</i><par n="suicid/a__n"/></e>
+    <e lm="coprotagonista"><i>coprotagonist</i><par n="suicid/a__n"/></e>
+    <e lm="corista"><i>corist</i><par n="suicid/a__n"/></e>
+    <e lm="correntista"><i>correntist</i><par n="suicid/a__n"/></e>
+    <e lm="corsivista"><i>corsivist</i><par n="suicid/a__n"/></e>
+    <e lm="costituzionalista"><i>costituzionalist</i><par n="suicid/a__n"/></e>
+    <e lm="costumista"><i>costumist</i><par n="suicid/a__n"/></e>
+    <e lm="crocierista"><i>crocierist</i><par n="suicid/a__n"/></e>
+    <e lm="cronista"><i>cronist</i><par n="suicid/a__n"/></e>
+    <e lm="cronometrista"><i>cronometrist</i><par n="suicid/a__n"/></e>
+    <e lm="cubista"><i>cubist</i><par n="suicid/a__n"/></e>
+    <e lm="culturista"><i>culturist</i><par n="suicid/a__n"/></e>
+    <e lm="dadaista"><i>dadaist</i><par n="suicid/a__n"/></e>
+    <e lm="decisionista"><i>decisionist</i><par n="suicid/a__n"/></e>
+    <e lm="difensivista"><i>difensivist</i><par n="suicid/a__n"/></e>
+    <e lm="dipietrista"><i>dipietrist</i><par n="suicid/a__n"/></e>
+    <e lm="diportista"><i>diportist</i><par n="suicid/a__n"/></e>
+    <e lm="discesista"><i>discesist</i><par n="suicid/a__n"/></e>
+    <e lm="disfattista"><i>disfattist</i><par n="suicid/a__n"/></e>
+    <e lm="documentarista"><i>documentarist</i><par n="suicid/a__n"/></e>
+    <e lm="doppiogiochista"><i>doppiogiochist</i><par n="suicid/a__n"/></e>
+    <e lm="doppista"><i>doppist</i><par n="suicid/a__n"/></e>
+    <e lm="ebanista"><i>ebanist</i><par n="suicid/a__n"/></e>
+    <e lm="ecologista"><i>ecologist</i><par n="suicid/a__n"/></e>
+    <e lm="ecoterrorista"><i>ecoterrorist</i><par n="suicid/a__n"/></e>
+    <e lm="editorialista"><i>editorialist</i><par n="suicid/a__n"/></e>
+    <e lm="edonista"><i>edonist</i><par n="suicid/a__n"/></e>
+    <e lm="elettricista"><i>elettricist</i><par n="suicid/a__n"/></e>
+    <e lm="elicotterista"><i>elicotterist</i><par n="suicid/a__n"/></e>
+    <e lm="equilibrista"><i>equilibrist</i><par n="suicid/a__n"/></e>
+    <e lm="erborista"><i>erborist</i><par n="suicid/a__n"/></e>
+    <e lm="esibizionista"><i>esibizionist</i><par n="suicid/a__n"/></e>
+    <e lm="esistenzialista"><i>esistenzialist</i><par n="suicid/a__n"/></e>
+    <e lm="esorcista"><i>esorcist</i><par n="suicid/a__n"/></e>
+    <e lm="espressionista"><i>espressionist</i><par n="suicid/a__n"/></e>
+    <e lm="estremista"><i>estremist</i><par n="suicid/a__n"/></e>
+    <e lm="europeista"><i>europeist</i><par n="suicid/a__n"/></e>
+    <e lm="evangelista"><i>evangelist</i><par n="suicid/a__n"/></e>
+    <e lm="ex-comunista"><i>ex-comunist</i><par n="suicid/a__n"/></e>
+    <e lm="falangista"><i>falangist</i><par n="suicid/a__n"/></e>
+    <e lm="fantasista"><i>fantasist</i><par n="suicid/a__n"/></e>
+    <e lm="fascista"><i>fascist</i><par n="suicid/a__n"/></e>
+    <e lm="federalista"><i>federalist</i><par n="suicid/a__n"/></e>
+    <e lm="ferrarista"><i>ferrarist</i><par n="suicid/a__n"/></e>
+    <e lm="feticista"><i>feticist</i><par n="suicid/a__n"/></e>
+    <e lm="finalista"><i>finalist</i><par n="suicid/a__n"/></e>
+    <e lm="fiorettista"><i>fiorettist</i><par n="suicid/a__n"/></e>
+    <e lm="fiorista"><i>fiorist</i><par n="suicid/a__n"/></e>
+    <e lm="fiscalista"><i>fiscalist</i><par n="suicid/a__n"/></e>
+    <e lm="fisioterapista"><i>fisioterapist</i><par n="suicid/a__n"/></e>
+    <e lm="flautista"><i>flautist</i><par n="suicid/a__n"/></e>
+    <e lm="fondamentalista"><i>fondamentalist</i><par n="suicid/a__n"/></e>
+    <e lm="fondista"><i>fondist</i><par n="suicid/a__n"/></e>
+    <e lm="formalista"><i>formalist</i><par n="suicid/a__n"/></e>
+    <e lm="forzanovista"><i>forzanovist</i><par n="suicid/a__n"/></e>
+    <e lm="forzista"><i>forzist</i><par n="suicid/a__n"/></e>
+    <e lm="franchista"><i>franchist</i><par n="suicid/a__n"/></e>
+    <e lm="fuochista"><i>fuochist</i><par n="suicid/a__n"/></e>
+    <e lm="futurista"><i>futurist</i><par n="suicid/a__n"/></e>
+    <e lm="gallerista"><i>gallerist</i><par n="suicid/a__n"/></e>
+    <e lm="garantista"><i>garantist</i><par n="suicid/a__n"/></e>
+    <e lm="genetista"><i>genetist</i><par n="suicid/a__n"/></e>
+    <e lm="germanista"><i>germanist</i><par n="suicid/a__n"/></e>
+    <e lm="giallista"><i>giallist</i><par n="suicid/a__n"/></e>
+    <e lm="giansenista"><i>giansenist</i><par n="suicid/a__n"/></e>
+    <e lm="giustizialista"><i>giustizialist</i><par n="suicid/a__n"/></e>
+    <e lm="golfista"><i>golfist</i><par n="suicid/a__n"/></e>
+    <e lm="gollista"><i>gollist</i><par n="suicid/a__n"/></e>
+    <e lm="golpista"><i>golpist</i><par n="suicid/a__n"/></e>
+    <e lm="gommista"><i>gommist</i><par n="suicid/a__n"/></e>
+    <e lm="grecista"><i>grecist</i><par n="suicid/a__n"/></e>
+    <e lm="grossista"><i>grossist</i><par n="suicid/a__n"/></e>
+    <e lm="idealista"><i>idealist</i><par n="suicid/a__n"/></e>
+    <e lm="igienista"><i>igienist</i><par n="suicid/a__n"/></e>
+    <e lm="illuminista"><i>illuminist</i><par n="suicid/a__n"/></e>
+    <e lm="illusionista"><i>illusionist</i><par n="suicid/a__n"/></e>
+    <e lm="immobiliarista"><i>immobiliarist</i><par n="suicid/a__n"/></e>
+    <e lm="impressionista"><i>impressionist</i><par n="suicid/a__n"/></e>
+    <e lm="incontrista"><i>incontrist</i><par n="suicid/a__n"/></e>
+    <e lm="indipendentista"><i>indipendentist</i><par n="suicid/a__n"/></e>
+    <e lm="individualista"><i>individualist</i><par n="suicid/a__n"/></e>
+    <e lm="inserzionista"><i>inserzionist</i><par n="suicid/a__n"/></e>
+    <e lm="integralista"><i>integralist</i><par n="suicid/a__n"/></e>
+    <e lm="interista"><i>interist</i><par n="suicid/a__n"/></e>
+    <e lm="interventista"><i>interventist</i><par n="suicid/a__n"/></e>
+    <e lm="irredentista"><i>irredentist</i><par n="suicid/a__n"/></e>
+    <e lm="isolazionista"><i>isolazionist</i><par n="suicid/a__n"/></e>
+    <e lm="italianista"><i>italianist</i><par n="suicid/a__n"/></e>
+    <e lm="jazzista"><i>jazzist</i><par n="suicid/a__n"/></e>
+    <e lm="khomeinista"><i>khomeinist</i><par n="suicid/a__n"/></e>
+    <e lm="laicista"><i>laicist</i><par n="suicid/a__n"/></e>
+    <e lm="latifondista"><i>latifondist</i><par n="suicid/a__n"/></e>
+    <e lm="latinista"><i>latinist</i><par n="suicid/a__n"/></e>
+    <e lm="leghista"><i>leghist</i><par n="suicid/a__n"/></e>
+    <e lm="liberista"><i>liberist</i><par n="suicid/a__n"/></e>
+    <e lm="librettista"><i>librettist</i><par n="suicid/a__n"/></e>
+    <e lm="linguista"><i>linguist</i><par n="suicid/a__n"/></e>
+    <e lm="lobbista"><i>lobbist</i><par n="suicid/a__n"/></e>
+    <e lm="loggionista"><i>loggionist</i><par n="suicid/a__n"/></e>
+    <e lm="macchinista"><i>macchinist</i><par n="suicid/a__n"/></e>
+    <e lm="madridista"><i>madridist</i><par n="suicid/a__n"/></e>
+    <e lm="manierista"><i>manierist</i><par n="suicid/a__n"/></e>
+    <e lm="maoista"><i>maoist</i><par n="suicid/a__n"/></e>
+    <e lm="marconista"><i>marconist</i><par n="suicid/a__n"/></e>
+    <e lm="masochista"><i>masochist</i><par n="suicid/a__n"/></e>
+    <e lm="massimalista"><i>massimalist</i><par n="suicid/a__n"/></e>
+    <e lm="materialista"><i>materialist</i><par n="suicid/a__n"/></e>
+    <e lm="medievista"><i>medievist</i><par n="suicid/a__n"/></e>
+    <e lm="memorialista"><i>memorialist</i><par n="suicid/a__n"/></e>
+    <e lm="meridionalista"><i>meridionalist</i><par n="suicid/a__n"/></e>
+    <e lm="metodista"><i>metodist</i><par n="suicid/a__n"/></e>
+    <e lm="mezzofondista"><i>mezzofondist</i><par n="suicid/a__n"/></e>
+    <e lm="migliorista"><i>migliorist</i><par n="suicid/a__n"/></e>
+    <e lm="milanista"><i>milanist</i><par n="suicid/a__n"/></e>
+    <e lm="militarista"><i>militarist</i><par n="suicid/a__n"/></e>
+    <e lm="minimalista"><i>minimalist</i><par n="suicid/a__n"/></e>
+    <e lm="modernista"><i>modernist</i><par n="suicid/a__n"/></e>
+    <e lm="monetarista"><i>monetarist</i><par n="suicid/a__n"/></e>
+    <e lm="monopolista"><i>monopolist</i><par n="suicid/a__n"/></e>
+    <e lm="moralista"><i>moralist</i><par n="suicid/a__n"/></e>
+    <e lm="motociclista"><i>motociclist</i><par n="suicid/a__n"/></e>
+    <e lm="motorista"><i>motorist</i><par n="suicid/a__n"/></e>
+    <e lm="movimentista"><i>movimentist</i><par n="suicid/a__n"/></e>
+    <e lm="mutualista"><i>mutualist</i><par n="suicid/a__n"/></e>
+    <e lm="narcisista"><i>narcisist</i><par n="suicid/a__n"/></e>
+    <e lm="naturalista"><i>naturalist</i><par n="suicid/a__n"/></e>
+    <e lm="naturista"><i>naturist</i><par n="suicid/a__n"/></e>
+    <e lm="neo-gollista"><i>neo-gollist</i><par n="suicid/a__n"/></e>
+    <e lm="neo-nazista"><i>neo-nazist</i><par n="suicid/a__n"/></e>
+    <e lm="neocomunista"><i>neocomunist</i><par n="suicid/a__n"/></e>
+    <e lm="neofascista"><i>neofascist</i><par n="suicid/a__n"/></e>
+    <e lm="neogollista"><i>neogollist</i><par n="suicid/a__n"/></e>
+    <e lm="neonazista"><i>neonazist</i><par n="suicid/a__n"/></e>
+    <e lm="neorealista"><i>neorealist</i><par n="suicid/a__n"/></e>
+    <e lm="nichilista"><i>nichilist</i><par n="suicid/a__n"/></e>
+    <e lm="nordista"><i>nordist</i><par n="suicid/a__n"/></e>
+    <e lm="notista"><i>notist</i><par n="suicid/a__n"/></e>
+    <e lm="nutrizionista"><i>nutrizionist</i><par n="suicid/a__n"/></e>
+    <e lm="obbligazionista"><i>obbligazionist</i><par n="suicid/a__n"/></e>
+    <e lm="oltranzista"><i>oltranzist</i><par n="suicid/a__n"/></e>
+    <e lm="operaista"><i>operaist</i><par n="suicid/a__n"/></e>
+    <e lm="operista"><i>operist</i><par n="suicid/a__n"/></e>
+    <e lm="opinionista"><i>opinionist</i><par n="suicid/a__n"/></e>
+    <e lm="opportunista"><i>opportunist</i><par n="suicid/a__n"/></e>
+    <e lm="orangista"><i>orangist</i><par n="suicid/a__n"/></e>
+    <e lm="organista"><i>organist</i><par n="suicid/a__n"/></e>
+    <e lm="orientalista"><i>orientalist</i><par n="suicid/a__n"/></e>
+    <e lm="ottimista"><i>ottimist</i><par n="suicid/a__n"/></e>
+    <e lm="pacifista"><i>pacifist</i><par n="suicid/a__n"/></e>
+    <e lm="paesaggista"><i>paesaggist</i><par n="suicid/a__n"/></e>
+    <e lm="pallanuotista"><i>pallanuotist</i><par n="suicid/a__n"/></e>
+    <e lm="pallavolista"><i>pallavolist</i><par n="suicid/a__n"/></e>
+    <e lm="paracadutista"><i>paracadutist</i><par n="suicid/a__n"/></e>
+    <e lm="passatista"><i>passatist</i><par n="suicid/a__n"/></e>
+    <e lm="passista"><i>passist</i><par n="suicid/a__n"/></e>
+    <e lm="pattista"><i>pattist</i><par n="suicid/a__n"/></e>
+    <e lm="pedagogista"><i>pedagogist</i><par n="suicid/a__n"/></e>
+    <e lm="penalista"><i>penalist</i><par n="suicid/a__n"/></e>
+    <e lm="percussionista"><i>percussionist</i><par n="suicid/a__n"/></e>
+    <e lm="perfezionista"><i>perfezionist</i><par n="suicid/a__n"/></e>
+    <e lm="peronista"><i>peronist</i><par n="suicid/a__n"/></e>
+    <e lm="pesista"><i>pesist</i><par n="suicid/a__n"/></e>
+    <e lm="piazzista"><i>piazzist</i><par n="suicid/a__n"/></e>
+    <e lm="piduista"><i>piduist</i><par n="suicid/a__n"/></e>
+    <e lm="podista"><i>podist</i><par n="suicid/a__n"/></e>
+    <e lm="polemista"><i>polemist</i><par n="suicid/a__n"/></e>
+    <e lm="polista"><i>polist</i><par n="suicid/a__n"/></e>
+    <e lm="populista"><i>populist</i><par n="suicid/a__n"/></e>
+    <e lm="positivista"><i>positivist</i><par n="suicid/a__n"/></e>
+    <e lm="post-comunista"><i>post-comunist</i><par n="suicid/a__n"/></e>
+    <e lm="post-fascista"><i>post-fascist</i><par n="suicid/a__n"/></e>
+    <e lm="postcomunista"><i>postcomunist</i><par n="suicid/a__n"/></e>
+    <e lm="pragmatista"><i>pragmatist</i><par n="suicid/a__n"/></e>
+    <e lm="presenzialista"><i>presenzialist</i><par n="suicid/a__n"/></e>
+    <e lm="presidenzialista"><i>presidenzialist</i><par n="suicid/a__n"/></e>
+    <e lm="primatista"><i>primatist</i><par n="suicid/a__n"/></e>
+    <e lm="privatista"><i>privatist</i><par n="suicid/a__n"/></e>
+    <e lm="progettista"><i>progettist</i><par n="suicid/a__n"/></e>
+    <e lm="programmista"><i>programmist</i><par n="suicid/a__n"/></e>
+    <e lm="progressista"><i>progressist</i><par n="suicid/a__n"/></e>
+    <e lm="proiezionista"><i>proiezionist</i><par n="suicid/a__n"/></e>
+    <e lm="propagandista"><i>propagandist</i><par n="suicid/a__n"/></e>
+    <e lm="proporzionalista"><i>proporzionalist</i><par n="suicid/a__n"/></e>
+    <e lm="protezionista"><i>protezionist</i><par n="suicid/a__n"/></e>
+    <e lm="psicanalista"><i>psicanalist</i><par n="suicid/a__n"/></e>
+    <e lm="psicoanalista"><i>psicoanalist</i><par n="suicid/a__n"/></e>
+    <e lm="purista"><i>purist</i><par n="suicid/a__n"/></e>
+    <e lm="qualunquista"><i>qualunquist</i><par n="suicid/a__n"/></e>
+    <e lm="quattrocentista"><i>quattrocentist</i><par n="suicid/a__n"/></e>
+    <e lm="radarista"><i>radarist</i><par n="suicid/a__n"/></e>
+    <e lm="radiocronista"><i>radiocronist</i><par n="suicid/a__n"/></e>
+    <e lm="razionalista"><i>razionalist</i><par n="suicid/a__n"/></e>
+    <e lm="razzista"><i>razzist</i><par n="suicid/a__n"/></e>
+    <e lm="realista"><i>realist</i><par n="suicid/a__n"/></e>
+    <e lm="regolarista"><i>regolarist</i><par n="suicid/a__n"/></e>
+    <e lm="revisionista"><i>revisionist</i><par n="suicid/a__n"/></e>
+    <e lm="rialzista"><i>rialzist</i><par n="suicid/a__n"/></e>
+    <e lm="ribassista"><i>ribassist</i><par n="suicid/a__n"/></e>
+    <e lm="riformista"><i>riformist</i><par n="suicid/a__n"/></e>
+    <e lm="rigorista"><i>rigorist</i><par n="suicid/a__n"/></e>
+    <e lm="riservista"><i>riservist</i><par n="suicid/a__n"/></e>
+    <e lm="ritrattista"><i>ritrattist</i><par n="suicid/a__n"/></e>
+    <e lm="romanista"><i>romanist</i><par n="suicid/a__n"/></e>
+    <e lm="rugbista"><i>rugbist</i><par n="suicid/a__n"/></e>
+    <e lm="saccopelista"><i>saccopelist</i><par n="suicid/a__n"/></e>
+    <e lm="saggista"><i>saggist</i><par n="suicid/a__n"/></e>
+    <e lm="salutista"><i>salutist</i><par n="suicid/a__n"/></e>
+    <e lm="sandinista"><i>sandinist</i><par n="suicid/a__n"/></e>
+    <e lm="sardista"><i>sardist</i><par n="suicid/a__n"/></e>
+    <e lm="sassofonista"><i>sassofonist</i><par n="suicid/a__n"/></e>
+    <e lm="satanista"><i>satanist</i><par n="suicid/a__n"/></e>
+    <e lm="scacchista"><i>scacchist</i><par n="suicid/a__n"/></e>
+    <e lm="scafista"><i>scafist</i><par n="suicid/a__n"/></e>
+    <e lm="scambista"><i>scambist</i><par n="suicid/a__n"/></e>
+    <e lm="scattista"><i>scattist</i><par n="suicid/a__n"/></e>
+    <e lm="schiavista"><i>schiavist</i><par n="suicid/a__n"/></e>
+    <e lm="sciovinista"><i>sciovinist</i><par n="suicid/a__n"/></e>
+    <e lm="scissionista"><i>scissionist</i><par n="suicid/a__n"/></e>
+    <e lm="secessionista"><i>secessionist</i><par n="suicid/a__n"/></e>
+    <e lm="seminarista"><i>seminarist</i><par n="suicid/a__n"/></e>
+    <e lm="separatista"><i>separatist</i><par n="suicid/a__n"/></e>
+    <e lm="simbolista"><i>simbolist</i><par n="suicid/a__n"/></e>
+    <e lm="sindacalista"><i>sindacalist</i><par n="suicid/a__n"/></e>
+    <e lm="singolarista"><i>singolarist</i><par n="suicid/a__n"/></e>
+    <e lm="sistemista"><i>sistemist</i><par n="suicid/a__n"/></e>
+    <e lm="slalomista"><i>slalomist</i><par n="suicid/a__n"/></e>
+    <e lm="slavista"><i>slavist</i><par n="suicid/a__n"/></e>
+    <e lm="sofista"><i>sofist</i><par n="suicid/a__n"/></e>
+    <e lm="soggettista"><i>soggettist</i><par n="suicid/a__n"/></e>
+    <e lm="solista"><i>solist</i><par n="suicid/a__n"/></e>
+    <e lm="sondaggista"><i>sondaggist</i><par n="suicid/a__n"/></e>
+    <e lm="specialista"><i>specialist</i><par n="suicid/a__n"/></e>
+    <e lm="spogliarellista"><i>spogliarellist</i><par n="suicid/a__n"/></e>
+    <e lm="squadrista"><i>squadrist</i><par n="suicid/a__n"/></e>
+    <e lm="stakanovista"><i>stakanovist</i><par n="suicid/a__n"/></e>
+    <e lm="stalinista"><i>stalinist</i><par n="suicid/a__n"/></e>
+    <e lm="statalista"><i>statalist</i><par n="suicid/a__n"/></e>
+    <e lm="statista"><i>statist</i><par n="suicid/a__n"/></e>
+    <e lm="stilista"><i>stilist</i><par n="suicid/a__n"/></e>
+    <e lm="storicista"><i>storicist</i><par n="suicid/a__n"/></e>
+    <e lm="strumentista"><i>strumentist</i><par n="suicid/a__n"/></e>
+    <e lm="sudista"><i>sudist</i><par n="suicid/a__n"/></e>
+    <e lm="surfista"><i>surfist</i><par n="suicid/a__n"/></e>
+    <e lm="surrealista"><i>surrealist</i><par n="suicid/a__n"/></e>
+    <e lm="tabagista"><i>tabagist</i><par n="suicid/a__n"/></e>
+    <e lm="tangentista"><i>tangentist</i><par n="suicid/a__n"/></e>
+    <e lm="tastierista"><i>tastierist</i><par n="suicid/a__n"/></e>
+    <e lm="taxista"><i>taxist</i><par n="suicid/a__n"/></e>
+    <e lm="telecronista"><i>telecronist</i><par n="suicid/a__n"/></e>
+    <e lm="telefonista"><i>telefonist</i><par n="suicid/a__n"/></e>
+    <e lm="telegiornalista"><i>telegiornalist</i><par n="suicid/a__n"/></e>
+    <e lm="teppista"><i>teppist</i><par n="suicid/a__n"/></e>
+    <e lm="terapista"><i>terapist</i><par n="suicid/a__n"/></e>
+    <e lm="terminalista"><i>terminalist</i><par n="suicid/a__n"/></e>
+    <e lm="terrorista"><i>terrorist</i><par n="suicid/a__n"/></e>
+    <e lm="terzomondista"><i>terzomondist</i><par n="suicid/a__n"/></e>
+    <e lm="titolista"><i>titolist</i><par n="suicid/a__n"/></e>
+    <e lm="torinista"><i>torinist</i><par n="suicid/a__n"/></e>
+    <e lm="tradizionalista"><i>tradizionalist</i><par n="suicid/a__n"/></e>
+    <e lm="trapezista"><i>trapezist</i><par n="suicid/a__n"/></e>
+    <e lm="trasformista"><i>trasformist</i><par n="suicid/a__n"/></e>
+    <e lm="trattatista"><i>trattatist</i><par n="suicid/a__n"/></e>
+    <e lm="trequartista"><i>trequartist</i><par n="suicid/a__n"/></e>
+    <e lm="tributarista"><i>tributarist</i><par n="suicid/a__n"/></e>
+    <e lm="trombettista"><i>trombettist</i><par n="suicid/a__n"/></e>
+    <e lm="trozkista"><i>trozkist</i><par n="suicid/a__n"/></e>
+    <e lm="turnista"><i>turnist</i><par n="suicid/a__n"/></e>
+    <e lm="ulivista"><i>ulivist</i><par n="suicid/a__n"/></e>
+    <e lm="ultranazionalista"><i>ultranazionalist</i><par n="suicid/a__n"/></e>
+    <e lm="umanista"><i>umanist</i><par n="suicid/a__n"/></e>
+    <e lm="unionista"><i>unionist</i><par n="suicid/a__n"/></e>
+    <e lm="urbanista"><i>urbanist</i><par n="suicid/a__n"/></e>
+    <e lm="utopista"><i>utopist</i><par n="suicid/a__n"/></e>
+    <e lm="vaticanista"><i>vaticanist</i><par n="suicid/a__n"/></e>
+    <e lm="vedutista"><i>vedutist</i><par n="suicid/a__n"/></e>
+    <e lm="velista"><i>velist</i><par n="suicid/a__n"/></e>
+    <e lm="velocista"><i>velocist</i><par n="suicid/a__n"/></e>
+    <e lm="vetrinista"><i>vetrinist</i><par n="suicid/a__n"/></e>
+    <e lm="videoartista"><i>videoartist</i><par n="suicid/a__n"/></e>
+    <e lm="vignettista"><i>vignettist</i><par n="suicid/a__n"/></e>
+    <e lm="violinista"><i>violinist</i><par n="suicid/a__n"/></e>
+    <e lm="violoncellista"><i>violoncellist</i><par n="suicid/a__n"/></e>
+    <e lm="vivaista"><i>vivaist</i><par n="suicid/a__n"/></e>
+    <e lm="vocalista"><i>vocalist</i><par n="suicid/a__n"/></e>
+    <e lm="zapatista"><i>zapatist</i><par n="suicid/a__n"/></e>
+    <e lm="zonista"><i>zonist</i><par n="suicid/a__n"/></e>
+
+    <e lm="psicoterapeuta"><i>psicoterapeut</i><par n="suicid/a__n"/></e>
+    <e lm="terapeuta"><i>terapeut</i><par n="suicid/a__n"/></e>
+
+    <e lm="altruista"><i>altruist</i><par n="suicid/a__adj"/></e>
+    <e lm="antagonista"><i>antagonist</i><par n="suicid/a__adj"/></e>
+    <e lm="anti-comunista"><i>anti-comunist</i><par n="suicid/a__adj"/></e>
+    <e lm="anti-fascista"><i>anti-fascist</i><par n="suicid/a__adj"/></e>
+    <e lm="anti-imperialista"><i>anti-imperialist</i><par n="suicid/a__adj"/></e>
+    <e lm="anti-leninista"><i>anti-leninist</i><par n="suicid/a__adj"/></e>
+    <e lm="anti-nazista"><i>anti-nazist</i><par n="suicid/a__adj"/></e>
+    <e lm="capitalista"><i>capitalist</i><par n="suicid/a__adj"/></e>
+    <e lm="consumista"><i>consumist</i><par n="suicid/a__adj"/></e>
+    <e lm="ex-comunista"><i>ex-comunist</i><par n="suicid/a__adj"/></e>
+    <e lm="golpista"><i>golpist</i><par n="suicid/a__adj"/></e>
+    <e lm="imperialista"><i>imperialist</i><par n="suicid/a__adj"/></e>
+    <e lm="laico-socialista"><i>laico-socialist</i><par n="suicid/a__adj"/></e>
+    <e lm="leninista"><i>leninist</i><par n="suicid/a__adj"/></e>
+    <e lm="nazista"><i>nazist</i><par n="suicid/a__adj"/></e>
+    <e lm="pacifista"><i>pacifist</i><par n="suicid/a__adj"/></e>
+    <e lm="socialista"><i>socialist</i><par n="suicid/a__adj"/></e>
+
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
     <e lm="David Begg" a="prompsit"><i>David Begg</i><par n="Juan__np"/></e>
@@ -38013,6 +38394,7 @@
     <e lm="Posta" a="prompsit"><i>Posta</i><par n="Polizia__np"/></e>
     <e lm="Iva" a="prompsit"><i>Iva</i><par n="Polizia__np"/></e>	
   </section>
+
   <section id="apostrophes" type="postblank">
       <e r="LR" lm="cos'"><p><l>cos'</l><r>cosa</r></p><par n="che__prn" /></e>
 
@@ -38047,6 +38429,7 @@
       <e r="LR" lm="dev'"><p><l>dev'</l><r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e r="LR" lm="dev'"><p><l>dev'</l><r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   </section>	
+
   <section id="final" type="inconditional">
       <e><par n="pardret"/></e>
       <e><par n="numeros"/></e>
