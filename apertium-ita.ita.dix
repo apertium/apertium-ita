@@ -350,20 +350,27 @@
       <e><p><l>he</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="tedesc/o__n">
-      <e><p><l>hi</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>he</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    
     <pardef n="bambin/o__n">
-      <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>o<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="tedesc/o__n">
+      <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>hi</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>he</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="amic/o__n">
+      <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>he</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="segretari/o__n">
       <e><p><l></l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -438,13 +445,6 @@
       <e><p><l>a</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="amic/o__n">
-      <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>he</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="abat/e__n">
@@ -26972,7 +26972,7 @@
     <e lm="arbitrato"><i>arbitrat</i><par n="abbain/o__n"/></e>
     <e lm="arcangelo"><i>arcangel</i><par n="abbain/o__n"/></e>
     <e lm="arco"><i>arc</i><par n="fung/o__n"/></e>
-    <e lm="archeologo"><i>archeolog</i><par n="amic/o__n"/></e>
+    <e lm="archeologo"><i>archeolog</i><par n="tedesc/o__n"/></e>
     <e lm="archeologia"><i>archeologi</i><par n="cas/a__n"/></e>
     <e lm="architetto"><i>architett</i><par n="abbain/o__n"/></e>
     <e lm="architettura"><i>architettur</i><par n="cas/a__n"/></e>
@@ -27256,7 +27256,7 @@
     <e lm="biliardo"><i>biliard</i><par n="abbain/o__n"/></e>
     <e lm="bilione"><i>bilion</i><par n="abat/e__n"/></e>
     <e lm="biografia"><i>biografi</i><par n="cas/a__n"/></e>
-    <e lm="biologo"><i>biolog</i><par n="amic/o__n"/></e>
+    <e lm="biologo"><i>biolog</i><par n="tedesc/o__n"/></e>
     <e lm="biologia"><i>biologi</i><par n="cas/a__n"/></e>
     <e lm="biopsia"><i>biopsi</i><par n="cas/a__n"/></e>
     <e lm="biotopo"><i>biotop</i><par n="abbain/o__n"/></e>
@@ -28627,7 +28627,7 @@
     <e lm="gigante"><i>gigant</i><par n="albanes/e__n"/></e>
     <e lm="gin"><i>gin</i><par n="albatros__n"/></e>
     <e lm="ginecologia"><i>ginecologi</i><par n="cas/a__n"/></e>
-    <e lm="ginecologo"><i>ginecolog</i><par n="amic/o__n"/></e>
+    <e lm="ginecologo"><i>ginecolog</i><par n="tedesc/o__n"/></e>
     <e lm="ginnasta"><i>ginnast</i><par n="eremit/a__n"/></e>
     <e lm="ginnastica"><i>ginnastic</i><par n="tasc/a__n"/></e>
     <e lm="gioco"><i>gioc</i><par n="fung/o__n"/></e>
@@ -29984,7 +29984,7 @@
     <e lm="psichiatra"><i>psichiatr</i><par n="suicid/a__n"/></e>
     <e lm="psichiatria"><i>psichiatri</i><par n="cas/a__n"/></e>
     <e lm="psicologia"><i>psicologi</i><par n="cas/a__n"/></e>
-    <e lm="psicologo"><i>psicolog</i><par n="amic/o__n"/></e>
+    <e lm="psicologo"><i>psicolog</i><par n="tedesc/o__n"/></e>
     <e lm="psicosi"><i>psicosi</i><par n="abilità__n"/></e>
     <e lm="pubblicazione"><i>pubblicazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="pubblicista"><i>pubblicist</i><par n="suicid/a__n"/></e>
@@ -38333,6 +38333,32 @@
     <e lm="tattico"><i>tattic</i><par n="amic/o__n"/></e>
     <e lm="tattica"><i>tattic</i><par n="cas/a__n"/></e>
 
+    <e lm="archeologo"><i>archeolog</i><par n="tedesc/o__n"/></e>
+    <e lm="biologo"><i>biolog</i><par n="tedesc/o__n"/></e>
+    <e lm="ginecologo"><i>ginecolog</i><par n="tedesc/o__n"/></e>
+    <e lm="psicologo"><i>psicolog</i><par n="tedesc/o__n"/></e>
+
+    <e lm="antropologia"><i>antropologi</i><par n="cas/a__n"/></e>
+    <e lm="biotecnologia"><i>biotecnologi</i><par n="cas/a__n"/></e>
+    <e lm="cosmologia"><i>cosmologi</i><par n="cas/a__n"/></e>
+    <e lm="deontologia"><i>deontologi</i><par n="cas/a__n"/></e>
+    <e lm="dietrologia"><i>dietrologi</i><par n="cas/a__n"/></e>
+    <e lm="farmacologia"><i>farmacologi</i><par n="cas/a__n"/></e>
+    <e lm="fenomenologia"><i>fenomenologi</i><par n="cas/a__n"/></e>
+    <e lm="fisiologia"><i>fisiologi</i><par n="cas/a__n"/></e>
+    <e lm="geologia"><i>geologi</i><par n="cas/a__n"/></e>
+    <e lm="omologia"><i>omologi</i><par n="cas/a__n"/></e>
+    <e lm="oncologia"><i>oncologi</i><par n="cas/a__n"/></e>
+    <e lm="parapsicologia"><i>parapsicologi</i><par n="cas/a__n"/></e>
+    <e lm="politologia"><i>politologi</i><par n="cas/a__n"/></e>
+    <e lm="psicopatologia"><i>psicopatologi</i><par n="cas/a__n"/></e>
+    <e lm="semiologia"><i>semiologi</i><par n="cas/a__n"/></e>
+    <e lm="simbologia"><i>simbologi</i><par n="cas/a__n"/></e>
+    <e lm="sintomatologia"><i>sintomatologi</i><par n="cas/a__n"/></e>
+    <e lm="tautologia"><i>tautologi</i><par n="cas/a__n"/></e>
+    <e lm="teconologia"><i>teconologi</i><par n="cas/a__n"/></e>
+    <e lm="tetralogia"><i>tetralogi</i><par n="cas/a__n"/></e>
+    <e lm="zoologia"><i>zoologi</i><par n="cas/a__n"/></e>
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
@@ -38412,3 +38438,4 @@
       <e><par n="emails"/></e>	
   </section>
 </dictionary>
+
