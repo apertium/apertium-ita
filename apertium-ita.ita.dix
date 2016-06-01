@@ -38365,6 +38365,15 @@
     <e lm="pacifista"><i>pacifist</i><par n="suicid/a__adj"/></e>
     <e lm="socialista"><i>socialist</i><par n="suicid/a__adj"/></e>
 
+    <e lm="divinizzare"><i>divinizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="occidentalizzare"><i>occidentalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="politicizzare"><i>politicizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="professionalizzare"><i>professionalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="schematizzare"><i>schematizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sclerotizzare"><i>sclerotizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sindacalizzare"><i>sindacalizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="volatilizzare"><i>volatilizz</i><par n="abbacin/are__vblex"/></e>
+
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
     <e lm="David Begg" a="prompsit"><i>David Begg</i><par n="Juan__np"/></e>
