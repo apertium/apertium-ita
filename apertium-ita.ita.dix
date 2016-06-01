@@ -1464,7 +1464,6 @@
       <e r="LR"><p><l>oler</l><r>olere<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>olere</l><r>olere<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>oler</l><r>olere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
-      <e><p><l>oleva</l><r>olere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>olute</l><r>olere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>oluta</l><r>olere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>oluti</l><r>olere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1476,6 +1475,13 @@
       <e><p><l>ogliamo</l><r>olere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>olete</l><r>olere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ogliono</l><r>olere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e><p><l>olevo</l><r>olere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>olevi</l><r>olere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>oleva</l><r>olere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>olevamo</l><r>olere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>olavete</l><r>olere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>olevano</l><r>olere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e><p><l>oglia</l><r>olere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oglia</l><r>olere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6875,51 +6881,51 @@
   
     <pardef n="c/uocere__vblex">
       <e><p><l>oceremmo</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uoceremmo</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uoceremmo</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ocerei</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>uocerei</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocerei</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ocereste</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uocereste</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocereste</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>oceresti</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uoceresti</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uoceresti</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ocerebber</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>uocerebber</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocerebbero</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uocerebbero</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocerebbero</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocerebbe</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uocerebbe</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocerebbe</l><r>uocere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>oceremo</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uoceremo</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uoceremo</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ocerò</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>uocerò</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocerò</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ocerete</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uocerete</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocerete</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ocerai</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uocerai</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocerai</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>oceran</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>uoceran</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>oceranno</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uoceranno</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uoceranno</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocerà</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uocerà</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocerà</l><r>uocere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ocendo</l><r>uocere<s n="vblex"/><s n="ger"/></r></p></e>
-      <e><p><l>uocendo</l><r>uocere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e r="LR"><p><l>uocendo</l><r>uocere<s n="vblex"/><s n="ger"/></r></p></e>
       <e><p><l>ocendo</l><r>uocere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
-      <e><p><l>uocendo</l><r>uocere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e r="LR"><p><l>uocendo</l><r>uocere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
       <e><p><l>ocemmo</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uocemmo</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocemmo</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ossi</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>uocei</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocei</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oceste</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uoceste</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uoceste</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ocesti</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uocesti</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocesti</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>osser</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>uoceron</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ossero</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uocerono</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocerono</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>osse</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uocè</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocè</l><r>uocere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>uociamo</l><r>uocere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>uociamo</l><r>uocere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>uocete</l><r>uocere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -6933,53 +6939,57 @@
       <e><p><l>uocere</l><r>uocere<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>uocer</l><r>uocere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
       <e><p><l>ocevamo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uocevamo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocevamo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ocevo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>uocevo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocevo</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ocevate</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uocevate</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocevate</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ocevi</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uocevi</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocevi</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ocevan</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>uocevan</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocevano</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uocevano</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocevano</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>oceva</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uoceva</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uoceva</l><r>uocere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ocessimo</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uocessimo</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocessimo</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>uocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>oceste</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uoceste</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uoceste</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocessi</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ocesser</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>uocesser</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocessero</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uocessero</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocessero</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ocesse</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>uocesse</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>uocesse</l><r>uocere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>otte</l><r>uocere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>otta</l><r>uocere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>otti</l><r>uocere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>otto</l><r>uocere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ociute</l><r>uocere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ociuta</l><r>uocere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ociuti</l><r>uocere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ociuto</l><r>uocere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>uociamo</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>uocio</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>uocete</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>uoci</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>uocion</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>uociono</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocion</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>uoce</l><r>uocere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ociamo</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>uociamo</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>uocia</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ociate</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>uociate</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>uocia</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>uocian</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>uociano</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>uocia</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>uociamo</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ociamo</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>uociate</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ociate</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>uociano</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>uocian</l><r>uocere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
  
     <pardef n="defatic/are__vblex">
@@ -11049,11 +11059,11 @@
       <e><p><l>ollero</l><r>olere<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>olle</l><r>olere<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ogliamo</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ogliamo</l><r>olere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>ogliamo</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>olete</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>olete</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>olete</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>uoi</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>uoi</l><r>olere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>uoi</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e r="LR"><p><l>oglian</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ogliano</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>oglia</l><r>olere<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -33260,6 +33270,7 @@
     <e lm="avere bisogno"><i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
     <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
     <e lm="dare una conferenza"><i>f</i><par n="d/are__vblex"/><p><l><b/>una<b/>conferenza</l><r><g><b/>una<b/>conferenza</g></r></p></e>
+    <e lm="fare affari"><i>f</i><par n="f/are__vblex"/><p><l><b/>affari</l><r><g><b/>affari</g></r></p></e>
     <e lm="fare attenzione"><i>f</i><par n="f/are__vblex"/><p><l><b/>attenzione</l><r><g><b/>attenzione</g></r></p></e>
     <e lm="fare erba"><i>f</i><par n="f/are__vblex"/><p><l><b/>erba</l><r><g><b/>erba</g></r></p></e>
     <e lm="fare ombra"><i>f</i><par n="f/are__vblex"/><p><l><b/>ombra</l><r><g><b/>ombra</g></r></p></e>
