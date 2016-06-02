@@ -66,6 +66,7 @@
     <sdef n="ref"     c=""/> 		
     <sdef n="sup"     c=""/> 		
     <sdef n="num"     c=""/> 		
+    <sdef n="ord"     c=""/> 		
     <sdef n="ij"      c=""/> 		
     <sdef n="sent"    c=""/> 		
     <sdef n="cm"      c=""/> 	  
@@ -11108,6 +11109,14 @@
     </pardef>
 
 <!--fi paradigmes verbs -->
+
+    <pardef n="prim/o__adj">
+      <e><p><l>o</l><r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="adj"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="agroalimentar/e__adj">
       <e><p><l></l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -32699,7 +32708,6 @@
     <e lm="previsto"><i>previst</i><par n="abbandonat/o__adj"/></e>
     <e lm="prezioso"><i>prezios</i><par n="abbandonat/o__adj"/></e>
     <e lm="primario"><i>primari</i><par n="abbandonat/o__adj"/></e>
-    <e lm="primo"><i>prim</i><par n="abbandonat/o__adj"/></e>
     <e lm="primordiale"><i>primordial</i><par n="fin/e__adj"/></e>
     <e lm="principale"><i>principal</i><par n="fin/e__adj"/></e>
     <e lm="probabile"><i>probabil</i><par n="fin/e__adj"/></e>
@@ -32805,7 +32813,6 @@
     <e lm="scultoreo"><i>scultore</i><par n="abbandonat/o__adj"/></e>
     <e lm="scuro"><i>scur</i><par n="abbandonat/o__adj"/></e>
     <e lm="secolare"><i>secolar</i><par n="fin/e__adj"/></e>
-    <e lm="secondo"><i>second</i><par n="cosiddett/o__adj"/></e>
     <e lm="sedentario"><i>sedentari</i><par n="abbandonat/o__adj"/></e>
     <e lm="seguitore"><i>seguit</i><par n="accentrat/ore__adj"/></e>
     <e lm="segreto"><i>segret</i><par n="abbandonat/o__adj"/></e>
@@ -32929,7 +32936,6 @@
     <e lm="terrenale"><i>terrenal</i><par n="albanes/e__adj"/></e>
     <e lm="territoriale"><i>territorial</i><par n="fin/e__adj"/></e>
     <e lm="terrorista"><i>terrorist</i><par n="suicid/a__adj"/></e>
-    <e lm="terzo"><i>terz</i><par n="cosiddett/o__adj"/></e>
     <e lm="tessile"><i>tessil</i><par n="fin/e__adj"/></e>
     <e lm="testuale"><i>testual</i><par n="fin/e__adj"/></e>
     <e lm="timido"><i>timid</i><par n="abbandonat/o__adj"/></e>
@@ -41917,7 +41923,6 @@
     <e lm="sdolcinato"><i>sdolcinat</i><par n="abbandonat/o__adj"/></e>
     <e lm="sdraiato"><i>sdraiat</i><par n="abbandonat/o__adj"/></e>
     <e lm="seccato"><i>seccat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="secondo"><i>second</i><par n="abbandonat/o__adj"/></e>
     <e lm="secondogenito"><i>secondogenit</i><par n="abbandonat/o__adj"/></e>
     <e lm="sedativo"><i>sedativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="sedicesimo"><i>sedicesim</i><par n="abbandonat/o__adj"/></e>
@@ -42591,6 +42596,10 @@
     <e lm="zuccheroso"><i>zuccheros</i><par n="abbandonat/o__adj"/></e>
     <e lm="zuppo"><i>zupp</i><par n="abbandonat/o__adj"/></e>
     <e lm="zurliniano"><i>zurlinian</i><par n="abbandonat/o__adj"/></e>
+
+    <e lm="primo"><i>prim</i><par n="prim/o__adj"/></e>
+    <e lm="secondo"><i>second</i><par n="prim/o__adj"/></e>
+    <e lm="terzo"><i>terz</i><par n="prim/o__adj"/></e>
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
