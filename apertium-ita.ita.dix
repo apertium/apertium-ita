@@ -33079,13 +33079,17 @@
     <e lm="fare figli"><i>f</i><par n="f/are__vblex"/><p><l><b/>figli</l><r><g><b/>figli</g></r></p></e>
     <e lm="fare il formaggio"><i>f</i><par n="f/are__vblex"/><p><l><b/>il<b/>formaggio</l><r><g><b/>il<b/>formaggio</g></r></p></e>
     <e lm="fare legna"><i>f</i><par n="f/are__vblex"/><p><l><b/>legna</l><r><g><b/>legna</g></r></p></e>
+    <e lm="fare parte"><i>f</i><par n="f/are__vblex"/><p><l><b/>parte</l><r><g><b/>parte</g></r></p></e>
     <e lm="fare poesie"><i>f</i><par n="f/are__vblex"/><p><l><b/>poesie</l><r><g><b/>poesie</g></r></p></e>
     <e lm="fare una ragazzata"><i>f</i><par n="f/are__vblex"/><p><l><b/>una<b/>ragazzata</l><r><g><b/>una<b/>ragazzata</g></r></p></e>
     <e lm="mandare via"><i>mand</i><par n="abbacin/are__vblex"/><p><l><b/>via</l><r><g><b/>via</g></r></p></e>
     <e lm="mettere insieme"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>insieme</l><r><g><b/>insieme</g></r></p></e>
+    <e lm="mettere gli steli"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>gli<b/>steli</l><r><g><b/>gli<b/>steli</g></r></p></e>
     <e lm="passare la settimana"><i>pass</i><par n="abbacin/are__vblex"/><p><l><b/>la<b/>settimana</l><r><g><b/>la<b/>settimana</g></r></p></e>
     <e lm="prendere coscienza"><i>pre</i><par n="acce/ndere__vblex"/><p><l><b/>coscienza</l><r><g><b/>coscienza</g></r></p></e>
+    <e lm="portare avanti"><i>port</i><par n="abbacin/are__vblex"/><p><l><b/>avanti</l><r><g><b/>avanti</g></r></p></e>
     <e lm="raccontare storie"><i>raccont</i><par n="abbacin/are__vblex"/><p><l><b/>storie</l><r><g><b/>storie</g></r></p></e>
+    <e lm="abitare da sempre"><i>raccont</i><par n="abbacin/are__vblex"/><p><l><b/>da<b/>sempre</l><r><g><b/>da<b/>sempre</g></r></p></e>
 
 <!--       ******************************      (cnjsub) group      ******************************    -->
     <e lm="anche se"><i>anche<b/>se</i><par n="affinché__cnjsub"/></e>
