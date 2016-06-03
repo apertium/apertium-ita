@@ -11735,6 +11735,8 @@
     
     <pardef n="trecento_cuatro/__num">
       <e><i></i></e>
+    
+    <e lm="uno"><i>uno</i><par n="uno__num"/></e>
     <e lm="due"><i>due</i><par n="centocinquanta(2)__num"/></e>
     <e lm="tre"><i>tr</i><par n="cinquantatr/é(2)__num"/></e>
     <e lm="quattro"><i>quattro</i><par n="centocinquanta(2)__num"/></e>
@@ -19955,6 +19957,7 @@
     <e lm="fondatamente"><i>fondatamente</i><par n="ieri__adv"/></e>
     <e lm="forfettariamente"><i>forfettariamente</i><par n="ieri__adv"/></e>
     <e lm="forzatamente"><i>forzatamente</i><par n="ieri__adv"/></e>
+    <e lm="a forza"><i>a<b/>forza</i><par n="ieri__adv"/></e>
     <e lm="fotograficamente"><i>fotograficamente</i><par n="ieri__adv"/></e>
     <e lm="frattanto"><i>frattanto</i><par n="ieri__adv"/></e>
     <e lm="funzionalmente"><i>funzionalmente</i><par n="ieri__adv"/></e>
@@ -20269,6 +20272,7 @@
     <e lm="sborsare"><i>sbors</i><par n="abbacin/are__vblex"/></e>
     <e lm="fisso"><i>fiss</i><par n="cosiddett/o__adj"/></e>
     <e lm="dunque"><i>dunque</i><par n="siccome__cnjadv"/></e>
+    <e lm="siccome"><i>dunque</i><par n="siccome__cnjadv"/></e>
     <e lm="comprensibile"><i>comprensibil</i><par n="fin/e__adj"/></e>
     <e lm="collasso"><i>collass</i><par n="abbain/o__n"/></e>
     <e lm="attraversare"><i>attravers</i><par n="abbacin/are__vblex"/></e>
@@ -33098,6 +33102,7 @@
     <e lm="affinché"><i>affinché</i><par n="affinché__cnjsub"/></e>
     <e lm="nonostante" r="RL"><i>nonostante</i><par n="siccome__cnjadv"/></e>
     <e lm="poiché"><i>poiché</i><par n="affinché__cnjsub"/></e>
+    <e lm="perché"><i>poiché</i><par n="affinché__cnjsub"/></e>
     <e lm="sennonché"><i>sennonché</i><par n="affinché__cnjsub"/></e>
     <e lm="sicché"><i>sicché</i><par n="affinché__cnjsub"/></e>
 
@@ -33107,6 +33112,7 @@
     <e lm="allora"><i>allora</i><par n="siccome__cnjadv"/></e>
     <e lm="basta che"><i>basta<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="bensì"><i>bensì</i><par n="siccome__cnjadv"/></e>
+    <e lm="perció"><i>perció</i><par n="siccome__cnjadv"/></e>
     <e lm="nel contempo"><i>nel<b/>contempo</i><par n="siccome__cnjadv"/></e>
     <e lm="ciò nonostante"><i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
     <e lm="però" r="LR"><i>però</i><par n="siccome__cnjadv"/></e>
@@ -35265,6 +35271,7 @@
     <e lm="noi"><i>noi</i><par n="noi__prn"/></e>
     <e lm="nulla"><i>nulla</i><par n="qualcosa__prn"/></e>
     <e lm="ognuno"><i>ognun</i><par n="qualcun/o__prn"/></e>
+    <e lm="ciascuno"><i>ciascun</i><par n="qualcun/o__prn"/></e>
     <e lm="poco"><i>poc</i><par n="poc/o__prn"/></e>
     <e lm="quale"><i>qual</i><par n="qual/e__prn"/></e>
     <e lm="qualcosa"><i>qualcosa</i><par n="qualcosa__prn"/></e>
@@ -35326,6 +35333,8 @@
     <e lm="contro"><i>contro</i><par n="accanto__pr"/></e>
     <e lm="davanti"><i>davanti</i><par n="accanto__pr"/></e>
     <e lm="davanti a"><i>davanti<b/></i><par n="/a__pr"/></e>
+    <e lm="di fronte a"><i>di fronte<b/></i><par n="/a__pr"/></e>
+    <e lm="fino a"><i>fino<b/></i><par n="/a__pr"/></e>
     <e lm="dentro"><i>dentro</i><par n="accanto__pr"/></e>
     <e lm="dentro"><i>dentro<b/></i><par n="/di__pr"/></e>
     <e lm="dietro"><i>dietro</i><par n="accanto__pr"/></e>
@@ -35336,6 +35345,7 @@
     <e lm="eccetto"><i>eccetto</i><par n="accanto__pr"/></e>
     <e lm="entro"><i>entro</i><par n="accanto__pr"/></e>
     <e lm="entro di"><i>entro<b/></i><par n="/di__pr"/></e>
+    <e lm="per mezzo di"><i>per<b/>mezzo<b/></i><par n="/di__pr"/></e>
     <e lm="fino"><i>fino</i><par n="accanto__pr"/></e>
     <e lm="fra"><i>fra</i><par n="accanto__pr"/></e>
     <e lm="fuorché"><i>fuorché</i><par n="accanto__pr"/></e>
@@ -35343,7 +35353,7 @@
     <e lm="fuori di"><i>fuori<b/></i><par n="/di__pr"/></e>
     <e lm="fuori da"><i>fuori<b/></i><par n="/da__pr"/></e>
     <e lm="in attesa di"><i>in<b/>attesa<b/></i><par n="/di__pr"/></e>
-    <e lm="in mezzo a"><i>in<b/>mezzo<b/>a</i><par n="/a__pr"/></e>
+    <e lm="in mezzo a"><i>in<b/>mezzo<b/></i><par n="/a__pr"/></e>
     <e lm="innanzi a"><i>innanzi<b/></i><par n="/a__pr"/></e>
     <e lm="insieme a"><i>insieme<b/></i><par n="/a__pr"/></e>
     <e lm="intorno a"><i>intorno<b/></i><par n="/a__pr"/></e>
