@@ -11957,6 +11957,7 @@
     
     <pardef n="/di__pr">
       <e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
       <e r="LR"><p><l>del</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>dello</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>della</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
@@ -11964,67 +11965,114 @@
       <e r="LR"><p><l>degli</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>delle</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>del<b/>mio</l><r>di<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>miei</l><r>di<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>mia</l><r>di<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>mie</l><r>di<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>tuo</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>tuoi</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>tua</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>tue</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>suo</l><r>di<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>suoi</l><r>di<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>sua</l><r>di<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>sue</l><r>di<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>nostro</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>nostri</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>nostra</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>nostre</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>vostro</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>vostri</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>vostra</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>vostre</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>mio</l><r>di<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>miei</l><r>di<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>mia</l><r>di<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>mie</l><r>di<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>tuo</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>tuoi</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>tua</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>tue</l><r>di<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>suo</l><r>di<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>suoi</l><r>di<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>sua</l><r>di<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>sue</l><r>di<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>nostro</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>nostri</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>nostra</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>nostre</l><r>di<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>vostro</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>vostri</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>vostra</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>vostre</l><r>di<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>del<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dei<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>della<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>delle<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="/da__pr">
       <e r="LR"><p><l>da</l><r>da<s n="pr"/></r></p></e>
       <e r="RL"><p><l><a/>da</l><r>da<s n="pr"/></r></p></e>
+      <e r="LR"><p><l>dal</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dallo</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>dalla</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>dalle</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>dagli</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>dai</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>dal</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dagli</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>dallo</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>del<b/>mio</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>miei</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>mia</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>mie</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>tuo</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>tuoi</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>tua</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>tue</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>suo</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>suoi</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>sua</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>sue</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>nostro</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>nostri</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>nostra</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>nostre</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>vostro</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>vostri</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>vostra</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>vostre</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>mio</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>miei</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>mia</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>mie</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>tuo</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>tuoi</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>tua</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>tue</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>suo</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>suoi</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>sua</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>sue</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>nostro</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>nostri</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>nostra</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>nostre</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>vostro</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>vostri</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>vostra</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>vostre</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>del<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>dei<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>della<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>mio</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>miei</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>mia</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>mie</l><r>da<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>tuo</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>tuoi</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>tua</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>tue</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>suo</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>suoi</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>sua</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>sue</l><r>da<s n="pr"/><j/>il<b/>suo<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>nostro</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>nostri</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>nostra</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>nostre</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>vostro</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>vostri</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>vostra</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>vostre</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>mio</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>miei</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>mia</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>mie</l><r>da<s n="pr"/><j/>il<b/>mio<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>tuo</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>tuoi</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>tua</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>tue</l><r>da<s n="pr"/><j/>il<b/>tuo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>suo</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>suoi</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>sua</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>sue</l><r>da<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>nostro</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>nostri</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>nostra</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>nostre</l><r>da<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>vostro</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>vostri</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>vostra</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>vostre</l><r>da<s n="pr"/><j/>il<b/>vostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dal<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dai<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>dalla<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dalle<b/>loro</l><r>da<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="/nel__pr">
@@ -12035,7 +12083,6 @@
       <e r="LR"><p><l>negli</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>nelle</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>nello</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>nel<b/>mio</l><r>in<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>nei<b/>miei</l><r>in<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>nella<b/>mia</l><r>in<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12071,7 +12118,7 @@
       <e r="LR"><p><l>nel<b/>suo</l><r>in<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>nei<b/>suoi</l><r>in<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>nella<b/>sua</l><r>in<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>delle<b/>sue</l><r>in<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>nelle<b/>sue</l><r>in<s n="pr"/><j/>il<b/>suo<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>nel<b/>nostro</l><r>in<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>nei<b/>nostri</l><r>in<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>nella<b/>nostra</l><r>in<s n="pr"/><j/>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12094,7 +12141,6 @@
       <e r="LR"><p><l>sugli</l><r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>sulle</l><r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>sullo</l><r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>sul<b/>mio</l><r>su<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>sui<b/>miei</l><r>su<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>sulla<b/>mia</l><r>su<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12153,7 +12199,6 @@
       <e r="LR"><p><l>cogli</l><r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>colle</l><r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>collo</l><r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>col<b/>mio</l><r>con<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>coi<b/>miei</l><r>con<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>colla<b/>mia</l><r>con<s n="pr"/><j/>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
