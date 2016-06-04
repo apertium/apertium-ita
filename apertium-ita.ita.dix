@@ -11722,8 +11722,9 @@
       <e><p><l>emila</l><r>emila</r></p></e>
     </pardef>
     
-    <pardef n="uno__num">
-      <e><p><l></l><r><s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+    <pardef n="un/o__num">
+      <e><p><l>o</l><r>o<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="cinquantun/o__num">
@@ -11736,7 +11737,7 @@
     <pardef n="trecento_cuatro/__num">
       <e><i></i></e>
     
-    <e lm="uno"><i>uno</i><par n="uno__num"/></e>
+    <e lm="uno"><i>un</i><par n="un/o__num"/></e>
     <e lm="due"><i>due</i><par n="centocinquanta(2)__num"/></e>
     <e lm="tre"><i>tr</i><par n="cinquantatr/é(2)__num"/></e>
     <e lm="quattro"><i>quattro</i><par n="centocinquanta(2)__num"/></e>
@@ -26834,7 +26835,6 @@
     <e lm="undicesimo"><i>undicesim</i><par n="abbain/o__n"/></e>
     <e lm="unguento"><i>unguent</i><par n="abbain/o__n"/></e>
     <e lm="unisono"><i>unison</i><par n="abbain/o__n"/></e>
-    <e lm="uno"><i>un</i><par n="abbain/o__n"/></e>
     <e lm="unto"><i>unt</i><par n="abbain/o__n"/></e>
     <e lm="urletto"><i>urlett</i><par n="abbain/o__n"/></e>
     <e lm="urologo"><i>urolog</i><par n="tedesc/o__n"/></e>
@@ -35302,7 +35302,7 @@
     <e lm="decine"><i>decine</i><par n="C__num"/></e>
     <e lm="mille"><i>mille</i><par n="mille__num"/></e>
     <e lm="zero"><i>zero</i><par n="C__num"/></e>
-    <e lm="uno"><i>uno</i><par n="uno__num"/></e>
+    <e lm="uno"><i>un</i><par n="un/o__num"/></e>
     <e lm="due"><i>due</i><par n="centocinquanta__num"/></e>
     <e lm="tre"><i>tre</i><par n="centocinquanta__num"/></e>
     <e lm="quattro"><i>quattro</i><par n="centocinquanta__num"/></e>
