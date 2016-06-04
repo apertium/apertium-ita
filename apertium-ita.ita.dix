@@ -12426,6 +12426,13 @@
       <e><p><l>a</l><r>o<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="mi/o__prn">
+      <e><p><l>ei</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="/il_mio__det">
       <e r="LR"><p><l>il<b/>mio</l><r>il<b/>mio<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>la<b/>mia</l><r>il<b/>mio<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12479,6 +12486,13 @@
       <e><p><l>o</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>o<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="nostr/o__prn">
+      <e><p><l>i</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="nostr/o__det">
@@ -12702,6 +12716,13 @@
       <e><p><l>o</l><r>o<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="tu/o__prn">
+      <e><p><l>oi</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="/il_tuo__det">
       <e r="LR"><p><l>i<b/>tuoi</l><r>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>il<b/>tuo</l><r>il<b/>tuo<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12899,11 +12920,14 @@
     <e lm="il suo"><par n="/il_suo__det"/></e>
     <e lm="il tuo"><par n="/il_tuo__det"/></e>
     <e lm="il vostro"><par n="/il_vostro__det"/></e>
-    <e lm="loro"><i>loro</i><par n="loro__det"/></e>
     <e lm="mio"><i>mi</i><par n="mi/o__det"/></e>
+    <e lm="tuo"><i>tu</i><par n="su/o__det"/></e>
+    <e lm="suo"><i>su</i><par n="su/o__det"/></e>
+    <e lm="nostro"><i>nostr</i><par n="nostr/o__det"/></e>
+    <e lm="vostro"><i>vostr</i><par n="vostr/o__det"/></e>
+    <e lm="loro"><i>loro</i><par n="loro__det"/></e>
     <e lm="molto"><i>molt</i><par n="cert/o__det"/></e>
     <e lm="nessuno"><i>nessun</i><par n="qualcun/o__det"/></e>
-    <e lm="nostro"><i>nostr</i><par n="nostr/o__det"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
     <e lm="poco"><i>poc</i><par n="poc/o__det"/></e>
     <e lm="qualche"><i>qualche</i><par n="ogni__det"/></e>
@@ -12911,15 +12935,12 @@
     <e lm="qualunque"><i>qualunque</i><par n="ogni__det"/></e>
     <e lm="quello"><i>que</i><par n="que/llo__det"/></e>
     <e lm="questo"><i>quest</i><par n="quest/o__det"/></e>
-    <e lm="suo"><i>su</i><par n="su/o__det"/></e>
     <e lm="tale"><i>tal</i><par n="tal/e__det"/></e>
     <e lm="taluno"><i>talun</i><par n="cert/o__det"/></e>
-    <e lm="tuo"><i>tu</i><par n="su/o__det"/></e>
     <e lm="tutto"><i>tutt</i><par n="tutt/o__predet"/></e>
     <e lm="un"><par n="/un__det"/></e>
     <e lm="un altro"><par n="/un_altro__det"/></e>
     <e lm="vario"><i>vari</i><par n="vari/o__det"/></e>
-    <e lm="vostro"><i>vostr</i><par n="vostr/o__det"/></e>
 
     <e lm="entrambi i"><i>entramb</i><par n="entramb/i_i__det"/></e>
     <e lm="tutt'e due i"><p><l>tutt'e<b/>due<b/>i</l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
@@ -33174,6 +33195,11 @@
     <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
     <e lm="nostro"><i>nostr</i><par n="nostr/o__adj"/></e>
     <e lm="vostro"><i>vostr</i><par n="nostr/o__adj"/></e>
+    <e lm="mio"><i>mi</i><par n="mi/o__prn"/></e>
+    <e lm="tuo"><i>tu</i><par n="tu/o__prn"/></e>
+    <e lm="suo"><i>su</i><par n="tu/o__prn"/></e>
+    <e lm="nostro"><i>nostr</i><par n="nostr/o__prn"/></e>
+    <e lm="vostro"><i>vostr</i><par n="nostr/o__prn"/></e>
     <e lm="turco"><i>turc</i><par n="caric/o__adj"/></e>
     <e lm="ubriaco"><i>ubriac</i><par n="caric/o__adj"/></e>
     <e lm="ufficiale"><i>ufficial</i><par n="fin/e__adj"/></e>
