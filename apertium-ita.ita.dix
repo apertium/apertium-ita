@@ -12428,10 +12428,10 @@
     </pardef>
     
     <pardef n="mi/o__prn">
-      <e><p><l>ei</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ei</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="/il_mio__det">
@@ -12490,10 +12490,10 @@
     </pardef>
     
     <pardef n="nostr/o__prn">
-      <e><p><l>i</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="nostr/o__det">
@@ -12718,10 +12718,10 @@
     </pardef>
     
     <pardef n="tu/o__prn">
-      <e><p><l>oi</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>e</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>o</l><r>o<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>oi</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>o</l><r>o<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="/il_tuo__det">
@@ -22093,6 +22093,7 @@
     <e lm="uscente"><i>uscent</i><par n="fin/e__adj"/></e>
     <e lm="dominante"><i>dominant</i><par n="fin/e__adj"/></e>
     <e lm="libanese"><i>libanes</i><par n="albanes/e__adj"/></e>
+    <e lm="libanese"><i>libanes</i><par n="albanes/e__n"/></e>
     <e lm="sornione"><i>sornion</i><par n="fin/e__adj"/></e>
     <e lm="benestante"><i>benestant</i><par n="fin/e__adj"/></e>
     <e lm="quadrangolare"><i>quadrangolar</i><par n="fin/e__adj"/></e>
@@ -35853,8 +35854,8 @@
     <e lm="durante l'estate"><i>durante<b/>l'estate</i><par n="ieri__adv"/></e>
     <e lm="durante l'inverno"><i>durante<b/>l'inverno</i><par n="ieri__adv"/></e>
     <e lm="durante la primavera"><i>durante<b/>la<b/>primavera</i><par n="ieri__adv"/></e>
-    <e lm="etc"><i>etc</i><par n="ieri__adv"/></e>
-    <e lm="ecc"><i>ecc</i><par n="ieri__adv"/></e>
+    <e lm="ecc."><i>ecc</i><par n="ieri__adv"/></e>
+    <e lm="ecc." r="LR"><p><l>etc</l><r>ecc</r></p><par n="ieri__adv"/></e>
     <e lm="eccessivamente"><i>eccessivamente</i><par n="ieri__adv"/></e>
     <e lm="eccetera"><i>eccetera</i><par n="ieri__adv"/></e>
     <e lm="eccezionalmente"><i>eccezionalmente</i><par n="ieri__adv"/></e>
@@ -37114,6 +37115,7 @@
     <e lm="lesivo"><i>lesiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="liscio"><i>lisci</i><par n="ampi/o__adj"/></e>
     <e lm="logudorese"><i>logudores</i><par n="albanes/e__adj"/></e>
+    <e lm="logudorese"><i>logudores</i><par n="albanes/e__n"/></e>
     <e lm="rigoglioso"><i>rigoglios</i><par n="cosiddett/o__adj"/></e>
     <e lm="lucrativo"><i>lucrativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="lucroso"><i>lucros</i><par n="cosiddett/o__adj"/></e>
@@ -42847,6 +42849,11 @@
     <e lm="primo"><i>prim</i><par n="prim/o__adj"/></e>
     <e lm="secondo"><i>second</i><par n="prim/o__adj"/></e>
     <e lm="terzo"><i>terz</i><par n="prim/o__adj"/></e>
+
+    <e lm="a.C."><i>a.C</i><par n="ieri__adv"/></e>
+    <e lm="d.C."><i>d.C</i><par n="ieri__adv"/></e>
+    <e lm="p.es."><i>p.es.</i><par n="ieri__adv"/></e>
+    <e lm="p.es." r="LR"><p><l>p.<b/>es.</l><r>p.es.</r></p><par n="ieri__adv"/></e>
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
