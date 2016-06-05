@@ -18275,6 +18275,9 @@
     <e lm="ispettore"><i>ispett</i><par n="agricolt/ore__n"/></e>
     <e lm="deficit"><i>deficit</i><par n="albatros__n"/></e>
     <e lm="indicizzazione"><i>indicizzazion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="sinusite"><i>sinusit</i><par n="abbreviazion/e__n"/></e>
+    <e lm="rinosinusite"><i>rinosinusite</i><par n="abbreviazion/e__n"/></e>
+
     <e lm="cedola"><i>cedol</i><par n="cas/a__n"/></e>
     <e lm="Tremonti"><i>Tremonti</i><par n="Juan__np"/></e>
     <e lm="ticket"><i>ticket</i><par n="albatros__n"/></e>
