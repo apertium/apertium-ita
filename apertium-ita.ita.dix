@@ -23539,7 +23539,7 @@
     <e lm="beneplacito"><i>beneplacit</i><par n="abbain/o__n"/></e>
     <e lm="beneventano"><i>beneventan</i><par n="abbain/o__n"/></e>
     <e lm="benservito"><i>benservit</i><par n="abbain/o__n"/></e>
-    <e lm="berbero"><i>berber</i><par n="abbain/o__n"/></e>
+    <e lm="berbero"><i>berber</i><par n="bambin/o__n"/></e>
     <e lm="berlusconiano"><i>berlusconian</i><par n="abbain/o__n"/></e>
     <e lm="berlusconismo"><i>berlusconism</i><par n="abbain/o__n"/></e>
     <e lm="berrettino"><i>berrettin</i><par n="abbain/o__n"/></e>
@@ -42858,6 +42858,119 @@
     <e lm="d.C."><i>d.C</i><par n="ieri__adv"/></e>
     <e lm="p.es."><i>p.es.</i><par n="ieri__adv"/></e>
     <e lm="p.es." r="LR"><p><l>p.<b/>es.</l><r>p.es.</r></p><par n="ieri__adv"/></e>
+
+    <e lm="abrogato"><i>abrogat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="accettato"><i>accettat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="aderito"><i>aderit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="algherese"><i>algheres</i><par n="albanes/e__adj"/></e>
+    <e lm="analizzato"><i>analizzat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="anteriore"><i>anterior</i><par n="albanes/e__adj"/></e>
+    <e lm="assunto"><i>assunt</i><par n="cosiddett/o__adj"/></e>
+    <e lm="attestato"><i>attestat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="attivato"><i>attivat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="attributo"><i>attribut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="attuato"><i>attuat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="aumentato"><i>aumentat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="autorizato"><i>autorizat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="bandito"><i>bandit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="barbaricino"><i>barbaricin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="baroniese"><i>baronies</i><par n="albanes/e__adj"/></e>
+    <e lm="buttato"><i>buttat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="caduto"><i>cadut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cambiato"><i>cambiat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="campidanese"><i>campidanes</i><par n="albanes/e__adj"/></e>
+    <e lm="cancellato"><i>cancellat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cantante"><i>cantant</i><par n="albanes/e__adj"/></e>
+    <e lm="cantato"><i>cantat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="capitato"><i>capitat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="celebrato"><i>celebrat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="certificato"><i>certificat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="collaborato"><i>collaborat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="collocato"><i>collocat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="colonizzato"><i>colonizzat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cominciato"><i>cominciat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="conseguito"><i>conseguit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="consentito"><i>consentit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="consorziato"><i>consorziat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cresciuto"><i>cresciut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cumbinato"><i>cumbinat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cumplessivo"><i>cumplessiv</i><par n="cosiddett/o__adj"/></e>
+    <e lm="cumplesso"><i>cumpless</i><par n="cosiddett/o__adj"/></e>
+    <e lm="debole"><i>debol</i><par n="albanes/e__adj"/></e>
+    <e lm="denunciato"><i>denunciat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="designato"><i>designat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="detenuto"><i>detenut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="distribuito"><i>distribuit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="dorgalese"><i>dorgales</i><par n="albanes/e__adj"/></e>
+    <e lm="due"><i>du</i><par n="albanes/e__adj"/></e>
+    <e lm="episcopale"><i>episcopal</i><par n="albanes/e__adj"/></e>
+    <e lm="esaminato"><i>esaminat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="etrusco"><i>etrusc</i><par n="caric/o__adj"/></e>
+    <e lm="eurodeputato"><i>eurodeputat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="finanzirio"><i>finanziri</i><par n="ampi/o__adj"/></e>
+    <e lm="forestiere"><i>forestier</i><par n="albanes/e__adj"/></e>
+    <e lm="gallurese"><i>gallures</i><par n="albanes/e__adj"/></e>
+    <e lm="giovanotto"><i>giovanott</i><par n="cosiddett/o__adj"/></e>
+    <e lm="guardato"><i>guardat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="imputato"><i>imputat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="indoeuropeo"><i>indoeurope</i><par n="cosiddett/o__adj"/></e>
+    <e lm="inferiore"><i>inferior</i><par n="albanes/e__adj"/></e>
+    <e lm="istituito"><i>istituit</i><par n="cosiddett/o__adj"/></e>
+    <e lm="isulano"><i>isulan</i><par n="cosiddett/o__adj"/></e>
+    <e lm="isvizzero"><i>isvizzer</i><par n="cosiddett/o__adj"/></e>
+    <e lm="italianismo"><i>italianism</i><par n="cosiddett/o__adj"/></e>
+    <e lm="lato"><i>lat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="lupino"><i>lupin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="maggiore"><i>maggior</i><par n="albanes/e__adj"/></e>
+    <e lm="marcio"><i>marci</i><par n="ampi/o__adj"/></e>
+    <e lm="midollo"><i>midoll</i><par n="cosiddett/o__adj"/></e>
+    <e lm="minorizzato"><i>minorizzat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="missionario"><i>missionari</i><par n="ampi/o__adj"/></e>
+    <e lm="modificato"><i>modificat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="moro"><i>mor</i><par n="cosiddett/o__adj"/></e>
+    <e lm="neolatino"><i>neolatin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="nuorese"><i>nuores</i><par n="albanes/e__adj"/></e>
+    <e lm="occasionale"><i>occasional</i><par n="albanes/e__adj"/></e>
+    <e lm="ogliastrino"><i>ogliastrin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="oristanese"><i>oristanes</i><par n="albanes/e__adj"/></e>
+    <e lm="ottenuto"><i>ottenut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="parecchio"><i>parecchi</i><par n="ampi/o__adj"/></e>
+    <e lm="piacevole"><i>piacevol</i><par n="albanes/e__adj"/></e>
+    <e lm="piccolino"><i>piccolin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="popolato"><i>popolat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="precisato"><i>precisat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="primo"><i>prim</i><par n="cosiddett/o__adj"/></e>
+    <e lm="proclamado"><i>proclamad</i><par n="cosiddett/o__adj"/></e>
+    <e lm="promulgato"><i>promulgat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="punico"><i>punic</i><par n="tecnic/o__adj"/></e>
+    <e lm="quello"><i>quell</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ragazzo"><i>ragazz</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ragionevole"><i>ragionevol</i><par n="albanes/e__adj"/></e>
+    <e lm="rapresentativo"><i>rapresentativ</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ratificato"><i>ratificat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="relazionato"><i>relazionat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="reso"><i>res</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ricevuto"><i>ricevut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="richiesto"><i>richiest</i><par n="cosiddett/o__adj"/></e>
+    <e lm="riconosciuto"><i>riconosciut</i><par n="cosiddett/o__adj"/></e>
+    <e lm="risposto"><i>rispost</i><par n="cosiddett/o__adj"/></e>
+    <e lm="rivoltato"><i>rivoltat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="sassarese"><i>sassares</i><par n="albanes/e__adj"/></e>
+    <e lm="serbo"><i>serb</i><par n="cosiddett/o__adj"/></e>
+    <e lm="solidale"><i>solidal</i><par n="albanes/e__adj"/></e>
+    <e lm="sparpagliato"><i>sparpagliat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="speso"><i>spes</i><par n="cosiddett/o__adj"/></e>
+    <e lm="stendardo"><i>stendard</i><par n="cosiddett/o__adj"/></e>
+    <e lm="superiore"><i>superior</i><par n="albanes/e__adj"/></e>
+    <e lm="tabarchino"><i>tabarchin</i><par n="cosiddett/o__adj"/></e>
+    <e lm="talebano"><i>taleban</i><par n="cosiddett/o__adj"/></e>
+    <e lm="terminologico"><i>terminologic</i><par n="tecnic/o__adj"/></e>
+    <e lm="turritano"><i>turritan</i><par n="cosiddett/o__adj"/></e>
+    <e lm="tutelato"><i>tutelat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ulteriore"><i>ulterior</i><par n="albanes/e__adj"/></e>
+    <e lm="viola"><i>viol</i><par n="suicid/a__adj"/></e>
+
+
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
