@@ -379,6 +379,13 @@
       <e><p><l>e</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="veterinar/io__n">
+      <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ie</l><r>io<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>ia</l><r>io<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="sagg/io__n">
       <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -389,6 +396,11 @@
     <pardef n="abbagli/o__n">
       <e><p><l></l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="marina/io__n">
+      <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="mugnai/o__n">
@@ -477,18 +489,6 @@
       <e><p><l>ssore</l><r>ssore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ditrice</l><r>ssore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ditrici</l><r>ssore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
-    
-    <pardef n="marina/io__n">
-      <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="veterinar/io__n">
-      <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ie</l><r>io<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>ia</l><r>io<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="suicid/a__n">
@@ -23207,13 +23207,13 @@
     <e lm="addensamento"><i>addensament</i><par n="abbain/o__n"/></e>
     <e lm="addentellato"><i>addentellat</i><par n="abbain/o__n"/></e>
     <e lm="addestramento"><i>addestrament</i><par n="abbain/o__n"/></e>
-    <e lm="addetto"><i>addett</i><par n="abbain/o__n"/></e>
+    <e lm="addetto"><i>addett</i><par n="bambin/o__n"/></e>
     <e lm="addio"><i>addi</i><par n="abbain/o__n"/></e>
     <e lm="adempimento"><i>adempiment</i><par n="abbain/o__n"/></e>
     <e lm="adepto"><i>adept</i><par n="abbain/o__n"/></e>
     <e lm="adibito"><i>adibit</i><par n="abbain/o__n"/></e>
     <e lm="adorato"><i>adorat</i><par n="abbain/o__n"/></e>
-    <e lm="adulto"><i>adult</i><par n="abbain/o__n"/></e>
+    <e lm="adulto"><i>adult</i><par n="bambin/o__n"/></e>
     <e lm="aereoplano"><i>aereoplan</i><par n="abbain/o__n"/></e>
     <e lm="aereoporto"><i>aereoport</i><par n="abbain/o__n"/></e>
     <e lm="aeroplanino"><i>aeroplanin</i><par n="abbain/o__n"/></e>
@@ -23333,7 +23333,7 @@
     <e lm="annuvolamento"><i>annuvolament</i><par n="abbain/o__n"/></e>
     <e lm="antagonismo"><i>antagonism</i><par n="abbain/o__n"/></e>
     <e lm="antefatto"><i>antefatt</i><par n="abbain/o__n"/></e>
-    <e lm="antenato"><i>antenat</i><par n="abbain/o__n"/></e>
+    <e lm="antenato"><i>antenat</i><par n="bambin/o__n"/></e>
     <e lm="antesignano"><i>antesignan</i><par n="abbain/o__n"/></e>
     <e lm="anticomunismo"><i>anticomunism</i><par n="abbain/o__n"/></e>
     <e lm="anticonformismo"><i>anticonformism</i><par n="abbain/o__n"/></e>
@@ -23400,7 +23400,7 @@
     <e lm="asciugamano"><i>asciugaman</i><par n="abbain/o__n"/></e>
     <e lm="ascolto"><i>ascolt</i><par n="abbain/o__n"/></e>
     <e lm="asfalto"><i>asfalt</i><par n="abbain/o__n"/></e>
-    <e lm="asinello"><i>asinell</i><par n="abbain/o__n"/></e>
+    <e lm="asinello"><i>asinell</i><par n="bambin/o__n"/></e>
     <e lm="asino"><i>asin</i><par n="abbain/o__n"/></e>
     <e lm="asparago"><i>asparag</i><par n="abbain/o__n"/></e>
     <e lm="assaggino"><i>assaggin</i><par n="abbain/o__n"/></e>
@@ -23480,7 +23480,7 @@
     <e lm="baffetto"><i>baffett</i><par n="abbain/o__n"/></e>
     <e lm="bagarino"><i>bagarin</i><par n="abbain/o__n"/></e>
     <e lm="bagnino"><i>bagnin</i><par n="abbain/o__n"/></e>
-    <e lm="baio"><i>bai</i><par n="abbain/o__n"/></e>
+    <e lm="baio"><i>bai</i><par n="abbagli/o__n"/></e>
     <e lm="balbettamento"><i>balbettament</i><par n="abbain/o__n"/></e>
     <e lm="balbettio"><i>balbetti</i><par n="abbain/o__n"/></e>
     <e lm="balconcino"><i>balconcin</i><par n="abbain/o__n"/></e>
@@ -23880,7 +23880,7 @@
     <e lm="coetaneo"><i>coetane</i><par n="abbain/o__n"/></e>
     <e lm="cofanetto"><i>cofanett</i><par n="abbain/o__n"/></e>
     <e lm="cofano"><i>cofan</i><par n="abbain/o__n"/></e>
-    <e lm="cognato"><i>cognat</i><par n="abbain/o__n"/></e>
+    <e lm="cognato"><i>cognat</i><par n="bambin/o__n"/></e>
     <e lm="coimputato"><i>coimputat</i><par n="abbain/o__n"/></e>
     <e lm="coindagato"><i>coindagat</i><par n="abbain/o__n"/></e>
     <e lm="coinquilino"><i>coinquilin</i><par n="abbain/o__n"/></e>
@@ -24129,9 +24129,9 @@
     <e lm="dedalo"><i>dedal</i><par n="abbain/o__n"/></e>
     <e lm="deferimento"><i>deferiment</i><par n="abbain/o__n"/></e>
     <e lm="deflusso"><i>defluss</i><par n="abbain/o__n"/></e>
-    <e lm="degno"><i>degn</i><par n="abbain/o__n"/></e>
+    <e lm="degno"><i>degn</i><par n="bambin/o__n"/></e>
     <e lm="degrado"><i>degrad</i><par n="abbain/o__n"/></e>
-    <e lm="delegato"><i>delegat</i><par n="abbain/o__n"/></e>
+    <e lm="delegato"><i>delegat</i><par n="bambin/o__n"/></e>
     <e lm="deltaplano"><i>deltaplan</i><par n="abbain/o__n"/></e>
     <e lm="deluso"><i>delus</i><par n="abbain/o__n"/></e>
     <e lm="demerito"><i>demerit</i><par n="abbain/o__n"/></e>
@@ -28103,7 +28103,7 @@
     <e lm="corridoio"><i>corridoi</i><par n="abbagli/o__n"/></e>
     <e lm="corridore"><i>corrid</i><par n="agricolt/ore__n"/></e>
     <e lm="corruzione"><i>corruzion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="corso"><i>cors</i><par n="abbain/o__n"/></e>
+    <e lm="corso"><i>cors</i><par n="bambin/o__n"/></e>
     <e lm="corteccia"><i>cortecc</i><par n="alzatacc/ia__n"/></e>
     <e lm="corteggiamento"><i>corteggiament</i><par n="abbain/o__n"/></e>
     <e lm="cortile"><i>cortil</i><par n="abat/e__n"/></e>
@@ -37296,7 +37296,6 @@
     <e lm="corno"><i>corn</i><par n="abbain/o__n"/></e>
     <e lm="correttezza"><i>correttezz</i><par n="cas/a__n"/></e>
     <e lm="corsa"><i>cors</i><par n="cas/a__n"/></e>
-    <e lm="corso"><i>cors</i><par n="sopran/o__n"/></e>
     <e lm="coscia"><i>cosci</i><par n="cas/a__n"/></e>
     <e lm="costanza"><i>costanz</i><par n="cas/a__n"/></e>
     <e lm="criterio"><i>criteri</i><par n="abbagli/o__n"/></e>
@@ -37348,7 +37347,7 @@
     <e lm="ferita"><i>ferit</i><par n="cas/a__n"/></e>
     <e lm="feudatario"><i>feudatari</i><par n="abbagli/o__n"/></e>
     <e lm="fideiussione"><i>fideiussion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="fiduciario"><i>fiduciari</i><par n="abbagli/o__n"/></e>
+    <e lm="fiduciario"><i>fiduciari</i><par n="segretari/o__n"/></e>
     <e lm="fiera"><i>fier</i><par n="cas/a__n"/></e>
     <e lm="figura"><i>figur</i><par n="cas/a__n"/></e>
     <e lm="fila"><i>fil</i><par n="cas/a__n"/></e>
@@ -39568,7 +39567,6 @@
     <e lm="adamantino"><i>adamantin</i><par n="abbandonat/o__adj"/></e>
     <e lm="adatto"><i>adatt</i><par n="abbandonat/o__adj"/></e>
     <e lm="addestrativo"><i>addestrativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="addetto"><i>addett</i><par n="abbandonat/o__adj"/></e>
     <e lm="additivo"><i>additiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="addolorato"><i>addolorat</i><par n="abbandonat/o__adj"/></e>
     <e lm="addomesticato"><i>addomesticat</i><par n="abbandonat/o__adj"/></e>
@@ -40318,7 +40316,6 @@
     <e lm="corrivo"><i>corriv</i><par n="abbandonat/o__adj"/></e>
     <e lm="corrotto"><i>corrott</i><par n="abbandonat/o__adj"/></e>
     <e lm="corsaro"><i>corsar</i><par n="abbandonat/o__adj"/></e>
-    <e lm="corso"><i>cors</i><par n="abbandonat/o__adj"/></e>
     <e lm="cortigiano"><i>cortigian</i><par n="abbandonat/o__adj"/></e>
     <e lm="corto"><i>cort</i><par n="abbandonat/o__adj"/></e>
     <e lm="corvino"><i>corvin</i><par n="abbandonat/o__adj"/></e>
