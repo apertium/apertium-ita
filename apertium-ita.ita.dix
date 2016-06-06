@@ -24068,8 +24068,8 @@
     <e lm="crepitio"><i>crepiti</i><par n="abbain/o__n"/></e>
     <e lm="criminologo"><i>criminolog</i><par n="tedesc/o__n"/></e>
     <e lm="cristo"><i>crist</i><par n="abbain/o__n"/></e>
-    <e lm="croato"><i>croat</i><par n="abbain/o__n"/></e>
-    <e lm="croato-bosniaco"><i>croato-bosniac</i><par n="abbain/o__n"/></e>
+    <e lm="croato"><i>croat</i><par n="bambin/o__n"/></e>
+    <e lm="croato-bosniaco"><i>croato-bosniac</i><par n="tedesc/o__n"/></e>
     <e lm="crocefisso"><i>crocefiss</i><par n="abbain/o__n"/></e>
     <e lm="crogiolo"><i>crogiol</i><par n="abbain/o__n"/></e>
     <e lm="crogiuolo"><i>crogiuol</i><par n="abbain/o__n"/></e>
@@ -26255,9 +26255,9 @@
     <e lm="sepolto"><i>sepolt</i><par n="abbain/o__n"/></e>
     <e lm="seppellimento"><i>seppelliment</i><par n="abbain/o__n"/></e>
     <e lm="sequestro"><i>sequestr</i><par n="abbain/o__n"/></e>
-    <e lm="serbo"><i>serb</i><par n="abbain/o__n"/></e>
-    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="abbain/o__n"/></e>
-    <e lm="serbo-croato"><i>serbo-croat</i><par n="abbain/o__n"/></e>
+    <e lm="serbo"><i>serb</i><par n="bambin/o__n"/></e>
+    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="bambin/o__n"/></e>
+    <e lm="serbo-croato"><i>serbo-croat</i><par n="bambin/o__n"/></e>
     <e lm="servilismo"><i>servilism</i><par n="abbain/o__n"/></e>
     <e lm="servizietto"><i>serviziett</i><par n="abbain/o__n"/></e>
     <e lm="servosterzo"><i>servosterz</i><par n="abbain/o__n"/></e>
@@ -40346,6 +40346,7 @@
     <e lm="criticato"><i>criticat</i><par n="abbandonat/o__adj"/></e>
     <e lm="croato"><i>croat</i><par n="abbandonat/o__adj"/></e>
     <e lm="croato-musulmano"><i>croato-musulman</i><par n="abbandonat/o__adj"/></e>
+    <e lm="croato-bosniaco"><i>croato-bosniac</i><par n="tecnic/o__adj"/></e>
     <e lm="crocefisso"><i>crocefiss</i><par n="abbandonat/o__adj"/></e>
     <e lm="crociano"><i>crocian</i><par n="abbandonat/o__adj"/></e>
     <e lm="crocifisso"><i>crocifiss</i><par n="abbandonat/o__adj"/></e>
@@ -42199,6 +42200,9 @@
     <e lm="seppellito"><i>seppellit</i><par n="abbandonat/o__adj"/></e>
     <e lm="sequestrato"><i>sequestrat</i><par n="abbandonat/o__adj"/></e>
     <e lm="serbo-kosovaro"><i>serbo-kosovar</i><par n="abbandonat/o__adj"/></e>
+    <e lm="serbo"><i>serb</i><par n="abbandonat/o__adj"/></e>
+    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="abbandonat/o__adj"/></e>
+    <e lm="serbo-croato"><i>serbo-croat</i><par n="abbandonat/o__adj"/></e>
     <e lm="serioso"><i>serios</i><par n="abbandonat/o__adj"/></e>
     <e lm="serpentino"><i>serpentin</i><par n="abbandonat/o__adj"/></e>
     <e lm="serrato"><i>serrat</i><par n="abbandonat/o__adj"/></e>
