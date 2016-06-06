@@ -33327,7 +33327,7 @@
     <e lm="prendere coscienza"><i>pre</i><par n="acce/ndere__vblex"/><p><l><b/>coscienza</l><r><g><b/>coscienza</g></r></p></e>
     <e lm="portare avanti"><i>port</i><par n="abbacin/are__vblex"/><p><l><b/>avanti</l><r><g><b/>avanti</g></r></p></e>
     <e lm="raccontare storie"><i>raccont</i><par n="abbacin/are__vblex"/><p><l><b/>storie</l><r><g><b/>storie</g></r></p></e>
-    <e lm="abitare da sempre"><i>raccont</i><par n="abbacin/are__vblex"/><p><l><b/>da<b/>sempre</l><r><g><b/>da<b/>sempre</g></r></p></e>
+    <e lm="abitare da sempre"><i>abit</i><par n="abbacin/are__vblex"/><p><l><b/>da<b/>sempre</l><r><g><b/>da<b/>sempre</g></r></p></e>
 
 <!--       ******************************      (cnjsub) group      ******************************    -->
     <e lm="anche se"><i>anche<b/>se</i><par n="affinché__cnjsub"/></e>
@@ -43098,6 +43098,23 @@
     <e lm="vitalidatà"><i>vitalidatà</i><par n="abilità__n"/></e>
     <e lm="vocale"><i>vocal</i><par n="abat/e__n"/></e>
     <e lm="zanna"><i>zann</i><par n="cas/a__n"/></e>
+
+    <e lm="annaffiare"><i>annaffi</i><par n="espi/are__vblex"/></e>
+    <e lm="badare"><i>bad</i><par n="abbacin/are__vblex"/></e>
+    <e lm="bastonare"><i>baston</i><par n="abbacin/are__vblex"/></e>
+    <e lm="covare"><i>cov</i><par n="abbacin/are__vblex"/></e>
+    <e lm="gabbare"><i>gabb</i><par n="abbacin/are__vblex"/></e>
+    <e lm="impaludare"><i>impalud</i><par n="abbacin/are__vblex"/></e>
+    <e lm="limare"><i>lim</i><par n="abbacin/are__vblex"/></e>
+    <e lm="nevicare"><i>nevic</i><par n="alberg/are__vblex"/></e>
+    <e lm="pigliare"><i>pigli</i><par n="espi/are__vblex"/></e>
+    <e lm="raccimolare"><i>raccimol</i><par n="abbacin/are__vblex"/></e>
+    <e lm="speziare"><i>spezi</i><par n="espi/are__vblex"/></e>
+    <e lm="sterrare"><i>sterr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="trebbiare"><i>trebbi</i><par n="espi/are__vblex"/></e>
+    <e lm="urtare"><i>urt</i><par n="abbacin/are__vblex"/></e>
+    <e lm="varcare"><i>varc</i><par n="alberg/are__vblex"/></e>
+
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
