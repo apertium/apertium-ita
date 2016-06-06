@@ -379,13 +379,6 @@
       <e><p><l>e</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="veterinar/io__n">
-      <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ie</l><r>io<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>ia</l><r>io<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
     <pardef n="sagg/io__n">
       <e><p><l>i</l><r>io<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>io</l><r>io<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -18812,7 +18805,7 @@
     <e lm="decretone"><i>decreton</i><par n="abat/e__n"/></e>
     <e lm="casellante"><i>casellant</i><par n="abat/e__n"/></e>
     <e lm="pulitore"><i>pulitor</i><par n="abat/e__n"/></e>
-    <e lm="coautore"><i>coautor</i><par n="abat/e__n"/></e>
+    <e lm="coautore"><i>coaut</i><par n="agricolt/ore__n"/></e>
     <e lm="castrone"><i>castron</i><par n="abat/e__n"/></e>
     <e lm="tendone"><i>tendon</i><par n="abat/e__n"/></e>
     <e lm="neutrone"><i>neutron</i><par n="abat/e__n"/></e>
@@ -19287,7 +19280,7 @@
     <e lm="tirolese"><i>tiroles</i><par n="albanes/e__n"/></e>
     <e lm="duellante"><i>duellant</i><par n="abat/e__n"/></e>
     <e lm="usciere"><i>uscier</i><par n="abat/e__n"/></e>
-    <e lm="cantautore"><i>cantautor</i><par n="abat/e__n"/></e>
+    <e lm="cantautore"><i>cantaut</i><par n="agricolt/ore__n"/></e>
     <e lm="soccorritore"><i>soccorrit</i><par n="agricolt/ore__n"/></e>
     <e lm="grembiule"><i>grembiul</i><par n="abat/e__n"/></e>
     <e lm="disturbatore"><i>disturbat</i><par n="agricolt/ore__n"/></e>
@@ -26192,7 +26185,7 @@
     <e lm="scivolamento"><i>scivolament</i><par n="abbain/o__n"/></e>
     <e lm="scivolo"><i>scivol</i><par n="abbain/o__n"/></e>
     <e lm="scolaretto"><i>scolarett</i><par n="abbain/o__n"/></e>
-    <e lm="scolaro"><i>scolar</i><par n="abbain/o__n"/></e>
+    <e lm="scolaro"><i>scolar</i><par n="bambin/o__n"/></e>
     <e lm="scollamento"><i>scollament</i><par n="abbain/o__n"/></e>
     <e lm="scollo"><i>scoll</i><par n="abbain/o__n"/></e>
     <e lm="scombussolamento"><i>scombussolament</i><par n="abbain/o__n"/></e>
@@ -26555,9 +26548,10 @@
     <e lm="suino"><i>suin</i><par n="abbain/o__n"/></e>
     <e lm="sultanato"><i>sultanat</i><par n="abbain/o__n"/></e>
     <e lm="sultano"><i>sultan</i><par n="abbain/o__n"/></e>
-    <e lm="sumero"><i>sumer</i><par n="abbain/o__n"/></e>
+    <e lm="sumero"><i>sumer</i><par n="bambin/o__n"/></e>
+    <e lm="sumero"><i>sumer</i><par n="cosiddett/o__adj"/></e>
     <e lm="sunto"><i>sunt</i><par n="abbain/o__n"/></e>
-    <e lm="suocero"><i>suocer</i><par n="abbain/o__n"/></e>
+    <e lm="suocero"><i>suocer</i><par n="bambin/o__n"/></e>
     <e lm="superbo"><i>superb</i><par n="abbain/o__n"/></e>
     <e lm="superbollo"><i>superboll</i><par n="abbain/o__n"/></e>
     <e lm="superdollaro"><i>superdollar</i><par n="abbain/o__n"/></e>
@@ -28596,7 +28590,7 @@
     <e lm="fondamentalismo"><i>fondamentalism</i><par n="abbain/o__n"/></e>
     <e lm="forca"><i>forc</i><par n="tasc/a__n"/></e>
     <e lm="format"><i>format</i><par n="albatros__n"/></e>
-    <e lm="fornaio"><i>fornai</i><par n="abbagli/o__n"/></e>
+    <e lm="fornaio"><i>fornai</i><par n="segretari/o__n"/></e>
     <e lm="fornitura"><i>fornitur</i><par n="cas/a__n"/></e>
     <e lm="foschia"><i>foschi</i><par n="cas/a__n"/></e>
     <e lm="franco"><i>franc</i><par n="amic/o__n"/></e>
@@ -31092,8 +31086,7 @@
     <e lm="vestaglia"><i>vestagli</i><par n="cas/a__n"/></e>
     <e lm="vestiario"><i>vestiari</i><par n="abbagli/o__n"/></e>
     <e lm="vestito"><i>vestit</i><par n="abbain/o__n"/></e>
-    <e lm="veterinario"><i>veterinar</i><par n="veterinar/io__n"/></e>
-    <e lm="veterinaria"><i>veterinari</i><par n="cas/a__n"/></e>
+    <e lm="veterinario"><i>veterinari</i><par n="segretari/o__n"/></e>
     <e lm="vetro"><i>vetr</i><par n="abbain/o__n"/></e>
     <e lm="vetrina"><i>vetrin</i><par n="cas/a__n"/></e>
     <e lm="vettore"><i>vettor</i><par n="abat/e__n"/></e>
@@ -37412,7 +37405,7 @@
     <e lm="lisandro"><i>lisandr</i><par n="abbain/o__n"/></e>
     <e lm="lite"><i>lit</i><par n="abbreviazion/e__n"/></e>
     <e lm="macchia"><i>macchi</i><par n="cas/a__n"/></e>
-    <e lm="macellaio"><i>macellai</i><par n="abbagli/o__n"/></e>
+    <e lm="macellaio"><i>macellai</i><par n="segretari/o__n"/></e>
     <e lm="maga"><i>mag</i><par n="cas/a__n"/></e>
     <e lm="magistratura"><i>magistratur</i><par n="cas/a__n"/></e>
     <e lm="mancànza"><i>mancànz</i><par n="cas/a__n"/></e>
@@ -42906,7 +42899,7 @@
     <e lm="episcopale"><i>episcopal</i><par n="albanes/e__adj"/></e>
     <e lm="esaminato"><i>esaminat</i><par n="cosiddett/o__adj"/></e>
     <e lm="etrusco"><i>etrusc</i><par n="caric/o__adj"/></e>
-    <e lm="eurodeputato"><i>eurodeputat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="etrusco"><i>etrusc</i><par n="tedesc/o__n"/></e>
     <e lm="finanzirio"><i>finanziri</i><par n="ampi/o__adj"/></e>
     <e lm="forestiere"><i>forestier</i><par n="albanes/e__adj"/></e>
     <e lm="gallurese"><i>gallures</i><par n="albanes/e__adj"/></e>
