@@ -34607,7 +34607,6 @@
     <e lm="abbozzare"><i>abbozz</i><par n="abbacin/are__vblex"/></e>
     <e lm="abilitare"><i>abilit</i><par n="abbacin/are__vblex"/></e>
     <e lm="abrogare"><i>abrog</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="accadere"><i>acca</i><par n="ca/dere__vblex"/></e>
     <e lm="accantonare"><i>accanton</i><par n="abbacin/are__vblex"/></e>
     <e lm="accatastare"><i>accatast</i><par n="abbacin/are__vblex"/></e>
     <e lm="accecare"><i>accec</i><par n="abbarbic/are__vblex"/></e>
@@ -43217,6 +43216,19 @@
     <e lm="Wilhelm"><i>Wilhelm</i><par n="Juan__np"/></e>
     <e lm="Will"><i>Will</i><par n="Juan__np"/></e>
     <e lm="Xavier"><i>Xavier</i><par n="Juan__np"/></e>
+
+
+    <e lm="Piemonte"><i>Piemonte</i><par n="Afghanistan__np"/></e>
+    <e lm="Trentino-Alto Adige"><i>Trentino-Alto<b/>Adige</i><par n="Afghanistan__np"/></e>
+    <e lm="Friuli-Venezia Giulia"><i>Friuli-Venezia<b/>Giulia</i><par n="Afghanistan__np"/></e>
+    <e lm="Trieste"><i>Trieste</i><par n="Europa__np"/></e>
+    <e lm="Emilia-Romagna"><i>Emilia-Romagna</i><par n="Afghanistan__np"/></e>
+    <e lm="Firenze"><i>Firenze</i><par n="Europa__np"/></e>
+    <e lm="Marche"><i>Marche</i><par n="Maldive__np"/></e>
+    <e lm="Molise"><i>Molise</i><par n="Afghanistan__np"/></e>
+    <e lm="Bari"><i>Bari</i><par n="Afghanistan__np"/></e>
+    <e lm="Cagliari"><i>Cagliari</i><par n="Afghanistan__np"/></e>
+
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
