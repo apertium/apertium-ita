@@ -8385,70 +8385,6 @@
       <e><p><l>i</l><r>arsi<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
-    <pardef n="infin/gere__vblex">
-      <e><p><l>geremmo</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>gerei</l><r>gere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>gereste</l><r>gere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>geresti</l><r>gere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gerebber</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gerebbero</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gerebbe</l><r>gere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>geremo</l><r>gere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>gerò</l><r>gere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>gerete</l><r>gere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>gerai</l><r>gere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>geran</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>geranno</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gerà</l><r>gere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>gendo</l><r>gere<s n="vblex"/><s n="ger"/></r></p></e>
-      <e><p><l>gendo</l><r>gere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
-      <e><p><l>gemmo</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>si</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>geste</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>gesti</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ser</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>sero</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>sè</l><r>gere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gano</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ger</l><r>gere<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>gere</l><r>gere<s n="vblex"/><s n="inf"/></r></p></e>
-      <e><p><l>ger</l><r>gere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
-      <e><p><l>gevamo</l><r>gere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>gevo</l><r>gere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>gevate</l><r>gere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>gevi</l><r>gere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gevan</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gevano</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>geva</l><r>gere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>gessimo</l><r>gere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>gessi</l><r>gere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>geste</l><r>gere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>gessi</l><r>gere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gesser</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gessero</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gesse</l><r>gere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>te</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>ta</l><r>gere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ti</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>to</l><r>gere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>go</l><r>gere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>gete</l><r>gere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>gi</l><r>gere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gon</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gono</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ge</l><r>gere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>giamo</l><r>gere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>giate</l><r>gere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>gan</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>gano</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
-      <e><p><l>ga</l><r>gere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-    </pardef>
-    
     <pardef n="intrav/edere__vblex">
       <e><p><l>edremmo</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>edrei</l><r>edere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -35223,23 +35159,23 @@
     <e lm="tassare"><i>tass</i><par n="abbacin/are__vblex"/></e>
     <e lm="tastare"><i>tast</i><par n="abbacin/are__vblex"/></e>
     <e lm="teorizzare"><i>teorizz</i><par n="abbacin/are__vblex"/></e>
-    <e lm="tingere"><i>tin</i><par n="infin/gere__vblex"/></e>
-    <e lm="accingere"><i>accin</i><par n="infin/gere__vblex"/></e>
-    <e lm="attingere"><i>attin</i><par n="infin/gere__vblex"/></e>
-    <e lm="cingere"><i>cin</i><par n="infin/gere__vblex"/></e>
-    <e lm="contingere"><i>contin</i><par n="infin/gere__vblex"/></e>
-    <e lm="dipingere"><i>dipin</i><par n="infin/gere__vblex"/></e>
-    <e lm="fingere"><i>fin</i><par n="infin/gere__vblex"/></e>
-    <e lm="infingere"><i>infin</i><par n="infin/gere__vblex"/></e>
-    <e lm="intingere"><i>intin</i><par n="infin/gere__vblex"/></e>
-    <e lm="precingere"><i>precin</i><par n="infin/gere__vblex"/></e>
-    <e lm="recingere"><i>recin</i><par n="infin/gere__vblex"/></e>
-    <e lm="respingere"><i>respin</i><par n="infin/gere__vblex"/></e>
-    <e lm="ricingere"><i>ricin</i><par n="infin/gere__vblex"/></e>
-    <e lm="ritingere"><i>ritin</i><par n="infin/gere__vblex"/></e>
-    <e lm="scingere"><i>scin</i><par n="infin/gere__vblex"/></e>
-    <e lm="sospingere"><i>sospin</i><par n="infin/gere__vblex"/></e>
-    <e lm="spingere"><i>spin</i><par n="infin/gere__vblex"/></e>
+    <e lm="tingere"><i>tin</i><par n="accin/gere__vblex"/></e>
+    <e lm="accingere"><i>accin</i><par n="accin/gere__vblex"/></e>
+    <e lm="attingere"><i>attin</i><par n="accin/gere__vblex"/></e>
+    <e lm="cingere"><i>cin</i><par n="accin/gere__vblex"/></e>
+    <e lm="contingere"><i>contin</i><par n="accin/gere__vblex"/></e>
+    <e lm="dipingere"><i>dipin</i><par n="accin/gere__vblex"/></e>
+    <e lm="fingere"><i>fin</i><par n="accin/gere__vblex"/></e>
+    <e lm="infingere"><i>infin</i><par n="accin/gere__vblex"/></e>
+    <e lm="intingere"><i>intin</i><par n="accin/gere__vblex"/></e>
+    <e lm="precingere"><i>precin</i><par n="accin/gere__vblex"/></e>
+    <e lm="recingere"><i>recin</i><par n="accin/gere__vblex"/></e>
+    <e lm="respingere"><i>respin</i><par n="accin/gere__vblex"/></e>
+    <e lm="ricingere"><i>ricin</i><par n="accin/gere__vblex"/></e>
+    <e lm="ritingere"><i>ritin</i><par n="accin/gere__vblex"/></e>
+    <e lm="scingere"><i>scin</i><par n="accin/gere__vblex"/></e>
+    <e lm="sospingere"><i>sospin</i><par n="accin/gere__vblex"/></e>
+    <e lm="spingere"><i>spin</i><par n="accin/gere__vblex"/></e>
     <e lm="tormentare"><i>torment</i><par n="abbacin/are__vblex"/></e>
     <e lm="totalizzare"><i>totalizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="tracciare"><i>tracc</i><par n="abbiosc/iare__vblex"/></e>
