@@ -33319,7 +33319,7 @@
     <e lm="avere bisogno che"><par n="/avere_bisogno_che__vbmod"/></e>
     <e lm="avere bisogno"><i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
     <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
-    <e lm="dare una conferenza"><i>f</i><par n="d/are__vblex"/><p><l><b/>una<b/>conferenza</l><r><g><b/>una<b/>conferenza</g></r></p></e>
+    <e lm="dare una conferenza"><i>d</i><par n="d/are__vblex"/><p><l><b/>una<b/>conferenza</l><r><g><b/>una<b/>conferenza</g></r></p></e>
     <e lm="fare affari"><i>f</i><par n="f/are__vblex"/><p><l><b/>affari</l><r><g><b/>affari</g></r></p></e>
     <e lm="fare attenzione"><i>f</i><par n="f/are__vblex"/><p><l><b/>attenzione</l><r><g><b/>attenzione</g></r></p></e>
     <e lm="fare erba"><i>f</i><par n="f/are__vblex"/><p><l><b/>erba</l><r><g><b/>erba</g></r></p></e>
@@ -34607,7 +34607,7 @@
     <e lm="abbozzare"><i>abbozz</i><par n="abbacin/are__vblex"/></e>
     <e lm="abilitare"><i>abilit</i><par n="abbacin/are__vblex"/></e>
     <e lm="abrogare"><i>abrog</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="accadere"><i>accad</i><par n="ca/dere__vblex"/></e>
+    <e lm="accadere"><i>acca</i><par n="ca/dere__vblex"/></e>
     <e lm="accantonare"><i>accanton</i><par n="abbacin/are__vblex"/></e>
     <e lm="accatastare"><i>accatast</i><par n="abbacin/are__vblex"/></e>
     <e lm="accecare"><i>accec</i><par n="abbarbic/are__vblex"/></e>
@@ -34782,8 +34782,8 @@
     <e lm="danneggiare"><i>dannegg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="danzare"><i>danz</i><par n="abbacin/are__vblex"/></e>
     <e lm="debbiare"><i>debbi</i><par n="abbacchi/are__vblex"/></e>
-    <e lm="decadere"><i>decad</i><par n="ca/dere__vblex"/></e>
-    <e lm="ricadere"><i>ricad</i><par n="ca/dere__vblex"/></e>
+    <e lm="decadere"><i>deca</i><par n="ca/dere__vblex"/></e>
+    <e lm="ricadere"><i>rica</i><par n="ca/dere__vblex"/></e>
     <e lm="decentrare"><i>decentr</i><par n="abbacin/are__vblex"/></e>
     <e lm="decimare"><i>decim</i><par n="abbacin/are__vblex"/></e>
     <e lm="decorrere"><i>decor</i><par n="accor/rere__vblex"/></e>
@@ -35120,7 +35120,7 @@
     <e lm="sbadigliare"><i>sbadigli</i><par n="abbacchi/are__vblex"/></e>
     <e lm="sbattere"><i>sbatt</i><par n="abbatt/ere__vblex"/></e>
     <e lm="sbrigare"><i>sbrig</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="scadere"><i>scad</i><par n="ca/dere__vblex"/></e>
+    <e lm="scadere"><i>sca</i><par n="ca/dere__vblex"/></e>
     <e lm="scalare"><i>scal</i><par n="abbacin/are__vblex"/></e>
     <e lm="scambiare"><i>scambi</i><par n="abbacin/are__vblex"/></e>
     <e lm="scattare"><i>scatt</i><par n="abbacin/are__vblex"/></e>
