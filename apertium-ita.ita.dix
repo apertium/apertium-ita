@@ -11307,8 +11307,18 @@
     
     <pardef n="entramb/i_i__det">
       <e r="LR"><p><l>i<b/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>i<b/>gli</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l>i<b/><a/>i</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+
       <e><p><l>e<b/>le</l><r>i<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef> 
+    
+    <pardef n="tutt'e due/_i__det">
+      <e r="LR"><p><l><b/>i</l><r><b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><b/>gli</l><r><b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><b/><a/>i</l><r><b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+
+      <e><p><l><b/>le</l><r><b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef> 
     
     <pardef n="accanto__pr">
@@ -12885,8 +12895,7 @@
     <e lm="vario"><i>vari</i><par n="vari/o__det"/></e>
 
     <e lm="entrambi i"><i>entramb</i><par n="entramb/i_i__det"/></e>
-    <e lm="tutt'e due i"><p><l>tutt'e<b/>due<b/>i</l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-    <e lm="tutt'e due i"><p><l>tutt'e<b/>due<b/>le</l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="tutt'e due i"><i>tutt'e<b/>due</i><par n="tutt'e due/_i__det"/></e>
 
 
     <!-- SECTION: Relativos -->
