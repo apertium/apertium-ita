@@ -27249,7 +27249,6 @@
     <e lm="astratto"><i>astratt</i><par n="abbain/o__n"/></e>
     <e lm="attestato"><i>attestat</i><par n="abbain/o__n"/></e>
     <e lm="attraversamento"><i>attraversament</i><par n="abbain/o__n"/></e>
-    <e lm="autoritario"><i>autoritari</i><par n="abbagli/o__n"/></e>
     <e lm="avventuriero"><i>avventurier</i><par n="abbain/o__n"/></e>
     <e lm="assoluzione"><i>assoluzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="assorbente"><i>assorbent</i><par n="abat/e__n"/></e>
@@ -29091,7 +29090,7 @@
     <e lm="interruzione"><i>interruzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="intersezione"><i>intersezion</i><par n="abbreviazion/e__n"/></e>
     <e lm="intervista"><i>intervist</i><par n="cas/a__n"/></e>
-    <e lm="intestatario"><i>intestatari</i><par n="abbagli/o__n"/></e>
+    <e lm="intestatario"><i>intestatari</i><par n="segretari/o__n"/></e>
     <e lm="intestino"><i>intestin</i><par n="abbain/o__n"/></e>
     <e lm="intimidazione"><i>intimidazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="intossicazione"><i>intossicazion</i><par n="abbreviazion/e__n"/></e>
@@ -29819,6 +29818,7 @@
     <e lm="panorama"><i>panoram</i><par n="autom/a__n"/></e>
     <e lm="pantalone"><i>pantalon</i><par n="abat/e__n"/></e>
     <e lm="papa"><i>pap</i><par n="autom/a__n"/></e>
+    <e lm="Papa"><i>Pap</i><par n="autom/a__n"/></e>
     <e lm="pappagallo"><i>pappagall</i><par n="abbain/o__n"/></e>
     <e lm="pappagallino"><i>pappagallin</i><par n="bambin/o__n"/></e>
     <e lm="cagnolino"><i>cagnolin</i><par n="bambin/o__n"/></e>
@@ -37257,7 +37257,7 @@
     <e lm="demanio"><i>demani</i><par n="abbagli/o__n"/></e>
     <e lm="dentiera"><i>dentier</i><par n="cas/a__n"/></e>
     <e lm="depenalizzazione"><i>depenalizzazion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="depositario"><i>depositari</i><par n="abbagli/o__n"/></e>
+    <e lm="depositario"><i>depositari</i><par n="segretari/o__n"/></e>
     <e lm="deroga"><i>derog</i><par n="cas/a__n"/></e>
     <e lm="detrazione"><i>detrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="dibattuto"><i>dibattut</i><par n="abbain/o__n"/></e>
@@ -37291,7 +37291,7 @@
     <e lm="euro"><i>eur</i><par n="abbain/o__n"/></e>
     <e lm="fatica"><i>fatic</i><par n="cas/a__n"/></e>
     <e lm="ferita"><i>ferit</i><par n="cas/a__n"/></e>
-    <e lm="feudatario"><i>feudatari</i><par n="abbagli/o__n"/></e>
+    <e lm="feudatario"><i>feudatari</i><par n="segretari/o__n"/></e>
     <e lm="fideiussione"><i>fideiussion</i><par n="abbreviazion/e__n"/></e>
     <e lm="fiduciario"><i>fiduciari</i><par n="segretari/o__n"/></e>
     <e lm="fiera"><i>fier</i><par n="cas/a__n"/></e>
@@ -42948,7 +42948,7 @@
     <e lm="launedda"><i>launedd</i><par n="cas/a__n"/></e>
     <e lm="lira"><i>lir</i><par n="cas/a__n"/></e>
     <e lm="locandina"><i>locandin</i><par n="cas/a__n"/></e>
-    <e lm="locatario"><i>locatari</i><par n="abbagli/o__n"/></e>
+    <e lm="locatario"><i>locatari</i><par n="segretari/o__n"/></e>
     <e lm="luce"><i>luc</i><par n="abat/e__n"/></e>
     <e lm="magna"><i>magn</i><par n="cas/a__n"/></e>
     <e lm="maneggio"><i>maneggi</i><par n="abbagli/o__n"/></e>
@@ -42967,8 +42967,6 @@
     <e lm="origine"><i>origin</i><par n="abat/e__n"/></e>
     <e lm="paese"><i>paes</i><par n="abat/e__n"/></e>
     <e lm="paia"><i>pai</i><par n="autom/a__n"/></e>
-    <e lm="papa"><i>pap</i><par n="cas/a__n"/></e>
-    <e lm="Papa"><i>Pap</i><par n="cas/a__n"/></e>
     <e lm="parlata"><i>parlat</i><par n="cas/a__n"/></e>
     <e lm="parola"><i>parol</i><par n="autom/a__n"/></e>
     <e lm="patriarca"><i>patriarc</i><par n="cas/a__n"/></e>
