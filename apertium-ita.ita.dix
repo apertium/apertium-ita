@@ -43171,6 +43171,566 @@
     <e lm="Bari"><i>Bari</i><par n="Afghanistan__np"/></e>
     <e lm="Cagliari"><i>Cagliari</i><par n="Afghanistan__np"/></e>
 
+    <e lm="Arbus"><i>Arbus</i><par n="USA__np"/></e>
+    <e lm="Barumini"><i>Barumini</i><par n="USA__np"/></e>
+    <e lm="Collinas"><i>Collinas</i><par n="Maldive__np"/></e>
+    <e lm="Furtei"><i>Furtei</i><par n="USA__np"/></e>
+    <e lm="Genuri"><i>Genuri</i><par n="USA__np"/></e>
+    <e lm="Gesturi"><i>Gesturi</i><par n="USA__np"/></e>
+    <e lm="Gonnosfanadiga"><i>Gonnosfanadiga</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Gonnosfanadiga (sardu)"><p><l>Gonnos<b/>Fanàdiga</l><r>Gonnosfanadiga</r></p><par n="Europa__np" /></e>
+    <e lm="Guspini"><i>Guspini</i><par n="USA__np"/></e>
+    <e lm="Las Plassas"><i>Las<b/>Plassas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Las Plassas (sardu)"><p><l>Is<b/>Pratzas</l><r>Las<b/>Plassas</r></p><par n="Maldive__np" /></e>
+    <e lm="Lunamatrona"><i>Lunamatrona</i><par n="Europa__np"/></e>
+    <e lm="Pabillonis"><i>Pabillonis</i><par n="USA__np"/></e>
+    <e lm="Pauli Arbarei"><i>Pauli<b/>Arbarei</i><par n="USA__np"/></e>
+    <e lm="Samassi"><i>Samassi</i><par n="USA__np"/></e>
+    <e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Gavino Monreale (sardu)"><p><l>Santu<b/>'Ainju</l><r>San<b/>Gavino<b/>Monreale</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sanluri"><i>Sanluri</i><par n="USA__np"/></e>
+    <e lm="Sardara"><i>Sardara</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Sardara (sardu)"><p><l>Sàrdara</l><r>Sardara</r></p><par n="Europa__np" /></e>
+    <e lm="Segariu"><i>Segariu</i><par n="Afghanistan__np"/></e>
+    <e lm="Serramanna"><i>Serramanna</i><par n="Europa__np"/></e>
+    <e lm="Serrenti"><i>Serrenti</i><par n="USA__np"/></e>
+    <e lm="Setzu"><i>Setzu</i><par n="Afghanistan__np"/></e>
+    <e lm="Siddi"><i>Siddi</i><par n="USA__np"/></e>
+    <e lm="Tuili"><i>Tuili</i><par n="USA__np"/></e>
+    <e lm="Turri"><i>Turri</i><par n="USA__np"/></e>
+    <e lm="Ussaramanna"><i>Ussaramanna</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ussaramanna (sardu)"><p><l>Ùssara<b/>Manna</l><r>Ussaramanna</r></p><par n="Europa__np" /></e>
+    <e lm="Villacidro"><i>Villacidro</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villacidro (sardu)"><p><l>Biddexidru</l><r>Villacidro</r></p><par n="Europa__np" /></e>
+    <e lm="Villamar"><i>Villamar</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villamar (sardu)"><p><l>Bidda<b/>Mara</l><r>Villamar</r></p><par n="Europa__np" /></e>
+    <e lm="Villanovaforru"><i>Villanovaforru</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villanovaforru (sardu)"><p><l>Biddanoa<b/>Forru</l><r>Villanovaforru</r></p><par n="Europa__np" /></e>
+    <e lm="Villanovafranca"><i>Villanovafranca</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villanovafranca (sardu)"><p><l>Biddanoa<b/>Franca</l><r>Villanovafranca</r></p><par n="Europa__np" /></e>
+    <e lm="Aggius"><i>Aggius</i><par n="USA__np"/></e>
+    <e r="LR" lm="Aggius (sardu)"><p><l>Azos</l><r>Aggius</r></p><par n="USA__np" /></e>
+    <e lm="Aglientu"><i>Aglientu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Aglientu (corsu/català)"><p><l>Santu<b/>Franciscu<b/>d'Aglièntu</l><r>Aglientu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Alà dei Sardi"><i>Alà<b/>dei<b/>Sardi</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Alà dei Sardi (sardu)"><p><l>Alà</l><r>Alà<b/>dei<b/>Sardi</r></p><par n="Europa__np" /></e>
+    <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Arzachena (sardu)"><p><l>Altzaghena</l><r>Arzachena</r></p><par n="Europa__np" /></e>
+    <e lm="Badesi"><i>Badesi</i><par n="USA__np"/></e>
+    <e lm="Berchidda"><i>Berchidda</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Berchidda (sardu)"><p><l>Belchidda</l><r>Berchidda</r></p><par n="Europa__np" /></e>
+    <e lm="Bortigiadas"><i>Bortigiadas</i><par n="Maldive__np"/></e>
+    <e lm="Buddusò"><i>Buddusò</i><par n="Afghanistan__np"/></e>
+    <e lm="Budoni"><i>Budoni</i><par n="USA__np"/></e>
+    <e lm="Calangianus"><i>Calangianus</i><par n="USA__np"/></e>
+    <e r="LR" lm="Calangianus (sardu)"><p><l>Calanzanus</l><r>Calangianus</r></p><par n="USA__np" /></e>
+    <e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Golfo Aranci (sardu)"><p><l>Figari</l><r>Golfo<b/>Aranci</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Figari (corsu/català)"><p><l>Figari</l><r>Golfo<b/>Aranci</r></p><par n="Afghanistan__np" /></e>
+    <e lm="La Maddalena"><i>La<b/>Maddalena</i><par n="Europa__np"/></e>
+    <e r="LR" lm="La Maddalena (sardu)"><p><l>Sa<b/>Madalena</l><r>La<b/>Maddalena</r></p><par n="Europa__np" /></e>
+    <e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Loiri Porto San Paolo (sardu)"><p><l>Santu<b/>Paulu<b/>Loèri</l><r>Loiri<b/>Porto<b/>San<b/>Paolo</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Santu Paulu Loèri (corsu/català)"><p><l>Lòiri-Poltu</l><r>Loiri<b/>Porto<b/>San<b/>Paolo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Luogosanto"><i>Luogosanto</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Luogosanto (sardu)"><p><l>Logusantu</l><r>Luogosanto</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Logusantu (corsu/català)"><p><l>Locusantu</l><r>Luogosanto</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Luras"><i>Luras</i><par n="Maldive__np"/></e>
+    <e lm="Monti"><i>Monti</i><par n="USA__np"/></e>
+    <e lm="Olbia"><i>Olbia</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Olbia (sardu)"><p><l>Terranoa</l><r>Olbia</r></p><par n="Europa__np" /></e>
+    <e lm="Oschiri"><i>Oschiri</i><par n="USA__np"/></e>
+    <e lm="Padru"><i>Padru</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Padru (corsu/català)"><p><l>Patru</l><r>Padru</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Palau"><i>Palau</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Palau (corsu/català)"><p><l>Lu<b/>Palau</l><r>Palau</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sant'Antonio di Gallura"><i>Sant'Antonio<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sant'Antonio di Gallura (sardu)"><p><l>Santu<b/>Antoni'e<b/>Calanzanus</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Santu Antoni'e Calanzanus (corsu/català)"><p><l>Sant'Antoni</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Santa Teresa Gallura"><i>Santa<b/>Teresa<b/>Gallura</i><par n="Europa__np"/></e>
+    <e lm="San Teodoro"><i>San<b/>Teodoro</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Teodoro (sardu)"><p><l>Santu<b/>Deadoru</l><r>San<b/>Teodoro</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Santu Deadoru (corsu/català)"><p><l>Santu<b/>Tiadoru</l><r>San<b/>Teodoro</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Telti"><i>Telti</i><par n="USA__np"/></e>
+    <e r="LR" lm="Telti (sardu)"><p><l>Teltis</l><r>Telti</r></p><par n="USA__np" /></e>
+    <e lm="Tempio Pausania"><i>Tempio<b/>Pausania</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Tempio Pausania (sardu)"><p><l>Tèmpiu</l><r>Tempio<b/>Pausania</r></p><par n="Afghanistan__np" /></e>
+    <e r="LR" lm="Tèmpiu (corsu/català)"><p><l>Tèmpiu</l><r>Tempio<b/>Pausania</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Trinità d'Agultu e Vignola"><i>Trinità<b/>d'Agultu<b/>e<b/>Vignola</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Trinità d'Agultu e Vignola (sardu)"><p><l>Trinitai<b/>e<b/>Vignola<b/>Trinidade</l><r>Trinità<b/>d'Agultu<b/>e<b/>Vignola</r></p><par n="Europa__np" /></e>
+    <e lm="Abbasanta"><i>Abbasanta</i><par n="Europa__np"/></e>
+    <e lm="Aidomaggiore"><i>Aidomaggiore</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Aidomaggiore (sardu)"><p><l>Bidumajore</l><r>Aidomaggiore</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Abas"><i>Abas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Abas (sardu)"><p><l>Ales</l><r>Abas</r></p><par n="Maldive__np" /></e>
+    <e lm="Àllai"><i>Àllai</i><par n="USA__np"/></e>
+    <e lm="Arborea"><i>Arborea</i><par n="Europa__np"/></e>
+    <e lm="Ardauli"><i>Ardauli</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Ardauli (sardu)"><p><l>Ardaule</l><r>Ardauli</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Assolo"><i>Assolo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Assolo (sardu)"><p><l>Assou</l><r>Assolo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Asuni"><i>Asuni</i><par n="USA__np"/></e>
+    <e lm="Baradile"><i>Baradile</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Baradile (sardu)"><p><l>Baradili</l><r>Baradile</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Baratili San Pietro"><i>Baratili<b/>San<b/>Pietro</i><par n="USA__np"/></e>
+    <e lm="Baressa"><i>Baressa</i><par n="Europa__np"/></e>
+    <e lm="Bauladu"><i>Bauladu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Bauladu (sardu)"><p><l>Baulau</l><r>Bauladu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Bidonì"><i>Bidonì</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Bidonì (sardu)"><p><l>Biduniu</l><r>Bidonì</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Bonarcado"><i>Bonarcado</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Bonarcado (sardu)"><p><l>Bonàrcadu</l><r>Bonarcado</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Boroneddu"><i>Boroneddu</i><par n="Afghanistan__np"/></e>
+    <e lm="Bosa"><i>Bosa</i><par n="Europa__np"/></e>
+    <e lm="Busachi"><i>Busachi</i><par n="USA__np"/></e>
+    <e lm="Cabras"><i>Cabras</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Cabras (sardu)"><p><l>Crabas</l><r>Cabras</r></p><par n="Maldive__np" /></e>
+    <e lm="Cuglieri"><i>Cuglieri</i><par n="USA__np"/></e>
+    <e lm="Curcuris"><i>Curcuris</i><par n="USA__np"/></e>
+    <e r="LR" lm="Curcuris (sardu)"><p><l>Crucuris</l><r>Curcuris</r></p><par n="USA__np" /></e>
+    <e lm="Flùssio"><i>Flùssio</i><par n="Afghanistan__np"/></e>
+    <e lm="Fordongianus"><i>Fordongianus</i><par n="USA__np"/></e>
+    <e lm="Genoni"><i>Genoni</i><par n="Afghanistan__np"/></e>
+    <e lm="Ghilarza"><i>Ghilarza</i><par n="Europa__np"/></e>
+    <e lm="Gonnoscodina"><i>Gonnoscodina</i><par n="Europa__np"/></e>
+    <e lm="Gonnosnò"><i>Gonnosnò</i><par n="Afghanistan__np"/></e>
+    <e lm="Gonnostramatza"><i>Gonnostramatza</i><par n="Afghanistan__np"/></e>
+    <e lm="Laconi"><i>Laconi</i><par n="USA__np"/></e>
+    <e lm="Magomadas"><i>Magomadas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Magomadas (sardu)"><p><l>Magumadas</l><r>Magomadas</r></p><par n="Maldive__np" /></e>
+    <e lm="Marrùbiu"><i>Marrùbiu</i><par n="Afghanistan__np"/></e>
+    <e lm="Masullas"><i>Masullas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Masullas (sardu)"><p><l>Masuddas</l><r>Masullas</r></p><par n="Maldive__np" /></e>
+    <e lm="Milis"><i>Milis</i><par n="USA__np"/></e>
+    <e r="LR" lm="Milis (sardu)"><p><l>Miris</l><r>Milis</r></p><par n="USA__np" /></e>
+    <e lm="Mòdolo"><i>Mòdolo</i><par n="Afghanistan__np"/></e>
+    <e lm="Mogoredda"><i>Mogoredda</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Mogoredda (sardu)"><p><l>Mogorella</l><r>Mogoredda</r></p><par n="Europa__np" /></e>
+    <e lm="Mogoro"><i>Mogoro</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Mogoro (sardu)"><p><l>Mòguru</l><r>Mogoro</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Montresta"><i>Montresta</i><par n="Europa__np"/></e>
+    <e lm="Morgongiori"><i>Morgongiori</i><par n="USA__np"/></e>
+    <e lm="Narbolia"><i>Narbolia</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Narbolia (sardu)"><p><l>Narabuia</l><r>Narbolia</r></p><par n="Europa__np" /></e>
+    <e lm="Neoneli"><i>Neoneli</i><par n="USA__np"/></e>
+    <e lm="Norbello"><i>Norbello</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Norbello (sardu)"><p><l>Norghiddu</l><r>Norbello</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Nughedu Santa Vittoria"><i>Nughedu<b/>Santa<b/>Vittoria</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Nughedu Santa Vittoria (sardu)"><p><l>Nughedu</l><r>Nughedu<b/>Santa<b/>Vittoria</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Nurachi"><i>Nurachi</i><par n="USA__np"/></e>
+    <e lm="Nureci"><i>Nureci</i><par n="USA__np"/></e>
+    <e lm="Ollastra"><i>Ollastra</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ollastra (sardu)"><p><l>Ollasta</l><r>Ollastra</r></p><par n="Europa__np" /></e>
+    <e lm="Oristano"><i>Oristano</i><par n="Afghanistan__np"/></e>
+    <e lm="Palmas Arborea"><i>Palmas<b/>Arborea</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Palmas Arborea (sardu)"><p><l>Pramas</l><r>Palmas<b/>Arborea</r></p><par n="Maldive__np" /></e>
+    <e lm="Pau"><i>Pau</i><par n="Afghanistan__np"/></e>
+    <e lm="Paulilatino"><i>Paulilatino</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Paulilatino (sardu)"><p><l>Paule</l><r>Paulilatino</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Pompu"><i>Pompu</i><par n="Afghanistan__np"/></e>
+    <e lm="Riola Sardo"><i>Riola<b/>Sardo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Riola Sardo (sardu)"><p><l>Arriora</l><r>Riola<b/>Sardo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Ruinas"><i>Ruinas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Ruinas (sardu)"><p><l>Arruinas</l><r>Ruinas</r></p><par n="Maldive__np" /></e>
+    <e lm="Sàgama"><i>Sàgama</i><par n="Europa__np"/></e>
+    <e lm="Samugheo"><i>Samugheo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Samugheo (sardu)"><p><l>Samugheu</l><r>Samugheo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Nicolò d'Arcidano"><i>San<b/>Nicolò<b/>d'Arcidano</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Nicolò d'Arcidano (sardu)"><p><l>Arcidanu</l><r>San<b/>Nicolò<b/>d'Arcidano</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Santa Giusta"><i>Santa<b/>Giusta</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Santa Giusta (sardu)"><p><l>Santa<b/>Justa</l><r>Santa<b/>Giusta</r></p><par n="Europa__np" /></e>
+    <e lm="Santu Lussurgiu"><i>Santu<b/>Lussurgiu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Santu Lussurgiu (sardu)"><p><l>Santu<b/>Lussurzu</l><r>Santu<b/>Lussurgiu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Vero Milis"><i>San<b/>Vero<b/>Milis</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Vero Milis (sardu)"><p><l>Sant'Eru</l><r>San<b/>Vero<b/>Milis</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Scano di Montiferro"><i>Scano<b/>di<b/>Montiferro</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Scano di Montiferro (sardu)"><p><l>Iscanu</l><r>Scano<b/>di<b/>Montiferro</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sèdilo"><i>Sèdilo</i><par n="Afghanistan__np"/></e>
+    <e lm="Sèneghe"><i>Sèneghe</i><par n="Afghanistan__np"/></e>
+    <e lm="Senis"><i>Senis</i><par n="USA__np"/></e>
+    <e lm="Sennariolo"><i>Sennariolo</i><par n="Afghanistan__np"/></e>
+    <e lm="Siamaggiore"><i>Siamaggiore</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Siamaggiore (sardu)"><p><l>Siimajori</l><r>Siamaggiore</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Siamanna"><i>Siamanna</i><par n="Europa__np"/></e>
+    <e lm="Siapiccia"><i>Siapiccia</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Siapiccia (sardu)"><p><l>Siipicia</l><r>Siapiccia</r></p><par n="Europa__np" /></e>
+    <e lm="Sìmala"><i>Sìmala</i><par n="Europa__np"/></e>
+    <e lm="Simaxis"><i>Simaxis</i><par n="USA__np"/></e>
+    <e lm="Sini"><i>Sini</i><par n="USA__np"/></e>
+    <e lm="Siris"><i>Siris</i><par n="USA__np"/></e>
+    <e lm="Soddì"><i>Soddì</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Soddì (sardu)"><p><l>Soddie</l><r>Soddì</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Solarussa"><i>Solarussa</i><par n="Europa__np"/></e>
+    <e lm="Sorradile"><i>Sorradile</i><par n="Afghanistan__np"/></e>
+    <e lm="Suni"><i>Suni</i><par n="USA__np"/></e>
+    <e lm="Tadasuni"><i>Tadasuni</i><par n="USA__np"/></e>
+    <e lm="Terralba"><i>Terralba</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Terralba (sardu)"><p><l>Terrarba</l><r>Terralba</r></p><par n="Europa__np" /></e>
+    <e lm="Tinnura"><i>Tinnura</i><par n="Europa__np"/></e>
+    <e lm="Tramatza"><i>Tramatza</i><par n="Europa__np"/></e>
+    <e lm="Tresnuraghes"><i>Tresnuraghes</i><par n="USA__np"/></e>
+    <e lm="Ulà Tirso"><i>Ulà<b/>Tirso</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ulà Tirso (sardu)"><p><l>Ula</l><r>Ulà<b/>Tirso</r></p><par n="Europa__np" /></e>
+    <e lm="Uras"><i>Uras</i><par n="Maldive__np"/></e>
+    <e lm="Usellus"><i>Usellus</i><par n="USA__np"/></e>
+    <e r="LR" lm="Usellus (sardu)"><p><l>Useddus</l><r>Usellus</r></p><par n="USA__np" /></e>
+    <e lm="Villanova Truschedu"><i>Villanova<b/>Truschedu</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villanova Truschedu (sardu)"><p><l>Biddanoa<b/>Truschedu</l><r>Villanova<b/>Truschedu</r></p><par n="Europa__np" /></e>
+    <e lm="Villa Sant'Antonio"><i>Villa<b/>Sant'Antonio</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Villa Sant'Antonio (sardu)"><p><l>Santu<b/>Antoni<b/>Arruinas</l><r>Villa<b/>Sant'Antonio</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Villaurbana"><i>Villaurbana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villaurbana (sardu)"><p><l>Biddaubrana</l><r>Villaurbana</r></p><par n="Europa__np" /></e>
+    <e lm="Villa Verde"><i>Villa<b/>Verde</i><par n="Europa__np"/></e>
+    <e lm="Zeddiani"><i>Zeddiani</i><par n="USA__np"/></e>
+    <e lm="Zerfaliu"><i>Zerfaliu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Zerfaliu (sardu)"><p><l>Tzorfuliu</l><r>Zerfaliu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Aritzo"><i>Aritzo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Aritzo (sardu)"><p><l>Aritzu</l><r>Aritzo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Atzara"><i>Atzara</i><par n="Europa__np"/></e>
+    <e lm="Austis"><i>Austis</i><par n="USA__np"/></e>
+    <e lm="Belvì"><i>Belvì</i><par n="USA__np"/></e>
+    <e lm="Birori"><i>Birori</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Birori (sardu)"><p><l>Bìroro</l><r>Birori</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Bitti"><i>Bitti</i><par n="USA__np"/></e>
+    <e lm="Bolotana"><i>Bolotana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Bolotana (sardu)"><p><l>Bolòtana</l><r>Bolotana</r></p><par n="Europa__np" /></e>
+    <e lm="Bòrore"><i>Bòrore</i><par n="Afghanistan__np"/></e>
+    <e lm="Bortigali"><i>Bortigali</i><par n="USA__np"/></e>
+    <e lm="Desulo"><i>Desulo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Desulo (sardu)"><p><l>Dèsulu</l><r>Desulo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Dorgali"><i>Dorgali</i><par n="USA__np"/></e>
+    <e lm="Dualchì"><i>Dualchì</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Dualchì (sardu)"><p><l>Duarche</l><r>Dualchì</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Fonni"><i>Fonni</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Fonni (sardu)"><p><l>Fonne</l><r>Fonni</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Gadoni"><i>Gadoni</i><par n="USA__np"/></e>
+    <e lm="Garteddì"><i>Garteddì</i><par n="USA__np"/></e>
+    <e r="LR" lm="Garteddì (sardu)"><p><l>Galtellì</l><r>Garteddì</r></p><par n="USA__np" /></e>
+    <e lm="Gavoi"><i>Gavoi</i><par n="USA__np"/></e>
+    <e lm="Irgoli"><i>Irgoli</i><par n="USA__np"/></e>
+    <e lm="Lei"><i>Lei</i><par n="USA__np"/></e>
+    <e lm="Lòcula"><i>Lòcula</i><par n="Europa__np"/></e>
+    <e lm="Lodè"><i>Lodè</i><par n="Afghanistan__np"/></e>
+    <e lm="Lodine"><i>Lodine</i><par n="Afghanistan__np"/></e>
+    <e lm="Lula"><i>Lula</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Lula (sardu)"><p><l>Lùvula</l><r>Lula</r></p><par n="Europa__np" /></e>
+    <e lm="Macomer"><i>Macomer</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Macomer (sardu)"><p><l>Macumere</l><r>Macomer</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Mamoiada"><i>Mamoiada</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Mamoiada (sardu)"><p><l>Mamujada</l><r>Mamoiada</r></p><par n="Europa__np" /></e>
+    <e lm="Meana Sardo"><i>Meana<b/>Sardo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Meana Sardo (sardu)"><p><l>Meana</l><r>Meana<b/>Sardo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Noragugume"><i>Noragugume</i><par n="Afghanistan__np"/></e>
+    <e lm="Nuoro"><i>Nuoro</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Nuoro (sardu)"><p><l>Nùgoro</l><r>Nuoro</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Oliena"><i>Oliena</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Oliena (sardu)"><p><l>Ulìana</l><r>Oliena</r></p><par n="Europa__np" /></e>
+    <e lm="Ollolai"><i>Ollolai</i><par n="USA__np"/></e>
+    <e lm="Olzai"><i>Olzai</i><par n="USA__np"/></e>
+    <e lm="Onanì"><i>Onanì</i><par n="USA__np"/></e>
+    <e lm="Onifai"><i>Onifai</i><par n="USA__np"/></e>
+    <e lm="Oniferi"><i>Oniferi</i><par n="USA__np"/></e>
+    <e lm="Orani"><i>Orani</i><par n="USA__np"/></e>
+    <e lm="Orgòsolo"><i>Orgòsolo</i><par n="Afghanistan__np"/></e>
+    <e lm="Orosei"><i>Orosei</i><par n="USA__np"/></e>
+    <e lm="Orotelli"><i>Orotelli</i><par n="USA__np"/></e>
+    <e lm="Ortueri"><i>Ortueri</i><par n="USA__np"/></e>
+    <e lm="Orune"><i>Orune</i><par n="Afghanistan__np"/></e>
+    <e lm="Osidda"><i>Osidda</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Osidda (sardu)"><p><l>Osidde</l><r>Osidda</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Ottana"><i>Ottana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ottana (sardu)"><p><l>Otzana</l><r>Ottana</r></p><par n="Europa__np" /></e>
+    <e lm="Ovodda"><i>Ovodda</i><par n="Europa__np"/></e>
+    <e lm="Posada"><i>Posada</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Posada (sardu)"><p><l>Pasada</l><r>Posada</r></p><par n="Europa__np" /></e>
+    <e lm="Sarule"><i>Sarule</i><par n="Afghanistan__np"/></e>
+    <e lm="Silanus"><i>Silanus</i><par n="USA__np"/></e>
+    <e r="LR" lm="Silanus (sardu)"><p><l>Silanos</l><r>Silanus</r></p><par n="USA__np" /></e>
+    <e lm="Sindia"><i>Sindia</i><par n="Europa__np"/></e>
+    <e lm="Siniscola"><i>Siniscola</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Siniscola (sardu)"><p><l>Thiniscole</l><r>Siniscola</r></p><par n="Europa__np" /></e>
+    <e lm="Sorgono"><i>Sorgono</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sorgono (sardu)"><p><l>Sòrgunu</l><r>Sorgono</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Teti"><i>Teti</i><par n="USA__np"/></e>
+    <e lm="Tìana"><i>Tìana</i><par n="Europa__np"/></e>
+    <e lm="Tonara"><i>Tonara</i><par n="Europa__np"/></e>
+    <e lm="Torpè"><i>Torpè</i><par n="Afghanistan__np"/></e>
+    <e lm="Alghero"><i>Alghero</i><par n="Afghanistan__np"/></e>
+    <e lm="Anela"><i>Anela</i><par n="Europa__np"/></e>
+    <e lm="Ardara"><i>Ardara</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ardara (sardu)"><p><l>Àldara</l><r>Ardara</r></p><par n="Europa__np" /></e>
+    <e lm="Banari"><i>Banari</i><par n="USA__np"/></e>
+    <e lm="Benetutti"><i>Benetutti</i><par n="USA__np"/></e>
+    <e lm="Bessude"><i>Bessude</i><par n="Afghanistan__np"/></e>
+    <e lm="Bonnanaro"><i>Bonnanaro</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Bonnanaro (sardu)"><p><l>Bunnànnaru</l><r>Bonnanaro</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Bono"><i>Bono</i><par n="Afghanistan__np"/></e>
+    <e lm="Bonorva"><i>Bonorva</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Bonorva (sardu)"><p><l>Bonolva</l><r>Bonorva</r></p><par n="Europa__np" /></e>
+    <e lm="Borutta"><i>Borutta</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Borutta (sardu)"><p><l>Boruta</l><r>Borutta</r></p><par n="Europa__np" /></e>
+    <e lm="Bottidda"><i>Bottidda</i><par n="Europa__np"/></e>
+    <e lm="Bultei"><i>Bultei</i><par n="USA__np"/></e>
+    <e lm="Bulzi"><i>Bulzi</i><par n="USA__np"/></e>
+    <e lm="Burgos"><i>Burgos</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Burgos (sardu)"><p><l>Su<b/>Burgu</l><r>Burgos</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Cargeghe"><i>Cargeghe</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Cargeghe (sardu)"><p><l>Carzeghe</l><r>Cargeghe</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Castelsardo"><i>Castelsardo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Castelsardo (sardu)"><p><l>Casteddu<b/>Sardu</l><r>Castelsardo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Cheremule"><i>Cheremule</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Cheremule (sardu)"><p><l>Cherèmule</l><r>Cheremule</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Chiaramonti"><i>Chiaramonti</i><par n="USA__np"/></e>
+    <e lm="Codrongianos"><i>Codrongianos</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Codrongianos (sardu)"><p><l>Codronzanu</l><r>Codrongianos</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Cossoine"><i>Cossoine</i><par n="Afghanistan__np"/></e>
+    <e lm="Erula"><i>Erula</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Erula (sardu)"><p><l>Èrula</l><r>Erula</r></p><par n="Europa__np" /></e>
+    <e lm="Esporlatu"><i>Esporlatu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Esporlatu (sardu)"><p><l>Isporalatu</l><r>Esporlatu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Florinas"><i>Florinas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Florinas (sardu)"><p><l>Fiolinas</l><r>Florinas</r></p><par n="Maldive__np" /></e>
+    <e lm="Giave"><i>Giave</i><par n="Afghanistan__np"/></e>
+    <e lm="Illorai"><i>Illorai</i><par n="USA__np"/></e>
+    <e lm="Ittireddu"><i>Ittireddu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Ittireddu (sardu)"><p><l>Itireddu</l><r>Ittireddu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Ittiri"><i>Ittiri</i><par n="USA__np"/></e>
+    <e lm="Laerru"><i>Laerru</i><par n="Afghanistan__np"/></e>
+    <e lm="Mara"><i>Mara</i><par n="Europa__np"/></e>
+    <e lm="Martis"><i>Martis</i><par n="USA__np"/></e>
+    <e r="LR" lm="Martis (sardu)"><p><l>Maltis</l><r>Martis</r></p><par n="USA__np" /></e>
+    <e lm="Monteleone Rocca Doria"><i>Monteleone<b/>Rocca<b/>Doria</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Monteleone Rocca Doria (sardu)"><p><l>Monteleone</l><r>Monteleone<b/>Rocca<b/>Doria</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Mores"><i>Mores</i><par n="USA__np"/></e>
+    <e lm="Muros"><i>Muros</i><par n="USA__np"/></e>
+    <e lm="Nughedu San Nicolò"><i>Nughedu<b/>San<b/>Nicolò</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Nughedu San Nicolò (sardu)"><p><l>Nughedu<b/>Santu<b/>Nigola</l><r>Nughedu<b/>San<b/>Nicolò</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Nule"><i>Nule</i><par n="Afghanistan__np"/></e>
+    <e lm="Nulvi"><i>Nulvi</i><par n="USA__np"/></e>
+    <e lm="Olmedo"><i>Olmedo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Olmedo (sardu)"><p><l>S'Ulumedu</l><r>Olmedo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Osilo"><i>Osilo</i><par n="Afghanistan__np"/></e>
+    <e lm="Ossi"><i>Ossi</i><par n="USA__np"/></e>
+    <e lm="Ozieri"><i>Ozieri</i><par n="USA__np"/></e>
+    <e lm="Padria"><i>Padria</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Padria (sardu)"><p><l>Pàdria</l><r>Padria</r></p><par n="Europa__np" /></e>
+    <e lm="Pattada"><i>Pattada</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Pattada (sardu)"><p><l>Patada</l><r>Pattada</r></p><par n="Europa__np" /></e>
+    <e lm="Perfugas"><i>Perfugas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Perfugas (sardu)"><p><l>Pèifugas</l><r>Perfugas</r></p><par n="Maldive__np" /></e>
+    <e lm="Ploaghe"><i>Ploaghe</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Ploaghe (sardu)"><p><l>Piaghe</l><r>Ploaghe</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Porto Torres"><i>Porto<b/>Torres</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Porto Torres (sardu)"><p><l>Portu<b/>Turre</l><r>Porto<b/>Torres</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Pozzomaggiore"><i>Pozzomaggiore</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Pozzomaggiore (sardu)"><p><l>Putumajore</l><r>Pozzomaggiore</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Putifigari"><i>Putifigari</i><par n="USA__np"/></e>
+    <e lm="Romana"><i>Romana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Romana (sardu)"><p><l>Rumana</l><r>Romana</r></p><par n="Europa__np" /></e>
+    <e lm="Santa Maria Coghinas"><i>Santa<b/>Maria<b/>Coghinas</i><par n="Europa__np"/></e>
+    <e lm="Sassari"><i>Sassari</i><par n="USA__np"/></e>
+    <e lm="Sedini"><i>Sedini</i><par n="USA__np"/></e>
+    <e lm="Semestene"><i>Semestene</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Semestene (sardu)"><p><l>Semèstene</l><r>Semestene</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sennori"><i>Sennori</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sennori (sardu)"><p><l>Sènnaru</l><r>Sennori</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Siligo"><i>Siligo</i><par n="Afghanistan__np"/></e>
+    <e lm="Sorso"><i>Sorso</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sorso (sardu)"><p><l>Sòssu</l><r>Sorso</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Stintino"><i>Stintino</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Stintino (sardu)"><p><l>Istintinu</l><r>Stintino</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Tergu"><i>Tergu</i><par n="Afghanistan__np"/></e>
+    <e lm="Thiesi"><i>Thiesi</i><par n="USA__np"/></e>
+    <e lm="Tissi"><i>Tissi</i><par n="USA__np"/></e>
+    <e lm="Torralba"><i>Torralba</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Torralba (sardu)"><p><l>Turalva</l><r>Torralba</r></p><par n="Europa__np" /></e>
+    <e lm="Tula"><i>Tula</i><par n="Europa__np"/></e>
+    <e lm="Uri"><i>Uri</i><par n="USA__np"/></e>
+    <e lm="Usini"><i>Usini</i><par n="USA__np"/></e>
+    <e lm="Valledoria"><i>Valledoria</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Valledoria (sardu)"><p><l>Codaruina</l><r>Valledoria</r></p><par n="Europa__np" /></e>
+    <e lm="Viddalba"><i>Viddalba</i><par n="Europa__np"/></e>
+    <e lm="Villanova Monteleone"><i>Villanova<b/>Monteleone</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villanova Monteleone (sardu)"><p><l>Biddanoa<b/>Monteleone</l><r>Villanova<b/>Monteleone</r></p><par n="Europa__np" /></e>
+    <e lm="Arzana"><i>Arzana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Arzana (sardu)"><p><l>Àrthana</l><r>Arzana</r></p><par n="Europa__np" /></e>
+    <e lm="Bari Sardo"><i>Bari<b/>Sardo</i><par n="USA__np"/></e>
+    <e lm="Baunei"><i>Baunei</i><par n="USA__np"/></e>
+    <e lm="Cardedu"><i>Cardedu</i><par n="Afghanistan__np"/></e>
+    <e lm="Elini"><i>Elini</i><par n="USA__np"/></e>
+    <e lm="Gairo"><i>Gairo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Gairo (sardu)"><p><l>Gàiru</l><r>Gairo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Girasole"><i>Girasole</i><par n="USA__np"/></e>
+    <e lm="Ilbono"><i>Ilbono</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Ilbono (sardu)"><p><l>Irbonu</l><r>Ilbono</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Jerzu"><i>Jerzu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Jerzu (sardu)"><p><l>Iersu</l><r>Jerzu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Lanusei"><i>Lanusei</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Lanusei (sardu)"><p><l>Lanusèi</l><r>Lanusei</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Loceri"><i>Loceri</i><par n="USA__np"/></e>
+    <e lm="Lotzorai"><i>Lotzorai</i><par n="USA__np"/></e>
+    <e lm="Osini"><i>Osini</i><par n="USA__np"/></e>
+    <e lm="Perdasdefogu"><i>Perdasdefogu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Perdasdefogu (sardu)"><p><l>Foghesu</l><r>Perdasdefogu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Seui"><i>Seui</i><par n="USA__np"/></e>
+    <e lm="Talana"><i>Talana</i><par n="Europa__np"/></e>
+    <e lm="Tertenia"><i>Tertenia</i><par n="Europa__np"/></e>
+    <e lm="Tortolì"><i>Tortolì</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Tortolì (sardu)"><p><l>Tortuelie</l><r>Tortolì</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Triei"><i>Triei</i><par n="USA__np"/></e>
+    <e lm="Ulassai"><i>Ulassai</i><par n="USA__np"/></e>
+    <e lm="Urzulei"><i>Urzulei</i><par n="USA__np"/></e>
+    <e lm="Ussassai"><i>Ussassai</i><par n="USA__np"/></e>
+    <e lm="Villagrande Strisaili"><i>Villagrande<b/>Strisaili</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villagrande Strisaili (sardu)"><p><l>Bidda<b/>Manna<b/>Istrisàili</l><r>Villagrande<b/>Strisaili</r></p><par n="Europa__np" /></e>
+    <e lm="Buggerru"><i>Buggerru</i><par n="Afghanistan__np"/></e>
+    <e lm="Calasetta"><i>Calasetta</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Calasetta (sardu)"><p><l>Cala<b/>Seda</l><r>Calasetta</r></p><par n="Europa__np" /></e>
+    <e lm="Carbònia"><i>Carbònia</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Carbònia (sardu)"><p><l>Crabònia</l><r>Carbònia</r></p><par n="Europa__np" /></e>
+    <e lm="Carloforte"><i>Carloforte</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Carloforte (sardu)"><p><l>Carluforti</l><r>Carloforte</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Domusnovas"><i>Domusnovas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Domusnovas (sardu)"><p><l>Domunoas</l><r>Domusnovas</r></p><par n="Maldive__np" /></e>
+    <e lm="Fluminimaggiore"><i>Fluminimaggiore</i><par n="USA__np"/></e>
+    <e lm="Giba"><i>Giba</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Giba (sardu)"><p><l>Gibba</l><r>Giba</r></p><par n="Europa__np" /></e>
+    <e lm="Gonnesa"><i>Gonnesa</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Gonnesa (sardu)"><p><l>Conesa</l><r>Gonnesa</r></p><par n="Europa__np" /></e>
+    <e lm="Iglesias"><i>Iglesias</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Iglesias (sardu)"><p><l>Igrèsias</l><r>Iglesias</r></p><par n="Maldive__np" /></e>
+    <e lm="Masainas"><i>Masainas</i><par n="Maldive__np"/></e>
+    <e lm="Musei"><i>Musei</i><par n="USA__np"/></e>
+    <e lm="Narcao"><i>Narcao</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Narcao (sardu)"><p><l>Narcau</l><r>Narcao</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Nuxis"><i>Nuxis</i><par n="USA__np"/></e>
+    <e lm="Perdaxius"><i>Perdaxius</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Perdaxius (sardu)"><p><l>Perdaxus</l><r>Perdaxius</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Piscinas"><i>Piscinas</i><par n="Maldive__np"/></e>
+    <e lm="Portoscuso"><i>Portoscuso</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Portoscuso (sardu)"><p><l>Portescusi</l><r>Portoscuso</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Portoscuso"><i>Portoscuso</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Portoscuso (sardu)"><p><l>Portuscusi</l><r>Portoscuso</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Giovanni Suergiu"><i>San<b/>Giovanni<b/>Suergiu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Giovanni Suergiu (sardu)"><p><l>Santu<b/>'Uanni<b/>Sruexu</l><r>San<b/>Giovanni<b/>Suergiu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Santadi"><i>Santadi</i><par n="USA__np"/></e>
+    <e lm="Sant'Anna Arresi"><i>Sant'Anna<b/>Arresi</i><par n="Europa__np"/></e>
+    <e lm="Sant'Antioco"><i>Sant'Antioco</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sant'Antioco (sardu)"><p><l>Santu<b/>Antiogu</l><r>Sant'Antioco</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Tratalias"><i>Tratalias</i><par n="Maldive__np"/></e>
+    <e lm="Villamassargia"><i>Villamassargia</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villamassargia (sardu)"><p><l>Biddamatraxa</l><r>Villamassargia</r></p><par n="Europa__np" /></e>
+    <e lm="Villaperuccio"><i>Villaperuccio</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villaperuccio (sardu)"><p><l>Sa<b/>Baronia</l><r>Villaperuccio</r></p><par n="Europa__np" /></e>
+    <e lm="Armungia"><i>Armungia</i><par n="Europa__np"/></e>
+    <e lm="Assemini"><i>Assemini</i><par n="USA__np"/></e>
+    <e lm="Ballao"><i>Ballao</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Ballao (sardu)"><p><l>Ballau</l><r>Ballao</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Barrali"><i>Barrali</i><par n="USA__np"/></e>
+    <e lm="Burcei"><i>Burcei</i><par n="USA__np"/></e>
+    <e lm="Cagliari"><i>Cagliari</i><par n="USA__np"/></e>
+    <e lm="Capoterra"><i>Capoterra</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Capoterra (sardu)"><p><l>Cabuderra</l><r>Capoterra</r></p><par n="Europa__np" /></e>
+    <e lm="Castiadas"><i>Castiadas</i><par n="Maldive__np"/></e>
+    <e lm="Decimomannu"><i>Decimomannu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Decimomannu (sardu)"><p><l>Dèximu<b/>Mannu</l><r>Decimomannu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Decimoputzu"><i>Decimoputzu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Decimoputzu (sardu)"><p><l>Dèximu<b/>Putzu</l><r>Decimoputzu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Dolianova"><i>Dolianova</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Dolianova (sardu)"><p><l>Partiolla</l><r>Dolianova</r></p><par n="Europa__np" /></e>
+    <e lm="Domus de Maria"><i>Domus<b/>de<b/>Maria</i><par n="Maldive__np"/></e>
+    <e lm="Donòri"><i>Donòri</i><par n="USA__np"/></e>
+    <e lm="Elmas"><i>Elmas</i><par n="Maldive__np"/></e>
+    <e lm="Escalaplano"><i>Escalaplano</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Escalaplano (sardu)"><p><l>Scalepranu</l><r>Escalaplano</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Escolca"><i>Escolca</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Escolca (sardu)"><p><l>Scroca</l><r>Escolca</r></p><par n="Europa__np" /></e>
+    <e lm="Esterzili"><i>Esterzili</i><par n="USA__np"/></e>
+    <e lm="Gergei"><i>Gergei</i><par n="USA__np"/></e>
+    <e lm="Gesico"><i>Gesico</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Gesico (sardu)"><p><l>Gèsigu</l><r>Gesico</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Goni"><i>Goni</i><par n="USA__np"/></e>
+    <e lm="Guamaggiore"><i>Guamaggiore</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Guamaggiore (sardu)"><p><l>Guamajori</l><r>Guamaggiore</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Guasila"><i>Guasila</i><par n="Europa__np"/></e>
+    <e lm="Isili"><i>Isili</i><par n="USA__np"/></e>
+    <e lm="Mandas"><i>Mandas</i><par n="Maldive__np"/></e>
+    <e lm="Maracalagonis"><i>Maracalagonis</i><par n="USA__np"/></e>
+    <e lm="Monastir"><i>Monastir</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Monastir (sardu)"><p><l>Muristeni</l><r>Monastir</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Monserrato"><i>Monserrato</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Monserrato (sardu)"><p><l>Pauli</l><r>Monserrato</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Muravera"><i>Muravera</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Muravera (sardu)"><p><l>Murera</l><r>Muravera</r></p><par n="Europa__np" /></e>
+    <e lm="Nuragus"><i>Nuragus</i><par n="USA__np"/></e>
+    <e lm="Nurallao"><i>Nurallao</i><par n="Afghanistan__np"/></e>
+    <e lm="Nuraminis"><i>Nuraminis</i><par n="USA__np"/></e>
+    <e r="LR" lm="Nuraminis (sardu)"><p><l>Nuràminis</l><r>Nuraminis</r></p><par n="USA__np" /></e>
+    <e lm="Nurri"><i>Nurri</i><par n="USA__np"/></e>
+    <e lm="Orroli"><i>Orroli</i><par n="USA__np"/></e>
+    <e lm="Ortacesus"><i>Ortacesus</i><par n="USA__np"/></e>
+    <e lm="Pimentel"><i>Pimentel</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Pimentel (sardu)"><p><l>Pramentelu</l><r>Pimentel</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Pula"><i>Pula</i><par n="Europa__np"/></e>
+    <e lm="Quartucciu"><i>Quartucciu</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Quartucciu (sardu)"><p><l>Cuartuciu</l><r>Quartucciu</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Quartu Sant'Elena"><i>Quartu<b/>Sant'Elena</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Quartu Sant'Elena (sardu)"><p><l>Cuartu<b/>Sant'Aleni</l><r>Quartu<b/>Sant'Elena</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sadali"><i>Sadali</i><par n="USA__np"/></e>
+    <e lm="Samatzai"><i>Samatzai</i><par n="USA__np"/></e>
+    <e lm="San Basilio"><i>San<b/>Basilio</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Basilio (sardu)"><p><l>Santu<b/>'Asili</l><r>San<b/>Basilio</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Nicolò Gerrei"><i>San<b/>Nicolò<b/>Gerrei</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Nicolò Gerrei (sardu)"><p><l>Pauli<b/>Gerrei</l><r>San<b/>Nicolò<b/>Gerrei</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Sperate"><i>San<b/>Sperate</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Sperate (sardu)"><p><l>Santu<b/>Sperau</l><r>San<b/>Sperate</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sant'Andrea Frius"><i>Sant'Andrea<b/>Frius</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sant'Andrea Frius (sardu)"><p><l>Santu<b/>Andria<b/>Frius</l><r>Sant'Andrea<b/>Frius</r></p><par n="Afghanistan__np" /></e>
+    <e lm="San Vito"><i>San<b/>Vito</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="San Vito (sardu)"><p><l>Santu<b/>'Idu</l><r>San<b/>Vito</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Sarroch"><i>Sarroch</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sarroch (sardu)"><p><l>Sarrocu</l><r>Sarroch</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Selargius"><i>Selargius</i><par n="USA__np"/></e>
+    <e r="LR" lm="Selargius (sardu)"><p><l>Ceraxus</l><r>Selargius</r></p><par n="USA__np" /></e>
+    <e lm="Selegas"><i>Selegas</i><par n="Maldive__np"/></e>
+    <e r="LR" lm="Selegas (sardu)"><p><l>Sèlegas</l><r>Selegas</r></p><par n="Maldive__np" /></e>
+    <e lm="Senorbì"><i>Senorbì</i><par n="USA__np"/></e>
+    <e lm="Serdiana"><i>Serdiana</i><par n="Europa__np"/></e>
+    <e lm="Serri"><i>Serri</i><par n="USA__np"/></e>
+    <e lm="Sestu"><i>Sestu</i><par n="Afghanistan__np"/></e>
+    <e lm="Settimo"><i>Settimo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Settimo (sardu)"><p><l>Sètimu</l><r>Settimo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Seulo"><i>Seulo</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Seulo (sardu)"><p><l>Seulu</l><r>Seulo</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Siliqua"><i>Siliqua</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Siliqua (sardu)"><p><l>Silìcua</l><r>Siliqua</r></p><par n="Afghanistan__np" /></e>
+    <e lm="Silius"><i>Silius</i><par n="USA__np"/></e>
+    <e lm="Sinnai"><i>Sinnai</i><par n="USA__np"/></e>
+    <e lm="Siurgus Donigala"><i>Siurgus<b/>Donigala</i><par n="USA__np"/></e>
+    <e r="LR" lm="Siurgus Donigala (sardu)"><p><l>Sriugus<b/>Donigalla</l><r>Siurgus<b/>Donigala</r></p><par n="USA__np" /></e>
+    <e lm="Soleminis"><i>Soleminis</i><par n="USA__np"/></e>
+    <e r="LR" lm="Soleminis (sardu)"><p><l>Solèminis</l><r>Soleminis</r></p><par n="USA__np" /></e>
+    <e lm="Suelli"><i>Suelli</i><par n="USA__np"/></e>
+    <e lm="Teulada"><i>Teulada</i><par n="Europa__np"/></e>
+    <e lm="Ussana"><i>Ussana</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Ussana (sardu)"><p><l>Ùssana</l><r>Ussana</r></p><par n="Europa__np" /></e>
+    <e lm="Uta"><i>Uta</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Uta (sardu)"><p><l>Uda</l><r>Uta</r></p><par n="Europa__np" /></e>
+    <e lm="Vallermosa"><i>Vallermosa</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Vallermosa (sardu)"><p><l>Biddaramosa</l><r>Vallermosa</r></p><par n="Europa__np" /></e>
+    <e lm="Villanovatulo"><i>Villanovatulo</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villanovatulo (sardu)"><p><l>Biddanoa<b/>Tulu</l><r>Villanovatulo</r></p><par n="Europa__np" /></e>
+    <e lm="Villaputzu"><i>Villaputzu</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villaputzu (sardu)"><p><l>Bidda<b/>de<b/>Putzu</l><r>Villaputzu</r></p><par n="Europa__np" /></e>
+    <e lm="Villasalto"><i>Villasalto</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villasalto (sardu)"><p><l>Bidda<b/>de<b/>Sartu</l><r>Villasalto</r></p><par n="Europa__np" /></e>
+    <e lm="Villa San Pietro"><i>Villa<b/>San<b/>Pietro</i><par n="Europa__np"/></e>
+    <e lm="Villasimius"><i>Villasimius</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villasimius (sardu)"><p><l>Crabonaxa</l><r>Villasimius</r></p><par n="Europa__np" /></e>
+    <e lm="Villasor"><i>Villasor</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villasor (sardu)"><p><l>Bidda<b/>Sorris</l><r>Villasor</r></p><par n="Europa__np" /></e>
+    <e lm="Villaspeciosa"><i>Villaspeciosa</i><par n="Europa__np"/></e>
+    <e r="LR" lm="Villaspeciosa (sardu)"><p><l>Bidda<b/>Spetziosa</l><r>Villaspeciosa</r></p><par n="Europa__np" /></e>
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
