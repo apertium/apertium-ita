@@ -4,6 +4,7 @@
   <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>		
     <sdef n="acr"     c=""/> 		
+    <sdef n="abbr"    c=""/> 		
     <sdef n="predet"  c=""/> 		
     <sdef n="detnt"   c=""/> 		
     <sdef n="loc"     c=""/> 		
@@ -11573,6 +11574,13 @@
       <e><p><l>gine</l><r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
           
+    <pardef n="vicer/é__n">
+      <e><p><l>é</l><r>é<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>é</l><r>é<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>egina</l><r>é<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>egine</l><r>é<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+          
     <pardef n="autobomb/a__n">
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
       <e><p><l>e</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -12966,6 +12974,10 @@
       <e><p><l></l><r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
   
+    <pardef n="a.C.__abbr">
+      <e>       <p><l></l><r><s n="abbr"/></r></p></e>
+    </pardef>
+
   </pardefs>	
   <section id="main" type="standard">
 
@@ -28461,9 +28473,11 @@
     <e lm="dovere"><i>dover</i><par n="abat/e__n"/></e>
     <e lm="dozzina"><i>dozzin</i><par n="cas/a__n"/></e>
     <e lm="Dr"><i>D</i><par n="D/r__n"/></e>
-    <e><p><l>Sir</l><r>Sir<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>Mr</l><r>Mr<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    <e><p><l>prof</l><r>prof<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="Sir"><p><l>Sir</l><r>Sir<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="Lord"><p><l>Lord</l><r>Lord<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="Mr"><p><l>Mr</l><r>Mr<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="Jr"><p><l>Jr</l><r>Jr<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="prof"><p><l>prof</l><r>prof<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="drago"><i>drag</i><par n="fung/o__n"/></e>
     <e lm="dramma"><i>dramm</i><par n="autom/a__n"/></e>
     <e lm="drammaturgo"><i>drammaturg</i><par n="fung/o__n"/></e>
@@ -28744,6 +28758,7 @@
     <e lm="file"><i>file</i><par n="albatros__n"/></e>
     <e lm="filigrana"><i>filigran</i><par n="cas/a__n"/></e>
     <e lm="film"><i>film</i><par n="affaire__n"/></e>
+    <e lm="telefilm"><i>telefilm</i><par n="affaire__n"/></e>
     <e lm="filologia"><i>filologi</i><par n="cas/a__n"/></e>
     <e lm="filosofia"><i>filosofi</i><par n="cas/a__n"/></e>
     <e lm="filosofo"><i>filosof</i><par n="bambin/o__n"/></e>
@@ -30350,6 +30365,7 @@
     <e lm="razzo"><i>razz</i><par n="abbain/o__n"/></e>
     <e lm="razzismo"><i>razzism</i><par n="abbain/o__n"/></e>
     <e lm="re"><i>re</i><par n="re__n"/></e>
+    <e lm="viceré"><i>vicer</i><par n="vicer/é__n"/></e>
     <e lm="realismo"><i>realism</i><par n="abbain/o__n"/></e>
     <e lm="realtà"><i>realtà</i><par n="abilità__n"/></e>
     <e lm="realizzazione"><i>realizzazion</i><par n="abbreviazion/e__n"/></e>
@@ -33433,6 +33449,7 @@
     <e lm="sicché"><i>sicché</i><par n="affinché__cnjsub"/></e>
     <e lm="ove"><i>ove</i><par n="affinché__cnjsub"/></e>
     <e lm="seppur"><i>seppur</i><par n="affinché__cnjsub"/></e>
+    <e lm="anziché"><i>anziché</i><par n="affinché__cnjsub"/></e>
 
 <!--       ******************************      (cnjadv) group      ******************************    -->
     <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -34807,7 +34824,7 @@
     <e lm="capitare"><i>capit</i><par n="abbacin/are__vblex"/></e>
     <e lm="capovolgere"><i>capovol</i><par n="accor/gere__vblex"/></e>
     <e lm="avvolgere"><i>avvol</i><par n="accor/gere__vblex"/></e>
-    <e lm="svolgere"><i>svolg</i><par n="accor/gere__vblex"/></e>
+    <e lm="svolgere"><i>svol</i><par n="accor/gere__vblex"/></e>
     <e lm="caricare"><i>caric</i><par n="abbarbic/are__vblex"/></e>
     <e lm="carreggiare"><i>carregg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="chiacchierare"><i>chiacchier</i><par n="abbacin/are__vblex"/></e>
@@ -35320,7 +35337,6 @@
     <e lm="svegliare"><i>svegli</i><par n="accapigli/are__vblex"/></e>
     <e lm="svincolare"><i>svincol</i><par n="abbacin/are__vblex"/></e>
     <e lm="svitare"><i>svit</i><par n="abbacin/are__vblex"/></e>
-    <e lm="svolgere"><i>svol</i><par n="accor/gere__vblex"/></e>
     <e lm="svuotare"><i>svuot</i><par n="abbacin/are__vblex"/></e>
     <e lm="tappare"><i>tapp</i><par n="abbacin/are__vblex"/></e>
     <e lm="targare"><i>targ</i><par n="abbarbic/are__vblex"/></e>
@@ -42972,10 +42988,10 @@
     <e lm="secondo"><i>second</i><par n="prim/o__adj"/></e>
     <e lm="terzo"><i>terz</i><par n="prim/o__adj"/></e>
 
-    <e lm="a.C."><i>a.C</i><par n="ieri__adv"/></e>
-    <e lm="d.C."><i>d.C</i><par n="ieri__adv"/></e>
-    <e lm="p.es."><i>p.es.</i><par n="ieri__adv"/></e>
-    <e lm="p.es." r="LR"><p><l>p.<b/>es.</l><r>p.es.</r></p><par n="ieri__adv"/></e>
+    <e lm="a.C."><i>a.C</i><par n="a.C.__abbr"/></e>
+    <e lm="d.C."><i>d.C</i><par n="a.C.__abbr"/></e>
+    <e lm="p.es."><i>p.es.</i><par n="a.C.__abbr"/></e>
+    <e lm="p.es." r="LR"><p><l>p.<b/>es.</l><r>p.es.</r></p><par n="a.C.__abbr"/></e>
 
     <e lm="abrogato"><i>abrogat</i><par n="cosiddett/o__adj"/></e>
     <e lm="accettato"><i>accettat</i><par n="cosiddett/o__adj"/></e>
@@ -43940,6 +43956,7 @@
     <e lm="iuniore"><i>iunior</i><par n="anfitrion/e__adj"/></e>
     <e lm="junior"><i>junior</i><par n="junior__adj"/></e>
     <e lm="suggerire"><i>sugger</i><par n="abbell/ire__vblex"/></e>
+    <e lm="islam"><i>islam</i><par n="ace__n"/></e>
     <e lm="football"><i>football</i><par n="ace__n"/></e>
     <e lm="rugby"><i>rugby</i><par n="ace__n"/></e>
     <e lm="basketball"><i>basketball</i><par n="ace__n"/></e>
@@ -43960,6 +43977,10 @@
     <e lm="ritrarre"><i>ritra</i><par n="astra/rre__vblex"/></e>
     <e lm="subentrare"><i>subentr</i><par n="abbacin/are__vblex"/></e>
     <e lm="incentrare"><i>incentr</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sormontare"><i>sormont</i><par n="abbacin/are__vblex"/></e>
+    <e lm="assommare"><i>assomm</i><par n="abbacin/are__vblex"/></e>
+
+
 
 
 
