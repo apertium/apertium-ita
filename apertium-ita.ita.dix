@@ -34146,7 +34146,6 @@
     <e lm="equivocare"><i>equivoc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="ereditare"><i>eredit</i><par n="abbacin/are__vblex"/></e>
     <e lm="erigere"><i>er</i><par n="dir/igere__vblex"/></e>
-    <e lm="erigere"><i>er</i><par n="dir/igere__vblex"/></e>
     <e lm="errare"><i>err</i><par n="abbacin/are__vblex"/></e>
     <e lm="escludere"><i>esclu</i><par n="acclu/dere__vblex"/></e>
     <e lm="esibire"><i>esib</i><par n="abbell/ire__vblex"/></e>
@@ -34956,7 +34955,6 @@
     <e lm="erogare"><i>erog</i><par n="abbarbic/are__vblex"/></e>
     <e lm="esautorare"><i>esautor</i><par n="abbacin/are__vblex"/></e>
     <e lm="eseguire"><i>esegu</i><par n="abbrut/ire__vblex"/></e>
-    <e lm="abbonire"><i>abbon</i><par n="abbrut/ire__vblex"/></e>
     <e lm="esemplificare"><i>esemplific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="dupplicare"><i>dupplic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="esentare"><i>esent</i><par n="abbacin/are__vblex"/></e>
@@ -35346,21 +35344,16 @@
     <e lm="teorizzare"><i>teorizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="tingere"><i>tin</i><par n="accin/gere__vblex"/></e>
     <e lm="accingere"><i>accin</i><par n="accin/gere__vblex"/></e>
-    <e lm="attingere"><i>attin</i><par n="accin/gere__vblex"/></e>
-    <e lm="cingere"><i>cin</i><par n="accin/gere__vblex"/></e>
     <e lm="contingere"><i>contin</i><par n="accin/gere__vblex"/></e>
-    <e lm="dipingere"><i>dipin</i><par n="accin/gere__vblex"/></e>
     <e lm="fingere"><i>fin</i><par n="accin/gere__vblex"/></e>
     <e lm="infingere"><i>infin</i><par n="accin/gere__vblex"/></e>
     <e lm="intingere"><i>intin</i><par n="accin/gere__vblex"/></e>
     <e lm="precingere"><i>precin</i><par n="accin/gere__vblex"/></e>
     <e lm="recingere"><i>recin</i><par n="accin/gere__vblex"/></e>
-    <e lm="respingere"><i>respin</i><par n="accin/gere__vblex"/></e>
     <e lm="ricingere"><i>ricin</i><par n="accin/gere__vblex"/></e>
     <e lm="ritingere"><i>ritin</i><par n="accin/gere__vblex"/></e>
     <e lm="scingere"><i>scin</i><par n="accin/gere__vblex"/></e>
     <e lm="sospingere"><i>sospin</i><par n="accin/gere__vblex"/></e>
-    <e lm="spingere"><i>spin</i><par n="accin/gere__vblex"/></e>
     <e lm="tormentare"><i>torment</i><par n="abbacin/are__vblex"/></e>
     <e lm="totalizzare"><i>totalizz</i><par n="abbacin/are__vblex"/></e>
     <e lm="tracciare"><i>tracc</i><par n="abbiosc/iare__vblex"/></e>
@@ -43367,28 +43360,18 @@
     <e lm="Furtei"><i>Furtei</i><par n="USA__np"/></e>
     <e lm="Genuri"><i>Genuri</i><par n="USA__np"/></e>
     <e lm="Gesturi"><i>Gesturi</i><par n="USA__np"/></e>
-    <e lm="Gonnosfanadiga"><i>Gonnosfanadiga</i><par n="Europa__np"/></e>
     <e r="LR" lm="Gonnosfanadiga (sardu)"><p><l>Gonnos<b/>Fanàdiga</l><r>Gonnosfanadiga</r></p><par n="Europa__np" /></e>
     <e lm="Guspini"><i>Guspini</i><par n="USA__np"/></e>
-    <e lm="Las Plassas"><i>Las<b/>Plassas</i><par n="Maldive__np"/></e>
     <e r="LR" lm="Las Plassas (sardu)"><p><l>Is<b/>Pratzas</l><r>Las<b/>Plassas</r></p><par n="Maldive__np" /></e>
-    <e lm="Lunamatrona"><i>Lunamatrona</i><par n="Europa__np"/></e>
     <e lm="Pabillonis"><i>Pabillonis</i><par n="USA__np"/></e>
-    <e lm="Pauli Arbarei"><i>Pauli<b/>Arbarei</i><par n="USA__np"/></e>
     <e lm="Samassi"><i>Samassi</i><par n="USA__np"/></e>
-    <e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="San Gavino Monreale (sardu)"><p><l>Santu<b/>'Ainju</l><r>San<b/>Gavino<b/>Monreale</r></p><par n="Afghanistan__np" /></e>
     <e lm="Sanluri"><i>Sanluri</i><par n="USA__np"/></e>
-    <e lm="Sardara"><i>Sardara</i><par n="Europa__np"/></e>
     <e r="LR" lm="Sardara (sardu)"><p><l>Sàrdara</l><r>Sardara</r></p><par n="Europa__np" /></e>
-    <e lm="Segariu"><i>Segariu</i><par n="Afghanistan__np"/></e>
-    <e lm="Serramanna"><i>Serramanna</i><par n="Europa__np"/></e>
     <e lm="Serrenti"><i>Serrenti</i><par n="USA__np"/></e>
-    <e lm="Setzu"><i>Setzu</i><par n="Afghanistan__np"/></e>
     <e lm="Siddi"><i>Siddi</i><par n="USA__np"/></e>
     <e lm="Tuili"><i>Tuili</i><par n="USA__np"/></e>
     <e lm="Turri"><i>Turri</i><par n="USA__np"/></e>
-    <e lm="Ussaramanna"><i>Ussaramanna</i><par n="Europa__np"/></e>
     <e r="LR" lm="Ussaramanna (sardu)"><p><l>Ùssara<b/>Manna</l><r>Ussaramanna</r></p><par n="Europa__np" /></e>
     <e lm="Villacidro"><i>Villacidro</i><par n="Europa__np"/></e>
     <e r="LR" lm="Villacidro (sardu)"><p><l>Biddexidru</l><r>Villacidro</r></p><par n="Europa__np" /></e>
@@ -43396,82 +43379,62 @@
     <e r="LR" lm="Villamar (sardu)"><p><l>Bidda<b/>Mara</l><r>Villamar</r></p><par n="Europa__np" /></e>
     <e lm="Villanovaforru"><i>Villanovaforru</i><par n="Europa__np"/></e>
     <e r="LR" lm="Villanovaforru (sardu)"><p><l>Biddanoa<b/>Forru</l><r>Villanovaforru</r></p><par n="Europa__np" /></e>
-    <e lm="Villanovafranca"><i>Villanovafranca</i><par n="Europa__np"/></e>
     <e r="LR" lm="Villanovafranca (sardu)"><p><l>Biddanoa<b/>Franca</l><r>Villanovafranca</r></p><par n="Europa__np" /></e>
     <e lm="Aggius"><i>Aggius</i><par n="USA__np"/></e>
     <e r="LR" lm="Aggius (sardu)"><p><l>Azos</l><r>Aggius</r></p><par n="USA__np" /></e>
-    <e lm="Aglientu"><i>Aglientu</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Aglientu (corsu/català)"><p><l>Santu<b/>Franciscu<b/>d'Aglièntu</l><r>Aglientu</r></p><par n="Afghanistan__np" /></e>
     <e lm="Alà dei Sardi"><i>Alà<b/>dei<b/>Sardi</i><par n="Europa__np"/></e>
     <e r="LR" lm="Alà dei Sardi (sardu)"><p><l>Alà</l><r>Alà<b/>dei<b/>Sardi</r></p><par n="Europa__np" /></e>
-    <e lm="Arzachena"><i>Arzachena</i><par n="Europa__np"/></e>
     <e r="LR" lm="Arzachena (sardu)"><p><l>Altzaghena</l><r>Arzachena</r></p><par n="Europa__np" /></e>
     <e lm="Badesi"><i>Badesi</i><par n="USA__np"/></e>
-    <e lm="Berchidda"><i>Berchidda</i><par n="Europa__np"/></e>
     <e r="LR" lm="Berchidda (sardu)"><p><l>Belchidda</l><r>Berchidda</r></p><par n="Europa__np" /></e>
     <e lm="Bortigiadas"><i>Bortigiadas</i><par n="Maldive__np"/></e>
-    <e lm="Buddusò"><i>Buddusò</i><par n="Afghanistan__np"/></e>
     <e lm="Budoni"><i>Budoni</i><par n="USA__np"/></e>
     <e lm="Calangianus"><i>Calangianus</i><par n="USA__np"/></e>
     <e r="LR" lm="Calangianus (sardu)"><p><l>Calanzanus</l><r>Calangianus</r></p><par n="USA__np" /></e>
-    <e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Golfo Aranci (sardu)"><p><l>Figari</l><r>Golfo<b/>Aranci</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Figari (corsu/català)"><p><l>Figari</l><r>Golfo<b/>Aranci</r></p><par n="Afghanistan__np" /></e>
     <e lm="La Maddalena"><i>La<b/>Maddalena</i><par n="Europa__np"/></e>
     <e r="LR" lm="La Maddalena (sardu)"><p><l>Sa<b/>Madalena</l><r>La<b/>Maddalena</r></p><par n="Europa__np" /></e>
-    <e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Loiri Porto San Paolo (sardu)"><p><l>Santu<b/>Paulu<b/>Loèri</l><r>Loiri<b/>Porto<b/>San<b/>Paolo</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Santu Paulu Loèri (corsu/català)"><p><l>Lòiri-Poltu</l><r>Loiri<b/>Porto<b/>San<b/>Paolo</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Luogosanto"><i>Luogosanto</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Luogosanto (sardu)"><p><l>Logusantu</l><r>Luogosanto</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Logusantu (corsu/català)"><p><l>Locusantu</l><r>Luogosanto</r></p><par n="Afghanistan__np" /></e>
     <e lm="Luras"><i>Luras</i><par n="Maldive__np"/></e>
     <e lm="Monti"><i>Monti</i><par n="USA__np"/></e>
-    <e lm="Olbia"><i>Olbia</i><par n="Europa__np"/></e>
     <e r="LR" lm="Olbia (sardu)"><p><l>Terranoa</l><r>Olbia</r></p><par n="Europa__np" /></e>
     <e lm="Oschiri"><i>Oschiri</i><par n="USA__np"/></e>
-    <e lm="Padru"><i>Padru</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Padru (corsu/català)"><p><l>Patru</l><r>Padru</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Palau"><i>Palau</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Palau (corsu/català)"><p><l>Lu<b/>Palau</l><r>Palau</r></p><par n="Afghanistan__np" /></e>
     <e lm="Sant'Antonio di Gallura"><i>Sant'Antonio<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Sant'Antonio di Gallura (sardu)"><p><l>Santu<b/>Antoni'e<b/>Calanzanus</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Santu Antoni'e Calanzanus (corsu/català)"><p><l>Sant'Antoni</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
     <e lm="Santa Teresa Gallura"><i>Santa<b/>Teresa<b/>Gallura</i><par n="Europa__np"/></e>
-    <e lm="San Teodoro"><i>San<b/>Teodoro</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="San Teodoro (sardu)"><p><l>Santu<b/>Deadoru</l><r>San<b/>Teodoro</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Santu Deadoru (corsu/català)"><p><l>Santu<b/>Tiadoru</l><r>San<b/>Teodoro</r></p><par n="Afghanistan__np" /></e>
     <e lm="Telti"><i>Telti</i><par n="USA__np"/></e>
     <e r="LR" lm="Telti (sardu)"><p><l>Teltis</l><r>Telti</r></p><par n="USA__np" /></e>
-    <e lm="Tempio Pausania"><i>Tempio<b/>Pausania</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Tempio Pausania (sardu)"><p><l>Tèmpiu</l><r>Tempio<b/>Pausania</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Tèmpiu (corsu/català)"><p><l>Tèmpiu</l><r>Tempio<b/>Pausania</r></p><par n="Afghanistan__np" /></e>
     <e lm="Trinità d'Agultu e Vignola"><i>Trinità<b/>d'Agultu<b/>e<b/>Vignola</i><par n="Europa__np"/></e>
     <e r="LR" lm="Trinità d'Agultu e Vignola (sardu)"><p><l>Trinitai<b/>e<b/>Vignola<b/>Trinidade</l><r>Trinità<b/>d'Agultu<b/>e<b/>Vignola</r></p><par n="Europa__np" /></e>
     <e lm="Abbasanta"><i>Abbasanta</i><par n="Europa__np"/></e>
-    <e lm="Aidomaggiore"><i>Aidomaggiore</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Aidomaggiore (sardu)"><p><l>Bidumajore</l><r>Aidomaggiore</r></p><par n="Afghanistan__np" /></e>
     <e lm="Abas"><i>Abas</i><par n="Maldive__np"/></e>
     <e r="LR" lm="Abas (sardu)"><p><l>Ales</l><r>Abas</r></p><par n="Maldive__np" /></e>
     <e lm="Àllai"><i>Àllai</i><par n="USA__np"/></e>
     <e lm="Arborea"><i>Arborea</i><par n="Europa__np"/></e>
-    <e lm="Ardauli"><i>Ardauli</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Ardauli (sardu)"><p><l>Ardaule</l><r>Ardauli</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Assolo"><i>Assolo</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Assolo (sardu)"><p><l>Assou</l><r>Assolo</r></p><par n="Afghanistan__np" /></e>
     <e lm="Asuni"><i>Asuni</i><par n="USA__np"/></e>
     <e lm="Baradile"><i>Baradile</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Baradile (sardu)"><p><l>Baradili</l><r>Baradile</r></p><par n="Afghanistan__np" /></e>
     <e lm="Baratili San Pietro"><i>Baratili<b/>San<b/>Pietro</i><par n="USA__np"/></e>
     <e lm="Baressa"><i>Baressa</i><par n="Europa__np"/></e>
-    <e lm="Bauladu"><i>Bauladu</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Bauladu (sardu)"><p><l>Baulau</l><r>Bauladu</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Bidonì"><i>Bidonì</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Bidonì (sardu)"><p><l>Biduniu</l><r>Bidonì</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Bonarcado"><i>Bonarcado</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Bonarcado (sardu)"><p><l>Bonàrcadu</l><r>Bonarcado</r></p><par n="Afghanistan__np" /></e>
     <e lm="Boroneddu"><i>Boroneddu</i><par n="Afghanistan__np"/></e>
-    <e lm="Bosa"><i>Bosa</i><par n="Europa__np"/></e>
     <e lm="Busachi"><i>Busachi</i><par n="USA__np"/></e>
     <e lm="Cabras"><i>Cabras</i><par n="Maldive__np"/></e>
     <e r="LR" lm="Cabras (sardu)"><p><l>Crabas</l><r>Cabras</r></p><par n="Maldive__np" /></e>
@@ -43481,7 +43444,6 @@
     <e lm="Flùssio"><i>Flùssio</i><par n="Afghanistan__np"/></e>
     <e lm="Fordongianus"><i>Fordongianus</i><par n="USA__np"/></e>
     <e lm="Genoni"><i>Genoni</i><par n="Afghanistan__np"/></e>
-    <e lm="Ghilarza"><i>Ghilarza</i><par n="Europa__np"/></e>
     <e lm="Gonnoscodina"><i>Gonnoscodina</i><par n="Europa__np"/></e>
     <e lm="Gonnosnò"><i>Gonnosnò</i><par n="Afghanistan__np"/></e>
     <e lm="Gonnostramatza"><i>Gonnostramatza</i><par n="Afghanistan__np"/></e>
@@ -43511,7 +43473,6 @@
     <e lm="Nureci"><i>Nureci</i><par n="USA__np"/></e>
     <e lm="Ollastra"><i>Ollastra</i><par n="Europa__np"/></e>
     <e r="LR" lm="Ollastra (sardu)"><p><l>Ollasta</l><r>Ollastra</r></p><par n="Europa__np" /></e>
-    <e lm="Oristano"><i>Oristano</i><par n="Afghanistan__np"/></e>
     <e lm="Palmas Arborea"><i>Palmas<b/>Arborea</i><par n="Maldive__np"/></e>
     <e r="LR" lm="Palmas Arborea (sardu)"><p><l>Pramas</l><r>Palmas<b/>Arborea</r></p><par n="Maldive__np" /></e>
     <e lm="Pau"><i>Pau</i><par n="Afghanistan__np"/></e>
@@ -43611,9 +43572,7 @@
     <e lm="Meana Sardo"><i>Meana<b/>Sardo</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Meana Sardo (sardu)"><p><l>Meana</l><r>Meana<b/>Sardo</r></p><par n="Afghanistan__np" /></e>
     <e lm="Noragugume"><i>Noragugume</i><par n="Afghanistan__np"/></e>
-    <e lm="Nuoro"><i>Nuoro</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Nuoro (sardu)"><p><l>Nùgoro</l><r>Nuoro</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Oliena"><i>Oliena</i><par n="Europa__np"/></e>
     <e r="LR" lm="Oliena (sardu)"><p><l>Ulìana</l><r>Oliena</r></p><par n="Europa__np" /></e>
     <e lm="Ollolai"><i>Ollolai</i><par n="USA__np"/></e>
     <e lm="Olzai"><i>Olzai</i><par n="USA__np"/></e>
@@ -43645,7 +43604,6 @@
     <e lm="Tìana"><i>Tìana</i><par n="Europa__np"/></e>
     <e lm="Tonara"><i>Tonara</i><par n="Europa__np"/></e>
     <e lm="Torpè"><i>Torpè</i><par n="Afghanistan__np"/></e>
-    <e lm="Alghero"><i>Alghero</i><par n="Afghanistan__np"/></e>
     <e lm="Anela"><i>Anela</i><par n="Europa__np"/></e>
     <e lm="Ardara"><i>Ardara</i><par n="Europa__np"/></e>
     <e r="LR" lm="Ardara (sardu)"><p><l>Àldara</l><r>Ardara</r></p><par n="Europa__np" /></e>
@@ -43662,7 +43620,6 @@
     <e lm="Bottidda"><i>Bottidda</i><par n="Europa__np"/></e>
     <e lm="Bultei"><i>Bultei</i><par n="USA__np"/></e>
     <e lm="Bulzi"><i>Bulzi</i><par n="USA__np"/></e>
-    <e lm="Burgos"><i>Burgos</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Burgos (sardu)"><p><l>Su<b/>Burgu</l><r>Burgos</r></p><par n="Afghanistan__np" /></e>
     <e lm="Cargeghe"><i>Cargeghe</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Cargeghe (sardu)"><p><l>Carzeghe</l><r>Cargeghe</r></p><par n="Afghanistan__np" /></e>
@@ -43799,7 +43756,6 @@
     <e lm="Piscinas"><i>Piscinas</i><par n="Maldive__np"/></e>
     <e lm="Portoscuso"><i>Portoscuso</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Portoscuso (sardu)"><p><l>Portescusi</l><r>Portoscuso</r></p><par n="Afghanistan__np" /></e>
-    <e lm="Portoscuso"><i>Portoscuso</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Portoscuso (sardu)"><p><l>Portuscusi</l><r>Portoscuso</r></p><par n="Afghanistan__np" /></e>
     <e lm="San Giovanni Suergiu"><i>San<b/>Giovanni<b/>Suergiu</i><par n="Afghanistan__np"/></e>
     <e r="LR" lm="San Giovanni Suergiu (sardu)"><p><l>Santu<b/>'Uanni<b/>Sruexu</l><r>San<b/>Giovanni<b/>Suergiu</r></p><par n="Afghanistan__np" /></e>
@@ -43935,10 +43891,8 @@
     <e lm="abboccare"><i>abbocc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="abbrancare"><i>abbranc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="abbriccare"><i>abbricc</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="abdicare"><i>abdic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="accalcare"><i>accalc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="accavalcare"><i>accavalc</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="accecare"><i>accec</i><par n="abbarbic/are__vblex"/></e>
     <e lm="acciaccare"><i>acciacc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="acciecare"><i>acciec</i><par n="abbarbic/are__vblex"/></e>
     <e lm="accoccare"><i>accocc</i><par n="abbarbic/are__vblex"/></e>
@@ -43948,7 +43902,6 @@
     <e lm="addomesticare"><i>addomestic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="adescare"><i>adesc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="affaticare"><i>affatic</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="affiancare"><i>affianc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="affiocare"><i>affioc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="affocare"><i>affoc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="ingaggiare"><i>ingagg</i><par n="abbiosc/iare__vblex"/></e>
@@ -43966,10 +43919,8 @@
     <e lm="coincidere"><i>coinci</i><par n="acclu/dere__vblex"/></e>
     <e lm="elidere"><i>eli</i><par n="acclu/dere__vblex"/></e>
     <e lm="incidere"><i>oinci</i><par n="acclu/dere__vblex"/></e>
-    <e lm="suddividere"><i>suddivi</i><par n="acclu/dere__vblex"/></e>
     <e lm="fronteggiare"><i>frontegg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="piazzare"><i>piazz</i><par n="abbacin/are__vblex"/></e>
-    <e lm="raffigurare"><i>raffigur</i><par n="abbacin/are__vblex"/></e>
     <e lm="trarre"><i>tra</i><par n="astra/rre__vblex"/></e>
     <e lm="astrarre"><i>astra</i><par n="astra/rre__vblex"/></e>
     <e lm="protrarre"><i>protra</i><par n="astra/rre__vblex"/></e>
@@ -43985,7 +43936,6 @@
     <e lm="abside"><i>absid</i><par n="abat/e__n"/></e>
     <e lm="Adige"><i>Adige</i><par n="Afghanistan__np"/></e>
     <e lm="ADN"><i>ADN</i><par n="BBVA__n"/></e>
-    <e lm="Adolf"><i>Adolf</i><par n="Juan__np"/></e>
     <e lm="AG"><i>AG</i><par n="TV__n"/></e>
     <e lm="AIDS"><i>AIDS</i><par n="BBVA__n"/></e>
     <e lm="Ajax"><i>Ajax</i><par n="Fiat__np"/></e>
@@ -44008,17 +43958,14 @@
     <e lm="annata"><i>annat</i><par n="cas/a__n"/></e>
     <e lm="Anne"><i>Anne</i><par n="María__np"/></e>
     <e lm="anteprima"><i>anteprim</i><par n="cas/a__n"/></e>
-    <e lm="Anthony"><i>Anthony</i><par n="Juan__np"/></e>
     <e lm="Anton"><i>Anton</i><par n="Juan__np"/></e>
     <e lm="Aquitania"><i>Aquitania</i><par n="Europa__np"/></e>
     <e lm="arcata"><i>arcat</i><par n="cas/a__n"/></e>
-    <e lm="arcidiocesi"><i>arcidiocesi</i><par n="abilità__n"/></e>
     <e lm="areale"><i>areal</i><par n="abat/e__n"/></e>
     <e lm="areale"><i>areal</i><par n="albanes/e__adj"/></e>
     <e lm="Arena"><i>Aren</i><par n="cas/a__n"/></e>
     <e lm="armatura"><i>armatur</i><par n="cas/a__n"/></e>
     <e lm="Arnold"><i>Arnold</i><par n="Juan__np"/></e>
-    <e lm="Arthur"><i>Arthur</i><par n="Juan__np"/></e>
     <e lm="art"><i>art</i><par n="albatros__n"/></e>
     <e lm="Asburgo"><i>Asburgo</i><par n="Afghanistan__np"/></e>
     <e lm="Asburgo"><i>Asburgo</i><par n="Díez__np"/></e>
@@ -44040,7 +43987,6 @@
     <e lm="Barbarossa"><i>Barbarossa</i><par n="Díez__np"/></e>
     <e lm="barriera"><i>barrier</i><par n="cas/a__n"/></e>
     <e lm="Barry"><i>Barry</i><par n="Díez__np"/></e>
-    <e lm="Barry"><i>Barry</i><par n="Juan__np"/></e>
     <e lm="Batman"><i>Batman</i><par n="Juan__np"/></e>
     <e lm="batteria"><i>batteri</i><par n="cas/a__n"/></e>
     <e lm="BBC"><i>BBC</i><par n="TV__n"/></e>
@@ -44063,7 +44009,6 @@
     <e lm="Blake"><i>Blake</i><par n="Díez__np"/></e>
     <e lm="BMW"><i>BMW</i><par n="TV__n"/></e>
     <e lm="Bobby"><i>Bobby</i><par n="Juan__np"/></e>
-    <e lm="Bob"><i>Bob</i><par n="Juan__np"/></e>
     <e lm="Boemia"><i>Boemia</i><par n="Europa__np"/></e>
     <e lm="Bond"><i>Bond</i><par n="Díez__np"/></e>
     <e lm="Borgogna"><i>Borgogna</i><par n="Europa__np"/></e>
@@ -44080,7 +44025,6 @@
     <e lm="Cambridge"><i>Cambridge</i><par n="Afghanistan__np"/></e>
     <e lm="Cannes"><i>Cannes</i><par n="Maldive__np"/></e>
     <e lm="capolinea"><i>capoline</i><par n="autom/a__n"/></e>
-    <e lm="Carl"><i>Carl</i><par n="Juan__np"/></e>
     <e lm="Caroline"><i>Caroline</i><par n="María__np"/></e>
     <e lm="carrozzeria"><i>carrozzeri</i><par n="cas/a__n"/></e>
     <e lm="Cartagine"><i>Cartagine</i><par n="Europa__np"/></e>
@@ -44100,7 +44044,6 @@
     <e lm="chiesetta"><i>chiesett</i><par n="cas/a__n"/></e>
     <e lm="Chieti"><i>Chieti</i><par n="Maldive__np"/></e>
     <e lm="Chris"><i>Chris</i><par n="María__np"/></e>
-    <e lm="Christian"><i>Christian</i><par n="Juan__np"/></e>
     <e lm="Christopher"><i>Christopher</i><par n="Díez__np"/></e>
     <e lm="Christopher"><i>Christopher</i><par n="Juan__np"/></e>
     <e lm="Chuck"><i>Chuck</i><par n="Juan__np"/></e>
@@ -44110,11 +44053,9 @@
     <e lm="Claire"><i>Claire</i><par n="María__np"/></e>
     <e lm="Clark"><i>Clark</i><par n="Juan__np"/></e>
     <e lm="classifica"><i>classific</i><par n="cas/a__n"/></e>
-    <e lm="Claude"><i>Claude</i><par n="Juan__np"/></e>
     <e lm="Claude"><i>Claude</i><par n="María__np"/></e>
     <e lm="cm"><i>cm</i><par n="a.C.__abbr"/></e>
     <e lm="college"><i>college</i><par n="albatros__n"/></e>
-    <e lm="colore"><i>color</i><par n="abat/e__n"/></e>
     <e lm="Columbia"><i>Columbia</i><par n="Fiat__np"/></e>
     <e lm="cometa"><i>comet</i><par n="cas/a__n"/></e>
     <e lm="comprendente"><i>comprendent</i><par n="abat/e__n"/></e>
@@ -44124,7 +44065,6 @@
     <e lm="congiura"><i>congiur</i><par n="cas/a__n"/></e>
     <e lm="contempo"><i>contemp</i><par n="abbain/o__n"/></e>
     <e lm="contenente"><i>contenent</i><par n="albanes/e__adj"/></e>
-    <e lm="contrada"><i>contrad</i><par n="cas/a__n"/></e>
     <e lm="convoglio"><i>convogli</i><par n="abbagli/o__n"/></e>
     <e lm="Cooper"><i>Cooper</i><par n="Díez__np"/></e>
     <e lm="coppa"><i>copp</i><par n="cas/a__n"/></e>
@@ -44133,12 +44073,10 @@
     <e lm="Costanzo"><i>Costanzo</i><par n="Juan__np"/></e>
     <e lm="cover"><i>cover</i><par n="abilità__n"/></e>
     <e lm="cripta"><i>cript</i><par n="cas/a__n"/></e>
-    <e lm="Cruz"><i>Cruz</i><par n="Díez__np"/></e>
     <e lm="CSS"><i>CSS</i><par n="BBVA__n"/></e>
     <e lm="CV"><i>CV</i><par n="BBVA__n"/></e>
     <e lm="Dallas"><i>Dallas</i><par n="USA__np"/></e>
     <e lm="Dave"><i>Dave</i><par n="Juan__np"/></e>
-    <e lm="Davis"><i>Davis</i><par n="Díez__np"/></e>
     <e lm="demo"><i>demo</i><par n="abilità__n"/></e>
     <e lm="Dennis"><i>Dennis</i><par n="Juan__np"/></e>
     <e lm="Denver"><i>Denver</i><par n="Afghanistan__np"/></e>
@@ -44146,14 +44084,11 @@
     <e lm="derivante"><i>derivant</i><par n="albanes/e__adj"/></e>
     <e lm="derivante"><i>derivant</i><par n="albanes/e__n"/></e>
     <e lm="Dick"><i>Dick</i><par n="Juan__np"/></e>
-    <e lm="dimora"><i>dimor</i><par n="cas/a__n"/></e>
     <e lm="discografia"><i>discografi</i><par n="cas/a__n"/></e>
     <e lm="DJ"><i>DJ</i><par n="BBVA__n"/></e>
     <e lm="DNA"><i>DNA</i><par n="BBVA__n"/></e>
     <e lm="DNA"><i>DNA</i><par n="TV__n"/></e>
     <e lm="Domenico"><i>Domenico</i><par n="Díez__np"/></e>
-    <e lm="Domenico"><i>Domenico</i><par n="Juan__np"/></e>
-    <e lm="Donald"><i>Donald</i><par n="Juan__np"/></e>
     <e lm="doppietta"><i>doppiett</i><par n="cas/a__n"/></e>
     <e lm="Doria"><i>Doria</i><par n="Díez__np"/></e>
     <e lm="Douglas"><i>Douglas</i><par n="Díez__np"/></e>
@@ -44172,7 +44107,6 @@
     <e lm="Elio"><i>Elio</i><par n="Juan__np"/></e>
     <e lm="élite"><i>élit</i><par n="abbreviazion/e__n"/></e>
     <e lm="Emily"><i>Emily</i><par n="María__np"/></e>
-    <e lm="Enrico"><i>Enrico</i><par n="Juan__np"/></e>
     <e lm="enzima"><i>enzim</i><par n="autom/a__n"/></e>
     <e lm="Ernst"><i>Ernst</i><par n="Juan__np"/></e>
     <e lm="Erzegovina"><i>Erzegovina</i><par n="Europa__np"/></e>
@@ -44183,7 +44117,6 @@
     <e lm="FAO"><i>FAO</i><par n="TV__n"/></e>
     <e lm="FBI"><i>FBI</i><par n="TV__n"/></e>
     <e lm="FC"><i>FC</i><par n="BBVA__n"/></e>
-    <e lm="Federico"><i>Federico</i><par n="Juan__np"/></e>
     <e lm="ferroviario"><i>ferroviari</i><par n="ampi/o__adj"/></e>
     <e lm="ferroviario"><i>ferroviari</i><par n="segretari/o__n"/></e>
     <e lm="Fiat"><i>Fiat</i><par n="Fiat__np"/></e>
@@ -44193,33 +44126,25 @@
     <e lm="flotta"><i>flott</i><par n="cas/a__n"/></e>
     <e lm="folk"><i>folk</i><par n="albatros__n"/></e>
     <e lm="Fontana"><i>Fontana</i><par n="Díez__np"/></e>
-    <e lm="fontana"><i>fontan</i><par n="cas/a__n"/></e>
     <e lm="Forlì"><i>Forlì</i><par n="Europa__np"/></e>
-    <e lm="Francis"><i>Francis</i><par n="Juan__np"/></e>
     <e lm="François"><i>François</i><par n="Juan__np"/></e>
     <e lm="Frank"><i>Frank</i><par n="Juan__np"/></e>
-    <e lm="Franklin"><i>Franklin</i><par n="Díez__np"/></e>
     <e lm="Franklin"><i>Franklin</i><par n="Juan__np"/></e>
-    <e lm="Franz"><i>Franz</i><par n="Juan__np"/></e>
     <e lm="Fred"><i>Fred</i><par n="Juan__np"/></e>
     <e lm="Freud"><i>Freud</i><par n="Díez__np"/></e>
     <e lm="Friedrich"><i>Friedrich</i><par n="Juan__np"/></e>
     <e lm="Friuli"><i>Friuli</i><par n="Afghanistan__np"/></e>
     <e lm="FS"><i>FS</i><par n="TV__n"/></e>
-    <e lm="Garibaldi"><i>Garibaldi</i><par n="Díez__np"/></e>
     <e lm="Gary"><i>Gary</i><par n="Juan__np"/></e>
     <e lm="GB"><i>GB</i><par n="a.C.__abbr"/></e>
     <e lm="Genoa"><i>Genoa</i><par n="Fiat__np"/></e>
     <e lm="Georges"><i>Georges</i><par n="Díez__np"/></e>
-    <e lm="Georges"><i>Georges</i><par n="Juan__np"/></e>
     <e lm="Georg"><i>Georg</i><par n="Díez__np"/></e>
-    <e lm="Georg"><i>Georg</i><par n="Juan__np"/></e>
     <e lm="Gian"><i>Gian</i><par n="Juan__np"/></e>
     <e lm="g"><i>g</i><par n="a.C.__abbr"/></e>
     <e lm="Gilbert"><i>Gilbert</i><par n="Díez__np"/></e>
     <e lm="Gilbert"><i>Gilbert</i><par n="Juan__np"/></e>
     <e lm="Giulio"><i>Giulio</i><par n="Díez__np"/></e>
-    <e lm="Giulio"><i>Giulio</i><par n="Juan__np"/></e>
     <e lm="Globe"><i>Globe</i><par n="Díez__np"/></e>
     <e lm="GNU"><i>GNU</i><par n="ABC__np"/></e>
     <e lm="Golden"><i>Golden</i><par n="Díez__np"/></e>
@@ -44234,19 +44159,14 @@
     <e lm="Green"><i>Green</i><par n="Díez__np"/></e>
     <e lm="Greg"><i>Greg</i><par n="Juan__np"/></e>
     <e lm="Guy"><i>Guy</i><par n="Juan__np"/></e>
-    <e lm="Hans"><i>Hans</i><par n="Juan__np"/></e>
     <e lm="Harold"><i>Harold</i><par n="Juan__np"/></e>
-    <e lm="Harry"><i>Harry</i><par n="Juan__np"/></e>
     <e lm="Harvard"><i>Harvard</i><par n="Milan__np"/></e>
     <e lm="HD"><i>HD</i><par n="TV__n"/></e>
-    <e lm="Heinrich"><i>Heinrich</i><par n="Juan__np"/></e>
     <e lm="Henri"><i>Henri</i><par n="Díez__np"/></e>
     <e lm="Henri"><i>Henri</i><par n="Juan__np"/></e>
     <e lm="Henry"><i>Henry</i><par n="Díez__np"/></e>
-    <e lm="Henry"><i>Henry</i><par n="Juan__np"/></e>
     <e lm="Herbert"><i>Herbert</i><par n="Díez__np"/></e>
     <e lm="Herbert"><i>Herbert</i><par n="Juan__np"/></e>
-    <e lm="Hill"><i>Hill</i><par n="Díez__np"/></e>
     <e lm="HMS"><i>HMS</i><par n="TV__n"/></e>
     <e lm="Honda"><i>Honda</i><par n="Díez__np"/></e>
     <e lm="Honda"><i>Honda</i><par n="Europa__np"/></e>
@@ -44257,7 +44177,6 @@
     <e lm="Howard"><i>Howard</i><par n="Juan__np"/></e>
     <e lm="Hunter"><i>Hunter</i><par n="Díez__np"/></e>
     <e lm="IAEA"><i>IAEA</i><par n="TV__n"/></e>
-    <e lm="Ian"><i>Ian</i><par n="Juan__np"/></e>
     <e lm="idrogeno"><i>idrogen</i><par n="abbain/o__n"/></e>
     <e lm="immaginario"><i>immaginari</i><par n="abbagli/o__n"/></e>
     <e lm="immaginario"><i>immaginari</i><par n="ampi/o__adj"/></e>
@@ -44270,7 +44189,6 @@
     <e lm="Intel"><i>Intel</i><par n="Fiat__np"/></e>
     <e lm="interfaccia"><i>interfacci</i><par n="cas/a__n"/></e>
     <e lm="Inter"><i>Inter</i><par n="Fiat__np"/></e>
-    <e lm="invenzione"><i>invenzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="ITF"><i>ITF</i><par n="TV__n"/></e>
     <e lm="It"><i>It</i><par n="TV__n"/></e>
     <e lm="Jacob"><i>Jacob</i><par n="Juan__np"/></e>
@@ -44278,20 +44196,14 @@
     <e lm="Jake"><i>Jake</i><par n="Juan__np"/></e>
     <e lm="Jake"><i>Jake</i><par n="María__np"/></e>
     <e lm="Jane"><i>Jane</i><par n="María__np"/></e>
-    <e lm="Jan"><i>Jan</i><par n="Juan__np"/></e>
     <e lm="Jason"><i>Jason</i><par n="Juan__np"/></e>
     <e lm="jazz"><i>jazz</i><par n="albatros__n"/></e>
-    <e lm="Jean"><i>Jean</i><par n="Juan__np"/></e>
-    <e lm="Jean"><i>Jean</i><par n="María__np"/></e>
     <e lm="Jeff"><i>Jeff</i><par n="Juan__np"/></e>
     <e lm="Jennifer"><i>Jennifer</i><par n="María__np"/></e>
     <e lm="Jerry"><i>Jerry</i><par n="Juan__np"/></e>
     <e lm="Jersey"><i>Jersey</i><par n="Afghanistan__np"/></e>
     <e lm="Jesse"><i>Jesse</i><par n="Juan__np"/></e>
     <e lm="Jim"><i>Jim</i><par n="Juan__np"/></e>
-    <e lm="Jimmy"><i>Jimmy</i><par n="Juan__np"/></e>
-    <e lm="Joe"><i>Joe</i><par n="Juan__np"/></e>
-    <e lm="Johann"><i>Johann</i><par n="Juan__np"/></e>
     <e lm="Johnny"><i>Johnny</i><par n="Juan__np"/></e>
     <e lm="Jonathan"><i>Jonathan</i><par n="Juan__np"/></e>
     <e lm="Jon"><i>Jon</i><par n="Juan__np"/></e>
@@ -44321,8 +44233,6 @@
     <e lm="lama"><i>lam</i><par n="autom/a__n"/></e>
     <e lm="lama"><i>lam</i><par n="cas/a__n"/></e>
     <e lm="larghezza"><i>larghezz</i><par n="cas/a__n"/></e>
-    <e lm="Larry"><i>Larry</i><par n="Juan__np"/></e>
-    <e lm="La Spezia"><i>La<b/>Spezia</i><par n="Europa__np"/></e>
     <e lm="Las Vegas"><i>Las<b/>Vegas</i><par n="Maldive__np"/></e>
     <e lm="Lecce"><i>Lecce</i><par n="Europa__np"/></e>
     <e lm="Lee"><i>Lee</i><par n="Díez__np"/></e>
@@ -44344,7 +44254,6 @@
     <e lm="like"><i>like</i><par n="albatros__n"/></e>
     <e lm="Lincoln"><i>Lincoln</i><par n="Díez__np"/></e>
     <e lm="LINEAR"><i>LINEAR</i><par n="BBVA__n"/></e>
-    <e lm="lira"><i>lir</i><par n="cas/a__n"/></e>
     <e lm="live"><i>liv</i><par n="abat/e__n"/></e>
     <e lm="Liverpool"><i>Liverpool</i><par n="Europa__np"/></e>
     <e lm="Loira"><i>Loira</i><par n="Loira__np"/></e>
@@ -44356,7 +44265,6 @@
     <e lm="Lucas"><i>Lucas</i><par n="Díez__np"/></e>
     <e lm="Lucas"><i>Lucas</i><par n="Juan__np"/></e>
     <e lm="Ludovico"><i>Ludovico</i><par n="Díez__np"/></e>
-    <e lm="Ludovico"><i>Ludovico</i><par n="Juan__np"/></e>
     <e lm="Ludwig"><i>Ludwig</i><par n="Díez__np"/></e>
     <e lm="Ludwig"><i>Ludwig</i><par n="Juan__np"/></e>
     <e lm="Luke"><i>Luke</i><par n="Juan__np"/></e>
@@ -44369,13 +44277,11 @@
     <e lm="Manhattan"><i>Manhattan</i><par n="Europa__np"/></e>
     <e lm="Marc"><i>Marc</i><par n="Juan__np"/></e>
     <e lm="Margaret"><i>Margaret</i><par n="María__np"/></e>
-    <e lm="Marie"><i>Marie</i><par n="María__np"/></e>
     <e lm="mar"><i>mar</i><par n="albatros__n"/></e>
     <e lm="Mark"><i>Mark</i><par n="Juan__np"/></e>
     <e lm="Marshall"><i>Marshall</i><par n="Díez__np"/></e>
     <e lm="Martini"><i>Martini</i><par n="Díez__np"/></e>
     <e lm="Martin"><i>Martin</i><par n="Díez__np"/></e>
-    <e lm="Martin"><i>Martin</i><par n="Juan__np"/></e>
     <e lm="martirio"><i>martiri</i><par n="abbagli/o__n"/></e>
     <e lm="Marvel"><i>Marvel</i><par n="Fiat__np"/></e>
     <e lm="Mary"><i>Mary</i><par n="María__np"/></e>
@@ -44386,7 +44292,6 @@
     <e lm="Matt"><i>Matt</i><par n="Juan__np"/></e>
     <e lm="Maurice"><i>Maurice</i><par n="Díez__np"/></e>
     <e lm="Maurice"><i>Maurice</i><par n="Juan__np"/></e>
-    <e lm="Max"><i>Max</i><par n="Juan__np"/></e>
     <e lm="May"><i>May</i><par n="Díez__np"/></e>
     <e lm="MB"><i>MB</i><par n="a.C.__abbr"/></e>
     <e lm="Mediaset"><i>Mediaset</i><par n="Fiat__np"/></e>
@@ -44420,7 +44325,6 @@
     <e lm="murario"><i>murari</i><par n="ampi/o__adj"/></e>
     <e lm="musical"><i>musical</i><par n="albatros__n"/></e>
     <e lm="NASA"><i>NASA</i><par n="TV__n"/></e>
-    <e lm="NATO"><i>NATO</i><par n="TV__n"/></e>
     <e lm="navata"><i>navat</i><par n="cas/a__n"/></e>
     <e lm="NBA"><i>NBA</i><par n="TV__n"/></e>
     <e lm="necessario"><i>necessari</i><par n="abbagli/o__n"/></e>
@@ -44440,10 +44344,8 @@
     <e lm="Nintendo"><i>Nintendo</i><par n="Fiat__np"/></e>
     <e lm="nova"><i>nov</i><par n="cas/a__n"/></e>
     <e lm="Oliver"><i>Oliver</i><par n="Díez__np"/></e>
-    <e lm="Oliver"><i>Oliver</i><par n="Juan__np"/></e>
     <e lm="online"><i>online</i><par n="albatros__n"/></e>
     <e lm="online"><i>online</i><par n="extra__adj"/></e>
-    <e lm="ONU"><i>ONU</i><par n="TV__n"/></e>
     <e lm="OPEC"><i>OPEC</i><par n="TV__n"/></e>
     <e lm="oratorio"><i>oratori</i><par n="abbagli/o__n"/></e>
     <e lm="organigramma"><i>organigramma</i><par n="albatros__n"/></e>
@@ -44460,24 +44362,19 @@
     <e lm="palmarès"><i>palmarès</i><par n="albatros__n"/></e>
     <e lm="panzer"><i>panzer</i><par n="albatros__n"/></e>
     <e lm="Paperino"><i>Paperino</i><par n="Juan__np"/></e>
-    <e lm="parecchio"><i>parecchi</i><par n="ampi/o__adj"/></e>
     <e lm="pausa"><i>paus</i><par n="cas/a__n"/></e>
     <e lm="PCI"><i>PCI</i><par n="BBVA__n"/></e>
     <e lm="performance"><i>performance</i><par n="abilità__n"/></e>
-    <e lm="periferia"><i>periferi</i><par n="cas/a__n"/></e>
     <e lm="Persia"><i>Persia</i><par n="Europa__np"/></e>
     <e lm="Philadelphia"><i>Philadelphia</i><par n="Europa__np"/></e>
     <e lm="Phil"><i>Phil</i><par n="Juan__np"/></e>
     <e lm="Philip"><i>Philip</i><par n="Juan__np"/></e>
     <e lm="picco"><i>picc</i><par n="fung/o__n"/></e>
-    <e lm="Piemonte"><i>Piemonte</i><par n="Afghanistan__np"/></e>
     <e lm="Pier"><i>Pier</i><par n="Juan__np"/></e>
-    <e lm="Pierre"><i>Pierre</i><par n="Juan__np"/></e>
     <e lm="Pieve"><i>Pieve</i><par n="Europa__np"/></e>
     <e lm="pieve"><i>piev</i><par n="abat/e__n"/></e>
     <e lm="pinna"><i>pinn</i><par n="cas/a__n"/></e>
     <e lm="Pittsburgh"><i>Pittsburgh</i><par n="Europa__np"/></e>
-    <e lm="pittura"><i>pittur</i><par n="cas/a__n"/></e>
     <e lm="Platone"><i>Platone</i><par n="Juan__np"/></e>
     <e lm="playoff"><i>playoff</i><par n="albatros__n"/></e>
     <e lm="PlayStation"><i>PlayStation</i><par n="abilità__n"/></e>
@@ -44498,7 +44395,6 @@
     <e lm="punk"><i>punk</i><par n="albatros__n"/></e>
     <e lm="punk"><i>punk</i><par n="extra__adj"/></e>
     <e lm="quarterback"><i>quarterback</i><par n="albatros__n"/></e>
-    <e lm="quartiere"><i>quartier</i><par n="abat/e__n"/></e>
     <e lm="Queen"><i>Queen</i><par n="ABC__np"/></e>
     <e lm="raffigurante"><i>raffigurant</i><par n="albanes/e__adj"/></e>
     <e lm="raffigurante"><i>raffigurant</i><par n="albanes/e__n"/></e>
@@ -44541,7 +44437,6 @@
     <e lm="Rob"><i>Rob</i><par n="Juan__np"/></e>
     <e lm="Roger"><i>Roger</i><par n="Juan__np"/></e>
     <e lm="Roland"><i>Roland</i><par n="Díez__np"/></e>
-    <e lm="Roland"><i>Roland</i><par n="Juan__np"/></e>
     <e lm="Romagna"><i>Romagna</i><par n="Europa__np"/></e>
     <e lm="Ron"><i>Ron</i><par n="Juan__np"/></e>
     <e lm="Ross"><i>Ross</i><par n="Juan__np"/></e>
@@ -44578,7 +44473,6 @@
     <e lm="sequel"><i>sequel</i><par n="albatros__n"/></e>
     <e lm="serbatoio"><i>serbatoi</i><par n="abbagli/o__n"/></e>
     <e lm="server"><i>server</i><par n="albatros__n"/></e>
-    <e lm="sessione"><i>session</i><par n="abbreviazion/e__n"/></e>
     <e lm="set"><i>set</i><par n="albatros__n"/></e>
     <e lm="Sforza"><i>Sforza</i><par n="Díez__np"/></e>
     <e lm="SIDA"><i>SIDA</i><par n="TV__n"/></e>
@@ -44618,7 +44512,6 @@
     <e lm="Steven"><i>Steven</i><par n="Juan__np"/></e>
     <e lm="Stone"><i>Stone</i><par n="Díez__np"/></e>
     <e lm="strage"><i>strag</i><par n="abbreviazion/e__n"/></e>
-    <e lm="striscia"><i>strisci</i><par n="cas/a__n"/></e>
     <e lm="Stuart"><i>Stuart</i><par n="Díez__np"/></e>
     <e lm="suddivisione"><i>suddivision</i><par n="abbreviazion/e__n"/></e>
     <e lm="suffraganea"><i>suffragane</i><par n="cas/a__n"/></e>
@@ -44630,7 +44523,6 @@
     <e lm="Taylor"><i>Taylor</i><par n="Díez__np"/></e>
     <e lm="TB"><i>TB</i><par n="a.C.__abbr"/></e>
     <e lm="Ted"><i>Ted</i><par n="Juan__np"/></e>
-    <e lm="tela"><i>tel</i><par n="cas/a__n"/></e>
     <e lm="Terry"><i>Terry</i><par n="Díez__np"/></e>
     <e lm="Terry"><i>Terry</i><par n="Juan__np"/></e>
     <e lm="TG"><i>TG</i><par n="BBVA__n"/></e>
@@ -44640,14 +44532,11 @@
     <e lm="Todd"><i>Todd</i><par n="Díez__np"/></e>
     <e lm="Tolkien"><i>Tolkien</i><par n="Díez__np"/></e>
     <e lm="Tolosa"><i>Tolosa</i><par n="Europa__np"/></e>
-    <e lm="Tom"><i>Tom</i><par n="Juan__np"/></e>
     <e lm="Tommy"><i>Tommy</i><par n="Juan__np"/></e>
-    <e lm="Tony"><i>Tony</i><par n="Juan__np"/></e>
     <e lm="torretta"><i>torrett</i><par n="cas/a__n"/></e>
     <e lm="tour"><i>tour</i><par n="albatros__n"/></e>
     <e lm="trasferta"><i>trasfert</i><par n="cas/a__n"/></e>
     <e lm="tratta"><i>tratt</i><par n="cas/a__n"/></e>
-    <e lm="Trieste"><i>Trieste</i><par n="Europa__np"/></e>
     <e lm="Tyler"><i>Tyler</i><par n="Díez__np"/></e>
     <e lm="uccisione"><i>uccision</i><par n="abbreviazion/e__n"/></e>
     <e lm="UCI"><i>UCI</i><par n="Fiat__np"/></e>
@@ -44692,9 +44581,7 @@
     <e lm="Wehrmacht"><i>Wehrmacht</i><par n="Milan__np"/></e>
     <e lm="Wells"><i>Wells</i><par n="Díez__np"/></e>
     <e lm="Who"><i>Who</i><par n="ABC__np"/></e>
-    <e lm="Wilhelm"><i>Wilhelm</i><par n="Juan__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Díez__np"/></e>
-    <e lm="Will"><i>Will</i><par n="Juan__np"/></e>
     <e lm="Wilson"><i>Wilson</i><par n="Díez__np"/></e>
     <e lm="Wimbledon"><i>Wimbledon</i><par n="Europa__np"/></e>
     <e lm="Wood"><i>Wood</i><par n="Díez__np"/></e>
