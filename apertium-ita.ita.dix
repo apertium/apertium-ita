@@ -450,6 +450,27 @@
       <e><p><l>rice</l><r>ore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="aggre/ssore__n">
+      <e><p><l>ssori</l><r>ssore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ssore</l><r>ssore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrice</l><r>ssore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrici</l><r>ssore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="difen/sore__n">
+      <e><p><l>sori</l><r>sore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>sore</l><r>sore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrice</l><r>sore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrici</l><r>sore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="opr/essore__n">
+      <e><p><l>essori</l><r>essore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>essore</l><r>essore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>imitrice</l><r>essore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>imitrici</l><r>essore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="infermier/e__n">
       <e><p><l>i</l><r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -479,13 +500,6 @@
     <pardef n="D/r__n">
       <e><p><l>r</l><r>r<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>.ssa</l><r>r<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="aggre/ssore__n">
-      <e><p><l>ssori</l><r>ssore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ssore</l><r>ssore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ditrice</l><r>ssore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ditrici</l><r>ssore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="suicid/a__n">
