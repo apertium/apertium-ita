@@ -28785,7 +28785,6 @@
     <e lm="filosofo"><i>filosof</i><par n="bambin/o__n"/></e>
     <e lm="filtrazione"><i>filtrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="filtro"><i>filtr</i><par n="abbain/o__n"/></e>
-    <e lm="fine"><i>fin</i><par n="albanes/e__n"/></e>
     <e lm="finale"><i>final</i><par n="abat/e__n"/></e>
     <e lm="finanziamento"><i>finanziament</i><par n="abbain/o__n"/></e>
     <e lm="finestra"><i>finestr</i><par n="cas/a__n"/></e>
@@ -29970,7 +29969,7 @@
     <e lm="panorama"><i>panoram</i><par n="autom/a__n"/></e>
     <e lm="pantalone"><i>pantalon</i><par n="abat/e__n"/></e>
     <e lm="papa"><i>pap</i><par n="autom/a__n"/></e>
-    <e lm="Papa"><i>Pap</i><par n="autom/a__n"/></e>
+    <!--<e lm="Papa"><i>Pap</i><par n="autom/a__n"/></e>-->
     <e lm="pappagallo"><i>pappagall</i><par n="abbain/o__n"/></e>
     <e lm="pappagallino"><i>pappagallin</i><par n="bambin/o__n"/></e>
     <e lm="cagnolino"><i>cagnolin</i><par n="bambin/o__n"/></e>
@@ -45763,6 +45762,67 @@
 
     <e lm="amazzone"><i>amazzon</i><par n="abbreviazion/e__n"/></e>
 
+    <e lm="fine"><i>fin</i><par n="abbreviazion/e__n"/></e>
+    <e lm="fine"><i>fin</i><par n="abat/e__n"/></e>
+    <e lm="proprietà"><i>proprietà</i><par n="abilità__n"/></e>
+    <e lm="solidarità"><i>solidarità</i><par n="abilità__n"/></e>
+
+    <e lm="agreste"><i>agrest</i><par n="albanes/e__adj"/></e>
+    <e lm="anteriore"><i>anterior</i><par n="albanes/e__adj"/></e>
+    <e lm="antimafia"><i>antimafi</i><par n="suicid/a__adj"/></e>
+    <e lm="attualizado"><i>attualizad</i><par n="cosiddett/o__adj"/></e>
+    <e lm="autista"><i>autist</i><par n="suicid/a__adj"/></e>
+    <e lm="aziendale"><i>aziendal</i><par n="albanes/e__adj"/></e>
+    <e lm="centralista"><i>centralist</i><par n="suicid/a__adj"/></e>
+    <e lm="complementare"><i>complementar</i><par n="albanes/e__adj"/></e>
+    <e lm="cospicuo"><i>cospicu</i><par n="cosiddett/o__adj"/></e>
+    <e lm="coufficiale"><i>coufficial</i><par n="albanes/e__adj"/></e>
+    <e lm="curriculare"><i>curricular</i><par n="albanes/e__adj"/></e>
+    <e lm="currispondente"><i>currispondent</i><par n="albanes/e__adj"/></e>
+    <e lm="debole"><i>debol</i><par n="albanes/e__adj"/></e>
+    <e lm="episcopale"><i>episcopal</i><par n="albanes/e__adj"/></e>
+    <e lm="escursionista"><i>escursionist</i><par n="suicid/a__adj"/></e>
+    <e lm="estremista"><i>estremist</i><par n="suicid/a__adj"/></e>
+    <e lm="federalista"><i>federalist</i><par n="suicid/a__adj"/></e>
+    <e lm="forestiere"><i>forestier</i><par n="albanes/e__adj"/></e>
+    <e lm="gesuita"><i>gesuit</i><par n="suicid/a__adj"/></e>
+    <e lm="inferiore"><i>inferior</i><par n="albanes/e__adj"/></e>
+    <e lm="linguista"><i>linguist</i><par n="suicid/a__adj"/></e>
+    <e lm="maggiore"><i>maggior</i><par n="albanes/e__adj"/></e>
+    <e lm="morbido"><i>morbid</i><par n="cosiddett/o__adj"/></e>
+    <e lm="occasionale"><i>occasional</i><par n="albanes/e__adj"/></e>
+    <e lm="piacevole"><i>piacevol</i><par n="albanes/e__adj"/></e>
+    <e lm="ponente"><i>ponent</i><par n="albanes/e__adj"/></e>
+    <e lm="professionista"><i>professionist</i><par n="suicid/a__adj"/></e>
+    <e lm="progressista"><i>progressist</i><par n="suicid/a__adj"/></e>
+    <e lm="raffinato"><i>raffinat</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ragionevole"><i>ragionevol</i><par n="albanes/e__adj"/></e>
+    <e lm="sofista"><i>sofist</i><par n="suicid/a__adj"/></e>
+    <e lm="solidale"><i>solidal</i><par n="albanes/e__adj"/></e>
+    <e lm="sperimentare"><i>sperimentar</i><par n="albanes/e__adj"/></e>
+    <e lm="stendardo"><i>stendard</i><par n="cosiddett/o__adj"/></e>
+    <e lm="superiore"><i>superior</i><par n="albanes/e__adj"/></e>
+    <e lm="temporaneo"><i>temporane</i><par n="cosiddett/o__adj"/></e>
+    <e lm="ulteriore"><i>ulterior</i><par n="albanes/e__adj"/></e>
+    <e lm="venturo"><i>ventur</i><par n="cosiddett/o__adj"/></e>
+    <e lm="viola"><i>viol</i><par n="suicid/a__adj"/></e>
+
+    <e lm="cattolico"><i>cattolic</i><par n="tedesc/o__n"/></e>
+    <e lm="fiera"><i>fier</i><par n="cas/a__n"/></e>
+    <e lm="giovanotto"><i>giovanott</i><par n="abbain/o__n"/></e>
+    <e lm="individuazione"><i>individuazion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="intercettazione"><i>intercettazion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="internet"><i>internet</i><par n="albatros__n"/></e>
+    <e lm="invenzione"><i>invenzion</i><par n="abbreviazion/e__n"/></e>
+    <e lm="iugoslavo"><i>iugoslav</i><par n="bambin/o__n"/></e>
+    <e lm="ligure"><i>ligur</i><par n="abbreviazion/e__n"/></e>
+    <e lm="località"><i>località</i><par n="abilità__n"/></e>
+    <e lm="napoletano"><i>napoletan</i><par n="bambin/o__n"/></e>
+    <e lm="proprietà"><i>proprietà</i><par n="abilità__n"/></e>
+    <e lm="registro"><i>registr</i><par n="abbain/o__n"/></e>
+    <e lm="solidarità"><i>solidarità</i><par n="abilità__n"/></e>
+    <e lm="vice"><i>vic</i><par n="abat/e__n"/></e>
+    <e lm="vivente"><i>vivent</i><par n="abbreviazion/e__n"/></e>
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
