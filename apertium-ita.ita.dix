@@ -41347,10 +41347,9 @@
     <e lm="italo-svizzero"><i>italo-svizzer</i><par n="abbandonat/o__adj"/></e>
     <e lm="italoamericano"><i>italoamerican</i><par n="abbandonat/o__adj"/></e>
     <e lm="iterativo"><i>iterativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="iugoslavo"><i>iugoslav</i><par n="abbandonat/o__adj"/></e>
     <e lm="jamesiano"><i>jamesian</i><par n="abbandonat/o__adj"/></e>
     <e lm="jospiniano"><i>jospinian</i><par n="abbandonat/o__adj"/></e>
-    <e lm="jugoslavo"><i>jugoslav</i><par n="abbandonat/o__adj"/></e>
+    <e lm="jugoslavo"><i>jugoslav</i><par n="cosiddett/o__adj"/></e>
     <e lm="juventino"><i>juventin</i><par n="abbandonat/o__adj"/></e>
     <e lm="kafkiano"><i>kafkian</i><par n="abbandonat/o__adj"/></e>
     <e lm="kantiano"><i>kantian</i><par n="abbandonat/o__adj"/></e>
@@ -41359,8 +41358,7 @@
     <e lm="kentuckiano"><i>kentuckian</i><par n="abbandonat/o__adj"/></e>
     <e lm="kenyano"><i>kenyan</i><par n="abbandonat/o__adj"/></e>
     <e lm="keynesiano"><i>keynesian</i><par n="abbandonat/o__adj"/></e>
-    <e lm="kosovaro"><i>kosovar</i><par n="abbandonat/o__adj"/></e>
-    <e lm="kuwaitiano"><i>kuwaitian</i><par n="abbandonat/o__adj"/></e>
+    <e lm="kuwaitiano"><i>kuwaitian</i><par n="cosiddett/o__adj"/></e>
     <e lm="lacero"><i>lacer</i><par n="abbandonat/o__adj"/></e>
     <e lm="lacrimogeno"><i>lacrimogen</i><par n="abbandonat/o__adj"/></e>
     <e lm="lacrimoso"><i>lacrimos</i><par n="abbandonat/o__adj"/></e>
@@ -41383,8 +41381,8 @@
     <e lm="lascivo"><i>lasciv</i><par n="abbandonat/o__adj"/></e>
     <e lm="lasso"><i>lass</i><par n="abbandonat/o__adj"/></e>
     <e lm="lastricato"><i>lastricat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="latino-americano"><i>latino-american</i><par n="abbandonat/o__adj"/></e>
-    <e lm="latinoamericano"><i>latinoamerican</i><par n="abbandonat/o__adj"/></e>
+    <e lm="latino-americano"><i>latino-american</i><par n="cosiddett/o__adj"/></e>
+    <e lm="latinoamericano"><i>latinoamerican</i><par n="cosiddett/o__adj"/></e>
     <e lm="lattiero"><i>lattier</i><par n="abbandonat/o__adj"/></e>
     <e lm="lattiginoso"><i>lattiginos</i><par n="abbandonat/o__adj"/></e>
     <e lm="laureando"><i>laureand</i><par n="abbandonat/o__adj"/></e>
@@ -41406,14 +41404,14 @@
     <e lm="letto"><i>lett</i><par n="abbandonat/o__adj"/></e>
     <e lm="levantino"><i>levantin</i><par n="abbandonat/o__adj"/></e>
     <e lm="lezioso"><i>lezios</i><par n="abbandonat/o__adj"/></e>
-    <e lm="liberiano"><i>liberian</i><par n="abbandonat/o__adj"/></e>
+    <e lm="liberiano"><i>liberian</i><par n="cosiddett/o__adj"/></e>
     <e lm="libertino"><i>libertin</i><par n="abbandonat/o__adj"/></e>
     <e lm="libidinoso"><i>libidinos</i><par n="abbandonat/o__adj"/></e>
     <e lm="licenziato"><i>licenziat</i><par n="abbandonat/o__adj"/></e>
     <e lm="licenzioso"><i>licenzios</i><par n="abbandonat/o__adj"/></e>
     <e lm="lieto"><i>liet</i><par n="abbandonat/o__adj"/></e>
     <e lm="ligneo"><i>ligne</i><par n="abbandonat/o__adj"/></e>
-    <e lm="lillipuziano"><i>lillipuzian</i><par n="abbandonat/o__adj"/></e>
+    <e lm="lillipuziano"><i>lillipuzian</i><par n="cosiddett/o__adj"/></e>
     <e lm="limaccioso"><i>limaccios</i><par n="abbandonat/o__adj"/></e>
     <e lm="limitativo"><i>limitativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="limitrofo"><i>limitrof</i><par n="abbandonat/o__adj"/></e>
@@ -41441,7 +41439,7 @@
     <e lm="lunato"><i>lunat</i><par n="abbandonat/o__adj"/></e>
     <e lm="lurido"><i>lurid</i><par n="abbandonat/o__adj"/></e>
     <e lm="lusinghiero"><i>lusinghier</i><par n="abbandonat/o__adj"/></e>
-    <e lm="lusitano"><i>lusitan</i><par n="abbandonat/o__adj"/></e>
+    <e lm="lusitano"><i>lusitan</i><par n="cosiddett/o__adj"/></e>
     <e lm="lussuoso"><i>lussuos</i><par n="abbandonat/o__adj"/></e>
     <e lm="lussurioso"><i>lussurios</i><par n="abbandonat/o__adj"/></e>
     <e lm="lustro"><i>lustr</i><par n="abbandonat/o__adj"/></e>
