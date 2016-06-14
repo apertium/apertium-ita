@@ -18449,7 +18449,7 @@
     <e lm="tifone"><i>tifon</i><par n="abat/e__n"/></e>
     <e lm="certame"><i>certam</i><par n="abat/e__n"/></e>
     <e lm="riciclatore"><i>riciclat</i><par n="agricolt/ore__n"/></e>
-    <e lm="femore"><i>fem</i><par n="agricolt/ore__n"/></e>
+    <e lm="femore"><i>fem</i><par n="abat/e__n"/></e>
     <e lm="primattore"><i>primatt</i><par n="agricolt/ore__n"/></e>
     <e lm="vicecancelliere"><i>vicecancellier</i><par n="abat/e__n"/></e>
     <e lm="scrivente"><i>scrivent</i><par n="abat/e__n"/></e>
@@ -18480,7 +18480,7 @@
     <e lm="batticuore"><i>batticuor</i><par n="abat/e__n"/></e>
     <e lm="espositore"><i>esposit</i><par n="agricolt/ore__n"/></e>
     <e lm="faccione"><i>faccion</i><par n="abat/e__n"/></e>
-    <e lm="bagliore"><i>bagli</i><par n="agricolt/ore__n"/></e>
+    <e lm="bagliore"><i>bagli</i><par n="abat/e__n"/></e>
     <e lm="cannocchiale"><i>cannocchial</i><par n="abat/e__n"/></e>
     <e lm="rione"><i>rion</i><par n="abat/e__n"/></e>
     <e lm="camice"><i>camic</i><par n="abat/e__n"/></e>
@@ -18518,7 +18518,7 @@
     <e lm="rinnovatore"><i>rinnovat</i><par n="agricolt/ore__n"/></e>
     <e lm="fulminante"><i>fulminant</i><par n="abat/e__n"/></e>
     <e lm="falcone"><i>falcon</i><par n="abat/e__n"/></e>
-    <e lm="squallore"><i>squall</i><par n="agricolt/ore__n"/></e>
+    <e lm="squallore"><i>squall</i><par n="abat/e__n"/></e>
     <e lm="avvelenatore"><i>avvelenat</i><par n="agricolt/ore__n"/></e>
     <e lm="torace"><i>torac</i><par n="abat/e__n"/></e>
     <e lm="neurotrasmettitore"><i>neurotrasmettit</i><par n="agricolt/ore__n"/></e>
@@ -18848,7 +18848,7 @@
     <e lm="pupazzone"><i>pupazzon</i><par n="abat/e__n"/></e>
     <e lm="terrore"><i>terror</i><par n="abat/e__n"/></e>
     <e lm="gonfiore"><i>gonfior</i><par n="abat/e__n"/></e>
-    <e lm="confessore"><i>confess</i><par n="agricolt/ore__n"/></e>
+    <e lm="confessore"><i>confess</i><par n="abat/e__n"/></e>
     <e lm="racchettone"><i>racchetton</i><par n="abat/e__n"/></e>
     <e lm="esigente"><i>esigent</i><par n="abat/e__n"/></e>
     <e lm="ligure"><i>ligur</i><par n="abat/e__n"/></e>
@@ -18884,7 +18884,7 @@
     <e lm="rivenditore"><i>rivendit</i><par n="agricolt/ore__n"/></e>
     <e lm="picconatore"><i>picconat</i><par n="agricolt/ore__n"/></e>
     <e lm="edile"><i>edil</i><par n="abat/e__n"/></e>
-    <e lm="calderone"><i>calderon</i><par n="agricolt/ore__n"/></e>
+    <e lm="calderone"><i>calderon</i><par n="abat/e__n"/></e>
     <e lm="controvalore"><i>controvalor</i><par n="abat/e__n"/></e>
     <e lm="ispiratore"><i>ispirat</i><par n="agricolt/ore__n"/></e>
     <e lm="aeroportuale"><i>aeroportual</i><par n="abat/e__n"/></e>
@@ -18912,7 +18912,7 @@
     <e lm="castrone"><i>castron</i><par n="abat/e__n"/></e>
     <e lm="tendone"><i>tendon</i><par n="abat/e__n"/></e>
     <e lm="neutrone"><i>neutron</i><par n="abat/e__n"/></e>
-    <e lm="diffusore"><i>diffus</i><par n="agricolt/ore__n"/></e>
+    <e lm="diffusore"><i>diffus</i><par n="abat/e__n"/></e>
     <e lm="vate"><i>vat</i><par n="abat/e__n"/></e>
     <e lm="truffatore"><i>truffat</i><par n="agricolt/ore__n"/></e>
     <e lm="disonore"><i>disonor</i><par n="abat/e__n"/></e>
@@ -18945,7 +18945,7 @@
     <e lm="rocciatore"><i>rocciat</i><par n="agricolt/ore__n"/></e>
     <e lm="paralume"><i>paralum</i><par n="abat/e__n"/></e>
     <e lm="biellese"><i>bielles</i><par n="albanes/e__n"/></e>
-    <e lm="contraltare"><i>contraltar</i><par n="agricolt/ore__n"/></e>
+    <e lm="contraltare"><i>contraltar</i><par n="abat/e__n"/></e>
     <e lm="cosceneggiatore"><i>cosceneggiator</i><par n="abat/e__n"/></e>
     <e lm="paciere"><i>pacier</i><par n="abat/e__n"/></e>
     <e lm="soprintendente"><i>soprintendent</i><par n="abat/e__n"/></e>
@@ -19055,8 +19055,8 @@
     <e lm="assediante"><i>assediant</i><par n="abat/e__n"/></e>
     <e lm="solleone"><i>solleon</i><par n="abat/e__n"/></e>
     <e lm="esattore"><i>esatt</i><par n="agricolt/ore__n"/></e>
-    <e lm="neopresidente"><i>neopresident</i><par n="agricolt/ore__n"/></e>
-    <e lm="cortisone"><i>cortison</i><par n="agricolt/ore__n"/></e>
+    <e lm="neopresidente"><i>neopresident</i><par n="abat/e__n"/></e>
+    <e lm="cortisone"><i>cortison</i><par n="abat/e__n"/></e>
     <e lm="processore"><i>processor</i><par n="abat/e__n"/></e>
     <e lm="inserviente"><i>inservient</i><par n="abat/e__n"/></e>
     <e lm="gavettone"><i>gavetton</i><par n="abat/e__n"/></e>
@@ -19381,11 +19381,11 @@
     <e lm="viennese"><i>viennes</i><par n="albanes/e__n"/></e>
     <e lm="protettore"><i>protett</i><par n="agricolt/ore__n"/></e>
     <e lm="tirolese"><i>tiroles</i><par n="albanes/e__n"/></e>
-    <e lm="duellante"><i>duellant</i><par n="agricolt/ore__n"/></e>
-    <e lm="usciere"><i>uscier</i><par n="agricolt/ore__n"/></e>
+    <e lm="duellante"><i>duellant</i><par n="abat/e__n"/></e>
+    <e lm="usciere"><i>uscier</i><par n="abat/e__n"/></e>
     <e lm="cantautore"><i>cantaut</i><par n="agricolt/ore__n"/></e>
     <e lm="soccorritore"><i>soccorrit</i><par n="agricolt/ore__n"/></e>
-    <e lm="grembiule"><i>grembiul</i><par n="agricolt/ore__n"/></e>
+    <e lm="grembiule"><i>grembiul</i><par n="abat/e__n"/></e>
     <e lm="disturbatore"><i>disturbat</i><par n="agricolt/ore__n"/></e>
     <e lm="fortunale"><i>fortunal</i><par n="abat/e__n"/></e>
     <e lm="sollevatore"><i>sollevat</i><par n="agricolt/ore__n"/></e>
@@ -19783,7 +19783,7 @@
     <e lm="frangente"><i>frangent</i><par n="abat/e__n"/></e>
     <e lm="rifornitore"><i>rifornit</i><par n="agricolt/ore__n"/></e>
     <e lm="informatore"><i>informat</i><par n="agricolt/ore__n"/></e>
-    <e lm="mediocre"><i>mediocr</i><par n="agricolt/ore__n"/></e>
+    <e lm="mediocre"><i>mediocr</i><par n="abat/e__n"/></e>
     <e lm="provocatore"><i>provocat</i><par n="agricolt/ore__n"/></e>
     <e lm="persuasore"><i>persuasor</i><par n="abat/e__n"/></e>
     <e lm="settentrione"><i>settentrion</i><par n="abat/e__n"/></e>
