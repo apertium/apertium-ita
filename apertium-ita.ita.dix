@@ -25338,7 +25338,7 @@
     <e lm="neolaureato"><i>neolaureat</i><par n="abbain/o__n"/></e>
     <e lm="neoliberismo"><i>neoliberism</i><par n="abbain/o__n"/></e>
     <e lm="neologismo"><i>neologism</i><par n="abbain/o__n"/></e>
-    <e lm="neoministro"><i>neoministr</i><par n="abbain/o__n"/></e>
+    <e lm="neoministro"><i>neoministr</i><par n="bambin/o__n"/></e>
     <e lm="neonatologo"><i>neonatolog</i><par n="tedesc/o__n"/></e>
     <e lm="neonazismo"><i>neonazism</i><par n="abbain/o__n"/></e>
     <e lm="neopatentato"><i>neopatentat</i><par n="abbain/o__n"/></e>
@@ -30674,6 +30674,7 @@
     <e lm="segnale"><i>segnal</i><par n="abat/e__n"/></e>
     <e lm="segreto"><i>segret</i><par n="abbain/o__n"/></e>
     <e lm="segretario"><i>segretari</i><par n="segretari/o__n"/></e>
+    <e lm="sottosegretario"><i>sottosegretari</i><par n="segretari/o__n"/></e>
     <e lm="selce"><i>selc</i><par n="abat/e__n"/></e>
     <e lm="selezione"><i>selezion</i><par n="abbreviazion/e__n"/></e>
     <e lm="semantica"><i>semantic</i><par n="tasc/a__n"/></e>
