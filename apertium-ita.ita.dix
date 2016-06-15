@@ -11765,6 +11765,13 @@
       <e><p><l>mila</l><r>mila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
+    <pardef n="centocinquant/a__num">
+      <e r="LR"><p><l>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>'</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l><a/>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>amila</l><r>amila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
     <pardef n="centocinquanta__num">
       <e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>mila</l><r>mila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -11947,11 +11954,6 @@
       <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l></l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="cinquant/a__num">
-      <e><p><l>'</l><r>a<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e><p><l>a</l><r>a<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="qualcosa__prn">
@@ -18891,7 +18893,7 @@
     <e lm="moderatore"><i>moderat</i><par n="agricolt/ore__n"/></e>
     <e lm="doganiere"><i>doganier</i><par n="abat/e__n"/></e>
     <e lm="negoziante"><i>negoziant</i><par n="abat/e__n"/></e>
-    <e lm="difensore"><i>difensor</i><par n="abat/e__n"/></e>
+    <e lm="difensore"><i>difen</i><par n="difen/sore__n"/></e>
     <e lm="luccicante"><i>luccicant</i><par n="abat/e__n"/></e>
     <e lm="islandese"><i>islandes</i><par n="albanes/e__n"/></e>
     <e lm="esecutore"><i>esecut</i><par n="agricolt/ore__n"/></e>
@@ -18921,7 +18923,7 @@
     <e lm="newyorkese"><i>newyorkes</i><par n="albanes/e__n"/></e>
     <e lm="parmense"><i>parmens</i><par n="abat/e__n"/></e>
     <e lm="provveditore"><i>provvedit</i><par n="agricolt/ore__n"/></e>
-    <e lm="oppressore"><i>oppressor</i><par n="abat/e__n"/></e>
+    <e lm="oppressore"><i>oppr</i><par n="opr/essore__n"/></e>
     <e lm="respiratore"><i>respirat</i><par n="agricolt/ore__n"/></e>
     <e lm="vogatore"><i>vogat</i><par n="agricolt/ore__n"/></e>
     <e lm="millantatore"><i>millantat</i><par n="agricolt/ore__n"/></e>
@@ -19767,7 +19769,7 @@
     <e lm="bolide"><i>bolid</i><par n="abat/e__n"/></e>
     <e lm="suonatore"><i>suonat</i><par n="agricolt/ore__n"/></e>
     <e lm="innocente"><i>innocent</i><par n="abat/e__n"/></e>
-    <e lm="repressore"><i>repressor</i><par n="abat/e__n"/></e>
+    <e lm="repressore"><i>repr</i><par n="opr/essore__n"/></e>
     <e lm="brontolone"><i>brontolon</i><par n="abat/e__n"/></e>
     <e lm="pattuglione"><i>pattuglion</i><par n="abat/e__n"/></e>
     <e lm="arrampicatore"><i>arrampicat</i><par n="agricolt/ore__n"/></e>
@@ -19777,7 +19779,7 @@
     <e lm="informatore"><i>informat</i><par n="agricolt/ore__n"/></e>
     <e lm="mediocre"><i>mediocr</i><par n="abat/e__n"/></e>
     <e lm="provocatore"><i>provocat</i><par n="agricolt/ore__n"/></e>
-    <e lm="persuasore"><i>persuasor</i><par n="abat/e__n"/></e>
+    <e lm="persuasore"><i>persua</i><par n="difen/sore__n"/></e>
     <e lm="settentrione"><i>settentrion</i><par n="abat/e__n"/></e>
     <e lm="depuratore"><i>depurator</i><par n="abat/e__n"/></e>
     <e lm="affine"><i>affin</i><par n="abat/e__n"/></e>
@@ -19849,7 +19851,7 @@
     <e lm="monzese"><i>monzes</i><par n="abat/e__n"/></e>
     <e lm="lampione"><i>lampion</i><par n="abat/e__n"/></e>
     <e lm="paramilitare"><i>paramilitar</i><par n="abat/e__n"/></e>
-    <e lm="estensore"><i>estensor</i><par n="abat/e__n"/></e>
+    <e lm="estensore"><i>esten</i><par n="difen/sore__n"/></e>
     <e lm="incisore"><i>incisor</i><par n="abat/e__n"/></e>
     <e lm="calabrese"><i>calabres</i><par n="albanes/e__n"/></e>
     <e lm="liberatore"><i>liberat</i><par n="agricolt/ore__n"/></e>
@@ -35469,7 +35471,7 @@
     <e lm="ventisette"><i>ventisette</i><par n="centocinquanta__num"/></e>
     <e lm="ventotto"><i>ventotto</i><par n="centocinquanta__num"/></e>
     <e lm="ventinove"><i>ventinove</i><par n="centocinquanta__num"/></e>
-    <e lm="trenta"><i>trenta</i><par n="centocinquanta__num"/></e>
+    <e lm="trenta"><i>trent</i><par n="centocinquant/a__num"/></e>
     <e lm="trentadue"><i>trentadue</i><par n="centocinquanta__num"/></e>
     <e lm="trentatré"><i>trentatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="trentaquattro"><i>trentaquattro</i><par n="centocinquanta__num"/></e>
@@ -35478,7 +35480,7 @@
     <e lm="trentasette"><i>trentasette</i><par n="centocinquanta__num"/></e>
     <e lm="trentotto"><i>trentotto</i><par n="centocinquanta__num"/></e>
     <e lm="trentanove"><i>trentanove</i><par n="centocinquanta__num"/></e>
-    <e lm="quaranta"><i>quaranta</i><par n="centocinquanta__num"/></e>
+    <e lm="quaranta"><i>quarant</i><par n="centocinquant/a__num"/></e>
     <e lm="quarantadue"><i>quarantadue</i><par n="centocinquanta__num"/></e>
     <e lm="quarantatré"><i>quarantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="quarantaquattro"><i>quarantaquattro</i><par n="centocinquanta__num"/></e>
@@ -35487,7 +35489,7 @@
     <e lm="quarantasette"><i>quarantasette</i><par n="centocinquanta__num"/></e>
     <e lm="quarantotto"><i>quarantotto</i><par n="centocinquanta__num"/></e>
     <e lm="quarantanove"><i>quarantanove</i><par n="centocinquanta__num"/></e>
-    <e lm="cinquanta"><i>cinquanta</i><par n="centocinquanta__num"/></e>
+    <e lm="cinquanta"><i>cinquant</i><par n="centocinquant/a__num"/></e>
     <e lm="cinquantadue"><i>cinquantadue</i><par n="centocinquanta__num"/></e>
     <e lm="cinquantatré"><i>cinquantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="cinquantaquattro"><i>cinquantaquattro</i><par n="centocinquanta__num"/></e>
@@ -35496,7 +35498,7 @@
     <e lm="cinquantasette"><i>cinquantasette</i><par n="centocinquanta__num"/></e>
     <e lm="cinquantotto"><i>cinquantotto</i><par n="centocinquanta__num"/></e>
     <e lm="cinquantanove"><i>cinquantanove</i><par n="centocinquanta__num"/></e>
-    <e lm="sessanta"><i>sessanta</i><par n="centocinquanta__num"/></e>
+    <e lm="sessanta"><i>sessant</i><par n="centocinquant/a__num"/></e>
     <e lm="sessantadue"><i>sessantadue</i><par n="centocinquanta__num"/></e>
     <e lm="sessantatré"><i>sessantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="sessantaquattro"><i>sessantaquattro</i><par n="centocinquanta__num"/></e>
@@ -35505,7 +35507,7 @@
     <e lm="sessantasette"><i>sessantasette</i><par n="centocinquanta__num"/></e>
     <e lm="sessantotto"><i>sessantotto</i><par n="centocinquanta__num"/></e>
     <e lm="sessantanove"><i>sessantanove</i><par n="centocinquanta__num"/></e>
-    <e lm="settanta"><i>settanta</i><par n="centocinquanta__num"/></e>
+    <e lm="settanta"><i>settant</i><par n="centocinquant/a__num"/></e>
     <e lm="settantadue"><i>settantadue</i><par n="centocinquanta__num"/></e>
     <e lm="settantatré"><i>settantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="settantaquattro"><i>settantaquattro</i><par n="centocinquanta__num"/></e>
@@ -35514,7 +35516,7 @@
     <e lm="settantasette"><i>settantasette</i><par n="centocinquanta__num"/></e>
     <e lm="settantotto"><i>settantotto</i><par n="centocinquanta__num"/></e>
     <e lm="settantanove"><i>settantanove</i><par n="centocinquanta__num"/></e>
-    <e lm="ottanta"><i>ottanta</i><par n="centocinquanta__num"/></e>
+    <e lm="ottanta"><i>ottant</i><par n="centocinquant/a__num"/></e>
     <e lm="ottantadue"><i>ottantadue</i><par n="centocinquanta__num"/></e>
     <e lm="ottantatré"><i>ottantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="ottantaquattro"><i>ottantaquattro</i><par n="centocinquanta__num"/></e>
@@ -35523,7 +35525,7 @@
     <e lm="ottantasette"><i>ottantasette</i><par n="centocinquanta__num"/></e>
     <e lm="ottantotto"><i>ottantotto</i><par n="centocinquanta__num"/></e>
     <e lm="ottantanove"><i>ottantanove</i><par n="centocinquanta__num"/></e>
-    <e lm="novanta"><i>novanta</i><par n="centocinquanta__num"/></e>
+    <e lm="novanta"><i>novant</i><par n="centocinquant/a__num"/></e>
     <e lm="novantadue"><i>novantadue</i><par n="centocinquanta__num"/></e>
     <e lm="novantatré"><i>novantatr</i><par n="cinquantatr/é__num"/></e>
     <e lm="novantaquattro"><i>novantaquattro</i><par n="centocinquanta__num"/></e>
