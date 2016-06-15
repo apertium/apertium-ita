@@ -427,10 +427,6 @@
       <e><p><l>a</l><r>a<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
-    <pardef n="bancarott/a__n">
-      <e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
-    </pardef>
-    
     <pardef n="asma__n">
       <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
@@ -11202,10 +11198,6 @@
     <pardef n="lesbic/a__adj">
       <e><p><l>he</l><r>a<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>a<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
-    
-    <pardef n="bancarott/a__adj">
-      <e><p><l>a</l><r>a<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="abbandonat/o__adj">
@@ -35656,11 +35648,12 @@
     <e lm="quale"><i>qual</i><par n="qual/e__prn"/></e>
     <e lm="qualcosa"><i>qualcosa</i><par n="qualcosa__prn"/></e>
     <e lm="qualcuno"><i>qualcun</i><par n="qualcun/o__prn"/></e>
-    <e lm="qualsiasi"><i>qualsiasi</i><par n="qualsivoglia__prn"/></e>
-    <e lm="qualsiasia"><i>qualsiasia</i><par n="qualsivoglia__prn"/></e>
-    <e lm="qualsivoglia"><i>qualsivoglia</i><par n="qualsivoglia__prn"/></e>
-    <e lm="qualunque"><i>qualunque</i><par n="qualsivoglia__prn"/></e>
+    <e lm="qualsiasi"><i>qualsiasi</i><par n="extra__adj"/></e>
+    <e lm="qualsiasia"><i>qualsiasia</i><par n="extra__adj"/></e>
+    <e lm="qualsivoglia"><i>qualsivoglia</i><par n="extra__adj"/></e>
+    <e lm="qualunque"><i>qualunque</i><par n="extra__adj"/></e>
     <e lm="chiunque"><i>chiunque</i><par n="qualsivoglia__prn"/></e>
+    <e lm="qualsiasi"><i>qualsiasi</i><par n="qualsivoglia__prn"/></e>
     <e lm="quanto"><i>quant</i><par n="quant/o__prn"/></e>
     <e lm="quello"><i>quell</i><par n="quell/o__prn"/></e>
     <e lm="questo"><i>quest</i><par n="quell/o__prn"/></e>
@@ -43902,7 +43895,7 @@
     <e lm="ospitare"><i>ospit</i><par n="abbacin/are__vblex"/></e>
     <e lm="raffigurare"><i>raffigur</i><par n="abbacin/are__vblex"/></e>
     <e lm="riprendere"><i>ripre</i><par n="acce/ndere__vblex"/></e>
-    <e lm="esordire"><i>esord</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="esordire"><i>esord</i><par n="abbell/ire__vblex"/></e> <!-- error en verbix: el paradigma es abbell/ire -->
     <e lm="recare"><i>rec</i><par n="abbarbic/are__vblex"/></e>
     <e lm="abbacare"><i>abbac</i><par n="abbarbic/are__vblex"/></e>
     <e lm="abbancare"><i>abbanc</i><par n="abbarbic/are__vblex"/></e>
@@ -45821,6 +45814,12 @@
     <e lm="solidarità"><i>solidarità</i><par n="abilità__n"/></e>
     <e lm="vice"><i>vic</i><par n="abat/e__n"/></e>
     <e lm="vivente"><i>vivent</i><par n="abbreviazion/e__n"/></e>
+
+    <e lm="autoinorgoglire"><i>autoinorgogl</i><par n="abbell/ire__vblex"/></e>
+    <e lm="disobbedire"><i>disobbed</i><par n="abbell/ire__vblex"/></e>
+    <e lm="disubbidire"><i>disubbid</i><par n="abbell/ire__vblex"/></e>
+
+
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
     <e lm="Albert Glynn" a="prompsit"><i>Albert Glynn</i><par n="Juan__np"/></e>
