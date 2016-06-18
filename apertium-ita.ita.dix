@@ -13609,7 +13609,6 @@
     <e lm="Thomas"><i>Thomas</i><par n="Juan__np"/></e>
     <e lm="Afghanistan"><i>Afghanistan</i><par n="Afghanistan__np"/></e>
     <e lm="ABC"><i>ABC</i><par n="ABC__np"/></e>
-    <e lm="FIAT"><i>FIAT</i><par n="ABC__np"/></e>
     <e lm="Abad"><i>Abad</i><par n="Díez__np"/></e>
     <e lm="Abel"><i>Abel</i><par n="Juan__np"/></e>
     <e lm="Adam"><i>Adam</i><par n="Juan__np"/></e>
@@ -14816,7 +14815,6 @@
     <e lm="Carminuccio"><i>Carminuccio</i><par n="Juan__np"/></e>
     <e lm="Giuliano"><i>Giuliano</i><par n="Juan__np"/></e>
     <e lm="Amburgo"><i>Amburgo</i><par n="Afghanistan__np"/></e>
-    <e lm="Canada"><i>Canada</i><par n="Europa__np"/></e>
     <e lm="Venera"><i>Venera</i><par n="María__np"/></e>
     <e lm="Landa"><i>Landa</i><par n="María__np"/></e>
     <e lm="Etna"><i>Etna</i><par n="Europa__np"/></e>
@@ -15846,7 +15844,6 @@
     <e lm="Oschiri"><i>Oschiri</i><par n="Afghanistan__np"/></e>
     <e lm="Padru"><i>Padru</i><par n="Afghanistan__np"/></e>
     <e lm="Palau"><i>Lu<b/>Palau</i><par n="Afghanistan__np"/></e>
-    <e lm="Sant'Antonio di Gallura"><i>Sant'<b/>Antonio<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
     <e lm="Santa Teresa di Gallura"><i>Santa<b/>Teresa<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
     <e lm="San Teodoro"><i>San<b/>Teodoro</i><par n="Afghanistan__np"/></e>
     <e lm="Telti"><i>Telti</i><par n="Afghanistan__np"/></e>
@@ -43523,6 +43520,7 @@
     <e r="LR" lm="Padru (corsu/català)"><p><l>Patru</l><r>Padru</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Palau (corsu/català)"><p><l>Lu<b/>Palau</l><r>Palau</r></p><par n="Afghanistan__np" /></e>
     <e lm="Sant'Antonio di Gallura"><i>Sant'Antonio<b/>di<b/>Gallura</i><par n="Afghanistan__np"/></e>
+    <e r="LR" lm="Sant'Antonio di Gallura"><p><l>Sant'<b/>Antonio<b/>di<b/>Gallura</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np"/></e>
     <e r="LR" lm="Sant'Antonio di Gallura (sardu)"><p><l>Santu<b/>Antoni'e<b/>Calanzanus</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
     <e r="LR" lm="Santu Antoni'e Calanzanus (corsu/català)"><p><l>Sant'Antoni</l><r>Sant'Antonio<b/>di<b/>Gallura</r></p><par n="Afghanistan__np" /></e>
     <e lm="Santa Teresa Gallura"><i>Santa<b/>Teresa<b/>Gallura</i><par n="Europa__np"/></e>
@@ -44516,7 +44514,6 @@
     <e lm="raffigurante"><i>raffigurant</i><par n="albanes/e__n"/></e>
     <e lm="raffigurato"><i>raffigurat</i><par n="cosiddett/o__adj"/></e>
     <e lm="Rai"><i>Rai</i><par n="TV__n"/></e>
-    <e lm="RAI"><i>RAI</i><par n="TV__n"/></e>
     <e lm="Ralph"><i>Ralph</i><par n="Juan__np"/></e>
     <e lm="ranking"><i>ranking</i><par n="albatros__n"/></e>
     <e lm="rap"><i>rap</i><par n="albatros__n"/></e>
@@ -44660,7 +44657,6 @@
     <e lm="UFC"><i>UFC</i><par n="TV__n"/></e>
     <e lm="UK"><i>UK</i><par n="Afghanistan__np"/></e>
     <e lm="Unesco"><i>Unesco</i><par n="TV__n"/></e>
-    <e lm="UNESCO"><i>UNESCO</i><par n="TV__n"/></e>
     <e lm="Universal"><i>Universal</i><par n="Fiat__np"/></e>
     <e lm="universitario"><i>universitari</i><par n="ampi/o__adj"/></e>
     <e lm="universitario"><i>universitari</i><par n="segretari/o__n"/></e>
