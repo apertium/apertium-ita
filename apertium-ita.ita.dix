@@ -23966,7 +23966,7 @@
     <e lm="cofanetto"><i>cofanett</i><par n="abbain/o__n"/></e>
     <e lm="cofano"><i>cofan</i><par n="abbain/o__n"/></e>
     <e lm="cognato"><i>cognat</i><par n="bambin/o__n"/></e>
-    <e lm="coimputato"><i>coimputat</i><par n="abbain/o__n"/></e>
+    <e lm="coimputato"><i>coimputat</i><par n="bambin/o__n"/></e>
     <e lm="coindagato"><i>coindagat</i><par n="abbain/o__n"/></e>
     <e lm="coinquilino"><i>coinquilin</i><par n="abbain/o__n"/></e>
     <e lm="coinvolgimento"><i>coinvolgiment</i><par n="abbain/o__n"/></e>
@@ -24818,7 +24818,7 @@
     <e lm="importo"><i>import</i><par n="abbain/o__n"/></e>
     <e lm="impoverimento"><i>impoveriment</i><par n="abbain/o__n"/></e>
     <e lm="impunito"><i>impunit</i><par n="abbain/o__n"/></e>
-    <e lm="imputato"><i>imputat</i><par n="abbain/o__n"/></e>
+    <e lm="imputato"><i>imputat</i><par n="bambin/o__n"/></e>
     <e lm="inadempimento"><i>inadempiment</i><par n="abbain/o__n"/></e>
     <e lm="inasprimento"><i>inaspriment</i><par n="abbain/o__n"/></e>
     <e lm="inaudito"><i>inaudit</i><par n="abbain/o__n"/></e>
@@ -26425,7 +26425,7 @@
     <e lm="sismografo"><i>sismograf</i><par n="abbain/o__n"/></e>
     <e lm="sismologo"><i>sismolog</i><par n="tedesc/o__n"/></e>
     <e lm="sistemino"><i>sistemin</i><par n="abbain/o__n"/></e>
-    <e lm="slavo"><i>slav</i><par n="abbain/o__n"/></e>
+    <e lm="slavo"><i>slav</i><par n="bambin/o__n"/></e>
     <e lm="slittamento"><i>slittament</i><par n="abbain/o__n"/></e>
     <e lm="slittino"><i>slittin</i><par n="abbain/o__n"/></e>
     <e lm="sloveno"><i>sloven</i><par n="bambin/o__n"/></e>
@@ -26966,7 +26966,7 @@
     <e lm="velluto"><i>vellut</i><par n="abbain/o__n"/></e>
     <e lm="velodromo"><i>velodrom</i><par n="abbain/o__n"/></e>
     <e lm="venerato"><i>venerat</i><par n="abbain/o__n"/></e>
-    <e lm="veneto"><i>venet</i><par n="abbain/o__n"/></e>
+    <e lm="veneto"><i>venet</i><par n="bambin/o__n"/></e>
     <e lm="veneziano"><i>venezian</i><par n="bambin/o__n"/></e>
     <e lm="venticello"><i>venticell</i><par n="abbain/o__n"/></e>
     <e lm="ventricolo"><i>ventricol</i><par n="abbain/o__n"/></e>
@@ -42397,7 +42397,7 @@
     <e lm="sito"><i>sit</i><par n="abbandonat/o__adj"/></e>
     <e lm="slanciato"><i>slanciat</i><par n="abbandonat/o__adj"/></e>
     <e lm="slavato"><i>slavat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="slavo"><i>slav</i><par n="abbandonat/o__adj"/></e>
+    <e lm="slavo"><i>slav</i><par n="cosiddett/o__adj"/></e>
     <e lm="slegato"><i>slegat</i><par n="abbandonat/o__adj"/></e>
     <e lm="smaccato"><i>smaccat</i><par n="abbandonat/o__adj"/></e>
     <e lm="smanceroso"><i>smanceros</i><par n="abbandonat/o__adj"/></e>
