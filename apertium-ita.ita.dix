@@ -26348,7 +26348,7 @@
     <e lm="seppellimento"><i>seppelliment</i><par n="abbain/o__n"/></e>
     <e lm="sequestro"><i>sequestr</i><par n="abbain/o__n"/></e>
     <e lm="serbo"><i>serb</i><par n="bambin/o__n"/></e>
-    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="bambin/o__n"/></e>
+    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="tedesc/o__n"/></e>
     <e lm="serbo-croato"><i>serbo-croat</i><par n="bambin/o__n"/></e>
     <e lm="servilismo"><i>servilism</i><par n="abbain/o__n"/></e>
     <e lm="servizietto"><i>serviziett</i><par n="abbain/o__n"/></e>
@@ -27830,7 +27830,6 @@
     <e lm="castoro"><i>castor</i><par n="abbain/o__n"/></e>
     <e lm="castrazione"><i>castrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="catalano"><i>catalan</i><par n="bambin/o__n"/></e>
-    <e lm="turco"><i>turc</i><par n="bambin/o__n"/></e>
     <e lm="catalizzatore"><i>catalizzator</i><par n="abat/e__n"/></e>
     <e lm="catalogo"><i>catalog</i><par n="fung/o__n"/></e>
     <e lm="catamarano"><i>catamaran</i><par n="abbain/o__n"/></e>
@@ -28388,10 +28387,10 @@
     <e lm="direttore"><i>dirett</i><par n="agricolt/ore__n"/></e>
     <e lm="direttrice"><i>direttric</i><par n="abbreviazion/e__n"/></e>
     <e lm="direzione"><i>direzion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="direzione nazionale"><i>direzione<b/>nazionale</i><par n="pallacanestro__n"/></e>
-    <e lm="direzione nazionale"><p><l>direzioni<b/>nazionali</l><r>direzione<b/>nazionale</r></p><par n="virgolette__n"/></e>
-    <e lm="direzione generale"><i>direzione<b/>generale</i><par n="pallacanestro__n"/></e>
-    <e lm="direzione generale"><p><l>direzioni<b/>generali</l><r>direzione<b/>generale</r></p><par n="virgolette__n"/></e>
+    <e lm="direzione nazionale"><p><l>direzione<b/>nazionale</l><r>direzione<b/>nazionale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="direzione nazionale"><p><l>direzioni<b/>nazionali</l><r>direzione<b/>nazionale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="direzione generale"><p><l>direzione<b/>generale</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="direzione generale"><p><l>direzioni<b/>generali</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="dirigente"><i>dirigent</i><par n="albanes/e__n"/></e>
     <e lm="dirigibile"><i>dirigibil</i><par n="abat/e__n"/></e>
     <e lm="diritto"><i>diritt</i><par n="abbain/o__n"/></e>
@@ -28641,14 +28640,12 @@
     <e lm="espulsione"><i>espulsion</i><par n="abbreviazion/e__n"/></e>
     <e lm="essenza"><i>essenz</i><par n="cas/a__n"/></e>
     <e lm="essere"><i>esser</i><par n="abat/e__n"/></e>
-    <e lm="est"><i>est</i><par n="albatros__n"/></e>
     <e lm="estate"><i>estat</i><par n="abbreviazion/e__n"/></e>
     <e lm="estensione"><i>estension</i><par n="abbreviazion/e__n"/></e>
     <e lm="estetica"><i>estetic</i><par n="tasc/a__n"/></e>
     <e lm="estintore"><i>estintor</i><par n="abat/e__n"/></e>
     <e lm="estinzione"><i>estinzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="estrazione"><i>estrazion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="estremista"><i>estremist</i><par n="autom/a__n"/></e>
     <e lm="estremità"><i>estremità</i><par n="abilità__n"/></e>
     <e lm="estremo"><i>estrem</i><par n="abbain/o__n"/></e>
     <e lm="eternità"><i>eternità</i><par n="abilità__n"/></e>
@@ -29024,7 +29021,6 @@
     <e lm="grazia"><i>grazi</i><par n="cas/a__n"/></e>
     <e lm="grido"><i>grid</i><par n="budell/o__n"/></e>
     <e lm="grifone"><i>grifon</i><par n="abat/e__n"/></e>
-    <e lm="grossista"><i>grossist</i><par n="autom/a__n"/></e>
     <e lm="grossolaneria"><i>grossolaneri</i><par n="cas/a__n"/></e>
     <e lm="grotta"><i>grott</i><par n="cas/a__n"/></e>
     <e lm="gru"><i>gru</i><par n="abilità__n"/></e>
@@ -29042,13 +29038,12 @@
     <e lm="guglia"><i>gugli</i><par n="cas/a__n"/></e>
     <e lm="guinzaglio"><i>guinzagli</i><par n="abbagli/o__n"/></e>
     <e lm="gusto"><i>gust</i><par n="abbain/o__n"/></e>
-<!--    
     <e lm="immobile"><i>immobil</i><par n="abat/e__n"/></e>
     <e lm="incendiario"><i>incendiari</i><par n="abbagli/o__n"/></e>
     <e lm="indio"><i>indio</i><par n="affaire__n"/></e>
     <e lm="individuazione"><i>individuazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="iniziale"><i>inizial</i><par n="albanes/e__n"/></e>
-    <e lm="input"><i>input</i><par n="advisor__n"/></e>
+    <!-- <e lm="input"><i>input</i><par n="advisor__n"/></e> -->
     <e lm="insegnante"><i>insegnant</i><par n="albanes/e__n"/></e>
     <e lm="insolito"><i>insolito</i><par n="ace__n"/></e>
     <e lm="intellettuale"><i>intellettual</i><par n="albanes/e__n"/></e>
@@ -29056,9 +29051,9 @@
     <e lm="intercettazione"><i>intercettazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="intraprendenza"><i>intraprendenz</i><par n="cas/a__n"/></e>
     <e lm="invenzione"><i>invenzion</i><par n="abbreviazion/e__n"/></e>
-    <e lm="iugoslavo"><i>iugoslav</i><par n="algerin/o__n"/></e>
+    <e lm="iugoslavo"><i>iugoslav</i><par n="bambin/o__n"/></e>
     <e lm="kilowattora"><i>kilowattor</i><par n="kilowattor/a__n"/></e>
-    <e lm="kuwaitiano"><i>kuwaitian</i><par n="algerin/o__n"/></e>   -->
+    <e lm="kuwaitiano"><i>kuwaitian</i><par n="bambin/o__n"/></e>
     <e lm="harem"><i>harem</i><par n="albatros__n"/></e>
     <e lm="hobby"><i>hobb</i><par n="hipp/y__n"/></e>
     <e lm="habitat"><i>habitat</i><par n="albatros__n"/></e>
@@ -32355,7 +32350,6 @@
     <e lm="contraccettivo"><i>contraccettiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="contraddittorio"><i>contraddittori</i><par n="ampi/o__adj"/></e>
     <e lm="contrapposto"><i>contrappost</i><par n="cosiddett/o__adj"/></e>
-    <e lm="contrario"><i>contrari</i><par n="tecnic/o__adj"/></e>
     <e lm="contrattuale"><i>contrattual</i><par n="fin/e__adj"/></e>
     <e lm="contribuente"><i>contribuent</i><par n="albanes/e__adj"/></e>
     <e lm="controverso"><i>controvers</i><par n="abbandonat/o__adj"/></e>
@@ -35714,7 +35708,7 @@
     <e lm="di fronte a"><i>di fronte<b/></i><par n="/a__pr"/></e>
     <e lm="fino a"><i>fino<b/></i><par n="/a__pr"/></e>
     <e lm="dentro"><i>dentro</i><par n="accanto__pr"/></e>
-    <e lm="dentro"><i>dentro<b/></i><par n="/di__pr"/></e>
+    <e lm="dentro di"><i>dentro<b/></i><par n="/di__pr"/></e>
     <e lm="dietro"><i>dietro</i><par n="accanto__pr"/></e>
     <e lm="dietro a"><i>dietro<b/></i><par n="/a__pr"/></e>
     <e lm="dinanzi a"><i>dinanzi<b/></i><par n="/a__pr"/></e>
@@ -36939,7 +36933,7 @@
     <e lm="automatico"><i>automatic</i><par n="tecnic/o__adj"/></e>
     <e lm="avvisato"><i>avvisat</i><par n="abbandonat/o__adj"/></e>
     <e lm="bonario"><i>bonari</i><par n="ampi/o__adj"/></e>
-    <e lm="brusco"><i>brusc</i><par n="abbandonat/o__adj"/></e>
+    <e lm="brusco"><i>brusc</i><par n="tecnic/o__adj"/></e>
     <e lm="comodo"><i>comod</i><par n="abbandonat/o__adj"/></e>
     <e lm="completo"><i>complet</i><par n="abbandonat/o__adj"/></e>
     <e lm="concreto"><i>concret</i><par n="abbandonat/o__adj"/></e>
@@ -36951,7 +36945,7 @@
     <e lm="espresso"><i>espress</i><par n="abbandonat/o__adj"/></e>
     <e lm="fortunato"><i>fortunat</i><par n="abbandonat/o__adj"/></e>
     <e lm="forzoso"><i>forzos</i><par n="abbandonat/o__adj"/></e>
-    <e lm="franco"><i>franc</i><par n="abbandonat/o__adj"/></e>
+    <e lm="franco"><i>franc</i><par n="tecnic/o__adj"/></e>
     <e lm="grato"><i>grat</i><par n="abbandonat/o__adj"/></e>
     <e lm="gratuito"><i>gratuit</i><par n="abbandonat/o__adj"/></e>
     <e lm="immediato"><i>immediat</i><par n="abbandonat/o__adj"/></e>
@@ -36988,7 +36982,6 @@
     <e lm="progressivo"><i>progressiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="proprio"><i>propri</i><par n="ampi/o__adj"/></e>
     <e lm="psicologico"><i>psicologic</i><par n="tecnic/o__adj"/></e>
-    <e lm="reciproco"><i>reciproc</i><par n="abbandonat/o__adj"/></e>
     <e lm="ripetuto"><i>ripetut</i><par n="abbandonat/o__adj"/></e>
     <e lm="rispettivo"><i>rispettiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="scherzoso"><i>scherzos</i><par n="abbandonat/o__adj"/></e>
@@ -37621,7 +37614,6 @@
     <e lm="prenotazione"><i>prenotazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="prepotenza"><i>prepotenz</i><par n="cas/a__n"/></e>
     <e lm="professione"><i>profession</i><par n="abbreviazion/e__n"/></e>
-    <e lm="profeta"><i>profet</i><par n="autom/a__n"/></e>
     <e lm="prontuario"><i>prontuari</i><par n="abbagli/o__n"/></e>
     <e lm="propensione"><i>propension</i><par n="abbreviazion/e__n"/></e>
     <e lm="proverbio"><i>proverbi</i><par n="abbagli/o__n"/></e>
@@ -38096,7 +38088,6 @@
     <e lm="soap"><i>soap</i><par n="abilità__n"/></e>
     <e lm="soap-opera"><i>soap-opera</i><par n="abilità__n"/></e>
     <e lm="societa'"><i>societa'</i><par n="abilità__n"/></e>
-    <e lm="soprano"><i>soprano</i><par n="abilità__n"/></e>
     <e lm="sottospecie"><i>sottospecie</i><par n="abilità__n"/></e>
     <e lm="soubrette"><i>soubrette</i><par n="abilità__n"/></e>
     <e lm="spa"><i>spa</i><par n="abilità__n"/></e>
@@ -42337,7 +42328,6 @@
     <e lm="sequestrato"><i>sequestrat</i><par n="abbandonat/o__adj"/></e>
     <e lm="serbo-kosovaro"><i>serbo-kosovar</i><par n="abbandonat/o__adj"/></e>
     <e lm="serbo"><i>serb</i><par n="abbandonat/o__adj"/></e>
-    <e lm="serbo-bosniaco"><i>serbo-bosniac</i><par n="abbandonat/o__adj"/></e>
     <e lm="serbo-croato"><i>serbo-croat</i><par n="abbandonat/o__adj"/></e>
     <e lm="serioso"><i>serios</i><par n="abbandonat/o__adj"/></e>
     <e lm="serpentino"><i>serpentin</i><par n="abbandonat/o__adj"/></e>
@@ -43247,7 +43237,6 @@
     <e lm="maneggio"><i>maneggi</i><par n="abbagli/o__n"/></e>
     <e lm="maniera"><i>manier</i><par n="autom/a__n"/></e>
     <e lm="mannia"><i>manni</i><par n="cas/a__n"/></e>
-    <e lm="mano"><i>man</i><par n="sopran/o__n"/></e>
     <e lm="massaio"><i>massai</i><par n="abbagli/o__n"/></e>
     <e lm="mese"><i>mes</i><par n="abat/e__n"/></e>
     <e lm="monarchico"><i>monarchic</i><par n="fung/o__n"/></e>
@@ -43262,7 +43251,6 @@
     <e lm="paia"><i>pai</i><par n="autom/a__n"/></e>
     <e lm="parlata"><i>parlat</i><par n="cas/a__n"/></e>
     <e lm="parola"><i>parol</i><par n="autom/a__n"/></e>
-    <e lm="patriarca"><i>patriarc</i><par n="cas/a__n"/></e>
     <e lm="paura"><i>paur</i><par n="autom/a__n"/></e>
     <e lm="periferia"><i>periferi</i><par n="cas/a__n"/></e>
     <e lm="pia"><i>pi</i><par n="cas/a__n"/></e>
