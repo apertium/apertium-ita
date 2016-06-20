@@ -11218,6 +11218,7 @@
       <e><p><l>e</l><r>o<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+
     <pardef n="ampi/o__adj">
       <e><p><l>o</l><r>o<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>a</l><r>o<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -18445,7 +18446,6 @@
     <e lm="vicecancelliere"><i>vicecancellier</i><par n="abat/e__n"/></e>
     <e lm="scrivente"><i>scrivent</i><par n="abat/e__n"/></e>
     <e lm="cenone"><i>cenon</i><par n="abat/e__n"/></e>
-    <e lm="predecessore"><i>predecess</i><par n="agricolt/ore__n"/></e>
     <e lm="livore"><i>livor</i><par n="abat/e__n"/></e>
     <e lm="pensatore"><i>pensat</i><par n="agricolt/ore__n"/></e>
     <e lm="gattone"><i>gatton</i><par n="abat/e__n"/></e>
@@ -19733,7 +19733,7 @@
     <e lm="agitatore"><i>agitat</i><par n="agricolt/ore__n"/></e>
     <e lm="rimorchiatore"><i>rimorchiat</i><par n="agricolt/ore__n"/></e>
     <e lm="cassiere"><i>cassier</i><par n="abat/e__n"/></e>
-    <e lm="predecessore"><i>precedessor</i><par n="abat/e__n"/></e>
+    <e lm="predecessore"><i>precedessor</i><par n="abat/e__n"/></e> <!-- FIXME -->
     <e lm="treppiede"><i>treppied</i><par n="abat/e__n"/></e>
     <e lm="colle"><i>coll</i><par n="abat/e__n"/></e>
     <e lm="cofondatore"><i>cofondat</i><par n="agricolt/ore__n"/></e>
@@ -20480,14 +20480,12 @@
 
     <e lm="persino"><i>persino</i><par n="ieri__adv"/></e>
     <e lm="finanza"><i>finanz</i><par n="cas/a__n"/></e>
-    <e lm="cosiddetto"><i>cosiddett</i><par n="cosiddett/o__adj"/></e>
     <e lm="bonus"><i>bonus</i><par n="albatros__n"/></e>
     <e lm="bisognare"><i>bisogn</i><par n="bisogn/are__vbmod"/></e>
     <e lm="tipologia"><i>tipologi</i><par n="cas/a__n"/></e>
     <e lm="timore"><i>timor</i><par n="abat/e__n"/></e>
     <e lm="squilibrio"><i>squilibr</i><par n="marina/io__n"/></e>
     <e lm="semestrale"><i>semestral</i><par n="fin/e__adj"/></e>
-    <e lm="scorso"><i>scors</i><par n="cosiddett/o__adj"/></e>
     <e lm="scoglio"><i>scogl</i><par n="marina/io__n"/></e>
     <e r="LR" lm="dire pronta a"><i>d</i><par n="d/ire__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e>
 <!--    
@@ -20588,7 +20586,6 @@
 
     <e lm="fissare"><i>fiss</i><par n="abbacin/are__vblex"/></e>
     <e lm="sborsare"><i>sbors</i><par n="abbacin/are__vblex"/></e>
-    <e lm="fisso"><i>fiss</i><par n="cosiddett/o__adj"/></e>
     <e lm="dunque"><i>dunque</i><par n="siccome__cnjadv"/></e>
     <e lm="siccome"><i>dunque</i><par n="siccome__cnjadv"/></e>
     <e lm="comprensibile"><i>comprensibil</i><par n="fin/e__adj"/></e>
@@ -20790,7 +20787,6 @@
     <e lm="zarista"><i>zarist</i><par n="suicid/a__adj"/></e>
 
     <e lm="ribadito"><i>ribadit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="respinto"><i>respint</i><par n="cosiddett/o__adj"/></e>	    
     <e lm="Tav" c="Treno (ad) Alta Velocità"><i>Tav</i><par n="BBVA__n"/></e>
     <e lm="Sla" c="Sclerosi Laterale Amiotrofica"><i>Sla</i><par n="TV__n"/></e>
     <e lm="Shane"><i>Shane</i><par n="Juan__np"/></e>
@@ -22669,7 +22665,6 @@
     <e lm="introvabile"><i>introvabil</i><par n="fin/e__adj"/></e>
     <e lm="ebete"><i>ebet</i><par n="fin/e__adj"/></e>
     <e lm="bilingue"><i>bilingu</i><par n="fin/e__adj"/></e>
-    <e lm="semestrale"><i>semestral</i><par n="albanes/e__adj"/></e>
     <e lm="eminente"><i>eminent</i><par n="fin/e__adj"/></e>
     <e lm="extraparlamentare"><i>extraparlamentar</i><par n="fin/e__adj"/></e>
     <e lm="dilettante"><i>dilettant</i><par n="fin/e__adj"/></e>
@@ -23321,7 +23316,6 @@
     <e lm="africano"><i>african</i><par n="bambin/o__n"/></e>
     <e lm="sudafricano"><i>sudafrican</i><par n="bambin/o__n"/></e>
     <e lm="afroamericano"><i>afroamerican</i><par n="bambin/o__n"/></e>
-    <e lm="afroamericano"><i>afroamerican</i><par n="cosiddett/o__adj"/></e>
     <e lm="aggiramento"><i>aggirament</i><par n="abbain/o__n"/></e>
     <e lm="aggiustamento"><i>aggiustament</i><par n="abbain/o__n"/></e>
     <e lm="agglomerato"><i>agglomerat</i><par n="abbain/o__n"/></e>
@@ -23403,9 +23397,7 @@
     <e lm="anglicano"><i>anglican</i><par n="bambin/o__n"/></e>
     <e lm="anglicismo"><i>anglicism</i><par n="abbain/o__n"/></e>
     <e lm="angloamericano"><i>angloamerican</i><par n="bambin/o__n"/></e>
-    <e lm="angloamericano"><i>angloamerican</i><par n="cosiddett/o__adj"/></e>
     <e lm="anglofilo"><i>anglofil</i><par n="bambin/o__n"/></e>
-    <e lm="anglofilo"><i>anglofil</i><par n="cosiddett/o__adj"/></e>
     <e lm="angolano"><i>angolan</i><par n="bambin/o__n"/></e>
     <e lm="angoletto"><i>angolett</i><par n="abbain/o__n"/></e>
     <e lm="angolino"><i>angolin</i><par n="abbain/o__n"/></e>
@@ -24951,20 +24943,14 @@
     <e lm="istriano"><i>istrian</i><par n="bambin/o__n"/></e>
     <e lm="istrionismo"><i>istrionism</i><par n="abbain/o__n"/></e>
     <e lm="italoamericano"><i>italoamerican</i><par n="bambin/o__n"/></e>
-    <e lm="italoamericano"><i>italoamerican</i><par n="cosiddett/o__adj"/></e>
     <e lm="jugoslavo"><i>jugoslav</i><par n="bambin/o__n"/></e>
     <e lm="jugoslavo"><i>jugoslav</i><par n="cosiddett/o__adj"/></e>
-    <e lm="georgiano"><i>georgian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="germano"><i>german</i><par n="cosiddett/o__adj"/></e>
     <e lm="juventino"><i>juventin</i><par n="abbain/o__n"/></e>
     <e lm="kazako"><i>kazak</i><par n="bambin/o__n"/></e>
     <e lm="keniano"><i>kenian</i><par n="bambin/o__n"/></e>
     <e lm="kenyano"><i>kenyan</i><par n="bambin/o__n"/></e>
     <e lm="keynesiano"><i>keynesian</i><par n="bambin/o__n"/></e>
     <e lm="kazako"><i>kazak</i><par n="cosiddett/o__adj"/></e>
-    <e lm="keniano"><i>kenian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="kenyano"><i>kenyan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="keynesiano"><i>keynesian</i><par n="cosiddett/o__adj"/></e>
     <e lm="khomeinismo"><i>khomeinism</i><par n="abbain/o__n"/></e>
     <e lm="kosovaro"><i>kosovar</i><par n="bambin/o__n"/></e>
     <e lm="kuwaitiano"><i>kuwaitian</i><par n="bambin/o__n"/></e>
@@ -25369,11 +25355,8 @@
     <e lm="nonsenso"><i>nonsens</i><par n="abbain/o__n"/></e>
     <e lm="nordafricano"><i>nordafrican</i><par n="bambin/o__n"/></e>
     <e lm="nordcoreano"><i>nordcorean</i><par n="bambin/o__n"/></e>
-    <e lm="nordafricano"><i>nordafrican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="nordcoreano"><i>nordcorean</i><par n="cosiddett/o__adj"/></e>
     <e lm="nordico"><i>nordic</i><par n="tecnic/o__adj"/></e>
     <e lm="normanno"><i>normann</i><par n="bambin/o__n"/></e>
-    <e lm="normanno"><i>normann</i><par n="cosiddett/o__adj"/></e>
     <e lm="normografo"><i>normograf</i><par n="abbain/o__n"/></e>
     <e lm="nostrano"><i>nostran</i><par n="abbain/o__n"/></e>
     <e lm="nottambulo"><i>nottambul</i><par n="bambin/o__n"/></e>
@@ -25436,7 +25419,6 @@
     <e lm="orsetto"><i>orsett</i><par n="abbain/o__n"/></e>
     <e lm="orticello"><i>orticell</i><par n="abbain/o__n"/></e>
     <e lm="ortodosso"><i>ortodoss</i><par n="bambin/o__n"/></e>
-    <e lm="ortodosso"><i>ortodoss</i><par n="cosiddett/o__adj"/></e>
     <e lm="ortolano"><i>ortolan</i><par n="abbain/o__n"/></e>
     <e lm="oscuramento"><i>oscurament</i><par n="abbain/o__n"/></e>
     <e lm="ospedaliero"><i>ospedalier</i><par n="abbain/o__n"/></e>
@@ -26198,7 +26180,6 @@
     <e lm="sanscrito"><i>sanscrit</i><par n="abbain/o__n"/></e>
     <e lm="santino"><i>santin</i><par n="abbain/o__n"/></e>
     <e lm="saraceno"><i>saracen</i><par n="abbain/o__n"/></e>
-    <e lm="sardo"><i>sard</i><par n="abbain/o__n"/></e>
     <e lm="sarto"><i>sart</i><par n="abbain/o__n"/></e>
     <e lm="sasso"><i>sass</i><par n="abbain/o__n"/></e>
     <e lm="sassofono"><i>sassofon</i><par n="abbain/o__n"/></e>
@@ -26630,10 +26611,7 @@
     <e lm="succhiotto"><i>succhiott</i><par n="abbain/o__n"/></e>
     <e lm="sudamericano"><i>sudamerican</i><par n="bambin/o__n"/></e>
     <e lm="sudcoreano"><i>sudcorean</i><par n="bambin/o__n"/></e>
-    <e lm="sudamericano"><i>sudamerican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sudcoreano"><i>sudcorean</i><par n="cosiddett/o__adj"/></e>
     <e lm="nordamericano"><i>nordamerican</i><par n="bambin/o__n"/></e>
-    <e lm="nordamericano"><i>nordamerican</i><par n="cosiddett/o__adj"/></e>
     <e lm="suddito"><i>suddit</i><par n="bambin/o__n"/></e>
     <e lm="suggello"><i>suggell</i><par n="abbain/o__n"/></e>
     <e lm="suggestivo"><i>suggestiv</i><par n="abbain/o__n"/></e>
@@ -27036,7 +27014,6 @@
     <e lm="vulcanologo"><i>vulcanolog</i><par n="tedesc/o__n"/></e>
     <e lm="watusso"><i>watuss</i><par n="abbain/o__n"/></e>
     <e lm="xenofobo"><i>xenofob</i><par n="bambin/o__n"/></e>
-    <e lm="xenofobo"><i>xenofob</i><par n="cosiddett/o__adj"/></e>
     <e lm="xenotrapianto"><i>xenotrapiant</i><par n="abbain/o__n"/></e>
     <e lm="yuppismo"><i>yuppism</i><par n="abbain/o__n"/></e>
     <e lm="zainetto"><i>zainett</i><par n="abbain/o__n"/></e>
@@ -27116,7 +27093,6 @@
     <e lm="album"><i>album</i><par n="albatros__n"/></e>
     <e lm="alcalinità"><i>alcalinità</i><par n="abilità__n"/></e>
     <e lm="alchimia"><i>alchimi</i><par n="cas/a__n"/></e>
-    <e lm="alchimista"><i>alchimist</i><par n="eremit/a__n"/></e>
     <e lm="alcol"><i>alcol</i><par n="albatros__n"/></e>
     <e lm="alcolismo"><i>alcolism</i><par n="abbain/o__n"/></e>
     <e lm="alcool"><i>alcool</i><par n="albatros__n"/></e>
@@ -27464,7 +27440,7 @@
     <e lm="avidità"><i>avidità</i><par n="abilità__n"/></e>
     <e lm="avorio"><i>avori</i><par n="abbagli/o__n"/></e>
     <e lm="avverbio"><i>avverbi</i><par n="abbagli/o__n"/></e>
-    <e lm="avversario"><i>avversari</i><par n="bambin/o__n"/></e>
+    <e lm="avversario"><i>avversari</i><par n="segretari/o__n"/></e>
     <e lm="avversione"><i>avversion</i><par n="abbreviazion/e__n"/></e>
     <e lm="avvertimento"><i>avvertiment</i><par n="abbain/o__n"/></e>
     <e lm="avvio"><i>avvi</i><par n="abbain/o__n"/></e>
@@ -27917,7 +27893,6 @@
     <e lm="chirurgo"><i>chirurg</i><par n="tedesc/o__n"/></e>
     <e lm="chirurgia"><i>chirurgi</i><par n="cas/a__n"/></e>
     <e lm="chitarra"><i>chitarr</i><par n="cas/a__n"/></e>
-    <e lm="chitarrista"><i>chitarrist</i><par n="eremit/a__n"/></e>
     <e lm="chiusura"><i>chiusur</i><par n="cas/a__n"/></e>
     <e lm="cianuro"><i>cianur</i><par n="abbain/o__n"/></e>
     <e lm="ciarla"><i>ciarl</i><par n="cas/a__n"/></e>
@@ -28701,7 +28676,7 @@
     <e lm="falco"><i>falc</i><par n="fung/o__n"/></e>
     <e lm="fallo"><i>fall</i><par n="abbain/o__n"/></e>
     <e lm="fallimento"><i>falliment</i><par n="abbain/o__n"/></e>
-    <e lm="fame"><i>fam</i><par n="cas/a__n"/></e>
+    <e lm="fama"><i>fam</i><par n="cas/a__n"/></e>
     <e lm="fame"><i>fam</i><par n="abbreviazion/e__n"/></e>
     <e lm="famiglia"><i>famigli</i><par n="cas/a__n"/></e>
     <e lm="fanatismo"><i>fanatism</i><par n="abbain/o__n"/></e>
@@ -28718,7 +28693,6 @@
     <e lm="farsa"><i>fars</i><par n="cas/a__n"/></e>
     <e lm="fase"><i>fas</i><par n="abbreviazion/e__n"/></e>
     <e lm="fascicolo"><i>fascicol</i><par n="abbain/o__n"/></e>
-    <e lm="fascista"><i>fascist</i><par n="eremit/a__n"/></e>
     <e lm="fata"><i>fat</i><par n="cas/a__n"/></e>
     <e lm="fatalismo"><i>fatalism</i><par n="abbain/o__n"/></e>
     <e lm="fatto"><i>fatt</i><par n="abbain/o__n"/></e>
@@ -28806,7 +28780,6 @@
     <e lm="folclore"><i>folclor</i><par n="abat/e__n"/></e>
     <e lm="fomentatore"><i>fomentat</i><par n="agricolt/ore__n"/></e>
     <e lm="fondo"><i>fond</i><par n="abbain/o__n"/></e>
-    <e lm="fondamentalista"><i>fondamentalist</i><par n="eremit/a__n"/></e>
     <e lm="fondatore"><i>fondat</i><par n="agricolt/ore__n"/></e>
     <e lm="fondazione"><i>fondazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="fonte"><i>font</i><par n="abbreviazion/e__n"/></e>
@@ -28844,7 +28817,6 @@
     <e lm="francese"><i>frances</i><par n="albanes/e__n"/></e>
     <e lm="franchising"><i>franchising</i><par n="albatros__n"/></e>
     <e lm="franchismo"><i>franchism</i><par n="abbain/o__n"/></e>
-    <e lm="franchista"><i>franchist</i><par n="eremit/a__n"/></e>
     <e lm="frase"><i>fras</i><par n="abbreviazion/e__n"/></e>
     <e lm="frate"><i>frat</i><par n="abat/e__n"/></e>
     <e lm="fratello"><i>fratell</i><par n="abbain/o__n"/></e>
@@ -28858,7 +28830,6 @@
     <e lm="frigorifero"><i>frigorifer</i><par n="abbain/o__n"/></e>
     <e lm="frizione"><i>frizion</i><par n="abbreviazion/e__n"/></e>
     <e lm="frode"><i>frod</i><par n="abbreviazion/e__n"/></e>
-    <e lm="fronte"><i>front</i><par n="albanes/e__n"/></e>
     <e lm="frontiera"><i>frontier</i><par n="cas/a__n"/></e>
     <e lm="frumento"><i>frument</i><par n="abbain/o__n"/></e>
     <e lm="frutta"><i>frutt</i><par n="cas/a__n"/></e>
@@ -28997,7 +28968,6 @@
     <e lm="gol"><i>gol</i><par n="albatros__n"/></e>
     <e lm="golf"><i>golf</i><par n="albatros__n"/></e>
     <e lm="golfo"><i>golf</i><par n="abbain/o__n"/></e>
-    <e lm="golpista"><i>golpist</i><par n="eremit/a__n"/></e>
     <e lm="gomito"><i>gomit</i><par n="abbain/o__n"/></e>
     <e lm="gomma"><i>gomm</i><par n="cas/a__n"/></e>
     <e lm="gomma da masticare"><i>gomm</i><par n="cas/a__n"/><p><l><b/>da<b/>masticare</l><r><g><b/>da<b/>masticare</g></r></p></e>
@@ -29848,7 +29818,6 @@
     <e lm="opzione"><i>opzion</i><par n="abbreviazion/e__n"/></e>
     <e lm="secessione"><i>secession</i><par n="abbreviazion/e__n"/></e>
     <e lm="annessione"><i>annession</i><par n="abbreviazion/e__n"/></e>
-    <e lm="legame"><i>legam</i><par n="agricolt/ore__n"/></e>
     <e lm="ora"><i>or</i><par n="cas/a__n"/></e>
     <e lm="testimonianza"><i>testimonianz</i><par n="cas/a__n"/></e>
     <e lm="alternativa"><i>alternativ</i><par n="cas/a__n"/></e>
@@ -29913,7 +29882,6 @@
     <e lm="pacchetto"><i>pacchett</i><par n="abbain/o__n"/></e>
     <e lm="pacificazione"><i>pacificazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="pacifismo"><i>pacifism</i><par n="abbain/o__n"/></e>
-    <e lm="pacifista"><i>pacifist</i><par n="eremit/a__n"/></e>
     <e lm="padre"><i>padr</i><par n="abat/e__n"/></e>
     <e lm="padrino"><i>padrin</i><par n="abbain/o__n"/></e>
     <e lm="padrone"><i>padron</i><par n="infermier/e__n"/></e>
@@ -30546,8 +30514,6 @@
     <e lm="sadismo"><i>sadism</i><par n="abbain/o__n"/></e>
     <e lm="saggio"><i>sagg</i><par n="sagg/io__n"/></e>
     <e lm="svolta"><i>rivolt</i><par n="cas/a__n"/></e>
-<!--
-    <e lm="saggio"><i>saggi</i><par n="abbagli/o__n"/></e>-->
     <e lm="sale"><i>sal</i><par n="abat/e__n"/></e>
     <e lm="sala"><i>sal</i><par n="cas/a__n"/></e>
     <e lm="salame"><i>salam</i><par n="abat/e__n"/></e>
@@ -32030,12 +31996,10 @@
     <e lm="abbronzato"><i>abbronzat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbonato"><i>abbonat</i><par n="abbandonat/o__adj"/></e>
     <e lm="abbondante"><i>abbonda</i><par n="fin/e__adj"/></e>
-    <e lm="abbondante"><i>abbondant</i><par n="albanes/e__adj"/></e>
     <e lm="abile"><i>abil</i><par n="fin/e__adj"/></e>
     <e lm="abituale"><i>abitual</i><par n="fin/e__adj"/></e>
     <e lm="abituato"><i>abituat</i><par n="abbandonat/o__adj"/></e>
     <e lm="diverso"><i>divers</i><par n="abbandonat/o__adj"/></e>
-    <e lm="successivo"><i>successiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="accademico"><i>accademic</i><par n="tecnic/o__adj"/></e>
     <e lm="igienico"><i>igienic</i><par n="tecnic/o__adj"/></e>
     <e lm="sporco"><i>sporc</i><par n="tecnic/o__adj"/></e>
@@ -32061,16 +32025,12 @@
     <e lm="adriatico"><i>adriatic</i><par n="tecnic/o__adj"/></e>
     <e lm="adulatore"><i>adulat</i><par n="accentrat/ore__adj"/></e>
     <e lm="adulto"><i>adult</i><par n="abbandonat/o__adj"/></e>
-    <e lm="adultero"><i>adulter</i><par n="cosiddett/o__adj"/></e>
     <e lm="aerobico"><i>aerobic</i><par n="tecnic/o__adj"/></e>
     <e lm="aerodinamico"><i>aerodinamic</i><par n="tecnic/o__adj"/></e>
     <e lm="aeronautico"><i>aeronautic</i><par n="tecnic/o__adj"/></e>
     <e lm="affabile"><i>affabil</i><par n="fin/e__adj"/></e>
     <e lm="affamato"><i>affamat</i><par n="abbandonat/o__adj"/></e>
     <e lm="affascinante"><i>affascina</i><par n="fin/e__adj"/></e>
-    <e lm="affascinante"><i>affascinant</i><par n="albanes/e__adj"/></e>
-    <e lm="affermativo"><i>affermativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="affettivo"><i>affettiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="affettuoso"><i>affettuos</i><par n="abbandonat/o__adj"/></e>
     <e lm="affilato"><i>affilat</i><par n="abbandonat/o__adj"/></e>
     <e lm="afrodisiaco"><i>afrodisiac</i><par n="tecnic/o__adj"/></e>
@@ -32078,28 +32038,22 @@
     <e lm="agile"><i>agil</i><par n="fin/e__adj"/></e>
     <e lm="agricolo"><i>agricol</i><par n="abbandonat/o__adj"/></e>
     <e lm="albanese"><i>albanes</i><par n="albanes/e__adj"/></e>
-    <e lm="albino"><i>albin</i><par n="cosiddett/o__adj"/></e>
     <e lm="alcalino"><i>alcalin</i><par n="abbandonat/o__adj"/></e>
     <e lm="alcolico"><i>alcolic</i><par n="tecnic/o__adj"/></e>
     <e lm="alfabetico"><i>alfabetic</i><par n="tecnic/o__adj"/></e>
-    <e lm="algerino"><i>algerin</i><par n="cosiddett/o__adj"/></e>
     <e lm="alicantino"><i>alicantin</i><par n="cosiddett/o__adj"/></e>
     <e lm="alimentare"><i>alimentar</i><par n="fin/e__adj"/></e>
     <e lm="alleato"><i>alleat</i><par n="abbandonat/o__adj"/></e>
     <e lm="allergico"><i>allergic</i><par n="tecnic/o__adj"/></e>
-    <e lm="alpino"><i>alpin</i><par n="cosiddett/o__adj"/></e>
     <e lm="alto"><i>alt</i><par n="abbandonat/o__adj"/></e>
-    <e lm="alternato"><i>alternat</i><par n="cosiddett/o__adj"/></e>
     <e lm="altro"><i>altr</i><par n="tropp/o__adj"/></e>
     <e lm="amante"><i>ama</i><par n="fin/e__adj"/></e>
-    <e lm="amante"><i>amant</i><par n="albanes/e__adj"/></e>
     <e lm="ambientale"><i>ambiental</i><par n="fin/e__adj"/></e>
     <e lm="ambiente"><i>ambient</i><par n="albanes/e__adj"/></e>
     <e lm="ambizioso"><i>ambizios</i><par n="abbandonat/o__adj"/></e>
     <e lm="americano"><i>american</i><par n="abbandonat/o__adj"/></e>
     <e lm="amico"><i>amic</i><par n="tecnic/o__adj"/></e>
     <e lm="ammalato"><i>ammalat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="amministrativo"><i>amministrativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="ammirevole"><i>ammirevol</i><par n="fin/e__adj"/></e>
     <e lm="amorale"><i>amoral</i><par n="fin/e__adj"/></e>
     <e lm="ampio"><i>ampi</i><par n="ampi/o__adj"/></e>
@@ -32112,13 +32066,11 @@
     <e lm="andaluso"><i>andalus</i><par n="cosiddett/o__adj"/></e>
     <e lm="anemico"><i>anemic</i><par n="tecnic/o__adj"/></e>
     <e lm="anfibio"><i>anfibi</i><par n="ampi/o__adj"/></e>
-    <e lm="anglicano"><i>anglican</i><par n="cosiddett/o__adj"/></e>
     <e lm="anglosassone"><i>anglosasson</i><par n="albanes/e__adj"/></e>
     <e lm="animale"><i>animal</i><par n="fin/e__adj"/></e>
     <e lm="annesso"><i>anness</i><par n="abbandonat/o__adj"/></e>
     <e lm="annuale"><i>annual</i><par n="fin/e__adj"/></e>
     <e lm="anomalo"><i>anomal</i><par n="abbandonat/o__adj"/></e>
-    <e lm="anonimo"><i>anonim</i><par n="cosiddett/o__adj"/></e>
     <e lm="anormale"><i>anormal</i><par n="fin/e__adj"/></e>
     <e lm="ansioso"><i>ansios</i><par n="abbandonat/o__adj"/></e>
     <e lm="antecedente"><i>antecedent</i><par n="fin/e__adj"/></e>
@@ -32133,29 +32085,23 @@
     <e lm="apatico"><i>apatic</i><par n="tecnic/o__adj"/></e>
     <e lm="apoteosico"><i>apoteosic</i><par n="tecnic/o__adj"/></e>
     <e lm="appartenente"><i>appartene</i><par n="fin/e__adj"/></e>
-    <e lm="appartenente"><i>appartenent</i><par n="albanes/e__adj"/></e>
     <e lm="appassionato"><i>appassionat</i><par n="abbandonat/o__adj"/></e>
     <e lm="appetitoso"><i>appetitos</i><par n="abbandonat/o__adj"/></e>
     <e lm="applaudente"><i>applaudent</i><par n="albanes/e__adj"/></e>
     <e lm="applicabile"><i>applicabil</i><par n="fin/e__adj"/></e>
-    <e lm="arabo"><i>arab</i><par n="cosiddett/o__adj"/></e>
     <e lm="aragonese"><i>aragones</i><par n="albanes/e__adj"/></e>
     <e lm="arbitrale"><i>arbitral</i><par n="fin/e__adj"/></e>
     <e lm="arcaico"><i>arcaic</i><par n="tecnic/o__adj"/></e>
     <e lm="archeologico"><i>archeologic</i><par n="tecnic/o__adj"/></e>
     <e lm="architettonico"><i>architettonic</i><par n="tecnic/o__adj"/></e>
     <e lm="ardente"><i>arde</i><par n="fin/e__adj"/></e>
-    <e lm="ardente"><i>ardent</i><par n="albanes/e__adj"/></e>
     <e lm="arduo"><i>ardu</i><par n="abbandonat/o__adj"/></e>
-    <e lm="argentino"><i>argentin</i><par n="cosiddett/o__adj"/></e>
     <e lm="arido"><i>arid</i><par n="abbandonat/o__adj"/></e>
     <e lm="aristocratico"><i>aristocratic</i><par n="tecnic/o__adj"/></e>
     <e lm="artificiale"><i>artificial</i><par n="fin/e__adj"/></e>
-    <e lm="artigiano"><i>artigian</i><par n="cosiddett/o__adj"/></e>
     <e lm="artigianale"><i>artigianal</i><par n="fin/e__adj"/></e>
     <e lm="artistico"><i>artistic</i><par n="tecnic/o__adj"/></e>
     <e lm="ascendente"><i>ascende</i><par n="fin/e__adj"/></e>
-    <e lm="ascendente"><i>ascendent</i><par n="albanes/e__adj"/></e>
     <e lm="asimmetrico"><i>asimmetric</i><par n="tecnic/o__adj"/></e>
     <e lm="aspiratore"><i>aspirator</i><par n="albanes/e__adj"/></e>
     <e lm="assiduo"><i>assidu</i><par n="abbandonat/o__adj"/></e>
@@ -32183,9 +32129,7 @@
     <e lm="attribuente"><i>attribuent</i><par n="albanes/e__adj"/></e>
     <e lm="attuale"><i>attual</i><par n="fin/e__adj"/></e>
     <e lm="audace"><i>audac</i><par n="fin/e__adj"/></e>
-    <e lm="audiovisivo"><i>audiovisiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="ausiliario"><i>ausiliari</i><par n="ampi/o__adj"/></e>
-    <e lm="australiano"><i>australian</i><par n="cosiddett/o__adj"/></e>
     <e lm="austriaco"><i>austriac</i><par n="tecnic/o__adj"/></e>
     <e lm="autentico"><i>autentic</i><par n="tecnic/o__adj"/></e>
     <e lm="automobile"><i>automobil</i><par n="fin/e__adj"/></e>
@@ -32224,12 +32168,9 @@
     <e lm="blando"><i>bland</i><par n="abbandonat/o__adj"/></e>
     <e lm="blindato"><i>blindat</i><par n="abbandonat/o__adj"/></e>
     <e lm="blu"><i>blu</i><par n="extra__adj"/></e>
-    <e lm="bluastro"><i>bluastr</i><par n="cosiddett/o__adj"/></e>
     <e lm="borghese"><i>borghes</i><par n="albanes/e__adj"/></e>
     <e lm="borsistico"><i>borsistic</i><par n="tecnic/o__adj"/></e>
     <e lm="botanico"><i>botanic</i><par n="tecnic/o__adj"/></e>
-    <e lm="bovino"><i>bovin</i><par n="cosiddett/o__adj"/></e>
-    <e lm="brasiliano"><i>brasilian</i><par n="cosiddett/o__adj"/></e>
     <e lm="bravo"><i>brav</i><par n="abbandonat/o__adj"/></e>
     <e lm="britannico"><i>britannic</i><par n="tecnic/o__adj"/></e>
     <e lm="bronchiale"><i>bronchial</i><par n="fin/e__adj"/></e>
@@ -32237,14 +32178,10 @@
     <e lm="brutale"><i>brutal</i><par n="fin/e__adj"/></e>
     <e lm="brutto"><i>brutt</i><par n="abbandonat/o__adj"/></e>
     <e lm="bugiardo"><i>bugiard</i><par n="abbandonat/o__adj"/></e>
-    <e lm="sardo"><i>sard</i><par n="cosiddett/o__adj"/></e>
-    <e lm="bulgaro"><i>bulgar</i><par n="cosiddett/o__adj"/></e>
     <e lm="buono"><i>buon</i><par n="abbandonat/o__adj"/></e>
-    <e lm="televisivo"><i>televisiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="solito"><i>solit</i><par n="abbandonat/o__adj"/></e>
     <e lm="estivo"><i>estiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="burocratico"><i>burocratic</i><par n="tecnic/o__adj"/></e>
-    <e lm="calcareo"><i>calcare</i><par n="cosiddett/o__adj"/></e>
     <e lm="calcistico"><i>calcistic</i><par n="tecnic/o__adj"/></e>
     <e lm="calcolatore"><i>calcolat</i><par n="calcolat/ore__adj"/></e>
     <e lm="caldo"><i>cald</i><par n="abbandonat/o__adj"/></e>
@@ -32252,7 +32189,6 @@
     <e lm="canadese"><i>canades</i><par n="albanes/e__adj"/></e>
     <e lm="canario"><i>canari</i><par n="ampi/o__adj"/></e>
     <e lm="candido"><i>candid</i><par n="abbandonat/o__adj"/></e>
-    <e lm="canino"><i>canin</i><par n="cosiddett/o__adj"/></e>
     <e lm="capiente"><i>capient</i><par n="fin/e__adj"/></e>
     <e lm="capace"><i>capac</i><par n="fin/e__adj"/></e>
     <e lm="capillare"><i>capillar</i><par n="fin/e__adj"/></e>
@@ -32264,9 +32200,7 @@
     <e lm="cardiovascolare"><i>cardiovascolar</i><par n="fin/e__adj"/></e>
     <e lm="carente"><i>carent</i><par n="fin/e__adj"/></e>
     <e lm="carnale"><i>carnal</i><par n="fin/e__adj"/></e>
-    <e lm="carnivoro"><i>carnivor</i><par n="cosiddett/o__adj"/></e>
     <e lm="castano"><i>castan</i><par n="abbandonat/o__adj"/></e>
-    <e lm="castigliano"><i>castiglian</i><par n="cosiddett/o__adj"/></e>
     <e lm="castiglionese"><i>castigliones</i><par n="albanes/e__adj"/></e>
     <e lm="casuale"><i>casual</i><par n="fin/e__adj"/></e>
     <e lm="catalano"><i>catalan</i><par n="cosiddett/o__adj"/></e>
@@ -32282,13 +32216,11 @@
     <e lm="ceramico"><i>ceramic</i><par n="tecnic/o__adj"/></e>
     <e lm="cerebrale"><i>cerebral</i><par n="fin/e__adj"/></e>
     <e lm="chiaro"><i>chiar</i><par n="abbandonat/o__adj"/></e>
-    <e lm="cileno"><i>cilen</i><par n="cosiddett/o__adj"/></e>
     <e lm="chiamato"><i>chiamat</i><par n="abbandonat/o__adj"/></e>
     <e lm="chimico"><i>chimic</i><par n="tecnic/o__adj"/></e>
     <e lm="cieco"><i>ciec</i><par n="tecnic/o__adj"/></e>
     <e lm="cinematografico"><i>cinematografic</i><par n="tecnic/o__adj"/></e>
     <e lm="cinese"><i>cines</i><par n="albanes/e__adj"/></e>
-    <e lm="cinquantesimo"><i>cinquantesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="cirillico"><i>cirillic</i><par n="tecnic/o__adj"/></e>
     <e lm="citrico"><i>citric</i><par n="tecnic/o__adj"/></e>
     <e lm="civile"><i>civil</i><par n="fin/e__adj"/></e>
@@ -32298,12 +32230,10 @@
     <e lm="clericale"><i>clerical</i><par n="fin/e__adj"/></e>
     <e lm="climatico"><i>climatic</i><par n="tecnic/o__adj"/></e>
     <e lm="coerente"><i>coerent</i><par n="fin/e__adj"/></e>
-    <e lm="cognitivo"><i>cognitiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="collaterale"><i>collateral</i><par n="fin/e__adj"/></e>
     <e lm="collegiale"><i>collegial</i><par n="fin/e__adj"/></e>
     <e lm="collettivo"><i>collettiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="colloquiale"><i>colloquial</i><par n="fin/e__adj"/></e>
-    <e lm="colombiano"><i>colombian</i><par n="cosiddett/o__adj"/></e>
     <e lm="colorante"><i>colora</i><par n="abbacchia/nte__adj"/></e>
     <e lm="colossale"><i>colossal</i><par n="fin/e__adj"/></e>
     <e lm="colpevole"><i>colpevol</i><par n="fin/e__adj"/></e>
@@ -32330,9 +32260,7 @@
     <e lm="confinante"><i>confinant</i><par n="fin/e__adj"/></e>
     <e lm="conflittuale"><i>conflittual</i><par n="fin/e__adj"/></e>
     <e lm="confluente"><i>confluent</i><par n="albanes/e__adj"/></e>
-    <e lm="congenito"><i>congenit</i><par n="cosiddett/o__adj"/></e>
     <e lm="congiunto"><i>congiunt</i><par n="abbandonat/o__adj"/></e>
-    <e lm="presunto"><i>presunt</i><par n="cosiddett/o__adj"/></e>
     <e lm="congolese"><i>congoles</i><par n="albanes/e__adj"/></e>
     <e lm="conico"><i>conic</i><par n="tecnic/o__adj"/></e>
     <e lm="coniugale"><i>coniugal</i><par n="fin/e__adj"/></e>
@@ -32340,25 +32268,17 @@
     <e lm="conseguente"><i>conseguent</i><par n="fin/e__adj"/></e>
     <e lm="conservatore"><i>conservat</i><par n="accentrat/ore__adj"/></e>
     <e lm="consigliabile"><i>consigliabil</i><par n="fin/e__adj"/></e>
-    <e lm="consultivo"><i>consultiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="contadino"><i>contadin</i><par n="cosiddett/o__adj"/></e>
     <e lm="contatore"><i>contat</i><par n="calcolat/ore__adj"/></e>
     <e lm="contento"><i>content</i><par n="abbandonat/o__adj"/></e>
-    <e lm="contenzioso"><i>contenzios</i><par n="cosiddett/o__adj"/></e>
     <e lm="continentale"><i>continental</i><par n="fin/e__adj"/></e>
-    <e lm="continuo"><i>continu</i><par n="cosiddett/o__adj"/></e>
-    <e lm="contraccettivo"><i>contraccettiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="contraddittorio"><i>contraddittori</i><par n="ampi/o__adj"/></e>
-    <e lm="contrapposto"><i>contrappost</i><par n="cosiddett/o__adj"/></e>
     <e lm="contrattuale"><i>contrattual</i><par n="fin/e__adj"/></e>
     <e lm="contribuente"><i>contribuent</i><par n="albanes/e__adj"/></e>
     <e lm="controverso"><i>controvers</i><par n="abbandonat/o__adj"/></e>
     <e lm="convenzionale"><i>convenzional</i><par n="fin/e__adj"/></e>
     <e lm="convergente"><i>convergent</i><par n="fin/e__adj"/></e>
     <e lm="convertibile"><i>convertibil</i><par n="fin/e__adj"/></e>
-    <e lm="convesso"><i>convess</i><par n="cosiddett/o__adj"/></e>
     <e lm="convincente"><i>convince</i><par n="fin/e__adj"/></e>
-    <e lm="convincente"><i>convincent</i><par n="albanes/e__adj"/></e>
     <e lm="corale"><i>coral</i><par n="fin/e__adj"/></e>
     <e lm="cordiale"><i>cordial</i><par n="fin/e__adj"/></e>
     <e lm="cordovese"><i>cordoves</i><par n="albanes/e__adj"/></e>
@@ -32366,7 +32286,6 @@
     <e lm="corpulento"><i>corpulent</i><par n="abbandonat/o__adj"/></e>
     <e lm="corrispondente"><i>corrisponde</i><par n="fin/e__adj"/></e>
     <e lm="corrente"><i>corre</i><par n="fin/e__adj"/></e>
-    <e lm="corrente"><i>corrent</i><par n="albanes/e__adj"/></e>
     <e lm="corretto"><i>corrett</i><par n="abbandonat/o__adj"/></e>
     <e lm="corrosivo"><i>corrosiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="corticale"><i>cortical</i><par n="albanes/e__adj"/></e>
@@ -32380,7 +32299,6 @@
     <e lm="cranico"><i>cranic</i><par n="tecnic/o__adj"/></e>
     <e lm="creativo"><i>creativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="crescente"><i>cresce</i><par n="fin/e__adj"/></e>
-    <e lm="crescente"><i>crescent</i><par n="albanes/e__adj"/></e>
     <e lm="cretino"><i>cretin</i><par n="abbandonat/o__adj"/></e>
     <e lm="criminale"><i>criminal</i><par n="fin/e__adj"/></e>
     <e lm="cristiano"><i>cristian</i><par n="abbandonat/o__adj"/></e>
@@ -32393,12 +32311,10 @@
     <e lm="cruciale"><i>crucial</i><par n="fin/e__adj"/></e>
     <e lm="crudele"><i>crudel</i><par n="fin/e__adj"/></e>
     <e lm="cruento"><i>cruent</i><par n="abbandonat/o__adj"/></e>
-    <e lm="cubano"><i>cuban</i><par n="cosiddett/o__adj"/></e>
     <e lm="culinario"><i>culinari</i><par n="ampi/o__adj"/></e>
     <e lm="culturale"><i>cultural</i><par n="fin/e__adj"/></e>
     <e lm="curdo"><i>curd</i><par n="abbandonat/o__adj"/></e>
     <e lm="curioso"><i>curios</i><par n="abbandonat/o__adj"/></e>
-    <e lm="cutaneo"><i>cutane</i><par n="cosiddett/o__adj"/></e>
     <e lm="danese"><i>danes</i><par n="albanes/e__adj"/></e>
     <e lm="da frutta"><i>da<b/>frutta</i><par n="extra__adj"/></e>
     <e lm="debole"><i>debol</i><par n="fin/e__adj"/></e>
@@ -32409,24 +32325,17 @@
     <e lm="defunto"><i>defunt</i><par n="abbandonat/o__adj"/></e>
     <e lm="degno"><i>degn</i><par n="abbandonat/o__adj"/></e>
     <e lm="degradante"><i>degrada</i><par n="fin/e__adj"/></e>
-    <e lm="degradante"><i>degradant</i><par n="albanes/e__adj"/></e>
     <e lm="degradato"><i>degradat</i><par n="abbandonat/o__adj"/></e>
     <e lm="delizioso"><i>delizios</i><par n="abbandonat/o__adj"/></e>
     <e lm="democratico"><i>democratic</i><par n="tecnic/o__adj"/></e>
     <e lm="denominato"><i>denominat</i><par n="tecnic/o__adj"/></e>
     <e lm="depresso"><i>depress</i><par n="abbandonat/o__adj"/></e>
-    <e lm="derivato"><i>derivat</i><par n="cosiddett/o__adj"/></e>
     <e lm="deserto"><i>desert</i><par n="abbandonat/o__adj"/></e>
-    <e lm="destro"><i>destr</i><par n="cosiddett/o__adj"/></e>
     <e lm="determinante"><i>determina</i><par n="fin/e__adj"/></e>
-    <e lm="determinante"><i>determinant</i><par n="albanes/e__adj"/></e>
     <e lm="diabetico"><i>diabetic</i><par n="tecnic/o__adj"/></e>
     <e lm="diabolico"><i>diabolic</i><par n="tecnic/o__adj"/></e>
     <e lm="diagnostico"><i>diagnostic</i><par n="tecnic/o__adj"/></e>
     <e lm="dialettale"><i>dialettal</i><par n="fin/e__adj"/></e>
-    <e lm="diciannovesimo"><i>diciannovesim</i><par n="cosiddett/o__adj"/></e>
-    <e lm="diciassettesimo"><i>diciassettesim</i><par n="cosiddett/o__adj"/></e>
-    <e lm="diciottesimo"><i>diciottesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="differente"><i>different</i><par n="fin/e__adj"/></e>
     <e lm="difficile"><i>difficil</i><par n="fin/e__adj"/></e>
     <e lm="digitale"><i>digital</i><par n="fin/e__adj"/></e>
@@ -32440,7 +32349,6 @@
     <e lm="diritto"><i>diritt</i><par n="abbandonat/o__adj"/></e>
     <e lm="discontinuo"><i>discontinu</i><par n="abbandonat/o__adj"/></e>
     <e lm="discordante"><i>discorda</i><par n="fin/e__adj"/></e>
-    <e lm="discordante"><i>discordant</i><par n="albanes/e__adj"/></e>
     <e lm="discreto"><i>discret</i><par n="abbandonat/o__adj"/></e>
     <e lm="discrezionale"><i>discrezional</i><par n="fin/e__adj"/></e>
     <e lm="discriminatorio"><i>discriminatori</i><par n="ampi/o__adj"/></e>
@@ -32451,7 +32359,6 @@
     <e lm="disponibile"><i>disponibil</i><par n="fin/e__adj"/></e>
     <e lm="dissidente"><i>dissident</i><par n="fin/e__adj"/></e>
     <e lm="distante"><i>dista</i><par n="fin/e__adj"/></e>
-    <e lm="distante"><i>distant</i><par n="albanes/e__adj"/></e>
     <e lm="distinto"><i>distint</i><par n="abbandonat/o__adj"/></e>
     <e lm="distintivo"><i>distintiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="distratto"><i>distratt</i><par n="abbandonat/o__adj"/></e>
@@ -32475,9 +32382,7 @@
     <e lm="durevole"><i>durevol</i><par n="fin/e__adj"/></e>
     <e lm="duttile"><i>duttil</i><par n="fin/e__adj"/></e>
     <e lm="ebraico"><i>ebraic</i><par n="tecnic/o__adj"/></e>
-    <e lm="ebreo"><i>ebre</i><par n="cosiddett/o__adj"/></e>
     <e lm="eccellente"><i>eccelle</i><par n="fin/e__adj"/></e>
-    <e lm="eccellente"><i>eccellent</i><par n="albanes/e__adj"/></e>
     <e lm="eccezionale"><i>eccezional</i><par n="fin/e__adj"/></e>
     <e lm="ecclesiastico"><i>ecclesiastic</i><par n="tecnic/o__adj"/></e>
     <e lm="eclettico"><i>eclettic</i><par n="tecnic/o__adj"/></e>
@@ -32487,7 +32392,6 @@
     <e lm="effettivo"><i>effettiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="efficace"><i>efficac</i><par n="fin/e__adj"/></e>
     <e lm="effimero"><i>effimer</i><par n="abbandonat/o__adj"/></e>
-    <e lm="egiziano"><i>egizian</i><par n="cosiddett/o__adj"/></e>
     <e lm="egizio"><i>egizi</i><par n="ampi/o__adj"/></e>
     <e lm="egoista"><i>egoist</i><par n="suicid/a__adj"/></e>
     <e lm="elementare"><i>elementar</i><par n="fin/e__adj"/></e>
@@ -32498,14 +32402,11 @@
     <e lm="elettronico"><i>elettronic</i><par n="tecnic/o__adj"/></e>
     <e lm="elevatore"><i>elevat</i><par n="accentrat/ore__adj"/></e>
     <e lm="emergente"><i>emerge</i><par n="fin/e__adj"/></e>
-    <e lm="emergente"><i>emergent</i><par n="albanes/e__adj"/></e>
     <e lm="empirico"><i>empiric</i><par n="tecnic/o__adj"/></e>
     <e lm="endemico"><i>endemic</i><par n="tecnic/o__adj"/></e>
-    <e lm="ennesimo"><i>ennesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="enogastronomico"><i>enogastronomico</i><par n="tecnic/o__adj"/></e>
     <e lm="enorme"><i>enorm</i><par n="fin/e__adj"/></e>
     <e lm="equivalente"><i>equivale</i><par n="fin/e__adj"/></e>
-    <e lm="equivalente"><i>equivalent</i><par n="albanes/e__adj"/></e>
     <e lm="ereditario"><i>ereditari</i><par n="ampi/o__adj"/></e>
     <e lm="erudito"><i>erudit</i><par n="abbandonat/o__adj"/></e>
     <e lm="ermetico"><i>ermetic</i><par n="tecnic/o__adj"/></e>
@@ -32515,9 +32416,7 @@
     <e lm="esecutivo"><i>esecutiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="esemplare"><i>esemplar</i><par n="fin/e__adj"/></e>
     <e lm="esigibile"><i>esigibil</i><par n="fin/e__adj"/></e>
-    <e lm="esiliato"><i>esiliat</i><par n="cosiddett/o__adj"/></e>
     <e lm="esistente"><i>esiste</i><par n="fin/e__adj"/></e>
-    <e lm="esistente"><i>esistent</i><par n="albanes/e__adj"/></e>
     <e lm="esistenziale"><i>esistenzial</i><par n="fin/e__adj"/></e>
     <e lm="esperto"><i>espert</i><par n="abbandonat/o__adj"/></e>
     <e lm="esplicito"><i>esplicit</i><par n="abbandonat/o__adj"/></e>
@@ -32534,9 +32433,7 @@
     <e lm="etico"><i>etic</i><par n="tecnic/o__adj"/></e>
     <e lm="elvetico"><i>elvetic</i><par n="tecnic/o__adj"/></e>
     <e lm="etiope"><i>etiop</i><par n="fin/e__adj"/></e>
-    <e lm="europeo"><i>europe</i><par n="cosiddett/o__adj"/></e>
     <e lm="eventuale"><i>eventual</i><par n="fin/e__adj"/></e>
-    <e lm="evolutivo"><i>evolutiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="ex"><i>ex</i><par n="extra__adj"/></e>
     <e lm="extra"><i>extra</i><par n="extra__adj"/></e>
     <e lm="extrascolare"><i>extrascolar</i><par n="albanes/e__adj"/></e>
@@ -32565,7 +32462,6 @@
     <e lm="fertile"><i>fertil</i><par n="fin/e__adj"/></e>
     <e lm="feudale"><i>feudal</i><par n="fin/e__adj"/></e>
     <e lm="fiammingo"><i>fiamming</i><par n="caric/o__adj"/></e>
-    <e lm="figurativo"><i>figurativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="filiale"><i>filial</i><par n="fin/e__adj"/></e>
     <e lm="filosofico"><i>filosofic</i><par n="tecnic/o__adj"/></e>
     <e lm="fino"><i>fin</i><par n="abbandonat/o__adj"/></e>
@@ -32592,7 +32488,6 @@
     <e lm="frequente"><i>frequent</i><par n="fin/e__adj"/></e>
     <e lm="fresco"><i>fresc</i><par n="caric/o__adj"/></e>
     <e lm="friabile"><i>friabil</i><par n="fin/e__adj"/></e>
-    <e lm="frigorifero"><i>frigorifer</i><par n="cosiddett/o__adj"/></e>
     <e lm="forte"><i>fort</i><par n="fin/e__adj"/></e>
     <e lm="fumatore"><i>fumat</i><par n="accentrat/ore__adj"/></e>
     <e lm="funzionale"><i>funzional</i><par n="fin/e__adj"/></e>
@@ -32601,7 +32496,6 @@
     <e lm="futuro"><i>futur</i><par n="abbandonat/o__adj"/></e>
     <e lm="galiziano"><i>galizian</i><par n="cosiddett/o__adj"/></e>
     <e lm="galleggiante"><i>galleggia</i><par n="fin/e__adj"/></e>
-    <e lm="galleggiante"><i>galleggiant</i><par n="albanes/e__adj"/></e>
     <e lm="gallico"><i>gallic</i><par n="tecnic/o__adj"/></e>
     <e lm="gelatinoso"><i>gelatinos</i><par n="abbandonat/o__adj"/></e>
     <e lm="generale"><i>general</i><par n="fin/e__adj"/></e>
@@ -32613,7 +32507,6 @@
     <e lm="geologico"><i>geologic</i><par n="tecnic/o__adj"/></e>
     <e lm="geometrico"><i>geometric</i><par n="tecnic/o__adj"/></e>
     <e lm="gestuale"><i>gestual</i><par n="fin/e__adj"/></e>
-    <e lm="giamaicano"><i>giamaican</i><par n="cosiddett/o__adj"/></e>
     <e lm="giapponese"><i>giappones</i><par n="albanes/e__adj"/></e>
     <e lm="gigante"><i>gigant</i><par n="fin/e__adj"/></e>
     <e lm="gigantesco"><i>gigantesc</i><par n="caric/o__adj"/></e>
@@ -32628,19 +32521,16 @@
     <e lm="glaciale"><i>glacial</i><par n="fin/e__adj"/></e>
     <e lm="globale"><i>global</i><par n="fin/e__adj"/></e>
     <e lm="governante"><i>governant</i><par n="fin/e__adj"/></e>
-    <e lm="governativo"><i>governativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="graduale"><i>gradual</i><par n="fin/e__adj"/></e>
     <e lm="grafico"><i>grafic</i><par n="tecnic/o__adj"/></e>
     <e lm="grande"><i>grand</i><par n="fin/e__adj"/></e>	
     <e lm="favorevole"><i>favorevol</i><par n="fin/e__adj"/></e>
     <e lm="grasso"><i>grass</i><par n="abbandonat/o__adj"/></e>
-    <e lm="gratuito"><i>gratuit</i><par n="cosiddett/o__adj"/></e>
     <e lm="grave"><i>grav</i><par n="fin/e__adj"/></e>
     <e lm="greco"><i>grec</i><par n="tecnic/o__adj"/></e>
     <e lm="grigio"><i>grigi</i><par n="ampi/o__adj"/></e>
     <e lm="grossista"><i>grossist</i><par n="suicid/a__adj"/></e>
     <e lm="grosso"><i>gross</i><par n="abbandonat/o__adj"/></e>
-    <e lm="guerriero"><i>guerrier</i><par n="cosiddett/o__adj"/></e>
     <e lm="iberico"><i>iberic</i><par n="tecnic/o__adj"/></e>
     <e lm="ideale"><i>ideal</i><par n="fin/e__adj"/></e>
     <e lm="identico"><i>identic</i><par n="tecnic/o__adj"/></e>
@@ -32657,14 +32547,12 @@
     <e lm="immobiliare"><i>immobiliar</i><par n="fin/e__adj"/></e>
     <e lm="immorale"><i>immoral</i><par n="fin/e__adj"/></e>
     <e lm="imparziale"><i>imparzial</i><par n="fin/e__adj"/></e>
-    <e lm="imperativo"><i>imperativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="imperfetto"><i>imperfett</i><par n="abbandonat/o__adj"/></e>
     <e lm="imperiale"><i>imperial</i><par n="fin/e__adj"/></e>
     <e lm="impermeabile"><i>impermeabil</i><par n="fin/e__adj"/></e>
     <e lm="impersonale"><i>impersonal</i><par n="fin/e__adj"/></e>
     <e lm="impopolare"><i>impopolar</i><par n="fin/e__adj"/></e>
     <e lm="importante"><i>importa</i><par n="fin/e__adj"/></e>
-    <e lm="importante"><i>important</i><par n="albanes/e__adj"/></e>
     <e lm="impossibile"><i>impossibil</i><par n="fin/e__adj"/></e>
     <e lm="imprenditoriale"><i>imprenditorial</i><par n="fin/e__adj"/></e>
     <e lm="impressionabile"><i>impressionabil</i><par n="fin/e__adj"/></e>
@@ -32676,11 +32564,9 @@
     <e lm="inaccettabile"><i>inaccettabil</i><par n="fin/e__adj"/></e>
     <e lm="inaugurale"><i>inaugural</i><par n="fin/e__adj"/></e>
     <e lm="incantatore"><i>incantat</i><par n="accentrat/ore__adj"/></e>
-    <e lm="incaricato"><i>incaricat</i><par n="cosiddett/o__adj"/></e>
     <e lm="incendiario"><i>incendiari</i><par n="ampi/o__adj"/></e>
     <e lm="incessante"><i>incessant</i><par n="fin/e__adj"/></e>
     <e lm="incidente"><i>incide</i><par n="fin/e__adj"/></e>
-    <e lm="incidente"><i>incident</i><par n="albanes/e__adj"/></e>
     <e lm="incisivo"><i>incisiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="inclinato"><i>inclinat</i><par n="abbandonat/o__adj"/></e>
     <e lm="incluso"><i>inclus</i><par n="abbandonat/o__adj"/></e>
@@ -32700,7 +32586,6 @@
     <e lm="indispensabile"><i>indispensabil</i><par n="fin/e__adj"/></e>
     <e lm="individuale"><i>individual</i><par n="fin/e__adj"/></e>
     <e lm="indivisibile"><i>indivisibil</i><par n="fin/e__adj"/></e>
-    <e lm="indonesiano"><i>indonesian</i><par n="cosiddett/o__adj"/></e>
     <e lm="indubitabile"><i>indubitabil</i><par n="fin/e__adj"/></e>
     <e lm="industriale"><i>industrial</i><par n="fin/e__adj"/></e>
     <e lm="inefficace"><i>inefficac</i><par n="fin/e__adj"/></e>
@@ -32723,7 +32608,6 @@
     <e lm="innumerevole"><i>innumerevol</i><par n="fin/e__adj"/></e>
     <e lm="inossidabile"><i>inossidabil</i><par n="fin/e__adj"/></e>
     <e lm="inquietante"><i>inquieta</i><par n="fin/e__adj"/></e>
-    <e lm="inquietante"><i>inquietant</i><par n="albanes/e__adj"/></e>
     <e lm="inseparabile"><i>inseparabil</i><par n="fin/e__adj"/></e>
     <e lm="insidioso"><i>insidios</i><par n="abbandonat/o__adj"/></e>
     <e lm="insignificante"><i>insignificant</i><par n="fin/e__adj"/></e>
@@ -32743,7 +32627,6 @@
     <e lm="interannuale"><i>interannual</i><par n="albanes/e__adj"/></e>
     <e lm="intercomarcale"><i>intercomarcal</i><par n="albanes/e__adj"/></e>
     <e lm="interessante"><i>interessant</i><par n="fin/e__adj"/></e>
-    <e lm="intergovernativo"><i>intergovernativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="intermedio"><i>intermedi</i><par n="ampi/o__adj"/></e>
     <e lm="intermediario"><i>intermediari</i><par n="ampi/o__adj"/></e>
     <e lm="intermittente"><i>intermittent</i><par n="fin/e__adj"/></e>
@@ -32772,11 +32655,8 @@
     <e lm="irrifiutabile"><i>irrifiutabil</i><par n="albanes/e__adj"/></e>
     <e lm="irrimediabile"><i>irrimediabil</i><par n="fin/e__adj"/></e>
     <e lm="irritante"><i>irrita</i><par n="fin/e__adj"/></e>
-    <e lm="irritante"><i>irritant</i><par n="albanes/e__adj"/></e>
     <e lm="islamico"><i>islamic</i><par n="tecnic/o__adj"/></e>
     <e lm="islamista"><i>islamist</i><par n="suicid/a__adj"/></e>
-    <e lm="israeliano"><i>israelian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="istantaneo"><i>istantane</i><par n="cosiddett/o__adj"/></e>
     <e lm="istituzionale"><i>istituzional</i><par n="fin/e__adj"/></e>
     <e lm="italiano"><i>italian</i><par n="abbandonat/o__adj"/></e>
     <e lm="itinerante"><i>itinerant</i><par n="fin/e__adj"/></e>
@@ -32788,7 +32668,6 @@
     <e lm="latente"><i>latent</i><par n="fin/e__adj"/></e>
     <e lm="laterale"><i>lateral</i><par n="fin/e__adj"/></e>
     <e lm="latino"><i>latin</i><par n="abbandonat/o__adj"/></e>
-    <e lm="laureato"><i>laureat</i><par n="cosiddett/o__adj"/></e>
     <e lm="lavorativo"><i>lavorativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="leale"><i>leal</i><par n="fin/e__adj"/></e>
     <e lm="lettore"><i>lett</i><par n="accentrat/ore__adj"/></e>
@@ -32830,9 +32709,7 @@
     <e lm="maledetto"><i>maledett</i><par n="abbandonat/o__adj"/></e>
     <e lm="malizioso"><i>malizios</i><par n="abbandonat/o__adj"/></e>
     <e lm="malleabile"><i>malleabil</i><par n="fin/e__adj"/></e>
-    <e lm="mammifero"><i>mammifer</i><par n="cosiddett/o__adj"/></e>
     <e lm="maniaco"><i>maniac</i><par n="tecnic/o__adj"/></e>
-    <e lm="manoscritto"><i>manoscritt</i><par n="cosiddett/o__adj"/></e>
     <e lm="marginale"><i>marginal</i><par n="fin/e__adj"/></e>
     <e lm="marinaio"><i>marina</i><par n="marina/io__adj"/></e>
     <e lm="maritale"><i>marital</i><par n="fin/e__adj"/></e>
@@ -32843,20 +32720,17 @@
     <e lm="marziano"><i>marzian</i><par n="abbandonat/o__adj"/></e>
     <e lm="maschile"><i>maschil</i><par n="fin/e__adj"/></e>
     <e lm="mascolino"><i>mascolin</i><par n="abbandonat/o__adj"/></e>
-    <e lm="massimo"><i>massim</i><par n="cosiddett/o__adj"/></e>
     <e lm="matematico"><i>matematic</i><par n="tecnic/o__adj"/></e>
     <e lm="materiale"><i>material</i><par n="fin/e__adj"/></e>
     <e lm="materno"><i>matern</i><par n="abbandonat/o__adj"/></e>
     <e lm="matrimoniale"><i>matrimonial</i><par n="fin/e__adj"/></e>
     <e lm="maggiore"><i>maggior</i><par n="albanes/e__adj"/></e>
-    <e lm="ottimo"><i>ottim</i><par n="cosiddett/o__adj"/></e>
     <e lm="mattutino"><i>mattutin</i><par n="abbandonat/o__adj"/></e>
     <e lm="maturo"><i>matur</i><par n="abbandonat/o__adj"/></e>
     <e lm="meccanico"><i>meccanic</i><par n="tecnic/o__adj"/></e>
     <e lm="medico"><i>medic</i><par n="tecnic/o__adj"/></e>
     <e lm="medicinale"><i>medicinal</i><par n="fin/e__adj"/></e>
     <e lm="medioevale"><i>medioeval</i><par n="fin/e__adj"/></e>
-    <e lm="mediterraneo"><i>mediterrane</i><par n="cosiddett/o__adj"/></e>
     <e lm="mensile"><i>mensil</i><par n="fin/e__adj"/></e>
     <e lm="mentale"><i>mental</i><par n="fin/e__adj"/></e>
     <e lm="meraviglioso"><i>meraviglios</i><par n="abbandonat/o__adj"/></e>
@@ -32866,7 +32740,6 @@
     <e lm="metodologico"><i>metodologic</i><par n="tecnic/o__adj"/></e>
     <e lm="metropolitano"><i>metropolitan</i><par n="abbandonat/o__adj"/></e>
     <e lm="messicano"><i>messican</i><par n="abbandonat/o__adj"/></e>
-    <e lm="mezzo"><i>mezz</i><par n="cosiddett/o__adj"/></e>
     <e lm="midollare"><i>midollar</i><par n="fin/e__adj"/></e>
     <e lm="migliore"><i>miglior</i><par n="albanes/e__adj"/></e>
     <e lm="militare"><i>militar</i><par n="fin/e__adj"/></e>
@@ -32881,7 +32754,6 @@
     <e lm="moderno"><i>modern</i><par n="abbandonat/o__adj"/></e>
     <e lm="modesto"><i>modest</i><par n="abbandonat/o__adj"/></e>
     <e lm="molecolare"><i>molecolar</i><par n="fin/e__adj"/></e>
-    <e lm="molto"><i>molt</i><par n="cosiddett/o__adj"/></e>
     <e lm="molteplice"><i>molteplic</i><par n="fin/e__adj"/></e>
     <e lm="mondano"><i>mondan</i><par n="abbandonat/o__adj"/></e>
     <e lm="mondiale"><i>mondial</i><par n="fin/e__adj"/></e>
@@ -32902,8 +32774,6 @@
     <e lm="murale"><i>mural</i><par n="fin/e__adj"/></e>
     <e lm="muscolare"><i>muscolar</i><par n="albanes/e__adj"/></e>
     <e lm="musicale"><i>musical</i><par n="fin/e__adj"/></e>
-    <e lm="mutuo"><i>mutu</i><par n="cosiddett/o__adj"/></e>
-    <e lm="nato"><i>nat</i><par n="cosiddett/o__adj"/></e>
     <e lm="natale"><i>natal</i><par n="fin/e__adj"/></e>
     <e lm="nativo"><i>nativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="naturale"><i>natural</i><par n="fin/e__adj"/></e>
@@ -32917,13 +32787,10 @@
     <e lm="nervoso"><i>nervos</i><par n="abbandonat/o__adj"/></e>
     <e lm="nigeriano"><i>nigerian</i><par n="abbandonat/o__adj"/></e>
     <e lm="nomade"><i>nomad</i><par n="fin/e__adj"/></e>
-    <e lm="nono"><i>non</i><par n="abbandonat/o__adj"/></e>
     <e lm="normale"><i>normal</i><par n="fin/e__adj"/></e>
-    <e lm="normativo"><i>normativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="norvegese"><i>norveges</i><par n="albanes/e__adj"/></e>
     <e lm="notarile"><i>notaril</i><par n="fin/e__adj"/></e>
     <e lm="notevole"><i>notevol</i><par n="fin/e__adj"/></e>
-    <e lm="novantesimo"><i>novantesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="novello"><i>novell</i><par n="abbandonat/o__adj"/></e>
     <e lm="novellino"><i>novellin</i><par n="abbandonat/o__adj"/></e>
     <e lm="nucleare"><i>nuclear</i><par n="fin/e__adj"/></e>
@@ -32941,11 +32808,9 @@
     <e lm="occupazionale"><i>occupazional</i><par n="fin/e__adj"/></e>
     <e lm="oculare"><i>ocular</i><par n="fin/e__adj"/></e>
     <e lm="odioso"><i>odios</i><par n="abbandonat/o__adj"/></e>
-    <e lm="olfattivo"><i>olfattiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="olimpico"><i>olimpic</i><par n="tecnic/o__adj"/></e>
     <e lm="ombelicale"><i>ombelical</i><par n="fin/e__adj"/></e>
     <e lm="omeopatico"><i>omeopatic</i><par n="tecnic/o__adj"/></e>
-    <e lm="omonimo"><i>omonim</i><par n="cosiddett/o__adj"/></e>
     <e lm="omosessuale"><i>omosessual</i><par n="fin/e__adj"/></e>
     <e lm="onesto"><i>onest</i><par n="abbandonat/o__adj"/></e>
     <e lm="nefasto" a="prompsit"><i>nefast</i><par n="abbandonat/o__adj"/></e>
@@ -32960,7 +32825,6 @@
     <e lm="orario"><i>orari</i><par n="ampi/o__adj"/></e>
     <e lm="orbitale"><i>orbital</i><par n="fin/e__adj"/></e>
     <e lm="ordinario"><i>ordinari</i><par n="ampi/o__adj"/></e>
-    <e lm="orfano"><i>orfan</i><par n="cosiddett/o__adj"/></e>
     <e lm="orientale"><i>oriental</i><par n="fin/e__adj"/></e>
     <e lm="originale"><i>original</i><par n="fin/e__adj"/></e>
     <e lm="originario"><i>originari</i><par n="ampi/o__adj"/></e>
@@ -32989,7 +32853,6 @@
     <e lm="patronale"><i>patronal</i><par n="fin/e__adj"/></e>
     <e lm="peculiare"><i>peculiar</i><par n="albanes/e__adj"/></e>
     <e lm="peggiore"><i>peggior</i><par n="albanes/e__adj"/></e>
-    <e lm="pellegrino"><i>pellegrin</i><par n="cosiddett/o__adj"/></e>
     <e lm="peloso"><i>pelos</i><par n="abbandonat/o__adj"/></e>
     <e lm="penale"><i>penal</i><par n="fin/e__adj"/></e>
     <e lm="peninsulare"><i>peninsular</i><par n="fin/e__adj"/></e>
@@ -33006,7 +32869,6 @@
     <e lm="perpendicolare"><i>perpendicolar</i><par n="fin/e__adj"/></e>
     <e lm="persiano"><i>persian</i><par n="abbandonat/o__adj"/></e>
     <e lm="persistente"><i>persiste</i><par n="fin/e__adj"/></e>
-    <e lm="persistente"><i>persistent</i><par n="albanes/e__adj"/></e>
     <e lm="personale"><i>personal</i><par n="fin/e__adj"/></e>
     <e lm="pestilenziale"><i>pestilenzial</i><par n="fin/e__adj"/></e>
     <e lm="pettinato"><i>pettinat</i><par n="abbandonat/o__adj"/></e>
@@ -33036,16 +32898,13 @@
     <e lm="precario"><i>precari</i><par n="ampi/o__adj"/></e>
     <e lm="preciso"><i>precis</i><par n="abbandonat/o__adj"/></e>
     <e lm="predominante"><i>predomina</i><par n="fin/e__adj"/></e>
-    <e lm="predominante"><i>predominant</i><par n="albanes/e__adj"/></e>
     <e lm="preferibile"><i>preferibil</i><par n="fin/e__adj"/></e>
     <e lm="pregiudizievole"><i>pregiudizievol</i><par n="fin/e__adj"/></e>
     <e lm="preistorico"><i>preistoric</i><par n="tecnic/o__adj"/></e>
     <e lm="preliminare"><i>preliminar</i><par n="fin/e__adj"/></e>
     <e lm="preoccupato"><i>preoccupat</i><par n="abbandonat/o__adj"/></e>
     <e lm="preoccupante"><i>preoccupa</i><par n="fin/e__adj"/></e>
-    <e lm="preoccupante"><i>preoccupant</i><par n="albanes/e__adj"/></e>
     <e lm="preparatorio"><i>preparatori</i><par n="ampi/o__adj"/></e>
-    <e lm="preposto"><i>prepost</i><par n="cosiddett/o__adj"/></e>
     <e lm="presenziale"><i>presenzial</i><par n="albanes/e__adj"/></e>
     <e lm="presidenziale"><i>presidenzial</i><par n="fin/e__adj"/></e>
     <e lm="presto"><i>prest</i><par n="abbandonat/o__adj"/></e>
@@ -33073,7 +32932,6 @@
     <e lm="provinciale"><i>provincial</i><par n="fin/e__adj"/></e>
     <e lm="provvisorio"><i>provvisori</i><par n="ampi/o__adj"/></e>
     <e lm="prudente"><i>prude</i><par n="fin/e__adj"/></e>
-    <e lm="prudente"><i>prudent</i><par n="albanes/e__adj"/></e>
     <e lm="psichico"><i>psichic</i><par n="tecnic/o__adj"/></e>
     <e lm="pubblico"><i>pubblic</i><par n="tecnic/o__adj"/></e>
     <e lm="pubblicitario"><i>pubblicitari</i><par n="ampi/o__adj"/></e>
@@ -33085,11 +32943,7 @@
     <e lm="quale"><i>qual</i><par n="qual/e__adj"/></e>
     <e lm="quanto"><i>quant</i><par n="quant/o__adj"/></e>
     <e lm="quantitativo"><i>quantitativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="quarto"><i>quart</i><par n="abbandonat/o__adj"/></e>
-    <e lm="quattordicesimo"><i>quattordicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="questo"><i>quest</i><par n="cosiddett/o__adj"/></e>
-    <e lm="quindicesimo"><i>quindicesim</i><par n="cosiddett/o__adj"/></e>
-    <e lm="quinto"><i>quint</i><par n="abbandonat/o__adj"/></e>
     <e lm="quotidiano"><i>quotidian</i><par n="abbandonat/o__adj"/></e>
     <e lm="radiante"><i>radia</i><par n="abbacchia/nte__adj"/></e>
     <e lm="radiale"><i>radial</i><par n="fin/e__adj"/></e>
@@ -33113,7 +32967,6 @@
     <e lm="residenziale"><i>residenzial</i><par n="fin/e__adj"/></e>
     <e lm="residuale"><i>residual</i><par n="fin/e__adj"/></e>
     <e lm="resistente"><i>resiste</i><par n="fin/e__adj"/></e>
-    <e lm="resistente"><i>resistent</i><par n="albanes/e__adj"/></e>
     <e lm="responsabile"><i>responsabil</i><par n="fin/e__adj"/></e>
     <e lm="restrittivo"><i>restrittiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="retorico"><i>retoric</i><par n="tecnic/o__adj"/></e>
@@ -33128,19 +32981,13 @@
     <e lm="ritirato"><i>ritirat</i><par n="abbandonat/o__adj"/></e>
     <e lm="rituale"><i>ritual</i><par n="fin/e__adj"/></e>
     <e lm="rivale"><i>rival</i><par n="fin/e__adj"/></e>
-    <e lm="rivendicativo"><i>rivendicativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="rivoluzionario"><i>rivoluzionari</i><par n="ampi/o__adj"/></e>
     <e lm="robusto"><i>robust</i><par n="abbandonat/o__adj"/></e>
     <e lm="romano"><i>roman</i><par n="abbandonat/o__adj"/></e>
-    <e lm="rosato"><i>rosat</i><par n="cosiddett/o__adj"/></e>
     <e lm="rosso"><i>ross</i><par n="abbandonat/o__adj"/></e>
     <e lm="rotondo"><i>rotond</i><par n="abbandonat/o__adj"/></e>
-    <e lm="rumeno"><i>rumen</i><par n="cosiddett/o__adj"/></e>
-    <e lm="armeno"><i>armen</i><par n="cosiddett/o__adj"/></e>
     <e lm="rumoroso"><i>rumoros</i><par n="abbandonat/o__adj"/></e>
     <e lm="rurale"><i>rural</i><par n="fin/e__adj"/></e>
-    <e lm="russo"><i>russ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="bielorusso"><i>bieloruss</i><par n="cosiddett/o__adj"/></e>
     <e lm="sacro"><i>sacr</i><par n="abbandonat/o__adj"/></e>
     <e lm="salariale"><i>salarial</i><par n="fin/e__adj"/></e>
     <e lm="salato"><i>salat</i><par n="abbandonat/o__adj"/></e>
@@ -33156,7 +33003,6 @@
     <e lm="scolastico"><i>scolastic</i><par n="tecnic/o__adj"/></e>
     <e lm="scontento"><i>scontent</i><par n="abbandonat/o__adj"/></e>
     <e lm="scozzese"><i>scozzes</i><par n="albanes/e__adj"/></e>
-    <e lm="scritto"><i>scritt</i><par n="cosiddett/o__adj"/></e>
     <e lm="scultoreo"><i>scultore</i><par n="abbandonat/o__adj"/></e>
     <e lm="scuro"><i>scur</i><par n="abbandonat/o__adj"/></e>
     <e lm="secolare"><i>secolar</i><par n="fin/e__adj"/></e>
@@ -33175,13 +33021,9 @@
     <e lm="sereno"><i>seren</i><par n="abbandonat/o__adj"/></e>
     <e lm="servile"><i>servil</i><par n="fin/e__adj"/></e>
     <e lm="servizievole"><i>servizievol</i><par n="fin/e__adj"/></e>
-    <e lm="sessantesimo"><i>sessantesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="sessuale"><i>sessual</i><par n="fin/e__adj"/></e>
-    <e lm="sesto"><i>sest</i><par n="abbandonat/o__adj"/></e>
-    <e lm="settimo"><i>settim</i><par n="abbandonat/o__adj"/></e>
     <e lm="settimanale"><i>settimanal</i><par n="fin/e__adj"/></e>
     <e lm="sfavorevole"><i>sfavorevol</i><par n="fin/e__adj"/></e>
-    <e lm="significativo"><i>significativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="signorile"><i>signoril</i><par n="fin/e__adj"/></e>
     <e lm="silenzioso"><i>silenzios</i><par n="abbandonat/o__adj"/></e>
     <e lm="simile"><i>simil</i><par n="fin/e__adj"/></e>
@@ -33214,13 +33056,11 @@
     <e lm="sordo"><i>sord</i><par n="abbandonat/o__adj"/></e>
     <e lm="sospettoso"><i>sospettos</i><par n="abbandonat/o__adj"/></e>
     <e lm="sostanziale"><i>sostanzial</i><par n="fin/e__adj"/></e>
-    <e lm="sotterraneo"><i>sotterrane</i><par n="cosiddett/o__adj"/></e>
     <e lm="sottile"><i>sottil</i><par n="fin/e__adj"/></e>
     <e lm="sottocutaneo"><i>sottocutane</i><par n="abbandonat/o__adj"/></e>
     <e lm="sottufficiale"><i>sottufficial</i><par n="albanes/e__adj"/></e>
     <e lm="sovrano"><i>sovran</i><par n="abbandonat/o__adj"/></e>
     <e lm="sovranazionale"><i>sovranazional</i><par n="fin/e__adj"/></e>
-    <e lm="spagnolo"><i>spagnol</i><par n="cosiddett/o__adj"/></e>
     <e lm="spaziale"><i>spazial</i><par n="fin/e__adj"/></e>
     <e lm="speciale"><i>special</i><par n="fin/e__adj"/></e>
     <e lm="specifico"><i>specific</i><par n="tecnic/o__adj"/></e>
@@ -33296,8 +33136,6 @@
     <e lm="transitorio"><i>transitori</i><par n="ampi/o__adj"/></e>
     <e lm="trasparente"><i>trasparent</i><par n="fin/e__adj"/></e>
     <e lm="traumatico"><i>traumatic</i><par n="tecnic/o__adj"/></e>
-    <e lm="tredicesimo"><i>tredicesim</i><par n="cosiddett/o__adj"/></e>
-    <e lm="trentesimo"><i>trentesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="tributario"><i>tributari</i><par n="ampi/o__adj"/></e>
     <e lm="triviale"><i>trivial</i><par n="fin/e__adj"/></e>
     <e lm="tridimensionale"><i>tridimensional</i><par n="fin/e__adj"/></e>
@@ -33323,9 +33161,7 @@
     <e lm="umano"><i>uman</i><par n="abbandonat/o__adj"/></e>
     <e lm="umanitario"><i>umanitari</i><par n="ampi/o__adj"/></e>
     <e lm="umiliante"><i>umilia</i><par n="fin/e__adj"/></e>
-    <e lm="umiliante"><i>umiliant</i><par n="albanes/e__adj"/></e>
     <e lm="unanime"><i>unanim</i><par n="fin/e__adj"/></e>
-    <e lm="undicesimo"><i>undicesim</i><par n="cosiddett/o__adj"/></e>
     <e lm="ungherese"><i>ungheres</i><par n="albanes/e__adj"/></e>
     <e lm="unico"><i>unic</i><par n="tecnic/o__adj"/></e>
     <e lm="unidirezionale"><i>unidirezional</i><par n="fin/e__adj"/></e>
@@ -33336,7 +33172,6 @@
     <e lm="universitario"><i>universitari</i><par n="ampi/o__adj"/></e>
     <e lm="urbano"><i>urban</i><par n="abbandonat/o__adj"/></e>
     <e lm="urgente"><i>urge</i><par n="fin/e__adj"/></e>
-    <e lm="urgente"><i>urgent</i><par n="albanes/e__adj"/></e>
     <e lm="usuale"><i>usual</i><par n="fin/e__adj"/></e>
     <e lm="utile"><i>util</i><par n="fin/e__adj"/></e>
     <e lm="vacante"><i>vaca</i><par n="fin/e__adj"/></e>
@@ -33362,11 +33197,9 @@
     <e lm="viaggiatore"><i>viaggiat</i><par n="accentrat/ore__adj"/></e>
     <e lm="viario"><i>viari</i><par n="ampi/o__adj"/></e>
     <e lm="vibrante"><i>vibra</i><par n="fin/e__adj"/></e>
-    <e lm="vibrante"><i>vibrant</i><par n="albanes/e__adj"/></e>
     <e lm="vicino"><i>vicin</i><par n="abbandonat/o__adj"/></e>
     <e lm="vicinale"><i>vicinal</i><par n="albanes/e__adj"/></e>
     <e lm="vigente"><i>vige</i><par n="fin/e__adj"/></e>
-    <e lm="vigente"><i>vigent</i><par n="albanes/e__adj"/></e>
     <e lm="vigoroso"><i>vigoros</i><par n="abbandonat/o__adj"/></e>
     <e lm="vile"><i>vil</i><par n="fin/e__adj"/></e>
     <e lm="violento"><i>violent</i><par n="abbandonat/o__adj"/></e>
@@ -33390,20 +33223,17 @@
     <e lm="vulcanico"><i>vulcanic</i><par n="tecnic/o__adj"/></e>
     <e lm="vulnerabile"><i>vulnerabil</i><par n="fin/e__adj"/></e>
     <e lm="vuoto"><i>vuot</i><par n="abbandonat/o__adj"/></e>
-    <e lm="zebrato"><i>zebrat</i><par n="cosiddett/o__adj"/></e>
     <e lm="conforme"><i>conform</i><par n="fin/e__adj"/></e>
     <e lm="analogo"><i>analog</i><par n="caric/o__adj"/></e>
     <e lm="attento"><i>attent</i><par n="abbandonat/o__adj"/></e>
     <e lm="atomico"><i>atomic</i><par n="tecnic/o__adj"/></e>
     <e lm="casereccio"><i>caserecci</i><par n="ampi/o__adj"/></e>
     <e lm="domestico"><i>domestic</i><par n="tecnic/o__adj"/></e>
-    <e lm="dodicesimo"><i>dodicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="latteo"><i>latte</i><par n="abbandonat/o__adj"/></e>
     <e lm="pacifico"><i>pacific</i><par n="tecnic/o__adj"/></e>
     <e lm="bruno"><i>brun</i><par n="abbandonat/o__adj"/></e>
     <e lm="leopardato"><i>leopardat</i><par n="abbandonat/o__adj"/></e>
     <e lm="proprietario"><i>proprietari</i><par n="ampi/o__adj"/></e>
-    <e lm="ventesimo"><i>ventesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="vincitore"><i>vincit</i><par n="accentrat/ore__adj"/></e>
 
 <!--       ******************************      (verb) group      ******************************    -->
@@ -36806,7 +36636,6 @@
     <e lm="coperto"><i>copert</i><par n="abbandonat/o__adj"/></e>
     <e lm="coraggioso"><i>coraggios</i><par n="abbandonat/o__adj"/></e>
     <e lm="correlativo"><i>correlativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="corrispondente"><i>corrispondent</i><par n="albanes/e__adj"/></e>
     <e lm="coscienzioso"><i>coscienzios</i><par n="abbandonat/o__adj"/></e>
     <e lm="cumulativo"><i>cumulativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="dannoso"><i>dannos</i><par n="abbandonat/o__adj"/></e>
@@ -37104,241 +36933,60 @@
     <e lm="produttivo"><i>produttiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="rispettoso"><i>rispettos</i><par n="abbandonat/o__adj"/></e>
 
-    <e lm="abbandonato"><i>abbandonat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="abilitato"><i>abilitat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="abitativo"><i>abitativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="abrogativo"><i>abrogativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="abusato"><i>abusat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="giudizioso"><i>giudizios</i><par n="cosiddett/o__adj"/></e>
-    <e lm="accaduto"><i>accadut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="acquisito"><i>acquisit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="maggiorato"><i>maggiorat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="accrescitivo"><i>accrescitiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="acqueo"><i>acque</i><par n="cosiddett/o__adj"/></e>
-    <e lm="adatto"><i>adatt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="afghano"><i>afghan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="africano"><i>african</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sudafricano"><i>sudafrican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="affrontato"><i>affrontat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="aggiornato"><i>aggiornat</i><par n="cosiddett/o__adj"/></e>
     <e lm="aleatorio"><i>aleatori</i><par n="ampi/o__adj"/></e>
-    <e lm="alienato"><i>alienat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="allegato"><i>allegat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="alterno"><i>altern</i><par n="cosiddett/o__adj"/></e>
-    <e lm="suggestivo"><i>suggestiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="amnistiato"><i>amnistiat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="fidanzato"><i>fidanzat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="vasto"><i>vast</i><par n="cosiddett/o__adj"/></e>
-    <e lm="estraneo"><i>estrane</i><par n="cosiddett/o__adj"/></e>
     <e lm="annonario"><i>annonari</i><par n="ampi/o__adj"/></e>
-    <e lm="predetto"><i>predett</i><par n="cosiddett/o__adj"/></e>
-    <e lm="applicato"><i>applicat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="molesto"><i>molest</i><par n="cosiddett/o__adj"/></e>
     <e lm="aranese"><i>aranes</i><par n="albanes/e__adj"/></e>
-    <e lm="insito"><i>insit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="arrestato"><i>arrestat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="assicurato"><i>assicurat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="astenuto"><i>astenut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="azzurro"><i>azzurr</i><par n="cosiddett/o__adj"/></e>
-    <e lm="avaro"><i>avar</i><par n="cosiddett/o__adj"/></e>
-    <e lm="atono"><i>aton</i><par n="cosiddett/o__adj"/></e>
-    <e lm="autoctono"><i>autocton</i><par n="cosiddett/o__adj"/></e>
-    <e lm="avviato"><i>avviat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="venturo"><i>ventur</i><par n="cosiddett/o__adj"/></e>
-    <e lm="venuto"><i>venut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="beato"><i>beat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="bisognoso"><i>bisognos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="bruciato"><i>bruciat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="canuto"><i>canut</i><par n="cosiddett/o__adj"/></e>
     <e lm="carcerario"><i>carcerari</i><par n="ampi/o__adj"/></e>
-    <e lm="cauto"><i>caut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="controllato"><i>controllat</i><par n="cosiddett/o__adj"/></e>
     <e lm="comunitario"><i>comunitari</i><par n="ampi/o__adj"/></e>
-    <e lm="connaturato"><i>connaturat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="connesso"><i>conness</i><par n="cosiddett/o__adj"/></e>
-    <e lm="contestato"><i>contestat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="contrastato"><i>contrastat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="gemello"><i>gemell</i><par n="cosiddett/o__adj"/></e>
-    <e lm="coreano"><i>corean</i><par n="cosiddett/o__adj"/></e>
     <e lm="corso"><i>cors</i><par n="cosiddett/o__adj"/></e>
-    <e lm="costituito"><i>costituit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="consueto"><i>consuet</i><par n="cosiddett/o__adj"/></e>
-    <e lm="cotto"><i>cott</i><par n="cosiddett/o__adj"/></e>
-    <e lm="convenuto"><i>convenut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="compreso"><i>compres</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pattuito"><i>pattuit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="conciso"><i>concis</i><par n="cosiddett/o__adj"/></e>
-    <e lm="convenzionato"><i>convenzionat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="quotato"><i>quotat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="curato"><i>curat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="curativo"><i>curativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="codesto"><i>codest</i><par n="cosiddett/o__adj"/></e>
-    <e lm="decaduto"><i>decadut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="dedotto"><i>dedott</i><par n="cosiddett/o__adj"/></e>
-    <e lm="difeso"><i>difes</i><par n="cosiddett/o__adj"/></e>
-    <e lm="deceduto"><i>decedut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="delegato"><i>delegat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="delittuoso"><i>delittuos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="dettato"><i>dettat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="determinato"><i>determinat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="difficoltoso"><i>difficoltos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="dignitoso"><i>dignitos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="diminutivo"><i>diminutiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="disadattato"><i>disadattat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="svantaggiato"><i>svantaggiat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="desueto"><i>desuet</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sconosciuto"><i>sconosciut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="disagiato"><i>disagiat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="svogliato"><i>svogliat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="disoccupato"><i>disoccupat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="disordinato"><i>disordinat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="disposto"><i>dispost</i><par n="cosiddett/o__adj"/></e>
-    <e lm="svantaggioso"><i>svantaggios</i><par n="cosiddett/o__adj"/></e>
-    <e lm="documentato"><i>documentat</i><par n="cosiddett/o__adj"/></e>
     <e lm="dolomitico"><i>dolomitic</i><par n="tecnic/o__adj"/></e>
-    <e lm="doloso"><i>dolos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="domiciliato"><i>domiciliat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="duraturo"><i>duratur</i><par n="cosiddett/o__adj"/></e>
-    <e lm="equilibrato"><i>equilibrat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="equino"><i>equin</i><par n="cosiddett/o__adj"/></e>
     <e lm="efettivo"><i>efettiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="incolto"><i>incolt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="errato"><i>errat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="escluso"><i>esclus</i><par n="cosiddett/o__adj"/></e>
     <e lm="esotico"><i>esotic</i><par n="tecnic/o__adj"/></e>
     <e lm="estrinseco"><i>estrinsec</i><par n="tecnic/o__adj"/></e>
-    <e lm="eterogeneo"><i>eterogene</i><par n="cosiddett/o__adj"/></e>
-    <e lm="fatturato"><i>fatturat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="federato"><i>federat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="festivo"><i>festiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="fittizio"><i>fittizi</i><par n="ampi/o__adj"/></e>
-    <e lm="coatto"><i>coatt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="fraudolento"><i>fraudolent</i><par n="cosiddett/o__adj"/></e>
-    <e lm="dotato"><i>dotat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ladro"><i>ladr</i><par n="cosiddett/o__adj"/></e>
-    <e lm="garantito"><i>garantit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="digiuno"><i>digiun</i><par n="cosiddett/o__adj"/></e>
-    <e lm="giudicato"><i>giudicat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="giurato"><i>giurat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="illuso"><i>illus</i><par n="cosiddett/o__adj"/></e>
-    <e lm="inventato"><i>inventat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="immenso"><i>immens</i><par n="cosiddett/o__adj"/></e>
-    <e lm="impedito"><i>impedit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="impositivo"><i>impositiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="stampato"><i>stampat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="illustrativo"><i>illustrativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="indiano"><i>indian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="stufo"><i>stuf</i><par n="cosiddett/o__adj"/></e>
-    <e lm="impegnativo"><i>impegnativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="innovativo"><i>innovativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="interdetto"><i>interdett</i><par n="cosiddett/o__adj"/></e>
-    <e lm="internato"><i>internat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="invalido"><i>invalid</i><par n="cosiddett/o__adj"/></e>
-    <e lm="inviolato"><i>inviolat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="iraniano"><i>iranian</i><par n="cosiddett/o__adj"/></e>
     <e lm="sveglio"><i>svegli</i><par n="ampi/o__adj"/></e>
     <e lm="iscotzese"><i>iscotzes</i><par n="albanes/e__adj"/></e>
     <e lm="iscotzese"><i>iscotzes</i><par n="albanes/e__n"/></e>
-    <e lm="scalzo"><i>scalz</i><par n="cosiddett/o__adj"/></e>
     <e lm="buio"><i>bui</i><par n="ampi/o__adj"/></e>
-    <e lm="sdentato"><i>sdentat</i><par n="cosiddett/o__adj"/></e>
     <e lm="sloveno"><i>sloven</i><par n="cosiddett/o__adj"/></e>
     <e lm="slovacco"><i>slovacc</i><par n="caric/o__adj"/></e>
-    <e lm="sciolto"><i>sciolt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sparso"><i>spars</i><par n="cosiddett/o__adj"/></e>
     <e lm="statutario"><i>statutari</i><par n="ampi/o__adj"/></e>
     <e lm="stendardo"><i>stendard</i><par n="cosiddett/o__adj"/></e>
-    <e lm="strutturato"><i>strutturat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="studioso"><i>studios</i><par n="cosiddett/o__adj"/></e>
-    <e lm="limitrofo"><i>limitrof</i><par n="cosiddett/o__adj"/></e>
-    <e lm="lesivo"><i>lesiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="liscio"><i>lisci</i><par n="ampi/o__adj"/></e>
     <e lm="logudorese"><i>logudores</i><par n="albanes/e__adj"/></e>
     <e lm="logudorese"><i>logudores</i><par n="albanes/e__n"/></e>
-    <e lm="rigoglioso"><i>rigoglios</i><par n="cosiddett/o__adj"/></e>
-    <e lm="lucrativo"><i>lucrativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="lucroso"><i>lucros</i><par n="cosiddett/o__adj"/></e>
-    <e lm="lucido"><i>lucid</i><par n="cosiddett/o__adj"/></e>
-    <e lm="scemo"><i>scem</i><par n="cosiddett/o__adj"/></e>
-    <e lm="malsano"><i>malsan</i><par n="cosiddett/o__adj"/></e>
     <e lm="mandarino"><i>mandarin</i><par n="cosiddett/o__adj"/></e>
-    <e lm="raffinato"><i>raffinat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="citato"><i>citat</i><par n="cosiddett/o__adj"/></e>
     <e lm="minoritario"><i>minoritari</i><par n="ampi/o__adj"/></e>
     <e lm="misero"><i>miser</i><par n="cosiddett/o__adj"/></e>
     <e lm="monarchico"><i>monarchic</i><par n="tecnic/o__adj"/></e>
-    <e lm="moribondo"><i>moribond</i><par n="cosiddett/o__adj"/></e>
-    <e lm="moroso"><i>moros</i><par n="cosiddett/o__adj"/></e>
-    <e lm="convertito"><i>convertit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="zitto"><i>zitt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pulito"><i>pulit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="omogeneo"><i>omogene</i><par n="cosiddett/o__adj"/></e>
-    <e lm="operato"><i>operat</i><par n="cosiddett/o__adj"/></e>
     <e lm="operatorio"><i>operatori</i><par n="ampi/o__adj"/></e>
-    <e lm="organizzativo"><i>organizzativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="orientativo"><i>orientativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="ortografico"><i>ortografic</i><par n="tecnic/o__adj"/></e>
-    <e lm="osseo"><i>osse</i><par n="cosiddett/o__adj"/></e>
     <e lm="occitano"><i>occitan</i><par n="cosiddett/o__adj"/></e>
     <e lm="paesaggistico"><i>paesaggistic</i><par n="tecnic/o__adj"/></e>
     <e lm="patriottico"><i>patriottic</i><par n="tecnic/o__adj"/></e>
     <e lm="pecuniario"><i>pecuniari</i><par n="ampi/o__adj"/></e>
     <e lm="pedantesco"><i>pedantesc</i><par n="caric/o__adj"/></e>
-    <e lm="pietroso"><i>pietros</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pensionato"><i>pensionat</i><par n="cosiddett/o__adj"/></e>
     <e lm="polacco"><i>polacc</i><par n="caric/o__adj"/></e>
     <e lm="prefettizio"><i>prefettizi</i><par n="ampi/o__adj"/></e>
-    <e lm="pregresso"><i>pregress</i><par n="cosiddett/o__adj"/></e>
     <e lm="addetto"><i>addett</i><par n="cosiddett/o__adj"/></e>
-    <e lm="presuntuoso"><i>presuntuos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="privilegiato"><i>privilegiat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="privo"><i>priv</i><par n="cosiddett/o__adj"/></e>
     <e lm="probatorio"><i>probatori</i><par n="ampi/o__adj"/></e>
     <e lm="problematico"><i>problematic</i><par n="tecnic/o__adj"/></e>
-    <e lm="programmato"><i>programmat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="vietato"><i>vietat</i><par n="cosiddett/o__adj"/></e>
     <e lm="propedeutico"><i>propedeutic</i><par n="tecnic/o__adj"/></e>
-    <e lm="punitivo"><i>punitiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="radiotelevisivo"><i>radiotelevisiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="raso"><i>ras</i><par n="cosiddett/o__adj"/></e>
-    <e lm="recidivo"><i>recidiv</i><par n="cosiddett/o__adj"/></e>
-    <e lm="redatto"><i>redatt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ritroso"><i>ritros</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ridotto"><i>ridott</i><par n="cosiddett/o__adj"/></e>
     <e lm="referendario"><i>referendari</i><par n="ampi/o__adj"/></e>
-    <e lm="reo"><i>re</i><par n="cosiddett/o__adj"/></e>
-    <e lm="riflesso"><i>rifless</i><par n="cosiddett/o__adj"/></e>
     <e lm="romantico"><i>romantic</i><par n="tecnic/o__adj"/></e>
-    <e lm="romanzo"><i>romanz</i><par n="cosiddett/o__adj"/></e>
     <e lm="sahariano"><i>saharian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sanguinoso"><i>sanguinos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sanguigno"><i>sanguign</i><par n="cosiddett/o__adj"/></e>
     <e lm="salubre"><i>salubr</i><par n="albanes/e__adj"/></e>
     <e lm="sanitario"><i>sanitari</i><par n="ampi/o__adj"/></e>
-    <e lm="sospeso"><i>sospes</i><par n="cosiddett/o__adj"/></e>
     <e lm="secco"><i>secc</i><par n="caric/o__adj"/></e>
     <e lm="simmetrico"><i>simmetric</i><par n="tecnic/o__adj"/></e>
-    <e lm="schietto"><i>schiett</i><par n="cosiddett/o__adj"/></e>
-    <e lm="siriano"><i>sirian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="siciliano"><i>sicilian</i><par n="cosiddett/o__adj"/></e>
     <e lm="societario"><i>societari</i><par n="ampi/o__adj"/></e>
-    <e lm="suddetto"><i>suddett</i><par n="cosiddett/o__adj"/></e>
-    <e lm="superlativo"><i>superlativ</i><par n="cosiddett/o__adj"/></e>
-    <e lm="soppresso"><i>soppress</i><par n="cosiddett/o__adj"/></e>
     <e lm="viola"><i>viol</i><par n="suicid/a__adj"/></e>
-    <e lm="testardo"><i>testard</i><par n="cosiddett/o__adj"/></e>
     <e lm="siniscolese"><i>siniscoles</i><par n="albanes/e__adj"/></e>
-    <e lm="temuto"><i>temut</i><par n="cosiddett/o__adj"/></e>
     <e lm="tonico"><i>tonic</i><par n="tecnic/o__adj"/></e>
     <e lm="toscno"><i>toscn</i><par n="cosiddett/o__adj"/></e>
-    <e lm="trasformato"><i>trasformat</i><par n="cosiddett/o__adj"/></e>
     <e lm="turistico"><i>turistic</i><par n="tecnic/o__adj"/></e>
     <e lm="cimatografico"><i>cimatografic</i><par n="tecnic/o__adj"/></e>
-    <e lm="ucraino"><i>ucrain</i><par n="cosiddett/o__adj"/></e>
-    <e lm="umido"><i>umid</i><par n="cosiddett/o__adj"/></e>
     <e lm="gonfio"><i>gonfi</i><par n="ampi/o__adj"/></e>
-    <e lm="verboso"><i>verbos</i><par n="cosiddett/o__adj"/></e>
-    <e lm="votato"><i>votat</i><par n="cosiddett/o__adj"/></e>
 
     <e lm="abbaglio"><i>abbagli</i><par n="abbagli/o__n"/></e>
     <e lm="abitudinario"><i>abitudinari</i><par n="abbagli/o__n"/></e>
@@ -37544,7 +37192,6 @@
     <e lm="maga"><i>mag</i><par n="cas/a__n"/></e>
     <e lm="magistratura"><i>magistratur</i><par n="cas/a__n"/></e>
     <e lm="mancànza"><i>mancànz</i><par n="cas/a__n"/></e>
-    <e lm="mandarino"><i>mandarin</i><par n="bambin/o__n"/></e>
     <e lm="matassa"><i>matass</i><par n="cas/a__n"/></e>
     <e lm="matricola"><i>matricol</i><par n="cas/a__n"/></e>
     <e lm="menzogna"><i>menzogn</i><par n="cas/a__n"/></e>
@@ -37804,22 +37451,9 @@
     <e lm="tedesco-orientale"><i>tedesco-oriental</i><par n="fin/e__adj"/></e>
     <e lm="trans-nazionale"><i>trans-nazional</i><par n="fin/e__adj"/></e>
 
-    <e lm="concordato"><i>concordat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="emiliano"><i>emilian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="fornito"><i>fornit</i><par n="cosiddett/o__adj"/></e>
-    <e lm="friulano"><i>friulan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="inferiore"><i>inferior</i><par n="albanes/e__adj"/></e>
-    <e lm="lombardo"><i>lombard</i><par n="cosiddett/o__adj"/></e>
-    <e lm="matto"><i>matt</i><par n="cosiddett/o__adj"/></e>
-    <e lm="noioso"><i>noios</i><par n="cosiddett/o__adj"/></e>
-    <e lm="nominato"><i>nominat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="oscuro"><i>oscur</i><par n="cosiddett/o__adj"/></e>
     <e lm="paritario"><i>paritari</i><par n="ampi/o__adj"/></e>
     <e lm="poco"><i>poc</i><par n="caric/o__adj"/></e>
     <e lm="restio"><i>resti</i><par n="ampi/o__adj"/></e>
-    <e lm="superiore"><i>superior</i><par n="albanes/e__adj"/></e>
-    <e lm="ulteriore"><i>ulterior</i><par n="albanes/e__adj"/></e>
-    <e lm="veneto"><i>venet</i><par n="cosiddett/o__adj"/></e>
 
     <e lm="4x4"><i>4x4</i><par n="abilità__n"/></e>
     <e lm="ancora"><i>ancora</i><par n="abilità__n"/></e>
@@ -40249,7 +39883,6 @@
     <e lm="cinoaustraliano"><i>cinoaustralian</i><par n="abbandonat/o__adj"/></e>
     <e lm="cinocefalo"><i>cinocefal</i><par n="abbandonat/o__adj"/></e>
     <e lm="cinofilo"><i>cinofil</i><par n="abbandonat/o__adj"/></e>
-    <e lm="cinquantesimo"><i>cinquantesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="cinto"><i>cint</i><par n="abbandonat/o__adj"/></e>
     <e lm="ciociaro"><i>ciociar</i><par n="abbandonat/o__adj"/></e>
     <e lm="cipputiano"><i>cipputian</i><par n="abbandonat/o__adj"/></e>
@@ -40500,7 +40133,6 @@
     <e lm="debosciato"><i>debosciat</i><par n="abbandonat/o__adj"/></e>
     <e lm="decaduto"><i>decadut</i><par n="abbandonat/o__adj"/></e>
     <e lm="deceduto"><i>decedut</i><par n="abbandonat/o__adj"/></e>
-    <e lm="decimo"><i>decim</i><par n="abbandonat/o__adj"/></e>
     <e lm="decorativo"><i>decorativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="decorato"><i>decorat</i><par n="abbandonat/o__adj"/></e>
     <e lm="decoroso"><i>decoros</i><par n="abbandonat/o__adj"/></e>
@@ -40553,8 +40185,6 @@
     <e lm="devoto"><i>devot</i><par n="abbandonat/o__adj"/></e>
     <e lm="diamantifero"><i>diamantifer</i><par n="abbandonat/o__adj"/></e>
     <e lm="dichiarativo"><i>dichiarativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="diciassettesimo"><i>diciassettesim</i><par n="abbandonat/o__adj"/></e>
-    <e lm="diciottesimo"><i>diciottesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="dickensiano"><i>dickensian</i><par n="abbandonat/o__adj"/></e>
     <e lm="didattico-interpretativo"><i>didattico-interpretativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="diessino"><i>diessin</i><par n="abbandonat/o__adj"/></e>
@@ -41526,7 +41156,6 @@
     <e lm="migliorativo"><i>migliorativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="milenso"><i>milens</i><par n="abbandonat/o__adj"/></e>
     <e lm="millantato"><i>millantat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="millesimo"><i>millesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="millimetrato"><i>millimetrat</i><par n="abbandonat/o__adj"/></e>
     <e lm="minaccioso"><i>minaccios</i><par n="abbandonat/o__adj"/></e>
     <e lm="mingherlino"><i>mingherlin</i><par n="abbandonat/o__adj"/></e>
@@ -41635,7 +41264,6 @@
     <e lm="noto"><i>not</i><par n="abbandonat/o__adj"/></e>
     <e lm="nottambulo"><i>nottambul</i><par n="abbandonat/o__adj"/></e>
     <e lm="notturno"><i>notturn</i><par n="abbandonat/o__adj"/></e>
-    <e lm="novantesimo"><i>novantesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="novembrino"><i>novembrin</i><par n="abbandonat/o__adj"/></e>
     <e lm="nullo"><i>null</i><par n="abbandonat/o__adj"/></e>
     <e lm="numerato"><i>numerat</i><par n="abbandonat/o__adj"/></e>
@@ -41706,8 +41334,6 @@
     <e lm="ossuto"><i>ossut</i><par n="abbandonat/o__adj"/></e>
     <e lm="ostativo"><i>ostativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="ostrogoto"><i>ostrogot</i><par n="abbandonat/o__adj"/></e>
-    <e lm="ottantesimo"><i>ottantesim</i><par n="abbandonat/o__adj"/></e>
-    <e lm="ottavo"><i>ottav</i><par n="abbandonat/o__adj"/></e>
     <e lm="ottomano"><i>ottoman</i><par n="abbandonat/o__adj"/></e>
     <e lm="ottuso"><i>ottus</i><par n="abbandonat/o__adj"/></e>
     <e lm="ovino"><i>ovin</i><par n="abbandonat/o__adj"/></e>
@@ -41975,12 +41601,10 @@
     <e lm="quadro"><i>quadr</i><par n="abbandonat/o__adj"/></e>
     <e lm="quadruplo"><i>quadrupl</i><par n="abbandonat/o__adj"/></e>
     <e lm="qualificato"><i>qualificat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="quarantesimo"><i>quarantesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="quatto"><i>quatt</i><par n="abbandonat/o__adj"/></e>
     <e lm="quercino"><i>quercin</i><par n="abbandonat/o__adj"/></e>
     <e lm="querulo"><i>querul</i><par n="abbandonat/o__adj"/></e>
     <e lm="quieto"><i>quiet</i><par n="abbandonat/o__adj"/></e>
-    <e lm="quindicesimo"><i>quindicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="quintultimo"><i>quintultim</i><par n="abbandonat/o__adj"/></e>
     <e lm="quintuplo"><i>quintupl</i><par n="abbandonat/o__adj"/></e>
     <e lm="quotato"><i>quotat</i><par n="abbandonat/o__adj"/></e>
@@ -42212,7 +41836,6 @@
     <e lm="scaligero"><i>scaliger</i><par n="abbandonat/o__adj"/></e>
     <e lm="scalognato"><i>scalognat</i><par n="abbandonat/o__adj"/></e>
     <e lm="scaltro"><i>scaltr</i><par n="abbandonat/o__adj"/></e>
-    <e lm="altro"><i>altr</i><par n="abbandonat/o__adj"/></e>
     <e lm="scalzo"><i>scalz</i><par n="abbandonat/o__adj"/></e>
     <e lm="scampato"><i>scampat</i><par n="abbandonat/o__adj"/></e>
     <e lm="scandaloso"><i>scandalos</i><par n="abbandonat/o__adj"/></e>
@@ -42287,7 +41910,6 @@
     <e lm="seccato"><i>seccat</i><par n="abbandonat/o__adj"/></e>
     <e lm="secondogenito"><i>secondogenit</i><par n="abbandonat/o__adj"/></e>
     <e lm="sedativo"><i>sedativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="sedicesimo"><i>sedicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="sedizioso"><i>sedizios</i><par n="abbandonat/o__adj"/></e>
     <e lm="segaligno"><i>segalign</i><par n="abbandonat/o__adj"/></e>
     <e lm="segnalato"><i>segnalat</i><par n="abbandonat/o__adj"/></e>
@@ -42322,7 +41944,6 @@
     <e lm="serrato"><i>serrat</i><par n="abbandonat/o__adj"/></e>
     <e lm="sessantotto"><i>sessantott</i><par n="abbandonat/o__adj"/></e>
     <e lm="sessuato"><i>sessuat</i><par n="abbandonat/o__adj"/></e>
-    <e lm="settantesimo"><i>settantesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="settembrino"><i>settembrin</i><par n="abbandonat/o__adj"/></e>
     <e lm="settimino"><i>settimin</i><par n="abbandonat/o__adj"/></e>
     <e lm="sfaccendato"><i>sfaccendat</i><par n="abbandonat/o__adj"/></e>
@@ -42687,7 +42308,6 @@
     <e lm="terriero"><i>terrier</i><par n="abbandonat/o__adj"/></e>
     <e lm="terroso"><i>terros</i><par n="abbandonat/o__adj"/></e>
     <e lm="terso"><i>ters</i><par n="abbandonat/o__adj"/></e>
-    <e lm="terzo"><i>terz</i><par n="abbandonat/o__adj"/></e>
     <e lm="teso"><i>tes</i><par n="abbandonat/o__adj"/></e>
     <e lm="tesserato"><i>tesserat</i><par n="abbandonat/o__adj"/></e>
     <e lm="testardo"><i>testard</i><par n="abbandonat/o__adj"/></e>
@@ -42746,10 +42366,8 @@
     <e lm="travagliato"><i>travagliat</i><par n="abbandonat/o__adj"/></e>
     <e lm="traverso"><i>travers</i><par n="abbandonat/o__adj"/></e>
     <e lm="travestito"><i>travestit</i><par n="abbandonat/o__adj"/></e>
-    <e lm="tredicesimo"><i>tredicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="tremebondo"><i>tremebond</i><par n="abbandonat/o__adj"/></e>
     <e lm="tremulo"><i>tremul</i><par n="abbandonat/o__adj"/></e>
-    <e lm="trentesimo"><i>trentesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="trentino"><i>trentin</i><par n="abbandonat/o__adj"/></e>
     <e lm="trepido"><i>trepid</i><par n="abbandonat/o__adj"/></e>
     <e lm="tribolato"><i>tribolat</i><par n="abbandonat/o__adj"/></e>
@@ -42801,7 +42419,6 @@
     <e lm="umido"><i>umid</i><par n="abbandonat/o__adj"/></e>
     <e lm="uncinato"><i>uncinat</i><par n="abbandonat/o__adj"/></e>
     <e lm="undecimo"><i>undecim</i><par n="abbandonat/o__adj"/></e>
-    <e lm="undicesimo"><i>undicesim</i><par n="abbandonat/o__adj"/></e>
     <e lm="ungarettiano"><i>ungarettian</i><par n="abbandonat/o__adj"/></e>
     <e lm="unificato"><i>unificat</i><par n="abbandonat/o__adj"/></e>
     <e lm="unisono"><i>unison</i><par n="abbandonat/o__adj"/></e>
@@ -43080,7 +42697,6 @@
     <e lm="aderito"><i>aderit</i><par n="cosiddett/o__adj"/></e>
     <e lm="algherese"><i>algheres</i><par n="albanes/e__adj"/></e>
     <e lm="analizzato"><i>analizzat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="anteriore"><i>anterior</i><par n="albanes/e__adj"/></e>
     <e lm="assunto"><i>assunt</i><par n="cosiddett/o__adj"/></e>
     <e lm="attestato"><i>attestat</i><par n="cosiddett/o__adj"/></e>
     <e lm="attivato"><i>attivat</i><par n="cosiddett/o__adj"/></e>
@@ -43112,13 +42728,11 @@
     <e lm="cumbinato"><i>cumbinat</i><par n="cosiddett/o__adj"/></e>
     <e lm="cumplessivo"><i>cumplessiv</i><par n="cosiddett/o__adj"/></e>
     <e lm="cumplesso"><i>cumpless</i><par n="cosiddett/o__adj"/></e>
-    <e lm="debole"><i>debol</i><par n="albanes/e__adj"/></e>
     <e lm="denunciato"><i>denunciat</i><par n="cosiddett/o__adj"/></e>
     <e lm="designato"><i>designat</i><par n="cosiddett/o__adj"/></e>
     <e lm="detenuto"><i>detenut</i><par n="cosiddett/o__adj"/></e>
     <e lm="distribuito"><i>distribuit</i><par n="cosiddett/o__adj"/></e>
     <e lm="dorgalese"><i>dorgales</i><par n="albanes/e__adj"/></e>
-    <e lm="episcopale"><i>episcopal</i><par n="albanes/e__adj"/></e>
     <e lm="esaminato"><i>esaminat</i><par n="cosiddett/o__adj"/></e>
     <e lm="etrusco"><i>etrusc</i><par n="caric/o__adj"/></e>
     <e lm="etrusco"><i>etrusc</i><par n="tedesc/o__n"/></e>
@@ -43143,22 +42757,18 @@
     <e lm="moro"><i>mor</i><par n="cosiddett/o__adj"/></e>
     <e lm="neolatino"><i>neolatin</i><par n="cosiddett/o__adj"/></e>
     <e lm="nuorese"><i>nuores</i><par n="albanes/e__adj"/></e>
-    <e lm="occasionale"><i>occasional</i><par n="albanes/e__adj"/></e>
     <e lm="ogliastrino"><i>ogliastrin</i><par n="cosiddett/o__adj"/></e>
     <e lm="oristanese"><i>oristanes</i><par n="albanes/e__adj"/></e>
     <e lm="ottenuto"><i>ottenut</i><par n="cosiddett/o__adj"/></e>
     <e lm="parecchio"><i>parecchi</i><par n="ampi/o__adj"/></e>
-    <e lm="piacevole"><i>piacevol</i><par n="albanes/e__adj"/></e>
     <e lm="piccolino"><i>piccolin</i><par n="cosiddett/o__adj"/></e>
     <e lm="popolato"><i>popolat</i><par n="cosiddett/o__adj"/></e>
     <e lm="precisato"><i>precisat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="primo"><i>prim</i><par n="cosiddett/o__adj"/></e>
     <e lm="proclamado"><i>proclamad</i><par n="cosiddett/o__adj"/></e>
     <e lm="promulgato"><i>promulgat</i><par n="cosiddett/o__adj"/></e>
     <e lm="punico"><i>punic</i><par n="tecnic/o__adj"/></e>
     <e lm="quello"><i>quell</i><par n="cosiddett/o__adj"/></e>
     <e lm="ragazzo"><i>ragazz</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ragionevole"><i>ragionevol</i><par n="albanes/e__adj"/></e>
     <e lm="rapresentativo"><i>rapresentativ</i><par n="cosiddett/o__adj"/></e>
     <e lm="ratificato"><i>ratificat</i><par n="cosiddett/o__adj"/></e>
     <e lm="relazionato"><i>relazionat</i><par n="cosiddett/o__adj"/></e>
@@ -43169,8 +42779,6 @@
     <e lm="risposto"><i>rispost</i><par n="cosiddett/o__adj"/></e>
     <e lm="rivoltato"><i>rivoltat</i><par n="cosiddett/o__adj"/></e>
     <e lm="sassarese"><i>sassares</i><par n="albanes/e__adj"/></e>
-    <e lm="serbo"><i>serb</i><par n="cosiddett/o__adj"/></e>
-    <e lm="solidale"><i>solidal</i><par n="albanes/e__adj"/></e>
     <e lm="sparpagliato"><i>sparpagliat</i><par n="cosiddett/o__adj"/></e>
     <e lm="speso"><i>spes</i><par n="cosiddett/o__adj"/></e>
     <e lm="tabarchino"><i>tabarchin</i><par n="cosiddett/o__adj"/></e>
@@ -44036,7 +43644,6 @@
     <e lm="Allen"><i>Allen</i><par n="Juan__np"/></e>
     <e lm="Alpi"><i>Alpi</i><par n="Maldive__np"/></e>
     <e lm="andante"><i>andant</i><par n="abat/e__n"/></e>
-    <e lm="andante"><i>andant</i><par n="albanes/e__adj"/></e>
     <e lm="Anderson"><i>Anderson</i><par n="Díez__np"/></e>
     <e lm="André"><i>André</i><par n="Juan__np"/></e>
     <e lm="Andrew"><i>Andrew</i><par n="Juan__np"/></e>
@@ -44067,7 +43674,6 @@
     <e lm="Austin"><i>Austin</i><par n="Afghanistan__np"/></e>
     <e lm="Austin"><i>Austin</i><par n="Díez__np"/></e>
     <e lm="avente"><i>avent</i><par n="albanes/e__adj"/></e>
-    <e lm="avversario"><i>avversari</i><par n="abbagli/o__n"/></e>
     <e lm="Bach"><i>Bach</i><par n="Díez__np"/></e>
     <e lm="Balcani"><i>Balcani</i><par n="Díez__np"/></e>
     <e lm="Balcani"><i>Balcani</i><par n="USA__np"/></e>
@@ -44174,7 +43780,6 @@
     <e lm="discografia"><i>discografi</i><par n="cas/a__n"/></e>
     <e lm="DJ"><i>DJ</i><par n="BBVA__n"/></e>
     <e lm="DNA"><i>DNA</i><par n="BBVA__n"/></e>
-    <e lm="DNA"><i>DNA</i><par n="TV__n"/></e>
     <e lm="Domenico"><i>Domenico</i><par n="Díez__np"/></e>
     <e lm="doppietta"><i>doppiett</i><par n="cas/a__n"/></e>
     <e lm="Doria"><i>Doria</i><par n="Díez__np"/></e>
@@ -45834,7 +45439,6 @@
     <e lm="aziendale"><i>aziendal</i><par n="albanes/e__adj"/></e>
     <e lm="centralista"><i>centralist</i><par n="suicid/a__adj"/></e>
     <e lm="complementare"><i>complementar</i><par n="albanes/e__adj"/></e>
-    <e lm="cospicuo"><i>cospicu</i><par n="cosiddett/o__adj"/></e>
     <e lm="coufficiale"><i>coufficial</i><par n="albanes/e__adj"/></e>
     <e lm="curriculare"><i>curricular</i><par n="albanes/e__adj"/></e>
     <e lm="currispondente"><i>currispondent</i><par n="albanes/e__adj"/></e>
@@ -45843,13 +45447,11 @@
     <e lm="federalista"><i>federalist</i><par n="suicid/a__adj"/></e>
     <e lm="gesuita"><i>gesuit</i><par n="suicid/a__adj"/></e>
     <e lm="linguista"><i>linguist</i><par n="suicid/a__adj"/></e>
-    <e lm="morbido"><i>morbid</i><par n="cosiddett/o__adj"/></e>
     <e lm="ponente"><i>ponent</i><par n="albanes/e__adj"/></e>
     <e lm="professionista"><i>professionist</i><par n="suicid/a__adj"/></e>
     <e lm="progressista"><i>progressist</i><par n="suicid/a__adj"/></e>
     <e lm="sofista"><i>sofist</i><par n="suicid/a__adj"/></e>
     <e lm="sperimentare"><i>sperimentar</i><par n="albanes/e__adj"/></e>
-    <e lm="temporaneo"><i>temporane</i><par n="cosiddett/o__adj"/></e>
 
     <e lm="cattolico"><i>cattolic</i><par n="tedesc/o__n"/></e>
     <e lm="iugoslavo"><i>iugoslav</i><par n="bambin/o__n"/></e>
@@ -46717,95 +46319,27 @@
     <e lm="Zen"><i>Zen</i><par n="Díez__np"/></e>
     <e lm="Zucca"><i>Zucca</i><par n="Díez__np"/></e>
 
-    <e lm="americano"><i>american</i><par n="cosiddett/o__adj"/></e>
-    <e lm="andreottiano"><i>andreottian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="angolano"><i>angolan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="anziano"><i>anzian</i><par n="cosiddett/o__adj"/></e>
     <e lm="berlusconiano"><i>berlusconian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="birmano"><i>birman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="boliviano"><i>bolivian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="bresciano"><i>brescian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="cagliaritano"><i>cagliaritan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="californiano"><i>californian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="cambogiano"><i>cambogian</i><par n="cosiddett/o__adj"/></e>
     <e lm="capitano"><i>capitan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="carmelitano"><i>carmelitan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="casertano"><i>casertan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="castellano"><i>castellan</i><par n="cosiddett/o__adj"/></e>
     <e lm="ciarlatano"><i>ciarlatan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="clintoniano"><i>clintonian</i><par n="cosiddett/o__adj"/></e>
     <e lm="cossighiano"><i>cossighian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="craxiano"><i>craxian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="cristiano"><i>cristian</i><par n="cosiddett/o__adj"/></e>
     <e lm="decano"><i>decan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="democristiano"><i>democristian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="dominicano"><i>dominican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ecuadoriano"><i>ecuadorian</i><par n="cosiddett/o__adj"/></e>
     <e lm="foggiano"><i>foggian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="freudiano"><i>freudian</i><par n="cosiddett/o__adj"/></e>
     <e lm="furlano"><i>furlan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="genoano"><i>genoan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="gitano"><i>gitan</i><par n="cosiddett/o__adj"/></e>
     <e lm="guardiano"><i>guardian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="haitiano"><i>haitian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="isolano"><i>isolan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="istriano"><i>istrian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="italiano"><i>italian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="lucano"><i>lucan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="luterano"><i>luteran</i><par n="cosiddett/o__adj"/></e>
-    <e lm="mantovano"><i>mantovan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="marziano"><i>marzian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="messicano"><i>messican</i><par n="cosiddett/o__adj"/></e>
     <e lm="miliziano"><i>milizian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="molisano"><i>molisan</i><par n="cosiddett/o__adj"/></e>
     <e lm="mozambicano"><i>mozambican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="mussulmano"><i>mussulman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="musulmano"><i>musulman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="napoletano"><i>napoletan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="nigeriano"><i>nigerian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ottomano"><i>ottoman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="padano"><i>padan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="padovano"><i>padovan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pagano"><i>pagan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pakistano"><i>pakistan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="palermitano"><i>palermitan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="paraguaiano"><i>paraguaian</i><par n="cosiddett/o__adj"/></e>
     <e lm="paraguayano"><i>paraguayan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="parmigiano"><i>parmigian</i><par n="cosiddett/o__adj"/></e>
     <e lm="parrocchiano"><i>parrocchian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="partigiano"><i>partigian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="persiano"><i>persian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="peruviano"><i>peruvian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="pisano"><i>pisan</i><par n="cosiddett/o__adj"/></e>
     <e lm="portoricano"><i>portorican</i><par n="cosiddett/o__adj"/></e>
     <e lm="pretoriano"><i>pretorian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="profano"><i>profan</i><par n="cosiddett/o__adj"/></e>
     <e lm="prussiano"><i>prussian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="puritano"><i>puritan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="reggiano"><i>reggian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="repubblicano"><i>repubblican</i><par n="cosiddett/o__adj"/></e>
-    <e lm="romano"><i>roman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="ruffiano"><i>ruffian</i><par n="cosiddett/o__adj"/></e>
     <e lm="sacchiano"><i>sacchian</i><par n="cosiddett/o__adj"/></e>
     <e lm="salernitano"><i>salernitan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="salesiano"><i>salesian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="samaritano"><i>samaritan</i><par n="cosiddett/o__adj"/></e>
     <e lm="sampdoriano"><i>sampdorian</i><par n="cosiddett/o__adj"/></e>
     <e lm="siracusano"><i>siracusan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="strano"><i>stran</i><par n="cosiddett/o__adj"/></e>
     <e lm="tafano"><i>tafan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="texano"><i>texan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="tibetano"><i>tibetan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="toscano"><i>toscan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="umano"><i>uman</i><par n="cosiddett/o__adj"/></e>
-    <e lm="uruguayano"><i>uruguayan</i><par n="cosiddett/o__adj"/></e>
     <e lm="valdostano"><i>valdostan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="valligiano"><i>valligian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="vegetariano"><i>vegetarian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="veneziano"><i>venezian</i><par n="cosiddett/o__adj"/></e>
-    <e lm="venezuelano"><i>venezuelan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="veterano"><i>veteran</i><par n="cosiddett/o__adj"/></e>
-    <e lm="villano"><i>villan</i><par n="cosiddett/o__adj"/></e>
 
 
     <e lm="Jean-Claude Trichet" a="prompsit"><i>Jean-Claude Trichet</i><par n="Juan__np"/></e>
