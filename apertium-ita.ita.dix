@@ -20379,7 +20379,6 @@
     <e lm="perdutamente"><i>perdutamente</i><par n="ieri__adv"/></e>
     <e lm="perfino"><i>perfino</i><par n="ieri__adv"/></e>
     <e lm="perlopiù"><i>perlopiù</i><par n="ieri__adv"/></e>
-    <e lm="però"><i>però</i><par n="ieri__adv"/></e>
     <e lm="pertanto"><i>pertanto</i><par n="ieri__adv"/></e>
     <e lm="platonicamente"><i>platonicamente</i><par n="ieri__adv"/></e>
     <e lm="plausibilmente"><i>plausibilmente</i><par n="ieri__adv"/></e>
@@ -33128,6 +33127,7 @@
     <e lm="timido"><i>timid</i><par n="abbandonat/o__adj"/></e>
     <e lm="tipico"><i>tipic</i><par n="tecnic/o__adj"/></e>
     <e lm="tonto"><i>tont</i><par n="abbandonat/o__adj"/></e>
+    <e lm="sognato"><i>sognat</i><par n="abbandonat/o__adj"/></e>
     <e lm="topico"><i>topic</i><par n="tecnic/o__adj"/></e>
     <e lm="torrenziale"><i>torrenzial</i><par n="fin/e__adj"/></e>
     <e lm="totale"><i>total</i><par n="fin/e__adj"/></e>
