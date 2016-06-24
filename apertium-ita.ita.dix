@@ -37177,14 +37177,14 @@
     <e lm="cuntributo"><i>cuntribut</i><par n="abbain/o__n"/></e>
     <e lm="custode"><i>custod</i><par n="abat/e__n"/></e>
     <e lm="dazio"><i>dazi</i><par n="abbagli/o__n"/></e>
-    <e lm="delega"><i>deleg</i><par n="cas/a__n"/></e>
+    <e lm="delega"><i>deleg</i><par n="tasc/a__n"/></e>
     <e lm="delegificazione"><i>delegificazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="delibera"><i>deliber</i><par n="cas/a__n"/></e>
     <e lm="demanio"><i>demani</i><par n="abbagli/o__n"/></e>
     <e lm="dentiera"><i>dentier</i><par n="cas/a__n"/></e>
     <e lm="depenalizzazione"><i>depenalizzazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="depositario"><i>depositari</i><par n="segretari/o__n"/></e>
-    <e lm="deroga"><i>derog</i><par n="cas/a__n"/></e>
+    <e lm="deroga"><i>derog</i><par n="tasc/a__n"/></e>
     <e lm="detrazione"><i>detrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="dibattuto"><i>dibattut</i><par n="abbain/o__n"/></e>
     <e lm="differenzialismo"><i>differenzialism</i><par n="abbain/o__n"/></e>
@@ -37284,7 +37284,7 @@
     <e lm="lite"><i>lit</i><par n="abbreviazion/e__n"/></e>
     <e lm="macchia"><i>macchi</i><par n="cas/a__n"/></e>
     <e lm="macellaio"><i>macellai</i><par n="segretari/o__n"/></e>
-    <e lm="maga"><i>mag</i><par n="cas/a__n"/></e>
+    <e lm="maga"><i>mag</i><par n="tasc/a__n"/></e>
     <e lm="magistratura"><i>magistratur</i><par n="cas/a__n"/></e>
     <e lm="mancànza"><i>mancànz</i><par n="cas/a__n"/></e>
     <e lm="matassa"><i>matass</i><par n="cas/a__n"/></e>
@@ -37323,7 +37323,7 @@
     <e lm="ovvietà"><i>ovvietà</i><par n="abilità__n"/></e>
     <e lm="pacco"><i>pacc</i><par n="fung/o__n"/></e>
     <e lm="padella"><i>padell</i><par n="cas/a__n"/></e>
-    <e lm="paga"><i>pag</i><par n="cas/a__n"/></e>
+    <e lm="paga"><i>pag</i><par n="tasc/a__n"/></e>
     <e lm="palestra"><i>palestr</i><par n="cas/a__n"/></e>
     <e lm="partita"><i>partit</i><par n="cas/a__n"/></e>
     <e lm="partnership"><i>partnership</i><par n="abilità__n"/></e>
@@ -37355,7 +37355,7 @@
     <e lm="provvidenza"><i>provvidenz</i><par n="cas/a__n"/></e>
     <e lm="prugna"><i>prugn</i><par n="cas/a__n"/></e>
     <e lm="punteggio"><i>punteggi</i><par n="abbagli/o__n"/></e>
-    <e lm="purga"><i>purg</i><par n="cas/a__n"/></e>
+    <e lm="purga"><i>purg</i><par n="tasc/a__n"/></e>
     <e lm="quadrare"><i>quadrar</i><par n="abat/e__n"/></e>
     <e lm="quaglio"><i>quagli</i><par n="abbagli/o__n"/></e>
     <e lm="qualifica"><i>qualific</i><par n="tasc/a__n"/></e>
@@ -37385,7 +37385,7 @@
     <e lm="ricompensa"><i>ricompens</i><par n="cas/a__n"/></e>
     <e lm="riconoscenza"><i>riconoscenz</i><par n="cas/a__n"/></e>
     <e lm="riequilibrio"><i>riequilibri</i><par n="abbagli/o__n"/></e>
-    <e lm="riga"><i>rig</i><par n="cas/a__n"/></e>
+    <e lm="riga"><i>rig</i><par n="tasc/a__n"/></e>
     <e lm="ringhiera"><i>ringhier</i><par n="cas/a__n"/></e>
     <e lm="ripulitura"><i>ripulitur</i><par n="cas/a__n"/></e>
     <e lm="riservatezza"><i>riservatezz</i><par n="cas/a__n"/></e>
@@ -37441,7 +37441,7 @@
     <e lm="svantaggio"><i>svantaggi</i><par n="abbagli/o__n"/></e>
     <e lm="svolta"><i>svolt</i><par n="cas/a__n"/></e>
     <e lm="tacco"><i>tacc</i><par n="fung/o__n"/></e>
-    <e lm="targa"><i>targ</i><par n="cas/a__n"/></e>
+    <e lm="targa"><i>targ</i><par n="tasc/a__n"/></e>
     <e lm="tassa"><i>tass</i><par n="cas/a__n"/></e>
     <e lm="tavoletta"><i>tavolett</i><par n="cas/a__n"/></e>
     <e lm="tegola"><i>tegol</i><par n="cas/a__n"/></e>
@@ -43806,7 +43806,7 @@
     <e lm="Bond"><i>Bond</i><par n="Díez__np"/></e>
     <e lm="Borgogna"><i>Borgogna</i><par n="Europa__np"/></e>
     <e lm="borgo"><i>borg</i><par n="fung/o__n"/></e>
-    <e lm="bottega"><i>botteg</i><par n="cas/a__n"/></e>
+    <e lm="bottega"><i>botteg</i><par n="tasc/a__n"/></e>
     <e lm="brigata"><i>brigat</i><par n="cas/a__n"/></e>
     <e lm="Britannia"><i>Britannia</i><par n="Europa__np"/></e>
     <e lm="Broadway"><i>Broadway</i><par n="Afghanistan__np"/></e>
