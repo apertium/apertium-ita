@@ -234,6 +234,30 @@
       </e>
     </pardef>
 
+  <pardef n="cons_especiales">
+      <e>
+        <i>s</i>
+        <par n="consonants"/>
+      </e>
+       <e>
+        <i>x</i>
+      </e>
+       <e>
+        <i>y</i>
+      </e>
+       <e>
+        <i>z</i>
+      </e>
+       <e>
+        <i>ps</i>
+      </e>
+       <e>
+        <i>pn</i>
+      </e>
+       <e>
+        <i>gn</i>
+      </e>
+    </pardef>
 
     <pardef n="vocals">
       <e>
@@ -413,10 +437,10 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>il<b/>s</l>
-          <r>allo<b/>s</r>
+          <l><b/><a/>il<b/></l>
+          <r>allo<b/></r>
         </p>
-        <par n="consonants"/>
+        <par n="cons_especiales"/>
       </e>
       <e>
         <p>
@@ -470,12 +494,13 @@
         <par n="vocals"/>
       </e>
 
+     
       <e>
         <p>
           <l><b/><a/>i<b/></l>
-          <r>ai<b/></r>
+          <r>agli<b/></r>
         </p>
-        <par n="consonants"/>
+        <par n="vocals"/>
       </e>
 
       <e>
@@ -483,7 +508,15 @@
           <l><b/><a/>i<b/></l>
           <r>agli<b/></r>
         </p>
-        <par n="vocals"/>
+        <par n="cons_especiales"/>
+      </e>
+
+     <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>ai<b/></r>
+        </p>
+        <par n="consonants"/>
       </e>
 
       <e>
@@ -527,11 +560,15 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>il<b/>s</l>
-          <r>dello<b/>s</r>
-        </p>
-        <par n="consonants"/>
+          <l><b/><a/>il<b/></l>
+          <r>dello<b/></r>
+       </p>
+        <par n="cons_especiales"/>
       </e>
+
+
+
+
 
       <e>
         <p>
@@ -600,6 +637,23 @@
           <r>della<b/></r>
         </p>
       </e>
+
+      <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>degli<b/></r>
+        </p>
+        <par n="vocals"/>
+      </e>
+
+      <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>degli<b/></r>
+        </p>
+       <par n="cons_especiales"/>
+      </e>
+ 
       <e>
         <p>
           <l><b/><a/>i<b/></l>
@@ -608,13 +662,7 @@
        <par n="consonants"/>
       </e>
 
-      <e>
-        <p>
-          <l><b/><a/>i<b/></l>
-          <r>degli<b/></r>
-        </p>
-       <par n="vocals"/>
-      </e>
+
       <e>
         <p>
           <l><b/><a/>i<b/></l>
@@ -679,10 +727,10 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>il<b/>s</l>
-          <r>dallo<b/>s</r>
+          <l><b/><a/>il<b/></l>
+          <r>dallo<b/></r>
         </p>
-        <par n="consonants"/>
+        <par n="cons_especiales"/>
       </e>
       <e>
         <p>
@@ -731,20 +779,13 @@
        <par n="numeros"/>
       </e>
 
-      <e>
-        <p>
-          <l><b/><a/>i<b/></l>
-          <r>dai<b/></r>
-        </p>
-       <par n="consonants"/>
-      </e>
 
       <e>
         <p>
           <l><b/><a/>i<b/></l>
           <r>dagli<b/></r>
         </p>
-       <par n="vocals"/>
+       <par n="cons_especiales"/>
       </e>
 
       <e>
@@ -753,6 +794,15 @@
           <r>da<b/></r>
         </p>
         <par n="vocals"/>
+      </e>
+
+
+      <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>dai<b/></r>
+        </p>
+       <par n="consonants"/>
       </e>
 
       <e>
@@ -797,10 +847,10 @@
       </e>
       <e>
         <p>
-          <l><b/><a/>il<b/>s</l>
-          <r>sullo<b/>s</r>
+          <l><b/><a/>il<b/></l>
+          <r>sullo<b/></r>
         </p>
-        <par n="consonants"/>
+        <par n="cons_especiales"/>
       </e>
       <e>
         <p>
@@ -829,10 +879,10 @@
       <e>
         <p>
           <l><b/><a/>i<b/></l>
-          <r>sui<b/></r>
+          <r>sugli<b/></r>
         </p>
-       <par n="consonants"/>
-      </e>
+       <par n="vocals"/>
+      </e>    
 
 
       <e>
@@ -840,7 +890,15 @@
           <l><b/><a/>i<b/></l>
           <r>sugli<b/></r>
         </p>
-       <par n="vocals"/>
+       <par n="cons_especiales"/>
+      </e>
+
+     <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>sui<b/></r>
+        </p>
+       <par n="consonants"/>
       </e>
 
       <e>
@@ -893,10 +951,10 @@
       </e> 
       <e>
         <p>
-          <l><b/><a/>il<b/>s</l>
-          <r>nello<b/>s</r>
+          <l><b/><a/>il<b/></l>
+          <r>nello<b/></r>
         </p>
-        <par n="consonants"/>
+        <par n="cons_especiales"/>
       </e>
       <e>
         <p>
@@ -930,14 +988,7 @@
        <par n="vocals"/>
       </e>
 
-      <e>
-        <p>
-          <l><b/><a/>i<b/></l>
-          <r>nei<b/></r>
-        </p>
-       <par n="consonants"/>
-      </e>
-
+     
       <e>
         <p>
           <l><b/><a/>i<b/></l>
@@ -945,6 +996,22 @@
         </p>
        <par n="vocals"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>negli<b/></r>
+        </p>
+       <par n="cons_especiales"/>
+      </e>
+
+     <e>
+        <p>
+          <l><b/><a/>i<b/></l>
+          <r>nei<b/></r>
+        </p>
+       <par n="consonants"/>
+      </e>
+
 
      <e>
         <p>
@@ -971,17 +1038,19 @@
         </p>
         <par n="vocals"/>
       </e>
+    
+      <e>
+        <p>
+          <l><b/></l>
+          <r>lo<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+      </e>
+
       <e>
         <p>
           <l><b/></l>
           <r>il<b/></r>
-        </p>
-        <par n="consonants"/>
-      </e>
-      <e>
-        <p>
-          <l><b/>s</l>
-          <r>lo<b/>s</r>
         </p>
         <par n="consonants"/>
       </e>
@@ -1022,21 +1091,23 @@
     </pardef>
 
     <pardef n="i">
-      <e>
-        <p>
-          <l><b/></l>
-          <r>gli<b/></r>
-        </p>
-        <par n="vocals"/>
-      </e>
-
-      <e>
+    <e>
         <p>
           <l><b/><a/></l>
           <r>i<b/></r>
         </p>
         <par n="consonants"/>
       </e>
+
+      <e>
+        <p>
+          <l><b/></l>
+          <r>gli<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+      </e>
+
+  
     </pardef>
 
 <pardef n="mi">
@@ -1453,6 +1524,14 @@
         </p>
         <par n="una"/>
       </e>
+
+    <e>
+        <p>
+          <l><a/>un<b/></l>
+          <r>uno<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+    </e>
 <!--
       <e>
         <p>
@@ -1534,6 +1613,9 @@
         </p>
         <par n="era"/>
       </e>
+
+
+
   </section>
 
 </dictionary>
