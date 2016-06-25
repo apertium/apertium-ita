@@ -26579,7 +26579,7 @@
     <e lm="squilibrato"><i>squilibrat</i><par n="bambin/o__n"/></e>
     <e lm="sradicamento"><i>sradicament</i><par n="abbain/o__n"/></e>
     <e lm="staccato"><i>staccat</i><par n="bambin/o__n"/></e>
-    <e lm="staccato"><i>staccat</i><par n="casa/a__n"/></e>
+    <e lm="staccata"><i>staccat</i><par n="cas/a__n"/></e>
     <e lm="stalinismo"><i>stalinism</i><par n="abbain/o__n"/></e>
     <e lm="stallo"><i>stall</i><par n="abbain/o__n"/></e>
     <e lm="stampato"><i>stampat</i><par n="abbain/o__n"/></e>
@@ -37069,7 +37069,6 @@
     <e lm="viola"><i>viol</i><par n="suicid/a__adj"/></e>
     <e lm="siniscolese"><i>siniscoles</i><par n="albanes/e__adj"/></e>
     <e lm="tonico"><i>tonic</i><par n="tecnic/o__adj"/></e>
-    <e lm="toscno"><i>toscn</i><par n="cosiddett/o__adj"/></e>
     <e lm="turistico"><i>turistic</i><par n="tecnic/o__adj"/></e>
     <e lm="cimatografico"><i>cimatografic</i><par n="tecnic/o__adj"/></e>
     <e lm="gonfio"><i>gonfi</i><par n="ampi/o__adj"/></e>
@@ -46515,6 +46514,8 @@
     <e lm="sconoscere"><i>scono</i><par n="cono/scere__vblex"/></e>
     <e lm="inselvatichire"><i>inselvatich</i><par n="abbell/ire__vblex"/></e>
     <e lm="tallire"><i>tall</i><par n="abbell/ire__vblex"/></e>
+
+    <e lm="di Perdasdefogu"><i>di<b/>Perdasdefogu</i><par n="extra__adj"/></e>
 
   </section>
 
