@@ -12372,8 +12372,8 @@
     <pardef n="/gli__prn">
       <e><p><l>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>glie</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__gli"/></e>
-      <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>le</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
     
     <pardef n="ci__prn">
@@ -33327,6 +33327,7 @@
     <e lm="seppur"><i>seppur</i><par n="affinché__cnjsub"/></e>
     <e lm="anziché"><i>anziché</i><par n="affinché__cnjsub"/></e>
     <e lm="per cosa"><i>per<b/>cosa</i><par n="affinché__cnjsub"/></e>
+    <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>
     <e lm="dove"><i>dove</i><par n="affinché__cnjsub"/></e>
 
 <!--       ******************************      (cnjadv) group      ******************************    -->
