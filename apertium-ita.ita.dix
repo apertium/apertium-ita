@@ -46518,6 +46518,23 @@
     <e lm="urgente"><i>urgent</i><par n="albanes/e__adj"/></e>
     <e lm="vigente"><i>vigent</i><par n="albanes/e__adj"/></e>
 
+    <e lm="Alghero"><i>Alghero</i><par n="Europa__np"/></e>
+    <e lm="Andorra"><i>Andorra</i><par n="Europa__np"/></e>
+    <e lm="Aragona"><i>Aragona</i><par n="Europa__np"/></e>
+    <e lm="Avignone"><i>Avignone</i><par n="Europa__np"/></e>
+    <e lm="Confederazione Elvetica"><i>Confederazione<b/>Elvetica</i><par n="Europa__np"/></e>
+    <e lm="Filadelfia"><i>Filadelfia</i><par n="Europa__np"/></e>
+    <e lm="Guyana"><i>Guyana</i><par n="Europa__np"/></e>
+    <e lm="Hanoi"><i>Hanoi</i><par n="Afghanistan__np"/></e>
+    <e lm="Kazakistan"><i>Kazakistan</i><par n="Afghanistan__np"/></e>
+    <e lm="Kirgizistan"><i>Kirgizistan</i><par n="Afghanistan__np"/></e>
+    <e lm="Oliena"><i>Oliena</i><par n="Afghanistan__np"/></e>
+    <e lm="Paese Bascho"><i>Paese<b/>Bascho</i><par n="Afghanistan__np"/></e>
+    <e lm="Pamplona"><i>Pamplona</i><par n="Europa__np"/></e>
+    <e lm="Turkmenistan"><i>Turkmenistan</i><par n="Afghanistan__np"/></e>
+    <e lm="Uzbekistan"><i>Uzbekistan</i><par n="Afghanistan__np"/></e>
+    <e lm="Vaticano"><i>Vaticano</i><par n="Afghanistan__np"/></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">
