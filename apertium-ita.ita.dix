@@ -12926,6 +12926,14 @@
       <e r="RL"><p><l><a/>la<b/>loro</l><r>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="loro__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="loro__prn">
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
     <pardef n="vuln/us__n">
       <e><p><l>era</l><r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>us</l><r>us<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -23634,7 +23642,6 @@
     <e lm="becchino"><i>becchin</i><par n="abbain/o__n"/></e>
     <e lm="becero"><i>becer</i><par n="abbain/o__n"/></e>
     <e lm="beduino"><i>beduin</i><par n="bambin/o__n"/></e>
-    <e lm="beduino"><i>beduin</i><par n="bambin/o__n"/></e>
     <e lm="belato"><i>belat</i><par n="abbain/o__n"/></e>
     <e lm="belcanto"><i>belcant</i><par n="abbain/o__n"/></e>
     <e lm="belletto"><i>bellett</i><par n="abbain/o__n"/></e>
@@ -24958,7 +24965,6 @@
     <e lm="ipermercato"><i>ipermercat</i><par n="abbain/o__n"/></e>
     <e lm="ipocondriaco"><i>ipocondriac</i><par n="abbain/o__n"/></e>
     <e lm="ippodromo"><i>ippodrom</i><par n="abbain/o__n"/></e>
-    <e lm="beduino"><i>beduin</i><par n="bambin/o__n"/></e>
     <e lm="beduino"><i>beduin</i><par n="cosiddett/o__adj"/></e>
     <e lm="irakeno"><i>iraken</i><par n="bambin/o__n"/></e>
     <e lm="irpino"><i>irpin</i><par n="abbain/o__n"/></e>
@@ -28237,7 +28243,6 @@
     <e lm="cristianità"><i>cristianità</i><par n="abilità__n"/></e>
     <e lm="cristiano"><i>cristian</i><par n="bambin/o__n"/></e>
     <e lm="croce"><i>croc</i><par n="abbreviazion/e__n"/></e>
-    <e lm="crociata"><i>crociat</i><par n="cas/a__n"/></e>
     <e lm="crociera"><i>crocier</i><par n="cas/a__n"/></e>
     <e lm="crocifisso"><i>crocifiss</i><par n="abbain/o__n"/></e>
     <e lm="cromatoforo"><i>cromatofor</i><par n="abbain/o__n"/></e>
@@ -33180,11 +33185,13 @@
     <e lm="suo"><i>su</i><par n="tu/o__adj"/></e>
     <e lm="nostro"><i>nostr</i><par n="nostr/o__adj"/></e>
     <e lm="vostro"><i>vostr</i><par n="nostr/o__adj"/></e>
+    <e lm="loro"><i>loro</i><par n="loro__adj"/></e>
     <e lm="mio"><i>mi</i><par n="mi/o__prn"/></e>
     <e lm="tuo"><i>tu</i><par n="tu/o__prn"/></e>
     <e lm="suo"><i>su</i><par n="tu/o__prn"/></e>
     <e lm="nostro"><i>nostr</i><par n="nostr/o__prn"/></e>
     <e lm="vostro"><i>vostr</i><par n="nostr/o__prn"/></e>
+    <e lm="loro"><i>loro</i><par n="loro__prn"/></e>
     <e lm="turco"><i>turc</i><par n="caric/o__adj"/></e>
     <e lm="ubriaco"><i>ubriac</i><par n="caric/o__adj"/></e>
     <e lm="ufficiale"><i>ufficial</i><par n="fin/e__adj"/></e>
@@ -46444,11 +46451,9 @@
 
     <e lm="pari"><i>valdostan</i><par n="extra__adj"/></e>
     <e lm="afgano"><i>afgan</i><par n="cosiddett/o__adj"/></e>
-    <e lm="anteriore"><i>anterior</i><par n="albanes/e__adj"/></e>
     <e lm="cospicuo"><i>cospicu</i><par n="cosiddett/o__adj"/></e>
     <e lm="debole"><i>debol</i><par n="albanes/e__adj"/></e>
     <e lm="episcopale"><i>episcopal</i><par n="albanes/e__adj"/></e>
-    <e lm="inferiore"><i>inferior</i><par n="albanes/e__adj"/></e>
     <e lm="kirgizo"><i>kirgiz</i><par n="cosiddett/o__adj"/></e>
     <e lm="nessuno"><i>nessun</i><par n="cosiddett/o__adj"/></e>
     <e lm="occasionale"><i>occasional</i><par n="albanes/e__adj"/></e>
@@ -46456,7 +46461,6 @@
     <e lm="raffinato"><i>raffinat</i><par n="cosiddett/o__adj"/></e>
     <e lm="ragionevole"><i>ragionevol</i><par n="albanes/e__adj"/></e>
     <e lm="superfluo"><i>superflu</i><par n="cosiddett/o__adj"/></e>
-    <e lm="superiore"><i>superior</i><par n="albanes/e__adj"/></e>
     <e lm="tagiko"><i>tagik</i><par n="cosiddett/o__adj"/></e>
     <e lm="tua"><i>tu</i><par n="suicid/a__adj"/></e>
     <e lm="turkmeno"><i>turkmen</i><par n="cosiddett/o__adj"/></e>
