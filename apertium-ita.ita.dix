@@ -35451,8 +35451,9 @@
    
 
     <e lm="tutt'e due"><p><l>tutt'e<b/>due</l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e lm="entrambi"><p><l>entrambe</l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    <e r="LR" lm="tutt'e due"><p><l>tutti<b/>e<b/>due</l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e lm="entrambi"><p><l>entrambi</l><r>entrambi<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="entrambi"><p><l>entrambe</l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
 <!--       ******************************      (prn) group      ******************************    -->
     <e lm="lui"><i></i><par n="/lui__prn"/></e>
