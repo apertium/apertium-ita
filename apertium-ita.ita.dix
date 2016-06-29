@@ -13103,6 +13103,10 @@
     <e lm="Isole Marchesi"><i>Isole<b/>Marchesi</i><par n="Maldive__np"/></e>
     <e lm="Isole Marshall"><i>Isole<b/>Marshall</i><par n="Maldive__np"/></e>
     <e lm="Isole della Nuova Siberia"><i>Isole<b/>della<b/>Nuova<b/>Siberia</i><par n="Maldive__np"/></e>
+
+    <e lm="riduzione della leva finanziaria"><i>riduzion</i><par n="abbreviazion/e__n"/><p><l><b/>della<b/>leva<b/>finanziaria</l><r><g><b/>della<b/>leva<b/>finanziaria</g></r></p></e>
+
+
     <e lm="Indie Occidentali Britanniche"><i>Indie<b/>Occidentali<b/>Britanniche</i><par n="Maldive__np"/></e>
     <e lm="Martínez"><i>Martínez</i><par n="Díez__np"/></e>
     <e lm="Pérez"><i>Pérez</i><par n="Díez__np"/></e>
@@ -23584,7 +23588,7 @@
     <e lm="baccano"><i>baccan</i><par n="abbain/o__n"/></e>
     <e lm="baffetto"><i>baffett</i><par n="abbain/o__n"/></e>
     <e lm="bagarino"><i>bagarin</i><par n="abbain/o__n"/></e>
-    <e lm="bagnino"><i>bagnin</i><par n="abbain/o__n"/></e>
+    <e lm="bagnino"><i>bagnin</i><par n="bambin/o__n"/></e>
     <e lm="baio"><i>bai</i><par n="abbagli/o__n"/></e>
     <e lm="balbettamento"><i>balbettament</i><par n="abbain/o__n"/></e>
     <e lm="balbettio"><i>balbetti</i><par n="abbain/o__n"/></e>
@@ -32758,6 +32762,9 @@
     <e lm="metodologico"><i>metodologic</i><par n="tecnic/o__adj"/></e>
     <e lm="metropolitano"><i>metropolitan</i><par n="abbandonat/o__adj"/></e>
     <e lm="messicano"><i>messican</i><par n="abbandonat/o__adj"/></e>
+
+    <e lm="antieuropeo"><i>antieurop</i><par n="abbandonat/o__adj"/></e>
+
     <e lm="midollare"><i>midollar</i><par n="fin/e__adj"/></e>
     <e lm="migliore"><i>miglior</i><par n="albanes/e__adj"/></e>
     <e lm="militare"><i>militar</i><par n="fin/e__adj"/></e>
@@ -33285,6 +33292,9 @@
     <e lm="fare poesie"><i>f</i><par n="f/are__vblex"/><p><l><b/>poesie</l><r><g><b/>poesie</g></r></p></e>
     <e lm="fare una ragazzata"><i>f</i><par n="f/are__vblex"/><p><l><b/>una<b/>ragazzata</l><r><g><b/>una<b/>ragazzata</g></r></p></e>
     <e lm="fare un pisolino"><i>f</i><par n="f/are__vblex"/><p><l><b/>un<b/>pisolino</l><r><g><b/>un<b/>pisolino</g></r></p></e>
+
+    <e lm="fare uno spuntino"><i>f</i><par n="f/are__vblex"/><p><l><b/>uno<b/>spuntino</l><r><g><b/>uno<b/>spuntino</g></r></p></e>
+
     <e lm="mandare via"><i>mand</i><par n="abbacin/are__vblex"/><p><l><b/>via</l><r><g><b/>via</g></r></p></e>
     <e lm="mettere insieme"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>insieme</l><r><g><b/>insieme</g></r></p></e>
     <e lm="mettere gli steli"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>gli<b/>steli</l><r><g><b/>gli<b/>steli</g></r></p></e>
@@ -34173,6 +34183,8 @@
     <e lm="legare"><i>leg</i><par n="abbarbic/are__vblex"/></e>
     <e lm="legittimare"><i>legittim</i><par n="abbacin/are__vblex"/></e>
     <e lm="liberare"><i>liber</i><par n="abbacin/are__vblex"/></e>
+    <e lm="puntualizzare"><i>puntualizz</i><par n="abbacin/are__vblex"/></e>
+    <e lm="sottoporre"><i>sottop</i><par n="abbacin/are__vblex"/></e>
     <e lm="licenziare"><i>licenzi</i><par n="abbacchi/are__vblex"/></e>
     <e lm="limitare"><i>limit</i><par n="abbacin/are__vblex"/></e>
     <e lm="liquidare"><i>liquid</i><par n="abbacin/are__vblex"/></e>
@@ -39712,6 +39724,9 @@
     <e lm="beffardo"><i>beffard</i><par n="abbandonat/o__adj"/></e>
     <e lm="bejartiano"><i>bejartian</i><par n="abbandonat/o__adj"/></e>
     <e lm="bellicoso"><i>bellicos</i><par n="abbandonat/o__adj"/></e>
+
+    <e lm="migratorio"><i>migrator</i><par n="abbandonat/o__adj"/></e>
+
     <e lm="belliniano"><i>bellinian</i><par n="abbandonat/o__adj"/></e>
     <e lm="belloriano"><i>bellorian</i><par n="abbandonat/o__adj"/></e>
     <e lm="belluino"><i>belluin</i><par n="abbandonat/o__adj"/></e>
