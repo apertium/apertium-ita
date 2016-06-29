@@ -34193,7 +34193,16 @@
     <e lm="legittimare"><i>legittim</i><par n="abbacin/are__vblex"/></e>
     <e lm="liberare"><i>liber</i><par n="abbacin/are__vblex"/></e>
     <e lm="puntualizzare"><i>puntualizz</i><par n="abbacin/are__vblex"/></e>
-    <e lm="sottoporre"><i>sottop</i><par n="abbacin/are__vblex"/></e>
+    <e lm="anteporre"><i>antep</i><par n="antepo/rre__vblex"/></e>
+    <e lm="controproporre"><i>controprop</i><par n="antepo/rre__vblex"/></e>
+    <e lm="frapporre"><i>frapp</i><par n="antepo/rre__vblex"/></e>
+    <e lm="indisporre"><i>ssottoottop</i><par n="antepo/rre__vblex"/></e>
+    <e lm="posporre"><i>posp</i><par n="antepo/rre__vblex"/></e>
+    <e lm="preporre"><i>prep</i><par n="antepo/rre__vblex"/></e>
+    <e lm="sottoporre"><i>sottop</i><par n="antepo/rre__vblex"/></e>
+    <e lm="riporre"><i>rip</i><par n="antepo/rre__vblex"/></e>
+    <e lm="soprapporre"><i>soprapp</i><par n="antepo/rre__vblex"/></e>
+    <e lm="ricomporre"><i>ricomp</i><par n="antepo/rre__vblex"/></e>
     <e lm="licenziare"><i>licenzi</i><par n="abbacchi/are__vblex"/></e>
     <e lm="limitare"><i>limit</i><par n="abbacin/are__vblex"/></e>
     <e lm="liquidare"><i>liquid</i><par n="abbacin/are__vblex"/></e>
