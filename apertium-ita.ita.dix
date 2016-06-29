@@ -20542,6 +20542,7 @@
       <e r="LR" lm="negoziato"><i>negoziat</i><par n="abbain/o__n"/></e>
     <e lm="mila"><i></i><par n="mila__num"/></e>
     <e lm="anticrisi"><i>anticrisi</i><par n="extra__adj"/></e>
+    <e lm="di successo"><i>di<b/>successo</i><par n="extra__adj"/></e>
       <e r="LR" lm="meglio"><i>meglio</i><par n="extra__adj"/></e>
       <e r="LR" lm="meglio"><i>meglio</i><par n="ieri__adv"/></e>
       <e r="LR" lm="maggior"><i>maggior</i><par n="extra__adj"/></e>
@@ -20863,6 +20864,7 @@
     <e lm="abete"><i>abet</i><par n="abat/e__n"/></e>
     <e lm="abilitazione"><i>abilitazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="abilità"><i>abilità</i><par n="abilità__n"/></e>
+    <e lm="diabete"><i>diabete</i><par n="abilità__n"/></e>
 
     <e lm="adattabilità"><i>adattabilità</i><par n="abilità__n"/></e>
     <e lm="affettività"><i>affettività</i><par n="abilità__n"/></e>
@@ -28396,6 +28398,10 @@
     <e lm="direzione nazionale"><p><l>direzioni<b/>nazionali</l><r>direzione<b/>nazionale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="direzione generale"><p><l>direzione<b/>generale</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="direzione generale"><p><l>direzioni<b/>generali</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
+    <e lm="mancato pagamento"><p><l>mancato<b/>pagamento</l><r>mancato<b/>pagamento<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="mancato pagamento"><p><l>mancati<b/>pagamenti</l><r>mancato<b/>pagamento<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
     <e lm="dirigente"><i>dirigent</i><par n="albanes/e__n"/></e>
     <e lm="dirigibile"><i>dirigibil</i><par n="abat/e__n"/></e>
     <e lm="diritto"><i>diritt</i><par n="abbain/o__n"/></e>
@@ -28868,6 +28874,7 @@
     <e lm="busta paga"><i>bust</i><par n="cas/a__n"/><p><l><b/>paga</l><r><g><b/>paga</g></r></p></e>
     <e lm="prospetto paga"><i>prospett</i><par n="abbain/o__n"/><p><l><b/>paga</l><r><g><b/>paga</g></r></p></e>
     <e lm="cedolino paga"><i>cedolin</i><par n="abbain/o__n"/><p><l><b/>paga</l><r><g><b/>paga</g></r></p></e>
+    <e lm="effetto leva"><i>effet</i><par n="abbain/o__n"/><p><l><b/>leva</l><r><g><b/>leva</g></r></p></e>
     <e lm="fucile"><i>fucil</i><par n="abat/e__n"/></e>
     <e lm="fucina"><i>fucin</i><par n="cas/a__n"/></e>
     <e lm="fuga"><i>fug</i><par n="tasc/a__n"/></e>
@@ -32341,6 +32348,7 @@
     <e lm="curioso"><i>curios</i><par n="abbandonat/o__adj"/></e>
     <e lm="danese"><i>danes</i><par n="albanes/e__adj"/></e>
     <e lm="da frutta"><i>da<b/>frutta</i><par n="extra__adj"/></e>
+    <e lm="di bilancio"><i>di<b/>bilancio</i><par n="extra__adj"/></e>
     <e lm="decimale"><i>decimal</i><par n="fin/e__adj"/></e>
     <e lm="decisivo"><i>decisiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="deficiente"><i>deficient</i><par n="fin/e__adj"/></e>
@@ -34038,6 +34046,7 @@
 <!-- 
     <e lm="essere"><par n="/essere__vblex"/></e>-->
       <e r="RL" lm="essere possibile"><i></i><par n="/essere__vblex"/><p><l><b/>possibile</l><r><g><b/>possibile</g></r></p></e>
+      <e lm="essere carente"><i></i><par n="/essere__vblex"/><p><l><b/>carente</l><r><g><b/>carente</g></r></p></e>
     <e lm="estendere"><i>este</i><par n="acce/ndere__vblex"/></e>
     <e lm="estinguere"><i>estin</i><par n="distin/guere__vblex"/></e>
     <e lm="etichettare"><i>etichett</i><par n="abbacin/are__vblex"/></e>
@@ -38272,6 +38281,7 @@
     <e lm="laconico"><i>laconic</i><par n="tecnic/o__adj"/></e>
     <e lm="laico"><i>laic</i><par n="amic/o__n"/></e>
     <e lm="liberaldemocratico"><i>liberaldemocratic</i><par n="amic/o__n"/></e>
+    <e lm="democratico"><i>democratic</i><par n="amic/o__n"/></e>  
     <e lm="lirico"><i>liric</i><par n="tecnic/o__adj"/></e>
     <e lm="lirico"><i>liric</i><par n="amic/o__n"/></e>
     <e lm="lirica"><i>liric</i><par n="tasc/a__n"/></e>
