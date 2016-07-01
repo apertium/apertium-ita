@@ -23994,7 +23994,7 @@
     <e lm="cognato"><i>cognat</i><par n="bambin/o__n"/></e>
     <e lm="coimputato"><i>coimputat</i><par n="bambin/o__n"/></e>
     <e lm="coindagato"><i>coindagat</i><par n="bambin/o__n"/></e>
-    <e lm="coinquilino"><i>coinquilin</i><par n="abbain/o__n"/></e>
+    <e lm="coinquilino"><i>coinquilin</i><par n="bambin/o__n"/></e>
     <e lm="coinvolgimento"><i>coinvolgiment</i><par n="abbain/o__n"/></e>
     <e lm="coito"><i>coit</i><par n="abbain/o__n"/></e>
     <e lm="coleottero"><i>coleotter</i><par n="abbain/o__n"/></e>
@@ -24915,7 +24915,7 @@
     <e lm="innesto"><i>innest</i><par n="abbain/o__n"/></e>
     <e lm="inquadramento"><i>inquadrament</i><par n="abbain/o__n"/></e>
     <e lm="inquieto"><i>inquiet</i><par n="abbain/o__n"/></e>
-    <e lm="inquilino"><i>inquilin</i><par n="abbain/o__n"/></e>
+    <e lm="inquilino"><i>inquilin</i><par n="bambin/o__n"/></e>
     <e lm="inquisito"><i>inquisit</i><par n="abbain/o__n"/></e>
     <e lm="insabbiamento"><i>insabbiament</i><par n="abbain/o__n"/></e>
     <e lm="inseguimento"><i>inseguiment</i><par n="abbain/o__n"/></e>
@@ -37095,7 +37095,7 @@
     <e lm="acquiescenza"><i>acquiescenz</i><par n="cas/a__n"/></e>
     <e lm="adagio"><i>adagi</i><par n="abbagli/o__n"/></e>
     <e lm="affissione"><i>affission</i><par n="abbreviazion/e__n"/></e>
-    <e lm="affittuario"><i>affittuari</i><par n="abbagli/o__n"/></e>
+    <e lm="affittuario"><i>affittuari</i><par n="segretari/o__n"/></e>
     <e lm="aggiunta"><i>aggiunt</i><par n="cas/a__n"/></e>
     <e lm="aggravante"><i>aggravant</i><par n="abbreviazion/e__n"/></e>
     <e lm="agibilità"><i>agibilità</i><par n="abilità__n"/></e>
@@ -46439,13 +46439,11 @@
     <e lm="incombenza"><i>incombenz</i><par n="cas/a__n"/></e>
     <e lm="kirgizo"><i>kirgiz</i><par n="bambin/o__n"/></e>
     <e lm="lentisco"><i>lentisc</i><par n="fung/o__n"/></e>
-    <e lm="mano"><i>man</i><par n="abbain/o__n"/></e>
     <e lm="mufla"><i>mufl</i><par n="cas/a__n"/></e>
     <e lm="nappa"><i>napp</i><par n="cas/a__n"/></e>
     <e lm="noia"><i>noi</i><par n="cas/a__n"/></e>
     <e lm="paia"><i>pai</i><par n="cas/a__n"/></e>
     <e lm="panca"><i>panc</i><par n="tasc/a__n"/></e>
-    <e lm="papa"><i>pap</i><par n="cas/a__n"/></e>
     <e lm="pastorizia"><i>pastorizi</i><par n="cas/a__n"/></e>
     <e lm="penuria"><i>penuri</i><par n="cas/a__n"/></e>
     <e lm="prerogativa"><i>prerogativ</i><par n="cas/a__n"/></e>
@@ -46455,7 +46453,6 @@
     <e lm="somiglianza"><i>somiglianz</i><par n="cas/a__n"/></e>
     <e lm="storpiatura"><i>storpiatur</i><par n="cas/a__n"/></e>
     <e lm="tabaccheria"><i>tabaccheri</i><par n="cas/a__n"/></e>
-    <e lm="testimone"><i>testimon</i><par n="abat/e__n"/></e>
     <e lm="toscno"><i>toscn</i><par n="bambin/o__n"/></e>
     <e lm="turkmeno"><i>turkmen</i><par n="bambin/o__n"/></e>
     <e lm="ugola"><i>ugol</i><par n="cas/a__n"/></e>
