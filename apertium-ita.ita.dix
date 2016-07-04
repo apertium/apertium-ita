@@ -11773,7 +11773,7 @@
     <pardef n="centocinquant/a__num">
       <e r="LR"><p><l>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>'</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e r="LR"><p><l>'anni</l><r>a<s n="num"/><s n="mf"/><s n="sp"/><j/>anno<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>'anni</l><r>a<s n="num"/><s n="mf"/><s n="sp"/><j/>anno<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l><a/>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>amila</l><r>amila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -11781,6 +11781,14 @@
     <pardef n="centocinquanta__num">
       <e><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>mila</l><r>mila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+    
+    <pardef n="vent/i__num">
+      <e r="LR"><p><l>i</l><r>i<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>'</l><r>i<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>'anni</l><r>i<s n="num"/><s n="mf"/><s n="sp"/><j/>anno<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><a/>i</l><r>i<s n="num"/><s n="mf"/><s n="sp"/></r></p></e> 
+     <e><p><l>imila</l><r>imila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
     <pardef n="centocinquanta(2)__num">
@@ -35386,7 +35394,7 @@
     <e lm="diciotto"><i>diciotto</i><par n="centocinquanta__num"/></e>
     <e lm="diciannove"><i>diciannove</i><par n="centocinquanta__num"/></e>
     <e lm="ventuno, trentuno, etc"><par n="ventuno__num"/></e>
-    <e lm="venti"><i>venti</i><par n="centocinquanta__num"/></e>
+    <e lm="venti"><i>vent</i><par n="vent/i__num"/></e>
     <e lm="ventidue"><i>ventidue</i><par n="centocinquanta__num"/></e>
     <e lm="ventitré"><i>ventitr</i><par n="cinquantatr/é__num"/></e>
     <e lm="ventiquattro"><i>ventiquattro</i><par n="centocinquanta__num"/></e>
