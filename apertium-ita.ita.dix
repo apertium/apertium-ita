@@ -11514,6 +11514,11 @@
       <e><p><l>altre</l><r>un<b/>altro<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>un'altra</l><r>un<b/>altro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
+
+  <pardef n="/gli_altri__prn">    
+      <e><p><l>gli<b/>altri</l><r>gli<b/>altri<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>    
+      <e><p><l>le<b/>altre</l><r>le<b/>altre<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>    
+    </pardef>
     
     <pardef n="qualcun/o__prn">
       <e><p><l>o</l><r>o<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
@@ -26603,6 +26608,8 @@
     <e lm="sradicamento"><i>sradicament</i><par n="abbain/o__n"/></e>
     <e lm="staccato"><i>staccat</i><par n="bambin/o__n"/></e>
     <e lm="staccata"><i>staccat</i><par n="cas/a__n"/></e>
+    <e lm="rissa"><i>riss</i><par n="cas/a__n"/></e>
+    <e lm="neuroscienza"><i>neuroscienz</i><par n="cas/a__n"/></e>
     <e lm="stalinismo"><i>stalinism</i><par n="abbain/o__n"/></e>
     <e lm="stallo"><i>stall</i><par n="abbain/o__n"/></e>
     <e lm="stampato"><i>stampat</i><par n="bambin/o__n"/></e>
@@ -27113,8 +27120,10 @@
     <e lm="afta"><i>afta</i><par n="abilità__n"/></e>
     <e lm="ago"><i>ag</i><par n="fung/o__n"/></e>
     <e lm="agopuntura"><i>agopuntur</i><par n="cas/a__n"/></e>
+    <e lm="legatura"><i>legatur</i><par n="cas/a__n"/></e>
     <e lm="agente"><i>agent</i><par n="albanes/e__n"/></e>
     <e lm="agenzia"><i>agenzi</i><par n="cas/a__n"/></e>
+    <e lm="profezia"><i>profezi</i><par n="cas/a__n"/></e>
     <e lm="agitamento"><i>agitament</i><par n="abbain/o__n"/></e>
     <e lm="aggettivo"><i>aggettiv</i><par n="abbain/o__n"/></e>
     <e lm="aggiudicazione"><i>aggiudicazion</i><par n="abbreviazion/e__n"/></e>
@@ -27201,6 +27210,7 @@
     <e lm="amato"><i>amat</i><par n="bambin/o__n"/></e>
     <e lm="amatore"><i>amat</i><par n="agricolt/ore__n"/></e>
     <e lm="ambasciata"><i>ambasciat</i><par n="cas/a__n"/></e>
+    <e lm="retata"><i>retat</i><par n="cas/a__n"/></e>
     <e lm="ambasciatore"><i>ambasciat</i><par n="agricolt/ore__n"/></e>
     <e lm="ambiente"><i>ambient</i><par n="abat/e__n"/></e>
     <e lm="ingrediente"><i>ingredient</i><par n="abat/e__n"/></e>
@@ -35561,6 +35571,7 @@
     <e lm="il tuo"><par n="/il_tuo__prn"/></e>
     <e lm="il vostro"><par n="/il_vostro__prn"/></e>
     <e lm="il resto"><i>il<b/>resto</i><par n="qualcosa__prn"/></e>
+    <e lm="d'altro"><i>d'altro</i><par n="qualcosa__prn"/></e>
     <e lm="io"><i>io</i><par n="io__prn"/></e>
     <e lm="le"><i>le</i><par n="le__prn"/></e>
     <e lm="me"><i>me</i><par n="io__prn"/></e>
@@ -37224,6 +37235,7 @@
     <e lm="confusione"><i>confusion</i><par n="abbreviazion/e__n"/></e>
     <e lm="conguaglio"><i>conguagli</i><par n="abbagli/o__n"/></e>   
     <e lm="conservatoria"><i>conservatori</i><par n="cas/a__n"/></e>
+    <e lm="euforia"><i>eufori</i><par n="cas/a__n"/></e>
     <e lm="consultorio"><i>consultori</i><par n="abbagli/o__n"/></e>
     <e lm="consìglio"><i>consìgli</i><par n="abbagli/o__n"/></e>
     <e lm="contesa"><i>contes</i><par n="cas/a__n"/></e>
@@ -46527,6 +46539,7 @@
     <e lm="kirgizo"><i>kirgiz</i><par n="cosiddett/o__adj"/></e>
     <e lm="nessuno"><i>nessun</i><par n="cosiddett/o__adj"/></e>
     <e lm="occasionale"><i>occasional</i><par n="albanes/e__adj"/></e>
+    <e lm="neuronale"><i>neuronal</i><par n="albanes/e__adj"/></e>
     <e lm="piacevole"><i>piacevol</i><par n="albanes/e__adj"/></e>
     <e lm="raffinato"><i>raffinat</i><par n="cosiddett/o__adj"/></e>
     <e lm="ragionevole"><i>ragionevol</i><par n="albanes/e__adj"/></e>
@@ -46587,6 +46600,7 @@
     <e lm="abbondante"><i>abbondant</i><par n="albanes/e__adj"/></e>
     <e lm="corrente"><i>corrent</i><par n="albanes/e__adj"/></e>
     <e lm="determinante"><i>determinant</i><par n="albanes/e__adj"/></e>
+    <e lm="firmante"><i>firmant</i><par n="albanes/e__adj"/></e>
     <e lm="eccellente"><i>eccellent</i><par n="albanes/e__adj"/></e>
     <e lm="equivalente"><i>equivalent</i><par n="albanes/e__adj"/></e>
     <e lm="importante"><i>important</i><par n="albanes/e__adj"/></e>
