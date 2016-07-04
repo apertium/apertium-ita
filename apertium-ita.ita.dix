@@ -11773,6 +11773,7 @@
     <pardef n="centocinquant/a__num">
       <e r="LR"><p><l>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>'</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>'anni</l><r>a<s n="num"/><s n="mf"/><s n="sp"/><j/>anno<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>a</l><r>a<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>amila</l><r>amila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -11803,13 +11804,13 @@
     </pardef>
     
     <pardef n="cinquantun/o__num">
-      <e><p><l></l><r>o<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l></l><r>o<s n="det"/><s n="def"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>o</l><r>o<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
-      <e><p><l>a</l><r>o<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="det"/><s n="def"/><s n="f"/><s n="sp"/></r></p></e>
       <e><p><l>omila</l><r>omila<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
-    <pardef n="trecento_cuatro/__num">
+    <pardef n="trecento_quattro/__num">
       <e><i></i></e>
     
     <e lm="uno"><i>un</i><par n="un/o__num"/></e>
@@ -11905,7 +11906,7 @@
     <e lm="novantanove"><i>novantanove</i><par n="centocinquanta(2)__num"/></e>
     </pardef>
     
-    <pardef n="trecento_trentuno__num">
+    <pardef n="ventuno__num">
     <e lm="ventuno"><i>ventun</i><par n="cinquantun/o__num"/></e>
     <e lm="trentuno"><i>trentun</i><par n="cinquantun/o__num"/></e>
     <e lm="quarantuno"><i>quarantun</i><par n="cinquantun/o__num"/></e>
@@ -11917,8 +11918,8 @@
     </pardef>
     
     <pardef n="trecento/__num">
-      <e><p><l></l><r></r></p><par n="trecento_cuatro/__num"/><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-      <e><p><l></l><r></r></p><par n="trecento_trentuno__num"/></e>
+      <e><p><l></l><r></r></p><par n="trecento_quattro/__num"/><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l></l><r></r></p><par n="ventuno__num"/></e>
       <e><p><l>uno</l><r>uno<s n="num"/><s n="m"/><s n="sp"/></r></p></e>
       <e><p><l>una</l><r>uno<s n="num"/><s n="f"/><s n="sp"/></r></p></e>
       <e><p><l>mila</l><r>mila</r></p><p><l></l><r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -20543,7 +20544,6 @@
     <e lm="pagamento"><i>pagament</i><par n="abbain/o__n"/></e>
     <e lm="bombardamento"><i>bombardament</i><par n="abbain/o__n"/></e>
       <e r="LR" lm="negoziato"><i>negoziat</i><par n="abbain/o__n"/></e>
-    <e lm="mila"><i></i><par n="mila__num"/></e>
     <e lm="anticrisi"><i>anticrisi</i><par n="extra__adj"/></e>
     <e lm="di successo"><i>di<b/>successo</i><par n="extra__adj"/></e>
       <e r="LR" lm="meglio"><i>meglio</i><par n="extra__adj"/></e>
@@ -28529,7 +28529,7 @@
     <e lm="eccellente"><i>eccellent</i><par n="albanes/e__n"/></e>
     <e lm="esistente"><i>esistent</i><par n="albanes/e__n"/></e>
     <e lm="persistente"><i>persistent</i><par n="albanes/e__n"/></e>
-    <e lm="resistente"><i>resistente</i><par n="albanes/e__n"/></e>
+    <e lm="resistente"><i>resistent</i><par n="albanes/e__n"/></e>
     <e lm="effimero"><i>effimer</i><par n="bambin/o__n"/></e>
     <e lm="elettronica"><i>elettronic</i><par n="tasc/a__n"/></e>
     <e lm="erudizione"><i>erudizion</i><par n="abbreviazion/e__n"/></e>
@@ -33962,8 +33962,8 @@
     <e lm="costare"><i>cost</i><par n="abbacin/are__vblex"/></e>
     <e lm="costruire"><i>costru</i><par n="abbell/ire__vblex"/></e>
     <e lm="costituire"><i>costitu</i><par n="abbell/ire__vblex"/></e>
-    <e lm="crescere"><i>cre</i><par n="cre/scere__vblex"/></e>>
-    <e lm="accrescere"><i></i><par n="/accrescere__vblex"/></e>
+    <e lm="crescere"><i>cre</i><par n="cre/scere__vblex"/></e>
+    <e lm="accrescere"><par n="/accrescere__vblex"/></e>
     <e lm="creare"><i>cre</i><par n="abbacin/are__vblex"/></e>
     <e lm="credere"><i>cred</i><par n="cred/ere__vblex"/></e>
     <e lm="rivedere"><i>rived</i><par n="cred/ere__vblex"/></e>
@@ -35361,10 +35361,11 @@
     <e lm="XX"><i>XX</i><par n="C__num"/></e>
     <e lm="XXI"><i>XXI</i><par n="C__num"/></e>
     <e lm="centinaia"><i>centinaia</i><par n="C__num"/></e>
-<!--
-    <e lm="centinaia di"><i>centinaia<b/>di</i><par n="C__num"/></e>-->
+<!--<e lm="centinaia di"><i>centinaia<b/>di</i><par n="C__num"/></e>-->
+
     <e lm="decine"><i>decine</i><par n="C__num"/></e>
     <e lm="mille"><i>mille</i><par n="mille__num"/></e>
+    <e lm="mila"><i></i><par n="mila__num"/></e>
     <e lm="zero"><i>zero</i><par n="C__num"/></e>
     <e lm="due"><i>due</i><par n="centocinquanta__num"/></e>
     <e lm="tre"><i>tre</i><par n="centocinquanta__num"/></e>
@@ -35384,7 +35385,7 @@
     <e lm="diciassette"><i>diciassette</i><par n="centocinquanta__num"/></e>
     <e lm="diciotto"><i>diciotto</i><par n="centocinquanta__num"/></e>
     <e lm="diciannove"><i>diciannove</i><par n="centocinquanta__num"/></e>
-    <e><p><l></l><r></r></p><par n="trecento_trentuno__num"/></e>
+    <e lm="ventuno, trentuno, etc"><par n="ventuno__num"/></e>
     <e lm="venti"><i>venti</i><par n="centocinquanta__num"/></e>
     <e lm="ventidue"><i>ventidue</i><par n="centocinquanta__num"/></e>
     <e lm="ventitré"><i>ventitr</i><par n="cinquantatr/é__num"/></e>
@@ -35403,6 +35404,7 @@
     <e lm="trentasette"><i>trentasette</i><par n="centocinquanta__num"/></e>
     <e lm="trentotto"><i>trentotto</i><par n="centocinquanta__num"/></e>
     <e lm="trentanove"><i>trentanove</i><par n="centocinquanta__num"/></e>
+
     <e lm="quaranta"><i>quarant</i><par n="centocinquant/a__num"/></e>
     <e lm="quarantadue"><i>quarantadue</i><par n="centocinquanta__num"/></e>
     <e lm="quarantatré"><i>quarantatr</i><par n="cinquantatr/é__num"/></e>
@@ -35412,6 +35414,8 @@
     <e lm="quarantasette"><i>quarantasette</i><par n="centocinquanta__num"/></e>
     <e lm="quarantotto"><i>quarantotto</i><par n="centocinquanta__num"/></e>
     <e lm="quarantanove"><i>quarantanove</i><par n="centocinquanta__num"/></e>
+
+
     <e lm="cinquanta"><i>cinquant</i><par n="centocinquant/a__num"/></e>
     <e lm="cinquantadue"><i>cinquantadue</i><par n="centocinquanta__num"/></e>
     <e lm="cinquantatré"><i>cinquantatr</i><par n="cinquantatr/é__num"/></e>
