@@ -12365,6 +12365,12 @@
        
     <pardef n="febbrai/o__n">
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l></l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+     
+    <pardef n="marz/o__n">
+      <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
      
     <pardef n="galantuom/o__n">
@@ -27137,7 +27143,7 @@
     <e lm="aglio"><i>agli</i><par n="abbagli/o__n"/></e>
     <e lm="agnello"><i>agnell</i><par n="abbain/o__n"/></e>
     <e lm="agonia"><i>agoni</i><par n="cas/a__n"/></e>
-    <e lm="agosto"><i>agost</i><par n="abbain/o__n"/></e>
+    <e lm="agosto"><i>agost</i><par n="marz/o__n"/></e>
     <e lm="agricoltura"><i>agricoltur</i><par n="cas/a__n"/></e>
     <e lm="agronomia"><i>agronomi</i><par n="cas/a__n"/></e>
     <e lm="aids"><i>aids</i><par n="abilità__n"/></e>
@@ -29017,7 +29023,7 @@
     <e lm="gitano"><i>gitan</i><par n="bambin/o__n"/></e>
     <e lm="giudice"><i>giudic</i><par n="albanes/e__n"/></e>
     <e lm="giudizio"><i>giudizi</i><par n="abbagli/o__n"/></e>
-    <e lm="giugno"><i>giugn</i><par n="abbain/o__n"/></e>
+    <e lm="giugno"><i>giugn</i><par n="marz/o__n"/></e>
     <e lm="giullare"><i>giullar</i><par n="abat/e__n"/></e>
     <e lm="giungla"><i>giungl</i><par n="cas/a__n"/></e>
     <e lm="giuntura"><i>giuntur</i><par n="cas/a__n"/></e>
@@ -29538,7 +29544,7 @@
     <e lm="martedì"><i>martedì</i><par n="albatros__n"/></e>
     <e lm="martire"><i>martir</i><par n="albanes/e__n"/></e>
     <e lm="marxismo"><i>marxism</i><par n="abbain/o__n"/></e>
-    <e lm="marzo"><i>marz</i><par n="febbrai/o__n"/></e>
+    <e lm="marzo"><i>marz</i><par n="marz/o__n"/></e>
     <e lm="marziano"><i>marzian</i><par n="bambin/o__n"/></e>
     <e lm="maschera"><i>mascher</i><par n="cas/a__n"/></e>
     <e lm="maschio"><i>maschi</i><par n="abbagli/o__n"/></e>
