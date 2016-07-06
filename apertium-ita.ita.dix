@@ -12003,8 +12003,9 @@
     </pardef>
     
     <pardef n="com/e__adv">
-      <e><p><l>'</l><r>e<s n="adv"/><s n="itg"/></r></p></e>
-      <e><p><l>e</l><r>e<s n="adv"/><s n="itg"/></r></p></e>
+      <e r="LR"><p><l>'</l><r>e<s n="adv"/><s n="itg"/></r></p></e>
+      <e r="LR"><p><l>e</l><r>e<s n="adv"/><s n="itg"/></r></p></e>
+      <e r="RL"><p><l><a/>e</l><r>e<s n="adv"/><s n="itg"/></r></p></e>
     </pardef>
     
     <pardef n="commodit/y__n">
