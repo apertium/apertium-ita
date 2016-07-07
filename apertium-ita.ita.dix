@@ -35562,6 +35562,8 @@
     <e lm="alcuno"><i>alcun</i><par n="altr/o__prn"/></e>
     <e lm="alcunché"><i>alcunché</i><par n="qualcosa__prn"/></e>
     <e lm="altro"><i>altr</i><par n="altr/o__prn"/></e>
+    <e lm="stesso"><i>stess</i><par n="altr/o__prn"/></e>
+    <e lm="troppo"><i>tropp</i><par n="altr/o__prn"/></e>
     <e lm="che" r="RL"><i>che</i><par n="che__prn"/></e>
     <e lm="chi"><i>chi</i><par n="chi__prn"/></e>
       <e r="LR" lm="ci"><i>ci</i><par n="ci__prn"/></e>
