@@ -12040,9 +12040,7 @@
       <e><p><l>a</l><r>um<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="/di__pr">
-      <e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
-      <e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
+    <pardef n="/del__pr">
       <e r="LR"><p><l>del</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>dello</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>della</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12098,6 +12096,12 @@
       <e r="LR"><p><l>dei<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>della<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>delle<b/>loro</l><r>di<s n="pr"/><j/>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="/di__pr">
+      <e r="LR"><p><l>di</l><r>di<s n="pr"/></r></p></e>
+      <e r="RL"><p><l><a/>di</l><r>di<s n="pr"/></r></p></e>
+      <e><p><l></l><r></r></p><par n="/del__pr"/></e>
     </pardef>
     
     <pardef n="/da__pr">
