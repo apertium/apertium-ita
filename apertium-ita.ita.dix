@@ -11517,7 +11517,7 @@
 
   <pardef n="/gli_altri__prn">    
       <e><p><l>gli<b/>altri</l><r>gli<b/>altri<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>    
-      <e><p><l>le<b/>altre</l><r>le<b/>altre<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>    
+      <e><p><l>le<b/>altre</l><r>gli<b/>altri<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>    
     </pardef>
     
     <pardef n="qualcun/o__prn">
@@ -12395,10 +12395,11 @@
     </pardef>
       
     <pardef n="/gli__prn">
-      <e><p><l>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>le</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>loro</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>glie</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__gli"/></e>
-      <e r="RL"><p><l>le</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="ci__prn">
@@ -12746,10 +12747,10 @@
     </pardef>
     
     <pardef n="seco__prn">
-      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
     
-    <pardef n="todo_el_mundo__prn">
+    <pardef n="tutti_quanti__prn">
       <e><p><l></l><r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
     
@@ -19914,6 +19915,7 @@
     <e lm="dichiarante"><i>dichiarant</i><par n="abat/e__n"/></e>
     <e lm="caricatore"><i>caricat</i><par n="agricolt/ore__n"/></e>
     <e lm="imbroglione"><i>imbroglion</i><par n="abat/e__n"/></e>
+    <e lm="imbroglio"><i>imbrogli</i><par n="abbagli/o__n"/></e>
     <e lm="mobiliere"><i>mobilier</i><par n="abat/e__n"/></e>
     <e lm="burrone"><i>burron</i><par n="abat/e__n"/></e>
     <e lm="trentenne"><i>trentenn</i><par n="abat/e__n"/></e>
@@ -20564,9 +20566,9 @@
     <e lm="portato da"><p><l>portate<b/></l><r>portate<b/></r></p><par n="/da__pr"/></e>
 
     <e lm="portato a"><p><l>portato<b/></l><r>portato<b/></r></p><par n="/a__pr"/></e>        
-    <e lm="portato a"><p><l>portata<b/></l><r>portato<b/></r></p><par n="/a__pr"/></e>        
-    <e lm="portato a"><p><l>portati<b/></l><r>portato<b/></r></p><par n="/a__pr"/></e>        
-    <e lm="portato a"><p><l>portate<b/></l><r>portato<b/></r></p><par n="/a__pr"/></e>
+    <e lm="portato a"><p><l>portata<b/></l><r>portata<b/></r></p><par n="/a__pr"/></e>        
+    <e lm="portato a"><p><l>portati<b/></l><r>portati<b/></r></p><par n="/a__pr"/></e>        
+    <e lm="portato a"><p><l>portate<b/></l><r>portate<b/></r></p><par n="/a__pr"/></e>
 
     <e lm="patto"><i>patt</i><par n="abbain/o__n"/></e>
     <e lm="rendimento"><i>rendiment</i><par n="abbain/o__n"/></e>
@@ -35714,7 +35716,7 @@
     <e lm="te"><i>te</i><par n="te__prn"/></e>
       <e r="LR" lm="teco"><i>teco</i><par n="te__prn"/></e>
     <e lm="tu"><i>tu</i><par n="te__prn"/></e>
-    <e lm="tutti quanti"><i>tutti<b/>quanti</i><par n="todo_el_mundo__prn"/></e>
+    <e lm="tutti quanti"><i>tutti<b/>quanti</i><par n="tutti_quanti__prn"/></e>
     <e lm="tutto"><i>tutt</i><par n="altr/o__prn"/></e>
     <e lm="uno"><i>un</i><par n="qualcun/o__prn"/></e>
     <e lm="voi"><i>voi</i><par n="voi__prn"/></e>
@@ -35817,6 +35819,7 @@
     <e r="LR" lm="insieme con"><i>insieme<b/>con</i><par n="accanto__pr"/></e>
     <e r="RL" lm="insieme con"><p><l>insieme<b/><a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
     <e lm="come a"><i>come<b/></i><par n="/a__pr"/></e>
+    <e lm="per quanto riguarda"><i>per<b/>quanto<b/>riguarda</i><par n="accanto__pr"/></e>
 
     <!-- SECTION: Adverbs --> 
 
