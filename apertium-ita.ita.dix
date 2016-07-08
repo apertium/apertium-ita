@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--	Dictionary:	Sections: 3	Entries: 7993	Sdefs: 72	Paradigms: 513-->
 <dictionary>
   <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
@@ -46826,7 +46827,6 @@
     <e lm="circulare"><i>circular</i><par n="albanes/e__adj"/></e>
     <e lm="consultato"><i>consultat</i><par n="cosiddett/o__adj"/></e>
     <e lm="contributo"><i>contribut</i><par n="cosiddett/o__adj"/></e>
-    <e lm="difensore"><i>difensor</i><par n="albanes/e__adj"/></e>
     <e lm="di Gonnesa"><i>di<b/>Gonnesa</i><par n="extra__adj"/></e>
     <e lm="di mezzo"><i>di<b/>mezzo</i><par n="extra__adj"/></e>
     <e lm="disfatto"><i>disfatt</i><par n="cosiddett/o__adj"/></e>
@@ -46847,7 +46847,6 @@
     <e lm="ritardatario"><i>ritardatari</i><par n="ampi/o__adj"/></e>
     <e lm="rossiccio"><i>rossicci</i><par n="ampi/o__adj"/></e>
     <e lm="salentino"><i>salentin</i><par n="cosiddett/o__adj"/></e>
-    <e lm="sassarese"><i>sassares</i><par n="albanes/e__adj"/></e>
     <e lm="sociolinguistico"><i>sociolinguistic</i><par n="tecnic/o__adj"/></e>
     <e lm="stato"><i>stat</i><par n="cosiddett/o__adj"/></e>
     <e lm="stendardo"><i>stendard</i><par n="cosiddett/o__adj"/></e>
@@ -46855,17 +46854,13 @@
     <e lm="titolare"><i>titolar</i><par n="albanes/e__adj"/></e>
     <e lm="veniente"><i>venient</i><par n="albanes/e__adj"/></e>
 
-    <e lm="surplus"><i>surplus</i><par n="albatros__n"/></e>
     <e lm="plaid"><i>plaid</i><par n="albatros__n"/></e>
     <e lm="acquasanta"><i>acquasant</i><par n="cas/a__n"/></e>
-    <e lm="acquirente"><i>acquirent</i><par n="albanes/e__n"/></e>
     <e lm="algherese"><i>algheres</i><par n="albanes/e__n"/></e>
     <e lm="aranese"><i>aranes</i><par n="albanes/e__n"/></e>
     <e lm="batosta"><i>batost</i><par n="cas/a__n"/></e>
     <e lm="breve"><i>brev</i><par n="abat/e__n"/></e>
     <e lm="cancelliere"><i>cancellier</i><par n="albanes/e__n"/></e>
-    <e lm="cantante"><i>cantant</i><par n="albanes/e__n"/></e>
-    <e lm="cantina"><i>cantin</i><par n="cas/a__n"/></e>
     <e lm="carcere"><i>carcer</i><par n="abat/e__n"/></e>
     <e lm="catacomba"><i>catacomb</i><par n="cas/a__n"/></e>
     <e lm="centinaio"><i>centinai</i><par n="abbagli/o__n"/></e>
@@ -46923,7 +46918,6 @@
     <e lm="portavoce"><i>portavoc</i><par n="albanes/e__n"/></e>
     <e lm="potentzialità"><i>potentzialità</i><par n="abilità__n"/></e>
     <e lm="pozza"><i>pozz</i><par n="cas/a__n"/></e>
-    <e lm="predecessore"><i>predecessor</i><par n="albanes/e__n"/></e>
     <e lm="presente"><i>present</i><par n="abat/e__n"/></e>
     <e lm="promontorio"><i>promontori</i><par n="abbagli/o__n"/></e>
     <e lm="protetta"><i>protett</i><par n="cas/a__n"/></e>
@@ -46951,13 +46945,107 @@
     <e lm="testata"><i>testat</i><par n="cas/a__n"/></e>
     <e lm="lamentela"><i>lamentel</i><par n="cas/a__n"/></e>
     <e lm="faccenda"><i>faccend</i><par n="cas/a__n"/></e>
-    <e lm="testimone"><i>testimon</i><par n="albanes/e__n"/></e>
     <e lm="tolleranza"><i>tolleranz</i><par n="cas/a__n"/></e>
     <e lm="corsia"><i>corsi</i><par n="cas/a__n"/></e>
     <e lm="triunfo"><i>triunf</i><par n="abbain/o__n"/></e>
     <e lm="uovo"><i>uov</i><par n="abbain/o__n"/></e>
-    <e lm="vivente"><i>vivent</i><par n="albanes/e__n"/></e>
     <e lm="votante"><i>votant</i><par n="albanes/e__n"/></e>
+
+    <e lm="a cavallo"><i>a<b/>cavallo</i><par n="ieri__adv"/></e>
+    <e lm="a fatica"><i>a<b/>fatica</i><par n="ieri__adv"/></e>
+    <e lm="a largo"><i>a<b/>largo</i><par n="ieri__adv"/></e>
+    <e lm="al contraio"><i>al<b/>contraio</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="alla buona"><i>alla<b/>buona</i><par n="ieri__adv"/></e>
+    <e lm="al lato"><i>al<b/>lato</i><par n="ieri__adv"/></e>
+    <e lm="all'indietro"><i>all'indietro</i><par n="ieri__adv"/></e>
+    <e lm="allora"><i>allora</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="all'ora"><i>all'ora</i><par n="ieri__adv"/></e>
+    <e lm="al punto che"><i>al<b/>punto<b/>che</i><par n="affinchè__cnjsub"/></e>
+    <e lm="al rovescio"><i>al<b/>rovescio</i><par n="ieri__adv"/></e>
+    <e lm="a malavoglia"><i>a<b/>malavoglia</i><par n="ieri__adv"/></e>
+    <e lm="a mezzanotte"><i>a<b/>mezzanotte</i><par n="ieri__adv"/></e>
+    <e lm="a mezzogiorno"><i>a<b/>mezzogiorno</i><par n="ieri__adv"/></e>
+    <e lm="anche"><i>anche</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="appena"><i>appena</i><par n="affinchè__cnjsub"/></e>
+    <e lm="a riposo"><i>a<b/>riposo</i><par n="ieri__adv"/></e>
+    <e lm="avant'ieri"><i>avant'ieri</i><par n="ieri__adv"/></e>
+    <e lm="basta che"><i>basta<b/>che</i><par n="affinchè__cnjsub"/></e>
+    <e lm="come"><i>come</i><par n="affinchè__cnjsub"/></e>
+    <e lm="come"><i>come</i><par n="ieri__adv"/></e>
+    <e lm="cosa"><i>cosa</i><par n="ieri__adv"/></e>
+    <e lm="da cattivo"><i>da<b/>cattivo</i><par n="ieri__adv"/></e>
+    <e lm="daccanto"><i>daccanto</i><par n="ieri__adv"/></e>
+    <e lm="da dentro"><i>da<b/>dentro</i><par n="ieri__adv"/></e>
+    <e lm="da dietro"><i>da<b/>dietro</i><par n="ieri__adv"/></e>
+    <e lm="da dove"><i>da<b/>dove</i><par n="ieri__adv"/></e>
+    <e lm="da fuori"><i>da<b/>fuori</i><par n="ieri__adv"/></e>
+    <e lm="da giù"><i>da<b/>giù</i><par n="ieri__adv"/></e>
+    <e lm="da laggiù"><i>da<b/>laggiù</i><par n="ieri__adv"/></e>
+    <e lm="da lì"><i>da<b/>lì</i><par n="ieri__adv"/></e>
+    <e lm="da lontano"><i>da<b/>lontano</i><par n="ieri__adv"/></e>
+    <e lm="da qui"><i>da<b/>qui</i><par n="ieri__adv"/></e>
+    <e lm="da sopra"><i>da<b/>sopra</i><par n="ieri__adv"/></e>
+    <e lm="da sotto"><i>da<b/>sotto</i><par n="ieri__adv"/></e>
+    <e lm="da su"><i>da<b/>su</i><par n="ieri__adv"/></e>
+    <e lm="da vicino"><i>da<b/>vicino</i><par n="ieri__adv"/></e>
+    <e lm="di corsa"><i>di<b/>corsa</i><par n="ieri__adv"/></e>
+    <e lm="di giorno"><i>di<b/>giorno</i><par n="ieri__adv"/></e>
+    <e lm="di nascosto"><i>di<b/>nascosto</i><par n="ieri__adv"/></e>
+    <e lm="di niente"><i>di<b/>niente</i><par n="ieri__adv"/></e>
+    <e lm="di più"><i>di<b/>più</i><par n="ieri__adv"/></e>
+    <e lm="di pomeriggio"><i>di<b/>pomeriggio</i><par n="ieri__adv"/></e>
+    <e lm="di sbieco"><i>di<b/>sbieco</i><par n="ieri__adv"/></e>
+    <e lm="di sera"><i>di<b/>sera</i><par n="ieri__adv"/></e>
+    <e lm="di sicuro"><i>di<b/>sicuro</i><par n="ieri__adv"/></e>
+    <e lm="di spalle"><i>di<b/>spalle</i><par n="ieri__adv"/></e>
+    <e lm="dove"><i>dove</i><par n="ieri__adv"/></e>
+    <e lm="dunque"><i>dunque</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="fino a quando"><i>fino<b/>a<b/>quando</i><par n="affinchè__cnjsub"/></e>
+    <e lm="fradicio"><i>fradicio</i><par n="ieri__adv"/></e>
+    <e lm="frattanto"><i>frattanto</i><par n="affinchè__cnjsub"/></e>
+    <e lm="in caduta"><i>in<b/>caduta</i><par n="ieri__adv"/></e>
+    <e lm="in corto"><i>in<b/>corto</i><par n="ieri__adv"/></e>
+    <e lm="indaffaratamente"><i>indaffaratamente</i><par n="ieri__adv"/></e>
+    <e lm="in faccia"><i>in<b/>faccia</i><par n="ieri__adv"/></e>
+    <e lm="in meno"><i>in<b/>meno</i><par n="ieri__adv"/></e>
+    <e lm="in niente"><i>in<b/>niente</i><par n="ieri__adv"/></e>
+    <e lm="in piedi"><i>in<b/>piedi</i><par n="ieri__adv"/></e>
+    <e lm="in tutto"><i>in<b/>tutto</i><par n="ieri__adv"/></e>
+    <e lm="invece"><i>invece</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="magari"><i>magari</i><par n="affinchè__cnjsub"/></e>
+    <e lm="meno male che"><i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="ne"><i>ne</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="nel caso"><i>nel<b/>caso</i><par n="ieri__adv"/></e>
+    <e lm="nel posto"><i>nel<b/>posto</i><par n="ieri__adv"/></e>
+    <e lm="niente"><i>niente</i><par n="ieri__adv"/></e>
+    <e lm="ogni volta che"><i>ogni<b/>volta<b/>che</i><par n="affinchè__cnjsub"/></e>
+    <e lm="perché"><i>perché</i><par n="affinchè__cnjsub"/></e>
+    <e lm="perciò"><i>perciò</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="per di più"><i>per<b/>di<b/>più</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="per dire"><i>per<b/>dire</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="per esempio"><i>per<b/>esempio</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="perfino"><i>perfino</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="per il reso"><i>per<b/>il<b/>reso</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="per niente"><i>per<b/>niente</i><par n="ieri__adv"/></e>
+    <e lm="per quello"><i>per<b/>quello</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="più che altro"><i>più<b/>che<b/>altro</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="poco meno"><i>poco<b/>meno</i><par n="ieri__adv"/></e>
+    <e lm="poco più"><i>poco<b/>più</i><par n="ieri__adv"/></e>
+    <e lm="pure"><i>pure</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="quando"><i>quando</i><par n="ieri__adv"/></e>
+    <e lm="salvo"><i>salvo</i><par n="affinchè__cnjsub"/></e>
+    <e lm="sebbene"><i>sebbene</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="senonchè"><i>senonchè</i><par n="affinchè__cnjsub"/></e>
+    <e lm="senza dubbio"><i>senza<b/>dubbio</i><par n="ieri__adv"/></e>
+    <e lm="sia"><i>sia</i><par n="ancorché__cnjcoo"/></e>
+    <e lm="solo che"><i>solo<b/>che</i><par n="affinchè__cnjsub"/></e>
+    <e lm="su"><i>su</i><par n="ieri__adv"/></e>
+    <e lm="una volta"><i>una<b/>volta</i><par n="ieri__adv"/></e>
+    <e lm="un poco"><i>un<b/>poco</i><par n="ieri__adv"/></e>
+    <e lm="verso giù"><i>verso<b/>giù</i><par n="ieri__adv"/></e>
+    <e lm="verso"><i>verso</i><par n="ieri__adv"/></e>
+    <e lm="verso su"><i>verso<b/>su</i><par n="ieri__adv"/></e>
+
 
   </section>
 
