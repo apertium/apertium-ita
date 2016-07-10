@@ -186,6 +186,10 @@
       <e><p><l>lo</l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
     </pardef>
  -->
+    <pardef n="S__cantato">
+      <e><p><l>si</l><r>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    </pardef>
+
     <pardef n="S__cantando">
       <e><p><l>mi</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>me</l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__cantandomi"/></e>
@@ -3630,6 +3634,10 @@
       <e><p><l>enuta</l><r>enere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>enuti</l><r>enere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>enuto</l><r>enere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>enute</l><r>enere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantato"/></e>
+      <e><p><l>enuta</l><r>enere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
+      <e><p><l>enuti</l><r>enere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p><par n="S__cantato"/></e>
+      <e><p><l>enuto</l><r>enere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
       <e><p><l>eniamo</l><r>enere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>engo</l><r>enere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>enete</l><r>enere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -4631,6 +4639,69 @@
       <e r="LR"><p><l>abbian</l><r>avere<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>abbiano</l><r>avere<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>abbia</l><r>avere<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="/avere__vbmod">
+      <e><p><l>avente</l><r>avere<s n="vbmod"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>aventi</l><r>avere<s n="vbmod"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>avremmo</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avrei</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avreste</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avresti</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avrebber</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avrebbero</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avrebbe</l><r>avere<s n="vbmod"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avremo</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avrò</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avrete</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avrai</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avran</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avranno</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avrà</l><r>avere<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avendo</l><r>avere<s n="vbmod"/><s n="ger"/></r></p></e>
+      <e><p><l>avendo</l><r>avere<s n="vbmod"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e><p><l>avemmo</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbi</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aveste</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avesti</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ebber</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbero</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbe</l><r>avere<s n="vbmod"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>aver</l><r>avere<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>avere</l><r>avere<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>aver</l><r>avere<s n="vbmod"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e><p><l>avevamo</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avevo</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avevate</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avevi</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avevan</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avevano</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>aveva</l><r>avere<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avessimo</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>avessi</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>aveste</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>avessi</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>avesser</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avessero</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>avesse</l><r>avere<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>avuto</l><r>avere<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>avute</l><r>avere<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>avuta</l><r>avere<s n="vbmod"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>avuti</l><r>avere<s n="vbmod"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>abbiamo</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ho</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>avete</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>hai</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>han</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>hanno</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ha</l><r>avere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>abbiamo</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>abbia</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>abbiate</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>abbia</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>abbian</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>abbiano</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>abbia</l><r>avere<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="/avere__vblex">
@@ -33410,6 +33481,7 @@
     <e lm="avere bisogno di"><par n="/avere_bisogno_di__vbmod"/></e>
     <e lm="avere bisogno che"><par n="/avere_bisogno_che__vbmod"/></e>
     <e lm="avere bisogno"><i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
+    <e lm="avere da"><i></i><par n="/avere__vbmod"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
     <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
     <e lm="dare una conferenza"><i>d</i><par n="d/are__vblex"/><p><l><b/>una<b/>conferenza</l><r><g><b/>una<b/>conferenza</g></r></p></e>
     <e lm="fare affari"><i>f</i><par n="f/are__vblex"/><p><l><b/>affari</l><r><g><b/>affari</g></r></p></e>
