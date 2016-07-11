@@ -36125,6 +36125,7 @@
     <e lm="mille"><i>mille</i><par n="mille__num"/></e>
     <e lm="mila"><i></i><par n="mila__num"/></e>
     <e lm="zero"><i>zero</i><par n="C__num"/></e>
+    <e lm="uno"><i>un</i><par n="un/o__num"/></e>
     <e lm="due"><i>due</i><par n="centocinquanta__num"/></e>
     <e lm="tre"><i>tre</i><par n="centocinquanta__num"/></e>
     <e lm="quattro"><i>quattro</i><par n="centocinquanta__num"/></e>
@@ -47689,7 +47690,6 @@
     <e lm="verso"><i>verso</i><par n="ieri__adv"/></e>
     <e lm="verso su"><i>verso<b/>su</i><par n="ieri__adv"/></e>
 
-
     <e lm="circa"><i>circa</i><par n="ieri__adv"/></e>
     <e lm="deprimente"><i>deprimente</i><par n="ieri__adv"/></e>
     <e lm="dirimente"><i>dirimente</i><par n="ieri__adv"/></e>
@@ -47701,6 +47701,9 @@
     <e lm="stamattina"><i>stamattina</i><par n="ieri__adv"/></e>
     <e lm="veemente"><i>veemente</i><par n="ieri__adv"/></e>
 
+    <e lm="Lione"><i>Lione</i><par n="Europa__np"/></e>
+    <e lm="Marghine"><i>Marghine</i><par n="Afghanistan__np"/></e>
+ 
   </section>
 
   <section id="apostrophes" type="postblank">
