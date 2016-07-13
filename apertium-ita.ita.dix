@@ -480,7 +480,7 @@
       <e><p><l>ditrici</l><r>sore<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
-    <pardef n="opr/essore__n">
+    <pardef n="oppr/essore__n">
       <e><p><l>essori</l><r>essore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>essore</l><r>essore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>imitrice</l><r>essore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -11919,6 +11919,20 @@
       <e><p><l>i</l><r>e<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="difen/sore__adj">
+      <e><p><l>sori</l><r>sore<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>sore</l><r>sore<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrice</l><r>sore<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ditrici</l><r>sore<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
+    <pardef n="oppr/essore__adj">
+      <e><p><l>essori</l><r>essore<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>essore</l><r>essore<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>imitrice</l><r>essore<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>imitrici</l><r>essore<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="junior__adj">
       <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>es</l><r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -19611,7 +19625,8 @@
     <e lm="newyorkese"><i>newyorkes</i><par n="albanes/e__n"/></e>
     <e lm="parmense"><i>parmens</i><par n="abat/e__n"/></e>
     <e lm="provveditore"><i>provvedit</i><par n="agricolt/ore__n"/></e>
-    <e lm="oppressore"><i>oppr</i><par n="opr/essore__n"/></e>
+    <e lm="oppressore"><i>oppr</i><par n="oppr/essore__n"/></e>
+    <e lm="oppressore"><i>oppr</i><par n="oppr/essore__adj"/></e>
     <e lm="respiratore"><i>respirat</i><par n="agricolt/ore__n"/></e>
     <e lm="vogatore"><i>vogat</i><par n="agricolt/ore__n"/></e>
     <e lm="millantatore"><i>millantat</i><par n="agricolt/ore__n"/></e>
@@ -19852,7 +19867,7 @@
     <e lm="supervertice"><i>supervertic</i><par n="abat/e__n"/></e>
     <e lm="attivatore"><i>attivat</i><par n="agricolt/ore__n"/></e>
     <e lm="trascinatore"><i>trascinator</i><par n="abat/e__n"/></e>
-    <e lm="mittente"><i>mittent</i><par n="abat/e__n"/></e>
+    <e lm="mittente"><i>mittent</i><par n="albanes/e__n"/></e>
     <e lm="stallone"><i>stallon</i><par n="abat/e__n"/></e>
     <e lm="misuratore"><i>misurat</i><par n="agricolt/ore__n"/></e>
     <e lm="corleonese"><i>corleones</i><par n="albanes/e__n"/></e>
@@ -19892,7 +19907,7 @@
     <e lm="utilizzatore"><i>utilizzat</i><par n="agricolt/ore__n"/></e>
     <e lm="neozelandese"><i>neozelandes</i><par n="albanes/e__n"/></e>
     <e lm="pitone"><i>piton</i><par n="abat/e__n"/></e>
-    <e lm="concedente"><i>concedent</i><par n="abat/e__n"/></e>
+    <e lm="concedente"><i>concedent</i><par n="albanes/e__n"/></e>
     <e lm="cammelliere"><i>cammellier</i><par n="abat/e__n"/></e>
     <e lm="traversone"><i>traverson</i><par n="abat/e__n"/></e>
     <e lm="irregolare"><i>irregolar</i><par n="abat/e__n"/></e>
@@ -20454,7 +20469,8 @@
     <e lm="bolide"><i>bolid</i><par n="abat/e__n"/></e>
     <e lm="suonatore"><i>suonat</i><par n="agricolt/ore__n"/></e>
     <e lm="innocente"><i>innocent</i><par n="abat/e__n"/></e>
-    <e lm="repressore"><i>repr</i><par n="opr/essore__n"/></e>
+    <e lm="repressore"><i>repr</i><par n="oppr/essore__n"/></e>
+    <e lm="repressore"><i>repr</i><par n="oppr/essore__adj"/></e>
     <e lm="brontolone"><i>brontolon</i><par n="abat/e__n"/></e>
     <e lm="pattuglione"><i>pattuglion</i><par n="abat/e__n"/></e>
     <e lm="arrampicatore"><i>arrampicat</i><par n="agricolt/ore__n"/></e>
@@ -22542,7 +22558,7 @@
     <e lm="stridente"><i>strident</i><par n="fin/e__adj"/></e>
     <e lm="abbinabile"><i>abbinabil</i><par n="fin/e__adj"/></e>
     <e lm="estenuante"><i>estenuant</i><par n="fin/e__adj"/></e>
-    <e lm="difensore"><i>difensor</i><par n="albanes/e__adj"/></e>
+    <e lm="difensore"><i>difen</i><par n="difen/sore__adj"/></e>
     <e lm="ineludibile"><i>ineludibil</i><par n="fin/e__adj"/></e>
     <e lm="inestinguibile"><i>inestinguibil</i><par n="fin/e__adj"/></e>
     <e lm="rispettabile"><i>rispettabil</i><par n="fin/e__adj"/></e>
@@ -23641,7 +23657,7 @@
     <e lm="episcopale"><i>episcopal</i><par n="fin/e__adj"/></e>
     <e lm="placentare"><i>placentar</i><par n="fin/e__adj"/></e>
     <e lm="paramilitare"><i>paramilitar</i><par n="fin/e__adj"/></e>
-    <e lm="estensore"><i>estensor</i><par n="albanes/e__adj"/></e>
+    <e lm="estensore"><i>esten</i><par n="difen/sore__adj"/></e>
     <e lm="emozionante"><i>emozionant</i><par n="fin/e__adj"/></e>
     <e lm="calabrese"><i>calabres</i><par n="albanes/e__adj"/></e>
     <e lm="incline"><i>inclin</i><par n="fin/e__adj"/></e>
@@ -32764,6 +32780,7 @@
     <e lm="arrivederci"><i>arrivederci</i><par n="salve__ij"/></e>
     <e lm="ciao"><i>ciao</i><par n="salve__ij"/></e>
     <e lm="magari"><i>magari</i><par n="salve__ij"/></e>
+    <e lm="aspetta"><i>aspetta</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (adj) group      ******************************    -->
     <e r="LR" lm="buon"><p><l>buon</l><r>buono<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
