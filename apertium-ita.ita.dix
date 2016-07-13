@@ -2770,6 +2770,46 @@
       <e><p><l>lga</l><r>gliere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
+    <pardef n="acca/dere__vblex">
+      <e r="LR"><p><l>drebber</l><r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>drebbero</l><r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>drebbe</l><r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dran</l><r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dranno</l><r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>drà</l><r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>dendo</l><r>dere<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>dendo</l><r>dere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e r="LR"><p><l>dder</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ddero</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dde</l><r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dano</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>da</l><r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>der</l><r>dere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>dere</l><r>dere<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>der</l><r>dere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e r="LR"><p><l>devan</l><r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>devano</l><r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>deva</l><r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>desser</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dessero</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>desse</l><r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>dute</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>dute</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantate"/></e>
+      <e><p><l>duta</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>duta</l><r>dere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__cantata"/></e>
+      <e><p><l>duti</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>duti</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p><par n="S__cantati"/></e>
+      <e><p><l>duto</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>duto</l><r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
+      <e r="LR"><p><l>don</l><r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dono</l><r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>de</l><r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>dan</l><r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>dano</l><r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>da</l><r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
     <pardef n="ca/dere__vblex">
       <e><p><l>dremmo</l><r>dere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>drei</l><r>dere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -34596,7 +34636,7 @@
     <e lm="cacare"><i>cac</i><par n="abbarbic/are__vblex"/></e>
     <e lm="cacciare"><i>cacc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="cadere"><i>ca</i><par n="ca/dere__vblex"/></e>
-    <e lm="accadere"><i>acca</i><par n="ca/dere__vblex"/></e>
+    <e lm="accadere"><i>acca</i><par n="acca/dere__vblex"/></e>
     <e lm="accidere"><i>acci</i><par n="ca/dere__vblex"/></e>
     <e lm="riaccadere"><i>riacca</i><par n="ca/dere__vblex"/></e>
     <e lm="cagare"><i>cag</i><par n="abbarbic/are__vblex"/></e>
