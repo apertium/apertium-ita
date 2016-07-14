@@ -36472,7 +36472,6 @@
     <e lm="quale"><i>qual</i><par n="qual/e__prn"/></e>
     <e lm="qualcosa"><i>qualcosa</i><par n="qualcosa__prn"/></e>
     <e lm="qualcuno"><i>qualcun</i><par n="qualcun/o__prn"/></e>
-    <e lm="qualcun"><i>qualcun</i><par n="qualcun/o__prn"/></e>
     <e lm="qualsiasi"><i>qualsiasi</i><par n="extra__adj"/></e>
     <e lm="qualsiasia"><i>qualsiasia</i><par n="extra__adj"/></e>
     <e lm="qualsivoglia"><i>qualsivoglia</i><par n="extra__adj"/></e>
@@ -48185,6 +48184,15 @@
     <e lm="vitalizio"><i>vitalizi</i><par n="ampi/o__adj"/></e>
     <e lm="voluttuario"><i>voluttuari</i><par n="ampi/o__adj"/></e>
  
+    <e lm="San Marino"><i>San<b/>Marino</i><par n="Afghanistan__np"/></e>
+    <e lm="Misano"><i>Misano</i><par n="Afghanistan__np"/></e>
+    <e lm="circuito"><i>circuit</i><par n="abbain/o__n"/></e>
+    <e lm="Merkel"><i>Merkel</i><par n="Díez__np"/></e>
+    <e lm="Renzi"><i>Renzi</i><par n="Díez__np"/></e>
+    <e lm="Draghi"><i>Draghi</i><par n="Díez__np"/></e>
+    <e lm="brexit"><i>brexit</i><par n="abilità__n"/></e>
+
+
   </section>
 
   <section id="apostrophes" type="postblank">
