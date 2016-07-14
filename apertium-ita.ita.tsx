@@ -68,14 +68,19 @@
   <def-label name="INTERJ">
     <tags-item tags="ij"/>
   </def-label> 
+  <def-label name="ABBR">
+    <tags-item tags="abbr"/>
+  </def-label> 
   <def-label name="ANTROPONIM">
     <tags-item tags="np.ant.*"/>
     <tags-item tags="np.cog.*"/>
   </def-label>
   <def-label name="TOPONIM">
     <tags-item tags="np.loc.*"/>
+    <tags-item tags="np.hyd.*"/>
   </def-label>
   <def-label name="NPALTRES">
+    <tags-item tags="np.org.*"/>
     <tags-item tags="np.al.*"/>
   </def-label>
   <def-label name="NUM" closed="true">
@@ -118,9 +123,11 @@
   </def-label>
   <def-label name="VLEXPARTPI_SG">
     <tags-item tags="vblex.pp.*.sg"/>
+    <tags-item tags="vblex.pprs.*.sg"/>
   </def-label>
   <def-label name="VLEXPARTPI_PL">
     <tags-item tags="vblex.pp.*.pl"/>
+    <tags-item tags="vblex.pprs.*.pl"/>
   </def-label>
   <def-label name="VLEXPFCI">
     <tags-item tags="vblex.pri.*"/>
@@ -147,6 +154,7 @@
   </def-label>
   <def-label name="VSERPARTPI" closed="true">
     <tags-item tags="vbser.pp.*"/>
+    <tags-item tags="vbser.pprs.*"/>
   </def-label>
   <def-label name="VSERPFCI_SG" closed="true">
     <tags-item tags="vbser.pri.*.sg"/>
@@ -179,6 +187,7 @@
   </def-label>
   <def-label name="AVEREPARTPI" closed="true">
     <tags-item tags="vbhaver.pp.*"/>
+    <tags-item tags="vbhaver.pprs.*"/>
   </def-label>
   <def-label name="AVEREPFCI" closed="true">
     <tags-item tags="vbhaver.pri.*"/>
@@ -205,6 +214,7 @@
   </def-label>
   <def-label name="VMODALPARTPI" closed="true">
     <tags-item tags="vbmod.pp.*"/>
+    <tags-item tags="vbmod.pprs.*"/>
   </def-label>
   <def-label name="VMODALPFCI" closed="true">
     <tags-item tags="vbmod.pri.*"/>
@@ -226,16 +236,19 @@
  <def-label name="ADJF">
    <tags-item tags="adj.f.*"/>
    <tags-item tags="adj.ind.f.*"/>
+   <tags-item tags="adj.ord.f.*"/>
    <tags-item tags="adj.sup.f.*"/>
  </def-label>
  <def-label name="ADJM">
    <tags-item tags="adj.m.*"/>
    <tags-item tags="adj.ind.m.*"/>
+   <tags-item tags="adj.ord.m.*"/>
    <tags-item tags="adj.sup.m.*"/>
  </def-label>
  <def-label name="ADJMF">
    <tags-item tags="adj.mf.*"/>
    <tags-item tags="adj.ind.mf.*"/>
+   <tags-item tags="adj.ord.mf.*"/>
    <tags-item tags="adj.sup.mf.*"/>
  </def-label> 
  <def-label name="ADJINT" closed="true">
