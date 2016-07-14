@@ -71,6 +71,9 @@
   <def-label name="ABBR">
     <tags-item tags="abbr"/>
   </def-label> 
+  <def-label name="WEB">
+    <tags-item tags="web"/>
+  </def-label> 
   <def-label name="ANTROPONIM">
     <tags-item tags="np.ant.*"/>
     <tags-item tags="np.cog.*"/>
