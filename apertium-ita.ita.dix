@@ -691,7 +691,7 @@
       <e><p><l>i</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
-    <pardef n="nevic/are__vblex"> <!-- verb impersonal: només 3a pers -->
+    <pardef n="gel/are__vblex"> <!-- verb impersonal: només 3a pers -->
       <e><p><l>ante</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>anti</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>erebber</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -706,8 +706,6 @@
       <e><p><l>arono</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ò</l><r>are<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
 
-      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>a</l><r>are<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
       <e><p><l>i</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ino</l><r>are<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
 
@@ -735,6 +733,46 @@
       <e r="LR"><p><l>in</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ino</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>i</l><r>are<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+    </pardef>
+    
+    <pardef n="albegg/iare__vblex">  <!-- verb impersonal: només 3a pers -->
+      <e r="LR"><p><l>erebber</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>erebbero</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>erebbe</l><r>iare<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>eran</l><r>iare<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>eranno</l><r>iare<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>erà</l><r>iare<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iando</l><r>iare<s n="vblex"/><s n="ger"/></r></p></e>
+      <e><p><l>iando</l><r>iare<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e r="LR"><p><l>iaron</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iarono</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iò</l><r>iare<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>in</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ino</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>iare<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>iare</l><r>iare<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>iar</l><r>iare<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
+      <e r="LR"><p><l>iavan</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iavano</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iava</l><r>iare<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>iasser</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iassero</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iasse</l><r>iare<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>iate</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>iate</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantate"/></e>
+      <e><p><l>iata</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>iata</l><r>iare<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__cantata"/></e>
+      <e><p><l>iati</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>iati</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p><par n="S__cantati"/></e>
+      <e><p><l>iato</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>iato</l><r>iare<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
+      <e r="LR"><p><l>ian</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>iano</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ia</l><r>iare<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>in</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ino</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>i</l><r>iare<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="red/igere__vblex">
@@ -35063,7 +35101,7 @@
     <e lm="funzionare"><i>funzion</i><par n="abbacin/are__vblex"/></e>
     <e lm="galleggiare"><i>galleggi</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="garantire"><i>garant</i><par n="abbell/ire__vblex"/></e>
-    <e lm="gelare"><i>gel</i><par n="abbacin/are__vblex"/></e>
+    <e lm="gelare"><i>gel</i><par n="gel/are__vblex"/></e>
     <e lm="generare"><i>gener</i><par n="abbacin/are__vblex"/></e>
     <e lm="germinare"><i>germin</i><par n="abbacin/are__vblex"/></e>
     <e lm="gettare"><i>gett</i><par n="abbacin/are__vblex"/></e>
@@ -44093,7 +44131,7 @@
     <e lm="gabbare"><i>gabb</i><par n="abbacin/are__vblex"/></e>
     <e lm="impaludare"><i>impalud</i><par n="abbacin/are__vblex"/></e>
     <e lm="limare"><i>lim</i><par n="abbacin/are__vblex"/></e>
-    <e lm="nevicare"><i>nevic</i><par n="nevic/are__vblex"/></e>
+    <e lm="nevicare"><i>nevic</i><par n="gel/are__vblex"/></e>
     <e lm="innescare"><i>innesc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="pigliare"><i>pigli</i><par n="espi/are__vblex"/></e>
     <e lm="raccimolare"><i>raccimol</i><par n="abbacin/are__vblex"/></e>
@@ -45947,7 +45985,7 @@
     <e lm="aduggiare"><i>adugg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="agghiacciare"><i>agghiacc</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="aggricciare"><i>aggricc</i><par n="abbiosc/iare__vblex"/></e>
-    <e lm="albeggiare"><i>albegg</i><par n="abbiosc/iare__vblex"/></e>
+    <e lm="albeggiare"><i>albegg</i><par n="albegg/iare__vblex"/></e>
     <e lm="aleggiare"><i>alegg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="amareggiare"><i>amaregg</i><par n="abbiosc/iare__vblex"/></e>
     <e lm="americaneggiare"><i>americanegg</i><par n="abbiosc/iare__vblex"/></e>
