@@ -16,6 +16,13 @@
 /configure.ac -text
 /i_to_p.awk.in -text
 /inline_e.awk.in -text
+ita-tagger-data/ita-supervised.prob -text
+ita-tagger-data/ita.crp -text
+ita-tagger-data/ita.crp.txt -text
+ita-tagger-data/ita.dic -text
+ita-tagger-data/ita.tagged -text
+ita-tagger-data/ita.tagged.txt -text
+ita-tagger-data/ita.untagged -text
 /ita-unsupervised.make -text
 /ita.prob -text
 /modes.xml -text svneol=unset#application/xml
