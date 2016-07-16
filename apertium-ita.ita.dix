@@ -13865,6 +13865,7 @@
     <e lm="qualunque"><i>qualunque</i><par n="qualsivoglia__prn"/></e>
     <e lm="quello"><i>que</i><par n="que/llo__det"/></e>
     <e lm="questo"><i>quest</i><par n="quest/o__det"/></e>
+    <e lm="codesto"><i>codest</i><par n="quest/o__det"/></e>
     <e lm="tale"><i>tal</i><par n="tal/e__det"/></e>
     <e lm="taluno"><i>talun</i><par n="cert/o__det"/></e>
     <e lm="tutto"><i>tutt</i><par n="tutt/o__predet"/></e>
@@ -19205,7 +19206,7 @@
     <e lm="mln" c="milioni"><i>mln</i><par n="scacchi__n"/></e>
       <e r="LR" lm="comunque"><i>comunque</i><par n="siccome__cnjadv"/></e>
       <e r="LR" lm="comunque"><i>comunque</i><par n="ieri__adv"/></e>
-    <e lm="bancario"><i>bancar</i><par n="ampi/o__adj"/></e>
+    <e lm="bancario"><i>bancari</i><par n="ampi/o__adj"/></e>
     <e lm="investitore"><i>investit</i><par n="accentrat/ore__adj"/></e>
     <e lm="investitore"><i>investit</i><par n="agricolt/ore__n"/></e>
     <e lm="ispettore"><i>ispett</i><par n="agricolt/ore__n"/></e>
@@ -30660,6 +30661,7 @@
     <e lm="naufragio"><i>naufragi</i><par n="abbagli/o__n"/></e>
     <e lm="nave"><i>nav</i><par n="abbreviazion/e__n"/></e>
     <e lm="navigatore"><i>navigat</i><par n="agricolt/ore__n"/></e>
+    <e lm="navigatore"><i>navigat</i><par n="accentrat/ore__adj"/></e>
     <e lm="navigazione"><i>navigazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="nazionalità"><i>nazionalità</i><par n="abilità__n"/></e>
     <e lm="nazione"><i>nazion</i><par n="abbreviazion/e__n"/></e>
@@ -30784,6 +30786,7 @@
     <e lm="manodopera"><i>manodoper</i><par n="cas/a__n"/></e>
     <e lm="operaio"><i>operai</i><par n="mugnai/o__n"/></e>
     <e lm="operatore"><i>operat</i><par n="agricolt/ore__n"/></e>
+    <e lm="operatore"><i>operat</i><par n="accentrat/ore__adj"/></e>
     <e lm="operazione"><i>operazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="opinione"><i>opinion</i><par n="abbreviazion/e__n"/></e>
     <e lm="variante"><i>variant</i><par n="abbreviazion/e__n"/></e>
@@ -31516,6 +31519,7 @@
     <e lm="salvadanaio"><i>salvadanai</i><par n="abbagli/o__n"/></e>
     <e lm="salvataggio"><i>salvataggi</i><par n="abbagli/o__n"/></e>
     <e lm="salvatore"><i>salvat</i><par n="agricolt/ore__n"/></e>
+    <e lm="salvatore"><i>salvat</i><par n="accentrat/ore__adj"/></e>
     <e lm="sandwich"><i>sandwich</i><par n="albatros__n"/></e>
     <e lm="sanità"><i>sanità</i><par n="abilità__n"/></e>
     <e lm="sanitario"><i>sanitari</i><par n="segretari/o__n"/></e>
@@ -33379,6 +33383,8 @@
     <e lm="distratto"><i>distratt</i><par n="abbandonat/o__adj"/></e>
     <e lm="mappato"><i>mappat</i><par n="abbandonat/o__adj"/></e>
     <e lm="distributore"><i>distribut</i><par n="accentrat/ore__adj"/></e>
+    <e lm="dominatore"><i>dominat</i><par n="accentrat/ore__adj"/></e>
+    <e lm="donatore"><i>donat</i><par n="accentrat/ore__adj"/></e>
     <e lm="distruttore"><i>distrutt</i><par n="accentrat/ore__adj"/></e>
     <e lm="disuguale"><i>disugual</i><par n="fin/e__adj"/></e>
     <e lm="diurno"><i>diurn</i><par n="abbandonat/o__adj"/></e>
@@ -33967,7 +33973,6 @@
     <e lm="quale"><i>qual</i><par n="qual/e__adj"/></e>
     <e lm="quanto"><i>quant</i><par n="quant/o__adj"/></e>
     <e lm="quantitativo"><i>quantitativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="questo"><i>quest</i><par n="cosiddett/o__adj"/></e>
     <e lm="quotidiano"><i>quotidian</i><par n="abbandonat/o__adj"/></e>
     <e lm="radiante"><i>radia</i><par n="abbacchia/nte__adj"/></e>
     <e lm="radiale"><i>radial</i><par n="fin/e__adj"/></e>
@@ -38117,7 +38122,7 @@
     <e lm="sloveno"><i>sloven</i><par n="cosiddett/o__adj"/></e>
     <e lm="slovacco"><i>slovacc</i><par n="caric/o__adj"/></e>
     <e lm="statutario"><i>statutari</i><par n="ampi/o__adj"/></e>
-    <e lm="stendardo"><i>stendard</i><par n="extra__adj"/></e>
+    <e lm="standardo"><i>standard</i><par n="extra__adj"/></e>
     <e lm="liscio"><i>lisci</i><par n="ampi/o__adj"/></e>
     <e lm="logudorese"><i>logudores</i><par n="albanes/e__adj"/></e>
     <e lm="logudorese"><i>logudores</i><par n="albanes/e__n"/></e>
@@ -41162,7 +41167,6 @@
     <e lm="coccolato"><i>coccolat</i><par n="abbandonat/o__adj"/></e>
     <e lm="coccoloso"><i>coccolos</i><par n="abbandonat/o__adj"/></e>
     <e lm="codardo"><i>codard</i><par n="abbandonat/o__adj"/></e>
-    <e lm="codesto"><i>codest</i><par n="abbandonat/o__adj"/></e>
     <e lm="codino"><i>codin</i><par n="abbandonat/o__adj"/></e>
     <e lm="coercitivo"><i>coercitiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="coesivo"><i>coesiv</i><par n="abbandonat/o__adj"/></e>
@@ -45147,7 +45151,6 @@
     <e lm="ingaggiato"><i>ingaggiat</i><par n="cosiddett/o__adj"/></e>
     <e lm="insignito"><i>insignit</i><par n="cosiddett/o__adj"/></e>
     <e lm="Intel"><i>Intel</i><par n="Fiat__np"/></e>
-    <e lm="interfaccia"><i>interfacci</i><par n="cas/a__n"/></e>
     <e lm="ossitocina"><i>ossitocin</i><par n="cas/a__n"/></e>
     <e lm="ostrica"><i>ostric</i><par n="cas/a__n"/></e>
     <e lm="Inter"><i>Inter</i><par n="Fiat__np"/></e>
@@ -47795,7 +47798,6 @@
     <e lm="salentino"><i>salentin</i><par n="cosiddett/o__adj"/></e>
     <e lm="sociolinguistico"><i>sociolinguistic</i><par n="tecnic/o__adj"/></e>
     <e lm="stato"><i>stat</i><par n="cosiddett/o__adj"/></e>
-    <e lm="stendardo"><i>stendard</i><par n="cosiddett/o__adj"/></e>
     <e lm="sub-sahariano"><i>sub-saharian</i><par n="cosiddett/o__adj"/></e>
     <e lm="titolare"><i>titolar</i><par n="albanes/e__adj"/></e>
     <e lm="polmonare"><i>polmonar</i><par n="albanes/e__adj"/></e>
@@ -48297,6 +48299,7 @@
     <e lm="Draghi"><i>Draghi</i><par n="Díez__np"/></e>
     <e lm="brexit"><i>brexit</i><par n="abilità__n"/></e>
 
+    <e lm="rimanenza"><i>rimanenz</i><par n="cas/a__n"/></e>
 
   </section>
 
