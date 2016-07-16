@@ -8237,6 +8237,7 @@
       <e><p><l>ovute</l><r>overe<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantate"/></e>
       <e><p><l>obbiamo</l><r>overe<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>evo</l><r>overe<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ebbo</l><r>overe<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ovete</l><r>overe<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>evi</l><r>overe<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>evon</l><r>overe<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -8249,6 +8250,15 @@
       <e r="LR"><p><l>ebban</l><r>overe<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ebbano</l><r>overe<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ebba</l><r>overe<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>obbiamo</l><r>overe<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>obbiamo</l><r>overe<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>ovete</l><r>overe<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ovete</l><r>overe<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>evi</l><r>overe<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>evi</l><r>overe<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e r="LR"><p><l>ebban</l><r>overe<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbano</l><r>overe<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebba</l><r>overe<s n="vblex"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
  
     <pardef n="equiva/lere__vblex">
@@ -11822,6 +11832,7 @@
       <e><p><l>ovute</l><r>overe<s n="vbmod"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>obbiamo</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>evo</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ebbo</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ovete</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>evi</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>evon</l><r>overe<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -11834,6 +11845,15 @@
       <e r="LR"><p><l>ebban</l><r>overe<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ebbano</l><r>overe<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>ebba</l><r>overe<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>obbiamo</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>obbiamo</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
+      <e><p><l>ovete</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ovete</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
+      <e><p><l>evi</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>evi</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
+      <e r="LR"><p><l>ebban</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebbano</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ebba</l><r>overe<s n="vbmod"/><s n="imp"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
     <pardef n="v/olere__vbmod">
