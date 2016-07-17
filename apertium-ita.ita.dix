@@ -5,6 +5,7 @@
   <sdefs>		
     <sdef n="acr"     c=""/> 		
     <sdef n="abbr"    c=""/> 		
+    <sdef n="percent"    c=""/> 		
     <sdef n="predet"  c=""/> 		
     <sdef n="detnt"   c=""/> 		
     <sdef n="loc"     c=""/> 		
@@ -98,6 +99,8 @@
     
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l>°</l><r>°<s n="num"/></r></p></e> <!-- degree -->
     </pardef>
     
     <pardef n="separa">
@@ -48320,6 +48323,7 @@
       <e r="LR" lm="dall'"><p><l>dall'</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="dell'"><p><l>dell'</l><r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>	         
       <e r="LR" lm="l'"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="l'"><p><l>l'</l><r>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="LR" lm="nell'"><p><l>nell'</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>

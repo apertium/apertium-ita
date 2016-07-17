@@ -27,3 +27,4 @@ ita-tagger-data/ita.untagged -text
 /ita.prob -text
 /modes.xml -text svneol=unset#application/xml
 /sustituye_caracteres.awk.in -text
+texts/puupankki/puupankki.ita.vislcg -text
