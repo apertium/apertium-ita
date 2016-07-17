@@ -5,16 +5,16 @@
 "<vorrei>"
 	"volere" vbmod cni p1 sg
 "<parlarvi>"
-	"vi" prn enc p2 mf pl
-		"parlare" vblex inf
+	"parlare" vblex inf
+		"vi" prn enc p2 mf pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<futuro>"
 	"futuro" n m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<trasporti>"
 	"trasporto" n m pl
 "<a>"
@@ -70,8 +70,8 @@
 "<possiamo>"
 	"potere" vbmod pri p1 pl
 "<farlo>"
-	"lo" prn enc p3 nt
-		"fare" vblex inf
+	"fare" vblex inf
+		"lo" prn enc p3 nt
 "<con>"
 	"con" pr
 "<la>"
@@ -83,13 +83,12 @@
 "<sta>"
 	"stare" vblex pri p3 sg
 "<nelle nostre>"
-	"il nostro" det pos f pl
-		"in" pr
+	"in" pr
+		"il nostro" det pos f pl
 "<tasche>"
 	"tasca" n f pl
 "<.>"
 	"." sent
-
 "<Sì>"
 	"Sì" adv
 "<,>"
@@ -99,8 +98,8 @@
 "<parlando>"
 	"parlare" vblex ger
 "<degli>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<smartphone>"
 	"smartphone" n f sp
 "<.>"
@@ -112,8 +111,8 @@
 "<non>"
 	"non" adv
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<auto>"
 	"auto" n f sp
 "<senza>"
@@ -122,7 +121,6 @@
 	"autista" n m sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<per>"
@@ -147,7 +145,6 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<si>"
@@ -170,7 +167,6 @@
 	"*Uber"
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<se>"
@@ -186,8 +182,8 @@
 "<futuro>"
 	"futuro" n m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<trasporti>"
 	"trasporto" n m pl
 "<sarebbe>"
@@ -200,22 +196,20 @@
 	"qui" adv
 "<.>"
 	"." sent
-
 "<Permettetemi>"
-	"mi" prn enc p1 mf sg
-		"Permettere" vblex imp p2 pl
+	"Permettere" vblex imp p2 pl
+		"mi" prn enc p1 mf sg
 "<di>"
 	"di" pr
 "<presentarvi>"
-	"vi" prn enc p2 mf pl
-		"presentare" vblex inf
+	"presentare" vblex inf
+		"vi" prn enc p2 mf pl
 "<il>"
 	"il" det def m sg
 "<Jitney>"
 	"*Jitney"
 "<.>"
 	"." sent
-
 "<Fu>"
 	"Essere" vbser ifi p3 sg
 "<creato>"
@@ -225,8 +219,8 @@
 "<inventato>"
 	"inventato" adj m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<1914>"
 	"1914" num
 "<da>"
@@ -245,7 +239,6 @@
 	"*Draper"
 "<.>"
 	"." sent
-
 "<Era>"
 	"Essere" vbser pii p3 sg
 "<un>"
@@ -328,7 +321,6 @@
 	"volere" vbmod pii p3 pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<si>"
@@ -352,8 +344,8 @@
 "<cartello>"
 	"cartello" n m sg
 "<sulla mia>"
-	"il mio" det pos f sg
-		"su" pr
+	"su" pr
+		"il mio" det pos f sg
 "<macchina>"
 	"macchina" n f sg
 "<per>"
@@ -376,7 +368,6 @@
 	"*jitney"
 "<?>"
 	"?" sent
-
 "<Un>"
 	"Un" det ind m sg
 "<Jitney>"
@@ -395,7 +386,6 @@
 	"*slang"
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<persone>"
@@ -408,7 +398,6 @@
 	"bordo" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<non>"
@@ -431,12 +420,11 @@
 	"paese" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<giro>"
 	"giro" n m sg
 "<di>"
@@ -493,12 +481,11 @@
 	"Los Angeles" np loc m sg
 "<.>"
 	"." sent
-
 "<Per>"
 	"Per" pr
 "<darvi>"
-	"vi" prn enc p2 mf pl
-		"dare" vblex inf
+	"dare" vblex inf
+		"vi" prn enc p2 mf pl
 "<un'>"
 	"un" det ind f sg
 "<idea>"
@@ -531,7 +518,6 @@
 	"dopo" adj m sg
 "<.>"
 	"." sent
-
 "<Ed>"
 	"Ed" cnjcoo
 "<ecco>"
@@ -553,18 +539,17 @@
 "<monopolio>"
 	"monopolio" n m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<trasporti>"
 	"trasporto" n m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<tempo>"
 	"tempo" n m sg
 "<.>"
 	"." sent
-
 "<Ovviamente>"
 	"Ovviamente" adv
 "<non>"
@@ -574,18 +559,17 @@
 "<felici>"
 	"felice" adj mf pl
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<rivoluzione>"
 	"rivoluzione" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<jitney>"
 	"*jitney"
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<si>"
@@ -593,8 +577,8 @@
 "<misero>"
 	"mettere" vblex ifi p3 pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<lavoro>"
 	"lavoro" n m sg
 "<e>"
@@ -624,13 +608,12 @@
 "<crescita>"
 	"crescita" n f sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<jitney>"
 	"*jitney"
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<si>"
@@ -645,7 +628,6 @@
 	"diverso" adj sup f pl
 "<.>"
 	"." sent
-
 "<C'>"
 	"Ci" prn pro adv
 "<erano>"
@@ -664,7 +646,6 @@
 	"costoso" adj f pl
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<alcune>"
@@ -692,8 +673,8 @@
 "<stare>"
 	"stare" vblex inf
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<jitney>"
 	"*jitney"
 "<per>"
@@ -706,7 +687,6 @@
 	"al giorno" adv
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<altre>"
@@ -729,7 +709,6 @@
 	"*jitney"
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<c'>"
@@ -759,8 +738,8 @@
 "<luce>"
 	"luce" n f sg
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<abitacolo>"
 	"abitacolo" n m sg
 "<posteriore>"
@@ -807,7 +786,6 @@
 	"Bene" adv
 "<.>"
 	"." sent
-
 "<Dunque>"
 	"Dunque" cnjcoo
 "<cosa>"
@@ -821,8 +799,8 @@
 "<,>"
 	"," cm
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<giro>"
 	"giro" n m sg
 "<di>"
@@ -841,7 +819,6 @@
 	"decollare" vblex pp f sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<il>"
@@ -868,7 +845,6 @@
 	"1919" num
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<fu>"
@@ -879,7 +855,6 @@
 	"disgrazia" n f sg
 "<!>"
 	"!" sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<quando>"
@@ -899,11 +874,10 @@
 "<devi>"
 	"dovere" vbmod pri p2 sg
 "<possederla>"
-	"lo" prn enc p3 f sg
-		"possedere" vblex inf
+	"possedere" vblex inf
+		"lo" prn enc p3 f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<la>"
@@ -917,8 +891,8 @@
 "<balzò>"
 	"*balzò"
 "<alle>"
-	"il" det def f pl
-		"a" pr
+	"a" pr
+		"il" det def f pl
 "<stelle>"
 	"stella" n f pl
 "<e>"
@@ -934,8 +908,8 @@
 "<se>"
 	"se" cnjadv
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<2007>"
 	"2007" num
 "<c'>"
@@ -966,7 +940,6 @@
 	"America" np loc f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<questo>"
@@ -981,7 +954,6 @@
 	"globale" adj mf sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<Cina>"
@@ -989,8 +961,8 @@
 "<,>"
 	"," cm
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<2011>"
 	"2011" num
 "<,>"
@@ -1015,7 +987,6 @@
 	"America" np loc f sg
 "<.>"
 	"." sent
-
 "<Tutta>"
 	"Tutto" predet f sg
 "<questa>"
@@ -1042,7 +1013,6 @@
 	"pubblico" adj m sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<America>"
@@ -1055,6 +1025,7 @@
 	"7" num
 "<miliardi>"
 	"miliardo" n m pl
+
 "<di>"
 	"di" pr
 "<ore>"
@@ -1070,8 +1041,8 @@
 "<seduti>"
 	"sedere" vblex pp m pl
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<traffico>"
 	"traffico" n m sg
 "<.>"
@@ -1089,8 +1060,8 @@
 "<perdita>"
 	"perdita" n f sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<produttività>"
 	"produttività" n f sp
 "<,>"
@@ -1100,8 +1071,8 @@
 "<seduti>"
 	"sedere" vblex pp m pl
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<traffico>"
 	"traffico" n m sg
 "<,>"
@@ -1113,8 +1084,8 @@
 "<quinto>"
 	"quinto" n m sg
 "<della nostra>"
-	"il nostro" det pos f sg
-		"di" pr
+	"di" pr
+		"il nostro" det pos f sg
 "<impronta>"
 	"impronta" n f sg
 "<ecologica>"
@@ -1133,7 +1104,6 @@
 	"auto" n f sp
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<questo>"
@@ -1147,13 +1117,12 @@
 "<4%>"
 	"4" num percent
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<problema>"
 	"problema" n m sg
 "<.>"
 	"." sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<se>"
@@ -1179,8 +1148,8 @@
 "<96%>"
 	"96" num percent
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<tempo>"
 	"tempo" n m sg
 "<la tua>"
@@ -1193,22 +1162,21 @@
 	"fermo" adj f sg
 "<.>"
 	"." sent
-
 "<Fino al>"
-	"il" det def m sg
-		"Fino a" pr
+	"Fino a" pr
+		"il" det def m sg
 "<30%>"
 	"30" num percent
 "<della nostra>"
-	"il nostro" det pos f sg
-		"di" pr
+	"di" pr
+		"il nostro" det pos f sg
 "<terra>"
 	"terra" n f sg
 "<e>"
 	"e" cnjcoo
 "<del nostro>"
-	"il nostro" det pos m sg
-		"di" pr
+	"di" pr
+		"il nostro" det pos m sg
 "<spazio>"
 	"spazio" n m sg
 "<,>"
@@ -1237,7 +1205,6 @@
 	"acciaio" n m sg
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vblex pri p1 pl
 "<persino>"
@@ -1245,8 +1212,8 @@
 "<costruito>"
 	"costruire" vblex pp m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<grattacieli>"
 	"grattacielo" n m pl
 "<per>"
@@ -1255,7 +1222,6 @@
 	"automobile" n f pl
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<questo>"
@@ -1274,7 +1240,6 @@
 	"oggi" adv
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<città>"
@@ -1297,7 +1262,6 @@
 	"decennio" n m pl
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<chiamato>"
@@ -1310,7 +1274,6 @@
 	"massa" n f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<anche>"
@@ -1328,8 +1291,8 @@
 "<una>"
 	"un" det ind f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<più>"
 	"più" adv
 "<densamente>"
@@ -1337,8 +1300,8 @@
 "<popolate>"
 	"popolato" adj f pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<,>"
@@ -1348,8 +1311,8 @@
 "<uno>"
 	"un" det ind m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<sistemi>"
 	"sistema" n m pl
 "<di>"
@@ -1365,8 +1328,8 @@
 "<sofisticati>"
 	"sofisticato" adj m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<,>"
@@ -1395,12 +1358,10 @@
 	"ogni giorno" adv
 "<.>"
 	"." sent
-
 "<Perché>"
 	"Perché" adv itg
 "<?>"
 	"?" sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<il>"
@@ -1433,7 +1394,6 @@
 	"tutto" prn tn m pl
 "<.>"
 	"." sent
-
 "<Tornando>"
 	"Tornare" vblex ger
 "<a>"
@@ -1471,25 +1431,24 @@
 "<peggio>"
 	"peggio" adv
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<resto>"
 	"resto" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<Così>"
 	"Così" cnjadv
 "<,>"
 	"," cm
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<inizio>"
 	"inizio" n m sg
 "<di>"
@@ -1497,8 +1456,8 @@
 "<Uber>"
 	"*Uber"
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<2010>"
 	"2010" num
 "<era>"
@@ -1529,7 +1488,6 @@
 	"passaggio" n m sg
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<avevamo>"
@@ -1540,7 +1498,6 @@
 	"ambizione" n f pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<abbiamo>"
@@ -1591,7 +1548,6 @@
 	"ripetere" vblex pii p3 pl
 "<.>"
 	"." sent
-
 "<Vedevamo>"
 	"Vedere" vblex pii p1 pl
 "<molte>"
@@ -1607,8 +1563,8 @@
 "<tasto>"
 	"tasto" n m sg
 "<nello>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<stesso>"
 	"stesso" adj m sg
 "<momento>"
@@ -1620,15 +1576,14 @@
 "<sostanzialmente>"
 	"sostanzialmente" adv
 "<nello>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<stesso>"
 	"stesso" adj m sg
 "<posto>"
 	"posto" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<abbiamo>"
@@ -1659,7 +1614,6 @@
 	"solo" adj m sg
 "<?>"
 	"?" sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<se>"
@@ -1681,8 +1635,8 @@
 "<,>"
 	"," cm
 "<fino al>"
-	"il" det def m sg
-		"fino a" pr
+	"fino a" pr
+		"il" det def m sg
 "<50%>"
 	"50" num percent
 "<più>"
@@ -1713,7 +1667,6 @@
 	"macchina" n f pl
 "<.>"
 	"." sent
-
 "<Dunque>"
 	"Dunque" cnjcoo
 "<per>"
@@ -1734,7 +1687,6 @@
 	"Funzionare" vblex cni p3 sg
 "<?>"
 	"?" sent
-
 "<Si>"
 	"Si" prn pro ref p3 mf sp
 "<potrebbero>"
@@ -1762,11 +1714,10 @@
 "<vogliano>"
 	"volere" vbmod prs p3 pl
 "<condividerli>"
-	"lo" prn enc p3 m pl
-		"condividere" vblex inf
+	"condividere" vblex inf
+		"lo" prn enc p3 m pl
 "<?>"
 	"?" sent
-
 "<E>"
 	"E" cnjcoo
 "<la>"
@@ -1789,7 +1740,6 @@
 	"sì" adv
 "<.>"
 	"." sent
-
 "<A>"
 	"A" pr
 "<San Francisco>"
@@ -1832,7 +1782,6 @@
 	"volere" vbmod pii p3 pl
 "<.>"
 	"." sent
-
 "<I>"
 	"IL" det def m pl
 "<colori>"
@@ -1855,7 +1804,6 @@
 	"auto" n f sp
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" rel adv
 "<abbiamo>"
@@ -1882,7 +1830,6 @@
 	"acceso" adj m pl
 "<.>"
 	"." sent
-
 "<Sempre>"
 	"Sempre" adv
 "<più>"
@@ -1898,18 +1845,17 @@
 "<,>"
 	"," cm
 "<togliendole>"
-	"lo" prn enc p3 f pl
-		"togliere" vblex ger
+	"togliere" vblex ger
+		"lo" prn enc p3 f pl
 "<così>"
 	"così" adv
 "<dalla>"
-	"il" det def f sg
-		"da" pr
+	"da" pr
+		"il" det def f sg
 "<strada>"
 	"strada" n f sg
 "<.>"
 	"." sent
-
 "<Sembra>"
 	"Sembrare" vblex pri p3 sg
 "<che>"
@@ -1922,7 +1868,6 @@
 	"funzionare" vblex ger
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def m sg
 "<abbiamo>"
@@ -1943,7 +1888,6 @@
 	"fare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Da allora>"
 	"Da allora" adv
 "<,>"
@@ -1961,8 +1905,8 @@
 "<miglia>"
 	"miglia" n f sg
 "<dalla>"
-	"il" det def f sg
-		"da" pr
+	"da" pr
+		"il" det def f sg
 "<strada>"
 	"strada" n f sg
 "<e>"
@@ -1980,8 +1924,8 @@
 "<2>"
 	"2" num
 "<dall'>"
-	"il" det def mf sg
-		"da" pr
+	"da" pr
+		"il" det def mf sg
 "<aria>"
 	"aria" n f sg
 "<.>"
@@ -2002,14 +1946,12 @@
 	"." sent
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applauso>"
 	"Applauso" n m sg
 "<)>"
 	")" rpar
-
 "<Ma>"
 	"Ma" cnjcoo
 "<la mia>"
@@ -2102,7 +2044,6 @@
 	"settimana" n f sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<Cina>"
@@ -2111,6 +2052,7 @@
 	"tutto" prn tn m sg
 "<è>"
 	"essere" vbser pri p3 sg
+
 "<ingigantito>"
 	"*ingigantito"
 "<,>"
@@ -2143,7 +2085,6 @@
 	"al giorno" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<stiamo>"
@@ -2160,7 +2101,6 @@
 	"esponenziale" adj mf sg
 "<.>"
 	"." sent
-
 "<Anche>"
 	"Anche" adv
 "<a>"
@@ -2169,7 +2109,6 @@
 	"Los Angeles" np loc m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<quando>"
@@ -2177,8 +2116,8 @@
 "<parlo>"
 	"parlare" vblex pri p1 sg
 "<col mio>"
-	"il mio" det pos m sg
-		"con" pr
+	"con" pr
+		"il mio" det pos m sg
 "<team>"
 	"team" n m sp
 "<,>"
@@ -2211,7 +2150,6 @@
 	"posto" n m sg
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" adv
 "<arriviamo>"
@@ -2224,7 +2162,6 @@
 	"milione" n m sg
 "<?>"
 	"?" sent
-
 "<In>"
 	"In" pr
 "<Cina>"
@@ -2243,7 +2180,6 @@
 	"milione" n m pl
 "<.>"
 	"." sent
-
 "<Dunque>"
 	"Dunque" cnjadv
 "<uberPOOL>"
@@ -2268,7 +2204,6 @@
 	"urbano" adj f pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<che>"
@@ -2278,8 +2213,8 @@
 "<è>"
 	"essere" vbser pri p3 sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<periferie>"
 	"periferia" n f pl
 "<?>"
@@ -2300,7 +2235,6 @@
 	"Los Angeles" np loc m sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<una>"
@@ -2326,8 +2260,8 @@
 "<cassette>"
 	"cassetta" n f pl
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<posta>"
 	"posta" n f sg
 "<si>"
@@ -2340,7 +2274,6 @@
 	"chilometro" n m pl
 "<.>"
 	"." sent
-
 "<Ogni mattina>"
 	"Ogni mattina" adv
 "<,>"
@@ -2348,8 +2281,8 @@
 "<più o meno>"
 	"più o meno" adv
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<stessa>"
 	"stesso" adj f sg
 "<ora>"
@@ -2363,8 +2296,8 @@
 "<escono>"
 	"uscire" vblex pri p3 pl
 "<dai loro>"
-	"il loro" det pos m pl
-		"da" pr
+	"da" pr
+		"il loro" det pos m pl
 "<vialetti>"
 	"vialetto" n m pl
 "<,>"
@@ -2394,8 +2327,8 @@
 "<vanno>"
 	"andare" vblex pri p3 pl
 "<al loro>"
-	"il loro" det pos m sg
-		"a" pr
+	"a" pr
+		"il loro" det pos m sg
 "<posto>"
 	"posto" n m sg
 "<di>"
@@ -2404,7 +2337,6 @@
 	"lavoro" n m sg
 "<.>"
 	"." sent
-
 "<Noi>"
 	"Noi" prn tn p1 mf pl
 "<ci>"
@@ -2447,7 +2379,6 @@
 	"condividere" vblex pp f pl
 "<?>"
 	"?" sent
-
 "<A tal proposito>"
 	"A tal proposito" adv
 "<,>"
@@ -2470,7 +2401,6 @@
 	"*uberCOMMUTE"
 "<.>"
 	"." sent
-
 "<Ti>"
 	"Ti" prn pro p2 mf sg
 "<svegli>"
@@ -2535,7 +2465,6 @@
 	"*Uber"
 "<.>"
 	"." sent
-
 "<Ti>"
 	"Ti" prn pro p2 mf sg
 "<associamo>"
@@ -2545,8 +2474,8 @@
 "<uno>"
 	"uno" prn tn m sg
 "<dei tuoi>"
-	"il tuo" det pos m pl
-		"di" pr
+	"di" pr
+		"il tuo" det pos m pl
 "<vicini>"
 	"vicino" n m pl
 "<che>"
@@ -2569,7 +2498,6 @@
 	"eccezionale" adj mf sg
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<solo>"
@@ -2590,7 +2518,6 @@
 	"legge" n f sg
 "<.>"
 	"." sent
-
 "<Cosa>"
 	"Cosa" prn itg mf sg
 "<significa>"
@@ -2605,7 +2532,6 @@
 	"*miglio"
 "<?>"
 	"?" sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<il>"
@@ -2646,7 +2572,6 @@
 	"auto" n f sp
 "<.>"
 	"." sent
-
 "<Puoi>"
 	"Potere" vblex pri p2 sg
 "<passare>"
@@ -2658,15 +2583,15 @@
 "<chiunque>"
 	"chiunque" prn tn mf sp
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<Stati Uniti>"
 	"Stati Uniti" np loc m pl
 "<e>"
 	"e" cnjcoo
 "<portarli>"
-	"lo" prn enc p3 m pl
-		"portare" vblex inf
+	"portare" vblex inf
+		"lo" prn enc p3 m pl
 "<dove>"
 	"dove" rel adv
 "<vogliono>"
@@ -2684,8 +2609,8 @@
 "<centesimi>"
 	"centesimo" adj ord m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<miglio>"
 	"*miglio"
 "<o>"
@@ -2694,7 +2619,6 @@
 	"meno" adv
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<se>"
@@ -2719,7 +2643,6 @@
 	"criminale" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<se>"
@@ -2756,7 +2679,6 @@
 	"Los Angeles" np loc m sg
 "<?>"
 	"?" sent
-
 "<E>"
 	"E" cnjcoo
 "<se>"
@@ -2768,8 +2690,8 @@
 "<centesimi>"
 	"centesimo" adj ord m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<miglio>"
 	"*miglio"
 "<riuscissimo a>"
@@ -2798,7 +2720,6 @@
 	"America" np loc f sg
 "<?>"
 	"?" sent
-
 "<Se>"
 	"Se" cnjadv
 "<potessimo>"
@@ -2808,13 +2729,12 @@
 "<dovremmo>"
 	"dovere" vbmod cni p1 pl
 "<farlo>"
-	"lo" prn enc p3 nt
-		"fare" vblex inf
+	"fare" vblex inf
+		"lo" prn enc p3 nt
 "<sicuramente>"
 	"sicuramente" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<quindi>"
@@ -2824,18 +2744,17 @@
 "<ritorna>"
 	"ritornare" vblex pri p3 sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<jitney>"
 	"*jitney"
 "<.>"
 	"." sent
-
 "<Se>"
 	"Se" cnjadv
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<1915>"
 	"1915" num
 "<questa>"
@@ -2868,7 +2787,6 @@
 	"poi" adv
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" adv
 "<sarebbero>"
@@ -2881,7 +2799,6 @@
 	"oggi" adv
 "<?>"
 	"?" sent
-
 "<Avremmo>"
 	"Avere" vblex cni p1 pl
 "<parchi>"
@@ -2892,7 +2809,6 @@
 	"parcheggio" n m pl
 "<?>"
 	"?" sent
-
 "<Abbiamo>"
 	"Avere" vblex pri p1 pl
 "<perso>"
@@ -2903,7 +2819,6 @@
 	"opportunità" n f sp
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<la>"
@@ -2922,7 +2837,6 @@
 	"un altro" det ind f sg
 "<.>"
 	"." sent
-
 "<Anche>"
 	"Anche" adv
 "<io>"
@@ -2934,8 +2848,8 @@
 "<entusiasta>"
 	"entusiasta" n mf sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<macchine>"
 	"macchina" n f pl
 "<automatiche>"
@@ -2978,7 +2892,6 @@
 	"realtà" n f sp
 "<?>"
 	"?" sent
-
 "<Con>"
 	"Con" pr
 "<la>"
@@ -3030,27 +2943,24 @@
 "<riappropriarci>"
 	"*riappropriarci"
 "<delle nostre>"
-	"il nostro" det pos f pl
-		"di" pr
+	"di" pr
+		"il nostro" det pos f pl
 "<città>"
 	"città" n f sp
 "<immediatamente>"
 	"immediatamente" adv
 "<.>"
 	"." sent
-
 "<Grazie>"
 	"Grazie" adv
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applausi>"
 	"Applauso" n m pl
 "<)>"
 	")" rpar
-
 "<Chris>"
 	"Chris" np ant f sg
 "<Anderson>"
@@ -3099,7 +3009,6 @@
 	"strabiliante" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<ne>"
@@ -3152,7 +3061,6 @@
 	"eccezionale" adj mf sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<ho>"
@@ -3161,6 +3069,7 @@
 	"un" det ind m sg
 "<paio>"
 	"paio" n m sg
+
 "<di>"
 	"di" pr
 "<domande>"
@@ -3174,11 +3083,10 @@
 "<vorrebbero>"
 	"volere" vbmod cni p3 pl
 "<farti>"
-	"ti" prn enc p2 mf sg
-		"fare" vblex inf
+	"fare" vblex inf
+		"ti" prn enc p2 mf sg
 "<.>"
 	"." sent
-
 "<Innanzitutto>"
 	"Innanzitutto" adv
 "<,>"
@@ -3233,7 +3141,6 @@
 	"*app"
 "<.>"
 	"." sent
-
 "<Avete>"
 	"Avere" vblex pri p2 pl
 "<preso>"
@@ -3272,7 +3179,6 @@
 	"andare" vblex pp f sg
 "<?>"
 	"?" sent
-
 "<Avete>"
 	"Avere" vblex pri p2 pl
 "<notato>"
@@ -3295,7 +3201,6 @@
 	"*app"
 "<?>"
 	"?" sent
-
 "<Convincerete>"
 	"Convincere" vblex fti p2 pl
 "<la>"
@@ -3310,7 +3215,6 @@
 	"design" n m sp
 "<?>"
 	"?" sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -3337,7 +3241,6 @@
 	"fare" vblex inf
 "<.>"
 	"." sent
-
 "<Penso>"
 	"Pensare" vblex pri p1 sg
 "<che>"
@@ -3362,7 +3265,6 @@
 	"significato" n m sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<pratica>"
@@ -3380,15 +3282,14 @@
 "<limitavamo>"
 	"limitare" vblex pii p1 pl
 "<alle>"
-	"il" det def f pl
-		"a" pr
+	"a" pr
+		"il" det def f pl
 "<auto>"
 	"auto" n f sp
 "<nere>"
 	"nero" adj f pl
 "<.>"
 	"." sent
-
 "<Dovevi>"
 	"Dovere" vbmod pii p2 sg
 "<solo>"
@@ -3413,7 +3314,6 @@
 	"S" abbr
 "<.>"
 	"." sent
-
 "<Lo>"
 	"Lo" detnt
 "<definirei>"
@@ -3460,7 +3360,6 @@
 	"lusso" n m sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<ci>"
@@ -3476,15 +3375,15 @@
 "<andati>"
 	"andare" vblex pp m pl
 "<dalle>"
-	"il" det def f pl
-		"da" pr
+	"da" pr
+		"il" det def f pl
 "<classe>"
 	"classe" n f sg
 "<S>"
 	"S" abbr
 "<ai>"
-	"il" det def m pl
-		"a" pr
+	"a" pr
+		"il" det def m pl
 "<risciò>"
 	"*risciò"
 "<in>"
@@ -3522,8 +3421,8 @@
 "<radicati>"
 	"radicare" vblex pp m pl
 "<nelle>"
-	"il" det def f pl
-		"in" pr
+	"in" pr
+		"il" det def f pl
 "<città>"
 	"città" n f sp
 "<in>"
@@ -3547,13 +3446,12 @@
 "<successo>"
 	"succedere" vblex pp m sg
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<app>"
 	"*app"
 "<.>"
 	"." sent
-
 "<Per>"
 	"Per" pr
 "<essere>"
@@ -3592,7 +3490,6 @@
 	"Mandarino" n m sg
 "<.>"
 	"." sent
-
 "<Ecco>"
 	"Ecco" adv
 "<il>"
@@ -3600,13 +3497,12 @@
 "<motivo>"
 	"motivo" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<cambiamento>"
 	"cambiamento" n m sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<presenti>"
@@ -3647,7 +3543,6 @@
 	"preoccupare" vblex pp m sg
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vblex pri p1 pl
 "<visto>"
@@ -3665,8 +3560,8 @@
 "<.>"
 	"." sent
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<inizio>"
 	"inizio" n m sg
 "<abbiamo>"
@@ -3699,7 +3594,6 @@
 	"trovare" vblex pp m sg
 "<.>"
 	"." sent
-
 "<I nostri>"
 	"Il nostro" det pos m pl
 "<numeri>"
@@ -3736,7 +3630,6 @@
 	"fantastico" adj m sg
 "<.>"
 	"." sent
-
 "<Tu>"
 	"Tu" prn tn p2 mf sg
 "<però>"
@@ -3753,7 +3646,6 @@
 	"dire" vblex cni p1 sg
 "<.>"
 	"." sent
-
 "<I tuoi>"
 	"Il tuo" det pos m pl
 "<sostenitori>"
@@ -3773,8 +3665,8 @@
 "<con te>"
 	"con te" prn tn p2 mf sg
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<primo>"
 	"primo" adj ord m sg
 "<momento>"
@@ -3804,13 +3696,13 @@
 "<lobby>"
 	"lobby" n f sp
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<industria>"
 	"industria" n f sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<taxi>"
 	"taxi" n m sp
 "<e>"
@@ -3841,7 +3733,6 @@
 	"te" prn tn p2 mf sg
 "<.>"
 	"." sent
-
 "<Alcune>"
 	"Alcun" det ind f pl
 "<persone>"
@@ -3898,7 +3789,6 @@
 	"donna" n f pl
 "<.>"
 	"." sent
-
 "<Qual>"
 	"Quale" prn itg mf sg
 "<era>"
@@ -3908,8 +3798,8 @@
 "<clima>"
 	"clima" n m sg
 "<nella tua>"
-	"il tuo" det pos f sg
-		"in" pr
+	"in" pr
+		"il tuo" det pos f sg
 "<azienda>"
 	"azienda" n f sg
 "<in>"
@@ -3920,24 +3810,22 @@
 	"periodo" n m sg
 "<?>"
 	"?" sent
-
 "<Hai>"
 	"Avere" vblex pri p2 sg
 "<notato>"
 	"notare" vblex pp m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<cali>"
 	"calo" n m pl
 "<nei>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<guadagni>"
 	"guadagno" n m pl
 "<?>"
 	"?" sent
-
 "<Hai>"
 	"Avere" vblex pri p2 sg
 "<imparato>"
@@ -3952,7 +3840,6 @@
 	"accaduto" adj m sg
 "<?>"
 	"?" sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -3974,8 +3861,8 @@
 "<andavo>"
 	"andare" vblex pii p1 sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<liceo>"
 	"liceo" n m sg
 "<e>"
@@ -4026,7 +3913,6 @@
 	"fare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Certo>"
 	"Certo" adv
 "<è>"
@@ -4041,10 +3927,9 @@
 	"duro" adj m sg
 "<.>"
 	"." sent
-
 "<All'>"
-	"il" det def mf sg
-		"A" pr
+	"A" pr
+		"il" det def mf sg
 "<interno>"
 	"interno" adj m sg
 "<,>"
@@ -4088,8 +3973,8 @@
 "<ma>"
 	"ma" cnjcoo
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<esterno>"
 	"esterno" n m sg
 "<non>"
@@ -4102,7 +3987,6 @@
 	"evidente" adj mf sg
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<abbiamo>"
@@ -4123,7 +4007,6 @@
 	"." sent
 "<.>"
 	"." sent
-
 "<Siamo>"
 	"Essere" vbser pri p1 pl
 "<cresciuti>"
@@ -4172,7 +4055,6 @@
 	"6.500" num
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<cresci>"
@@ -4196,18 +4078,18 @@
 "<e>"
 	"e" cnjcoo
 "<parlarne>"
-	"ne" prn enc adv
-		"parlare" vblex inf
+	"parlare" vblex inf
+		"ne" prn enc adv
 "<sempre>"
 	"sempre" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<assicurarti>"
-	"ti" prn enc p2 mf sg
-		"assicurare" vblex inf
+	"assicurare" vblex inf
+		"ti" prn enc p2 mf sg
+
 "<che>"
 	"che" rel an mf sp
 "<le>"
@@ -4240,7 +4122,6 @@
 	"lavoro" n m sg
 "<?>"
 	"?" sent
-
 "<Se>"
 	"Se" cnjadv
 "<è>"
@@ -4258,11 +4139,10 @@
 "<è>"
 	"essere" vbser pri p3 sg
 "<dirlo>"
-	"lo" prn enc p3 nt
-		"dire" vblex inf
+	"dire" vblex inf
+		"lo" prn enc p3 nt
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<penso>"
@@ -4291,7 +4171,6 @@
 	"forte" adj mf pl
 "<.>"
 	"." sent
-
 "<Però>"
 	"Però" cnjcoo
 "<è>"
@@ -4306,7 +4185,6 @@
 	"difficile" adj mf sg
 "<.>"
 	"." sent
-
 "<CA>"
 	"*CA"
 "<:>"
@@ -4339,7 +4217,6 @@
 	"difficoltà" n f sp
 "<.>"
 	"." sent
-
 "<Alcuni>"
 	"Alcun" det ind m pl
 "<autisti>"
@@ -4359,13 +4236,13 @@
 "<infuriati>"
 	"*infuriati"
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<cambiamento>"
 	"cambiamento" n m sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<tariffe>"
 	"tariffa" n f pl
 "<e>"
@@ -4386,7 +4263,6 @@
 	"avanti" adv
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" adv
 "<.>"
@@ -4433,7 +4309,6 @@
 	"passaggio" n m sg
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" det dem f sg
 "<cosa>"
@@ -4462,7 +4337,6 @@
 	"mondiale" adj mf sg
 "<.>"
 	"." sent
-
 "<Sei>"
 	"Essere" vbser pri p2 sg
 "<stato>"
@@ -4503,7 +4377,6 @@
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<tu>"
@@ -4527,15 +4400,14 @@
 "<ad>"
 	"a" pr
 "<affrontarne>"
-	"ne" prn enc adv
-		"affrontare" vblex inf
+	"affrontare" vblex inf
+		"ne" prn enc adv
 "<le>"
 	"il" det def f pl
 "<conseguenza>"
 	"conseguenza" n f sg
 "<?>"
 	"?" sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -4565,13 +4437,12 @@
 "<Partiamo>"
 	"Partire" vblex pri p1 pl
 "<dai>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<prezzi>"
 	"prezzo" n m pl
 "<.>"
 	"." sent
-
 "<Ricordate>"
 	"Ricordare" vblex pri p2 pl
 "<,>"
@@ -4580,7 +4451,6 @@
 	"giusto" adv
 "<?>"
 	"?" sent
-
 "<Quando>"
 	"Quando" rel adv
 "<UberX>"
@@ -4602,8 +4472,8 @@
 "<in meno>"
 	"in meno" adv
 "<del nostro>"
-	"il nostro" det pos m sg
-		"di" pr
+	"di" pr
+		"il nostro" det pos m sg
 "<prodotto>"
 	"prodotto" n m sg
 "<di>"
@@ -4612,7 +4482,6 @@
 	"lusso" n m sg
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<si>"
@@ -4630,8 +4499,8 @@
 "<metà>"
 	"metà" n f sp
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<costo>"
 	"costo" n m sg
 "<di>"
@@ -4642,7 +4511,6 @@
 	"taxi" n m sp
 "<.>"
 	"." sent
-
 "<I>"
 	"IL" det def m pl
 "<dati>"
@@ -4672,13 +4540,12 @@
 "<più>"
 	"più" adv
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<tassisti>"
 	"tassista" n m pl
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<i>"
@@ -4712,8 +4579,8 @@
 "<diversi>"
 	"diverso" adj m pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<giorno>"
 	"giorno" n m sg
 "<di>"
@@ -4748,7 +4615,6 @@
 	"prima" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<questo>"
@@ -4787,7 +4653,6 @@
 	"riprendere" vblex prs p3 sg
 "<.>"
 	"." sent
-
 "<Dunque>"
 	"Dunque" cnjadv
 "<questo>"
@@ -4863,13 +4728,12 @@
 "<crescere>"
 	"crescere" vblex inf
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<tempo>"
 	"tempo" n m sg
 "<.>"
 	"." sent
-
 "<Dunque>"
 	"Dunque" adv
 "<anche>"
@@ -4922,7 +4786,6 @@
 	"settembre" n m sg
 "<.>"
 	"." sent
-
 "<Ogni anno>"
 	"Ogni anno" adv
 "<,>"
@@ -4946,8 +4809,8 @@
 "<crescere>"
 	"crescere" vblex inf
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<tempo>"
 	"tempo" n m sg
 "<quando>"
@@ -4960,7 +4823,6 @@
 	"calare" vblex pri p3 pl
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<un>"
@@ -4982,8 +4844,8 @@
 "<andare>"
 	"andare" vblex inf
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<ribasso>"
 	"ribasso" n m sg
 "<per>"
@@ -4992,7 +4854,6 @@
 	"sempre" adv
 "<.>"
 	"." sent
-
 "<Dove>"
 	"Dove" adv
 "<abbassiamo>"
@@ -5023,7 +4884,6 @@
 	"su" adv
 "<.>"
 	"." sent
-
 "<Questo>"
 	"Questo" prn tn nt sg
 "<per>"
@@ -5035,13 +4895,12 @@
 "<parte>"
 	"parte" n f sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<domanda>"
 	"domanda" n f sg
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<l'>"
@@ -5086,14 +4945,13 @@
 	"difficile" adj mf pl
 "<.>"
 	"." sent
-
 "<Mi>"
 	"Mi" prn pro p1 mf sg
 "<piace>"
 	"piacere" vblex pri p3 sg
 "<paragonarmi>"
-	"mi" prn enc p1 mf sg
-		"paragonare" vblex inf
+	"paragonare" vblex inf
+		"mi" prn enc p1 mf sg
 "<a>"
 	"a" pr
 "<un>"
@@ -5106,7 +4964,6 @@
 	"matematica" n f sg
 "<.>"
 	"." sent
-
 "<Se>"
 	"Se" cnjadv
 "<non>"
@@ -5137,7 +4994,6 @@
 	"triste" adj mf sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<Uber>"
@@ -5163,11 +5019,10 @@
 "<e>"
 	"e" cnjcoo
 "<risolverli>"
-	"lo" prn enc p3 m pl
-		"risolvere" vblex inf
+	"risolvere" vblex inf
+		"lo" prn enc p3 m pl
 "<.>"
 	"." sent
-
 "<Ma non>"
 	"Ma non" adv
 "<vogliamo>"
@@ -5222,7 +5077,6 @@
 	"aperto" adj f sg
 "<.>"
 	"." sent
-
 "<CA>"
 	"*CA"
 "<:>"
@@ -5251,6 +5105,7 @@
 	"anno" n m pl
 "<,>"
 	"," cm
+
 "<non>"
 	"non" adv
 "<so>"
@@ -5266,8 +5121,8 @@
 "<presenterete>"
 	"presentare" vblex fti p2 pl
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<incredibili>"
 	"incredibile" adj mf pl
 "<auto>"
@@ -5304,7 +5159,6 @@
 	"*Uber"
 "<.>"
 	"." sent
-
 "<Cosa>"
 	"Cosa" prn itg mf sg
 "<dirai>"
@@ -5312,8 +5166,8 @@
 "<allora>"
 	"allora" adv
 "<al tuo>"
-	"il tuo" det pos m sg
-		"a" pr
+	"a" pr
+		"il tuo" det pos m sg
 "<esercito>"
 	"esercito" n m sg
 "<di>"
@@ -5322,7 +5176,6 @@
 	"autista" n m pl
 "<?>"
 	"?" sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -5359,7 +5212,6 @@
 	"." sent
 "<.>"
 	"." sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -5376,7 +5228,6 @@
 	"sì" adv
 "<.>"
 	"." sent
-
 "<Scusa>"
 	"Scusa" n f sg
 "<,>"
@@ -5459,14 +5310,12 @@
 	"media" n f sg
 "<.>"
 	"." sent
-
 "<Punto>"
 	"Punto" n m sg
 "<primo>"
 	"primo" adj ord m sg
 "<.>"
 	"." sent
-
 "<Punto>"
 	"Punto" n m sg
 "<secondo>"
@@ -5499,7 +5348,6 @@
 	"transizione" n f sg
 "<.>"
 	"." sent
-
 "<Queste>"
 	"Questo" det dem f pl
 "<auto>"
@@ -5516,7 +5364,6 @@
 	"posto" n m pl
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<una>"
@@ -5533,7 +5380,6 @@
 	"noi" prn tn p1 mf pl
 "<.>"
 	"." sent
-
 "<Perché>"
 	"Perché" cnjadv
 "<,>"
@@ -5553,8 +5399,8 @@
 "<investe>"
 	"investire" vblex pri p3 sg
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<2007>"
 	"2007" num
 "<,>"
@@ -5587,7 +5433,6 @@
 	"produttore" n m pl
 "<.>"
 	"." sent
-
 "<Questo>"
 	"Questo" prn tn m sg
 "<è>"
@@ -5614,7 +5459,6 @@
 	"ragione" n f sg
 "<.>"
 	"." sent
-
 "<Muoiono>"
 	"Morire" vblex pri p3 pl
 "<un>"
@@ -5637,7 +5481,6 @@
 	"auto" n f sp
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<abbiamo>"
@@ -5690,19 +5533,18 @@
 	"ansioso" adj f pl
 "<.>"
 	"." sent
-
 "<Pensate>"
 	"Pensare" vblex pri p2 pl
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<migliore>"
 	"migliore" adj mf sg
 "<qualità>"
 	"qualità" n f sp
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<vita>"
 	"vita" n f sg
 "<quando>"
@@ -5716,8 +5558,8 @@
 "<riapproprieranno>"
 	"*riapproprieranno"
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<proprio>"
 	"proprio" adj m sg
 "<tempo>"
@@ -5731,13 +5573,12 @@
 "<prese>"
 	"preso" adj f pl
 "<dall'>"
-	"il" det def mf sg
-		"da" pr
+	"da" pr
+		"il" det def mf sg
 "<ansia>"
 	"ansia" n f sg
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<credo>"
@@ -5752,7 +5593,6 @@
 	"bene" adv
 "<.>"
 	"." sent
-
 "<Noi>"
 	"Noi" prn tn p1 mf pl
 "<la>"
@@ -5784,8 +5624,8 @@
 "<resistere>"
 	"resistere" vblex inf
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<tecnologia>"
 	"tecnologia" n f sg
 "<,>"
@@ -5797,8 +5637,8 @@
 "<industria>"
 	"industria" n f sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<taxi>"
 	"taxi" n m sp
 "<,>"
@@ -5806,8 +5646,8 @@
 "<o>"
 	"o" cnjcoo
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<funicolare>"
 	"funicolare" n f sg
 "<,>"
@@ -5815,8 +5655,8 @@
 "<dobbiamo>"
 	"dovere" vbmod pri p1 pl
 "<abbracciarla>"
-	"lo" prn enc p3 f sg
-		"abbracciare" vblex inf
+	"abbracciare" vblex inf
+		"lo" prn enc p3 f sg
 "<o>"
 	"o" cnjcoo
 "<essere>"
@@ -5824,13 +5664,12 @@
 "<parte>"
 	"parte" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<futuro>"
 	"futuro" n m sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<come>"
@@ -5889,7 +5728,6 @@
 	"transizione" n f sg
 "<?>"
 	"?" sent
-
 "<Ci>"
 	"Ci" prn pro adv
 "<vorrà>"
@@ -5916,7 +5754,6 @@
 	"transizione" n f sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<è>"
@@ -5926,8 +5763,8 @@
 "<mondo>"
 	"mondo" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<futuro>"
 	"futuro" n m sg
 "<,>"
@@ -5944,7 +5781,6 @@
 	"migliore" adj mf sg
 "<.>"
 	"." sent
-
 "<CA>"
 	"*CA"
 "<:>"
@@ -5976,15 +5812,15 @@
 "<per>"
 	"per" pr
 "<averlo>"
-	"lo" prn enc p3 nt
-		"avere" vbhaver inf
+	"avere" vbhaver inf
+		"lo" prn enc p3 nt
 "<condiviso>"
 	"condividere" vblex pp m sg
 "<apertamente>"
 	"apertamente" adv
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<palco>"
 	"palco" n m sg
 "<di>"
@@ -5993,14 +5829,12 @@
 	"TED" np ant m sg
 "<.>"
 	"." sent
-
 "<Grazie>"
 	"Grazie" adv
 "<mille>"
 	"mille" num mf pl
 "<.>"
 	"." sent
-
 "<TK>"
 	"*TK"
 "<:>"
@@ -6015,14 +5849,12 @@
 	"te" prn tn p2 mf sg
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applauso>"
 	"Applauso" n m sg
 "<)>"
 	")" rpar
-
 "<Sono>"
 	"Essere" vbser pri p1 sg
 "<un'>"
@@ -6046,15 +5878,14 @@
 "<inizio>"
 	"inizio" n m sg
 "<allo>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<yarn>"
 	"*yarn"
 "<bombing>"
 	"*bombing"
 "<.>"
 	"." sent
-
 "<Yarn>"
 	"*Yarn"
 "<bombing>"
@@ -6064,8 +5895,8 @@
 "<inserire>"
 	"inserire" vblex inf
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<materiale>"
 	"materiale" n m sg
 "<fatto>"
@@ -6075,8 +5906,8 @@
 "<maglia>"
 	"maglia" n f sg
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<ambiente>"
 	"ambiente" n m sg
 "<urbano>"
@@ -6113,7 +5944,6 @@
 	"multare" vblex pp m pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<quando>"
@@ -6153,8 +5983,8 @@
 "<ambizione>"
 	"ambizione" n f sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<riguardo>"
 	"riguardo" n m sg
 "<,>"
@@ -6169,7 +5999,6 @@
 	"grandezza" n f sg
 "<.>"
 	"." sent
-
 "<Tutto>"
 	"Tutto" prn tn m sg
 "<quello che>"
@@ -6195,8 +6024,8 @@
 "<umano>"
 	"umano" adj m sg
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<facciata>"
 	"facciata" n f sg
 "<fredda>"
@@ -6219,7 +6048,6 @@
 	"ogni giorno" adv
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<ho>"
@@ -6232,7 +6060,6 @@
 	"*maniglia"
 "<.>"
 	"." sent
-
 "<Lo>"
 	"Lo" detnt
 "<chiamo>"
@@ -6245,7 +6072,6 @@
 	"*alpha"
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<avevo>"
@@ -6272,7 +6098,6 @@
 	"vita" n f sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<reazione>"
@@ -6285,7 +6110,6 @@
 	"interessante" adj mf sg
 "<.>"
 	"." sent
-
 "<Mi>"
 	"Mi" prn pro p1 mf sg
 "<affascinava>"
@@ -6302,6 +6126,7 @@
 	"Cosa" prn itg mf sg
 "<altro>"
 	"altro" prn tn m sg
+
 "<potrei>"
 	"potere" vbmod cni p1 sg
 "<fare>"
@@ -6315,8 +6140,8 @@
 "<qualcosa>"
 	"qualcosa" prn tn nt sg
 "<nello>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<spazio>"
 	"spazio" n m sg
 "<pubblico>"
@@ -6335,7 +6160,6 @@
 	"reazione" n f sg
 "<?>"
 	"?" sent
-
 "<Perciò>"
 	"Perciò" adv
 "<ho>"
@@ -6358,7 +6182,6 @@
 	"casa" n f sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Lo" prn pro p3 f sg
 "<reazione>"
@@ -6371,7 +6194,6 @@
 	"folle" adj mf sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<gente>"
@@ -6381,8 +6203,8 @@
 "<usciva>"
 	"uscire" vblex pii p3 sg
 "<dalla>"
-	"il" det def f sg
-		"da" pr
+	"da" pr
+		"il" det def f sg
 "<macchina>"
 	"macchina" n f sg
 "<e>"
@@ -6452,18 +6274,17 @@
 "<palo>"
 	"palo" n m sg
 "<dello>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<stop>"
 	"stop" n m sp
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<vicinato>"
 	"vicinato" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<più>"
@@ -6486,7 +6307,6 @@
 	"reazione" n f sg
 "<.>"
 	"." sent
-
 "<Ne>"
 	"Ne" prn pro adv
 "<ero>"
@@ -6495,12 +6315,10 @@
 	"innamorato" adj f sg
 "<.>"
 	"." sent
-
 "<Ossessionata>"
 	"*Ossessionata"
 "<.>"
 	"." sent
-
 "<Era>"
 	"Essere" vbser pii p3 sg
 "<tutto>"
@@ -6511,7 +6329,6 @@
 	"seducente" adj mf sg
 "<.>"
 	"." sent
-
 "<Avevo>"
 	"Avere" vbhaver pii p1 sg
 "<scoperto>"
@@ -6540,28 +6357,26 @@
 	"gioco" n m pl
 "<.>"
 	"." sent
-
 "<Ecco>"
 	"Ecco" adv
 "<alcuni>"
 	"alcun" det ind m pl
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<primi>"
 	"primo" n m pl
 "<lavori>"
 	"lavoro" n m pl
 "<.>"
 	"." sent
-
 "<Ero>"
 	"Essere" vbser pii p1 sg
 "<incuriosita>"
 	"*incuriosita"
 "<dall'>"
-	"il" det def mf sg
-		"da" pr
+	"da" pr
+		"il" det def mf sg
 "<idea>"
 	"idea" n f sg
 "<di>"
@@ -6591,13 +6406,13 @@
 "<senza>"
 	"senza" pr
 "<snaturarlo>"
-	"lo" prn enc p3 nt
-		"snaturare" vblex inf
+	"snaturare" vblex inf
+		"lo" prn enc p3 nt
 "<o>"
 	"o" cnjcoo
 "<renderlo>"
-	"lo" prn enc p3 nt
-		"rendere" vblex inf
+	"rendere" vblex inf
+		"lo" prn enc p3 nt
 "<inutile>"
 	"inutile" adj mf sg
 "<,>"
@@ -6605,8 +6420,8 @@
 "<semplicemente>"
 	"semplicemente" adv
 "<vestendolo>"
-	"lo" prn enc p3 nt
-		"vestire" vblex ger
+	"vestire" vblex ger
+		"lo" prn enc p3 nt
 "<a>"
 	"a" pr
 "<pennello>"
@@ -6619,7 +6434,6 @@
 	"*uncinetto"
 "<.>"
 	"." sent
-
 "<Ed>"
 	"Ed" cnjcoo
 "<era>"
@@ -6643,13 +6457,12 @@
 "<e>"
 	"e" cnjcoo
 "<dargli>"
-	"gli" prn enc p3 mf pl
-		"dare" vblex inf
+	"dare" vblex inf
+		"gli" prn enc p3 mf pl
 "<vita>"
 	"vita" n f sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<.>"
@@ -6691,8 +6504,8 @@
 "<arrivata>"
 	"arrivare" vblex pp f sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<punto>"
 	"punto" n m sg
 "<in>"
@@ -6702,16 +6515,15 @@
 "<volevo>"
 	"volere" vbmod pii p1 sg
 "<prenderla>"
-	"lo" prn enc p3 f sg
-		"prendere" vblex inf
+	"prendere" vblex inf
+		"lo" prn enc p3 f sg
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<serio>"
 	"serio" adj m sg
 "<.>"
 	"." sent
-
 "<Volevo>"
 	"Volere" vbmod pii p1 sg
 "<analizzare>"
@@ -6722,7 +6534,6 @@
 	"cosa" n f sg
 "<.>"
 	"." sent
-
 "<Volevo>"
 	"Volere" vbmod pii p1 sg
 "<capire>"
@@ -6767,7 +6578,6 @@
 	"forte" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<ho>"
@@ -6780,7 +6590,6 @@
 	"cosa" n f sg
 "<.>"
 	"." sent
-
 "<Viviamo>"
 	"Vivere" vblex pri p1 pl
 "<in>"
@@ -6812,11 +6621,10 @@
 "<possiamo>"
 	"potere" vbmod pri p1 pl
 "<relazionarci>"
-	"ci" prn enc p1 mf pl
-		"relazionare" vblex inf
+	"relazionare" vblex inf
+		"ci" prn enc p1 mf pl
 "<.>"
 	"." sent
-
 "<Penso>"
 	"Pensare" vblex pri p1 sg
 "<che>"
@@ -6828,8 +6636,8 @@
 "<desensibilizzati>"
 	"*desensibilizzati"
 "<dalle nostre>"
-	"il nostro" det pos f pl
-		"da" pr
+	"da" pr
+		"il nostro" det pos f pl
 "<città>"
 	"città" n f sp
 "<ultra>"
@@ -6839,15 +6647,15 @@
 "<,>"
 	"," cm
 "<dai>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<manifesti>"
 	"manifesto" n m pl
 "<e>"
 	"e" cnjcoo
 "<dalle>"
-	"il" det def f pl
-		"da" pr
+	"da" pr
+		"il" det def f pl
 "<pubblicità>"
 	"pubblicità" n f sp
 "<,>"
@@ -6855,8 +6663,8 @@
 "<e>"
 	"e" cnjcoo
 "<dai>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<parcheggi>"
 	"parcheggio" n m pl
 "<immensi>"
@@ -6881,7 +6689,6 @@
 	"roba" n f sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<si>"
@@ -6897,8 +6704,8 @@
 "<palo>"
 	"palo" n m sg
 "<dello>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<stop>"
 	"stop" n m sp
 "<coperto>"
@@ -6947,7 +6754,6 @@
 	"momento" n m sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<momento>"
@@ -6976,7 +6782,6 @@
 	"altro" prn tn m pl
 "<.>"
 	"." sent
-
 "<Così>"
 	"Così" adv
 "<a>"
@@ -6997,14 +6802,13 @@
 	"cresciuto" adj f sg
 "<.>"
 	"." sent
-
 "<Sono>"
 	"Essere" vbser pri p1 sg
 "<andata>"
 	"andato" adj f sg
 "<dagli>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<idranti>"
 	"idrante" n m pl
 "<e>"
@@ -7014,15 +6818,15 @@
 "<pali>"
 	"palo" n m pl
 "<dello>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<stop>"
 	"stop" n m sp
 "<a>"
 	"a" pr
 "<chiedermi>"
-	"mi" prn enc p1 mf sg
-		"chiedere" vblex inf
+	"chiedere" vblex inf
+		"mi" prn enc p1 mf sg
 "<cos'>"
 	"cosa" prn itg mf sg
 "<altro>"
@@ -7033,7 +6837,6 @@
 	"fare" vblex inf
 "<.>"
 	"." sent
-
 "<Posso>"
 	"Potere" vbmod pri p1 sg
 "<fare>"
@@ -7058,7 +6861,6 @@
 	"insuperabile" adj mf sg
 "<?>"
 	"?" sent
-
 "<Ed>"
 	"Ed" cnjcoo
 "<ecco>"
@@ -7071,7 +6873,6 @@
 	"autobus" n m sp
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -7090,7 +6891,6 @@
 	"me" prn tn p1 mf sg
 "<.>"
 	"." sent
-
 "<Avrò>"
 	"Avere" vblex fti p1 sg
 "<sempre>"
@@ -7105,7 +6905,6 @@
 	"per questo" cnjadv
 "<.>"
 	"." sent
-
 "<Adesso>"
 	"Adesso" adv
 "<la>"
@@ -7174,7 +6973,6 @@
 	"*uncinetto"
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<sto>"
@@ -7199,7 +6997,6 @@
 	"interessante" adj mf sg
 "<.>"
 	"." sent
-
 "<Io>"
 	"Io" prn tn p1 mf sg
 "<posso>"
@@ -7224,7 +7021,6 @@
 	"mio" adj pos m sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<diventato>"
@@ -7233,7 +7029,6 @@
 	"globale" adj mf sg
 "<.>"
 	"." sent
-
 "<Lo>"
 	"Lo" detnt
 "<fanno>"
@@ -7250,7 +7045,6 @@
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<lo>"
@@ -7288,8 +7082,8 @@
 "<pali>"
 	"palo" n m pl
 "<dello>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<stop>"
 	"stop" n m sp
 "<che>"
@@ -7306,7 +7100,6 @@
 	"coperto" adj m sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<mentre>"
@@ -7326,8 +7119,8 @@
 "<molto>"
 	"molto" adj m sg
 "<del mio>"
-	"il mio" det pos m sg
-		"di" pr
+	"di" pr
+		"il mio" det pos m sg
 "<lavoro>"
 	"lavoro" n m sg
 "<recente>"
@@ -7342,7 +7135,6 @@
 	"*bombing"
 "<.>"
 	"." sent
-
 "<Anch'>"
 	"Anche" adv
 "<esso>"
@@ -7353,13 +7145,13 @@
 	"crescere" vblex ger
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<questa>"
 	"questo" det dem f sg
 "<esperienza>"
 	"esperienza" n f sg
+
 "<mi>"
 	"mi" prn pro p1 mf sg
 "<ha>"
@@ -7405,18 +7197,17 @@
 "<comune>"
 	"comune" adj mf sg
 "<col>"
-	"il" det def m sg
-		"con" pr
+	"con" pr
+		"il" det def m sg
 "<resto>"
 	"resto" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<stato>"
@@ -7477,7 +7268,6 @@
 	"contatto" n m sg
 "<.>"
 	"." sent
-
 "<Così>"
 	"Così" adv
 "<mentre>"
@@ -7501,8 +7291,8 @@
 "<anche>"
 	"anche" adv
 "<dirvi>"
-	"vi" prn enc p2 mf pl
-		"dire" vblex inf
+	"dire" vblex inf
+		"vi" prn enc p2 mf pl
 "<che>"
 	"che" rel an mf sp
 "<si>"
@@ -7512,15 +7302,15 @@
 "<trovare>"
 	"trovare" vblex inf
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<potenziale>"
 	"potenziale" n m sg
 "<nascosto>"
 	"nascosto" adj m sg
 "<nei>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<posti>"
 	"posto" n m pl
 "<più>"
@@ -7538,8 +7328,8 @@
 "<abbiamo>"
 	"avere" vblex pri p1 pl
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<doti>"
 	"dote" n f pl
 "<che>"
@@ -7556,12 +7346,11 @@
 	"scoperto" adj f pl
 "<.>"
 	"." sent
-
 "<Pensate>"
 	"Pensare" vblex imp p2 pl
 "<alle nostre>"
-	"il nostro" det pos f pl
-		"a" pr
+	"a" pr
+		"il nostro" det pos f pl
 "<mani>"
 	"mano" n f pl
 "<,>"
@@ -7615,8 +7404,8 @@
 "<parte>"
 	"parte" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<tempo>"
 	"tempo" n m sg
 "<reggiamo>"
@@ -7633,7 +7422,6 @@
 	"cellulare" n m sg
 "<.>"
 	"." sent
-
 "<Anche>"
 	"Anche" adv
 "<io>"
@@ -7644,7 +7432,6 @@
 	"fare" vblex pri p1 sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<se>"
@@ -7660,13 +7447,12 @@
 "<accadrebbe>"
 	"accadere" vblex cni p3 sg
 "<se li>"
-	"lo" prn pro p3 m pl
-		"si" prn pro ref p3 mf sp
+	"si" prn pro ref p3 mf sp
+		"lo" prn pro p3 m pl
 "<posaste>"
 	"posare" vblex ifi p2 pl
 "<?>"
 	"?" sent
-
 "<Cosa>"
 	"Cosa" prn itg mf sg
 "<potreste>"
@@ -7675,7 +7461,6 @@
 	"fare" vblex inf
 "<?>"
 	"?" sent
-
 "<Cosa>"
 	"Cosa" prn itg mf sg
 "<potreste>"
@@ -7690,7 +7475,6 @@
 	"mano" n f pl
 "<?>"
 	"?" sent
-
 "<Molte>"
 	"Molto" det ind f pl
 "<persone>"
@@ -7728,11 +7512,10 @@
 "<potesse>"
 	"potere" vbmod pis p3 sg
 "<salvarmi>"
-	"mi" prn enc p1 mf sg
-		"salvare" vblex inf
+	"salvare" vblex inf
+		"mi" prn enc p1 mf sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<feci>"
@@ -7765,7 +7548,6 @@
 	"prima" adv
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<dovevo>"
@@ -7779,8 +7561,8 @@
 "<artista>"
 	"artista" n m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<senso>"
 	"senso" n m sg
 "<che>"
@@ -7794,8 +7576,8 @@
 "<per>"
 	"per" pr
 "<esserlo>"
-	"lo" prn enc p3 nt
-		"essere" vbser inf
+	"essere" vbser inf
+		"lo" prn enc p3 nt
 "<io>"
 	"io" prn tn p1 mf sg
 "<sono>"
@@ -7808,7 +7590,6 @@
 	"matematica" n f sg
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<pensavo>"
@@ -7818,8 +7599,8 @@
 "<fosse>"
 	"essere" vbser pis p3 sg
 "<nel mio>"
-	"il mio" det pos m sg
-		"in" pr
+	"in" pr
+		"il mio" det pos m sg
 "<destino>"
 	"destino" n m sg
 "<,>"
@@ -7844,7 +7625,6 @@
 	"caso" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<quando>"
@@ -7893,7 +7673,6 @@
 	"titolo" n m sg
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<quando>"
@@ -7901,8 +7680,8 @@
 "<pensiamo>"
 	"pensare" vblex pri p1 pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<futuro>"
 	"futuro" n m sg
 "<,>"
@@ -7916,11 +7695,10 @@
 "<potrebbe>"
 	"potere" vbmod cni p3 sg
 "<sorprendervi>"
-	"vi" prn enc p2 mf pl
-		"sorprendere" vblex inf
+	"sorprendere" vblex inf
+		"vi" prn enc p2 mf pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<un>"
@@ -7930,8 +7708,8 @@
 "<potreste>"
 	"potere" vbmod cni p2 pl
 "<ritrovarvi>"
-	"vi" prn enc p2 mf pl
-		"ritrovare" vblex inf
+	"ritrovare" vblex inf
+		"vi" prn enc p2 mf pl
 "<annoiati>"
 	"annoiato" adj m pl
 "<come>"
@@ -7960,26 +7738,23 @@
 	"sempre" adv
 "<.>"
 	"." sent
-
 "<Grazie>"
 	"Grazie" adv
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applausi>"
 	"Applauso" n m pl
 "<)>"
 	")" rpar
-
 "<Ero>"
 	"Essere" vbser pii p1 sg
 "<emozionato>"
 	"emozionare" vblex pp m sg
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<idea>"
 	"idea" n f sg
 "<di>"
@@ -7987,8 +7762,8 @@
 "<far parte>"
 	"fare# parte" vblex inf
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<tema>"
 	"tema" n m sg
 "<Dream>"
@@ -8033,14 +7808,12 @@
 	")" rpar
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Risate>"
 	"Risata" n f pl
 "<)>"
 	")" rpar
-
 "<E>"
 	"E" cnjcoo
 "<certamente>"
@@ -8070,11 +7843,10 @@
 "<per>"
 	"per" pr
 "<esserlo>"
-	"lo" prn enc p3 nt
-		"essere" vbser inf
+	"essere" vbser inf
+		"lo" prn enc p3 nt
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<ho>"
@@ -8101,7 +7873,6 @@
 	"di più" adv
 "<.>"
 	"." sent
-
 "<Vi>"
 	"Vi" prn pro p2 mf pl
 "<proporrò>"
@@ -8117,8 +7888,8 @@
 "<risposta>"
 	"risposta" n f sg
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<prima>"
 	"prima" adv
 "<contiene>"
@@ -8135,7 +7906,6 @@
 	"notizia" n f sg
 "<.>"
 	"." sent
-
 "<Aspettate>"
 	"Aspettare" vblex imp p2 pl
 "<,>"
@@ -8151,15 +7921,15 @@
 "<risposte>"
 	"risposta" n f pl
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<seconda>"
 	"secondo" adj ord f sg
 "<e>"
 	"e" cnjcoo
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<terza>"
 	"terzo" adj ord f sg
 "<domanda>"
@@ -8172,7 +7942,6 @@
 	"positivo" adj f pl
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<prima>"
@@ -8191,7 +7960,6 @@
 	"cambiare" vblex inf
 "<?>"
 	"?" sent
-
 "<Sicuramente>"
 	"Sicuramente" adv
 "<la>"
@@ -8233,8 +8001,8 @@
 "<inizio>"
 	"inizio" n m sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<moderno>"
 	"moderno" adj m sg
 "<movimento>"
@@ -8243,7 +8011,6 @@
 	"ambientale" adj mf sg
 "<.>"
 	"." sent
-
 "<18>"
 	"18" num
 "<mesi>"
@@ -8261,8 +8028,8 @@
 "<foto>"
 	"foto" n f sp
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<Terra>"
 	"Terra" np loc f sg
 "<che>"
@@ -8282,13 +8049,12 @@
 "<Giorno>"
 	"Giorno" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<Terra>"
 	"Terra" np loc f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<abbiamo>"
@@ -8310,18 +8076,17 @@
 "<pianeta>"
 	"pianeta" n m sg
 "<dallo>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<spazio>"
 	"spazio" n m sg
 "<.>"
 	"." sent
-
 "<Una>"
 	"Uno" num f sp
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<cose>"
 	"cosa" n f pl
 "<che>"
@@ -8350,12 +8115,11 @@
 	"da molto tempo" adv
 "<.>"
 	"." sent
-
 "<Uno>"
 	"Uno" prn tn m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<fatti>"
 	"fatto" n m pl
 "<più>"
@@ -8363,8 +8127,8 @@
 "<essenziali>"
 	"essenziale" adj mf pl
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<crisi>"
 	"crisi" n f sp
 "<climatica>"
@@ -8385,7 +8149,6 @@
 	"cielo" n m sg
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" rel adv
 "<mostra>"
@@ -8418,6 +8181,7 @@
 	"ci" prn pro p1 mf pl
 "<sembra>"
 	"sembrare" vblex pri p3 sg
+
 "<quando>"
 	"quando" adv
 "<lo>"
@@ -8430,7 +8194,6 @@
 	"terra" n f sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<uno>"
@@ -8455,7 +8218,6 @@
 	"pianeta" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<anche>"
@@ -8477,8 +8239,8 @@
 "<a cielo aperto>"
 	"a cielo aperto" adv
 "<della nostra>"
-	"il nostro" det pos f sg
-		"di" pr
+	"di" pr
+		"il nostro" det pos f sg
 "<civiltà>"
 	"civiltà" n f sp
 "<industriale>"
@@ -8497,7 +8259,6 @@
 	"attualmente" adv
 "<.>"
 	"." sent
-
 "<Ogni>"
 	"Ogni" det ind mf sg
 "<24>"
@@ -8546,7 +8307,6 @@
 	"*accomodatevi"
 "<!>"
 	"!" sent
-
 "<Ci sono>"
 	"C'è" vblex pri p3 pl
 "<molte>"
@@ -8574,8 +8334,8 @@
 "<di>"
 	"di" pr
 "<passarli>"
-	"lo" prn enc p3 m pl
-		"passare" vblex inf
+	"passare" vblex inf
+		"lo" prn enc p3 m pl
 "<tutti>"
 	"tutto" adj m pl
 "<in>"
@@ -8584,14 +8344,13 @@
 	"rassegnare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Mi>"
 	"Mi" prn pro p1 mf sg
 "<concentrerò>"
 	"concentrare" vblex fti p1 sg
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<principale>"
 	"principale" adj mf sg
 "<,>"
@@ -8624,14 +8383,13 @@
 	"ruolo" n m sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<gestione>"
 	"gestione" n f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<foreste>"
 	"foresta" n f pl
 "<,>"
@@ -8653,13 +8411,12 @@
 "<scioglimento>"
 	"scioglimento" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<permafrost>"
 	"*permafrost"
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<mi>"
@@ -8667,13 +8424,13 @@
 "<concentrerò>"
 	"concentrare" vblex fti p1 sg
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<cuore>"
 	"cuore" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<problema>"
 	"problema" n m sg
 "<,>"
@@ -8732,7 +8489,6 @@
 	"ogni anno" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<potete>"
@@ -8775,7 +8531,6 @@
 	"accelerare" vblex inf
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def m sg
 "<aumento>"
@@ -8783,8 +8538,8 @@
 "<cumulativo>"
 	"cumulativo" adj m sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<inquinamento>"
 	"inquinamento" n m sg
 "<antropico>"
@@ -8806,8 +8561,8 @@
 "<è>"
 	"essere" vbser pri p3 sg
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<atmosfera>"
 	"atmosfera" n f sg
 "<ora>"
@@ -8831,8 +8586,8 @@
 "<rilasciata>"
 	"rilasciare" vblex pp f sg
 "<dall'>"
-	"il" det def mf sg
-		"da" pr
+	"da" pr
+		"il" det def mf sg
 "<esplosione>"
 	"esplosione" n f sg
 "<di>"
@@ -8863,7 +8618,6 @@
 	"all'anno" adv
 "<.>"
 	"." sent
-
 "<I>"
 	"IL" det def m pl
 "<fatti>"
@@ -8898,7 +8652,6 @@
 	"prudente" adj mf sg
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<,>"
@@ -8946,8 +8699,8 @@
 "<soprattutto>"
 	"soprattutto" adv
 "<se la>"
-	"lo" prn pro p3 f sg
-		"si" prn pro ref p3 mf sp
+	"si" prn pro ref p3 mf sp
+		"lo" prn pro p3 f sg
 "<moltiplicate>"
 	"moltiplicare" vblex imp p2 pl
 "<per>"
@@ -8960,7 +8713,6 @@
 	"al giorno" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<tutta>"
@@ -8993,7 +8745,6 @@
 	"terrestre" adj mf sg
 "<.>"
 	"." sent
-
 "<Guardiamo>"
 	"Guardare" vblex pri p1 pl
 "<l'>"
@@ -9002,7 +8753,6 @@
 	"atmosfera" n f sg
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -9026,13 +8776,12 @@
 "<distribuzione>"
 	"distribuzione" n f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<temperature>"
 	"temperatura" n f pl
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<bianco>"
@@ -9071,7 +8820,6 @@
 	"arbitrariamente" adv
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<blu>"
@@ -9087,8 +8835,8 @@
 "<freddi>"
 	"freddo" adj m pl
 "<rispetto alla>"
-	"il" det def f sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def f sg
 "<media>"
 	"media" n f sg
 "<,>"
@@ -9105,7 +8853,6 @@
 	"caldo" adj m pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<l'>"
@@ -9125,8 +8872,8 @@
 "<destra>"
 	"destra" n f sg
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<anni>"
 	"anno" n m pl
 "<'>"
@@ -9135,14 +8882,13 @@
 	"80" num
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<vedete>"
 	"vedere" vblex pri p2 pl
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<angolo>"
 	"angolo" n m sg
 "<in>"
@@ -9176,8 +8922,8 @@
 "<.>"
 	"." sent
 "<Negli>"
-	"il" det def m pl
-		"In" pr
+	"In" pr
+		"il" det def m pl
 "<anni>"
 	"anno" n m pl
 "<'>"
@@ -9198,12 +8944,11 @@
 	"ulteriormente" adv
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<ultimi>"
 	"ultimo" adj m pl
 "<10>"
@@ -9231,8 +8976,8 @@
 "<numerosi>"
 	"numeroso" adj m pl
 "<rispetto ai>"
-	"il" det def m pl
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def m pl
 "<giorni>"
 	"giorno" n m pl
 "<freddi>"
@@ -9243,7 +8988,6 @@
 	"medio" adj m pl
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<realtà>"
@@ -9268,7 +9012,6 @@
 	"fare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<stiamo>"
@@ -9283,12 +9026,11 @@
 	"record" n m sg
 "<.>"
 	"." sent
-
 "<14>"
 	"14" num
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<15>"
 	"15" num
 "<anni>"
@@ -9317,7 +9059,6 @@
 	"secolo" n m sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<più>"
@@ -9340,7 +9081,6 @@
 	"scorso" adj m sg
 "<.>"
 	"." sent
-
 "<Lo>"
 	"Lo" detnt
 "<scorso>"
@@ -9364,20 +9104,19 @@
 "<caldo>"
 	"caldo" n m sg
 "<rispetto alla>"
-	"il" det def f sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def f sg
 "<media>"
 	"media" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<XX>"
 	"XX" num mf sp
 "<secolo>"
 	"secolo" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<per la prima volta>"
@@ -9393,8 +9132,8 @@
 "<assistito>"
 	"assistito" n m sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<gennaio>"
 	"gennaio" n m sg
 "<più>"
@@ -9426,13 +9165,12 @@
 "<Fahrenheit>"
 	"*Fahrenheit"
 "<rispetto alla>"
-	"il" det def f sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def f sg
 "<media>"
 	"media" n f sg
 "<.>"
 	"." sent
-
 "<Queste>"
 	"Questo" det dem f pl
 "<temperature>"
@@ -9448,34 +9186,34 @@
 "<effetto>"
 	"effetto" n m sg
 "<sugli>"
-	"il" det def m pl
-		"su" pr
+	"su" pr
+		"il" det def m pl
 "<animali>"
 	"animale" n m pl
 "<,>"
 	"," cm
 "<sulle>"
-	"il" det def f pl
-		"su" pr
+	"su" pr
+		"il" det def f pl
 "<piante>"
 	"pianta" n f pl
 "<,>"
 	"," cm
 "<sulle>"
-	"il" det def f pl
-		"su" pr
+	"su" pr
+		"il" det def f pl
 "<persone>"
 	"persona" n f pl
 "<,>"
 	"," cm
 "<sugli>"
-	"il" det def m pl
-		"su" pr
+	"su" pr
+		"il" det def m pl
+
 "<ecosistemi>"
 	"ecosistema" n m pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<su>"
@@ -9489,8 +9227,8 @@
 "<93%>"
 	"93" num percent
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<energia>"
 	"energia" n f sg
 "<termica>"
@@ -9502,13 +9240,12 @@
 "<trattenuta>"
 	"trattenere" vblex pp f sg
 "<dagli>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<oceani>"
 	"oceano" n m pl
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<gli>"
@@ -9542,15 +9279,15 @@
 "<:>"
 	":" sent
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<abissi>"
 	"abisso" n m pl
 "<,>"
 	"," cm
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<zona>"
 	"zona" n f sg
 "<intermedia>"
@@ -9558,8 +9295,8 @@
 "<,>"
 	"," cm
 "<nelle>"
-	"il" det def f pl
-		"in" pr
+	"in" pr
+		"il" det def f pl
 "<prime>"
 	"primo" adj ord f pl
 "<centinaia>"
@@ -9570,7 +9307,6 @@
 	"metro" n m pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<anche>"
@@ -9591,7 +9327,6 @@
 	"accelerare" vblex ger
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<iniziato>"
@@ -9606,19 +9341,18 @@
 	"fare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<più>"
 	"più" adv
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<metà>"
 	"metà" n f sp
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<aumento>"
 	"aumento" n m sg
 "<si>"
@@ -9628,8 +9362,8 @@
 "<verificato>"
 	"verificare" vblex pp m sg
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<ultimi>"
 	"ultimo" adj m pl
 "<19>"
@@ -9638,7 +9372,6 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<Questo>"
 	"Questo" prn tn m sg
 "<ha>"
@@ -9649,7 +9382,6 @@
 	"conseguenza" n f pl
 "<.>"
 	"." sent
-
 "<Innanzitutto>"
 	"Innanzitutto" adv
 "<le>"
@@ -9666,7 +9398,6 @@
 	"violento" adj f pl
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<alcune>"
@@ -9674,8 +9405,8 @@
 "<aree>"
 	"area" n f pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Pacifico>"
 	"Pacifico" np ant m sg
 "<Il>"
@@ -9703,8 +9434,8 @@
 "<Fahrenheit>"
 	"*Fahrenheit"
 "<rispetto al>"
-	"il" det def m sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def m sg
 "<normale>"
 	"normale" adj mf sg
 "<prima>"
@@ -9719,7 +9450,6 @@
 	"*Tacloban"
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<tempesta>"
@@ -9733,13 +9463,12 @@
 "<approdata>"
 	"*approdata"
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<Terra>"
 	"Terra" np loc f sg
 "<.>"
 	"." sent
-
 "<Papa>"
 	"Papa" n m sg
 "<Francesco>"
@@ -9782,7 +9511,6 @@
 	"accaduto" adj m sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<alcune>"
@@ -9790,8 +9518,8 @@
 "<zone>"
 	"zona" n f pl
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<Atlantico>"
 	"Atlantico" adj m sg
 "<la>"
@@ -9815,8 +9543,8 @@
 "<gradi>"
 	"grado" n m pl
 "<rispetto al>"
-	"il" det def m sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def m sg
 "<normale>"
 	"normale" adj mf sg
 "<prima>"
@@ -9824,8 +9552,8 @@
 "<di>"
 	"di" pr
 "<abbattersi>"
-	"si" prn enc ref p3 mf sp
-		"abbattere" vblex inf
+	"abbattere" vblex inf
+		"si" prn enc ref p3 mf sp
 "<su>"
 	"su" adv
 "<New York>"
@@ -9833,13 +9561,12 @@
 "<e>"
 	"e" cnjcoo
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<New Jersey>"
 	"New Jersey" np loc f sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<secondo>"
@@ -9862,7 +9589,6 @@
 	"proprio ora" adv
 "<.>"
 	"." sent
-
 "<Gli>"
 	"Il" det def m pl
 "<oceani>"
@@ -9882,13 +9608,12 @@
 "<acqueo>"
 	"acqueo" adj m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<cielo>"
 	"cielo" n m sg
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<umidità>"
@@ -9906,8 +9631,8 @@
 "<cresciuta>"
 	"cresciuto" adj f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<4%>"
 	"4" num percent
 "<,>"
@@ -9922,7 +9647,6 @@
 	"atmosferico" adj m pl
 "<.>"
 	"." sent
-
 "<Gli>"
 	"Il" det def m pl
 "<scienziati>"
@@ -9939,7 +9663,6 @@
 	"volante" adj mf pl
 "<.>"
 	"." sent
-
 "<Questi>"
 	"Questo" det dem m pl
 "<fiumi>"
@@ -9957,8 +9680,8 @@
 "<in più>"
 	"in più" adv
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<terra>"
 	"terra" n f sg
 "<,>"
@@ -9987,7 +9710,6 @@
 	"record" n m sg
 "<.>"
 	"." sent
-
 "<Questo>"
 	"Questo" prn tn nt sg
 "<è>"
@@ -9995,13 +9717,12 @@
 "<accaduto>"
 	"accaduto" adj m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<Montana>"
 	"Montano" adj f sg
 "<.>"
 	"." sent
-
 "<Date>"
 	"Dare" vblex imp p2 pl
 "<un'>"
@@ -10040,7 +9761,6 @@
 	"Arizona" np loc f sg
 "<.>"
 	"." sent
-
 "<Si>"
 	"Si" prn pro ref p3 mf sp
 "<riversa>"
@@ -10048,8 +9768,8 @@
 "<letteralmente>"
 	"letteralmente" adv
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<città>"
 	"città" n f sp
 "<.>"
@@ -10066,7 +9786,6 @@
 	"inusuale" adj mf pl
 "<.>"
 	"." sent
-
 "<Lo>"
 	"Lo" detnt
 "<scorso>"
@@ -10109,7 +9828,6 @@
 	"cubo" n m pl
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<come se>"
@@ -10127,13 +9845,13 @@
 "<flusso>"
 	"flusso" n m sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<cascate>"
 	"cascare" vblex imp p2 pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Niagara>"
 	"*Niagara"
 "<si>"
@@ -10143,13 +9861,13 @@
 "<abbattuto>"
 	"abbattuto" adj m sg
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<centro>"
 	"centro" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<città>"
 	"città" n f sp
 "<,>"
@@ -10164,7 +9882,6 @@
 	"paralizzato" adj f sg
 "<.>"
 	"." sent
-
 "<Queste>"
 	"Questo" det dem f pl
 "<piogge>"
@@ -10187,7 +9904,6 @@
 	"storico" adj f pl
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -10206,7 +9922,6 @@
 	"anno" n m sg
 "<.>"
 	"." sent
-
 "<Vedete>"
 	"Vedere" vblex imp p2 pl
 "<quel>"
@@ -10231,7 +9946,6 @@
 	"*autobotti"
 "<.>"
 	"." sent
-
 "<Questo>"
 	"Questo" prn tn m sg
 "<è>"
@@ -10253,27 +9967,26 @@
 "<potreste>"
 	"potere" vbmod cni p2 pl
 "<chiamarla>"
-	"lo" prn enc p3 f sg
-		"chiamare" vblex inf
+	"chiamare" vblex inf
+		"lo" prn enc p3 f sg
 "<la>"
 	"il" det def f sg
 "<corsa>"
 	"corsa" n f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<auto>"
 	"auto" n f sp
 "<e>"
 	"e" cnjcoo
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<camion>"
 	"camion" n m sp
 "<.>"
 	"." sent
-
 "<Ogni>"
 	"Ogni" det ind mf sg
 "<sera>"
@@ -10297,25 +10010,23 @@
 "<passo>"
 	"passo" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<libro>"
 	"libro" n m sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<Apocalisse>"
 	"*Apocalisse"
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Risate>"
 	"Risata" n f pl
 "<)>"
 	")" rpar
-
 "<Voglio>"
 	"Volere" vbmod pri p1 sg
 "<dire>"
@@ -10326,7 +10037,6 @@
 	"davvero" adv
 "<!>"
 	"!" sent
-
 "<Il>"
 	"Il" det def m sg
 "<settore>"
@@ -10355,7 +10065,6 @@
 	"incremento" n m sg
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<si>"
@@ -10374,7 +10083,6 @@
 	"succedere" vblex ger
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<la>"
@@ -10393,7 +10101,6 @@
 	"discussione" n f sg
 "<.>"
 	"." sent
-
 "<Siamo>"
 	"Essere" vbser pri p1 pl
 "<soliti>"
@@ -10430,7 +10137,6 @@
 	"effetto" n m sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<questa>"
@@ -10443,7 +10149,6 @@
 	"sistematico" adj f sg
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" cnjadv
 "<dice>"
@@ -10472,7 +10177,6 @@
 	"ora" adv
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<molta>"
@@ -10482,8 +10186,8 @@
 "<energia>"
 	"energia" n f sg
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<atmosfera>"
 	"atmosfera" n f sg
 "<,>"
@@ -10498,7 +10202,6 @@
 	"acqueo" adj m sg
 "<.>"
 	"." sent
-
 "<Ogni>"
 	"Ogni" det ind mf sg
 "<tempesta>"
@@ -10511,7 +10214,6 @@
 	"ora" adv
 "<.>"
 	"." sent
-
 "<Quello>"
 	"Quello" det dem m sg
 "<stesso>"
@@ -10529,8 +10231,8 @@
 "<umidità>"
 	"umidità" n f sp
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<terreno>"
 	"terreno" n m sg
 "<e>"
@@ -10539,6 +10241,7 @@
 	"causare" vblex imp p2 sg
 "<queste>"
 	"questo" det dem f pl
+
 "<siccità>"
 	"siccità" n f sp
 "<profonde>"
@@ -10558,8 +10261,8 @@
 "<molte>"
 	"molto" adj f pl
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<quali>"
 	"quale" prn itg mf pl
 "<sono>"
@@ -10576,7 +10279,6 @@
 	"corso" n m sg
 "<.>"
 	"." sent
-
 "<Seccano>"
 	"Seccare" vblex pri p3 pl
 "<la>"
@@ -10592,22 +10294,21 @@
 "<incendi>"
 	"incendio" n m pl
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<parte>"
 	"parte" n f sg
 "<occidentale>"
 	"occidentale" adj mf sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Nord>"
 	"Nord" n m sg
 "<America>"
 	"America" np loc f sg
 "<.>"
 	"." sent
-
 "<Ci sono>"
 	"C'è" vblex pri p3 pl
 "<state>"
@@ -10628,14 +10329,12 @@
 	"questo" prn tn nt sg
 "<.>"
 	"." sent
-
 "<Più>"
 	"Più" adv
 "<fulmini>"
 	"fulmine" n m pl
 "<.>"
 	"." sent
-
 "<Poiché>"
 	"*Poiché"
 "<l'>"
@@ -10660,7 +10359,6 @@
 	"fulmine" n m pl
 "<.>"
 	"." sent
-
 "<Questi>"
 	"Questo" det dem m pl
 "<disastri>"
@@ -10668,8 +10366,8 @@
 "<legati>"
 	"legato" adj m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<clima>"
 	"clima" n m sg
 "<hanno>"
@@ -10688,7 +10386,6 @@
 	"instabilità" n f sp
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<storica>"
@@ -10698,8 +10395,8 @@
 "<legata>"
 	"legato" adj f sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<clima>"
 	"clima" n m sg
 "<iniziata>"
@@ -10709,8 +10406,8 @@
 "<Siria>"
 	"Siria" np loc m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<2006>"
 	"2006" num
 "<ha>"
@@ -10722,8 +10419,8 @@
 "<60%>"
 	"60" num percent
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<fattorie>"
 	"fattoria" n f pl
 "<siriane>"
@@ -10737,8 +10434,8 @@
 "<80%>"
 	"80" num percent
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<bestiame>"
 	"bestiame" n m sg
 "<e>"
@@ -10756,8 +10453,8 @@
 "<climatici>"
 	"climatico" adj m pl
 "<nelle>"
-	"il" det def f pl
-		"in" pr
+	"in" pr
+		"il" det def f pl
 "<città>"
 	"città" n f sp
 "<,>"
@@ -10785,8 +10482,8 @@
 "<rifugiati>"
 	"rifugiato" n m pl
 "<dalla>"
-	"il" det def f sg
-		"da" pr
+	"da" pr
+		"il" det def f sg
 "<guerra>"
 	"guerra" n f sg
 "<in>"
@@ -10795,7 +10492,6 @@
 	"Iraq" np loc m sg
 "<.>"
 	"." sent
-
 "<Ci sono>"
 	"C'è" vblex pri p3 pl
 "<anche>"
@@ -10815,8 +10511,8 @@
 "<porte>"
 	"porta" n f pl
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<inferno>"
 	"inferno" n m sg
 "<e>"
@@ -10839,14 +10535,13 @@
 	"chiudere" vblex inf
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<Dipartimento>"
 	"Dipartimento" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<Difesa>"
 	"Difesa" n f sg
 "<americano>"
@@ -10866,13 +10561,13 @@
 "<lungo>"
 	"lungo" adj m sg
 "<sulle>"
-	"il" det def f pl
-		"su" pr
+	"su" pr
+		"il" det def f pl
 "<conseguenze>"
 	"conseguenza" n f pl
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<crisi>"
 	"crisi" n f sp
 "<climatiche>"
@@ -10909,7 +10604,6 @@
 	"*pandemiche"
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<stiamo>"
@@ -10917,8 +10611,8 @@
 "<assistendo>"
 	"assistere" vblex ger
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<diffusione>"
 	"diffusione" n f sg
 "<di>"
@@ -10928,8 +10622,8 @@
 "<microbiche>"
 	"microbico" adj f pl
 "<dai>"
-	"il" det def m pl
-		"da" pr
+	"da" pr
+		"il" det def m pl
 "<tropici>"
 	"tropico" n m pl
 "<verso>"
@@ -10949,8 +10643,8 @@
 "<rivoluzione>"
 	"rivoluzione" n f sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<trasporti>"
 	"trasporto" n m pl
 "<ha>"
@@ -10971,7 +10665,6 @@
 	"questo" prn tn m sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<le>"
@@ -10999,8 +10692,8 @@
 "<area>"
 	"area" n f sg
 "<nelle>"
-	"il" det def f pl
-		"in" pr
+	"in" pr
+		"il" det def f pl
 "<quali>"
 	"quale" rel an mf pl
 "<queste>"
@@ -11043,7 +10736,6 @@
 	"*zecche"
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<epidemia>"
@@ -11063,8 +10755,8 @@
 "<migliore>"
 	"migliore" adj mf sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<Nord>"
 	"Nord" n m sg
 "<America>"
@@ -11093,14 +10785,13 @@
 	"migliore" adj mf sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<quando>"
 	"quando" adv
 "<alle>"
-	"il" det def f pl
-		"a" pr
+	"a" pr
+		"il" det def f pl
 "<donne>"
 	"donna" n f pl
 "<di>"
@@ -11110,15 +10801,15 @@
 "<regioni>"
 	"regione" n f pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Centro>"
 	"Centro" n m sg
 "<e>"
 	"e" cnjcoo
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Sud>"
 	"Sud" n m sp
 "<America>"
@@ -11165,7 +10856,6 @@
 	"attenzione" n f sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<The>"
@@ -11177,8 +10867,8 @@
 "<una>"
 	"un" det ind f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<due>"
 	"due" num mf sp
 "<migliori>"
@@ -11188,8 +10878,8 @@
 "<mediche>"
 	"medico" adj f pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<,>"
@@ -11214,7 +10904,6 @@
 	"medico" adj f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<questo>"
@@ -11231,7 +10920,6 @@
 	"fattore" n m pl
 "<.>"
 	"." sent
-
 "<Anche>"
 	"Anche" adv
 "<la>"
@@ -11254,7 +10942,6 @@
 	"questo" prn tn m sg
 "<.>"
 	"." sent
-
 "<Rischiamo>"
 	"Rischiare" vblex pri p1 pl
 "<di>"
@@ -11276,8 +10963,8 @@
 "<viventi>"
 	"vivente" adj mf pl
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<Terra>"
 	"Terra" np loc f sg
 "<entro>"
@@ -11294,7 +10981,6 @@
 	"secolo" n m sg
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<piante>"
@@ -11337,12 +11023,11 @@
 	"al giorno" adv
 "<.>"
 	"." sent
-
 "<Parlando>"
 	"Parlare" vblex ger
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Polo>"
 	"Polo" n m sg
 "<Nord>"
@@ -11378,8 +11063,8 @@
 "<inondazione>"
 	"inondazione" n f sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<Midwest>"
 	"*Midwest"
 "<americano>"
@@ -11395,8 +11080,8 @@
 "<temperature>"
 	"temperatura" n f pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<Polo>"
 	"Polo" n m sg
 "<Nord>"
@@ -11410,8 +11095,8 @@
 "<in più>"
 	"in più" adv
 "<rispetto al>"
-	"il" det def m sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def m sg
 "<normale>"
 	"normale" adj mf sg
 "<,>"
@@ -11423,20 +11108,20 @@
 "<scongelamento>"
 	"scongelamento" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Polo>"
 	"Polo" n m sg
 "<Nord>"
 	"Nord" n m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<mezzo>"
 	"mezzo" adj m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<lunga>"
 	"lungo" adj f sg
 "<,>"
@@ -11455,7 +11140,6 @@
 	"polare" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<quando>"
@@ -11467,8 +11151,8 @@
 "<terrestri>"
 	"terrestre" adj mf pl
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<Artico>"
 	"Artico" adj m sg
 "<si>"
@@ -11482,13 +11166,12 @@
 "<livello>"
 	"livello" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mare>"
 	"mare" n m sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<bellissima>"
@@ -11496,8 +11179,8 @@
 "<fotografia>"
 	"fotografia" n f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<Svalbard>"
 	"*Svalbard"
 "<di>"
@@ -11514,7 +11197,6 @@
 	"mostrare" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<pericolo>"
@@ -11541,7 +11223,6 @@
 	"Antartico" adj m sg
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<10>"
@@ -11563,13 +11244,13 @@
 "<innalzamento>"
 	"innalzamento" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<livello>"
 	"livello" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mare>"
 	"mare" n m sg
 "<sono>"
@@ -11577,15 +11258,15 @@
 "<soprattutto>"
 	"soprattutto" adv
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<Sud>"
 	"Sud" n m sp
 "<e>"
 	"e" cnjcoo
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<Sud>"
 	"Sud" n m sp
 "<Est>"
@@ -11594,18 +11275,18 @@
 	"asiatico" adj m sg
 "<.>"
 	"." sent
-
 "<Se>"
 	"Se" cnjadv
 "<consideriamo>"
 	"considerare" vblex pri p1 pl
 "<il>"
 	"il" det def m sg
+
 "<valore>"
 	"valore" n m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<beni>"
 	"bene" n m pl
 "<a>"
@@ -11640,7 +11321,6 @@
 	"rischio" n m sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<numero>"
@@ -11657,7 +11337,6 @@
 	"*Newark"
 "<.>"
 	"." sent
-
 "<Ero>"
 	"Essere" vbser pii p1 sg
 "<a>"
@@ -11681,8 +11360,8 @@
 "<uno>"
 	"uno" prn tn m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<giorni>"
 	"giorno" n m pl
 "<con>"
@@ -11697,7 +11376,6 @@
 	"marea" n f sg
 "<.>"
 	"." sent
-
 "<C'>"
 	"Ci" prn pro adv
 "<erano>"
@@ -11731,8 +11409,8 @@
 "<e>"
 	"e" cnjcoo
 "<Del>"
-	"il" det def m sg
-		"Di" pr
+	"Di" pr
+		"il" det def m sg
 "<Rey>"
 	"*Rey"
 "<.>"
@@ -11757,7 +11435,6 @@
 	"marea" n f pl
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<con>"
@@ -11773,8 +11450,8 @@
 "<allagamento>"
 	"allagamento" n m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<giorni>"
 	"giorno" n m pl
 "<di>"
@@ -11783,7 +11460,6 @@
 	"sole" n m sg
 "<.>"
 	"." sent
-
 "<Viene>"
 	"Venire" vblex pri p3 sg
 "<fuori>"
@@ -11796,7 +11472,6 @@
 	"*fogne"
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<sindaco>"
@@ -11841,7 +11516,6 @@
 	"obiettivo" adj f sg
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -11862,7 +11536,6 @@
 	"giorno" n m sg
 "<.>"
 	"." sent
-
 "<Dobbiamo>"
 	"Dovere" vbmod pri p1 pl
 "<andare>"
@@ -11875,7 +11548,6 @@
 	"parzialità" n f sp
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<voglio>"
@@ -11895,8 +11567,8 @@
 "<Repubblicani>"
 	"Repubblicano" n m pl
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<Camera>"
 	"Camera" n f sg
 "<(>"
@@ -11924,8 +11596,8 @@
 "<di>"
 	"di" pr
 "<farsi>"
-	"si" prn enc ref p3 mf sp
-		"fare" vblex inf
+	"fare" vblex inf
+		"si" prn enc ref p3 mf sp
 "<avanti>"
 	"avanti" adv
 "<e>"
@@ -11941,22 +11613,21 @@
 "<verità>"
 	"verità" n f sp
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<crisi>"
 	"crisi" n f sp
 "<climatica>"
 	"climatico" adj f sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<costo>"
 	"costo" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<crisi>"
 	"crisi" n f sp
 "<climatica>"
@@ -11991,7 +11662,6 @@
 	"parlare" vblex pp m sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<un>"
@@ -12002,7 +11672,6 @@
 	"enorme" adj mf sg
 "<.>"
 	"." sent
-
 "<Parlerò>"
 	"Parlare" vblex fti p1 sg
 "<solo>"
@@ -12093,7 +11762,6 @@
 	"globale" adj mf sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<ci sono>"
@@ -12115,8 +11783,8 @@
 "<capo>"
 	"capo" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<Banca>"
 	"Banca" n f sg
 "<Centrale>"
@@ -12138,8 +11806,8 @@
 "<maggioranza>"
 	"maggioranza" n f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<riserve>"
 	"riserva" n f pl
 "<di>"
@@ -12156,7 +11824,6 @@
 	"bruciare" vblex inf
 "<.>"
 	"." sent
-
 "<Carbonio>"
 	"Carbonio" n m sg
 "<non>"
@@ -12165,7 +11832,6 @@
 	"garantito" adj m sg
 "<.>"
 	"." sent
-
 "<Non>"
 	"Non" adv
 "<sto>"
@@ -12173,8 +11839,8 @@
 "<a>"
 	"a" pr
 "<ricordarvi>"
-	"vi" prn enc p2 mf pl
-		"ricordare" vblex inf
+	"ricordare" vblex inf
+		"vi" prn enc p2 mf pl
 "<cosa>"
 	"cosa" prn itg mf sg
 "<succede>"
@@ -12203,7 +11869,6 @@
 	"cosa" n f sg
 "<.>"
 	"." sent
-
 "<Se>"
 	"Se" cnjadv
 "<considerate>"
@@ -12225,13 +11890,13 @@
 "<bruciati>"
 	"bruciato" adj m pl
 "<dall'>"
-	"il" det def mf sg
-		"da" pr
+	"da" pr
+		"il" det def mf sg
 "<inizio>"
 	"inizio" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<rivoluzione>"
 	"rivoluzione" n f sg
 "<industriale>"
@@ -12249,8 +11914,8 @@
 "<bruciata>"
 	"bruciato" adj f sg
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<ultimi>"
 	"ultimo" n m pl
 "<16>"
@@ -12259,7 +11924,6 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<Queste>"
 	"Questo" prn tn f pl
 "<sono>"
@@ -12292,7 +11956,6 @@
 	"dollaro" n m pl
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<Agenzia>"
@@ -12300,8 +11963,8 @@
 "<Internazionale>"
 	"Internazionale" adj mf sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<Energia>"
 	"Energia" n f sg
 "<dice>"
@@ -12320,7 +11983,6 @@
 	"bruciato" adj f sg
 "<.>"
 	"." sent
-
 "<Il resto>"
 	"Il resto" prn tn nt sg
 "<,>"
@@ -12341,7 +12003,6 @@
 	"consumabile" adj mf sg
 "<.>"
 	"." sent
-
 "<Un>"
 	"Un" det ind m sg
 "<rischio>"
@@ -12356,7 +12017,6 @@
 	"globale" adj mf sg
 "<.>"
 	"." sent
-
 "<Ecco>"
 	"Ecco" adv
 "<perché>"
@@ -12393,7 +12053,6 @@
 	"morale" adj mf sg
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<la>"
@@ -12401,8 +12060,8 @@
 "<risposta>"
 	"risposta" n f sg
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<prima>"
 	"prima" adv
 "<domanda>"
@@ -12427,7 +12086,6 @@
 	"cambiare" vblex inf
 "<.>"
 	"." sent
-
 "<Seconda>"
 	"Secondo" adj ord f sg
 "<domanda>"
@@ -12440,7 +12098,6 @@
 	"cambiare" vblex inf
 "<?>"
 	"?" sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -12453,7 +12110,6 @@
 	"entusiasmare" vblex pprs mf sg
 "<!>"
 	"!" sent
-
 "<Le>"
 	"Il" det def f pl
 "<proiezioni>"
@@ -12508,7 +12164,6 @@
 	"eolico" adj f sg
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vbhaver pri p1 pl
 "<superato>"
@@ -12529,7 +12184,6 @@
 	"mezzo" adj m sg
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<installazioni>"
@@ -12550,7 +12204,6 @@
 	"esponenzialmente" adv
 "<.>"
 	"." sent
-
 "<I>"
 	"IL" det def m pl
 "<costi>"
@@ -12563,7 +12216,6 @@
 	"drasticamente" adv
 "<.>"
 	"." sent
-
 "<Alcuni>"
 	"Alcun" det ind m pl
 "<paesi>"
@@ -12646,13 +12298,13 @@
 	"soprattutto" adv
 "<sole>"
 	"solo" adj f pl
+
 "<e>"
 	"e" cnjcoo
 "<vento>"
 	"vento" n m sg
 "<.>"
 	"." sent
-
 "<Molti>"
 	"Molto" det ind m pl
 "<paesi>"
@@ -12668,13 +12320,12 @@
 "<più>"
 	"più" adv
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<metà>"
 	"metà" n f sp
 "<.>"
 	"." sent
-
 "<Ancora>"
 	"Ancora" adv
 "<buone>"
@@ -12732,13 +12383,12 @@
 "<problema>"
 	"problema" n m sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<intermittenza>"
 	"*intermittenza"
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<notizie>"
@@ -12746,8 +12396,8 @@
 "<relative>"
 	"relativo" adj f pl
 "<all'>"
-	"il" det def mf sg
-		"a" pr
+	"a" pr
+		"il" det def mf sg
 "<energia>"
 	"energia" n f sg
 "<solare>"
@@ -12760,7 +12410,6 @@
 	"entusiasmare" vblex pprs mf pl
 "<!>"
 	"!" sent
-
 "<Le>"
 	"Il" det def f pl
 "<migliori>"
@@ -12792,13 +12441,12 @@
 "<partendo>"
 	"partire" vblex ger
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<2010>"
 	"2010" num
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<è>"
@@ -12825,7 +12473,6 @@
 	"volta" n f pl
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def m sg
 "<anno>"
@@ -12846,7 +12493,6 @@
 	"volta" n f pl
 "<.>"
 	"." sent
-
 "<Quest'anno>"
 	"Quest'anno" adv
 "<stiamo>"
@@ -12854,8 +12500,8 @@
 "<per>"
 	"per" pr
 "<superarlo>"
-	"lo" prn enc p3 nt
-		"superare" vblex inf
+	"superare" vblex inf
+		"lo" prn enc p3 nt
 "<di>"
 	"di" pr
 "<68>"
@@ -12864,7 +12510,6 @@
 	"volta" n f pl
 "<.>"
 	"." sent
-
 "<Vinceremo>"
 	"Vincere" vblex fti p1 pl
 "<in>"
@@ -12873,12 +12518,10 @@
 	"questo" prn tn m sg
 "<.>"
 	"." sent
-
 "<Prevarremo>"
 	"Prevalere" vblex fti p1 pl
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<curva>"
@@ -12886,8 +12529,8 @@
 "<esponenziale>"
 	"esponenziale" adj mf sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<energia>"
 	"energia" n f sg
 "<solare>"
@@ -12900,7 +12543,6 @@
 	"ripido" adj f sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<sono>"
@@ -12931,7 +12573,6 @@
 	"qui" adv
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vblex pri p1 pl
 "<assistito>"
@@ -12945,8 +12586,8 @@
 "<rivoluzionaria>"
 	"rivoluzionario" adj f sg
 "<nell'>"
-	"il" det def mf sg
-		"in" pr
+	"in" pr
+		"il" det def mf sg
 "<emergere>"
 	"emergere" vblex inf
 "<di>"
@@ -12959,14 +12600,12 @@
 	"esponenziale" adj mf pl
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applausi>"
 	"Applauso" n m pl
 "<)>"
 	")" rpar
-
 "<E>"
 	"E" cnjcoo
 "<i>"
@@ -12978,8 +12617,8 @@
 "<calati>"
 	"calare" vblex pp m pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<10%>"
 	"10" num percent
 "<all'anno>"
@@ -12992,7 +12631,6 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<stanno>"
@@ -13005,7 +12643,6 @@
 	"scendere" vblex inf
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<mondo>"
@@ -13035,15 +12672,14 @@
 "<equivalenza>"
 	"equivalenza" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<costo>"
 	"costo" n m sg
 "<energetico>"
 	"energetico" adj m sg
 "<.>"
 	"." sent
-
 "<I>"
 	"IL" det def m pl
 "<tassi>"
@@ -13053,8 +12689,8 @@
 "<penetrazione>"
 	"penetrazione" n f sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<energia>"
 	"energia" n f sg
 "<solare>"
@@ -13071,7 +12707,6 @@
 	"crescere" vblex inf
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<grid>"
@@ -13093,15 +12728,15 @@
 "<,>"
 	"," cm
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<di>"
 	"di" pr
 "<sotto>"
 	"sotto" adv
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<quale>"
 	"quale" prn itg mf sg
 "<l'>"
@@ -13117,15 +12752,15 @@
 "<economica>"
 	"economico" adj f sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<elettricità>"
 	"elettricità" n f sp
 "<ottenuta>"
 	"ottenuto" adj f sg
 "<dalla>"
-	"il" det def f sg
-		"da" pr
+	"da" pr
+		"il" det def f sg
 "<combustione>"
 	"combustione" n f sg
 "<di>"
@@ -13136,7 +12771,6 @@
 	"fossile" adj mf pl
 "<.>"
 	"." sent
-
 "<Quella>"
 	"Quello" det dem f sg
 "<soglia>"
@@ -13181,7 +12815,6 @@
 	"*Celsius"
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<una>"
@@ -13229,8 +12862,8 @@
 "<sono>"
 	"essere" vbser pri p3 pl
 "<congelati>"
-	"ti" prn enc p2 mf sg
-		"congelare" vblex imp p2 sg
+	"congelare" vblex imp p2 sg
+		"ti" prn enc p2 mf sg
 "<e>"
 	"e" cnjcoo
 "<lo>"
@@ -13255,7 +12888,6 @@
 	"investimento" n m sg
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" prn tn f sg
 "<è>"
@@ -13279,13 +12911,13 @@
 "<imprenditoriali>"
 	"imprenditoriale" adj mf pl
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<storia>"
 	"storia" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<,>"
@@ -13307,15 +12939,14 @@
 "<trovano>"
 	"trovare" vblex pri p3 pl
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<settore>"
 	"settore" n m sg
 "<privato>"
 	"privato" adj m sg
 "<.>"
 	"." sent
-
 "<Stiamo>"
 	"Stare" vblex pri p1 pl
 "<assistendo>"
@@ -13334,10 +12965,9 @@
 	"investimento" n m pl
 "<.>"
 	"." sent
-
 "<Dal>"
-	"il" det def m sg
-		"Da" pr
+	"Da" pr
+		"il" det def m sg
 "<2010>"
 	"2010" num
 "<gli>"
@@ -13351,8 +12981,8 @@
 "<globale>"
 	"globale" adj mf sg
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<produzione>"
 	"produzione" n f sg
 "<di>"
@@ -13368,15 +12998,14 @@
 "<quelli>"
 	"quello" prn tn m pl
 "<nelle>"
-	"il" det def f pl
-		"in" pr
+	"in" pr
+		"il" det def f pl
 "<energie>"
 	"energia" n f pl
 "<fossili>"
 	"fossile" adj mf pl
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<divario>"
@@ -13389,7 +13018,6 @@
 	"da allora" adv
 "<.>"
 	"." sent
-
 "<Le>"
 	"Il" det def f pl
 "<proiezioni>"
@@ -13429,13 +13057,12 @@
 "<in più>"
 	"in più" adv
 "<rispetto alla>"
-	"il" det def f sg
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def f sg
 "<rinnovabile>"
 	"rinnovabile" adj mf sg
 "<.>"
 	"." sent
-
 "<Comunque>"
 	"Comunque" adv
 "<,>"
@@ -13518,7 +13145,6 @@
 	"drasticamente" adv
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<quindi>"
@@ -13568,16 +13194,15 @@
 "<occhiata>"
 	"occhiata" n f sg
 "<ai>"
-	"il" det def m pl
-		"a" pr
+	"a" pr
+		"il" det def m pl
 "<cellulari>"
 	"cellulare" n m pl
 "<.>"
 	"." sent
-
 "<Nel>"
-	"il" det def m sg
-		"In" pr
+	"In" pr
+		"il" det def m sg
 "<1980>"
 	"1980" num
 "<,>"
@@ -13638,8 +13263,8 @@
 "<comparsi>"
 	"comparso" adj m pl
 "<sul>"
-	"il" det def m sg
-		"su" pr
+	"su" pr
+		"il" det def m sg
 "<mercato>"
 	"mercato" n m sg
 "<.>"
@@ -13697,17 +13322,17 @@
 "<900.000>"
 	"900.000" num
 "<nei>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<primi>"
 	"primo" adj ord m pl
+
 "<tre>"
 	"tre" num mf sp
 "<giorni>"
 	"giorno" n m pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<ne>"
@@ -13728,7 +13353,6 @@
 	"anno" n m sg
 "<.>"
 	"." sent
-
 "<Ora>"
 	"Ora" adv
 "<ci sono>"
@@ -13744,13 +13368,12 @@
 "<persone>"
 	"persona" n f pl
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<,>"
@@ -13779,7 +13402,6 @@
 	"molto" preadv
 "<?>"
 	"?" sent
-
 "<Mi>"
 	"Mi" prn pro p1 mf sg
 "<sono>"
@@ -13802,7 +13424,6 @@
 	"Risata" n f pl
 "<)>"
 	")" rpar
-
 "<E>"
 	"E" cnjcoo
 "<ho>"
@@ -13819,7 +13440,6 @@
 	"risposta" n f sg
 "<.>"
 	"." sent
-
 "<Primo>"
 	"Primo" adj ord m sg
 "<,>"
@@ -13837,8 +13457,8 @@
 "<velocemente>"
 	"velocemente" adv
 "<rispetto alle>"
-	"il" det def f pl
-		"rispetto a" pr
+	"rispetto a" pr
+		"il" det def f pl
 "<aspettative>"
 	"aspettativa" n f pl
 "<,>"
@@ -13855,7 +13475,6 @@
 	"aumentare" vblex pp f sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<i>"
@@ -13895,15 +13514,14 @@
 "<direttamente>"
 	"direttamente" adv
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<nuova>"
 	"nuovo" adj f sg
 "<tecnologia>"
 	"tecnologia" n f sg
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<grande>"
@@ -13917,8 +13535,8 @@
 "<verificata>"
 	"verificare" vblex pp f sg
 "<nei>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<paesi>"
 	"paese" n m pl
 "<in>"
@@ -13931,7 +13549,6 @@
 	"sviluppo" n m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<che>"
@@ -13939,15 +13556,15 @@
 "<dire>"
 	"dire" vblex inf
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<rete>"
 	"rete" n f sg
 "<elettrica>"
 	"elettrico" adj f sg
 "<nei>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<paesi>"
 	"paese" n m pl
 "<in>"
@@ -13978,7 +13595,6 @@
 	"esaltante" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<in>"
@@ -13995,7 +13611,6 @@
 	"proprio" adv
 "<.>"
 	"." sent
-
 "<CI sono>"
 	"C'è" vblex pri p3 pl
 "<più>"
@@ -14011,20 +13626,19 @@
 "<India>"
 	"India" np loc f sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<intera>"
 	"intero" adj f sg
 "<popolazione>"
 	"popolazione" n f sg
 "<degli>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<Stati Uniti d'America>"
 	"Stati Uniti d'America" np loc m pl
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" cnjcoo
 "<ora>"
@@ -14063,7 +13677,6 @@
 	"accessibile" adj mf pl
 "<.>"
 	"." sent
-
 "<Muhammad>"
 	"Muhammad" np ant m sg
 "<Yunus>"
@@ -14102,7 +13715,6 @@
 	"villaggio" n m sg
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<Bangladesh>"
@@ -14128,8 +13740,8 @@
 "<velocemente>"
 	"velocemente" adv
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<:>"
@@ -14139,8 +13751,8 @@
 "<impianti>"
 	"impianto" n m pl
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<minuto>"
 	"minuto" n m sg
 "<,>"
@@ -14153,7 +13765,6 @@
 	"notte" n f sg
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vblex pri p1 pl
 "<tutto ciò>"
@@ -14175,13 +13786,13 @@
 "<arriva>"
 	"arrivare" vblex imp p2 sg
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<Sole>"
 	"Sole" n m sg
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<Terra>"
 	"Terra" np loc f sg
 "<ogni>"
@@ -14216,7 +13827,6 @@
 	"anno" n m sg
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<realtà>"
@@ -14233,7 +13843,6 @@
 	"ora" adv
 "<.>"
 	"." sent
-
 "<Perciò>"
 	"Perciò" adv
 "<la>"
@@ -14241,8 +13850,8 @@
 "<risposta>"
 	"risposta" n f sg
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<seconda>"
 	"secondo" adj ord f sg
 "<domanda>"
@@ -14275,7 +13884,6 @@
 	"deciso" adj m sg
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<ultima>"
@@ -14288,7 +13896,6 @@
 	"Cambiare" vblex fti p1 pl
 "<?>"
 	"?" sent
-
 "<L'>"
 	"Il" det def m sg
 "<accordo>"
@@ -14333,7 +13940,6 @@
 	"importante" adj mf pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<le>"
@@ -14356,7 +13962,6 @@
 	"avanti" adv
 "<.>"
 	"." sent
-
 "<La>"
 	"Il" det def f sg
 "<Cina>"
@@ -14370,8 +13975,8 @@
 "<che>"
 	"che" rel an mf sp
 "<dal>"
-	"il" det def m sg
-		"da" pr
+	"da" pr
+		"il" det def m sg
 "<prossimo>"
 	"prossimo" adj m sg
 "<anno>"
@@ -14385,13 +13990,12 @@
 "<nazionale>"
 	"nazionale" adj mf sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<emissioni>"
 	"emissione" n f pl
 "<.>"
 	"." sent
-
 "<Probabilmente>"
 	"Probabilmente" adv
 "<si>"
@@ -14408,7 +14012,6 @@
 	"Europeo" adj f sg
 "<.>"
 	"." sent
-
 "<Gli>"
 	"Il" det def m pl
 "<Stati Uniti>"
@@ -14421,7 +14024,6 @@
 	"cambiare" vblex ger
 "<.>"
 	"." sent
-
 "<Tutte>"
 	"Tutto" predet f pl
 "<queste>"
@@ -14460,7 +14062,6 @@
 	"cancellato" adj f pl
 "<.>"
 	"." sent
-
 "<Tutte>"
 	"Tutto" predet f pl
 "<queste>"
@@ -14481,7 +14082,6 @@
 	"dismettere" vblex pp f pl
 "<.>"
 	"." sent
-
 "<Di>"
 	"Di" pr
 "<queste>"
@@ -14504,21 +14104,18 @@
 	"dismissione" n f sg
 "<.>"
 	"." sent
-
 "<Tutte>"
 	"Tutto" prn tn f pl
 "<cancellate>"
 	"cancellato" adj f pl
 "<.>"
 	"." sent
-
 "<Stiamo>"
 	"Stare" vblex pri p1 pl
 "<progredendo>"
 	"progredire" vblex ger
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def m sg
 "<anno>"
@@ -14536,8 +14133,8 @@
 "<investimenti>"
 	"investimento" n m pl
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<creazione>"
 	"creazione" n f sg
 "<di>"
@@ -14547,8 +14144,8 @@
 "<elettricità>"
 	"elettricità" n f sp
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<Stati Uniti>"
 	"Stati Uniti" np loc m pl
 "<,>"
@@ -14579,7 +14176,6 @@
 	"solare" adj mf sg
 "<.>"
 	"." sent
-
 "<Stiamo>"
 	"Stare" vblex pri p1 pl
 "<risolvendo>"
@@ -14590,7 +14186,6 @@
 	"crisi" n f sp
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<unica>"
@@ -14610,16 +14205,15 @@
 "<per>"
 	"per" pr
 "<risolverla>"
-	"lo" prn enc p3 f sg
-		"risolvere" vblex inf
+	"risolvere" vblex inf
+		"lo" prn enc p3 f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<tutto>"
 	"tutto" adj m sg
 "<?>"
 	"?" sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<importante>"
@@ -14652,7 +14246,6 @@
 	"cambiamento" n m sg
 "<.>"
 	"." sent
-
 "<Quasi>"
 	"Quasi" adv
 "<400.000>"
@@ -14670,15 +14263,15 @@
 "<prima>"
 	"prima" adv
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<sessione>"
 	"sessione" n f sg
 "<speciale>"
 	"speciale" adj mf sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<Nazioni>"
 	"Nazione" n f pl
 "<Unite>"
@@ -14691,7 +14284,6 @@
 	"tema" n m sg
 "<.>"
 	"." sent
-
 "<Molte>"
 	"Molto" det ind f pl
 "<migliaia>"
@@ -14724,7 +14316,6 @@
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<sono>"
@@ -14735,7 +14326,6 @@
 	"ottimista" n m sg
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" adv
 "<ho>"
@@ -14754,18 +14344,17 @@
 	"battaglia" n f sg
 "<.>"
 	"." sent
-
 "<Concluderò>"
 	"Concludere" vblex fti p1 sg
 "<con>"
 	"con" pr
+
 "<questa>"
 	"questo" det dem f sg
 "<storia>"
 	"storia" n f sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<avevo>"
@@ -14781,8 +14370,8 @@
 "<proposta>"
 	"proposta" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Presidente>"
 	"Presidente" n m sg
 "<Kennedy>"
@@ -14796,8 +14385,8 @@
 "<persona>"
 	"persona" n f sg
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<Luna>"
 	"Luna" n f sg
 "<e>"
@@ -14805,8 +14394,8 @@
 "<di>"
 	"di" pr
 "<riportarla>"
-	"lo" prn enc p3 f sg
-		"riportare" vblex inf
+	"riportare" vblex inf
+		"lo" prn enc p3 f sg
 "<indietro>"
 	"indietro" adv
 "<sana>"
@@ -14816,8 +14405,8 @@
 "<salva>"
 	"salvo" adj f sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<giro>"
 	"giro" n m sg
 "<di>"
@@ -14828,7 +14417,6 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<a quei tempi>"
@@ -14859,7 +14447,6 @@
 	"riuscire" vblex inf
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<dopo>"
@@ -14877,8 +14464,8 @@
 "<,>"
 	"," cm
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<momento in cui>"
 	"momento in cui" adv
 "<Neil>"
@@ -14890,8 +14477,8 @@
 "<piede>"
 	"piede" n m sg
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<Luna>"
 	"Luna" n f sg
 "<,>"
@@ -14915,8 +14502,8 @@
 "<,>"
 	"," cm
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<base>"
 	"base" n f sg
 "<NASA>"
@@ -14926,13 +14513,12 @@
 "<controllo>"
 	"controllo" n m sg
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<missione>"
 	"missione" n f sg
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<un>"
@@ -14946,8 +14532,8 @@
 "<,>"
 	"," cm
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<riguardo>"
 	"riguardo" n m sg
 "<:>"
@@ -14959,8 +14545,8 @@
 "<media>"
 	"medio" adj f sg
 "<degli>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<ingegneri>"
 	"ingegnere" n mf pl
 "<di>"
@@ -15031,7 +14617,6 @@
 	"sfida" n f sg
 "<.>"
 	"." sent
-
 "<Noi>"
 	"Noi" prn tn p1 mf pl
 "<ora>"
@@ -15047,8 +14632,8 @@
 "<morale>"
 	"morale" adj mf sg
 "<sulla>"
-	"il" det def f sg
-		"su" pr
+	"su" pr
+		"il" det def f sg
 "<scia>"
 	"scia" n f sg
 "<di>"
@@ -15063,12 +14648,11 @@
 	"affrontato" adj m sg
 "<.>"
 	"." sent
-
 "<Uno>"
 	"Uno" prn tn m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<più>"
 	"più" adv
 "<grandi>"
@@ -15078,8 +14662,8 @@
 "<statunitensi>"
 	"statunitense" adj mf pl
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<ultimo>"
 	"ultimo" adj m sg
 "<secolo>"
@@ -15155,13 +14739,12 @@
 "<futuro>"
 	"futuro" n m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<gli>"
@@ -15192,7 +14775,6 @@
 	"altro" adj ind m sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<poi>"
@@ -15205,14 +14787,13 @@
 	"sì" adv
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<movimento>"
 	"movimento" n m sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<suffragette>"
 	"*suffragette"
 "<e>"
@@ -15226,8 +14807,8 @@
 "<diritti>"
 	"diritto" n m pl
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<donne>"
 	"donna" n f pl
 "<si>"
@@ -15256,7 +14837,6 @@
 	"sì" adv
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<movimento>"
@@ -15308,8 +14888,8 @@
 "<qui>"
 	"qui" adv
 "<negli>"
-	"il" det def m pl
-		"in" pr
+	"in" pr
+		"il" det def m pl
 "<Stati Uniti>"
 	"Stati Uniti" np loc m pl
 "<e>"
@@ -15318,7 +14898,6 @@
 	"altrove" adv
 "<.>"
 	"." sent
-
 "<Dopo>"
 	"Dopo" adv
 "<il>"
@@ -15345,7 +14924,6 @@
 	"'" apos
 "<.>"
 	"." sent
-
 "<Quando>"
 	"Quando" adv
 "<qualsiasi>"
@@ -15361,8 +14939,8 @@
 "<per>"
 	"per" pr
 "<ridursi>"
-	"si" prn enc ref p3 mf sp
-		"ridurre" vblex inf
+	"ridurre" vblex inf
+		"si" prn enc ref p3 mf sp
 "<a>"
 	"a" pr
 "<una>"
@@ -15417,7 +14995,6 @@
 	"umano" adj m pl
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<99%>"
@@ -15452,7 +15029,6 @@
 	"sfida" n f sg
 "<.>"
 	"." sent
-
 "<Abbiamo>"
 	"Avere" vbhaver pri p1 pl
 "<tutto ciò>"
@@ -15465,7 +15041,6 @@
 	"servire" vblex pri p3 sg
 "<.>"
 	"." sent
-
 "<Alcuni>"
 	"Alcuno" prn tn m pl
 "<ancora>"
@@ -15473,8 +15048,8 @@
 "<dubitano>"
 	"dubitare" vblex pri p3 pl
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<fatto>"
 	"fatto" n m sg
 "<che>"
@@ -15521,21 +15096,18 @@
 	"rinnovabile" adj mf sg
 "<.>"
 	"." sent
-
 "<Grazie>"
 	"Grazie" adv
 "<mille>"
 	"mille" num mf pl
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Applausi>"
 	"Applauso" n m pl
 "<)>"
 	")" rpar
-
 "<Chris>"
 	"Chris" np ant f sg
 "<Anderson>"
@@ -15558,7 +15130,6 @@
 	"diverso" adj f pl
 "<.>"
 	"." sent
-
 "<Questa>"
 	"Questo" det dem f sg
 "<mente>"
@@ -15580,8 +15151,8 @@
 "<gamma>"
 	"gamma" n f sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<problemi>"
 	"problema" n m pl
 "<,>"
@@ -15595,8 +15166,8 @@
 "<di>"
 	"di" pr
 "<parlarne>"
-	"ne" prn enc adv
-		"parlare" vblex inf
+	"parlare" vblex inf
+		"ne" prn enc adv
 "<con>"
 	"con" pr
 "<un>"
@@ -15609,7 +15180,6 @@
 	"vivido" adj m sg
 "<.>"
 	"." sent
-
 "<Nessun>"
 	"Nessuno" det ind m sg
 "<'>"
@@ -15619,8 +15189,8 @@
 "<può>"
 	"potere" vbmod pri p3 sg
 "<farlo>"
-	"lo" prn enc p3 nt
-		"fare" vblex inf
+	"fare" vblex inf
+		"lo" prn enc p3 nt
 "<,>"
 	"," cm
 "<ecco>"
@@ -15637,7 +15207,6 @@
 	"intervento" n m sg
 "<.>"
 	"." sent
-
 "<È>"
 	"ESSERE" vbser pri p3 sg
 "<stato>"
@@ -15645,8 +15214,8 @@
 "<meraviglioso>"
 	"meraviglioso" adj m sg
 "<vederlo>"
-	"lo" prn enc p3 nt
-		"vedere" vblex inf
+	"vedere" vblex inf
+		"lo" prn enc p3 nt
 "<10>"
 	"10" num
 "<anni>"
@@ -15662,16 +15231,15 @@
 "<meraviglioso>"
 	"meraviglioso" adj m sg
 "<vederlo>"
-	"lo" prn enc p3 nt
-		"vedere" vblex inf
+	"vedere" vblex inf
+		"lo" prn enc p3 nt
 "<ora>"
 	"ora" adv
 "<.>"
 	"." sent
-
 "<Al>"
-	"il" det def m sg
-		"A" pr
+	"A" pr
+		"il" det def m sg
 "<Gore>"
 	"Gore" np cog mf sp
 "<:>"
@@ -15686,7 +15254,6 @@
 	"tua" adj f sg
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<onestamente>"
@@ -15700,8 +15267,8 @@
 "<amici>"
 	"amico" n m pl
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<comunità>"
 	"comunità" n f sp
 "<scientifica>"
@@ -15725,8 +15292,8 @@
 "<a>"
 	"a" pr
 "<sedersi>"
-	"si" prn enc ref p3 mf sp
-		"sedere" vblex inf
+	"sedere" vblex inf
+		"si" prn enc ref p3 mf sp
 "<qui>"
 	"qui" adv
 "<con me>"
@@ -15736,8 +15303,8 @@
 "<a>"
 	"a" pr
 "<spiegarmi>"
-	"mi" prn enc p1 mf sg
-		"spiegare" vblex inf
+	"spiegare" vblex inf
+		"mi" prn enc p1 mf sg
 "<queste>"
 	"questo" det dem f pl
 "<cose>"
@@ -15778,7 +15345,6 @@
 	"capire" vblex inf
 "<.>"
 	"." sent
-
 "<Ed>"
 	"Ed" cnjcoo
 "<è>"
@@ -15799,7 +15365,6 @@
 	"comunicare" vblex inf
 "<.>"
 	"." sent
-
 "<CA>"
 	"*CA"
 "<:>"
@@ -15812,6 +15377,7 @@
 	"." sent
 "<La>"
 	"Il" det def f sg
+
 "<prima>"
 	"primo" adj ord f sg
 "<parte>"
@@ -15840,7 +15406,6 @@
 	"speranza" n f sg
 "<.>"
 	"." sent
-
 "<Come>"
 	"Come" adv
 "<sappiamo>"
@@ -15880,15 +15445,14 @@
 "<mostrato>"
 	"mostrare" vblex pp m sg
 "<nella>"
-	"il" det def f sg
-		"in" pr
+	"in" pr
+		"il" det def f sg
 "<prima>"
 	"primo" adj ord f sg
 "<parte>"
 	"parte" n f sg
 "<?>"
 	"?" sent
-
 "<AG>"
 	"AG" n acr f sg
 "<:>"
@@ -15906,13 +15470,13 @@
 "<stato>"
 	"stare" vblex pp m sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<mondo>"
 	"mondo" n m sg
 "<degli>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<affari>"
 	"affare" n m pl
 "<per>"
@@ -15925,14 +15489,13 @@
 	"anno" n m pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<una>"
 	"un" det ind f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<cose>"
 	"cosa" n f pl
 "<che>"
@@ -15980,13 +15543,12 @@
 "<economico>"
 	"economico" adj m sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<dovuto>"
 	"dovere" vblex pp m sg
 "<.>"
 	"." sent
-
 "<Se>"
 	"Se" cnjadv
 "<è>"
@@ -16001,14 +15563,12 @@
 	"meglio" adj mf sp
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Risate>"
 	"Risata" n f pl
 "<)>"
 	")" rpar
-
 "<E>"
 	"E" cnjcoo
 "<quando>"
@@ -16039,7 +15599,6 @@
 	"davvero" adv
 "<.>"
 	"." sent
-
 "<Siamo>"
 	"Essere" vbser pri p1 pl
 "<costantemente>"
@@ -16054,7 +15613,6 @@
 	"sviluppo" n m pl
 "<.>"
 	"." sent
-
 "<Il>"
 	"Il" det def m sg
 "<defunto>"
@@ -16117,7 +15675,6 @@
 	"pensare" vblex pis p3 sg
 "<.>"
 	"." sent
-
 "<Penso>"
 	"Pensare" vblex pri p1 sg
 "<veramente>"
@@ -16136,7 +15693,6 @@
 	"punto" n m sg
 "<.>"
 	"." sent
-
 "<Alcune>"
 	"Alcun" det ind f pl
 "<persone>"
@@ -16156,11 +15712,11 @@
 "<per>"
 	"per" pr
 "<riferirsi>"
-	"si" prn enc ref p3 mf sp
-		"riferire" vblex inf
+	"riferire" vblex inf
+		"si" prn enc ref p3 mf sp
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<fatto>"
 	"fatto" n m sg
 "<che>"
@@ -16174,15 +15730,15 @@
 "<arriva>"
 	"arrivare" vblex pri p3 sg
 "<al>"
-	"il" det def m sg
-		"a" pr
+	"a" pr
+		"il" det def m sg
 "<di>"
 	"di" pr
 "<sotto>"
 	"sotto" adv
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<grid>"
 	"*grid"
 "<parity>"
@@ -16215,14 +15771,13 @@
 	"*prestabilita"
 "<.>"
 	"." sent
-
 "<In>"
 	"In" pr
 "<una>"
 	"un" det ind f sg
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<presentazioni>"
 	"presentazione" n f pl
 "<ieri>"
@@ -16234,8 +15789,8 @@
 "<faccenda>"
 	"faccenda" n f sg
 "<dell'>"
-	"il" det def mf sg
-		"di" pr
+	"di" pr
+		"il" det def mf sg
 "<autobus>"
 	"autobus" n m sp
 "<,>"
@@ -16257,11 +15812,10 @@
 "<per>"
 	"per" pr
 "<rallentarlo>"
-	"lo" prn enc p3 nt
-		"rallentare" vblex inf
+	"rallentare" vblex inf
+		"lo" prn enc p3 nt
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<penso>"
@@ -16276,7 +15830,6 @@
 	"funzionare" vblex fti p3 sg
 "<.>"
 	"." sent
-
 "<C'è>"
 	"C'è" vblex pri p3 sg
 "<una>"
@@ -16304,20 +15857,19 @@
 "<presidentessa>"
 	"presidente" n f sg
 "<del>"
-	"il" det def m sg
-		"di" pr
+	"di" pr
+		"il" det def m sg
 "<Tea>"
 	"Tea" np ant f sg
 "<Party>"
 	"*Party"
 "<della>"
-	"il" det def f sg
-		"di" pr
+	"di" pr
+		"il" det def f sg
 "<città>"
 	"città" n f sp
 "<.>"
 	"." sent
-
 "<L'>"
 	"Il" det def f sg
 "<hanno>"
@@ -16325,8 +15877,8 @@
 "<ingaggiata>"
 	"ingaggiato" adj f sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<tentativo>"
 	"tentativo" n m sg
 "<di>"
@@ -16340,20 +15892,19 @@
 "<e>"
 	"e" cnjcoo
 "<delle>"
-	"il" det def f pl
-		"di" pr
+	"di" pr
+		"il" det def f pl
 "<leggi>"
 	"legge" n f pl
 "<sui>"
-	"il" det def m pl
-		"su" pr
+	"su" pr
+		"il" det def m pl
 "<pannelli>"
 	"pannello" n m pl
 "<solari>"
 	"solare" adj mf pl
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<lei>"
@@ -16365,15 +15916,15 @@
 "<messo>"
 	"messo" adj m sg
 "<dei>"
-	"il" det def m pl
-		"di" pr
+	"di" pr
+		"il" det def m pl
 "<pannelli>"
 	"pannello" n m pl
 "<solari>"
 	"solare" adj mf pl
 "<sul suo>"
-	"il suo" det pos m sg
-		"su" pr
+	"su" pr
+		"il suo" det pos m sg
 "<tetto>"
 	"tetto" n m sg
 "<e>"
@@ -16388,14 +15939,12 @@
 	"richiesta" n f sg
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Risate>"
 	"Risata" n f pl
 "<)>"
 	")" rpar
-
 "<E>"
 	"E" cnjcoo
 "<così>"
@@ -16442,7 +15991,6 @@
 	"*Party"
 "<.>"
 	"." sent
-
 "<(>"
 	"(" lpar
 "<Risate>"
@@ -16467,7 +16015,6 @@
 	"proposta" n f sg
 "<.>"
 	"." sent
-
 "<Quindi>"
 	"Quindi" adv
 "<,>"
@@ -16481,8 +16028,8 @@
 "<risposta>"
 	"risposta" n f sg
 "<alla tua>"
-	"il tuo" det pos f sg
-		"a" pr
+	"a" pr
+		"il tuo" det pos f sg
 "<domanda>"
 	"domanda" n f sg
 "<è>"
@@ -16546,8 +16093,8 @@
 "<importante>"
 	"importante" adj mf sg
 "<nel>"
-	"il" det def m sg
-		"in" pr
+	"in" pr
+		"il" det def m sg
 "<generare>"
 	"generare" vblex inf
 "<quelle>"
@@ -16558,7 +16105,6 @@
 	"esponenziale" adj mf pl
 "<.>"
 	"." sent
-
 "<Economicamente>"
 	"Economicamente" adv
 "<non>"
@@ -16597,7 +16143,6 @@
 	"globale" adj mf sg
 "<.>"
 	"." sent
-
 "<E>"
 	"E" cnjcoo
 "<a>"
@@ -16634,7 +16179,6 @@
 	"vincere" vblex fti p1 pl
 "<.>"
 	"." sent
-
 "<Ma>"
 	"Ma" cnjcoo
 "<la>"
@@ -16648,8 +16192,8 @@
 "<arriveremo>"
 	"arrivare" vblex fti p1 pl
 "<alla>"
-	"il" det def f sg
-		"a" pr
+	"a" pr
+		"il" det def f sg
 "<vittoria>"
 	"vittoria" n f sg
 "<è>"
@@ -16660,3 +16204,4 @@
 	"importante" adj mf sg
 "<.>"
 	"." sent
+

@@ -18,23 +18,35 @@ LIST Interj = ij ;
 LIST Num = num ;
 LIST Cm = cm ;
 
+LIST Avere = vbhaver ;
+LIST Ser = vbser ;
+LIST Essere = "essere" ;
+
+LIST PrfPrc = pp ;
+
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
 LIST Pr = pr ; 
 
 LIST Interr = itg ;
 
+LIST Imper = imp ;
+
+LIST Excl = "!" ;
+
+LIST Sg1 = (p1 sg) ;
+
 # All possible word categories
 
-SET WORD = N | V | A | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+SET WORD = N | V | A | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") | ("!") ;
 
-SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ;
+SET PRE-N =  A | Det | Num | CC ;
 
 SET MARK =  Cm | ("\\") | ("\;") ;
 
 SET WORDMARK = WORD | MARK ;
 
-SET N-MOD = A | Det | Num | (n gen) | (prn gen) ;
+SET N-MOD = A | Det | Num ;
 
 # Categories which cannot be part of a noun phrase
 
@@ -52,3 +64,11 @@ SECTION
 SELECT Pron IF (0 Io) ;
 
 SELECT Pr IF (0 Sotto) (1 Det) ;
+
+SELECT Avere IF (1 PrfPrc) ;
+
+SECTION
+
+REMOVE Imper IF (NOT 1* Excl) ;
+
+SELECT Essere IF (0 Sg1) ;
