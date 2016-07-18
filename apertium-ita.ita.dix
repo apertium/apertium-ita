@@ -8504,7 +8504,7 @@
       <e><p><l>saranno</l><r>essere<s n="vbser"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>sarà</l><r>essere<s n="vbser"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>essendo</l><r>essere<s n="vbser"/><s n="ger"/></r></p></e>
-      <e><p><l>essendo  </l><r>essere<s n="vbser"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
+      <e><p><l>essendo</l><r>essere<s n="vbser"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
       <e><p><l>fummo</l><r>essere<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>fui</l><r>essere<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>foste</l><r>essere<s n="vbser"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -16693,7 +16693,7 @@
     <e lm="Calangianus"><i>Calangianus</i><par n="Afghanistan__np"/></e>
     <e lm="Golfo Aranci"><i>Golfo<b/>Aranci</i><par n="Afghanistan__np"/></e>
     <e lm="Figari"><i>Figari</i><par n="Afghanistan__np"/></e>
-    <e lm="La Maddalena "><i>La<b/>Maddalena </i><par n="Europa__np"/></e>
+    <e lm="La Maddalena"><i>La<b/>Maddalena</i><par n="Europa__np"/></e>
     <e lm="Loiri Porto San Paolo"><i>Loiri<b/>Porto<b/>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
     <e lm="Luogosanto"><i>Luogosanto</i><par n="Afghanistan__np"/></e>
     <e lm="Luras"><i>Luras</i><par n="Afghanistan__np"/></e>
@@ -37467,7 +37467,7 @@
     <e lm="diffusamente"><i>diffusamente</i><par n="ieri__adv"/></e>
     <e lm="diversamente"><i>diversamente</i><par n="ieri__adv"/></e>
     <e lm="drasticamente"><i>drasticamente</i><par n="ieri__adv"/></e>
-    <e lm="equamente "><i>equamente </i><par n="ieri__adv"/></e>
+    <e lm="equamente"><i>equamente</i><par n="ieri__adv"/></e>
     <e lm="erroneamente"><i>erroneamente</i><par n="ieri__adv"/></e>
     <e lm="esplicitamente"><i>esplicitamente</i><par n="ieri__adv"/></e>
     <e lm="esternamente"><i>esternamente</i><par n="ieri__adv"/></e>
