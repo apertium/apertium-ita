@@ -19870,6 +19870,7 @@
     <e lm="schermidore"><i>schermid</i><par n="agricolt/ore__n"/></e>
     <e lm="polipropilene"><i>polipropilen</i><par n="abat/e__n"/></e>
     <e lm="venditore"><i>vendit</i><par n="agricolt/ore__n"/></e>
+    <e lm="venditore"><i>vendit</i><par n="accentrat/ore__adj"/></e>
     <e lm="forchettone"><i>forchetton</i><par n="abat/e__n"/></e>
     <e lm="quadrimotore"><i>quadrimotor</i><par n="abat/e__n"/></e>
     <e lm="cinegiornale"><i>cinegiornal</i><par n="abat/e__n"/></e>
@@ -28206,7 +28207,7 @@
     <e lm="arco"><i>arc</i><par n="fung/o__n"/></e>
     <e lm="archeologo"><i>archeolog</i><par n="tedesc/o__n"/></e>
     <e lm="archeologia"><i>archeologi</i><par n="cas/a__n"/></e>
-    <e lm="architetto"><i>architett</i><par n="abbain/o__n"/></e>
+    <e lm="architetto"><i>architett</i><par n="bambin/o__n"/></e>
     <e lm="architettura"><i>architettur</i><par n="cas/a__n"/></e>
     <e lm="archivio"><i>archivi</i><par n="abbagli/o__n"/></e>
     <e lm="arcipelago"><i>arcipelag</i><par n="fung/o__n"/></e>
@@ -29860,6 +29861,7 @@
     <e lm="gente"><i>gent</i><par n="abbreviazion/e__n"/></e>
     <e lm="geografia"><i>geografi</i><par n="cas/a__n"/></e>
     <e lm="geometria"><i>geometri</i><par n="cas/a__n"/></e>
+    <e lm="geometra"><i>geometr</i><par n="autom/a__n"/></e>
     <e lm="geranio"><i>gerani</i><par n="abbagli/o__n"/></e>
     <e lm="gerarchia"><i>gerarchi</i><par n="cas/a__n"/></e>
     <e lm="germe"><i>germ</i><par n="abat/e__n"/></e>
@@ -37480,6 +37482,7 @@
     <e lm="geneticamente"><i>geneticamente</i><par n="ieri__adv"/></e>
     <e lm="geograficamente"><i>geograficamente</i><par n="ieri__adv"/></e>
     <e lm="geologicamente"><i>geologicamente</i><par n="ieri__adv"/></e>
+    <e lm="architettonicamente"><i>architettonicamente</i><par n="ieri__adv"/></e>
     <e lm="grandemente"><i>grandemente</i><par n="ieri__adv"/></e>
     <e lm="gravitazionalmente"><i>gravitazionalmente</i><par n="ieri__adv"/></e>
     <e lm="idealmente"><i>idealmente</i><par n="ieri__adv"/></e>
