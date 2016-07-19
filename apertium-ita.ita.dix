@@ -48312,6 +48312,11 @@
     <e lm="eternare"><i>etern</i><par n="abbacin/are__vblex"/></e>
     <e lm="smocciare"><i>smocc</i><par n="abbiosc/iare__vblex"/></e>
 
+    <e lm="piccolo principe"><p><l>piccolo<b/>principe</l><r>piccolo<b/>principe<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="piccolo principe"><p><l>piccoli<b/>principi</l><r>piccolo<b/>principe<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+    <e lm="piccolo principe"><p><l>piccola<b/>principessa</l><r>piccolo<b/>principe<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="piccolo principe"><p><l>piccole<b/>principesse</l><r>piccolo<b/>principe<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">
