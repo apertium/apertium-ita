@@ -7826,8 +7826,8 @@
       <e><p><l>iciamo</l><r>ire<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ite</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
-      <!-- <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e> dóna continúament problemes d'ambigüitat -->
-      <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e>
+      <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+    <!--  <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e> llevat fins que el tagger millore-->
       <e><p><l>i'</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ì</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>ican</l><r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -13210,7 +13210,6 @@
       <e r="LR"><p><l>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>le</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>loro</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="RL"><p><l><a/>gli</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>le</l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -13229,9 +13228,9 @@
     <pardef n="/il__det">
       <e r="LR"><p><l>il</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="LR"><p><l>lo</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
+   <!--   <e r="LR"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e> not here, in postblank and mf-->
       <e r="LR"><p><l>la</l><r>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
+   <!--   <e r="LR"><p><l>l'</l><r>il<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e> not here, in postblank and mf--> 
       <e r="LR"><p><l>i</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>gli</l><r>il<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
 
@@ -19251,8 +19250,8 @@
     <e lm="medio termine"><i>medio<b/>termine</i><par n="ace__n"/></e>
 
     <e lm="pronto"><i>pront</i><par n="abbandonat/o__adj"/></e>
-    <e lm="dove"><i>dove</i><par n="abat/e__n"/></e>
-    <e lm="ove"><p><l>ove</l><r>dove</r></p><par n="abat/e__n"/></e>
+<!--    <e lm="dove"><i>dove</i><par n="abat/e__n"/></e>-->
+<!--    <e lm="ove"><p><l>ove</l><r>dove</r></p><par n="abat/e__n"/></e>-->
 
 
     <e lm="guaglione"><i>guaglion</i><par n="abat/e__n"/></e>
@@ -21341,6 +21340,7 @@
     <e lm="testualmente"><i>testualmente</i><par n="ieri__adv"/></e>
     <e lm="trimestralmente"><i>trimestralmente</i><par n="ieri__adv"/></e>
     <e lm="tuttora"><i>tuttora</i><par n="ieri__adv"/></e>
+    <e r="LR" lm="tutt'ora"><i>tutt'ora</i><par n="ieri__adv"/></e>
     <e lm="uniformemente"><i>uniformemente</i><par n="ieri__adv"/></e>
     <e lm="utilmente"><i>utilmente</i><par n="ieri__adv"/></e>
     <e lm="validamente"><i>validamente</i><par n="ieri__adv"/></e>
@@ -30977,6 +30977,7 @@
     <e lm="pasto"><i>past</i><par n="abbain/o__n"/></e>
     <e lm="pastore"><i>pastor</i><par n="abat/e__n"/></e>
     <e lm="patata"><i>patat</i><par n="cas/a__n"/></e>
+    <e lm="patatina"><i>patatin</i><par n="cas/a__n"/></e>
     <e lm="patologia"><i>patologi</i><par n="cas/a__n"/></e>
     <e lm="patria"><i>patri</i><par n="cas/a__n"/></e>
     <e lm="patriarca"><i>patriarc</i><par n="monarc/a__n"/></e>
@@ -33188,7 +33189,7 @@
     <e lm="basso"><i>bass</i><par n="abbandonat/o__adj"/></e>
     <e lm="belga"><i>belg</i><par n="belg/a__adj"/></e>
     <e lm="bello"><i>bell</i><par n="abbandonat/o__adj"/></e>
-    <e lm="figo"><i>fig</i><par n="abbandonat/o__adj"/></e>
+    <e lm="figo"><i>fig</i><par n="caric/o__adj"/></e>
     <e lm="bellico"><i>bellic</i><par n="tecnic/o__adj"/></e>
     <e lm="benefattore"><i>benefatt</i><par n="accentrat/ore__adj"/></e>
     <e lm="beneficiario"><i>beneficiari</i><par n="ampi/o__adj"/></e>
@@ -34379,7 +34380,7 @@
     <e lm="malgrado"><i>malgrado</i><par n="siccome__cnjadv"/></e>
     <e lm="nella misura in cui"><i>nella<b/>misura<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
     <e lm="perché"><i>perché</i><par n="siccome__cnjadv"/></e>
-    <e lm="perché" r="LR"><p><l>perché</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
+    <e lm="perché" r="LR"><p><l>perchè</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
     <e lm="perche'" r="LR"><p><l>perche'</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
     <e lm="per molto che"><i>per<b/>molto<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="per questo"><i>per<b/>questo</i><par n="siccome__cnjadv"/></e>
@@ -34389,6 +34390,7 @@
     <e lm="sebbene"><i>sebbene</i><par n="siccome__cnjadv"/></e>
     <e lm="secondo"><i>secondo</i><par n="siccome__cnjadv"/></e>
     <e lm="se"><i>se</i><par n="siccome__cnjadv"/></e>
+    <e lm="quando"><i>quando</i><par n="siccome__cnjadv"/></e>
     <e lm="solo con"><i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
     <e lm="tenendo in conto che"><i>tenendo<b/>in<b/>conto</i><par n="siccome__cnjadv"/></e>
     <e lm="tutto ciò"><i>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
@@ -34675,7 +34677,7 @@
     <e lm="masticare"><i>mastic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="militare"><i>milit</i><par n="abbacin/are__vblex"/></e>
     <e lm="ornare"><i>orn</i><par n="abbacin/are__vblex"/></e>
-    <e lm="potere"><i>p</i><par n="p/otere__vblex"/></e>
+    <e lm="potere"><i>p</i><par n="p/otere__vblex"/></e> <!-- is this necessary?-->
     <e lm="pianificare"><i>pianific</i><par n="abbarbic/are__vblex"/></e>
     <e lm="popolare"><i>popol</i><par n="abbacin/are__vblex"/></e>
     <e lm="raddoppiare"><i>raddoppi</i><par n="abbacchi/are__vblex"/></e>
@@ -36881,7 +36883,7 @@
     <e r="LR" lm="come"><i>come</i><par n="quando__adv"/></e>
     <e r="RL" lm="come"><p><l><a/>come</l><r>come</r></p><par n="quando__adv"/></e>
     <e lm="perché"><i>perché</i><par n="quando__adv"/></e>
-    <e r="LR" lm="perché"><p><l>perché</l><r>perché</r></p><par n="quando__adv"/></e>
+    <e r="LR" lm="perché"><p><l>perchè</l><r>perché</r></p><par n="quando__adv"/></e>
     <e r="LR" lm="perche'"><p><l>perche'</l><r>perché</r></p><par n="quando__adv"/></e>
     <e lm="come conseguenza"><i>come<b/>conseguenza</i><par n="ieri__adv"/></e>
     <e lm="come di consueto"><i>come<b/>di<b/>consueto</i><par n="ieri__adv"/></e>
@@ -38211,10 +38213,10 @@
     <e lm="meteo"><i>meteo</i><par n="abilità__n"/></e>
     <e lm="gratitudine"><i>gratitudine</i><par n="abilità__n"/></e>
     <e lm="serotonina"><i>serotonina</i><par n="abilità__n"/></e>
-    <e lm="micelio"><i>micelio</i><par n="abilità__n"/></e>
-    <e lm="elio"><i>elio</i><par n="abilità__n"/></e>
-    <e lm="ftalato"><i>ftalato</i><par n="abilità__n"/></e>
-    <e lm="frigo"><i>frigo</i><par n="abilità__n"/></e>
+    <e lm="micelio"><i>miceli</i><par n="abbagli/o__n"/></e>
+    <e lm="elio"><i>elio</i><par n="ace__n"/></e>
+    <e lm="ftalato"><i>ftalat</i><par n="abbagli/o__n"/></e>
+    <e lm="frigo"><i>frigo</i><par n="albatros__n"/></e>
     <e lm="alternanza"><i>alternanz</i><par n="cas/a__n"/></e>
     <e lm="atrazina"><i>atrazina</i><par n="abilità__n"/></e>
     <e lm="riluttanza"><i>riluttanz</i><par n="cas/a__n"/></e>
@@ -38352,7 +38354,6 @@
     <e lm="fraseologia"><i>fraseologi</i><par n="cas/a__n"/></e>
     <e lm="fronte"><i>front</i><par n="abat/e__n"/></e>
     <e lm="frontespizio"><i>frontespizi</i><par n="abbagli/o__n"/></e>
-    <e lm="fuori da"><i>fuori d</i><par n="cas/a__n"/></e>
     <e lm="gabbia"><i>gabbi</i><par n="cas/a__n"/></e>
     <e lm="galera"><i>galer</i><par n="cas/a__n"/></e>
     <e lm="gelosia"><i>gelosi</i><par n="cas/a__n"/></e>
@@ -47994,7 +47995,7 @@
     <e lm="in meno"><i>in<b/>meno</i><par n="ieri__adv"/></e>
     <e lm="in niente"><i>in<b/>niente</i><par n="ieri__adv"/></e>
     <e lm="in piedi"><i>in<b/>piedi</i><par n="ieri__adv"/></e>
-    <e lm="in tutto"><i>in<b/>tutto</i><par n="ieri__adv"/></e>
+   <!-- <e lm="in tutto"><i>in<b/>tutto</i><par n="ieri__adv"/></e> must be used also in isolation-->
     <e lm="invece"><i>invece</i><par n="ancorché__cnjcoo"/></e>
     <e lm="magari"><i>magari</i><par n="affinché__cnjsub"/></e>
     <e lm="meno male che"><i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e>
@@ -48016,7 +48017,7 @@
     <e lm="poco meno"><i>poco<b/>meno</i><par n="ieri__adv"/></e>
     <e lm="poco più"><i>poco<b/>più</i><par n="ieri__adv"/></e>
     <e lm="pure"><i>pure</i><par n="ancorché__cnjcoo"/></e>
-    <e lm="quando"><i>quando</i><par n="ieri__adv"/></e>
+  <!--  <e lm="quando"><i>quando</i><par n="ieri__adv"/></e> cnjadv instead-->
     <e lm="salvo"><i>salvo</i><par n="affinché__cnjsub"/></e>
     <e lm="sebbene"><i>sebbene</i><par n="ancorché__cnjcoo"/></e>
     <e lm="senonché"><i>senonché</i><par n="affinché__cnjsub"/></e>

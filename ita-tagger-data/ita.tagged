@@ -210,7 +210,8 @@
 ^Los Angeles/Los Angeles<np><loc><m><sg>$ 
 ^,/,<cm>$ 
 ^ma/ma<cnjcoo>$ 
-^in tutto/in tutto<adv>$ 
+^in/in<pr>$ 
+^tutto/tutto<predet><m><sg>$ 
 ^il/il<det><def><m><sg>$ 
 ^paese/paese<n><m><sg>$ 
 ^./.<sent>$ 
@@ -929,7 +930,7 @@
 ^auto/auto<n><f><sp>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<rel><adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^abbiamo/avere<vblex><pri><p1><pl>$ 
 ^introdotto/introdurre<vblex><pp><m><sg>$ 
 ^uberPOOL/*uberPOOL$ 
@@ -1215,7 +1216,7 @@
 ^Come/Come<adv>$ 
 ^possiamo/potere<vblex><pri><p1><pl>$ 
 ^trasformare/trasformare<vblex><inf>$ 
-^tutte/tutto<adj><f><pl>$ 
+^tutte/tutto<predet><f><pl>$ 
 ^queste/questo<det><dem><f><pl>$ 
 ^macchine/macchina<n><f><pl>$ 
 ^pendolari/pendolare<adj><mf><pl>$ 
@@ -1747,7 +1748,7 @@
 ^lusso/lusso<n><m><sg>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^ci/ci<prn><pro><p1><mf><pl>$ 
 ^siamo/essere<vbser><pri><p1><pl>$ 
 ^espansi/espanso<adj><m><pl>$ 
@@ -1819,7 +1820,7 @@
 ^cambiamento/cambiamento<n><m><sg>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^presenti/presentare<vblex><pri><p2><sg>$ 
 ^per la prima volta/per la prima volta<adv>$ 
 ^una/un<det><ind><f><sg>$ 
@@ -2104,7 +2105,7 @@
 ^6.500/6.500<num>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^cresci/crescere<vblex><pri><p2><sg>$ 
 ^così/così<preadv>$ 
 ^in fretta/in fretta<adv>$
@@ -2311,7 +2312,7 @@
 ^giusto/giusto<adv>$ 
 ^?/?<sent>$ 
 
-^Quando/Quando<rel><adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^UberX/*UberX$ 
 ^è/essere<vbser><pri><p3><sg>$ 
 ^partita/partire<vblex><pp><f><sg>$ 
@@ -2360,7 +2361,7 @@
 ^tassisti/tassista<n><m><pl>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^i/il<det><def><m><pl>$ 
 ^prezzi/prezzo<n><m><pl>$ 
 ^scendono/scendere<vblex><pri><p3><pl>$ 
@@ -2694,7 +2695,7 @@
 ^?/?<sent>$
 ^CA/*CA$ 
 ^:/:<sent>$ 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^usciranno/uscire<vblex><fti><p3><pl>$ 
 ^le/il<det><def><f><pl>$ 
 ^auto/auto<n><f><sp>$ 
@@ -2856,7 +2857,8 @@
 ^trilioni/trilione<n><m><pl>$ 
 ^di/di<pr>$ 
 ^ore/ora<n><f><pl>$ 
-^in tutto/in tutto<adv>$ 
+^in<pr>$ 
+^tutto/tutto<predet><m>sg>$ 
 ^il/il<det><def><m><sg>$ 
 ^mondo/mondo<n><m><sg>$ 
 ^che/che<rel><an><mf><sp>$ 
@@ -3470,7 +3472,7 @@
 ^roba/roba<n><f><sg>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^si/si<prn><pro><ref><p3><mf><sp>$ 
 ^scopre/scoprire<vblex><pri><p3><sg>$ 
 ^per/per<pr>$ 
@@ -3654,7 +3656,7 @@
 ^fanno/fare<vblex><pri><p3><pl>$ 
 ^persone/persona<n><f><pl>$ 
 ^da/da<pr>$ 
-^tutto/tutto<prn><tn><m><sg>$ 
+^tutto/tutto<predet><m><sg>$ 
 ^il/il<det><def><m><sg>$ 
 ^mondo/mondo<n><m><sg>$ 
 ^./.<sent>$ 
@@ -4800,7 +4802,7 @@
 ^molto più/molto più<adv>$ 
 ^accuratamente/accuratamente<adv>$ 
 ^a/a<pr>$ 
-^tutte/tutto<prn><tn><f><pl>$ 
+^tutte/tutto<det><f><pl>$ 
 ^le/il<det><def><f><pl>$ 
 ^profondità/profondità<n><f><sp>$ 
 ^:/:<sent>$ 
@@ -5318,9 +5320,7 @@
 ^delle/di<pr>+il<det><def><f><pl>$ 
 ^quali/quale<prn><itg><mf><pl>$ 
 ^sono/essere<vbser><pri><p3><pl>$ 
-^tutt/*tutt$ 
-^'/'<apos>$ 
-^ora/ora<adv>$ 
+^tutt'ora/tutt'ora<adv>$ 
 ^in/in<pr>$ 
 ^corso/corso<n><m><sg>$ 
 ^./.<sent>$ 
@@ -6435,7 +6435,7 @@
 ^2010/2010<num>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^è/essere<vbser><pri><p3><sg>$ 
 ^arrivato/arrivare<vblex><pp><m><sg>$ 
 ^il/il<det><def><m><sg>$ 
@@ -6488,7 +6488,7 @@
 ^ripida/ripido<adj><f><sg>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^sono/essere<vbser><pri><p1><sg>$ 
 ^salito/salire<vblex><pp><m><sg>$ 
 ^su/su<adv>$ 
@@ -6897,7 +6897,8 @@
 ^120/120<num>$ 
 ^volte/volta<n><f><pl>$ 
 ^tanto/tanto<adv>$ 
-^in tutto/in tutto<adv>$ 
+^in/in<pr>$ 
+^tutto/tutto<predet><m><sg>$ 
 ^l'/il<det><def><mf><sg>$
 ^anno/anno<n><m><sg>$ 
 ^./.<sent>$ 
@@ -7134,7 +7135,7 @@
 ^ora/ora<adv>$ 
 ^per/per<pr>$ 
 ^fornire/fornire<vblex><inf>$ 
-^tutta/tutto<adj><f><sg>$ 
+^tutta/tutto<predet><f><sg>$ 
 ^l'/il<det><def><mf><sg>$
 ^energia/energia<n><f><sg>$ 
 ^di/di<pr>$ 
@@ -7401,7 +7402,7 @@
 ^le/il<det><def><f><pl>$ 
 ^città/città<n><f><sp>$ 
 ^di/di<pr>$ 
-^tutto/tutto<adj><m><sg>$ 
+^tutto/tutto<predet><m><sg>$ 
 ^il/il<det><def><m><sg>$ 
 ^mondo/mondo<n><m><sg>$ 
 ^./.<sent>$ 
@@ -7428,7 +7429,7 @@
 ^storia/storia<n><f><sg>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^avevo/avere<vblex><pii><p1><sg>$ 
 ^13/13<num>$ 
 ^anni/anno<n><m><pl>$ 
@@ -7597,7 +7598,7 @@
 ^colpito/colpire<vblex><pp><m><sg>$ 
 ^:/:<sent>$
  
-^Dopo/Dopo<adv>$ 
+^Dopo/Dopo<pr>$ 
 ^il/il<det><def><m><sg>$ 
 ^'/'<apos>$ 
 ^no/no<adv>$ 
@@ -7623,7 +7624,7 @@
 ^mondo/mondo<n><m><sg>$ 
 ^./.<sent>$
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^gli/il<det><def><m><pl>$ 
 ^abolizionisti/*abolizionisti$ 
 ^avviarono/avviare<vblex><ifi><p3><pl>$ 
@@ -7702,7 +7703,7 @@
 ^altrove/altrove<adv>$ 
 ^./.<sent>$ 
 
-^Dopo/Dopo<adv>$ 
+^Dopo/Dopo<pr>$ 
 ^il/il<det><def><m><sg>$ 
 ^'/'<apos>$ 
 ^no/no<adv>$ 
@@ -7716,7 +7717,7 @@
 ^'/'<apos>$ 
 ^./.<sent>$ 
 
-^Quando/Quando<adv>$ 
+^Quando/Quando<cnjadv>$ 
 ^qualsiasi/qualsiasi<adj><mf><sp>$ 
 ^grande/grande<adj><mf><sg>$ 
 ^sfida/sfida<n><f><sg>$ 

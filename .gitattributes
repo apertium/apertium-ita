@@ -16,6 +16,7 @@
 /configure.ac -text
 /i_to_p.awk.in -text
 /inline_e.awk.in -text
+/ita-supervised.make -text
 ita-tagger-data/ita-supervised.prob -text
 ita-tagger-data/ita.crp -text
 ita-tagger-data/ita.crp.txt -text
