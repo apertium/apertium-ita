@@ -12324,6 +12324,10 @@
        <e><p><l>hi</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
        <e><p><l>a</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
        <e><p><l>he</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>hissimo</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>hissimi</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>hissima</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>hissime</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
    </pardef>
 
     
