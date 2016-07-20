@@ -12308,6 +12308,17 @@
       <e><p><l>e</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
    </pardef>
 
+    <pardef n="molt/o__adj">
+      <e><p><l>o</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>i</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>a</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>issimo</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>issimi</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>issima</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>issime</l><r>o<s n="adj"/><s n="ind"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+   </pardef>
+
     <pardef n="poc/o__adj">
        <e><p><l>o</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
        <e><p><l>hi</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
@@ -42471,7 +42482,7 @@
     <e lm="molisano"><i>molisan</i><par n="abbandonat/o__adj"/></e>
     <e lm="mollo"><i>moll</i><par n="abbandonat/o__adj"/></e>
     <e lm="moltiplicativo"><i>moltiplicativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="molto"><i>molt</i><par n="tropp/o__adj"/></e>
+    <e lm="molto"><i>molt</i><par n="molt/o__adj"/></e>
     <e lm="mondo"><i>mond</i><par n="abbandonat/o__adj"/></e>
     <e lm="mongolo"><i>mongol</i><par n="abbandonat/o__adj"/></e>
     <e lm="monocolo"><i>monocol</i><par n="abbandonat/o__adj"/></e>
