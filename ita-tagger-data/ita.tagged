@@ -2857,7 +2857,7 @@
 ^trilioni/trilione<n><m><pl>$ 
 ^di/di<pr>$ 
 ^ore/ora<n><f><pl>$ 
-^in<pr>$ 
+^in/in<pr>$ 
 ^tutto/tutto<predet><m>sg>$ 
 ^il/il<det><def><m><sg>$ 
 ^mondo/mondo<n><m><sg>$ 
@@ -3467,7 +3467,7 @@
 ^ci/ci<prn><pro><p1><mf><pl>$ 
 ^lamentiamo/lamentare<vblex><pri><p1><pl>$ 
 ^nemmeno/nemmeno<adv>$ 
-^più di/più di<adv>$ 
+^più/più<adv>$ ^di/di<pr>$ 
 ^quella/quello<det><dem><f><sg>$ 
 ^roba/roba<n><f><sg>$ 
 ^./.<sent>$ 
@@ -4833,7 +4833,7 @@
 
 ^È/ESSERE<vbser><pri><p3><sg>$ 
 ^iniziato/iniziato<adj><m><sg>$ 
-^più di/più di<adv>$ 
+^più/più<adv>$ ^di/di<pr>$ 
 ^un/un<det><ind><m><sg>$ 
 ^secolo/secolo<n><m><sg>$ 
 ^fa/fare<vblex><pri><p3><sg>$ 
@@ -5083,7 +5083,7 @@
 ^due/due<num><mf><sp>$ 
 ^giorni/giorno<n><m><pl>$ 
 ^,/,<cm>$ 
-^più di/più di<adv>$ 
+^più/più<adv>$ ^di/di<pr>$ 
 ^613/613<num>$ 
 ^milioni/milione<n><m><pl>$ 
 ^di/di<pr>$ 
@@ -5094,7 +5094,7 @@
 ^È/ESSERE<vbser><pri><p3><sg>$ 
 ^come se/come se<adv>$ 
 ^per/per<pr>$ 
-^più di/più di<adv>$ 
+^più/più<adv>$ ^di/di<pr>$ 
 ^due/due<num><mf><sp>$ 
 ^giorni/giorno<n><m><pl>$ 
 ^il/il<det><def><m><sg>$ 

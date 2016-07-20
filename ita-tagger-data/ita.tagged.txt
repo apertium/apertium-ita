@@ -199,7 +199,8 @@ a
 Los Angeles
 ,
 ma
-in tutto
+in
+tutto
 il
 paese
 .
@@ -2696,7 +2697,8 @@ miliardi
 trilioni
 di
 ore
-in tutto
+in
+tutto
 il
 mondo
 che
@@ -4559,7 +4561,8 @@ accelerando
 .
 È
 iniziato
-più di
+più
+di
 un
 secolo
 fa
@@ -4793,7 +4796,8 @@ per
 due
 giorni
 ,
-più di
+più
+di
 613
 milioni
 di
@@ -4803,7 +4807,8 @@ cubi
 È
 come se
 per
-più di
+più
+di
 due
 giorni
 il
@@ -5014,9 +5019,7 @@ molte
 delle
 quali
 sono
-tutt
-'
-ora
+tutt'ora
 in
 corso
 .
@@ -6512,7 +6515,8 @@ vendettero
 120
 volte
 tanto
-in tutto
+in
+tutto
 l'
 anno
 .

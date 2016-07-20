@@ -3,15 +3,15 @@ BASENAME=apertium-ita
 LANG1=ita
 TAGGER=$(LANG1)-tagger-data
 
-all: $(LANG1).prob
+all: $(LANG1)-supervised.prob
 
-$(LANG1).prob: $(BASENAME).$(LANG1).tsx $(TAGGER)/$(LANG1).dic $(TAGGER)/$(LANG1).untagged $(TAGGER)/$(LANG1).tagged $(TAGGER)/$(LANG1).crp
+$(LANG1)-supervised.prob: $(BASENAME).$(LANG1).tsx $(TAGGER)/$(LANG1).dic $(TAGGER)/$(LANG1).untagged $(TAGGER)/$(LANG1).tagged $(TAGGER)/$(LANG1).crp
 	apertium-validate-tagger $(BASENAME).$(LANG1).tsx
 	apertium-tagger -s $(TAGGER_SUPERVISED_ITERATIONS) \
                            $(TAGGER)/$(LANG1).dic \
                            $(TAGGER)/$(LANG1).crp \
                            $(BASENAME).$(LANG1).tsx \
-                           $(LANG1).prob \
+                           $(LANG1)-supervised.prob \
                            $(TAGGER)/$(LANG1).tagged \
                            $(TAGGER)/$(LANG1).untagged;
 

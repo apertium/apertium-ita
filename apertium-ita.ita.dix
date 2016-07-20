@@ -617,8 +617,8 @@
 <!--principi verbs -->
     <pardef n="abbacin/are__vblex">
 <!--mireia a provar imperatius -->
-      <e><p><l>ante</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>anti</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!--  <e><p><l>ante</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e> -->
+    <!--  <e><p><l>anti</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
       <e><p><l>eremmo</l><r>are<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>erei</l><r>are<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ereste</l><r>are<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -695,8 +695,8 @@
     </pardef>
     
     <pardef n="gel/are__vblex"> <!-- verb impersonal: només 3a pers -->
-      <e><p><l>ante</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>anti</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!--  <e><p><l>ante</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e> -->
+    <!--  <e><p><l>anti</l><r>are<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e> -->
       <e r="LR"><p><l>erebber</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>erebbero</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>erebbe</l><r>are<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -2415,8 +2415,8 @@
     </pardef>
     
     <pardef n="acce/ndere__vblex">
-      <e><p><l>ndente</l><r>ndere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>ndenti</l><r>ndere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!--  <e><p><l>ndente</l><r>ndere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>-->
+    <!--  <e><p><l>ndenti</l><r>ndere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
       <e><p><l>nderemmo</l><r>ndere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>nderei</l><r>ndere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ndereste</l><r>ndere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -3641,8 +3641,8 @@
     </pardef>
     
     <pardef n="/andare__vblex">
-      <e><p><l>andante</l><r>andare<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>andanti</l><r>andare<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!--  <e><p><l>andante</l><r>andare<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>-->
+    <!--  <e><p><l>andanti</l><r>andare<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
       <e><p><l>andremmo</l><r>andare<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>andrei</l><r>andare<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>andreste</l><r>andare<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -3894,8 +3894,8 @@
     </pardef>
     
     <pardef n="appart/enere__vblex">
-      <e><p><l>enente</l><r>enere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>enenti</l><r>enere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+    <!--  <e><p><l>enente</l><r>enere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>-->
+    <!--  <e><p><l>enenti</l><r>enere<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
       <e><p><l>erremmo</l><r>enere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>errei</l><r>enere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>erreste</l><r>enere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -10668,10 +10668,10 @@
     </pardef>
     
     <pardef n="risal/ire__vblex">
-      <e><p><l>ente</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>enti</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>iente</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR"><p><l>ienti</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>
+   <!--   <e><p><l>ente</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>-->
+   <!--   <e><p><l>enti</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
+   <!--   <e r="LR"><p><l>iente</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="sg"/></r></p></e>-->
+   <!--   <e r="LR"><p><l>ienti</l><r>ire<s n="vblex"/><s n="pprs"/><s n="mf"/><s n="pl"/></r></p></e>-->
       <e><p><l>iremmo</l><r>ire<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>irei</l><r>ire<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ireste</l><r>ire<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -21340,7 +21340,6 @@
     <e lm="testualmente"><i>testualmente</i><par n="ieri__adv"/></e>
     <e lm="trimestralmente"><i>trimestralmente</i><par n="ieri__adv"/></e>
     <e lm="tuttora"><i>tuttora</i><par n="ieri__adv"/></e>
-    <e r="LR" lm="tutt'ora"><i>tutt'ora</i><par n="ieri__adv"/></e>
     <e lm="uniformemente"><i>uniformemente</i><par n="ieri__adv"/></e>
     <e lm="utilmente"><i>utilmente</i><par n="ieri__adv"/></e>
     <e lm="validamente"><i>validamente</i><par n="ieri__adv"/></e>
@@ -29124,6 +29123,7 @@
     <e lm="cortocircuito"><i>cortocircuit</i><par n="abbain/o__n"/></e>
     <e lm="cortometraggio"><i>cortometraggi</i><par n="abbagli/o__n"/></e>
     <e lm="cosa"><i>cos</i><par n="cas/a__n"/></e>
+    <e lm="granché"><i>granché</i><par n="ace__n"/></e>  
     <e lm="coscienza"><i>coscienz</i><par n="cas/a__n"/></e>
     <e lm="cosmetica"><i>cosmetic</i><par n="tasc/a__n"/></e>
     <e lm="cosmonauta"><i>cosmonaut</i><par n="suicid/a__n"/></e>
@@ -34353,7 +34353,7 @@
     <e lm="seppur"><i>seppur</i><par n="siccome__cnjadv"/></e>
     <e lm="anziché"><i>anziché</i><par n="siccome__cnjadv"/></e>
     <e lm="per cosa"><i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
-   <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>  -->
+   <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e> -->
     <e lm="dove"><i>dove</i><par n="siccome__cnjadv"/></e>
     <e lm="laddove"><i>laddove</i><par n="siccome__cnjadv"/></e>
 
@@ -34694,10 +34694,10 @@
     <e lm="stampare"><i>stamp</i><par n="abbacin/are__vblex"/></e>
     <e lm="stuzzicare"><i>stuzzic</i><par n="abbarbic/are__vblex"/></e>
     <e lm="vanificare"><i>vanific</i><par n="abbarbic/are__vblex"/></e>
-    <e lm="c'è"><p><l>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="c'è"><p><l>ci<b/>sono</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-    <e lm="c'è"><p><l>ci<b/>sarà</l><r>c'è<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="c'è"><p><l>ci<b/>saranno</l><r>c'è<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+<!--    <e lm="c'è"><p><l>c'è</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>-->
+<!--    <e lm="c'è"><p><l>ci<b/>sono</l><r>c'è<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>-->
+<!--    <e lm="c'è"><p><l>ci<b/>sarà</l><r>c'è<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>-->
+<!--    <e lm="c'è"><p><l>ci<b/>saranno</l><r>c'è<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>-->
     <e lm="ci vuole"><p><l>ci<b/>vuole</l><r>ci<b/>vuole<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="abbandonare"><i>abbandon</i><par n="abbacin/are__vblex"/></e>
     <e lm="chiacchierare"><i>chiacchier</i><par n="abbacin/are__vblex"/></e>
@@ -36496,6 +36496,7 @@
     <e lm="malapena"><i>malapena</i><par n="bene__preadv"/></e>
     <e lm="male"><i>male</i><par n="bene__preadv"/></e>
     <e lm="molto"><i>molto</i><par n="bene__preadv"/></e>
+    <e lm="granché"><i>granché</i><par n="bene__preadv"/></e>
     <e lm="appena"><i>appena</i><par n="bene__preadv"/></e>
     <e lm="tanto"><i>tanto</i><par n="bene__preadv"/></e>
     <e lm="così"><i>così</i><par n="bene__preadv"/></e>
@@ -37163,6 +37164,7 @@
     <e lm="minuziosamente"><i>minuziosamente</i><par n="ieri__adv"/></e>
     <e lm="molte volte"><i>molte<b/>volte</i><par n="ieri__adv"/></e>
     <e lm="molto"><i>molto</i><par n="ieri__adv"/></e>
+    <e lm="granché"><i>granché</i><par n="ieri__adv"/></e>
       <e r="LR" lm="molto di meno"><i>molto<b/>di<b/>meno</i><par n="ieri__adv"/></e>
       <e r="LR" lm="molto di più"><i>molto<b/>di<b/>più</i><par n="ieri__adv"/></e>
     <e lm="molto dopo"><i>molto<b/>dopo</i><par n="ieri__adv"/></e>
@@ -37426,7 +37428,7 @@
     <e lm="tristemente"><i>tristemente</i><par n="ieri__adv"/></e>
     <e lm="troppo"><i>troppo</i><par n="ieri__adv"/></e>
     <e lm="invece"><i>invece</i><par n="ieri__adv"/></e>
-      <e r="LR" lm="tuttavia"><i>tuttavia</i><par n="ieri__adv"/></e>
+    <e r="LR" lm="tuttavia"><i>tuttavia</i><par n="ieri__adv"/></e>
     <e lm="tutt'ora"><i>tutt'ora</i><par n="ieri__adv"/></e>
 
 <e lm="tutt'attorno"><i>tutt'attorno</i><par n="ieri__adv"/></e>
