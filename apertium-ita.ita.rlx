@@ -10,6 +10,7 @@ LIST A = adj ;
 LIST Adv = adv ;
 LIST Pron = prn ;
 LIST N = n ;
+LIST Prop = np ;
 LIST V = v ;
 LIST Det = det ;
 LIST CC = cnjcoo ;
@@ -17,6 +18,7 @@ LIST CS = cnjsub ;
 LIST Interj = ij ;
 LIST Num = num ;
 LIST Cm = cm ;
+LIST Pr = pr ; 
 
 LIST Avere = vbhaver ;
 LIST Ser = vbser ;
@@ -26,7 +28,8 @@ LIST PrfPrc = pp ;
 
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
-LIST Pr = pr ; 
+LIST Stato = "stato" ;
+LIST San = "San" ;
 
 LIST Interr = itg ;
 
@@ -35,6 +38,8 @@ LIST Imper = imp ;
 LIST Excl = "!" ;
 
 LIST Sg1 = (p1 sg) ;
+
+LIST Upper = "[A-Z][a-z]+"r ;
 
 # All possible word categories
 
@@ -67,8 +72,19 @@ SELECT Pr IF (0 Sotto) (1 Det) ;
 
 SELECT Avere IF (1 PrfPrc) ;
 
+SELECT Det IF (-1 Pr) (0 A OR Det) (1 N) ;
+
+SELECT PrfPrc IF (-1 Essere) (0 Stato) ;
+
+SELECT PrfPrc IF (-1 Stato LINK -1 Essere) ;
+
+SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ;
+
 SECTION
 
 REMOVE Imper IF (NOT 1* Excl) ;
 
 SELECT Essere IF (0 Sg1) ;
+
+SELECT Prop IF (0 San) (1 Upper) ;
+

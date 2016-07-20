@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--	Dictionary:	Sections: 3	Entries: 7993	Sdefs: 72	Paradigms: 513-->
 <dictionary>
-  <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+  <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzẮẰẴĂẤẦẨẬǍÅÅÃÃĄĄĀẢȂẠªÆḆĆĈČČĊĎĐĐḌḌḎÐÐĔĔẾỀỄỂỆĚĚẼĖĖĘḖḔĒƏĞĞĜǦĠĠĢḠȞĦḤḤḪH̱ĬǏĨĮĪĪỈỊİĲĴJ̌ḰĶḲḴĹĽĽŁŁĻḶḺǇṀṂŃŇṄŅṆṈŊŎŎỐỒỔỘǑƟŐÕØØǪṒŌŌỎỌỞỢƠƆºŒŘṘṚṞŚŚŜŠŠṠȘŞṢṢSSSŤȚṬṬṮŬǓŮǗǛǙǕŰŨŪŪỦȔỤỨỪỮỬỰƯŴÝỲŶŸȜắằẵăấầẩậǎååããąąāảȃạªæḇćĉččċďđđḍḍḏððĕĕếềễểệěěẽėėęḗḕēəğğĝǧġġģḡȟħḥḥḫẖĭǐĩįīīỉịı̇ĳĵǰḱķḳḵĺľľłłļḷḻǉṁṃńňṅņṇṉŋŏŏốồổộǒɵőõøøǫṓōōỏọởợơɔºœřṙṛṟśśŝššṡșşṣṣſßťțṭṭṯŭǔůǘǜǚǖűũūūủȕụứừữửựưŵýỳŷÿȝ</alphabet>
   <sdefs>		
     <sdef n="acr"     c=""/> 		
     <sdef n="abbr"    c=""/> 		
