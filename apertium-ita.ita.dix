@@ -19843,7 +19843,7 @@
     <e lm="paroliere"><i>parolier</i><par n="abat/e__n"/></e>
     <e lm="bancarottiere"><i>bancarottier</i><par n="abat/e__n"/></e>
     <e lm="figurante"><i>figurant</i><par n="abat/e__n"/></e>
-    <e lm="visconte"><i>viscont</i><par n="abat/e__n"/></e>
+    <e lm="visconte"><i>viscont</i><par n="baron/e__n"/></e>
     <e lm="impostore"><i>impostor</i><par n="abat/e__n"/></e>
     <e lm="tornante"><i>tornant</i><par n="abat/e__n"/></e>
     <e lm="atlante"><i>atlant</i><par n="abat/e__n"/></e>
@@ -33015,6 +33015,7 @@
     <e r="LR" lm="buon"><p><l>buon</l><r>buono<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="gran"><p><l>gran</l><r>grande<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="minor"><p><l>minor</l><r>minore<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e r="LR" lm="maggior"><p><l>maggior</l><r>maggiore<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="major"><p><l>major</l><r>majore<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="miglior"><p><l>miglior</l><r>migliore<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR" lm="particolar"><p><l>particolar</l><r>particolare<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -48371,6 +48372,13 @@
     <e lm="ferrare"><i>ferr</i><par n="abbacin/are__vblex"/></e>
     <e lm="fogliare"><i>fogli</i><par n="accapigli/are__vblex"/></e>
     <e lm="fruttare"><i>frutt</i><par n="abbacin/are__vblex"/></e>
+
+    <e lm="a fianco"><i>a<b/>fianco</i><par n="ieri__adv"/></e>
+    <e lm="stillare"><i>still</i><par n="abbacin/are__vblex"/></e>
+    <e lm="lamare"><i>lam</i><par n="abbacin/are__vblex"/></e>
+    <e lm="ammannire"><i>ammann</i><par n="abbrut/ire__vblex"/></e>
+    <e lm="moscare"><i>mosc</i><par n="abbarbic/are__vblex"/></e>
+    <e lm="pungolare"><i>pungol</i><par n="abbacin/are__vblex"/></e>
 
   </section>
 
