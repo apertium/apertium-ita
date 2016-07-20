@@ -11770,7 +11770,8 @@
       <e><p><l>ci<b/>sarebbe<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ci<b/>sarebbe<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>ci<b/>sarebbe<b/>stato<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>c'è<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>bisogna</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!--testing translation-->
+      <e r="LR"><p><l>c'è<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>abbiamo<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ci<b/>sia<b/>bisogno<b/>di</l><r>avere<b/>bisogno<b/>di<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
@@ -12305,7 +12306,15 @@
       <e><p><l>i</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>e</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-    </pardef>
+   </pardef>
+
+    <pardef n="poc/o__adj">
+       <e><p><l>o</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+       <e><p><l>hi</l><r>o<s n="adj"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+       <e><p><l>a</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+       <e><p><l>he</l><r>o<s n="adj"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+   </pardef>
+
     
     <pardef n="lo__detnt">
       <e><p><l></l><r><s n="detnt"/></r></p></e>
@@ -13454,12 +13463,12 @@
       <e><p><l>s</l><r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
     
-    <pardef n="poc/o__det">
+  <!--  <pardef n="poc/o__det">
       <e><p><l>hi</l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>o</l><r>o<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>he</l><r>o<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a</l><r>o<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
-    </pardef>
+    </pardef> -->
       
     <pardef n="prim/adonna__n">
       <e><p><l>edonne</l><r>adonna<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -13842,7 +13851,8 @@
   </pardefs>	
   <section id="main" type="standard">
 
-    <!-- SECTION: Determiners -->
+<!--       ******************************      (det) group      ******************************    -->
+
 
     <e lm="alcun"><i>alcun</i><par n="alcun__det"/></e>
 <!--<e lm="qualcun"><i>qualcun</i><par n="alcun__det"/></e>-->
@@ -13865,7 +13875,7 @@
     <e lm="nessuno"><i>nessun</i><par n="qualcun/o__det"/></e>
     <e lm="ciascuno"><i>ciascun</i><par n="qualcun/o__det"/></e>
     <e lm="ogni"><i>ogni</i><par n="ogni__det"/></e>
-    <e lm="poco"><i>poc</i><par n="poc/o__det"/></e>
+   <!-- <e lm="poco"><i>poc</i><par n="poc/o__det"/></e> bad for disambiguation-->
     <e lm="qualche"><i>qualche</i><par n="ogni__det"/></e>
     <e lm="qualsiasi"><i>qualsiasi</i><par n="ogni__det"/></e>
     <e lm="qualunque"><i>qualunque</i><par n="qualsivoglia__prn"/></e>
@@ -13883,7 +13893,7 @@
     <e lm="tutt'e due i"><i>tutt'e<b/>due</i><par n="tutt'e due/_i__det"/></e>
 
 
-    <!-- SECTION: Relativos -->
+<!--       ******************************      (rel) group      ******************************    -->
  
       <e r="RL" lm="come"><p><l><a/>come</l><r>come</r></p><par n="dove__rel"/></e>
       <e r="LR" lm="come"><i>come</i><par n="dove__rel"/></e>
@@ -13902,7 +13912,7 @@
     <e lm="che"><i>che</i><par n="che__rel"/></e>
     <e lm="chi"><i>chi</i><par n="chi__rel"/></e>
 
-    <!-- SECTION: Nombres propios -->
+<!--       ******************************      (np) group      ******************************    -->
 
     <e lm="Andrea"><i>Andrea</i><par n="María__np"/></e>
     <e lm="Andrea"><i>Andrea</i><par n="Juan__np"/></e>
@@ -28950,7 +28960,7 @@
     <e lm="commerciante"><i>commerciant</i><par n="albanes/e__n"/></e>
     <e lm="commesso"><i>commess</i><par n="abbain/o__n"/></e>
     <e lm="commessa"><i>commess</i><par n="cas/a__n"/></e>
-    <e lm="commissario"><i>commissari</i><par n="abbain/o__n"/></e>
+    <e lm="commissario"><i>commissari</i><par n="sopran/o__n"/></e>
     <e lm="commissione"><i>commission</i><par n="abbreviazion/e__n"/></e>
     <e lm="committente"><i>committent</i><par n="abat/e__n"/></e>
     <e lm="compagnia"><i>compagni</i><par n="cas/a__n"/></e>
@@ -29713,7 +29723,7 @@
     <e lm="finocchio"><i>finocchi</i><par n="abbagli/o__n"/></e>
     <e lm="rispecchio"><i>rispecchi</i><par n="abbagli/o__n"/></e>
     <e lm="finta"><i>fint</i><par n="cas/a__n"/></e>
-    <e lm="fiore"><i>fior</i><par n="abat/e__n"/></e>
+    <e lm="fiore"><i>fior</i><par n="abbagli/o__n"/></e>
     <e lm="fioreria"><i>fioreri</i><par n="cas/a__n"/></e>
     <e lm="firewall"><i>firewall</i><par n="affaire__n"/></e>
     <e lm="firma"><i>firm</i><par n="cas/a__n"/></e>
@@ -34363,15 +34373,8 @@
     <e lm="eccetto che"><i>eccetto<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="escluso che"><i>escluso<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="giacché"><i>giacché</i><par n="siccome__cnjadv"/></e>
-    
-
-
     <e lm="in modo che"><i>in<b/>modo<b/>che</i><par n="siccome__cnjadv"/></e>
-
     <e lm="in assenza di"><i>in<b/>assenza<b/></i><par n="/di__pr"/></e>
-
-
-
     <e lm="ipotizzando che"><i>ipotizzando<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="malgrado"><i>malgrado</i><par n="siccome__cnjadv"/></e>
     <e lm="nella misura in cui"><i>nella<b/>misura<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
@@ -36494,7 +36497,7 @@
     <e lm="talmente"><i>talmente</i><par n="bene__preadv"/></e>
     <e lm="fin"><i>fin</i><par n="bene__preadv"/></e>
 
-<!--       ******************************      (none) group      ******************************    -->
+<!--       ******************************      (prn) group      ******************************    -->
     <e lm="Lei"><p><l>Lei</l><r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="Loro"><p><l>Loro</l><r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 <!--    
@@ -36535,7 +36538,14 @@
     <e lm="entrambi"><p><l>entrambi</l><r>entrambi<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
     <e lm="entrambi"><p><l>entrambe</l><r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
-<!--       ******************************      (prn) group      ******************************    -->
+<e lm="tutt'uno"><p><l>tutt'uno</l><r>tutt'uno<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="tutt'altro"><p><l>tutt'altro</l><r>tutt'altro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="tutt'altro"><p><l>tutt'altra</l><r>tutt'altro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="tutt'altro"><p><l>tutt'altri</l><r>tutt'altro<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="tutt'altro"><p><l>tutt'altre</l><r>tutt'altro<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+
+
+
     <e lm="lui"><i></i><par n="/lui__prn"/></e>
     <e lm="egli"><i></i><par n="/egli__prn"/></e>
     <e lm="lo"><i></i><par n="/lo__prn"/></e>
@@ -36592,6 +36602,7 @@
     <e lm="quale"><i>qual</i><par n="qual/e__prn"/></e>
     <e lm="qualcosa"><i>qualcosa</i><par n="qualcosa__prn"/></e>
     <e lm="qualcuno"><i>qualcun</i><par n="qualcun/o__prn"/></e>
+    <e lm="qualcuno"><i>qualcun</i><par n="abbandonat/o__adj"/></e>
     <e lm="qualsiasi"><i>qualsiasi</i><par n="extra__adj"/></e>
     <e lm="qualsiasia"><i>qualsiasia</i><par n="extra__adj"/></e>
     <e lm="qualsivoglia"><i>qualsivoglia</i><par n="extra__adj"/></e>
@@ -36637,6 +36648,7 @@
     <e lm="nel"><par n="/nel__pr"/></e>
     <e lm="col"><par n="/col__pr"/></e>
     <e lm="sul"><par n="/sul__pr"/></e>
+    <e lm="tutt'a"><par n="/a__pr"/></e>
     <e lm="alla vista di"><i>alla<b/>vista<b/></i><par n="/di__pr"/></e>
 
     <e r="LR" lm="con"><i>con</i><par n="accanto__pr"/></e>
@@ -36713,9 +36725,10 @@
     <e lm="come a"><i>come<b/></i><par n="/a__pr"/></e>
     <e lm="per quanto riguarda"><i>per<b/>quanto<b/>riguarda</i><par n="accanto__pr"/></e>
 
-    <!-- SECTION: Adverbs --> 
+<!--       ******************************      (adv) group      ******************************    -->
 
     <e lm="abilmente"><i>abilmente</i><par n="ieri__adv"/></e>
+    <e lm="giorno dopo giorno"><i>giorno<b/>dopo<b/>giorno</i><par n="ieri__adv"/></e>
     <e lm="allerta"><i>allerta</i><par n="ieri__adv"/></e>
     <e lm="attraverso"><i>attraverso</i><par n="ieri__adv"/></e>
     <e lm="frattempo"><i>frattempo</i><par n="ieri__adv"/></e>
@@ -36921,6 +36934,7 @@
     <e lm="da un lato"><i>da<b/>un<b/>lato</i><par n="ieri__adv"/></e>
     <e lm="da morire"><i>da<b/>morire</i><par n="ieri__adv"/></e>
     <e lm="dal momento che"><i>dal<b/>momento<b/>che</i><par n="ieri__adv"/></e>
+    <e lm="dal momento in cui"><i>dal<b/>momento<b/>in<b/>cui</i><par n="ieri__adv"/></e>
     <e lm="dall'altro lato"><i>dall'altro<b/>lato</i><par n="ieri__adv"/></e>
     <e lm="dall'estero"><i>dall'estero</i><par n="ieri__adv"/></e>
     <e lm="dappertutto"><i>dappertutto</i><par n="ieri__adv"/></e>
@@ -37238,7 +37252,7 @@
     <e lm="pienamente"><i>pienamente</i><par n="ieri__adv"/></e>
     <e lm="piuttosto"><i>piuttosto</i><par n="ieri__adv"/></e>
     <e lm="più"><i>più</i><par n="ieri__adv"/></e>
-    <e lm="più di"><i>più<b/>di</i><par n="ieri__adv"/></e>
+ <!--   <e lm="più di"><i>più<b/>di</i><par n="ieri__adv"/></e>-->
     <e lm="più esattamente"><i>più<b/>esattamente</i><par n="ieri__adv"/></e>
     <e lm="più o meno"><i>più<b/>o<b/>meno</i><par n="ieri__adv"/></e>
     <e lm="poco a poco"><i>poco<b/>a<b/>poco</i><par n="ieri__adv"/></e>
@@ -37331,7 +37345,6 @@
     <e lm="lettera raccomandata"><p><l>lettere<b/>raccomandate</l><r>lettera<b/>raccomandata<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 
-
     <e lm="carta astrale"><p><l>carta<b/>astrale</l><r>carta<b/>astrale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>    
     <e lm="carte astrali"><p><l>carte<b/>astrali</l><r>carta<b/>astrale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
@@ -37409,6 +37422,12 @@
     <e lm="troppo"><i>troppo</i><par n="ieri__adv"/></e>
     <e lm="invece"><i>invece</i><par n="ieri__adv"/></e>
       <e r="LR" lm="tuttavia"><i>tuttavia</i><par n="ieri__adv"/></e>
+    <e lm="tutt'ora"><i>tutt'ora</i><par n="ieri__adv"/></e>
+
+<e lm="tutt'attorno"><i>tutt'attorno</i><par n="ieri__adv"/></e>
+<e lm="tutt'intorno"><i>tutt'intorno</i><par n="ieri__adv"/></e>
+<e lm="tutt'oggi"><i>tutt'oggi</i><par n="ieri__adv"/></e>
+
     <e lm="ufficialmente"><i>ufficialmente</i><par n="ieri__adv"/></e>
     <e lm="ugualmente"><i>ugualmente</i><par n="ieri__adv"/></e>
     <e lm="ulteriormente"><i>ulteriormente</i><par n="ieri__adv"/></e>
@@ -38646,7 +38665,7 @@
     <e lm="trans-nazionale"><i>trans-nazional</i><par n="fin/e__adj"/></e>
 
     <e lm="paritario"><i>paritari</i><par n="ampi/o__adj"/></e>
-    <e lm="poco"><i>poc</i><par n="caric/o__adj"/></e>
+    <e lm="poco"><i>poc</i><par n="poc/o__adj"/></e>
     <e lm="restio"><i>resti</i><par n="ampi/o__adj"/></e>
 
     <e lm="4x4"><i>4x4</i><par n="abilità__n"/></e>
@@ -42446,7 +42465,7 @@
     <e lm="molisano"><i>molisan</i><par n="abbandonat/o__adj"/></e>
     <e lm="mollo"><i>moll</i><par n="abbandonat/o__adj"/></e>
     <e lm="moltiplicativo"><i>moltiplicativ</i><par n="abbandonat/o__adj"/></e>
-    <e lm="molto"><i>molt</i><par n="abbandonat/o__adj"/></e>
+    <e lm="molto"><i>molt</i><par n="tropp/o__adj"/></e>
     <e lm="mondo"><i>mond</i><par n="abbandonat/o__adj"/></e>
     <e lm="mongolo"><i>mongol</i><par n="abbandonat/o__adj"/></e>
     <e lm="monocolo"><i>monocol</i><par n="abbandonat/o__adj"/></e>
@@ -42763,6 +42782,7 @@
     <e lm="posto"><i>post</i><par n="abbandonat/o__adj"/></e>
 
     <e lm="al posto di"><i>al<b/>posto<b/>di</i><par n="ieri__adv"/></e>
+    <e lm="al mondo"><i>al<b/>mondo</i><par n="ieri__adv"/></e>
 
     <e lm="postulato"><i>postulat</i><par n="abbandonat/o__adj"/></e>
     <e lm="postumo"><i>postum</i><par n="abbandonat/o__adj"/></e>
@@ -44118,7 +44138,7 @@
     <e lm="pia"><i>pi</i><par n="cas/a__n"/></e>
     <e lm="pittura"><i>pittur</i><par n="cas/a__n"/></e>
     <e lm="coltura"><i>coltur</i><par n="cas/a__n"/></e>
-    <e lm="poco"><i>poc</i><par n="fung/o__n"/></e>
+ <!--   <e lm="poco"><i>poc</i><par n="fung/o__n"/></e> bad for disambiguation-->
     <e lm="presa"><i>pres</i><par n="cas/a__n"/></e>
     <e lm="progressione"><i>progression</i><par n="abbreviazion/e__n"/></e>
     <e lm="reclusione"><i>reclusion</i><par n="abbreviazion/e__n"/></e>
@@ -47919,6 +47939,7 @@
     <e lm="a cavallo"><i>a<b/>cavallo</i><par n="ieri__adv"/></e>
     <e lm="a fatica"><i>a<b/>fatica</i><par n="ieri__adv"/></e>
     <e lm="a largo"><i>a<b/>largo</i><par n="ieri__adv"/></e>
+    <e lm="a rischio"><i>a<b/>rischio</i><par n="ieri__adv"/></e>
     <e lm="al contraio"><i>al<b/>contraio</i><par n="ancorché__cnjcoo"/></e>
     <e lm="alla buona"><i>alla<b/>buona</i><par n="ieri__adv"/></e>
     <e lm="al lato"><i>al<b/>lato</i><par n="ieri__adv"/></e>
@@ -48356,7 +48377,7 @@
       <e r="LR" lm="vicino all'"><p><l>vicino<b/>all'</l><r>vicino<b/>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="anch'"><p><l>anch'</l><r>anche</r></p><par n="ieri__adv"/></e>
       <e r="LR" lm="all'"><p><l>all'</l><r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e r="LR" lm="coll'"><p><l>coll'</l><r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR" lm="coll'"><p><l>coll'</l><r>con<s n="prn"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="d'"><p><l>d'</l><r>di<s n="pr"/></r></p></e>
       <e r="LR" lm="d'"><p><l>d'</l><r>da<s n="pr"/></r></p></e>
       <e r="LR" lm="dall'"><p><l>dall'</l><r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -48365,11 +48386,17 @@
       <e r="LR" lm="l'"><p><l>l'</l><r>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+
+<e r="LR" lm="bell'"><p><l>bell'</l><r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+<e r="LR" lm="bell'"><p><l>bell'</l><r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+
       <e r="LR" lm="nell'"><p><l>nell'</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="quand'"><p><l>quand'</l><r>quando<s n="rel"/><s n="adv"/></r></p></e>
+      <e r="LR" lm="quant'"><p><l>quant'</l><r>quanto<s n="rel"/><s n="adv"/></r></p></e>
       <e r="LR" lm="quell'"><p><l>quell'</l><r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="quest'"><p><l>quest'</l><r>questo<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="senz'"><p><l>senz'</l><r>senza<s n="pr"/></r></p></e>
+      <e r="LR" lm="mezz'"><p><l>mezz'</l><r>mezza<s n="pr"/></r></p></e>
       <e r="LR" lm="sott'"><p><l>sott'</l><r>sotto<s n="pr"/></r></p></e>
       <e r="LR" lm="sull'"><p><l>sull'</l><r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="un'"><p><l>un'</l><r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
