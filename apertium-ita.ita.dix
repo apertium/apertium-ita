@@ -20264,6 +20264,8 @@
     <e lm="viennese"><i>viennes</i><par n="albanes/e__n"/></e>
     <e lm="protettore"><i>protett</i><par n="agricolt/ore__n"/></e>
     <e lm="tirolese"><i>tiroles</i><par n="albanes/e__n"/></e>
+    <e lm="sudtirolese"><i>sudtiroles</i><par n="albanes/e__n"/></e>
+    <e lm="sud-tirolese"><i>sud-tiroles</i><par n="albanes/e__n"/></e>
     <e lm="duellante"><i>duellant</i><par n="abat/e__n"/></e>
     <e lm="usciere"><i>uscier</i><par n="abat/e__n"/></e>
     <e lm="cantautore"><i>cantaut</i><par n="agricolt/ore__n"/></e>
@@ -23206,6 +23208,7 @@
     <e lm="alacre"><i>alacr</i><par n="fin/e__adj"/></e>
     <e lm="cantabile"><i>cantabil</i><par n="fin/e__adj"/></e>
     <e lm="sudtirolese"><i>sudtiroles</i><par n="albanes/e__adj"/></e>
+    <e lm="sud-tirolese"><i>sud-tiroles</i><par n="albanes/e__adj"/></e>
     <e lm="stradale"><i>stradal</i><par n="fin/e__adj"/></e>
     <e lm="minimale"><i>minimal</i><par n="fin/e__adj"/></e>
     <e lm="proteiforme"><i>proteiform</i><par n="fin/e__adj"/></e>
@@ -25513,7 +25516,7 @@
     <e lm="fracasso"><i>fracass</i><par n="abbain/o__n"/></e>
     <e lm="fraintendimento"><i>fraintendiment</i><par n="abbain/o__n"/></e>
     <e lm="francescano"><i>francescan</i><par n="bambin/o__n"/></e>
-    <e lm="francofono"><i>francofon</i><par n="abbain/o__n"/></e>
+    <e lm="francofono"><i>francofon</i><par n="bambin/o__n"/></e>
     <e lm="frastuono"><i>frastuon</i><par n="abbain/o__n"/></e>
     <e lm="fratellastro"><i>fratellastr</i><par n="abbain/o__n"/></e>
     <e lm="fratellino"><i>fratellin</i><par n="abbain/o__n"/></e>
@@ -48400,6 +48403,17 @@
     <e lm="ammannire"><i>ammann</i><par n="abbrut/ire__vblex"/></e>
     <e lm="moscare"><i>mosc</i><par n="abbarbic/are__vblex"/></e>
     <e lm="pungolare"><i>pungol</i><par n="abbacin/are__vblex"/></e>
+
+    <e lm="sardofono"><i>sardofon</i><par n="abbandonat/o__adj"/></e>
+    <e lm="sardofono"><i>sardofon</i><par n="bambin/o__n"/></e>
+    <e r="LR" lm="sardufono"><p><l>sardufon</l><r>sardofon</r></p><par n="abbandonat/o__adj" /></e>
+    <e r="LR" lm="sardufono"><p><l>sardufon</l><r>sardofon</r></p><par n="bambin/o__n" /></e>
+    <e r="LR" lm="sardu"><p><l>sardu</l><r>sardo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="transfrontaliero"><i>transfrontalier</i><par n="abbandonat/o__adj"/></e>
+    <e lm="folclorismo"><i>folclorism</i><par n="abbain/o__n"/></e>
+    <e lm="folklorismo"><i>folklorism</i><par n="abbain/o__n"/></e>
+    <e lm="argumentare"><i>argument</i><par n="abbacin/are__vblex"/></e>
+
 
   </section>
 
