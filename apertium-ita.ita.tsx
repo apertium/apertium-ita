@@ -239,18 +239,21 @@
  <def-label name="ADJF">
    <tags-item tags="adj.f.*"/>
    <tags-item tags="adj.ind.f.*"/>
+   <tags-item tags="adj.ind.sup.f.*"/>
    <tags-item tags="adj.ord.f.*"/>
    <tags-item tags="adj.sup.f.*"/>
  </def-label>
  <def-label name="ADJM">
    <tags-item tags="adj.m.*"/>
    <tags-item tags="adj.ind.m.*"/>
+   <tags-item tags="adj.ind.sup.m.*"/>
    <tags-item tags="adj.ord.m.*"/>
    <tags-item tags="adj.sup.m.*"/>
  </def-label>
  <def-label name="ADJMF">
    <tags-item tags="adj.mf.*"/>
    <tags-item tags="adj.ind.mf.*"/>
+   <tags-item tags="adj.ind.sup.mf.*"/>
    <tags-item tags="adj.ord.mf.*"/>
    <tags-item tags="adj.sup.mf.*"/>
  </def-label> 

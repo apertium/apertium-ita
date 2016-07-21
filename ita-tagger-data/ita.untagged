@@ -437,7 +437,7 @@
 ^stelle/stella<n><f><pl>$
 ^e/e<cnjcoo>$
 ^non/non<adv>$
-^c'è/c'è<vblex><pri><p3><sg>$
+^c'/ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^da/da<pr>$
 ^meravigliarsi/*meravigliarsi$
 ^se/se<cnjadv>$
@@ -470,7 +470,7 @@
 ^nel/in<pr>+il<det><def><m><sg>$
 ^2011/2011<num>$
 ^,/,<cm>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^state/stato<adj><f><pl>/stare<vblex><imp><p2><pl>/stare<vblex><pp><f><pl>/stare<vblex><pri><p2><pl>/essere<vbser><pp><f><pl>$
 ^più/più<adv>$
 ^vendite/vendita<n><f><pl>$
@@ -646,7 +646,7 @@
 ^al/a<pr>+il<det><def><m><sg>$
 ^mondo/mondo<n><m><sg>/mondo<adj><m><sg>/mondare<vblex><pri><p1><sg>$
 ^,/,<cm>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^ancora/ancora<adv>/ancora<n><f><sp>/ancorare<vblex><imp><p2><sg>/ancorare<vblex><pri><p3><sg>$
 ^2,5/2,5<num>$
 ^milioni/milione<n><m><pl>$
@@ -766,7 +766,7 @@
 ^sostanzialmente/sostanzialmente<adv>$
 ^nello/in<pr>+il<det><def><m><sg>$
 ^stesso/stesso<adv>/stesso<n><m><sg>/stesso<adj><m><sg>/stesso<prn><tn><m><sg>$
-^posto/posto<n><m><sg>/posto<adj><m><sg>/porre<vblex><pp><m><sg>$
+^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$
 ^./.<sent>$
 ^E/E<cnjcoo>$
 ^abbiamo/avere<vblex><imp><p1><pl>/avere<vblex><pri><p1><pl>/avere<vblex><prs><p1><pl>/avere<vbhaver><pri><p1><pl>/avere<vbhaver><prs><p1><pl>$
@@ -874,7 +874,7 @@
 ^i/il<det><def><m><pl>$
 ^luoghi/luogo<n><m><pl>$
 ^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^più/più<adv>$
 ^auto/auto<n><f><sp>$
 ^./.<sent>$
@@ -886,7 +886,7 @@
 ^vedete/vedere<vblex><imp><p2><pl>/vedere<vblex><pri><p2><pl>$
 ^che/che<cnjsub>/che<rel><an><mf><sp>$
 ^non/non<adv>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^tanti/tanto<n><m><pl>/tanto<adj><m><pl>$
 ^colori/colore<n><m><pl>/colorare<vblex><imp><p3><sg>/colorare<vblex><pri><p2><sg>/colorare<vblex><prs><p3><sg>/colorare<vblex><prs><p1><sg>/colorare<vblex><prs><p2><sg>$
 ^accesi/acceso<adj><m><pl>/accendere<vblex><ifi><p1><sg>/accendere<vblex><pp><m><pl>$
@@ -1047,7 +1047,7 @@
 ^settimana/settimana<n><f><sg>$
 ^siamo/essere<vbser><imp><p1><pl>/essere<vbser><pri><p1><pl>/essere<vbser><prs><p1><pl>$
 ^a/a<pr>$
-^posto/posto<n><m><sg>/posto<adj><m><sg>/porre<vblex><pp><m><sg>$
+^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$
 ^./.<sent>$
 ^Come/Come<pr>/Come<adv><itg>/Come<rel><adv>$
 ^arriviamo/arrivare<vblex><imp><p1><pl>/arrivare<vblex><pri><p1><pl>/arrivare<vblex><prs><p1><pl>$
@@ -1104,7 +1104,7 @@
 ^quelle/quello<prn><tn><f><pl>/quello<det><dem><f><pl>$
 ^cassette/cassetta<n><f><pl>$
 ^della/di<pr>+il<det><def><f><sg>$
-^posta/posta<n><f><sg>/posto<adj><f><sg>/porre<vblex><pp><f><sg>$
+^posta/posta<n><f><sg>/porre<vblex><pp><f><sg>$
 ^si/si<prn><pro><ref><p3><mf><sp>$
 ^estendono/estendere<vblex><pri><p3><pl>$
 ^per/per<pr>$
@@ -1124,7 +1124,7 @@
 ^vialetti/vialetto<n><m><pl>$
 ^,/,<cm>$
 ^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$
-^maggior/maggior<adj><mf><sp>$
+^maggior/maggior<adj><mf><sp>/maggiore<adj><mf><sg>$
 ^parte/parte<n><f><sg>/partire<vblex><pri><p3><sg>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
 ^loro/loro<adj><pos><mf><sp>/loro<det><pos><mf><sp>/lui<prn><tn><p3><mf><pl>/loro<prn><tn><pos><mf><sp>$
@@ -1136,7 +1136,7 @@
 ^e/e<cnjcoo>$
 ^vanno/andare<vblex><pri><p3><pl>$
 ^al loro/a<pr>+il loro<det><pos><m><sg>/a<pr>+il loro<prn><tn><pos><m><sg>$
-^posto/posto<n><m><sg>/posto<adj><m><sg>/porre<vblex><pp><m><sg>$
+^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
 ^lavoro/lavoro<n><m><sg>/lavorare<vblex><pri><p1><sg>$
 ^./.<sent>$
@@ -1221,7 +1221,7 @@
 ^cosa/cosa<n><f><sg>/cosa<prn><itg><mf><sg>$
 ^eccezionale/eccezionale<adj><mf><sg>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^solo/solo<adv>/solo<adj><m><sg>$
 ^un/un<det><ind><m><sg>$
 ^problema/problema<n><m><sg>$
@@ -2251,7 +2251,7 @@
 ^,/,<cm>$
 ^e/e<cnjcoo>$
 ^in/in<pr>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^in/in<pr>$
 ^cui/cui<rel><an><mf><sp>$
 ^non/non<adv>$
@@ -2270,7 +2270,7 @@
 ^lasci/lasciare<vblex><imp><p3><sg>/lasciare<vblex><pri><p2><sg>/lasciare<vblex><prs><p3><sg>/lasciare<vblex><prs><p1><sg>/lasciare<vblex><prs><p2><sg>$
 ^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$
 ^persona/persona<n><f><sg>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^molte/molto<adj><ind><f><pl>/molto<det><ind><f><pl>$
 ^più/più<adv>$
 ^possibilità/possibilità<n><f><sp>$
@@ -2299,7 +2299,7 @@
 ^guadagno/guadagno<n><m><sg>/guadagnare<vblex><pri><p1><sg>$
 ^./.<sent>$
 ^E/E<cnjcoo>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^città/città<n><f><sp>$
 ^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$
 ^abbiamo/avere<vblex><imp><p1><pl>/avere<vblex><pri><p1><pl>/avere<vblex><prs><p1><pl>/avere<vbhaver><pri><p1><pl>/avere<vbhaver><prs><p1><pl>$
@@ -2363,7 +2363,7 @@
 ^prezzi/prezzo<n><m><pl>$
 ^calano/calare<vblex><pri><p3><pl>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
 ^prezzo/prezzo<n><m><sg>$
 ^ottimale/ottimale<adj><mf><sg>$
@@ -2615,7 +2615,7 @@
 ^./.<sent>$
 ^./.<sent>$
 ^./.<sent>$
-^ci sarà/c'è<vblex><fti><p3><sg>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sarà/essere<vbser><fti><p3><sg>$
 ^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$
 ^lunga/lungo<adj><f><sg>$
 ^fase/fase<n><f><sg>$
@@ -2628,7 +2628,7 @@
 ^solo/solo<adv>/solo<adj><m><sg>$
 ^in/in<pr>$
 ^certi/certo<adj><m><pl>/certo<det><ind><m><pl>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^./.<sent>$
 ^È/ESSERE<vbser><pri><p3><sg>$
 ^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$
@@ -3290,7 +3290,7 @@
 ^e/e<cnjcoo>$
 ^sembra/sembrare<vblex><imp><p2><sg>/sembrare<vblex><pri><p3><sg>$
 ^fuori/fuori<adv>/fuori<pr>$
-^posto/posto<n><m><sg>/posto<adj><m><sg>/porre<vblex><pp><m><sg>$
+^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$
 ^ma/ma<cnjcoo>$
 ^poi/poi<adv>$
 ^gradualmente/gradualmente<adv>$
@@ -3458,7 +3458,7 @@
 ^ho/avere<vblex><pri><p1><sg>/avere<vbhaver><pri><p1><sg>$
 ^viaggiato/viaggiare<vblex><pp><m><sg>$
 ^in/in<pr>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$
 ^non/non<adv>$
 ^sarei/essere<vbser><cni><p1><sg>$
@@ -3580,7 +3580,7 @@
 ^potenziale/potenziale<n><m><sg>/potenziale<adj><mf><sg>/potenziare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>/potenziare<vblex><imp><p2><sg>+gli<prn><enc><p3><f><sg>$
 ^nascosto/nascosto<adj><m><sg>/nascondere<vblex><pp><m><sg>$
 ^nei/neo<n><m><pl>/in<pr>+il<det><def><m><pl>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^più/più<adv>$
 ^impensabili/impensabile<adj><mf><pl>$
 ^,/,<cm>$
@@ -3623,7 +3623,7 @@
 ^enormi/enorme<adj><mf><pl>$
 ^e/e<cnjcoo>$
 ^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$
-^maggior/maggior<adj><mf><sp>$
+^maggior/maggior<adj><mf><sp>/maggiore<adj><mf><sg>$
 ^parte/parte<n><f><sg>/partire<vblex><pri><p3><sg>$
 ^del/di<pr>+il<det><def><m><sg>$
 ^tempo/tempo<n><m><sg>$
@@ -3738,7 +3738,7 @@
 ^è/essere<vbser><pri><p3><sg>$
 ^successo/successo<n><m><sg>/succedere<vblex><pp><m><sg>$
 ^mi/mi<prn><pro><p1><mf><sg>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^aggrappata/*aggrappata$
 ^,/,<cm>$
 ^ho/avere<vblex><pri><p1><sg>/avere<vbhaver><pri><p1><sg>$
@@ -3827,7 +3827,7 @@
 ^)/)<rpar>$
 ^E/E<cnjcoo>$
 ^certamente/certamente<adv>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^cose/cosa<n><f><pl>$
 ^riguardo/riguardo<n><m><sg>/riguardare<vblex><pri><p1><sg>$
 ^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$
@@ -4065,7 +4065,7 @@
 ^:/:<sent>$
 ^accomodatevi/*accomodatevi$
 ^!/!<sent>$
-^Ci sono/C'è<vblex><pri><p3><pl>$
+^Ci/Ci<prn><pro><adv>/Ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^molte/molto<adj><ind><f><pl>/molto<det><ind><f><pl>$
 ^fonti/fonte<n><f><pl>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
@@ -4133,7 +4133,7 @@
 ^contiamo/contare<vblex><imp><p1><pl>/contare<vblex><pri><p1><pl>/contare<vblex><prs><p1><pl>$
 ^ancora/ancora<adv>/ancora<n><f><sp>/ancorare<vblex><imp><p2><sg>/ancorare<vblex><pri><p3><sg>$
 ^su/su<adv>/su<pr>$
-^sporchi/sporcare<vblex><imp><p3><sg>/sporcare<vblex><pri><p2><sg>/sporcare<vblex><prs><p3><sg>/sporcare<vblex><prs><p1><sg>/sporcare<vblex><prs><p2><sg>$
+^sporchi/sporco<adj><m><pl>/sporcare<vblex><imp><p3><sg>/sporcare<vblex><pri><p2><sg>/sporcare<vblex><prs><p3><sg>/sporcare<vblex><prs><p1><sg>/sporcare<vblex><prs><p2><sg>$
 ^combustibili/combustibile<n><m><pl>/combustibile<adj><mf><pl>$
 ^a/a<pr>$
 ^base/base<n><f><sg>$
@@ -4231,7 +4231,7 @@
 ^vera/vera<n><f><sg>/vero<adj><f><sg>$
 ^,/,<cm>$
 ^anzi/anzi<adv>/anzi<cnjcoo>$
-^prudente/prudente<adj><mf><sg>$
+^prudente/*prudente$
 ^./.<sent>$
 ^Ora/Ora<adv>/Ora<n><f><sg>$
 ^,/,<cm>$
@@ -4976,14 +4976,14 @@
 ^differenti/differente<adj><mf><pl>$
 ^ora/ora<adv>/ora<n><f><sg>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^molta/molto<adj><ind><f><sg>/molto<det><ind><f><sg>$
 ^più/più<adv>$
 ^energia/energia<n><f><sg>$
 ^nell'/in<pr>+il<det><def><mf><sg>$ 
 ^atmosfera/atmosfera<n><f><sg>$
 ^,/,<cm>$
-^c'è/c'è<vblex><pri><p3><sg>$
+^c'/ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^molto più/molto più<adv>$
 ^vapore/vapore<n><m><sg>$
 ^acqueo/acqueo<adj><m><sg>$
@@ -5037,7 +5037,7 @@
 ^Nord/Nord<n><m><sg>$
 ^America/America<np><loc><f><sg>$
 ^./.<sent>$
-^Ci sono/C'è<vblex><pri><p3><pl>$
+^Ci/Ci<prn><pro><adv>/Ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^state/stato<adj><f><pl>/stare<vblex><imp><p2><pl>/stare<vblex><pp><f><pl>/stare<vblex><pri><p2><pl>/essere<vbser><pp><f><pl>$
 ^senz'/senza<pr>$ 
 ^altro/altro<prn><tn><m><sg>/altro<adj><ind><m><sg>$
@@ -5057,7 +5057,7 @@
 ^si/si<prn><pro><ref><p3><mf><sp>$
 ^accumula/accumulare<vblex><imp><p2><sg>/accumulare<vblex><pri><p3><sg>$
 ^,/,<cm>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^molti/molto<adj><ind><m><pl>/molto<det><ind><m><pl>$
 ^più/più<adv>$
 ^fulmini/fulmine<n><m><pl>/fulminare<vblex><imp><p3><sg>/fulminare<vblex><pri><p2><sg>/fulminare<vblex><prs><p3><sg>/fulminare<vblex><prs><p1><sg>/fulminare<vblex><prs><p2><sg>$
@@ -5125,7 +5125,7 @@
 ^in/in<pr>$
 ^Iraq/Iraq<np><loc><m><sg>$
 ^./.<sent>$
-^Ci sono/C'è<vblex><pri><p3><pl>$
+^Ci/Ci<prn><pro><adv>/Ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^anche/anche<adv>/anca<n><f><pl>$
 ^altri/altro<prn><tn><m><pl>/altro<adj><ind><m><pl>/un altro<det><ind><m><pl>$
 ^fattori/fattore<n><m><pl>$
@@ -5357,7 +5357,7 @@
 ^Terra/Terra<n><f><sg>/Terra<np><loc><f><sg>$
 ^entro/entro<pr>/entrare<vblex><pri><p1><sg>$
 ^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$
-^fine/fine<n><m><sg>/fine<n><f><sg>/fine<n><mf><sg>/fine<adj><mf><sg>/fino<adj><f><pl>$
+^fine/fine<n><m><sg>/fine<n><f><sg>/fine<adj><mf><sg>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
 ^questo/questo<prn><tn><m><sg>/questo<prn><tn><nt><sg>/questo<det><dem><m><sg>$
 ^secolo/secolo<n><m><sg>$
@@ -5679,7 +5679,7 @@
 ^sta/stare<vblex><pri><p3><sg>$
 ^aumentando/aumentare<vblex><ger>$
 ^,/,<cm>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^molti/molto<adj><ind><m><pl>/molto<det><ind><m><pl>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
 ^questi/questo<prn><tn><m><pl>/questo<det><dem><m><pl>$
@@ -5742,7 +5742,7 @@
 ^globale/globale<adj><mf><sg>$
 ^./.<sent>$
 ^Quindi/Quindi<adv>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^banchieri/banchiere<n><m><pl>$
 ^centrali/centrale<n><mf><pl>/centrale<adj><mf><pl>/centrare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><pl>$
 ^come/come<pr>/come<adv><itg>/come<rel><adv>$
@@ -6417,7 +6417,7 @@
 ^più/più<adv>$
 ^drasticamente/drasticamente<adv>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^quindi/quindi<adv>$
 ^un/un<det><ind><m><sg>$
 ^precedente/precedente<n><mf><sg>/precedente<adj><mf><sg>$
@@ -6521,7 +6521,7 @@
 ^anno/anno<n><m><sg>$
 ^./.<sent>$
 ^Ora/Ora<adv>/Ora<n><f><sg>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^più/più<adv>$
 ^connessioni/connessione<n><f><pl>$
 ^cellulari/cellulare<n><m><pl>/cellulare<adj><mf><pl>$
@@ -6546,7 +6546,7 @@
 ^?/?<sent>$
 ^Mi/Mi<prn><pro><p1><mf><sg>$
 ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
-^posto/posto<n><m><sg>/posto<adj><m><sg>/porre<vblex><pp><m><sg>$
+^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$
 ^questa/questo<prn><tn><f><sg>/questo<det><dem><f><sg>$
 ^domanda/domanda<n><f><sg>/domandare<vblex><imp><p2><sg>/domandare<vblex><pri><p3><sg>$
 ^:/:<sent>$
@@ -6587,7 +6587,7 @@
 ^basso/basso<adj><m><sg>$
 ^reddito/reddito<n><m><sg>$
 ^,/,<cm>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$
 ^non/non<adv>$
 ^c'/ci<prn><pro><adv>$ 
@@ -6643,10 +6643,10 @@
 ^molte/molto<adj><ind><f><pl>/molto<det><ind><f><pl>$
 ^aree/area<n><f><pl>$
 ^non/non<adv>$
-^c'è/c'è<vblex><pri><p3><sg>$
+^c'/ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^proprio/proprio<adv>/proprio<adj><m><sg>$
 ^./.<sent>$
-^CI sono/C'è<vblex><pri><p3><pl>$
+^Ci/Ci<prn><pro><adv>/Ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^più/più<adv>$
 ^persone/persona<n><f><pl>$
 ^senza/senza<pr>$
@@ -6661,7 +6661,7 @@
 ^./.<sent>$
 ^Perciò/Perciò<adv>/Perciò<cnjcoo>$
 ^ora/ora<adv>/ora<n><f><sg>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^pannelli/pannello<n><m><pl>$
 ^solari/solare<adj><mf><pl>$
 ^su/su<adv>/su<pr>$
@@ -7089,7 +7089,7 @@
 ^della/di<pr>+il<det><def><f><sg>$
 ^missione/missione<n><f><sg>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
 ^fatto/fatto<n><m><sg>/fare<vblex><pp><m><sg>$
 ^poco/poco<adv>/poco<prn><tn><m><sg>/poco<adj><ind><m><sg>$
@@ -7694,7 +7694,7 @@
 ^agevolata/agevolare<vblex><pp><f><sg>$
 ^in/in<pr>$
 ^molti/molto<adj><ind><m><pl>/molto<det><ind><m><pl>$
-^posti/posto<n><m><pl>/posto<adj><m><pl>/porre<vblex><pp><m><pl>$
+^posti/posto<n><m><pl>/porre<vblex><pp><m><pl>$
 ^,/,<cm>$
 ^diventa/diventare<vblex><imp><p2><sg>/diventare<vblex><pri><p3><sg>$
 ^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$
@@ -7712,7 +7712,7 @@
 ^dell'/di<pr>+il<det><def><mf><sg>$ 
 ^autobus/autobus<n><m><sp>$
 ^,/,<cm>$
-^c'è/c'è<vblex><pri><p3><sg>$
+^c'/ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
 ^tentativo/tentativo<n><m><sg>$
 ^di/di<pr>/dire<vblex><imp><p2><sg>$
@@ -7729,7 +7729,7 @@
 ^non/non<adv>$
 ^funzionerà/funzionare<vblex><fti><p3><sg>$
 ^./.<sent>$
-^C'è/C'è<vblex><pri><p3><sg>$
+^C'/Ci<prn><pro><adv>$ ^è/essere<vbser><pri><p3><sg>$
 ^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$
 ^donna/don<adj><f><sg>/donna<n><f><sg>$
 ^a/a<pr>$
@@ -7843,7 +7843,7 @@
 ^Christiana/*Christiana$
 ^può/potere<vblex><pri><p3><sg>/potere<vbmod><pri><p3><sg>$
 ^testimoniare/testimoniare<vblex><inf>$
-^ci sono/c'è<vblex><pri><p3><pl>$
+^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ ^sono/sonare<vblex><pri><p1><sg>/essere<vbser><pri><p3><pl>/essere<vbser><pri><p1><sg>$
 ^state/stato<adj><f><pl>/stare<vblex><imp><p2><pl>/stare<vblex><pp><f><pl>/stare<vblex><pri><p2><pl>/essere<vbser><pp><f><pl>$
 ^persone/persona<n><f><pl>$
 ^in/in<pr>$
