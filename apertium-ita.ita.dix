@@ -11955,6 +11955,10 @@
     <pardef n="nocciola__adj">
       <e><p><l></l><r><s n="adj"/><s n="f"/><s n="sp"/></r></p></e>
     </pardef>
+
+   <pardef n="porno__adj">
+      <e><p><l></l><r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+    </pardef>
     
     <pardef n="extra__adj">
       <e><p><l></l><r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -13944,7 +13948,7 @@
     <e lm="Andrea"><i>Andrea</i><par n="María__np"/></e>
     <e lm="Andrea"><i>Andrea</i><par n="Juan__np"/></e>
 
-    <e lm="Fini"><i>Fini</i><par n="Juan__np"/></e>
+    <e lm="Fini"><i>Fini</i><par n="Díez__np"/></e>
     <e lm="Oscar"><i>Oscar</i><par n="Juan__np"/></e>
     <e lm="Unicaja"><i>BBVA</i><par n="BBVA__n"/></e>
     <e lm="Paco"><i>Paco</i><par n="Juan__np"/></e>
@@ -15303,7 +15307,6 @@
     <e lm="Vivenzio"><i>Vivenzio</i><par n="Juan__np"/></e>
     <e lm="Lisandra"><i>Lisandra</i><par n="María__np"/></e>
     <e lm="Lidio"><i>Lidio</i><par n="Juan__np"/></e>
-    <e lm="Innocente"><i>Innocente</i><par n="Juan__np"/></e>
     <e lm="Elvira"><i>Elvira</i><par n="María__np"/></e>
     <e lm="Adolfina"><i>Adolfina</i><par n="María__np"/></e>
     <e lm="Adalfredo"><i>Adalfredo</i><par n="Juan__np"/></e>
@@ -20636,7 +20639,6 @@
     <e lm="cassiere"><i>cassier</i><par n="abat/e__n"/></e>
     <e lm="predecessore"><i>predecessor</i><par n="albanes/e__n"/></e>
     <e lm="treppiede"><i>treppied</i><par n="abat/e__n"/></e>
-    <e lm="colle"><i>coll</i><par n="abat/e__n"/></e>
     <e lm="cofondatore"><i>cofondat</i><par n="agricolt/ore__n"/></e>
     <e lm="ricettore"><i>ricett</i><par n="agricolt/ore__n"/></e>
     <e lm="carnefice"><i>carnefic</i><par n="abat/e__n"/></e>
@@ -20844,7 +20846,6 @@
     <e lm="avvisatore"><i>avvisat</i><par n="agricolt/ore__n"/></e>
     <e lm="generone"><i>generon</i><par n="abat/e__n"/></e>
     <e lm="priore"><i>prior</i><par n="abat/e__n"/></e>
-    <e lm="solerte"><i>solert</i><par n="abat/e__n"/></e>
     <e lm="bimotore"><i>bimotor</i><par n="abat/e__n"/></e>
     <e lm="patrocinatore"><i>patrocinat</i><par n="agricolt/ore__n"/></e>
     <e lm="videoregistratore"><i>videoregistrator</i><par n="abat/e__n"/></e>
@@ -21059,7 +21060,6 @@
     <e lm="autarticamente"><i>autarticamente</i><par n="ieri__adv"/></e>
     <e lm="barbaramente"><i>barbaramente</i><par n="ieri__adv"/></e>
     <e lm="bellamente"><i>bellamente</i><par n="ieri__adv"/></e>
-    <e lm="ben"><i>ben</i><par n="ieri__adv"/></e>
     <e lm="benché"><i>benché</i><par n="ieri__adv"/></e>
     <e lm="benissimo"><i>benissimo</i><par n="ieri__adv"/></e>
     <e lm="bilateralmente"><i>bilateralmente</i><par n="ieri__adv"/></e>
@@ -21193,7 +21193,6 @@
     <e lm="funzionalmente"><i>funzionalmente</i><par n="ieri__adv"/></e>
     <e lm="generosamente"><i>generosamente</i><par n="ieri__adv"/></e>
     <e lm="genuinamente"><i>genuinamente</i><par n="ieri__adv"/></e>
-    <e lm="gioventù"><i>gioventù</i><par n="ieri__adv"/></e>
     <e lm="globalmente"><i>globalmente</i><par n="ieri__adv"/></e>
     <e lm="goffamente"><i>goffamente</i><par n="ieri__adv"/></e>
     <e lm="gradatamente"><i>gradatamente</i><par n="ieri__adv"/></e>
@@ -21399,19 +21398,16 @@
     <e lm="squilibrio"><i>squilibr</i><par n="marina/io__n"/></e>
     <e lm="semestrale"><i>semestral</i><par n="fin/e__adj"/></e>
     <e lm="scoglio"><i>scogl</i><par n="marina/io__n"/></e>
-    <e r="LR" lm="dire pronta a"><i>d</i><par n="d/ire__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e>
-<!--    
-    <e r="LR" lm="essere pronta a"><i></i><par n="/essere__vblex"/><p><l><b/>pronta<b/>a</l><r><g><b/>pronta<b/>a</g></r></p></e> -->
+
     <e r="LR" lm="guidato da"><i>guidat</i><par n="abbandonat/o__adj"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
-    <e r="LR" lm="a cominciare da"><i>a<b/>cominciare<b/>da</i><par n="accanto__pr"/></e>
+    <e lm="a cominciare da"><i>a<b/>cominciare<b/></i><par n="/da__pr"/></e>
     <e lm="ad uno ad uno"><i>ad<b/>uno<b/>ad<b/>uno</i><par n="ieri__adv"/></e>
     <e lm="in queste ore"><i>in<b/>queste<b/>ore</i><par n="ieri__adv"/></e>
     <e r="LR" lm="riuscire a"><i>ri</i><par n="fuori/uscire__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
     <e r="LR" lm="prima de tutto"><i>prima<b/>di<b/>tutto</i><par n="ieri__adv"/></e>
     <e lm="finalizzato a"><i>finalizzato<b/>a</i><par n="accanto__pr"/></e>
     <e r="LR" lm="alla fine"><i>alla<b/>fine</i><par n="ieri__adv"/></e>
-    <e r="LR" lm="decidere de"><i>deci</i><par n="acclu/dere__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
-    <e r="LR" lm="decidere di"><i>deci</i><par n="acclu/dere__vblex"/><p><l><b/>di</l><r><g><b/>di</g></r></p></e>
+    <e lm="decidere di"><i>deci</i><par n="acclu/dere__vblex"/><p><l><b/>di</l><r><g><b/>di</g></r></p></e>
     <e r="LR" lm="al di fuori da"><i>al<b/>di<b/>fuori<b/></i><par n="/da__pr"/></e>
 
     <e lm="portato da"><p><l>portato<b/></l><r>portato<b/></r></p><par n="/da__pr"/></e>        
@@ -21733,7 +21729,7 @@
     <e lm="Asl" c="Azienda Sanitaria Locale"><i>Asl</i><par n="TV__n"/></e>
     <e lm="bisogno"><i>bisogn</i><par n="abbain/o__n"/></e>
     <e lm="corporate tax"><i>corporate<b/>tax</i><par n="abilità__n"/></e>
-    <e lm="ecco"><i>ecco</i><par n="salve__ij"/></e>
+    <e lm="granché"><i>granché</i><par n="abilità__n"/></e> 
     <e lm="ecco"><i>ecco</i><par n="ieri__adv"/></e>
     <e lm="rialzo"><i>rialz</i><par n="abbain/o__n"/></e>
     <e lm="abaco"><i>abac</i><par n="fung/o__n"/></e>
@@ -25437,8 +25433,8 @@
     <e lm="favorito"><i>favorit</i><par n="abbain/o__n"/></e>
     <e lm="fazioso"><i>fazios</i><par n="abbain/o__n"/></e>
     <e lm="fazzolettino"><i>fazzolettin</i><par n="abbain/o__n"/></e>
-    <e lm="fedelissimo"><i>fedelissim</i><par n="abbain/o__n"/></e>
-    <e lm="importantissimo"><i>importantissim</i><par n="abbain/o__n"/></e>
+    <e lm="fedelissimo"><i>fedelissim</i><par n="abbandonat/o__adj"/></e>
+    <e lm="importantissimo"><i>importantissim</i><par n="abbandonat/o__adj"/></e>
     <e lm="federalismo"><i>federalism</i><par n="abbain/o__n"/></e>
     <e lm="felino"><i>felin</i><par n="abbain/o__n"/></e>
     <e lm="femminiello"><i>femminiell</i><par n="abbain/o__n"/></e>
@@ -29153,8 +29149,7 @@
     <e lm="cortile"><i>cortil</i><par n="abat/e__n"/></e>
     <e lm="cortocircuito"><i>cortocircuit</i><par n="abbain/o__n"/></e>
     <e lm="cortometraggio"><i>cortometraggi</i><par n="abbagli/o__n"/></e>
-    <e lm="cosa"><i>cos</i><par n="cas/a__n"/></e>
-    <e lm="granché"><i>granché</i><par n="ace__n"/></e>  
+    <e lm="cosa"><i>cos</i><par n="cas/a__n"/></e> 
     <e lm="coscienza"><i>coscienz</i><par n="cas/a__n"/></e>
     <e lm="cosmetica"><i>cosmetic</i><par n="tasc/a__n"/></e>
     <e lm="cosmonauta"><i>cosmonaut</i><par n="suicid/a__n"/></e>
@@ -33041,6 +33036,7 @@
     <e lm="ciao"><i>ciao</i><par n="salve__ij"/></e>
     <e lm="magari"><i>magari</i><par n="salve__ij"/></e>
     <e lm="aspetta"><i>aspetta</i><par n="salve__ij"/></e>
+    <e lm="ecco"><i>ecco</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (adj) group      ******************************    -->
     <e r="LR" lm="buon"><p><l>buon</l><r>buono<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -33539,7 +33535,6 @@
     <e lm="fiammingo"><i>fiamming</i><par n="tedesc/o__adj"/></e>
     <e lm="filiale"><i>filial</i><par n="fin/e__adj"/></e>
     <e lm="filosofico"><i>filosofic</i><par n="tecnic/o__adj"/></e>
-    <e lm="fino"><i>fin</i><par n="abbandonat/o__adj"/></e>
     <e lm="finale"><i>final</i><par n="fin/e__adj"/></e>
     <e lm="finanziario"><i>finanziari</i><par n="ampi/o__adj"/></e>
     <e lm="notiziario"><i>notiziari</i><par n="ampi/o__adj"/></e>
@@ -34364,31 +34359,13 @@
     <e lm="abitare da sempre"><i>abit</i><par n="abbacin/are__vblex"/><p><l><b/>da<b/>sempre</l><r><g><b/>da<b/>sempre</g></r></p></e>
 
 <!--       ******************************      (cnjsub) group      ******************************    -->
-    <e lm="anche se"><i>anche<b/>se</i><par n="siccome__cnjadv"/></e>
+
     <e lm="che"><i>che</i><par n="affinché__cnjsub"/></e>
-
-    <e lm="finché"><i>finché</i><par n="siccome__cnjadv"/></e>
-
-    <e lm="affinché"><i>affinché</i><par n="siccome__cnjadv"/></e>
-    <!-- <e lm="granché"><i>granché</i><par n="affinché__cnjsub"/></e> -->
-    <e lm="cosicché"><i>cosicché</i><par n="siccome__cnjadv"/></e>
-    <e lm="nonostante" r="RL"><i>nonostante</i><par n="siccome__cnjadv"/></e>
-    <e lm="così"><i>così</i><par n="siccome__cnjadv"/></e>
-    <e lm="poiché"><i>poiché</i><par n="siccome__cnjadv"/></e>
-    <e lm="perché"><i>perché</i><par n="siccome__cnjadv"/></e>
-    <e r="LR" lm="perché"><p><l>perchè</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
-    <e r="LR" lm="perche'"><p><l>perche'</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
-    <e lm="sennonché"><i>sennonché</i><par n="siccome__cnjadv"/></e>
-    <e lm="sicché"><i>sicché</i><par n="siccome__cnjadv"/></e>
-    <e lm="ove"><i>ove</i><par n="siccome__cnjadv"/></e>
-    <e lm="seppur"><i>seppur</i><par n="siccome__cnjadv"/></e>
-    <e lm="anziché"><i>anziché</i><par n="siccome__cnjadv"/></e>
-    <e lm="per cosa"><i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
-   <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e> -->
-    <e lm="dove"><i>dove</i><par n="siccome__cnjadv"/></e>
-    <e lm="laddove"><i>laddove</i><par n="siccome__cnjadv"/></e>
+   
 
 <!--       ******************************      (cnjadv) group      ******************************    -->
+
+
     <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="a migliaia"><i>a<b/>migliaia</i><par n="siccome__cnjadv"/></e>
     <e lm="allora"><i>allora</i><par n="siccome__cnjadv"/></e>
@@ -34428,6 +34405,28 @@
     <e lm="solo con"><i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
     <e lm="tenendo in conto che"><i>tenendo<b/>in<b/>conto</i><par n="siccome__cnjadv"/></e>
     <e lm="tutto ciò"><i>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
+    <e lm="anche se"><i>anche<b/>se</i><par n="siccome__cnjadv"/></e>
+    <e lm="finché"><i>finché</i><par n="siccome__cnjadv"/></e>
+    <e lm="affinché"><i>affinché</i><par n="siccome__cnjadv"/></e>
+    <e lm="cosicché"><i>cosicché</i><par n="siccome__cnjadv"/></e>
+    <e lm="nonostante" r="RL"><i>nonostante</i><par n="siccome__cnjadv"/></e>
+    <e lm="così"><i>così</i><par n="siccome__cnjadv"/></e>
+    <e lm="poiché"><i>poiché</i><par n="siccome__cnjadv"/></e>
+    <e lm="perché"><i>perché</i><par n="siccome__cnjadv"/></e>
+    <e r="LR" lm="perché"><p><l>perchè</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
+    <e r="LR" lm="perche'"><p><l>perche'</l><r>perché</r></p><par n="siccome__cnjadv"/></e>
+    <e lm="sennonché"><i>sennonché</i><par n="siccome__cnjadv"/></e>
+    <e lm="sicché"><i>sicché</i><par n="siccome__cnjadv"/></e>
+    <e lm="ove"><i>ove</i><par n="siccome__cnjadv"/></e>
+    <e lm="seppur"><i>seppur</i><par n="siccome__cnjadv"/></e>
+    <e lm="anziché"><i>anziché</i><par n="siccome__cnjadv"/></e>
+    <e lm="per cosa"><i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
+
+   <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>  -->
+
+    <e lm="dove"><i>dove</i><par n="siccome__cnjadv"/></e>
+    <e lm="laddove"><i>laddove</i><par n="siccome__cnjadv"/></e>
+
 
 <!--       ******************************      (vblex) group      ******************************    -->
     <e lm="formulare"><i>formul</i><par n="abbacin/are__vblex"/></e>
@@ -36527,7 +36526,6 @@
     <e lm="malapena"><i>malapena</i><par n="bene__preadv"/></e>
     <e lm="male"><i>male</i><par n="bene__preadv"/></e>
     <e lm="molto"><i>molto</i><par n="bene__preadv"/></e>
-    <e lm="granché"><i>granché</i><par n="bene__preadv"/></e>
     <e lm="appena"><i>appena</i><par n="bene__preadv"/></e>
     <e lm="tanto"><i>tanto</i><par n="bene__preadv"/></e>
     <e lm="così"><i>così</i><par n="bene__preadv"/></e>
@@ -37251,7 +37249,6 @@
     <e lm="ovviamente"><i>ovviamente</i><par n="ieri__adv"/></e>
     <e lm="parecchi mesi"><i>parecchi<b/>mesi</i><par n="ieri__adv"/></e>
     <e lm="particolarmente"><i>particolarmente</i><par n="ieri__adv"/></e>
-    <e lm="passeggiando"><i>passeggiando</i><par n="ieri__adv"/></e>
     <e lm="pazientemente"><i>pazientemente</i><par n="ieri__adv"/></e>
     <e lm="parzialmente"><i>parzialmente</i><par n="ieri__adv"/></e>
     <e lm="pazzamente"><i>pazzamente</i><par n="ieri__adv"/></e>
@@ -42805,7 +42802,7 @@
     <e lm="popoloso"><i>popolos</i><par n="abbandonat/o__adj"/></e>
     <e lm="porcellanato"><i>porcellanat</i><par n="abbandonat/o__adj"/></e>
     <e lm="porcino"><i>porcin</i><par n="abbandonat/o__adj"/></e>
-    <e lm="porno"><i>porn</i><par n="abbandonat/o__adj"/></e>
+    <e lm="porno"><i>porn</i><par n="porno__adj"/></e>
     <e lm="poroso"><i>poros</i><par n="abbandonat/o__adj"/></e>
     <e lm="porporato"><i>porporat</i><par n="abbandonat/o__adj"/></e>
     <e lm="porporino"><i>porporin</i><par n="abbandonat/o__adj"/></e>
@@ -42817,7 +42814,6 @@
     <e lm="possessivo"><i>possessiv</i><par n="abbandonat/o__adj"/></e>
     <e lm="post-moderno"><i>post-modern</i><par n="abbandonat/o__adj"/></e>
     <e lm="postmoderno"><i>postmodern</i><par n="abbandonat/o__adj"/></e>
-    <e lm="posto"><i>post</i><par n="abbandonat/o__adj"/></e>
 
     <e lm="al posto di"><i>al<b/>posto<b/>di</i><par n="ieri__adv"/></e>
     <e lm="al mondo"><i>al<b/>mondo</i><par n="ieri__adv"/></e>
@@ -44258,7 +44254,6 @@
     <e lm="Arthur"><i>Arthur</i><par n="Juan__np"/></e>
     <e lm="Balderico"><i>Balderico</i><par n="Juan__np"/></e>
     <e lm="Barry"><i>Barry</i><par n="Juan__np"/></e>
-    <e lm="Ben"><i>Ben</i><par n="Juan__np"/></e>
     <e lm="Beronico"><i>Beronico</i><par n="Juan__np"/></e>
     <e lm="Bob"><i>Bob</i><par n="Juan__np"/></e>
     <e lm="Bonamico"><i>Bonamico</i><par n="Juan__np"/></e>
@@ -44964,7 +44959,6 @@
     <e lm="ADN"><i>ADN</i><par n="BBVA__n"/></e>
     <e lm="OCSE"><i>OCSE</i><par n="BBVA__n"/></e>
     <e lm="AG"><i>AG</i><par n="TV__n"/></e>
-    <e lm="AIDS"><i>AIDS</i><par n="BBVA__n"/></e>
     <e lm="Ajax"><i>Ajax</i><par n="Fiat__np"/></e>
     <e lm="Aleksandr"><i>Aleksandr</i><par n="Juan__np"/></e>
     <e lm="Alexander"><i>Alexander</i><par n="Díez__np"/></e>
@@ -46803,7 +46797,7 @@
     <e lm="escursionista"><i>escursionist</i><par n="suicid/a__adj"/></e>
     <e lm="estremista"><i>estremist</i><par n="suicid/a__adj"/></e>
     <e lm="federalista"><i>federalist</i><par n="suicid/a__adj"/></e>
-    <e lm="gesuita"><i>gesuit</i><par n="autom/a__n"/></e>
+    <e lm="gesuita"><i>gesuit</i><par n="suicid/a__n"/></e>
     <e lm="gesuita"><i>gesuit</i><par n="suicid/a__adj"/></e>
     <e lm="linguista"><i>linguist</i><par n="suicid/a__adj"/></e>
     <e lm="ponente"><i>ponent</i><par n="albanes/e__adj"/></e>
@@ -47905,7 +47899,6 @@
     <e lm="euro"><i>eur</i><par n="abbain/o__n"/></e>
     <e lm="ferrovia secondaria"><p><l>ferrovia secondaria</l><r>ferrovia secondaria<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="ferrovia secondaria"><p><l>ferrovie secondari</l><r>ferrovia secondaria<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e lm="fine"><i>fin</i><par n="albanes/e__n"/></e>
     <e lm="fonetica"><i>fonetic</i><par n="tasc/a__n"/></e>
     <e lm="frana"><i>fran</i><par n="cas/a__n"/></e>
     <e lm="andatura"><i>andatur</i><par n="cas/a__n"/></e>
@@ -47983,7 +47976,7 @@
     <e lm="all'indietro"><i>all'indietro</i><par n="ieri__adv"/></e>
     <e lm="allora"><i>allora</i><par n="ancorché__cnjcoo"/></e>
     <e lm="all'ora"><i>all'ora</i><par n="ieri__adv"/></e>
-    <e lm="al punto che"><i>al<b/>punto<b/>che</i><par n="affinché__cnjsub"/></e>
+    <e lm="al punto che"><i>al<b/>punto<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="al rovescio"><i>al<b/>rovescio</i><par n="ieri__adv"/></e>
     <e lm="a malavoglia"><i>a<b/>malavoglia</i><par n="ieri__adv"/></e>
     <e lm="a mezzanotte"><i>a<b/>mezzanotte</i><par n="ieri__adv"/></e>

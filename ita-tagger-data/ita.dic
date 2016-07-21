@@ -27,14 +27,20 @@
 ^tali/tale<n><m><pl>/tale<det><dem><mf><pl>/tale<prn><tn><mf><pl>/tale<adj><mf><pl>$
 ^talune/taluno<det><ind><f><pl>$
 ^tutti/tutto<predet><m><pl>/tutto<prn><tn><m><pl>/tutto<adj><m><pl>$
+
 ^tutta/tutto<predet><nt><sp>/tutto<predet><f><sg>/tutto<prn><tn><f><sg>/tutto<adj><f><sg>$
+
 ^tutte/tutto<predet><f><pl>/tutto<prn><tn><f><pl>/tutto<adj><f><pl>$
-^tutt'/tutto<predet><m><sg>$
+
+^tutt'/tutto<predet><mf><sg>$
+
 ^delle/un<det><ind><f><pl>/di<pr>+il<det><def><f><pl>$
 ^uno/un<det><ind><m><sg>/uno<num><m><sp>/uno<prn><tn><m><sg>$
 ^un'/un<det><ind><f><sg>/un<det><ind><mf><sg>$
+
 ^dei/dio<n><m><pl>/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$
 ^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$
+
 ^una/un<det><ind><f><sg>/uno<num><f><sp>/uno<prn><tn><f><sg>$
 ^vari/varo<n><m><pl>/vario<det><ind><m><pl>/varare<vblex><pri><p2><sg>/variare<vblex><prs><p3><sg>/varare<vblex><imp><p3><sg>/varo<adj><m><pl>$
 ^come/come<adv><itg>/come<pr>/come<rel><adv>$
@@ -72,7 +78,9 @@
 ^Indiana/Indiano<n><f><sg>/Indiana<np><ant><m><sg>/Indiana<np><loc><f><sg>/Indiano<adj><f><sg>$
 ^Generalitat/Generalitat<np><loc><f><sg>/Generalitat<np><al><f><sg>$
 ^Stato/Stato<n><m><sg>/Stato<np><al><m><sg>/Stare<vblex><pp><m><sg>/Essere<vbser><pp><m><sg>/Stato<adj><m><sg>$
+
 ^Libano/Libano<n><m><sg>/Libano<np><loc><m><sg>$
+
 ^Mariana/Mariana<np><ant><f><sg>/Mariano<adj><f><sg>$
 ^Mediterraneo/Mediterraneo<np><loc><m><sg>/Mediterraneo<adj><m><sg>$
 ^Mosca/Mosca<n><f><sg>/Mosca<np><loc><f><sg>$
@@ -85,7 +93,9 @@
 ^Germana/Germano<n><f><sg>/Germana<np><ant><f><sg>/Germano<adj><f><sg>$
 ^Innocente/Innocente<n><m><sg>/Innocente<n><mf><sg>/Innocente<np><ant><m><sg>/Innocente<adj><mf><sg>$
 ^Natala/Natala<np><ant><f><sg>/Nascere<vblex><pp><f><sg>$
+
 ^/lo<prn><enc><p3><f><sg>$
+
 ^Pasquale/Pasquale<np><ant><m><sg>/Pasquale<adj><mf><sg>$
 ^Diano/Diano<np><ant><m><sg>/Dare<vblex><prs><p3><pl>/Dare<vblex><imp><p3><pl>$
 ^Sparta/Sparta<np><loc><f><sg>/Spargere<vblex><pp><f><sg>/Sparto<adj><f><sg>$
@@ -192,7 +202,9 @@
 ^assente/assente<n><m><sg>/assentire<vblex><pri><p3><sg>/assente<adj><mf><sg>$
 ^volere/volere<n><m><sg>/volere<vbmod><inf>$
 ^mutandone/mutandone<n><m><sg>/mutare<vblex><ger>+ne<prn><enc><adv>$
+
 ^solerti/solerte<n><m><pl>/solerte<adj><mf><pl>/solere<vblex><inf>+ti<prn><enc><p2><mf><sg>$
+
 ^portatili/portatile<n><m><pl>/portare<vblex><pp><m><pl>/portatile<adj><mf><pl>$
 ^possessori/possessore<n><m><pl>/possessorio<adj><m><pl>/possessore<adj><mf><pl>$
 ^molle/molle<n><m><sg>/mollo<adj><f><pl>/molle<adj><mf><sg>$
@@ -207,7 +219,9 @@
 ^fa/fa<adv>/fare<vblex><pri><p3><sg>/fare<vblex><imp><p2><sg>$
 ^a patto che/a patto che<cnjadv>$
 ^frattanto/frattanto<adv>/frattanto<cnjsub>$
+
 ^gioventù/gioventù<n><f><sp>/gioventù<adv>$
+
 ^incontro/incontro<n><m><sg>/incontro<adv>/incontrare<vblex><pri><p1><sg>$
 ^magari/magari<adv>/magari<cnjsub>/magari<ij>$
 ^manco/manco<adv>/mancare<vblex><pri><p1><sg>$
@@ -234,13 +248,17 @@
 ^bisognata/bisognare<vbmod><pp><f><sg>$
 ^bisogno/bisogno<n><m><sg>/bisognare<vbmod><pri><p1><sg>$
 ^bisogni/bisogno<n><m><pl>/bisognare<vbmod><pri><p2><sg>/bisognare<vbmod><prs><p3><sg>$
+
 ^dì pronta a/dire<vblex><imp><p2><sg># pronta a$
 ^dite pronta a/dire<vblex><pri><p2><pl># pronta a/dire<vblex><imp><p2><pl># pronta a$
+
 ^a cominciare da/a cominciare da<pr>$
+
 ^decisi de/decidere<vblex><pp><m><pl># de/decidere<vblex><ifi><p1><sg># de$
+
 ^al di fuori dal/al di fuori da<pr>+il<det><def><m><sg>$
 ^al di fuori dal mio/al di fuori da<pr>+il mio<det><pos><m><sg>/al di fuori da<pr>+il mio<prn><tn><pos><m><sg>$
-^portato di tuoi/portato a<pr>+il tuo<prn><tn><pos><m><pl>$
+^portato ai tuoi/portato a<pr>+il tuo<prn><tn><pos><m><pl>$
 ^negoziati/negoziato<n><m><pl>/negoziare<vblex><pp><m><pl>/negoziato<adj><m><pl>/negoziare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>$
 ^negoziato/negoziato<n><m><sg>/negoziare<vblex><pp><m><sg>/negoziato<adj><m><sg>$
 ^meglio/meglio<n><f><sp>/meglio<adv>/meglio<adj><mf><sp>$
@@ -491,7 +509,9 @@
 ^posi/posare<vblex><pri><p2><sg>/porre<vblex><ifi><p1><sg>/posare<vblex><prs><p3><sg>/posare<vblex><imp><p3><sg>$
 ^portele/porgere<vblex><pp><f><pl>/porre<vblex><inf>+ti<prn><enc><p2><mf><sg>+lo<prn><enc><p3><f><pl>$
 ^porsi/porgere<vblex><ifi><p1><sg>/porre<vblex><inf>+si<prn><enc><ref><p3><mf><sp>$
+
 ^porne/porno<adj><f><pl>/porre<vblex><inf>+ne<prn><enc><adv>$
+
 ^rimaste/rimanere<vblex><pp><f><pl>/rimare<vblex><ifi><p2><pl>/rimare<vblex><pis><p2><pl>$
 ^rimane/rimanere<vblex><pri><p3><sg>/rimare<vblex><imp><p2><sg>+ne<prn><enc><adv>$
 ^segnala/segnalare<vblex><pri><p3><sg>/segnalare<vblex><imp><p2><sg>/segnare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><sg>$
