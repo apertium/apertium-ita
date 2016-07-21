@@ -12069,6 +12069,15 @@
       <e><p><l>issime</l><r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
     
+    <pardef n="imprudent/e__adj">
+      <e><p><l>e</l><r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e><p><l>issimo</l><r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>issimi</l><r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>issima</l><r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>issime</l><r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+    
     <pardef n="anfitrion/e__adj">
       <e><p><l>e</l><r>e<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>i</l><r>e<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -19957,7 +19966,6 @@
     <e lm="portale"><i>portal</i><par n="abat/e__n"/></e>
     <e lm="plusvalore"><i>plusvalor</i><par n="abat/e__n"/></e>
     <e lm="dispiacere"><i>dispiacer</i><par n="abat/e__n"/></e>
-    <e lm="imprudente"><i>imprudent</i><par n="abat/e__n"/></e>
     <e lm="onnipotente"><i>onnipotent</i><par n="abat/e__n"/></e>
     <e lm="convivente"><i>convivent</i><par n="albanes/e__n"/></e>
     <e lm="mitomane"><i>mitoman</i><par n="abat/e__n"/></e>
@@ -21300,6 +21308,7 @@
     <e lm="programmaticamente"><i>programmaticamente</i><par n="ieri__adv"/></e>
     <e lm="proprio"><i>proprio</i><par n="ieri__adv"/></e>
     <e lm="prudentemente"><i>prudentemente</i><par n="ieri__adv"/></e>
+    <e lm="imprudentemente"><i>imprudentemente</i><par n="ieri__adv"/></e>
     <e lm="punto"><i>punto</i><par n="ieri__adv"/></e>
     <e lm="pur"><i>pur</i><par n="ieri__adv"/></e>
     <e lm="pure"><i>pure</i><par n="ieri__adv"/></e>
@@ -22976,7 +22985,7 @@
     <e lm="valdese"><i>valdes</i><par n="albanes/e__adj"/></e>
     <e lm="esportabile"><i>esportabil</i><par n="fin/e__adj"/></e>
     <e lm="memore"><i>memor</i><par n="albanes/e__adj"/></e>
-    <e lm="imprudente"><i>imprudent</i><par n="fin/e__adj"/></e>
+    <e lm="imprudente"><i>imprudent</i><par n="imprudent/e__adj"/></e>
     <e lm="controvertibile"><i>controvertibil</i><par n="fin/e__adj"/></e>
     <e lm="onnipotente"><i>onnipotent</i><par n="fin/e__adj"/></e>
     <e lm="convivente"><i>convivent</i><par n="fin/e__adj"/></e>
@@ -40080,6 +40089,7 @@
     <e lm="fobico"><i>fobic</i><par n="tecnic/o__adj"/></e>
     <e lm="focomelico"><i>focomelic</i><par n="tecnic/o__adj"/></e>
     <e lm="folcloristico"><i>folcloristic</i><par n="tecnic/o__adj"/></e>
+    <e lm="folkloristico"><i>folkloristic</i><par n="tecnic/o__adj"/></e>
     <e lm="fonico"><i>fonic</i><par n="tecnic/o__adj"/></e>
     <e lm="fonografico"><i>fonografic</i><par n="tecnic/o__adj"/></e>
     <e lm="formalistico"><i>formalistic</i><par n="tecnic/o__adj"/></e>
@@ -47849,7 +47859,6 @@
     <e lm="orunese"><i>orunes</i><par n="albanes/e__adj"/></e>
     <e lm="preservato"><i>preservat</i><par n="cosiddett/o__adj"/></e>
     <e lm="presuposto"><i>presupost</i><par n="cosiddett/o__adj"/></e>
-    <e lm="prudente"><i>prudent</i><par n="albanes/e__adj"/></e>
     <e lm="ritardatario"><i>ritardatari</i><par n="ampi/o__adj"/></e>
     <e lm="rossiccio"><i>rossicci</i><par n="ampi/o__adj"/></e>
     <e lm="salentino"><i>salentin</i><par n="cosiddett/o__adj"/></e>
@@ -48413,6 +48422,9 @@
     <e lm="folclorismo"><i>folclorism</i><par n="abbain/o__n"/></e>
     <e lm="folklorismo"><i>folklorism</i><par n="abbain/o__n"/></e>
     <e lm="argumentare"><i>argument</i><par n="abbacin/are__vblex"/></e>
+    <e lm="metabolizzare"><i>metabolizza</i><par n="abbacin/are__vblex"/></e>
+    <e lm="boomerang"><i>boomerang</i><par n="albatros__n"/></e>
+    <e lm="chace"><i>chace</i><par n="abilità__n"/></e>
 
 
   </section>
@@ -48433,8 +48445,8 @@
       <e r="LR" lm="n'"><p><l>n'</l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="LR" lm="c'"><p><l>c'</l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 
-<e r="LR" lm="bell'"><p><l>bell'</l><r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
-<e r="LR" lm="bell'"><p><l>bell'</l><r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+      <e r="LR" lm="bell'"><p><l>bell'</l><r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+      <e r="LR" lm="bell'"><p><l>bell'</l><r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
 
       <e r="LR" lm="nell'"><p><l>nell'</l><r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
       <e r="LR" lm="quand'"><p><l>quand'</l><r>quando<s n="rel"/><s n="adv"/></r></p></e>
