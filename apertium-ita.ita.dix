@@ -40618,7 +40618,7 @@
     <e lm="acuminato"><i>acuminat</i><par n="abbandonat/o__adj"/></e>
     <e lm="adamantino"><i>adamantin</i><par n="abbandonat/o__adj"/></e>
     <e lm="pochino"><i>pochin</i><par n="abbandonat/o__adj"/></e>
-    <e lm="pochissimo"><i>pochissim</i><par n="abbandonat/o__adj"/></e>
+    <!-- <e lm="pochissimo"><i>pochissim</i><par n="abbandonat/o__adj"/></e> adj.ind -->
     <e lm="adatto"><i>adatt</i><par n="abbandonat/o__adj"/></e>
     <e lm="addestrativo"><i>addestrativ</i><par n="abbandonat/o__adj"/></e>
     <e lm="additivo"><i>additiv</i><par n="abbandonat/o__adj"/></e>
