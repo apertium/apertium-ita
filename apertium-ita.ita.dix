@@ -397,8 +397,8 @@
 
 <pardef n="colleg/a__n">
   <e>       <p><l>a</l>         <r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ghi</l>       <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ghe</l>       <r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hi</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>he</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -12843,12 +12843,6 @@
 <pardef n="cittadin/o-elettore__n">
   <e>       <p><l>i-elettori</l><r>o-elettore<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>o-elettore</l><r>o-elettore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-</pardef>
-    
-<pardef n="colleg/a__n">
-  <e>       <p><l>a</l>         <r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>he</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>hi</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="bene__preadv">
