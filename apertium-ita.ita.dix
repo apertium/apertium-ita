@@ -40135,6 +40135,8 @@
     <e lm="gnostico"><i>gnostic</i><par n="tecnic/o__adj"/></e>
     <e lm="goliardico"><i>goliardic</i><par n="tecnic/o__adj"/></e>
     <e lm="gotico"><i>gotic</i><par n="tecnic/o__adj"/></e>
+    <e lm="neogotico"><i>neogotic</i><par n="tecnic/o__adj"/></e>
+    <e lm="tardogotico"><i>tardogotic</i><par n="tecnic/o__adj"/></e>
     <e lm="grammatico"><i>grammatic</i><par n="tecnic/o__adj"/></e>
     <e lm="granitico"><i>granitic</i><par n="tecnic/o__adj"/></e>
     <e lm="grecanico"><i>grecanic</i><par n="tecnic/o__adj"/></e>
@@ -40426,6 +40428,8 @@
     <e lm="robotico"><i>robotic</i><par n="tecnic/o__adj"/></e>
     <e lm="roco"><i>roc</i><par n="tecnic/o__adj"/></e>
     <e lm="romanico"><i>romanic</i><par n="tecnic/o__adj"/></e>
+    <e lm="preromanico"><i>preromanic</i><par n="tecnic/o__adj"/></e>
+    <e lm="tardoromanico"><i>tardoromanic</i><par n="tecnic/o__adj"/></e>
     <e lm="runico"><i>runic</i><par n="tecnic/o__adj"/></e>
     <e lm="rustico"><i>rustic</i><par n="tecnic/o__adj"/></e>
     <e lm="sabbatico"><i>sabbatic</i><par n="tecnic/o__adj"/></e>
