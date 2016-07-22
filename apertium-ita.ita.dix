@@ -44028,7 +44028,9 @@
     <e lm="millionesimo"><i>millionesim</i><par n="prim/o__adj"/></e>
 
     <e lm="a.C."><i>a.C</i><par n="a.C.__abbr"/></e>
+    <e lm="a.C." r="LR"><p><l>a.<b/>C.</l><r>a.C</r></p><par n="a.C.__abbr"/></e>
     <e lm="d.C."><i>d.C</i><par n="a.C.__abbr"/></e>
+    <e lm="a.C." r="LR"><p><l>d.<b/>C.</l><r>d.C</r></p><par n="a.C.__abbr"/></e>
     <e lm="p.es."><i>p.es.</i><par n="a.C.__abbr"/></e>
     <e lm="p.es." r="LR"><p><l>p.<b/>es.</l><r>p.es.</r></p><par n="a.C.__abbr"/></e>
 
