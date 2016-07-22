@@ -24774,6 +24774,7 @@
     <e lm="capriolo"><i>capriol</i><par n="abbain/o__n"/></e>
     <e lm="caratterino"><i>caratterin</i><par n="abbain/o__n"/></e>
     <e lm="carboidrato"><i>carboidrat</i><par n="abbain/o__n"/></e>
+    <e lm="accaduto"><i>accadut</i><par n="abbain/o__n"/></e>
     <e lm="carbonaro"><i>carbonar</i><par n="abbain/o__n"/></e>
     <e lm="carboncino"><i>carboncin</i><par n="abbain/o__n"/></e>
     <e lm="carcerato"><i>carcerat</i><par n="bambin/o__n"/></e>
@@ -25445,7 +25446,8 @@
     <e lm="feretro"><i>feretr</i><par n="abbain/o__n"/></e>
     <e lm="ferimento"><i>feriment</i><par n="abbain/o__n"/></e>
     <e lm="fermato"><i>fermat</i><par n="abbain/o__n"/></e>
-    <e lm="fermato"><i>fermat</i><par n="cas/a__n"/></e>
+    <e lm="fermata"><i>fermat</i><par n="cas/a__n"/></e>
+    <e lm="conferma"><i>conferm</i><par n="cas/a__n"/></e>
     <e lm="imprenditoria"><i>imprenditori</i><par n="cas/a__n"/></e>
     <e lm="fermento"><i>ferment</i><par n="abbain/o__n"/></e>
     <e lm="fermo"><i>ferm</i><par n="abbain/o__n"/></e>
@@ -31850,6 +31852,7 @@
     <e lm="stagnazione"><i>stagnazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="stalla"><i>stall</i><par n="cas/a__n"/></e>
     <e lm="stampa"><i>stamp</i><par n="cas/a__n"/></e>
+    <e lm="stampa"><i>stamp</i><par n="destr/a__adj"/></e>
     <e lm="stampo"><i>stamp</i><par n="abbain/o__n"/></e>
     <e lm="stampante"><i>stampant</i><par n="abbreviazion/e__n"/></e>
     <e lm="standard"><i>standard</i><par n="affaire__n"/></e>
@@ -33791,6 +33794,7 @@
     <e lm="marittimo"><i>marittim</i><par n="abbandonat/o__adj"/></e>
     <e lm="marocchino"><i>marocchin</i><par n="abbandonat/o__adj"/></e>
     <e lm="marrone"><i>marron</i><par n="albanes/e__adj"/></e>
+    <e lm="rosa"><i>ros</i><par n="nocciola__adj"/></e>
     <e lm="marziale"><i>marzial</i><par n="fin/e__adj"/></e>
     <e lm="marziano"><i>marzian</i><par n="abbandonat/o__adj"/></e>
     <e lm="maschile"><i>maschil</i><par n="fin/e__adj"/></e>
@@ -34402,6 +34406,7 @@
     <e lm="prima che"><i>prima<b/>che</i><par n="siccome__cnjadv"/></e>
     <e lm="sebbene"><i>sebbene</i><par n="siccome__cnjadv"/></e>
     <e lm="secondo"><i>secondo</i><par n="siccome__cnjadv"/></e>
+    <e lm="a seconda di"><i>a<b/>seconda<b/>di</i><par n="siccome__cnjadv"/></e>
     <e lm="se"><i>se</i><par n="siccome__cnjadv"/></e>
     <e lm="quando"><i>quando</i><par n="siccome__cnjadv"/></e>
     <e lm="solo con"><i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
@@ -37000,6 +37005,7 @@
     <e lm="di tanto in quando"><i>di<b/>tanto<b/>in<b/>quando</i><par n="ieri__adv"/></e>
     <e lm="di recente"><i>di<b/>recente</i><par n="ieri__adv"/></e>
     <e lm="di seguito"><i>di<b/>seguito</i><par n="ieri__adv"/></e>
+    <e lm="in seguito"><i>in<b/>seguito</i><par n="ieri__adv"/></e>
     <e lm="di sfuggita"><i>di<b/>sfuggita</i><par n="ieri__adv"/></e>
     <e lm="dietro"><i>dietro</i><par n="ieri__adv"/></e>
     <e lm="difficile da credere"><i>difficile<b/>da<b/>credere</i><par n="ieri__adv"/></e>
@@ -38231,8 +38237,11 @@
     <e lm="abiura"><i>abiur</i><par n="cas/a__n"/></e>
     <e lm="sequoia"><i>sequoi</i><par n="cas/a__n"/></e>
     <e lm="mappatura"><i>mappatur</i><par n="cas/a__n"/></e>
+    <e lm="rassegna"><i>rassegn</i><par n="cas/a__n"/></e>
     <e lm="accortezza"><i>accortezz</i><par n="cas/a__n"/></e>
     <e lm="fretta"><i>frett</i><par n="cas/a__n"/></e>
+    <e lm="asfissia"><i>asfissi</i><par n="cas/a__n"/></e>
+    <e lm="sosta"><i>sost</i><par n="cas/a__n"/></e>
     <e lm="accusa"><i>accus</i><par n="cas/a__n"/></e>
     <e lm="acquiescenza"><i>acquiescenz</i><par n="cas/a__n"/></e>
     <e lm="previdenza"><i>previdenz</i><par n="cas/a__n"/></e>
