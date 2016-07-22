@@ -386,6 +386,15 @@
       <e><p><l>i</l><r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>e</l><r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
+
+    <pardef n="colleg/a__n">
+      <e><p><l>a</l><r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>ghi</l><r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ghe</l><r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
     
     <pardef n="tedesc/o__n">
       <e><p><l>o</l><r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -9997,7 +10006,7 @@
       <e><p><l>ossa</l><r>otere<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
     
-<!-- XXX continar aqui -->
+<!-- XXX continuar aqui -->
     <pardef n="p/otere__vblex">
       <e><p><l>otremmo</l><r>otere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>otrei</l><r>otere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -13931,7 +13940,9 @@
       <e r="RL" lm="come"><p><l><a/>come</l><r>come</r></p><par n="dove__rel"/></e>
       <e r="LR" lm="come"><i>come</i><par n="dove__rel"/></e>
     <e lm="quale"><i>qual</i><par n="qual/e__rel"/></e>
-    <e lm="quanto"><i>quant</i><par n="quant/o__rel"/></e>
+      <e r="LR" lm="quanto"><i>quanto</i><par n="quant/o__rel"/></e>
+      <e r="RL" lm="quanto"><p><l><a/>quanto</l><r>quanto</r></p><par n="quant/o__rel"/></e>
+
       <e r="RL" lm="dove"><p><l><a/>dove</l><r>dove</r></p><par n="dove__rel"/></e>
       <e r="LR" lm="dove"><i>dove</i><par n="dove__rel"/></e>
     <e lm="quando"><i>quando</i><par n="dove__rel"/></e>
@@ -19259,6 +19270,7 @@
     <e lm="investitore"><i>investit</i><par n="agricolt/ore__n"/></e>
     <e lm="ispettore"><i>ispett</i><par n="agricolt/ore__n"/></e>
     <e lm="deficit"><i>deficit</i><par n="albatros__n"/></e>
+    <e lm="pressi"><i>pressi</i><par n="albatros__n"/></e>
     <e lm="indicizzazione"><i>indicizzazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="sinusite"><i>sinusit</i><par n="abbreviazion/e__n"/></e>
     <e lm="rinosinusite"><i>rinosinusite</i><par n="abbreviazion/e__n"/></e>
@@ -28639,7 +28651,7 @@
     <e lm="colpevole"><i>colpevol</i><par n="albanes/e__n"/></e>
     <e lm="colto"><i>colt</i><par n="bambin/o__n"/></e>
     <e lm="coma"><i>com</i><par n="autom/a__n"/></e>
-    <e lm="collega"><i>colleg</i><par n="suicid/a__n"/></e>
+    <e lm="collega"><i>colleg</i><par n="colleg/a__n"/></e>
     <e lm="composto"><i>compost</i><par n="abbain/o__n"/></e>
     <e lm="contrazione"><i>contrazion</i><par n="abbreviazion/e__n"/></e>
     <e lm="convocazione"><i>convocazion</i><par n="abbreviazion/e__n"/></e>
@@ -31246,7 +31258,7 @@
     <e lm="primato"><i>primat</i><par n="abbain/o__n"/></e>
     <e lm="primavera"><i>primaver</i><par n="cas/a__n"/></e>
     <e lm="principe"><i>princip</i><par n="baron/e__n"/></e>
-    <e lm="principio"><i>principi</i><par n="abbain/o__n"/></e>
+    <e lm="principio"><i>principi</i><par n="marina/io__n"/></e>
     <e lm="priorità"><i>priorità</i><par n="abilità__n"/></e>
     <e lm="privacy"><i>privacy</i><par n="abilità__n"/></e>
     <e lm="privatizzazione"><i>privatizzazion</i><par n="abbreviazion/e__n"/></e>
@@ -36885,7 +36897,8 @@
     <e lm="altrove"><i>altrove</i><par n="ieri__adv"/></e>
     <e lm="amabilmente"><i>amabilmente</i><par n="ieri__adv"/></e>
     <e lm="ampiamente"><i>ampiamente</i><par n="ieri__adv"/></e>
-    <e lm="anche"><i>anche</i><par n="ieri__adv"/></e>
+    <e r="LR" lm="anche"><i>anche</i><par n="ieri__adv"/></e>
+    <e r="RL" lm="anche"><p><l><a/>anche</l><r>anche</r></p><par n="ieri__adv"/></e>
     <e lm="ancor di più"><i>ancor<b/>di<b/>più</i><par n="ieri__adv"/></e>
     <e lm="ancora"><i>ancora</i><par n="ieri__adv"/></e>
     <e lm="ancor" r="LR"><p><l>ancor</l><r>ancora</r></p><par n="ieri__adv"/></e>
@@ -36920,8 +36933,14 @@
     <e lm="chiaramente"><i>chiaramente</i><par n="ieri__adv"/></e>
     <e lm="chiaro"><i>chiaro</i><par n="ieri__adv"/></e>
     <e r="LR" lm="circa"><i>circa</i><par n="ieri__adv"/></e>
+
+
     <e r="LR" lm="come"><i>come</i><par n="quando__adv"/></e>
     <e r="RL" lm="come"><p><l><a/>come</l><r>come</r></p><par n="quando__adv"/></e>
+
+
+
+
     <e lm="perché"><i>perché</i><par n="quando__adv"/></e>
     <e r="LR" lm="perché"><p><l>perchè</l><r>perché</r></p><par n="quando__adv"/></e>
     <e r="LR" lm="perche'"><p><l>perche'</l><r>perché</r></p><par n="quando__adv"/></e>
@@ -37343,7 +37362,10 @@
     <e lm="purtroppo"><i>purtroppo</i><par n="ieri__adv"/></e>
       <e r="LR" lm="può darsi"><i>può<b/>darsi</i><par n="ieri__adv"/></e>
     <e lm="può essere"><i>può<b/>essere</i><par n="ieri__adv"/></e>
-    <e lm="quando"><i>quando</i><par n="quando__adv"/></e>
+
+    <e r="LR" lm="quando"><i>quando</i><par n="quando__adv"/></e>
+    <e r="RL" lm="quando"><p><l><a/>quando</l><r>quando</r></p><par n="quando__adv"/></e>
+
     <e lm="quando desidera"><i>quando<b/>desidera</i><par n="ieri__adv"/></e>
     <e lm="quando meno"><i>quando<b/>meno</i><par n="ieri__adv"/></e>
     <e lm="quasi"><i>quasi</i><par n="ieri__adv"/></e>
@@ -38235,6 +38257,7 @@
     <e lm="abbaglio"><i>abbagli</i><par n="abbagli/o__n"/></e>
     <e lm="abitudinario"><i>abitudinari</i><par n="abbagli/o__n"/></e>
     <e lm="abiura"><i>abiur</i><par n="cas/a__n"/></e>
+    <e lm="parata"><i>parat</i><par n="cas/a__n"/></e>
     <e lm="sequoia"><i>sequoi</i><par n="cas/a__n"/></e>
     <e lm="mappatura"><i>mappatur</i><par n="cas/a__n"/></e>
     <e lm="rassegna"><i>rassegn</i><par n="cas/a__n"/></e>
@@ -48030,7 +48053,13 @@
     <e lm="di sera"><i>di<b/>sera</i><par n="ieri__adv"/></e>
     <e lm="di sicuro"><i>di<b/>sicuro</i><par n="ieri__adv"/></e>
     <e lm="di spalle"><i>di<b/>spalle</i><par n="ieri__adv"/></e>
+
     <e lm="dove"><i>dove</i><par n="ieri__adv"/></e>
+
+
+
+
+
     <e lm="dunque"><i>dunque</i><par n="ancorché__cnjcoo"/></e>
     <e lm="fino a quando"><i>fino<b/>a<b/>quando</i><par n="affinché__cnjsub"/></e>
     <e lm="fradicio"><i>fradicio</i><par n="ieri__adv"/></e>
