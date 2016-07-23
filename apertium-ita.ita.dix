@@ -26207,7 +26207,7 @@
 <e lm="filiazione">      <i>filiazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="filigrana">       <i>filigran</i><par n="cas/a__n"/></e>
 <e lm="filino">          <i>filin</i><par n="abbain/o__n"/></e>
-<e lm="filippino">       <i>filippin</i><par n="abbain/o__n"/></e>
+<e lm="filippino">       <i>filippin</i><par n="bambin/o__n"/></e>
 <e lm="filisteo">        <i>filiste</i><par n="abbain/o__n"/></e>
 <e lm="film">            <i>film</i><par n="affaire__n"/></e>
 <e lm="filmato">         <i>filmat</i><par n="abbain/o__n"/></e>
@@ -48061,6 +48061,7 @@
 
 <e lm="che">             <i>che</i><par n="affinché__cnjsub"/></e>
 <e lm="fino a quando">   <i>fino<b/>a<b/>quando</i><par n="affinché__cnjsub"/></e>
+<e lm="fin quando">      <i>fin<b/>quando</i><par n="affinché__cnjsub"/></e>
 <e lm="frattanto">       <i>frattanto</i><par n="affinché__cnjsub"/></e>
 <e lm="magari">          <i>magari</i><par n="affinché__cnjsub"/></e>
 <e lm="ogni volta che">  <i>ogni<b/>volta<b/>che</i><par n="affinché__cnjsub"/></e>
@@ -48349,7 +48350,14 @@
 
 <!--       ******************************      (detnt) group      ******************************    -->
 <e lm="lo">              <i>lo</i><par n="lo__detnt"/></e>
+
+<e lm="Santissima Trinità">  <i>Santissima<b/>Trinità</i><par n="Polizia__np"/></e>
+<e lm="Carissimi">           <i>Carissimi</i><par n="Díez__np"/></e>
+<e lm="da subito">           <i>da<b/>subito</i><par n="ieri__adv"/></e>
+<e lm="fin da subito">       <i>fin<b/>da<b/>subito</i><par n="ieri__adv"/></e>
+
   </section>
+
   <section id="apostrophes" type="postblank">
     <!-- ******************************
           group pr_symbol
