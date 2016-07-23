@@ -17757,7 +17757,6 @@
 <e lm="La Barbera">      <i>La<b/>Barbera</i><par n="Díez__np"/></e>
 <e lm="La Blunda">       <i>La<b/>Blunda</i><par n="Díez__np"/></e>
 <e lm="La Maddalena">    <i>La<b/>Maddalena</i><par n="Europa__np"/></e>
-<e lm="La Maddalena">    <i>La<b/>Maddalena</i><par n="Europa__np"/></e>
 <e lm="La Repubblica">   <i>La<b/>Repubblica</i><par n="Polizia__np"/></e>
 <e lm="La Rosa">         <i>La<b/>Rosa</i><par n="Díez__np"/></e>
 <e lm="La Spezia">       <i>La<b/>Spezia</i><par n="Europa__np"/></e>
@@ -19856,7 +19855,6 @@
 <e lm="San Gavino Monreale"><i>San<b/>Gavino<b/>Monreale</i><par n="Afghanistan__np"/></e>
 <e lm="San Giovanni Suergiu"><i>San<b/>Giovanni<b/>Suergiu</i><par n="Afghanistan__np"/></e>
 <e lm="San Marino">      <i>San<b/>Marino</i><par n="Afghanistan__np"/></e>
-<e lm="San Marino">      <i>San<b/>Marino</i><par n="Afghanistan__np"/></e>
 <e lm="San Nicolò Gerrei"><i>San<b/>Nicolò<b/>Gerrei</i><par n="Afghanistan__np"/></e>
 <e lm="San Nicolò d'Arcidano"><i>San<b/>Nicolò<b/>d'Arcidano</i><par n="Afghanistan__np"/></e>
 <e lm="San Paolo">       <i>San<b/>Paolo</i><par n="Afghanistan__np"/></e>
@@ -21561,7 +21559,6 @@
 <e lm="acquedotto">      <i>acquedott</i><par n="abbain/o__n"/></e>
 <e lm="acquerello">      <i>acquerell</i><par n="abbain/o__n"/></e>
 <e lm="acquiescenza">    <i>acquiescenz</i><par n="cas/a__n"/></e>
-<e lm="acquirente">      <i>acquirent</i><par n="albanes/e__n"/></e>
 <e lm="acquirente">      <i>acquirent</i><par n="albanes/e__n"/></e>
 <e lm="acquisizione">    <i>acquisizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="acquisto">        <i>acquist</i><par n="abbain/o__n"/></e>
@@ -23812,7 +23809,6 @@
 <e lm="circoscrizione">  <i>circoscrizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="circospezione">   <i>circospezion</i><par n="abbreviazion/e__n"/></e>
 <e lm="circostanza">     <i>circostanz</i><par n="cas/a__n"/></e>
-<e lm="circuito">        <i>circuit</i><par n="abbain/o__n"/></e>
 <e lm="circuito">        <i>circuit</i><par n="abbain/o__n"/></e>
 <e lm="circumnavigazione"><i>circumnavigazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="cireneo">         <i>cirene</i><par n="abbain/o__n"/></e>
@@ -26125,7 +26121,6 @@
 <e lm="ferita">          <i>ferit</i><par n="cas/a__n"/></e>
 <e lm="fermo">           <i>ferm</i><par n="abbain/o__n"/></e>
 <e lm="fermato">         <i>fermat</i><par n="abbain/o__n"/></e>
-<e lm="fermata">         <i>fermat</i><par n="cas/a__n"/></e>
 <e lm="fermata">         <i>fermat</i><par n="cas/a__n"/></e>
 <e lm="fermento">        <i>ferment</i><par n="abbain/o__n"/></e>
 <e lm="fermentazione">   <i>fermentazion</i><par n="abbreviazion/e__n"/></e>
@@ -29909,7 +29904,6 @@
 <e lm="pataccaro">       <i>pataccar</i><par n="abbain/o__n"/></e>
 <e lm="patata">          <i>patat</i><par n="cas/a__n"/></e>
 <e lm="patatina">        <i>patatin</i><par n="cas/a__n"/></e>
-<e lm="patatina">        <i>patatin</i><par n="cas/a__n"/></e>
 <e lm="patentino">       <i>patentin</i><par n="abbain/o__n"/></e>
 <e lm="paternalismo">    <i>paternalism</i><par n="abbain/o__n"/></e>
 <e lm="paternità">       <i>paternità</i><par n="abilità__n"/></e>
@@ -29927,7 +29921,6 @@
 <e lm="patrimonio">      <i>patrimoni</i><par n="abbagli/o__n"/></e>
 <e lm="patrimonializzazione"><i>patrimonializzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="patriota">        <i>patriot</i><par n="autom/a__n"/></e>
-<e lm="patriota">        <i>patriot</i><par n="suicid/a__n"/></e>
 <e lm="patriota">        <i>patriot</i><par n="suicid/a__n"/></e>
 <e lm="patriottismo">    <i>patriottism</i><par n="abbain/o__n"/></e>
 <e lm="patrocinatore">   <i>patrocinat</i><par n="agricolt/ore__n"/></e>
@@ -30075,7 +30068,6 @@
 <e lm="periodico">       <i>periodic</i><par n="abbain/o__n"/></e>
 <e lm="periodicità">     <i>periodicità</i><par n="abilità__n"/></e>
 <e lm="perito">          <i>perit</i><par n="abbain/o__n"/></e>
-<e lm="perito">          <i>perit</i><par n="bambin/o__n"/></e>
 <e lm="perito">          <i>perit</i><par n="bambin/o__n"/></e>
 <e lm="perizia">         <i>perizi</i><par n="cas/a__n"/></e>
 <e lm="perla">           <i>perl</i><par n="cas/a__n"/></e>
@@ -33639,7 +33631,6 @@
 <e lm="terremoto">       <i>terremot</i><par n="abbain/o__n"/></e>
 <e lm="terremotato">     <i>terremotat</i><par n="abbain/o__n"/></e>
 <e lm="terreno">         <i>terren</i><par n="abbain/o__n"/></e>
-<e lm="terreno">         <i>terren</i><par n="abbain/o__n"/></e>
 <e lm="terrestre">       <i>terrestr</i><par n="abat/e__n"/></e>
 <e lm="terribilità">     <i>terribilità</i><par n="abilità__n"/></e>
 <e lm="territorio">      <i>territori</i><par n="abbagli/o__n"/></e>
@@ -33739,7 +33730,6 @@
 <e lm="toilette">        <i>toilette</i><par n="abilità__n"/></e>
 <e lm="tollerabilità">   <i>tollerabilità</i><par n="abilità__n"/></e>
 <e lm="tollerante">      <i>tollerant</i><par n="abat/e__n"/></e>
-<e lm="tolleranza">      <i>tolleranz</i><par n="cas/a__n"/></e>
 <e lm="tolleranza">      <i>tolleranz</i><par n="cas/a__n"/></e>
 <e lm="tomo">            <i>tom</i><par n="abbain/o__n"/></e>
 <e lm="tomba">           <i>tomb</i><par n="cas/a__n"/></e>
@@ -34347,7 +34337,6 @@
 <e lm="veridicità">      <i>veridicità</i><par n="abilità__n"/></e>
 <e lm="verifica">        <i>verific</i><par n="tasc/a__n"/></e>
 <e lm="verificatore">    <i>verificat</i><par n="agricolt/ore__n"/></e>
-<e lm="verificatore">    <i>verificat</i><par n="agricolt/ore__n"/></e>
 <e lm="verismo">         <i>verism</i><par n="abbain/o__n"/></e>
 <e lm="verità">          <i>verità</i><par n="abilità__n"/></e>
 <e lm="verme">           <i>verm</i><par n="abat/e__n"/></e>
@@ -34773,10 +34762,7 @@
 <e lm="per questo">      <i>per<b/>questo</i><par n="siccome__cnjadv"/></e>
 <e lm="per tutto ciò">   <i>per<b/>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="perche'">  <p><l>perche'</l>   <r>perché</r></p><par n="siccome__cnjadv"/></e>
-<e r="LR" lm="perche'">  <p><l>perche'</l>   <r>perché</r></p><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="perché">   <p><l>perchè</l>    <r>perché</r></p><par n="siccome__cnjadv"/></e>
-<e r="LR" lm="perché">   <p><l>perchè</l>    <r>perché</r></p><par n="siccome__cnjadv"/></e>
-<e lm="perché">          <i>perché</i><par n="siccome__cnjadv"/></e>
 <e lm="perché">          <i>perché</i><par n="siccome__cnjadv"/></e>
 <e lm="perció">          <i>perció</i><par n="siccome__cnjadv"/></e>
 <e lm="pertanto">        <i>pertanto</i><par n="siccome__cnjadv"/></e>
@@ -35321,7 +35307,6 @@
 <e lm="enfaticamente">   <i>enfaticamente</i><par n="ieri__adv"/></e>
 <e lm="enormemente">     <i>enormemente</i><par n="ieri__adv"/></e>
 <e lm="eppure">          <i>eppure</i><par n="ieri__adv"/></e>
-<e lm="equamente">       <i>equamente</i><par n="ieri__adv"/></e>
 <e lm="equamente">       <i>equamente</i><par n="ieri__adv"/></e>
 <e lm="equivalentemente"><i>equivalentemente</i><par n="ieri__adv"/></e>
 <e lm="ereditariamente"> <i>ereditariamente</i><par n="ieri__adv"/></e>
@@ -36062,7 +36047,6 @@
 <e lm="sorprendentemente"><i>sorprendentemente</i><par n="ieri__adv"/></e>
 <e lm="sospettosamente"> <i>sospettosamente</i><par n="ieri__adv"/></e>
 <e lm="sostanzialmente"> <i>sostanzialmente</i><par n="ieri__adv"/></e>
-<e lm="sottilmente">     <i>sottilmente</i><par n="ieri__adv"/></e>
 <e lm="sottilmente">     <i>sottilmente</i><par n="ieri__adv"/></e>
 <e lm="sotto">           <i>sotto</i><par n="ieri__adv"/></e>
 <e lm="sottobanco">      <i>sottobanco</i><par n="ieri__adv"/></e>
@@ -40121,7 +40105,7 @@
 <e lm="imponente">       <i>imponent</i><par n="fin/e__adj"/></e>
 <e lm="imponibile">      <i>imponibil</i><par n="fin/e__adj"/></e>
 <e lm="impopolare">      <i>impopolar</i><par n="fin/e__adj"/></e>
-<e lm="importante">      <i>important</i><par n="albanes/e__adj"/></e>
+<e lm="importante">      <i>important</i><par n="fin/e__adj"/></e>
 <e lm="importantissimo"> <i>importantissim</i><par n="abbandonat/o__adj"/></e>
 <e lm="importuno">       <i>importun</i><par n="abbandonat/o__adj"/></e>
 <e lm="impositivo">      <i>impositiv</i><par n="abbandonat/o__adj"/></e>
@@ -48355,6 +48339,7 @@
 <e lm="Carissimi">           <i>Carissimi</i><par n="Díez__np"/></e>
 <e lm="da subito">           <i>da<b/>subito</i><par n="ieri__adv"/></e>
 <e lm="fin da subito">       <i>fin<b/>da<b/>subito</i><par n="ieri__adv"/></e>
+<e lm="ribadire">            <i>ribad</i><par n="abbell/ire__vblex"/></e>
 
   </section>
 
