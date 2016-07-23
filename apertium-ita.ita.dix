@@ -16080,7 +16080,7 @@
 <e lm="Danilo">          <i>Danilo</i><par n="Juan__np"/></e>
 <e lm="Danimarca">       <i>Danimarca</i><par n="Europa__np"/></e>
 <e lm="Dante">           <i>Dante</i><par n="Juan__np"/></e>
-<e lm="Danubio">         <i>Danubio</i><par n="Afghanistan__np"/></e>
+<e lm="Danubio">         <i>Danubio</i><par n="Po__np"/></e>
 <e lm="Daria">           <i>Daria</i><par n="María__np"/></e>
 <e lm="Dario">           <i>Dario</i><par n="Juan__np"/></e>
 <e lm="Darío">           <i>Darío</i><par n="Juan__np"/></e>
@@ -19369,7 +19369,7 @@
 <e lm="Plinio">          <i>Plinio</i><par n="Juan__np"/></e>
 <e lm="Ploaghe">         <i>Ploaghe</i><par n="Afghanistan__np"/></e>
 <e lm="Plutarco">        <i>Plutarco</i><par n="Juan__np"/></e>
-<e lm="Po">              <i>Po</i><par n="Po__np"/></e>
+<e lm="Po">            <i>Po</i><par n="Po__np"/></e>
 <e lm="Poggio">          <i>Poggio</i><par n="Europa__np"/></e>
 <e lm="Polda">           <i>Polda</i><par n="María__np"/></e>
 <e lm="Poldina">         <i>Poldina</i><par n="María__np"/></e>
@@ -48340,6 +48340,11 @@
 <e lm="da subito">           <i>da<b/>subito</i><par n="ieri__adv"/></e>
 <e lm="fin da subito">       <i>fin<b/>da<b/>subito</i><par n="ieri__adv"/></e>
 <e lm="ribadire">            <i>ribad</i><par n="abbell/ire__vblex"/></e>
+<e lm="Tirreno">             <i>Tirreno</i><par n="Afghanistan__np"/></e>
+<e lm="Adriatico">           <i>Adriatico</i><par n="Afghanistan__np"/></e>
+<e lm="Jonico">              <i>Jonico</i><par n="Afghanistan__np"/></e>
+<e lm="Bisanzio">            <i>Bisanzio</i><par n="Afghanistan__np"/></e>
+<e lm="Atlantico">           <i>Atlantico</i><par n="Afghanistan__np"/></e>
 
   </section>
 
