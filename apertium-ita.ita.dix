@@ -29257,7 +29257,6 @@
 <e lm="nonnismo">        <i>nonnism</i><par n="abbain/o__n"/></e>
 <e lm="nonsenso">        <i>nonsens</i><par n="abbain/o__n"/></e>
 <e lm="nord">            <i>nord</i><par n="ace__n"/></e>
-<e lm="nord-est">        <i>nord-est</i><par n="ace__n"/></e>
 <e lm="nordafricano">    <i>nordafrican</i><par n="bambin/o__n"/></e>
 <e lm="nordamericano">   <i>nordamerican</i><par n="bambin/o__n"/></e>
 <e lm="nordcoreano">     <i>nordcorean</i><par n="bambin/o__n"/></e>
@@ -48044,7 +48043,6 @@
 <e lm="prego">           <i>prego</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (ij) group      ******************************    -->
-<e lm="salve">           <i>salve</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (adj) group      ******************************    -->
     <!-- ******************************
@@ -48234,7 +48232,6 @@
 <e lm="così">            <i>così</i><par n="bene__preadv"/></e>
 <e lm="fin">             <i>fin</i><par n="bene__preadv"/></e>
 <e lm="malapena">        <i>malapena</i><par n="bene__preadv"/></e>
-<e lm="male">            <i>male</i><par n="bene__preadv"/></e>
 <e lm="molto">           <i>molto</i><par n="bene__preadv"/></e>
 <e lm="quasi">           <i>quasi</i><par n="bene__preadv"/></e>
 <e lm="talmente">        <i>talmente</i><par n="bene__preadv"/></e>
@@ -48435,6 +48432,7 @@
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   </section>
+
   <section id="final" type="inconditional">
 <e>                      <par n="pardret"/></e>
 <e>                      <par n="numeros"/></e>
