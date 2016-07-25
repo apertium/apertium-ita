@@ -393,15 +393,6 @@
   <e>       <p><l>i</l>         <r>o<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>e</l>         <r>o<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
-
-
-<pardef n="colleg/a__n">
-  <e>       <p><l>a</l>         <r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>hi</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>he</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-</pardef>
-
-
     
 <pardef n="tedesc/o__n">
   <e>       <p><l>o</l>         <r>o<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -12845,6 +12836,12 @@
   <e>       <p><l>o-elettore</l><r>o-elettore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
     
+<pardef n="colleg/a__n">
+  <e>       <p><l>a</l>         <r>a<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>he</l>        <r>a<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>hi</l>        <r>a<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+    
 <pardef n="bene__preadv">
   <e>       <p><l></l>          <r><s n="preadv"/></r></p></e>
 </pardef>
@@ -23070,7 +23067,6 @@
 <e lm="bullone">         <i>bullon</i><par n="abat/e__n"/></e>
 <e lm="bunker">          <i>bunker</i><par n="albatros__n"/></e>
 <e lm="buono">           <i>buon</i><par n="abbain/o__n"/></e>
-<e lm="buongiorno">      <i>buongiorn</i><par n="abbain/o__n"/></e>
 <e lm="buongoverno">     <i>buongovern</i><par n="abbain/o__n"/></e>
 <e lm="buongusto">       <i>buongust</i><par n="abbain/o__n"/></e>
 <e lm="buonismo">        <i>buonism</i><par n="abbain/o__n"/></e>
@@ -34727,6 +34723,7 @@
 <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="a migliaia">      <i>a<b/>migliaia</i><par n="siccome__cnjadv"/></e>
 <e lm="a patto che">     <i>a<b/>patto<b/>che</i><par n="siccome__cnjadv"/></e>
+<e lm="a rischio">      <i>a<b/>rischio</i><par n="siccome__cnjadv"/></e>
 <e lm="a seconda di">    <i>a<b/>seconda<b/>di</i><par n="siccome__cnjadv"/></e>
 <e lm="affinché">        <i>affinché</i><par n="siccome__cnjadv"/></e>
 <e lm="al punto che">    <i>al<b/>punto<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -34738,6 +34735,7 @@
 <e lm="bensì">           <i>bensì</i><par n="siccome__cnjadv"/></e>
 <e lm="ciò nonostante">  <i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
 <e lm="col fine di">     <i>col<b/>fine<b/>di</i><par n="siccome__cnjadv"/></e>
+<e lm="come">            <i>come</i><par n="siccome__cnjadv"/></e>
 <e lm="come vuoi che">   <i>come<b/>vuoi<b/>che</i><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="comunque"> <i>comunque</i><par n="siccome__cnjadv"/></e>
 <e lm="conseguentemente"><i>conseguentemente</i><par n="siccome__cnjadv"/></e>
@@ -34746,6 +34744,18 @@
 <e lm="dando per scontato che"><i>dando<b/>per<b/>scontato<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="dato che">        <i>dato<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="dato il caso in cui"><i>dato<b/>il<b/>caso<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
+<e lm="al contrario">    <i>al<b/>contrario</i><par n="siccome__cnjadv"/></e>
+<e lm="anzi">            <i>anzi</i><par n="siccome__cnjadv"/></e>
+<e lm="difatti">         <i>difatti</i><par n="siccome__cnjadv"/></e>
+<e lm="mentre">          <i>mentre</i><par n="siccome__cnjadv"/></e> 
+<e lm="nonché">          <i>nonché</i><par n="siccome__cnjadv"/></e>
+<e lm="per di più">      <i>per<b/>di<b/>più</i><par n="siccome__cnjadv"/></e>
+<e lm="per dire">        <i>per<b/>dire</i><par n="siccome__cnjadv"/></e>
+<e lm="per esempio">     <i>per<b/>esempio</i><par n="siccome__cnjadv"/></e>
+<e lm="per il resto">    <i>per<b/>il<b/>resto</i><par n="siccome__cnjadv"/></e>
+<e lm="per quello">      <i>per<b/>quello</i><par n="siccome__cnjadv"/></e>
+<e lm="perfino">         <i>perfino</i><par n="siccome__cnjadv"/></e>
+<e lm="più che altro">   <i>più<b/>che<b/>altro</i><par n="siccome__cnjadv"/></e>
 
    <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>  -->
 
@@ -34772,6 +34782,7 @@
 <e r="LR" lm="perché">   <p><l>perchè</l>    <r>perché</r></p><par n="siccome__cnjadv"/></e>
 <e lm="perché">          <i>perché</i><par n="siccome__cnjadv"/></e>
 <e lm="perció">          <i>perció</i><par n="siccome__cnjadv"/></e>
+<e lm="però">            <i>però</i><par n="siccome__cnjadv"/></e>
 <e lm="pertanto">        <i>pertanto</i><par n="siccome__cnjadv"/></e>
 <e lm="poiché">          <i>poiché</i><par n="siccome__cnjadv"/></e>
 <e lm="prima che">       <i>prima<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -34789,7 +34800,7 @@
     <!-- ******************************
           group adv
       ****************************** -->
-<e r="RL" lm="anche">    <p><l><a/>anche</l> <r>anche</r></p><par n="ieri__adv"/></e>
+
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="quando__adv"/></e>
 <e r="RL" lm="dove">     <p><l><a/>dove</l>  <r>dove</r></p><par n="quando__adv"/></e>
 <e r="RL" lm="quando">   <p><l><a/>quando</l><r>quando</r></p><par n="quando__adv"/></e>
@@ -48021,6 +48032,14 @@
 <e lm="ciao">            <i>ciao</i><par n="salve__ij"/></e>
 <e lm="ecco">            <i>ecco</i><par n="salve__ij"/></e>
 <e lm="magari">          <i>magari</i><par n="salve__ij"/></e>
+<e lm="basta">           <i>basta</i><par n="salve__ij"/></e>
+<e lm="buongiorno">      <i>buongiorno</i><par n="salve__ij"/></e>
+<e lm="buona notte">     <i>buona<b/>notte</i><par n="salve__ij"/></e>
+<e lm="buona sera">      <i>buona<b/>sera</i><par n="salve__ij"/></e>
+<e lm="salve">           <i>salve</i><par n="salve__ij"/></e>
+<e lm="a presto">        <i>a<b/>presto</i><par n="salve__ij"/></e>
+<e lm="per favore">      <i>per<b/>favore</i><par n="salve__ij"/></e>
+<e lm="prego">           <i>prego</i><par n="salve__ij"/></e>
 
 <!--       ******************************      (ij) group      ******************************    -->
 <e lm="salve">           <i>salve</i><par n="salve__ij"/></e>
@@ -48201,13 +48220,14 @@
 <e lm="ventotto">        <i>ventotto</i><par n="centocinquanta__num"/></e>
 <e lm="ventuno, trentuno, etc"><par n="ventuno__num"/></e>
 <e lm="zero">            <i>zero</i><par n="C__num"/></e>
-    <!-- ******************************
-          group preadv
-      ****************************** -->
+    <!-- ****************************** -->
+<!--       ******************************      (preadv) group      ******************************    -->
 <e lm="appena">          <i>appena</i><par n="bene__preadv"/></e>
 <e lm="ben">             <i>ben</i><par n="bene__preadv"/></e>
-
-<!--       ******************************      (preadv) group      ******************************    -->
+<e lm="mal">             <i>mal</i><par n="bene__preadv"/></e>
+<e lm="non molto">       <i>non<b/>molto</i><par n="bene__preadv"/></e>
+<e lm="male">            <i>male</i><par n="bene__preadv"/></e>
+<e lm="abbastanza">      <i>abbastanza</i><par n="bene__preadv"/></e>
 <e lm="bene">            <i>bene</i><par n="bene__preadv"/></e>
 <e lm="così">            <i>così</i><par n="bene__preadv"/></e>
 <e lm="fin">             <i>fin</i><par n="bene__preadv"/></e>
@@ -48267,43 +48287,31 @@
       ****************************** -->
 <e lm="tanti altri">     <p><l>tante<b/>altre</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="tanti altri">     <p><l>tanti<b/>altri</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-    <!-- ******************************
-          group cnjcoo
-      ****************************** -->
-<e lm="al contraio">     <i>al<b/>contraio</i><par n="ancorché__cnjcoo"/></e>
-<e lm="allora">          <i>allora</i><par n="ancorché__cnjcoo"/></e>
-<e lm="anzi">            <i>anzi</i><par n="ancorché__cnjcoo"/></e>
-<e lm="difatti">         <i>difatti</i><par n="ancorché__cnjcoo"/></e>
-<e lm="dunque">          <i>dunque</i><par n="ancorché__cnjcoo"/></e>
+    <!-- ****************************** -->
 
 <!--       ******************************      (cnjcoo) group      ******************************    -->
+
+<e lm="anche">           <i>anche</i><par n="ancorché__cnjcoo"/></e>
 <e lm="e">               <i>e</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ed">              <i>ed</i><par n="ancorché__cnjcoo"/></e>
+<e lm="è giusto dire">   <i>è<b/>giusto<b/>dire</i><par n="ancorché__cnjcoo"/></e>
    <!-- <e lm="in tutto"><i>in<b/>tutto</i><par n="ieri__adv"/></e> must be used also in isolation-->
 <e lm="invece">          <i>invece</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ma">              <i>ma</i><par n="ancorché__cnjcoo"/></e>
-<e lm="meno male che">   <i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e>
-<e lm="mentre">          <i>mentre</i><par n="ancorché__cnjcoo"/></e>
+  <!-- <e lm="meno male che"><i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e> must be used also in isolation-->
+<e lm="cioè">            <i>cioè</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ne">              <i>ne</i><par n="ancorché__cnjcoo"/></e>
-<e lm="nonché">          <i>nonché</i><par n="ancorché__cnjcoo"/></e>
 <e lm="né">              <i>né</i><par n="ancorché__cnjcoo"/></e>
+<e lm="neanche">         <i>neanche</i><par n="ancorché__cnjcoo"/></e>
 <e lm="o">               <i>o</i><par n="ancorché__cnjcoo"/></e>
 <e lm="oppure">          <i>oppure</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ossia">           <i>ossia</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ovvero">          <i>ovvero</i><par n="ancorché__cnjcoo"/></e>
-<e lm="per di più">      <i>per<b/>di<b/>più</i><par n="ancorché__cnjcoo"/></e>
-<e lm="per dire">        <i>per<b/>dire</i><par n="ancorché__cnjcoo"/></e>
-<e lm="per esempio">     <i>per<b/>esempio</i><par n="ancorché__cnjcoo"/></e>
-<e lm="per il reso">     <i>per<b/>il<b/>reso</i><par n="ancorché__cnjcoo"/></e>
-<e lm="per quello">      <i>per<b/>quello</i><par n="ancorché__cnjcoo"/></e>
-<e lm="perciò">          <i>perciò</i><par n="ancorché__cnjcoo"/></e>
-<e lm="perfino">         <i>perfino</i><par n="ancorché__cnjcoo"/></e>
 <e lm="però">            <i>però</i><par n="ancorché__cnjcoo"/></e>
-<e lm="più che altro">   <i>più<b/>che<b/>altro</i><par n="ancorché__cnjcoo"/></e>
 <e lm="pure">            <i>pure</i><par n="ancorché__cnjcoo"/></e>
-<e lm="sebbene">         <i>sebbene</i><par n="ancorché__cnjcoo"/></e>
 <e lm="sia">             <i>sia</i><par n="ancorché__cnjcoo"/></e>
-<e lm="è giusto dire">   <i>è<b/>giusto<b/>dire</i><par n="ancorché__cnjcoo"/></e>
+
+
     <!-- ******************************
           group abbr
       ****************************** -->
