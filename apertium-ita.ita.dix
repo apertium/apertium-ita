@@ -15346,8 +15346,8 @@
 <e lm="Bosa">            <i>Bosa</i><par n="Europa__np"/></e>
 <e lm="Bosco">           <i>Bosco</i><par n="Díez__np"/></e>
 <e lm="Bosforo">         <i>Bosforo</i><par n="Afghanistan__np"/></e>
-<e lm="Bosnia">          <i>Bosnia</i><par n="Afghanistan__np"/></e>
 <e lm="Bosnia">          <i>Bosnia</i><par n="Europa__np"/></e>
+<e lm="Bosnia ed Erzegovina">          <i>Bosnia<b/>ed<b/>Erzegovina</i><par n="Europa__np"/></e>
 <e lm="Bosone">          <i>Bosone</i><par n="Juan__np"/></e>
 <e lm="Boston">          <i>Boston</i><par n="Afghanistan__np"/></e>
 <e lm="Botswana">        <i>Botswana</i><par n="Europa__np"/></e>
@@ -17315,7 +17315,7 @@
 <e lm="Gregoria">        <i>Gregoria</i><par n="María__np"/></e>
 <e lm="Gregorina">       <i>Gregorina</i><par n="María__np"/></e>
 <e lm="Gregorio">        <i>Gregorio</i><par n="Juan__np"/></e>
-<e lm="Gregoriu">        <i>Gregoriu</i><par n="Juan__np"/></e>
+<e lm="Gregòriu">        <i>Gregòriu</i><par n="Juan__np"/></e>
 <e lm="Grillo">          <i>Grillo</i><par n="Díez__np"/></e>
 <e lm="Groenlandia">     <i>Groenlandia</i><par n="Europa__np"/></e>
 <e lm="Grosseto">        <i>Grosseto</i><par n="Afghanistan__np"/></e>
@@ -19128,6 +19128,7 @@
 <e lm="Paese Bascho">    <i>Paese<b/>Bascho</i><par n="Afghanistan__np"/></e>
 <e lm="Paese Basco">     <i>Paese<b/>Basco</i><par n="Afghanistan__np"/></e>
 <e lm="Paesi Baschi">    <i>Paesi<b/>Baschi</i><par n="USA__np"/></e>
+<e lm="Paesi Bassi">     <i>Paesi<b/>Bassi</i><par n="USA__np"/></e>
 <e lm="Pagano">          <i>Pagano</i><par n="Díez__np"/></e>
 <e lm="Paisley">         <i>Paisley</i><par n="Díez__np"/></e>
 <e lm="Pakistan">        <i>Pakistan</i><par n="Afghanistan__np"/></e>
@@ -19412,7 +19413,6 @@
 <e lm="Power">           <i>Power</i><par n="Díez__np"/></e>
 <e lm="Pozzomaggiore">   <i>Pozzomaggiore</i><par n="Afghanistan__np"/></e>
 <e lm="Prado">           <i>Prado</i><par n="Díez__np"/></e>
-<e lm="Praga">           <i>Praga</i><par n="Afghanistan__np"/></e>
 <e lm="Praga">           <i>Praga</i><par n="Europa__np"/></e>
 <e r="LR" lm="Palmas Arborea (sardu)"><p><l>Pramas</l><r>Palmas<b/>Arborea</r></p><par n="Maldive__np"/></e>
 <e r="LR" lm="Pimentel (sardu)"><p><l>Pramentelu</l><r>Pimentel</r></p><par n="Afghanistan__np"/></e>
@@ -19422,7 +19422,7 @@
 <e lm="Pretoria">        <i>Pretoria</i><par n="Europa__np"/></e>
 <e lm="Prima">           <i>Prima</i><par n="María__np"/></e>
 <e lm="Primetta">        <i>Primetta</i><par n="María__np"/></e>
-<e lm="Primetto">        <i>Primetto</i><par n="Juan__np"/></e>
+<e lm="Primetto">       <i>Primetto</i><par n="Juan__np"/></e>
 <e lm="Primia">          <i>Primia</i><par n="María__np"/></e>
 <e lm="Primilio">        <i>Primilio</i><par n="Juan__np"/></e>
 <e lm="Primillo">        <i>Primillo</i><par n="Juan__np"/></e>
@@ -21068,8 +21068,10 @@
 <e lm="delle Piane">     <i>delle<b/>Piane</i><par n="Díez__np"/></e>
 <e lm="di Dio">          <i>di<b/>Dio</i><par n="Díez__np"/></e>
 <e lm="di Marco">        <i>di<b/>Marco</i><par n="Díez__np"/></e>
+<e lm="di Maria">        <i>di<b/>Maria</i><par n="Díez__np"/></e>
 <e lm="di Mauro">        <i>di<b/>Mauro</i><par n="Díez__np"/></e>
 <e lm="di Pietro">       <i>di<b/>Pietro</i><par n="Díez__np"/></e>
+<!-- <e lm="di Pietro" r="LR"><p><l>di<b/>Pietro</l><r>di<s n="pr"/><j/><b/>Pietro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e> -->
 <e lm="di Quattro">      <i>di<b/>Quattro</i><par n="Díez__np"/></e>
 <e lm="html">            <i>html</i><par n="ABC__np"/></e>
 <e lm="la Mecca">        <i>la<b/>Mecca</i><par n="Europa__np"/></e>
@@ -25853,7 +25855,8 @@
 <e lm="esserino">        <i>esserin</i><par n="abbain/o__n"/></e>
 <e lm="essiccazione">    <i>essiccazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="est">             <i>est</i><par n="ace__n"/></e>
-<e lm="est">             <i>est</i><par n="albatros__n"/></e>
+<e lm="nord-est">        <i>nord-est</i><par n="ace__n"/></e>
+<e lm="sud-est">         <i>sud-est</i><par n="ace__n"/></e>
 <e lm="estasi">          <i>estasi</i><par n="abilità__n"/></e>
 <e lm="estate">          <i>estat</i><par n="abbreviazion/e__n"/></e>
 <e lm="estensore">       <i>esten</i><par n="difen/sore__n"/></e>
@@ -29607,6 +29610,8 @@
 <e lm="ovale">           <i>oval</i><par n="abat/e__n"/></e>
 <e lm="ovazione">        <i>ovazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="ovest">           <i>ovest</i><par n="ace__n"/></e>
+<e lm="nord-ovest">      <i>nord-ovest</i><par n="ace__n"/></e>
+<e lm="sud-ovest">       <i>sud-ovest</i><par n="ace__n"/></e>
 <e lm="ovetto">          <i>ovett</i><par n="abbain/o__n"/></e>
 <e lm="ovulo">           <i>ovul</i><par n="abbain/o__n"/></e>
 <e lm="ovulazione">      <i>ovulazion</i><par n="abbreviazion/e__n"/></e>
@@ -48348,6 +48353,18 @@
 <e lm="Jonico">              <i>Jonico</i><par n="Afghanistan__np"/></e>
 <e lm="Bisanzio">            <i>Bisanzio</i><par n="Afghanistan__np"/></e>
 <e lm="Atlantico">           <i>Atlantico</i><par n="Afghanistan__np"/></e>
+
+<e lm="percuotere">          <i>per</i><par n="per/cuotere__vblex"/></e>
+<e lm="ripercuotere">        <i>riper</i><par n="per/cuotere__vblex"/></e>
+<e lm="scuotere">            <i>s</i><par n="per/cuotere__vblex"/></e>
+<e lm="abbacchiare">         <i>abbacchi</i><par n="abbacchi/are__vblex"/></e>
+<e lm="salariare">           <i>salari</i><par n="abbacchi/are__vblex"/></e>
+<e lm="vino cotto">          <p><l>vino<b/>cotto</l><r>vino<b/>cotto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="vino cotto">          <p><l>vini<b/>cotti</l><r>vino<b/>cotto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="Ben">                 <i>Ben</i><par n="Juan__np"/></e>
+<e lm="Innocente">           <i>Innocente</i><par n="Juan__np"/></e>
+<e lm="Letoni">         <i>Letoni</i><par n="Europa__np"/></e>
+
 
   </section>
 
