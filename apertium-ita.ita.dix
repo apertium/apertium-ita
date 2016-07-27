@@ -25743,7 +25743,7 @@
 <e lm="entrata">         <i>entrat</i><par n="cas/a__n"/></e>
 <e lm="entropia">        <i>entropi</i><par n="cas/a__n"/></e>
 <e lm="entusiasmo">      <i>entusiasm</i><par n="abbain/o__n"/></e>
-<e lm="entusiasta">      <i>entusiast</i><par n="eremit/a__n"/></e>
+<e lm="entusiasta">      <i>entusiast</i><par n="suicid/a__n"/></e>
 <e lm="enumerazione">    <i>enumerazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="enunciazione">    <i>enunciazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="enzima">          <i>enzim</i><par n="autom/a__n"/></e>
@@ -48665,6 +48665,8 @@
 <e lm="terribile"><i>terribil</i><par n="albanes/e__adj"/></e>
 <e lm="verificato"><i>verificat</i><par n="cosiddett/o__adj"/></e>
 <e lm="vietnamita"><i>vietnamit</i><par n="suicid/a__adj"/></e>
+
+<e lm="diaframma">       <i>diaframma</i><par n="autom/a__n"/></e>
 
   </section>
 
