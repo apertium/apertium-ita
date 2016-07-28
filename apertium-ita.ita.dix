@@ -11986,6 +11986,13 @@
   <e>       <p><l>rice</l>      <r>ore<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
      
+<pardef n="cafon/e__adj">
+  <e>       <p><l>e</l>       <r>ore<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>      <r>ore<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>       <r>ore<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>      <r>ore<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+     
 <pardef n="tecnic/o__adj">
   <e>       <p><l>o</l>         <r>o<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>i</l>         <r>o<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -22503,7 +22510,7 @@
 <e lm="autoveicolo">     <i>autoveicol</i><par n="abbain/o__n"/></e>
 <e lm="autovettura">     <i>autovettur</i><par n="cas/a__n"/></e>
 <e lm="autunno">         <i>autunn</i><par n="abbain/o__n"/></e>
-<e lm="avo">             <i>av</i><par n="abbain/o__n"/></e>
+<e lm="avo">             <i>av</i><par n="bambin/o__n"/></e>
 <e lm="avallo">          <i>avall</i><par n="abbain/o__n"/></e>
 <e lm="avamposto">       <i>avampost</i><par n="abbain/o__n"/></e>
 <e lm="avance">          <i>avance</i><par n="abilità__n"/></e>
@@ -22870,7 +22877,7 @@
 <e lm="bipartitismo">    <i>bipartitism</i><par n="abbain/o__n"/></e>
 <e lm="bipede">          <i>biped</i><par n="abat/e__n"/></e>
 <e lm="bipolarismo">     <i>bipolarism</i><par n="abbain/o__n"/></e>
-<e lm="bireattore">      <i>bireatt</i><par n="agricolt/ore__n"/></e>
+<e lm="bireattore">      <i>bireattor</i><par n="abat/e__n"/></e>
 <e lm="birichino">       <i>birichin</i><par n="abbain/o__n"/></e>
 <e lm="birillo">         <i>birill</i><par n="abbagli/o__n"/></e>
 <e lm="birmano">         <i>birman</i><par n="bambin/o__n"/></e>
@@ -23132,7 +23139,7 @@
 <e lm="caduta">          <i>cadut</i><par n="cas/a__n"/></e>
 <e lm="caffè">           <i>caffè</i><par n="albatros__n"/></e>
 <e lm="caffé">           <i>caffé</i><par n="albatros__n"/></e>
-<e lm="cafone">          <i>cafon</i><par n="abat/e__n"/></e>
+<e lm="cafone">          <i>cafon</i><par n="infermier/e__n"/></e>
 <e lm="caftano">         <i>caftan</i><par n="abbain/o__n"/></e>
 <e lm="caglio">          <i>cagli</i><par n="abbagli/o__n"/></e>
 <e lm="cagliaritano">    <i>cagliaritan</i><par n="bambin/o__n"/></e>
@@ -24799,7 +24806,7 @@
 <e lm="cunicolo">        <i>cunicol</i><par n="abbain/o__n"/></e>
 <e lm="cunsumatore">     <i>cunsumator</i><par n="abat/e__n"/></e>
 <e lm="formulatore">     <i>formulator</i><par n="abat/e__n"/></e>
-<e lm="istruttore">      <i>istruttor</i><par n="abat/e__n"/></e>
+<e lm="istruttore">      <i>istrutt</i><par n="agricolt/ore__n"/></e>
 <e lm="transistore">     <i>transistor</i><par n="abat/e__n"/></e>
 <e lm="cuntributo">      <i>cuntribut</i><par n="abbain/o__n"/></e>
 <e lm="cuoco">           <i>cuoc</i><par n="tedesc/o__n"/></e>
@@ -31485,7 +31492,7 @@
 <e lm="reticolato">      <i>reticolat</i><par n="abbain/o__n"/></e>
 <e lm="retino">          <i>retin</i><par n="abbain/o__n"/></e>
 <e lm="retina">          <i>retin</i><par n="cas/a__n"/></e>
-<e lm="retore">          <i>retor</i><par n="abat/e__n"/></e>
+<e lm="retore">          <i>ret</i><par n="agricolt/ore__n"/></e>
 <e lm="retorica">        <i>retoric</i><par n="tasc/a__n"/></e>
 <e lm="retro">           <i>retr</i><par n="abbain/o__n"/></e>
 <e lm="retribuzione">    <i>retribuzion</i><par n="abbreviazion/e__n"/></e>
@@ -37687,7 +37694,7 @@
 <e lm="caduco">          <i>caduc</i><par n="tecnic/o__adj"/></e>
 <e lm="caduto">          <i>cadut</i><par n="cosiddett/o__adj"/></e>
 <e lm="caffo">           <i>caff</i><par n="abbandonat/o__adj"/></e>
-<e lm="cafone">          <i>cafon</i><par n="fin/e__adj"/></e>
+<e lm="cafone">          <i>cafon</i><par n="cafon/e__adj"/></e>
 <e lm="cagionevole">     <i>cagionevol</i><par n="fin/e__adj"/></e>
 <e lm="cagliaritano">    <i>cagliaritan</i><par n="abbandonat/o__adj"/></e>
 <e lm="calabro">         <i>calabr</i><par n="abbandonat/o__adj"/></e>
@@ -48675,6 +48682,9 @@
 <e lm="Sanders"><i>Sanders</i><par n="Díez__np"/></e>
 <e lm="Trump"><i>Trump</i><par n="Díez__np"/></e>
 <e lm="Al Pacino"><i>Al<b/>Pacino</i><par n="Díez__np"/></e>
+
+<e lm="contributore">      <i>contribut</i><par n="agricolt/ore__n"/></e>
+<e lm="contributore">      <i>contribut</i><par n="accentrat/ore__adj"/></e>
 
   </section>
 
