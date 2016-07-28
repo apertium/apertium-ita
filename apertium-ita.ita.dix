@@ -17721,6 +17721,7 @@
 <e lm="Ken">             <i>Ken</i><par n="Juan__np"/></e>
 <e lm="Kennedy">         <i>Kennedy</i><par n="Díez__np"/></e>
 <e lm="Kenny">           <i>Kenny</i><par n="Díez__np"/></e>
+<e lm="Kenny">           <i>Kenny</i><par n="Juan__np"/></e>
 <e lm="Kent">            <i>Kent</i><par n="Juan__np"/></e>
 <e lm="Kentucky">        <i>Kentucky</i><par n="Afghanistan__np"/></e>
 <e lm="Kenya">           <i>Kenya</i><par n="Afghanistan__np"/></e>
@@ -18584,6 +18585,7 @@
 <e lm="Montreal">        <i>Montreal</i><par n="Afghanistan__np"/></e>
 <e lm="Montresta">       <i>Montresta</i><par n="Europa__np"/></e>
 <e lm="Montserrat">      <i>Montserrat</i><par n="Afghanistan__np"/></e>
+<e lm="Montserrat">      <i>Montserrat</i><par n="María__np"/></e>
 <e lm="Monza">           <i>Monza</i><par n="Europa__np"/></e>
 <e lm="Monzón">          <i>Monzón</i><par n="Afghanistan__np"/></e>
 <e lm="Moore">           <i>Moore</i><par n="Díez__np"/></e>
@@ -22452,7 +22454,7 @@
 <e lm="autoanalisi">     <i>autoanalisi</i><par n="abilità__n"/></e>
 <e lm="autoarticolato">  <i>autoarticolat</i><par n="abbain/o__n"/></e>
 <e lm="autobiografia">   <i>autobiografi</i><par n="cas/a__n"/></e>
-<e lm="autoblindo">      <i>autoblindo</i><par n="abilità__n"/></e>
+<e lm="autoblindo">      <i>autoblind</i><par n="abbain/o__n"/></e>
 <e lm="autobus">         <i>autobus</i><par n="albatros__n"/></e>
 <e lm="autocarro">       <i>autocarr</i><par n="abbain/o__n"/></e>
 <e lm="autocelebrazione"><i>autocelebrazion</i><par n="abbreviazion/e__n"/></e>
@@ -26706,7 +26708,6 @@
 <e lm="geek">            <i>geek</i><par n="abilità__n"/></e>
 <e lm="gelo">            <i>gel</i><par n="abbain/o__n"/></e>
 <e lm="gelato">          <i>gelat</i><par n="abbain/o__n"/></e>
-<e lm="gelato">          <i>gelat</i><par n="cas/a__n"/></e>
 <e lm="gelatina">        <i>gelatin</i><par n="cas/a__n"/></e>
 <e lm="gelese">          <i>geles</i><par n="albanes/e__n"/></e>
 <e lm="gelosia">         <i>gelosi</i><par n="cas/a__n"/></e>
@@ -38733,7 +38734,7 @@
 <e lm="demoralizzato">   <i>demoralizzat</i><par n="abbandonat/o__adj"/></e>
 <e lm="demoscopico">     <i>demoscopic</i><par n="tecnic/o__adj"/></e>
 <e lm="denigratorio">    <i>denigratori</i><par n="ampi/o__adj"/></e>
-<e lm="denominato">      <i>denominat</i><par n="tecnic/o__adj"/></e>
+<e lm="denominato">      <i>denominat</i><par n="abbandonat/o__adj"/></e>
 <e lm="denso">           <i>dens</i><par n="abbandonat/o__adj"/></e>
 <e lm="dentale">         <i>dental</i><par n="fin/e__adj"/></e>
 <e lm="dentario">        <i>dentari</i><par n="ampi/o__adj"/></e>
@@ -48674,6 +48675,7 @@
 <e lm="Hillary"><i>Hillary</i><par n="María__np"/></e>
 <e lm="Sanders"><i>Sanders</i><par n="Díez__np"/></e>
 <e lm="Trump"><i>Trump</i><par n="Díez__np"/></e>
+<e lm="Al Pacino"><i>Al<b/>Pacino</i><par n="Díez__np"/></e>
 
   </section>
 
