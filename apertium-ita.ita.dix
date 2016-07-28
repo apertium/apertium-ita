@@ -15009,7 +15009,6 @@
 <e lm="Barbaziano">      <i>Barbaziano</i><par n="Juan__np"/></e>
 <e lm="Barberino">       <i>Barberino</i><par n="Juan__np"/></e>
 <e lm="Barbieri">        <i>Barbieri</i><par n="Díez__np"/></e>
-<e lm="Barcellona">      <i>Barcellona</i><par n="Afghanistan__np"/></e>
 <e lm="Barcellona">      <i>Barcellona</i><par n="Europa__np"/></e>
 <e lm="Barcelonès">      <i>Barcelonès</i><par n="Afghanistan__np"/></e>
 <e lm="Barclay">         <i>Barclay</i><par n="Díez__np"/></e>
@@ -48664,8 +48663,17 @@
 <e lm="verificato"><i>verificat</i><par n="cosiddett/o__adj"/></e>
 <e lm="vietnamita"><i>vietnamit</i><par n="suicid/a__adj"/></e>
 
-<e lm="diaframma">       <i>diaframma</i><par n="autom/a__n"/></e>
+<e lm="diaframma"><i>diaframma</i><par n="autom/a__n"/></e>
 <e lm="fortificato"><i>fortificat</i><par n="abbain/o__n"/></e>
+
+<e lm="Kustendil"><i>Kustendil</i><par n="Afghanistan__np"/></e>
+<e lm="Ciuvascia"><i>Ciuvascia</i><par n="Europa__np"/></e>
+<e lm="ciuvascio"><i>ciuvasci</i><par n="segretari/o__n"/></e>
+<e lm="ciuvascio"><i>ciuvasci</i><par n="ampi/o__adj"/></e>
+<e lm="Barack"><i>Barack</i><par n="Juan__np"/></e>
+<e lm="Hillary"><i>Hillary</i><par n="María__np"/></e>
+<e lm="Sanders"><i>Sanders</i><par n="Díez__np"/></e>
+<e lm="Trump"><i>Trump</i><par n="Díez__np"/></e>
 
   </section>
 
