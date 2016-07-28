@@ -48589,7 +48589,6 @@
 <e lm="ipogeo"><i>ipoge</i><par n="abbain/o__n"/></e>
 <e lm="lineare"><i>linear</i><par n="abat/e__n"/></e>
 <e lm="locutore"><i>locutor</i><par n="abat/e__n"/></e>
-<e lm="metà"><i>metà</i><par n="abilità__n"/></e>
 <e lm="militanza"><i>militanz</i><par n="cas/a__n"/></e>
 <e lm="notitziario"><i>notitziari</i><par n="abbagli/o__n"/></e>
 <e lm="offensiva"><i>offensiv</i><par n="cas/a__n"/></e>
@@ -48632,7 +48631,6 @@
 <e lm="evangelista"><i>evangelist</i><par n="suicid/a__adj"/></e>
 <e lm="fenicio"><i>fenici</i><par n="ampi/o__adj"/></e>
 <e lm="fonnese"><i>fonnes</i><par n="albanes/e__adj"/></e>
-<e lm="fortificare"><i>fortificar</i><par n="albanes/e__adj"/></e>
 <e lm="gaelico"><i>gaelic</i><par n="tecnic/o__adj"/></e>
 <e lm="galileo"><i>galile</i><par n="cosiddett/o__adj"/></e>
 <e lm="ghetto"><i>ghett</i><par n="cosiddett/o__adj"/></e>
@@ -48667,6 +48665,7 @@
 <e lm="vietnamita"><i>vietnamit</i><par n="suicid/a__adj"/></e>
 
 <e lm="diaframma">       <i>diaframma</i><par n="autom/a__n"/></e>
+<e lm="fortificato"><i>fortificat</i><par n="abbain/o__n"/></e>
 
   </section>
 
