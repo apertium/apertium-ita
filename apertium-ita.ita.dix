@@ -48145,6 +48145,7 @@
 <!--       ******************************      (pr) group      ******************************    -->
 <e lm="a">               <par n="/a__pr"/></e>
 <e lm="a cominciare da"> <i>a<b/>cominciare<b/></i><par n="/da__pr"/></e>
+<e lm="a partire da">    <i>a<b/>partire<b/></i><par n="/da__pr"/></e>
 <e lm="accanto a">       <i>accanto<b/></i><par n="/a__pr"/></e>
 <e lm="agli inizi di">   <i>agli<b/>inizi<b/></i><par n="/di__pr"/></e>
 <e r="LR" lm="al di fuori da"><i>al<b/>di<b/>fuori<b/></i><par n="/da__pr"/></e>
