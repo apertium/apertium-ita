@@ -48783,6 +48783,12 @@
 <e r="LR" lm="dov'">     <p><l>dov'</l>      <r>dove<s n="adv"/><s n="itg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+
+
+
+<e lm="Appennino">     <i>Appennino</i><par n="Afghanistan__np"/></e>
+<e lm="Appennini">     <i>Appennini</i><par n="USA__np"/></e>
+
   </section>
 
   <section id="final" type="inconditional">
