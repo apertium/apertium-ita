@@ -34915,6 +34915,10 @@
 <e lm="solo con">        <i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
 <e lm="tenendo in conto che"><i>tenendo<b/>in<b/>conto</i><par n="siccome__cnjadv"/></e>
 <e lm="tutto ciò">       <i>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
+
+<e lm="pur">             <i>pur</i><par n="siccome__cnjadv"/></e>
+<e lm="pur di">          <i>pur<b/>di</i><par n="siccome__cnjadv"/></e>
+
     <!-- ******************************
           group adv
       ****************************** -->
