@@ -24839,6 +24839,7 @@
 <e lm="dado">            <i>dad</i><par n="abbain/o__n"/></e>
 <e lm="dadaismo">        <i>dadaism</i><par n="abbain/o__n"/></e>
 <e lm="dadaista">        <i>dadaist</i><par n="suicid/a__n"/></e>
+<e lm="dadaista">        <i>dadaist</i><par n="suicid/a__adj"/></e>
 <e lm="dagherrotipo">    <i>dagherrotip</i><par n="abbain/o__n"/></e>
 <e lm="daino">           <i>dain</i><par n="abbain/o__n"/></e>
 <e lm="dalemiano">       <i>dalemian</i><par n="bambin/o__n"/></e>
@@ -27319,6 +27320,7 @@
 <e lm="imprenditorialità"><i>imprenditorialità</i><par n="abilità__n"/></e>
 <e lm="impresa">         <i>impres</i><par n="cas/a__n"/></e>
 <e lm="impressione">     <i>impression</i><par n="abbreviazion/e__n"/></e>
+<e lm="impressionismo">  <i>impressionism</i><par n="abbain/o__n"/></e>
 <e lm="impressionista">  <i>impressionist</i><par n="suicid/a__n"/></e>
 <e lm="imprevedibilità"> <i>imprevedibilità</i><par n="abilità__n"/></e>
 <e lm="imprevisto">      <i>imprevist</i><par n="abbain/o__n"/></e>
@@ -48798,6 +48800,9 @@
 <e lm="reclamazione"><i>reclamazione</i><par n="abbreviazion/e__n"/></e>
 <e lm="integrista"><i>integrist</i><par n="suicid/a__n"/></e>
 <e lm="integrista"><i>integrist</i><par n="suicid/a__adj"/></e>
+<e lm="megalitismo"><i>megalitism</i><par n="abbain/o__n"/></e>
+<e lm="megalito"><i>megalit</i><par n="abbain/o__n"/></e>
+<e lm="megalitico"><i>megalitic</i><par n="tecnic/o__adj"/></e>
 
 
 
