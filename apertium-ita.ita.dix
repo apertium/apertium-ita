@@ -19112,7 +19112,6 @@
 <e lm="Ovodda">          <i>Ovodda</i><par n="Europa__np"/></e>
 <e lm="Owen">            <i>Owen</i><par n="Díez__np"/></e>
 <e lm="Owen">            <i>Owen</i><par n="Juan__np"/></e>
-<e lm="Oxford">          <i>Oxford</i><par n="Europa__np"/></e>
 <e lm="Oxford">          <i>Oxford</i><par n="Afghanistan__np"/></e>
 <e lm="Ozieri">          <i>Ozieri</i><par n="USA__np"/></e>
 <e lm="Pabillonis">      <i>Pabillonis</i><par n="Afghanistan__np"/></e>
@@ -21883,7 +21882,7 @@
 <e lm="ambito">          <i>ambit</i><par n="abbain/o__n"/></e>
 <e lm="ambizione">       <i>ambizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="ambizioso">       <i>ambizios</i><par n="bambin/o__n"/></e>
-<e lm="ambulante">       <i>ambulant</i><par n="abat/e__n"/></e>
+<e lm="ambulante">       <i>ambulant</i><par n="albanes/e__n"/></e>
 <e lm="ambulanza">       <i>ambulanz</i><par n="cas/a__n"/></e>
 <e lm="amenità">         <i>amenità</i><par n="abilità__n"/></e>
 <e lm="americano">       <i>american</i><par n="bambin/o__n"/></e>
@@ -22773,7 +22772,7 @@
 <e lm="beneficiato">     <i>beneficiat</i><par n="bambin/o__n"/></e>
 <e lm="beneplacito">     <i>beneplacit</i><par n="abbain/o__n"/></e>
 <e lm="benessere">       <i>benesser</i><par n="abat/e__n"/></e>
-<e lm="benestante">      <i>benestant</i><par n="abat/e__n"/></e>
+<e lm="benestante">      <i>benestant</i><par n="albanes/e__n"/></e>
 <e lm="benestare">       <i>benestar</i><par n="abat/e__n"/></e>
 <e lm="beneventano">     <i>beneventan</i><par n="bambin/o__n"/></e>
 <e lm="benevolenza">     <i>benevolenz</i><par n="cas/a__n"/></e>
@@ -24860,7 +24859,7 @@
 <e lm="dato">            <i>dat</i><par n="abbain/o__n"/></e>
 <e lm="database">        <i>database</i><par n="abilità__n"/></e>
 <e lm="datazione">       <i>datazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="datore">          <i>dator</i><par n="abat/e__n"/></e>
+<e lm="datore">          <i>dat</i><par n="agricolt/ore__n"/></e>
 <e lm="dattero">         <i>datter</i><par n="abbain/o__n"/></e>
 <e lm="dattilografo">    <i>dattilograf</i><par n="bambin/o__n"/></e>
 <e lm="dattiloscritto">  <i>dattiloscritt</i><par n="abbain/o__n"/></e>
@@ -28874,7 +28873,7 @@
 <e lm="minoranza">       <i>minoranz</i><par n="cas/a__n"/></e>
 <e lm="minorato">        <i>minorat</i><par n="bambin/o__n"/></e>
 <e lm="minorazione">     <i>minorazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="minorenne">       <i>minorenn</i><par n="abat/e__n"/></e>
+<e lm="minorenne">       <i>minorenn</i><par n="albanes/e__n"/></e>
 <e lm="minuetto">        <i>minuett</i><par n="abbain/o__n"/></e>
 <e lm="minusvalenza">    <i>minusvalenz</i><par n="cas/a__n"/></e>
 <e lm="minuto">          <i>minut</i><par n="abbain/o__n"/></e>
@@ -29136,7 +29135,8 @@
 <e lm="muro">            <i>mur</i><par n="calcagn/o__n"/></e>
 <e lm="muraglione">      <i>muraglion</i><par n="abat/e__n"/></e>
 <e lm="murale">          <i>mural</i><par n="abat/e__n"/></e>
-<e lm="muratore">        <i>murator</i><par n="abat/e__n"/></e>
+<e r="LR" lm="muratora"><p><l>muratora</l><r>muratore<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="muratore">        <i>murat</i><par n="agricolt/ore__n"/></e>
 <e lm="muratura">        <i>muratur</i><par n="cas/a__n"/></e>
 <e lm="muretto">         <i>murett</i><par n="abbain/o__n"/></e>
 <e lm="muristene">       <i>muristen</i><par n="abat/e__n"/></e>
@@ -30887,7 +30887,7 @@
 <e lm="progettualità">   <i>progettualità</i><par n="abilità__n"/></e>
 <e lm="prognosi">        <i>prognosi</i><par n="abilità__n"/></e>
 <e lm="programma">       <i>programm</i><par n="autom/a__n"/></e>
-<e lm="programmatore">   <i>programmator</i><par n="abat/e__n"/></e>
+<e lm="programmatore">   <i>programmat</i><par n="agricolt/ore__n"/></e>
 <e lm="programmazione">  <i>programmazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="programmino">     <i>programmin</i><par n="abbain/o__n"/></e>
 <e lm="programmista">    <i>programmist</i><par n="suicid/a__n"/></e>
@@ -33784,7 +33784,7 @@
 <e lm="tesseramento">    <i>tesserament</i><par n="abbain/o__n"/></e>
 <e lm="tesserato">       <i>tesserat</i><par n="bambin/o__n"/></e>
 <e lm="tesserino">       <i>tesserin</i><par n="abbain/o__n"/></e>
-<e lm="tessitore">       <i>tessitor</i><par n="abat/e__n"/></e>
+<e lm="tessitore">       <i>tessit</i><par n="agricolt/ore__n"/></e>
 <e lm="tessuto">         <i>tessut</i><par n="abbain/o__n"/></e>
 <e lm="test">            <i>test</i><par n="albatros__n"/></e>
 <e lm="testa">           <i>test</i><par n="cas/a__n"/></e>
@@ -42614,6 +42614,7 @@
 <e lm="popolato">        <i>popolat</i><par n="cosiddett/o__adj"/></e>
 <e lm="popoloso">        <i>popolos</i><par n="abbandonat/o__adj"/></e>
 <e lm="poppante">        <i>poppant</i><par n="fin/e__adj"/></e>
+<e lm="populista">       <i>populist</i><par n="suicid/a__adj"/></e>
 <e lm="populistico">     <i>populistic</i><par n="tecnic/o__adj"/></e>
 <e lm="porcellanato">    <i>porcellanat</i><par n="abbandonat/o__adj"/></e>
 <e lm="porcino">         <i>porcin</i><par n="abbandonat/o__adj"/></e>
@@ -48562,7 +48563,9 @@
 <e lm="g">               <i>g</i><par n="a.C.__abbr"/></e>
 <e lm="kg">              <i>kg</i><par n="a.C.__abbr"/></e>
 <e lm="km">              <i>km</i><par n="a.C.__abbr"/></e>
+<e lm="km/h">            <i>km/h</i><par n="a.C.__abbr"/></e>
 <e lm="m">               <i>m</i><par n="a.C.__abbr"/></e>
+<e lm="m/s">             <i>m/s</i><par n="a.C.__abbr"/></e>
 <e lm="mg">              <i>mg</i><par n="a.C.__abbr"/></e>
 <e lm="mm">              <i>mm</i><par n="a.C.__abbr"/></e>
 <e r="LR" lm="p.es.">    <p><l>p.<b/>es.</l> <r>p.es.</r></p><par n="a.C.__abbr"/></e>
@@ -48788,6 +48791,12 @@
 
 <e lm="Appennino">     <i>Appennino</i><par n="Afghanistan__np"/></e>
 <e lm="Appennini">     <i>Appennini</i><par n="USA__np"/></e>
+<e lm="reclamazione"><i>reclamazione</i><par n="abbreviazion/e__n"/></e>
+<e lm="integrista"><i>integrist</i><par n="suicid/a__n"/></e>
+<e lm="integrista"><i>integrist</i><par n="suicid/a__adj"/></e>
+
+
+
 
   </section>
 
