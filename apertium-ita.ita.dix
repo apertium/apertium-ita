@@ -46929,6 +46929,8 @@
 <e lm="tenendo in conto che"><i>tenendo<b/>in<b/>conto</i><par n="siccome__cnjadv"/></e>
 <e lm="tutto ciò">       <i>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
 
+<e lm="purché">        <i>purché</i><par n="siccome__cnjadv"/></e>
+
     <!-- ******************************
           group adv
       ****************************** -->
@@ -48558,9 +48560,8 @@
 <e lm="salvo">           <i>salvo</i><par n="affinché__cnjsub"/></e>
 <e lm="senonché">        <i>senonché</i><par n="affinché__cnjsub"/></e>
 <e lm="solo che">        <i>solo<b/>che</i><par n="affinché__cnjsub"/></e>
-    <!-- ******************************
-          group num
-      ****************************** -->
+
+
     <!-- ******************************
           group num
       ****************************** -->
