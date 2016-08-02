@@ -24641,6 +24641,7 @@
 <e lm="cosmo">           <i>cosm</i><par n="abbain/o__n"/></e>
 <e lm="cosmesi">         <i>cosmesi</i><par n="abilità__n"/></e>
 <e lm="cosmetica">       <i>cosmetic</i><par n="tasc/a__n"/></e>
+<e lm="cosmetico">       <i>cosmetic</i><par n="abbain/o__n"/></e>
 <e lm="cosmologo">       <i>cosmolog</i><par n="tedesc/o__n"/></e>
 <e lm="cosmologia">      <i>cosmologi</i><par n="cas/a__n"/></e>
 <e lm="cosmonauta">      <i>cosmonaut</i><par n="suicid/a__n"/></e>
@@ -38604,7 +38605,6 @@
 <e lm="coscienzioso">    <i>coscienzios</i><par n="abbandonat/o__adj"/></e>
 <e lm="cosiddetto">      <i>cosiddett</i><par n="abbandonat/o__adj"/></e>
 <e lm="cosmetico">       <i>cosmetic</i><par n="tecnic/o__adj"/></e>
-<e lm="cosmetico">       <i>cosmetic</i><par n="amic/o__n"/></e>
 <e lm="cosmico">         <i>cosmic</i><par n="tecnic/o__adj"/></e>
 <e lm="cosmologico">     <i>cosmologic</i><par n="tecnic/o__adj"/></e>
 <e lm="cospicuo">        <i>cospicu</i><par n="abbandonat/o__adj"/></e>
