@@ -15271,7 +15271,7 @@
 <e lm="Birillo">         <i>Birillo</i><par n="Juan__np"/></e>
 <e lm="Birmania">        <i>Birmania</i><par n="Europa__np"/></e>
 <e lm="Birori">          <i>Birori</i><par n="Afghanistan__np"/></e>
-<e lm="Biscaglia">       <i>Biscaglia</i><par n="Afghanistan__np"/></e>
+<e lm="Biscaglia">       <i>Biscaglia</i><par n="Europa__np"/></e>
 <e lm="Bischoff">        <i>Bischoff</i><par n="Díez__np"/></e>
 <e lm="Bismarck">        <i>Bismarck</i><par n="Díez__np"/></e>
 <e lm="Bitti">           <i>Bitti</i><par n="USA__np"/></e>
@@ -21911,8 +21911,8 @@
 <e lm="amministrativo">  <i>amministrativ</i><par n="bambin/o__n"/></e>
 <e lm="amministrazione"> <i>amministrazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="ammiraglio">      <i>ammiragli</i><par n="mugnai/o__n"/></e>
-<e lm="viceammiraglio">      <i>viceammiragli</i><par n="mugnai/o__n"/></e>
-<e lm="contrammiraglio">      <i>contrammiragli</i><par n="mugnai/o__n"/></e>
+<e lm="viceammiraglio">  <i>viceammiragli</i><par n="mugnai/o__n"/></e>
+<e lm="contrammiraglio"> <i>contrammiragli</i><par n="mugnai/o__n"/></e>
 <e lm="ammiratore">      <i>ammirat</i><par n="agricolt/ore__n"/></e>
 <e lm="ammirazione">     <i>ammirazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="ammissibilità">   <i>ammissibilità</i><par n="abilità__n"/></e>
@@ -28606,7 +28606,10 @@
 <e lm="massimalista">    <i>massimalist</i><par n="suicid/a__n"/></e>
 <e lm="massimizzazione"> <i>massimizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="massmediologo">   <i>massmediolog</i><par n="tedesc/o__n"/></e>
-<e lm="massone">         <i>masson</i><par n="abat/e__n"/></e>
+<e lm="massone">         <i>masson</i><par n="albanes/e__n"/></e>
+<e lm="framassone">      <i>framasson</i><par n="albanes/e__n"/></e>
+<e lm="massoneria">      <i>massoneri</i><par n="cas/a__n"/></e>
+<e lm="framassoneria">   <i>framassoneri</i><par n="cas/a__n"/></e>
 <e lm="master">          <i>master</i><par n="abilità__n"/></e>
 <e lm="mastice">         <i>mastic</i><par n="abat/e__n"/></e>
 <e lm="mastino">         <i>mastin</i><par n="abbain/o__n"/></e>
@@ -48893,6 +48896,8 @@
 
 <e lm="dislocare">        <i>disloc</i><par n="abbarbic/are__vblex"/></e>
 
+<e lm="tataro">        <i>tatar</i><par n="bambin/o__n"/></e>
+<e lm="tataro">        <i>tatar</i><par n="cosiddett/o__adj"/></e>
 
   </section>
 
