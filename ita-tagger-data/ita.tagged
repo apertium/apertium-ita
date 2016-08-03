@@ -11,7 +11,7 @@
 ^umana/umano<adj><f><sg>$ 
 ^,/,<cm>$ 
 ^di/di<pr>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^possiamo/potere<vbmod><pri><p1><pl>$ 
 ^ridurre/ridurre<vblex><inf>$ 
 ^il/il<det><def><m><sg>$ 
@@ -30,7 +30,7 @@
 ^,/,<cm>$ 
 ^e/e<cnjcoo>$ 
 ^di/di<pr>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^possiamo/potere<vbmod><pri><p1><pl>$ 
 ^farlo/fare<vblex><inf>+lo<prn><enc><p3><nt>$ 
 ^con/con<pr>$ 
@@ -712,7 +712,7 @@
 ^ha/avere<vblex><pri><p3><sg>$ 
 ^ancora/ancora<adv>$ 
 ^capito/capire<vblex><pp><m><sg>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^arrivare/arrivare<vblex><inf>$ 
 ^a/a<pr>$ 
 ^casa/casa<n><f><sg>$ 
@@ -2919,7 +2919,7 @@
 ^Noi/Noi<prn><tn><p1><mf><pl>$ 
 ^la/il<det><def><f><sg>$ 
 ^vediamo/vedere<vblex><pri><p1><pl>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^una/un<det><ind><f><sg>$ 
 ^sfida/sfida<n><f><sg>$ 
 ^per/per<pr>$ 
@@ -2934,7 +2934,7 @@
 ^alla/a<pr>+il<det><def><f><sg>$ 
 ^tecnologia/tecnologia<n><f><sg>$ 
 ^,/,<cm>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^l'/il<det><def><mf><sg>$
 ^industria/industria<n><f><sg>$ 
 ^dei/di<pr>+il<det><def><m><pl>$ 
@@ -2954,7 +2954,7 @@
 ^./.<sent>$ 
 
 ^Ma/Ma<cnjcoo>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^ci/ci<prn><pro><p1><mf><pl>$ 
 ^arriveremo/arrivare<vblex><fti><p1><pl>$ 
 ^,/,<cm>$ 
@@ -5565,7 +5565,7 @@
 ^di/di<pr>$ 
 ^vettori/vettore<n><m><pl>$ 
 ^,/,<cm>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^le/il<det><def><f><pl>$ 
 ^zanzare/zanzara<n><f><pl>$ 
 ^e/e<cnjcoo>$ 
@@ -6630,7 +6630,7 @@
 ^soglia/soglia<n><f><sg>$ 
 ^è/essere<vbser><pri><p3><sg>$ 
 ^un po'/un pò<adv>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^la/il<det><def><f><sg>$ 
 ^differenza/differenza<n><f><sg>$ 
 ^tra/tra<pr>$ 
@@ -7774,7 +7774,7 @@
 ^ciò/ciò<prn><tn><nt><sg>$ 
 ^che/che<rel><an><mf><sp>$ 
 ^siamo/essere<vbser><pri><p1><pl>$ 
-^come/come<adv>$ 
+^come/come<adv><itg>$ 
 ^esseri/essere<n><m><pl>$ 
 ^umani/umano<adj><m><pl>$ 
 ^./.<sent>$ 
@@ -7822,7 +7822,7 @@
 ^che/che<rel><an><mf><sp>$ 
 ^la/il<det><def><f><sg>$ 
 ^volontà/volontà<n><f><sp>$ 
-^di/dire<vblex><imp><p2><sg>$ 
+^di/dire<pr>$ 
 ^agire/agire<vblex><inf>$ 
 ^è/essere<vbser><pri><p3><sg>$ 
 ^essa/esso<prn><tn><f><sg>$ 
@@ -8403,4 +8403,4 @@
 ^è/essere<vbser><pri><p3><sg>$ 
 ^molto/molto<adj><m><sg>$ 
 ^importante/importante<adj><mf><sg>$ 
-^./.<sent>$ 
+^./.<sent>$
