@@ -41925,6 +41925,7 @@
 <e lm="riposto">         <i>ripost</i><par n="abbandonat/o__adj"/></e>
 <e lm="ripreso">         <i>ripres</i><par n="cosiddett/o__adj"/></e>
 <e lm="riproducibile">   <i>riproducibil</i><par n="fin/e__adj"/></e>
+<e lm="riproduttore">    <i>riprodutt</i><par n="accentrat/ore__adj"/></e>
 <e lm="riproduttivo">    <i>riproduttiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="riproponibile">   <i>riproponibil</i><par n="fin/e__adj"/></e>
 <e lm="riprovevole">     <i>riprovevol</i><par n="fin/e__adj"/></e>
@@ -46946,6 +46947,7 @@
 <e lm="a.m.">            <i>a.m.</i><par n="ieri__adv"/></e>
 <e lm="a breve">         <i>a<b/>breve</i><par n="ieri__adv"/></e>
 <e lm="a breve termine"> <i>a<b/>breve<b/>termine</i><par n="ieri__adv"/></e>
+<e lm="a casa">          <i>a<b/>casa</i><par n="ieri__adv"/></e>
 <e lm="a caso">          <i>a<b/>caso</i><par n="ieri__adv"/></e>
 <e lm="a cavallo">       <i>a<b/>cavallo</i><par n="ieri__adv"/></e>
 <e lm="a cielo aperto">  <i>a<b/>cielo<b/>aperto</i><par n="ieri__adv"/></e>
