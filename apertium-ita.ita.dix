@@ -24744,7 +24744,7 @@
 <e lm="cravattino">      <i>cravattin</i><par n="abbain/o__n"/></e>
 <e lm="craxiano">        <i>craxian</i><par n="bambin/o__n"/></e>
 <e lm="craxismo">        <i>craxism</i><par n="abbain/o__n"/></e>
-<e lm="crea dipendenza"> <i>crea<b/>dipendenz</i><par n="abilità__n"/></e>
+<e lm="crea dipendenza"> <i>crea<b/>dipendenz</i><par n="abilità__n"/></e> <!-- VERIFY -->
 <e lm="creatore">        <i>creat</i><par n="agricolt/ore__n"/></e>
 <e lm="creativo">        <i>creativ</i><par n="abbain/o__n"/></e>
 <e lm="creatività">      <i>creatività</i><par n="abilità__n"/></e>
@@ -25628,7 +25628,7 @@
 <e lm="durezza">         <i>durezz</i><par n="cas/a__n"/></e>
 <e lm="duttilità">       <i>duttilità</i><par n="abilità__n"/></e>
 <e lm="dvd">             <i>dvd</i><par n="abilità__n"/></e>
-<e lm="dà dipendenza">   <i>dà<b/>dipendenz</i><par n="abilità__n"/></e>
+<e lm="dà dipendenza">   <i>dà<b/>dipendenz</i><par n="abilità__n"/></e> <!-- VERIFY -->
 <e lm="dèmone">          <i>dèmon</i><par n="abat/e__n"/></e>
 <e lm="débacle">         <i>débacle</i><par n="abilità__n"/></e>
 <e lm="démone">          <i>démon</i><par n="abat/e__n"/></e>
@@ -31095,7 +31095,7 @@
 <e lm="provedimento">    <i>provediment</i><par n="abbain/o__n"/></e>
 <e lm="provenienza">     <i>provenienz</i><par n="cas/a__n"/></e>
 <e lm="provento">        <i>provent</i><par n="abbain/o__n"/></e>
-<e lm="provenzale">      <i>provenzal</i><par n="abat/e__n"/></e>
+<e lm="provenzale">      <i>provenzal</i><par n="albanes/e__n"/></e>
 <e lm="proverbio">       <i>proverbi</i><par n="abbagli/o__n"/></e>
 <e lm="provetta">        <i>provett</i><par n="cas/a__n"/></e>
 <e lm="provino">         <i>provin</i><par n="abbain/o__n"/></e>
@@ -48859,81 +48859,9 @@
 
 <!--       ******************************      (detnt) group      ******************************    -->
 <e lm="lo">              <i>lo</i><par n="lo__detnt"/></e>
-  </section>
-  <section id="apostrophes" type="postblank">
-    <!-- ******************************
-          group pr_symbol
-      ****************************** -->
-    <!-- ******************************
-          group pr_symbol
-      ****************************** -->
-<e r="LR" lm="all'">     <p><l>all'</l>      <r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="d'">       <p><l>d'</l>        <r>di<s n="pr"/></r></p></e>
-<e r="LR" lm="d'">       <p><l>d'</l>        <r>da<s n="pr"/></r></p></e>
-<e r="LR" lm="dall'">    <p><l>dall'</l>     <r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="dell'">    <p><l>dell'</l>     <r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="mezz'">    <p><l>mezz'</l>     <r>mezza<s n="pr"/></r></p></e>
-<e r="LR" lm="nell'">    <p><l>nell'</l>     <r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="senz'">    <p><l>senz'</l>     <r>senza<s n="pr"/></r></p></e>
-<e r="LR" lm="sott'">    <p><l>sott'</l>     <r>sotto<s n="pr"/></r></p></e>
-<e r="LR" lm="sull'">    <p><l>sull'</l>     <r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="vicino all'"><p><l>vicino<b/>all'</l><r>vicino<b/>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <!-- ******************************
-          group adv
-      ****************************** -->
-    <!-- ******************************
-          group adv
-      ****************************** -->
-<e r="LR" lm="anch'">    <p><l>anch'</l>     <r>anche</r></p><par n="ieri__adv"/></e>
-<e r="LR" lm="com'">     <p><l>com'</l>      <r>come</r></p><par n="ieri__adv"/></e>
-<e r="LR" lm="tant'">    <p><l>tant'</l>     <r>tanto</r></p><par n="ieri__adv"/></e>
-<e r="LR" lm="un po'">   <p><l>un<b/>po'</l> <r>un<b/>pò</r></p><par n="ieri__adv"/></e>
-    <!-- ******************************
-          group prn_symbol
-      ****************************** -->
-    <!-- ******************************
-          group prn_symbol
-      ****************************** -->
-<e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
-<e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
-<e r="LR" lm="c'">       <p><l>c'</l>        <r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-<e r="LR" lm="coll'">    <p><l>coll'</l>     <r>con<s n="prn"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="l'">       <p><l>l'</l>        <r>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="n'">       <p><l>n'</l>        <r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
-<e r="LR" lm="l'">       <p><l>l'</l>        <r>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="quell'">   <p><l>quell'</l>    <r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="quest'">   <p><l>quest'</l>    <r>questo<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="un'">      <p><l>un'</l>       <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
-    <!-- ******************************
-          group rel_symbol
-      ****************************** -->
-    <!-- ******************************
-          group rel_symbol
-      ****************************** -->
-<e r="LR" lm="quand'">   <p><l>quand'</l>    <r>quando<s n="rel"/><s n="adv"/></r></p></e>
-<e r="LR" lm="quant'">   <p><l>quant'</l>    <r>quanto<s n="rel"/><s n="adv"/></r></p></e>
-    <!-- ******************************
-          group n_symbol
-      ****************************** -->
-    <!-- ******************************
-          group n_symbol
-      ****************************** -->
-<e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <!-- ******************************
-          group np
-      ****************************** -->
+
 <e lm="Appennini">       <i>Appennini</i><par n="USA__np"/></e>
 <e lm="Appennino">       <i>Appennino</i><par n="Afghanistan__np"/></e>
-    <!-- ******************************
-          group n
-      ****************************** -->
 <e lm="anatomopatologia"><i>anatomopatologi</i><par n="cas/a__n"/></e>
 <e lm="andrologia">      <i>andrologi</i><par n="cas/a__n"/></e>
 <e lm="astrologia">      <i>astrologi</i><par n="cas/a__n"/></e>
@@ -48982,9 +48910,6 @@
 <e lm="urologia">        <i>urologi</i><par n="cas/a__n"/></e>
 <e lm="virologia">       <i>virologi</i><par n="cas/a__n"/></e>
 <e lm="vulcanologia">    <i>vulcanologi</i><par n="cas/a__n"/></e>
-    <!-- ******************************
-          group adj
-      ****************************** -->
 <e lm="anatomopatologico"><i>anatomopatologic</i><par n="tecnic/o__adj"/></e>
 <e lm="andrologico">     <i>andrologic</i><par n="tecnic/o__adj"/></e>
 <e lm="cardiologico">    <i>cardiologic</i><par n="tecnic/o__adj"/></e>
@@ -49026,9 +48951,74 @@
 <e lm="turcologico">     <i>turcologic</i><par n="tecnic/o__adj"/></e>
 <e lm="virologico">      <i>virologic</i><par n="tecnic/o__adj"/></e>
 <e lm="vulcanologico">   <i>vulcanologic</i><par n="tecnic/o__adj"/></e>
+
+<e lm="arpitano">  <i>arpitan</i><par n="bambin/o__n"/></e>
+<e lm="arpitano">  <i>arpitan</i><par n="abbandonat/o__adj"/></e>
+<e lm="francoprovenzale"><i>francoprovenzal</i><par n="abat/e__n"/></e>
+<e lm="enciclica"><i>enciclic</i><par n="tasc/a__n"/></e>
+<e lm="dislocare">       <i>disloc</i><par n="abbarbic/are__vblex"/></e>
+<e lm="interdisciplinarmente">  <i>interdisciplinarmente</i><par n="ieri__adv"/></e>
+<e lm="multidisciplinarmente">  <i>multidisciplinarmente</i><par n="ieri__adv"/></e>
+<e lm="interdisciplinarità">  <i>interdisciplinarità</i><par n="abilità__n"/></e>
+<e r="LR" lm="interdisciplinarietà'">     <p><l>interdisciplinarietà</l>      <r>interdisciplinarità</r></p><par n="abilità__n"/></e>
+<e lm="multidisciplinarità">  <i>multidisciplinarità</i><par n="abilità__n"/></e>
+<e r="LR" lm="multidisciplinarietà'">     <p><l>multidisciplinarietà</l>      <r>multidisciplinarità</r></p><par n="abilità__n"/></e>
+<e lm="franco-provenzale"><i>provenzal</i><par n="abat/e__n"/></e>
+<e lm="franco-provenzale"><i>provenzal</i><par n="albanes/e__adj"/></e>
+<e lm="multidisciplinare"><i>multidisciplinar</i><par n="fin/e__adj"/></e>
+<e lm="francoprovenzale"><i>francoprovenzal</i><par n="albanes/e__adj"/></e>
+
+  </section>
+
+  <section id="apostrophes" type="postblank">
     <!-- ******************************
-          group(s) with only one element
+          group pr_symbol
       ****************************** -->
+<e r="LR" lm="all'">     <p><l>all'</l>      <r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="d'">       <p><l>d'</l>        <r>di<s n="pr"/></r></p></e>
+<e r="LR" lm="d'">       <p><l>d'</l>        <r>da<s n="pr"/></r></p></e>
+<e r="LR" lm="dall'">    <p><l>dall'</l>     <r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="dell'">    <p><l>dell'</l>     <r>di<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="mezz'">    <p><l>mezz'</l>     <r>mezza<s n="pr"/></r></p></e>
+<e r="LR" lm="nell'">    <p><l>nell'</l>     <r>in<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="senz'">    <p><l>senz'</l>     <r>senza<s n="pr"/></r></p></e>
+<e r="LR" lm="sott'">    <p><l>sott'</l>     <r>sotto<s n="pr"/></r></p></e>
+<e r="LR" lm="sull'">    <p><l>sull'</l>     <r>su<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="vicino all'"><p><l>vicino<b/>all'</l><r>vicino<b/>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <!-- ******************************
+          group adv
+      ****************************** -->
+<e r="LR" lm="anch'">    <p><l>anch'</l>     <r>anche</r></p><par n="ieri__adv"/></e>
+<e r="LR" lm="com'">     <p><l>com'</l>      <r>come</r></p><par n="ieri__adv"/></e>
+<e r="LR" lm="tant'">    <p><l>tant'</l>     <r>tanto</r></p><par n="ieri__adv"/></e>
+<e r="LR" lm="un po'">   <p><l>un<b/>po'</l> <r>un<b/>pò</r></p><par n="ieri__adv"/></e>
+    <!-- ******************************
+          group prn_symbol
+      ****************************** -->
+<e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+<e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
+<e r="LR" lm="c'">       <p><l>c'</l>        <r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<e r="LR" lm="coll'">    <p><l>coll'</l>     <r>con<s n="prn"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="l'">       <p><l>l'</l>        <r>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="n'">       <p><l>n'</l>        <r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+    <!-- ******************************
+          group det_symbol
+      ****************************** -->
+<e r="LR" lm="l'">       <p><l>l'</l>        <r>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="quell'">   <p><l>quell'</l>    <r>quello<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="quest'">   <p><l>quest'</l>    <r>questo<s n="det"/><s n="dem"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="un'">      <p><l>un'</l>       <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <!-- ******************************
+          group rel_symbol
+      ****************************** -->
+<e r="LR" lm="quand'">   <p><l>quand'</l>    <r>quando<s n="rel"/><s n="adv"/></r></p></e>
+<e r="LR" lm="quant'">   <p><l>quant'</l>    <r>quanto<s n="rel"/><s n="adv"/></r></p></e>
+    <!-- ******************************
+          group n_symbol
+      ****************************** -->
+<e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
@@ -49037,8 +49027,8 @@
 <e r="LR" lm="dov'">     <p><l>dov'</l>      <r>dove<s n="adv"/><s n="itg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-<e lm="dislocare">       <i>disloc</i><par n="abbarbic/are__vblex"/></e>
   </section>
+
   <section id="final" type="inconditional">
 <e>                      <par n="pardret"/></e>
 <e>                      <par n="numeros"/></e>
