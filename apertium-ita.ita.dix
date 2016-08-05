@@ -12032,6 +12032,32 @@
   <e>       <p><l>issime</l>    <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="miser/o__adj">
+  <e>       <p><l>o</l>         <r>o<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>         <r>o<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r>o<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>o<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rimo</l>      <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rimi</l>      <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rima</l>      <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rime</l>      <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>issimo</l>    <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>issimi</l>    <r>o<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>issima</l>    <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>issime</l>    <r>o<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="integ/ro__adj">
+  <e>       <p><l>ro</l>         <r>ro<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ra</l>         <r>ro<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ri</l>         <r>ro<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>re</l>         <r>ro<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>errimo</l>     <r>ro<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>errimi</l>     <r>ro<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>errima</l>     <r>ro<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>errime</l>     <r>ro<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="cosiddett/o__adj">
   <e>       <p><l>o</l>         <r>o<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r>o<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -12091,6 +12117,15 @@
   <e>       <p><l>issimi</l>    <r>e<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>issima</l>    <r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>issime</l>    <r>e<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+    
+<pardef n="celeb/re__adj">
+  <e>       <p><l>re</l>        <r>re<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ri</l>        <r>re<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>errimo</l>    <r>re<s n="adj"/><s n="sup"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>errimi</l>    <r>re<s n="adj"/><s n="sup"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>errima</l>    <r>re<s n="adj"/><s n="sup"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>errime</l>    <r>re<s n="adj"/><s n="sup"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="imprudent/e__adj">
@@ -35783,10 +35818,9 @@
 <e lm="asinino">         <i>asinin</i><par n="abbandonat/o__adj"/></e>
 <e lm="asmatico">        <i>asmatic</i><par n="tecnic/o__adj"/></e>
 <e lm="asociale">        <i>asocial</i><par n="fin/e__adj"/></e>
-<e lm="asperrimo">       <i>asperrim</i><par n="abbandonat/o__adj"/></e>
 <e lm="aspirante">       <i>aspirant</i><par n="fin/e__adj"/></e>
 <e lm="aspiratore">      <i>aspirator</i><par n="albanes/e__adj"/></e>
-<e lm="aspro">           <i>aspr</i><par n="abbandonat/o__adj"/></e>
+<e lm="aspro">           <i>aspr</i><par n="miser/o__adj"/></e>
 <e lm="asprigno">        <i>asprign</i><par n="abbandonat/o__adj"/></e>
 <e lm="asso">            <i>ass</i><par n="cosiddett/o__adj"/></e>
 <e lm="assassino">       <i>assassin</i><par n="abbandonat/o__adj"/></e>
@@ -36441,8 +36475,7 @@
 <e lm="cedevole">        <i>cedevol</i><par n="fin/e__adj"/></e>
 <e lm="cedibile">        <i>cedibil</i><par n="fin/e__adj"/></e>
 <e lm="ceduto">          <i>cedut</i><par n="cosiddett/o__adj"/></e>
-<e lm="celeberrimo">     <i>celeberrim</i><par n="abbandonat/o__adj"/></e>
-<e lm="celebre">         <i>celebr</i><par n="albanes/e__adj"/></e>
+<e lm="celebre">         <i>celeb</i><par n="celeb/re__adj"/></e>
 <e lm="celebrante">      <i>celebrant</i><par n="fin/e__adj"/></e>
 <e lm="celebrato">       <i>celebrat</i><par n="cosiddett/o__adj"/></e>
 <e lm="celebrativo">     <i>celebrativ</i><par n="abbandonat/o__adj"/></e>
@@ -39374,13 +39407,13 @@
 <e lm="intaccabile">     <i>intaccabil</i><par n="fin/e__adj"/></e>
 <e lm="intangibile">     <i>intangibil</i><par n="fin/e__adj"/></e>
 <e lm="intatto">         <i>intatt</i><par n="abbandonat/o__adj"/></e>
-<e lm="integerrimo">     <i>integerrim</i><par n="abbandonat/o__adj"/></e>
 <e lm="integrabile">     <i>integrabil</i><par n="fin/e__adj"/></e>
 <e lm="integrale">       <i>integral</i><par n="fin/e__adj"/></e>
 <e lm="integralista">    <i>integralist</i><par n="suicid/a__adj"/></e>
 <e lm="integrante">      <i>integrant</i><par n="fin/e__adj"/></e>
 <e lm="integrato">       <i>integrat</i><par n="abbandonat/o__adj"/></e>
 <e lm="integrativo">     <i>integrativ</i><par n="abbandonat/o__adj"/></e>
+<e lm="integro">         <i>integ</i><par n="integ/ro__adj"/></e>
 <e lm="intellettivo">    <i>intellettiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="intellettuale">   <i>intellettual</i><par n="fin/e__adj"/></e>
 <e lm="intellettualistico"><i>intellettualistic</i><par n="tecnic/o__adj"/></e>
@@ -40231,12 +40264,11 @@
 <e lm="misantropico">    <i>misantropic</i><par n="tecnic/o__adj"/></e>
 <e lm="miscellaneo">     <i>miscellane</i><par n="abbandonat/o__adj"/></e>
 <e lm="miscredente">     <i>miscredent</i><par n="fin/e__adj"/></e>
-<e lm="misero">          <i>miser</i><par n="cosiddett/o__adj"/></e>
+<e lm="misero">          <i>miser</i><par n="miser/o__adj"/></e>
 <e lm="miserabile">      <i>miserabil</i><par n="fin/e__adj"/></e>
 <e lm="miserando">       <i>miserand</i><par n="abbandonat/o__adj"/></e>
 <e lm="miserevole">      <i>miserevol</i><par n="fin/e__adj"/></e>
 <e lm="misericordioso">  <i>misericordios</i><par n="abbandonat/o__adj"/></e>
-<e lm="miserrimo">       <i>miserrim</i><par n="abbandonat/o__adj"/></e>
 <e lm="misogino">        <i>misogin</i><par n="abbandonat/o__adj"/></e>
 <e lm="missile">         <i>missil</i><par n="fin/e__adj"/></e>
 <e lm="missilistico">    <i>missilistic</i><par n="tecnic/o__adj"/></e>
@@ -42083,8 +42115,7 @@
 <e lm="salottiero">      <i>salottier</i><par n="abbandonat/o__adj"/></e>
 <e lm="salso">           <i>sals</i><par n="abbandonat/o__adj"/></e>
 <e lm="saltuario">       <i>saltuari</i><par n="ampi/o__adj"/></e>
-<e lm="saluberrimo">     <i>saluberrim</i><par n="abbandonat/o__adj"/></e>
-<e lm="salubre">         <i>salubr</i><par n="albanes/e__adj"/></e>
+<e lm="salubre">         <i>salub</i><par n="celeb/re__adj"/></e>
 <e lm="salutare">        <i>salutar</i><par n="fin/e__adj"/></e>
 <e lm="salutato">        <i>salutat</i><par n="cosiddett/o__adj"/></e>
 <e lm="salutifero">      <i>salutifer</i><par n="abbandonat/o__adj"/></e>
