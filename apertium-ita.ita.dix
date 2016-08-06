@@ -16058,7 +16058,6 @@
 <e lm="Cristo">          <i>Cristo</i><par n="Juan__np"/></e>
 <e lm="Cristofora">      <i>Cristofora</i><par n="María__np"/></e>
 <e lm="Cristoforo">      <i>Cristoforo</i><par n="Juan__np"/></e>
-<e lm="Cristu">          <i>Cristu</i><par n="ABC__np"/></e>
 <e lm="Croazia">         <i>Croazia</i><par n="Europa__np"/></e>
 <e lm="Croce">           <i>Croce</i><par n="María__np"/></e>
 <e lm="Crocefissa">      <i>Crocefissa</i><par n="María__np"/></e>
@@ -42055,7 +42054,7 @@
 <e lm="rotondeggiante">  <i>rotondeggiant</i><par n="fin/e__adj"/></e>
 <e lm="rotto">           <i>rott</i><par n="abbandonat/o__adj"/></e>
 <e lm="rovente">         <i>rovent</i><par n="fin/e__adj"/></e>
-<e lm="rovescio">        <i>rovesci</i><par n="prim/o__adj"/></e>
+<e lm="rovescio">        <i>rovesci</i><par n="ampi/o__adj"/></e>
 <e lm="rovinoso">        <i>rovinos</i><par n="abbandonat/o__adj"/></e>
 <e lm="rozzo">           <i>rozz</i><par n="abbandonat/o__adj"/></e>
 <e lm="ruandese">        <i>ruandes</i><par n="albanes/e__adj"/></e>
@@ -48997,6 +48996,8 @@
 
 <e lm="munire">        <i>mun</i><par n="abbrut/ire__vblex"/></e>
 <e lm="munire d'anse"> <i>mun</i><par n="abbrut/ire__vblex"/><p><l><b/>d'anse</l><r><g><b/>d'anse</g></r></p></e>
+
+<e lm="quanto">          <i>quanto</i><par n="siccome__cnjadv"/></e> <!-- La figlia è tanto bella quanto sua madre -->
 
   </section>
 
