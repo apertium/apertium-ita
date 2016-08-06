@@ -45138,9 +45138,6 @@
 <e lm="forgiare">        <i>forg</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="formare">         <i>form</i><par n="abbacin/are__vblex"/></e>
 <e lm="formalizzare">    <i>formalizz</i><par n="abbacin/are__vblex"/></e>
-
-
-<!--       ******************************      (vblex) group      ******************************    -->
 <e lm="formulare">       <i>formul</i><par n="abbacin/are__vblex"/></e>
 <e lm="fornire">         <i>forn</i><par n="abbell/ire__vblex"/></e>
 <e lm="fornicare">       <i>fornic</i><par n="abbarbic/are__vblex"/></e>
@@ -45537,6 +45534,8 @@
 <e lm="lustrare">        <i>lustr</i><par n="abbacin/are__vblex"/></e>
 <e lm="mettere insieme"> <i>m</i><par n="amm/ettere__vblex"/><p><l><b/>insieme</l><r><g><b/>insieme</g></r></p></e>
 <e lm="mettere gli steli"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>gli<b/>steli</l><r><g><b/>gli<b/>steli</g></r></p></e>
+<e lm="mettere gli orecchini"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>gli<b/>orecchini</l><r><g><b/>gli<b/>orecchini</g></r></p></e>
+<e lm="mettere la musoliera"><i>m</i><par n="amm/ettere__vblex"/><p><l><b/>la<b/>musoliera</l><r><g><b/>la<b/>musoliera</g></r></p></e>
 <e lm="morire">          <i>m</i><par n="m/orire__vblex"/></e>
 <e lm="mettere">         <i>m</i><par n="amm/ettere__vblex"/></e>
 <e lm="muovere">         <i>m</i><par n="comm/uovere__vblex"/></e>
@@ -48995,6 +48994,9 @@
 <e lm="franco-provenzale"><i>provenzal</i><par n="albanes/e__adj"/></e>
 <e lm="multidisciplinare"><i>multidisciplinar</i><par n="fin/e__adj"/></e>
 <e lm="francoprovenzale"><i>francoprovenzal</i><par n="albanes/e__adj"/></e>
+
+<e lm="munire">        <i>mun</i><par n="abbrut/ire__vblex"/></e>
+<e lm="munire d'anse"> <i>mun</i><par n="abbrut/ire__vblex"/><p><l><b/>d'anse</l><r><g><b/>d'anse</g></r></p></e>
 
   </section>
 
