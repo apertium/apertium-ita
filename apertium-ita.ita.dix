@@ -34742,7 +34742,7 @@
 <e lm="videoartista">    <i>videoartist</i><par n="suicid/a__n"/></e>
 <e lm="videocamera">     <i>videocamer</i><par n="cas/a__n"/></e>
 <e lm="videoclip">       <i>videoclip</i><par n="albatros__n"/></e>
-<e lm="videoconsole">    <i>videoconsol</i><par n="abat/e__n"/></e>
+<e lm="videoconsole">    <i>videoconsole</i><par n="abilità__n"/></e>
 <e lm="videogioco">      <i>videogioc</i><par n="abbagli/o__n"/></e>
 <e lm="videogioco">      <i>videogioc</i><par n="cec/o__n"/></e>
 <e lm="videoinstallazione"><i>videoinstallazion</i><par n="abbreviazion/e__n"/></e>
@@ -48998,6 +48998,10 @@
 <e lm="munire d'anse"> <i>mun</i><par n="abbrut/ire__vblex"/><p><l><b/>d'anse</l><r><g><b/>d'anse</g></r></p></e>
 
 <e lm="quanto">          <i>quanto</i><par n="siccome__cnjadv"/></e> <!-- La figlia è tanto bella quanto sua madre -->
+
+<e lm="plasma">      <i>plasm</i><par n="autom/a__n"/></e>
+<e lm="citoplasma">      <i>citoplasm</i><par n="autom/a__n"/></e>
+<e lm="protoplasma">      <i>protoplasm</i><par n="autom/a__n"/></e>
 
   </section>
 
