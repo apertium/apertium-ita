@@ -43999,9 +43999,6 @@
     <!-- ******************************
           group vblex
       ****************************** -->
-    <!-- ******************************
-          group vblex
-      ****************************** -->
 <e lm="avere bisogno">   <i></i><par n="/avere__vblex"/><p><l><b/>bisogno</l><r><g><b/>bisogno</g></r></p></e>
 <e r="RL" lm="avere tempo"><i></i><par n="/avere__vblex"/><p><l><b/>tempo</l><r><g><b/>tempo</g></r></p></e>
 <!-- 
@@ -49002,6 +48999,10 @@
 <e lm="plasma">      <i>plasm</i><par n="autom/a__n"/></e>
 <e lm="citoplasma">      <i>citoplasm</i><par n="autom/a__n"/></e>
 <e lm="protoplasma">      <i>protoplasm</i><par n="autom/a__n"/></e>
+
+<e lm="scollinare">        <i>scollin</i><par n="abbacin/are__vblex"/></e>
+<e lm="abnegare">        <i>abneg</i><par n="alberg/are__vblex"/></e>
+<e lm="annegare">        <i>anneg</i><par n="alberg/are__vblex"/></e>
 
   </section>
 
