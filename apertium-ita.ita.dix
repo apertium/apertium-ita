@@ -20693,6 +20693,7 @@
 <e lm="Unamuno">         <i>Unamuno</i><par n="Díez__np"/></e>
 <e lm="Ungheria">        <i>Ungheria</i><par n="Europa__np"/></e>
 <e lm="Unione Sovietica"><i>Unione<b/>Sovietica</i><par n="Europa__np"/></e>
+<e lm="Unione Europea">  <i>Unione<b/>Europea</i><par n="Europa__np"/></e>
 <e lm="Universal">       <i>Universal</i><par n="Fiat__np"/></e>
 <e lm="Unix">            <i>Unix</i><par n="ABC__np"/></e>
 <e lm="Urania">          <i>Urania</i><par n="María__np"/></e>
@@ -23974,7 +23975,6 @@
 <e lm="classicista">     <i>classicist</i><par n="suicid/a__n"/></e>
 <e lm="classicità">      <i>classicità</i><par n="abilità__n"/></e>
 <e lm="classifica">      <i>classific</i><par n="tasc/a__n"/></e>
-<e lm="classificare">    <i>classificar</i><par n="abbreviazion/e__n"/></e>
 <e lm="classificatore">  <i>classificator</i><par n="abat/e__n"/></e>
 <e lm="classificazione"> <i>classificazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="clausola">        <i>clausol</i><par n="cas/a__n"/></e>
