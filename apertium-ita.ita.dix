@@ -26381,6 +26381,7 @@
 <e lm="filtro">          <i>filtr</i><par n="abbain/o__n"/></e>
 <e lm="filtrazione">     <i>filtrazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="fine">            <i>fin</i><par n="abbreviazion/e__n"/></e>
+<e lm="fine settimana">  <i>fine<b/>settimana</i><par n="abilità__n"/></e>
 <e lm="finale">          <i>final</i><par n="abat/e__n"/></e>
 <e lm="finalista">       <i>finalist</i><par n="suicid/a__n"/></e>
 <e lm="finalità">        <i>finalità</i><par n="abilità__n"/></e>
@@ -49015,6 +49016,7 @@
           group pr_symbol
       ****************************** -->
 <e r="LR" lm="all'">     <p><l>all'</l>      <r>a<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="coll'">    <p><l>coll'</l>     <r>con<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="d'">       <p><l>d'</l>        <r>di<s n="pr"/></r></p></e>
 <e r="LR" lm="d'">       <p><l>d'</l>        <r>da<s n="pr"/></r></p></e>
 <e r="LR" lm="dall'">    <p><l>dall'</l>     <r>da<s n="pr"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -49038,9 +49040,15 @@
 <e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bello<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
 <e r="LR" lm="bell'">    <p><l>bell'</l>     <r>bella<s n="prn"/><s n="pro"/><s n="adj"/></r></p></e>
 <e r="LR" lm="c'">       <p><l>c'</l>        <r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
-<e r="LR" lm="coll'">    <p><l>coll'</l>     <r>con<s n="prn"/><j/>il<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="l'">       <p><l>l'</l>        <r>il<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="l'">       <p><l>l'</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="l'">       <p><l>l'</l>        <r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e><!--lo?-->
 <e r="LR" lm="n'">       <p><l>n'</l>        <r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<e r="LR" lm="m'">       <p><l>m'</l>        <r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="t'">       <p><l>t'</l>        <r>ti<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="s'">       <p><l>s'</l>        <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" lm="c'">       <p><l>c'</l>        <r>ci<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="LR" lm="v'">       <p><l>v'</l>        <r>vi<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
     <!-- ******************************
           group det_symbol
       ****************************** -->
