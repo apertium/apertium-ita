@@ -23834,7 +23834,9 @@
 <e lm="chilometro">      <i>chilometr</i><par n="abbain/o__n"/></e>
 <e lm="chimera">         <i>chimer</i><par n="cas/a__n"/></e>
 <e lm="chimica">         <i>chimic</i><par n="tasc/a__n"/></e>
+<e lm="biochimica">      <i>biochimic</i><par n="tasc/a__n"/></e>
 <e lm="chimico">         <i>chimic</i><par n="amic/o__n"/></e>
+<e lm="biochimico">      <i>biochimic</i><par n="amic/o__n"/></e>
 <e lm="chiocciola">      <i>chiocciol</i><par n="cas/a__n"/></e>
 <e lm="chiodo">          <i>chiod</i><par n="abbain/o__n"/></e>
 <e lm="chiosco">         <i>chiosc</i><par n="fung/o__n"/></e>
@@ -25961,7 +25963,7 @@
 <e lm="esigente">        <i>esigent</i><par n="albanes/e__n"/></e>
 <e lm="esigenza">        <i>esigenz</i><par n="cas/a__n"/></e>
 <e lm="esiguità">        <i>esiguità</i><par n="abilità__n"/></e>
-<e lm="esilio">          <i>esili</i><par n="abbain/o__n"/></e>
+<e lm="esilio">          <i>esili</i><par n="abbagli/o__n"/></e>
 <e lm="esiliato">        <i>esiliat</i><par n="bambin/o__n"/></e>
 <e lm="esistente">       <i>esistent</i><par n="albanes/e__n"/></e>
 <e lm="esistenza">       <i>esistenz</i><par n="cas/a__n"/></e>
@@ -49003,6 +49005,7 @@
 <e lm="scollinare">        <i>scollin</i><par n="abbacin/are__vblex"/></e>
 <e lm="abnegare">        <i>abneg</i><par n="alberg/are__vblex"/></e>
 <e lm="annegare">        <i>anneg</i><par n="alberg/are__vblex"/></e>
+<e lm="concilio">        <i>concili</i><par n="abbagli/o__n"/></e>
 
   </section>
 
