@@ -2174,6 +2174,94 @@
       <label-item label="PRNENC"/>
       </label-set>
     </enforce-after>
+
+
+
+
+
+    <enforce-after label="VSERINF">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+
+    <enforce-after label="VSERGER">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="VSERPARTPI">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+
+    <enforce-after label="VSERPFCI">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="VSERIMP">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="VSERIPI">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+    <enforce-after label="VSERSUBJ">
+      <label-set>
+      <label-item label="VLEXPARTPI_SG"/>
+      <label-item label="VLEXPARTPI_PL"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VSERPARTPI"/>
+      <label-item label="VMODALPARTPI"/>
+      <label-item label="PRNENCREF"/>
+      <label-item label="PRNENC"/>
+      </label-set>
+    </enforce-after>
+
+
+
+
   </enforce-rules>
 
   <preferences>
