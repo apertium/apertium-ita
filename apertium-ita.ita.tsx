@@ -100,6 +100,9 @@
   <def-label name="PREP" closed="true">
     <tags-item tags="pr"/>
   </def-label>
+  <def-label name="DAPREP" closed="true">
+    <tags-item lemma="da" tags="pr"/>
+  </def-label>
   <def-label name="PRNTNNT" closed="true">
     <tags-item tags="prn.tn.nt.*"/>
   </def-label>
@@ -318,6 +321,45 @@
       <label-item label="PREP"/>
       <tags-item tags="det.mf.sg"/>
     </sequence>
+
+ <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.def.m.sg"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.def.m.pl"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.def.f.sg"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.def.f.pl"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.pos.m.sg"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.pos.m.pl"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.pos.f.sg"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.pos.f.pl"/>
+    </sequence>
+    <sequence>
+      <label-item label="DAPREP"/>
+      <tags-item tags="det.mf.sg"/>
+    </sequence>
+
+
   </def-mult>
 
   <def-mult name="PREPPRN" closed="true">
@@ -520,7 +562,12 @@
     </label-sequence>
     <label-sequence>
       <label-item label="PREP"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="PREP"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="PREP"/>
@@ -594,7 +641,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETM"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETM"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETM"/>
@@ -670,7 +721,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETF"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETF"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETF"/>
@@ -746,7 +801,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="DETMF"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETMF"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="DETMF"/>
@@ -871,7 +930,12 @@
 
     <label-sequence>
       <label-item label="PREPDET"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="PREPDET"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="PREPDET"/>
@@ -1062,7 +1126,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="VLEXIMP"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VLEXIMP"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="VLEXIMP"/>
@@ -1134,7 +1202,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="VSERIMP"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VSERIMP"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="VSERIMP"/>
@@ -1206,7 +1278,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALIMP"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="VMODALIMP"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="VMODALIMP"/>
@@ -1624,7 +1700,11 @@
     </label-sequence>
     <label-sequence>
       <label-item label="IMPLEXPRNENC"/>
-      <label-item label="VSERPFCI"/>
+      <label-item label="VSERPFCI_SG"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="IMPLEXPRNENC"/>
+      <label-item label="VSERPFCI_PL"/>
     </label-sequence>
     <label-sequence>
       <label-item label="IMPLEXPRNENC"/>
@@ -2014,6 +2094,37 @@
     </label-sequence>
 
     <label-sequence>
+      <label-item label="VSERPFCI_PL"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERPFCI_SG"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERPFCI_PL"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERPFCI_SG"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence>
+
+
+    <label-sequence>
+      <label-item label="VSERIPI"/>
+      <label-item label="VLEXIMP"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="VSERSUBJ"/>
+      <label-item label="IMPLEXPRNENC"/>
+    </label-sequence>
+
+    <label-sequence>
       <label-item label="INTPRN"/>
       <label-item label="DETNT"/>
     </label-sequence>
@@ -2082,7 +2193,8 @@
         <label-item label="VLEXPFCI"/>
         <label-item label="VLEXIPI"/>
         <label-item label="VLEXSUBJ"/>
-        <label-item label="VSERPFCI"/>
+        <label-item label="VSERPFCI_SG"/>
+        <label-item label="VSERPFCI_PL"/>
         <label-item label="VSERIPI"/>
         <label-item label="VSERSUBJ"/>
         <label-item label="AVEREPFCI"/>
@@ -2184,7 +2296,6 @@
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
       <label-item label="VSERPARTPI"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
       <label-item label="PRNENC"/>
@@ -2196,7 +2307,6 @@
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
       <label-item label="VSERPARTPI"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
       <label-item label="PRNENC"/>
@@ -2207,7 +2317,6 @@
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
       <label-item label="VSERPARTPI"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
       <label-item label="PRNENC"/>
@@ -2217,9 +2326,8 @@
     <enforce-after label="VSERPFCI">
       <label-set>
       <label-item label="VLEXPARTPI_SG"/>
-      <label-item label="VLEXPARTPI_PL"/>
-      <label-item label="VSERPARTPI"/>
-      <label-item label="VSERPARTPI"/>
+      <label-item label="VLEXPARTPI"/>
+      <label-item label="VSERPARTPI_PL"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
       <label-item label="PRNENC"/>
@@ -2229,7 +2337,6 @@
       <label-set>
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
@@ -2241,7 +2348,6 @@
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
       <label-item label="VSERPARTPI"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
       <label-item label="PRNENC"/>
@@ -2251,7 +2357,6 @@
       <label-set>
       <label-item label="VLEXPARTPI_SG"/>
       <label-item label="VLEXPARTPI_PL"/>
-      <label-item label="VSERPARTPI"/>
       <label-item label="VSERPARTPI"/>
       <label-item label="VMODALPARTPI"/>
       <label-item label="PRNENCREF"/>
@@ -2291,6 +2396,7 @@
    <prefer tags="rel.an.mf.sp"/>
    <prefer tags="cnjsub"/>
    <prefer tags="rel.adv"/>
+   <prefer tags="pr"/>
 
   </preferences>
 </tagger>

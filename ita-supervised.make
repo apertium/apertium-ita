@@ -1,4 +1,4 @@
-TAGGER_SUPERVISED_ITERATIONS=8
+TAGGER_SUPERVISED_ITERATIONS=1
 BASENAME=apertium-ita
 LANG1=ita
 TAGGER=$(LANG1)-tagger-data
@@ -45,10 +45,10 @@ $(TAGGER)/$(LANG1).crp: $(LANG1).automorf.bin $(TAGGER)/$(LANG1).crp.txt
 $(TAGGER)/$(LANG1).crp.txt:
 	touch $(TAGGER)/$(LANG1).crp.txt
 
-#$(TAGGER)/$(LANG1).tagged:
-#	@echo "Error: File '"$@"' is needed to perform a supervised tagger training" 1>&2
-#	@echo "This file should exist. It is the result of solving the ambiguity from the '"$(TAGGER1)/$(LANG1).tagged.txt"' file" 1>&2
-#	exit 1
+$(TAGGER)/$(LANG1).tagged:
+	@echo "Error: File '"$@"' is needed to perform a supervised tagger training" 1>&2
+	@echo "This file should exist. It is the result of solving the ambiguity from the '"$(TAGGER1)/$(LANG1).tagged.txt"' file" 1>&2
+	exit 1
 
 $(TAGGER)/$(LANG1).untagged: $(TAGGER)/$(LANG1).tagged.txt $(LANG1).automorf.bin
 	cat $(TAGGER)/$(LANG1).tagged.txt | apertium-destxt | lt-proc $(LANG1).automorf.bin  > $@; 
