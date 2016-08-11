@@ -94,9 +94,9 @@ SELECT Essere IF (0 Sg1) ;
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
-#SELECT Det IF (0 Det) (0 Pron) (1 N) ;
-SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A);
-SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) ;
+SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;
+SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 
