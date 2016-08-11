@@ -20,6 +20,8 @@ LIST Num = num ;
 LIST Cm = cm ;
 LIST Pr = pr ; 
 
+LIST unknown = ("\\*.*"r) ;
+
 LIST Avere = vbhaver ;
 LIST Ser = vbser ;
 LIST Essere = "essere" ;
@@ -30,6 +32,8 @@ LIST Sotto = "sotto" ;
 LIST Io = "io" ;
 LIST Stato = "stato" ;
 LIST San = "San" ;
+LIST Dallo = "dallo" ;
+
 
 LIST Interr = itg ;
 
@@ -78,7 +82,7 @@ SELECT PrfPrc IF (-1 Essere) (0 Stato) ;
 
 SELECT PrfPrc IF (-1 Stato LINK -1 Essere) ;
 
-SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ;
+#SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
 SECTION
 
@@ -88,3 +92,9 @@ SELECT Essere IF (0 Sg1) ;
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
+#SELECT Det IF (0 Det) (0 Imper) ;
+
+#SELECT Det IF (0 Det) (0 Pron) (1 N) ;
+#SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) ;
+
+#SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
