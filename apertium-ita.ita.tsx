@@ -2396,7 +2396,6 @@
    <prefer tags="rel.an.mf.sp"/>
    <prefer tags="cnjsub"/>
    <prefer tags="rel.adv"/>
-   <prefer tags="pr"/>
 
   </preferences>
 </tagger>

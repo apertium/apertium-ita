@@ -596,10 +596,6 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
     
-<pardef n="shampoo__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-</pardef>
     
 <pardef n="cercanía__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -25274,7 +25270,7 @@
 <e lm="diniano">         <i>dinian</i><par n="bambin/o__n"/></e>
 <e lm="dinosauro">       <i>dinosaur</i><par n="abbain/o__n"/></e>
 <e lm="dintorno">        <i>dintorn</i><par n="abbain/o__n"/></e>
-<e lm="dintorni">        <i>dintorni</i><par n="shampoo__n"/></e>
+<e lm="dintorni">        <i>dintorni</i><par n="albatros__n"/></e>
 <e lm="diocesi">         <i>diocesi</i><par n="abilità__n"/></e>
 <e lm="diossido">        <i>diossid</i><par n="abbain/o__n"/></e>
 <e lm="dipartimento">    <i>dipartiment</i><par n="abbain/o__n"/></e>
@@ -30506,7 +30502,7 @@
 <e lm="plancton">        <i>plancton</i><par n="albatros__n"/></e>
 <e lm="planetario">      <i>planetari</i><par n="abbagli/o__n"/></e>
 <e lm="planetologo">     <i>planetolog</i><par n="astrolog/o__n"/></e>
-<e lm="planning">        <i>planning</i><par n="shampoo__n"/></e>
+<e lm="planning">        <i>planning</i><par n="albatros__n"/></e>
 <e lm="plastica">        <i>plastic</i><par n="tasc/a__n"/></e>
 <e lm="plasticità">      <i>plasticità</i><par n="abilità__n"/></e>
 <e lm="plastilina">      <i>plastilin</i><par n="cas/a__n"/></e>
@@ -31468,7 +31464,7 @@
 <e lm="reclusione">      <i>reclusion</i><par n="abbreviazion/e__n"/></e>
 <e lm="reclutamento">    <i>reclutament</i><par n="abbain/o__n"/></e>
 <e lm="reclutatore">     <i>reclutat</i><par n="agricolt/ore__n"/></e>
-<e lm="record">          <i>record</i><par n="shampoo__n"/></e>
+<e lm="record">          <i>record</i><par n="albatros__n"/></e>
 <e lm="recriminazione">  <i>recriminazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="recupero">        <i>recuper</i><par n="abbain/o__n"/></e>
 <e lm="redattore">       <i>redatt</i><par n="agricolt/ore__n"/></e>
@@ -32734,7 +32730,7 @@
 <e lm="sgozzamento">     <i>sgozzament</i><par n="abbain/o__n"/></e>
 <e lm="sgretolamento">   <i>sgretolament</i><par n="abbain/o__n"/></e>
 <e lm="sguardo">         <i>sguard</i><par n="abbain/o__n"/></e>
-<e lm="shampoo">         <i>shampoo</i><par n="shampoo__n"/></e>
+<e lm="shampoo">         <i>shampoo</i><par n="albatros__n"/></e>
 <e lm="sharing">         <i>sharing</i><par n="abilità__n"/></e>
 <e lm="shock">           <i>shock</i><par n="albatros__n"/></e>
 <e lm="shopping">        <i>shopping</i><par n="abilità__n"/></e>
