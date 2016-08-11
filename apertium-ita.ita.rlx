@@ -94,14 +94,10 @@ SELECT Essere IF (0 Sg1) ;
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
-SELECT Det IF (0 Det) (0 Imper) ;	# dallo -- no sé perquè no funciona
-
 #SELECT Det IF (0 Det) (0 Pron) (1 N) ;
-#SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) ;
+SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A);
+SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;	# le più grandi collezioni di pesci
-
-#REMOVE Imper IF (0 Imper) (0 PrfPrc) ;	# destinati -- no sé perquè no funciona!!!
-#SELECT PrfPrc IF (0 Imper) (0 PrfPrc) ;
