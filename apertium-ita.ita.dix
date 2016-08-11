@@ -29387,6 +29387,7 @@
 <e lm="neolaureato">     <i>neolaureat</i><par n="bambin/o__n"/></e>
 <e lm="neoliberismo">    <i>neoliberism</i><par n="abbain/o__n"/></e>
 <e lm="neolitico">       <i>neolitic</i><par n="abbain/o__n"/></e>
+<e lm="eneolitico">      <i>eneolitic</i><par n="abbain/o__n"/></e>
 <e lm="neologismo">      <i>neologism</i><par n="abbain/o__n"/></e>
 <e lm="neoministro">     <i>neoministr</i><par n="bambin/o__n"/></e>
 <e lm="neonato">         <i>neonat</i><par n="abbain/o__n"/></e>
@@ -30651,6 +30652,7 @@
 <e lm="pontile">         <i>pontil</i><par n="abat/e__n"/></e>
 <e lm="pontone">         <i>ponton</i><par n="abat/e__n"/></e>
 <e lm="pop">             <i>pop</i><par n="albatros__n"/></e>
+<e lm="pop">             <i>pop</i><par n="extra__adj"/></e>
 <e lm="popolo">          <i>popol</i><par n="abbain/o__n"/></e>
 <e lm="popolano">        <i>popolan</i><par n="bambin/o__n"/></e>
 <e lm="popolarismo">     <i>popolarism</i><par n="abbain/o__n"/></e>
@@ -39865,6 +39867,8 @@
 <e lm="linguacciuto">    <i>linguacciut</i><par n="cosiddett/o__adj"/></e>
 <e lm="linguista">       <i>linguist</i><par n="suicid/a__adj"/></e>
 <e lm="linguistico">     <i>linguistic</i><par n="tecnic/o__adj"/></e>
+<e lm="neurolinguistico">     <i>neurolinguistic</i><par n="tecnic/o__adj"/></e>
+<e lm="psicolinguistico">     <i>psicolinguistic</i><par n="tecnic/o__adj"/></e>
 <e lm="liquido">         <i>liquid</i><par n="abbandonat/o__adj"/></e>
 <e lm="liquidabile">     <i>liquidabil</i><par n="fin/e__adj"/></e>
 <e lm="liquidatorio">    <i>liquidatori</i><par n="ampi/o__adj"/></e>
@@ -49008,6 +49012,9 @@
 <e lm="abnegare">        <i>abneg</i><par n="alberg/are__vblex"/></e>
 <e lm="annegare">        <i>anneg</i><par n="alberg/are__vblex"/></e>
 <e lm="concilio">        <i>concili</i><par n="abbagli/o__n"/></e>
+
+<e lm="sfinge">           <i>sfing</i><par n="abbreviazion/e__n"/></e>
+<e lm="Tour">            <i>Tour</i><par n="ABC__np"/></e>
 
   </section>
 
