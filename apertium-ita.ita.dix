@@ -11561,34 +11561,18 @@
 </pardef>
     
 <pardef n="succe/dere__vblex">
-  <e>       <p><l>deremmo</l>   <r>dere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>derei</l>     <r>dere<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dereste</l>   <r>dere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>deresti</l>   <r>dere<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>derebber</l>  <r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>derebbero</l> <r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>derebbe</l>   <r>dere<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>deremo</l>    <r>dere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>derò</l>      <r>dere<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>derete</l>    <r>dere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>derai</l>     <r>dere<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>deran</l>     <r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>deranno</l>   <r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>derà</l>      <r>dere<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>dendo</l>     <r>dere<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>dendo</l>     <r>dere<s n="vblex"/><s n="ger"/><j/></r></p><par n="S__cantando"/></e>
-  <e>       <p><l>demmo</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>detti</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>deste</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>desti</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>dettero</l>   <r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ssero</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>dette</l>     <r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>sse</l>       <r>dere<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>diamo</l>     <r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>diamo</l>     <r>dere<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__cantiamo"/></e>
-  <e>       <p><l>dete</l>      <r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>dete</l>      <r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
   <e>       <p><l>di</l>        <r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>di</l>        <r>dere<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__canta"/></e>
   <e r="LR"><p><l>dan</l>       <r>dere<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -11597,17 +11581,9 @@
   <e r="LR"><p><l>der</l>       <r>dere<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>dere</l>      <r>dere<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>der</l>       <r>dere<s n="vblex"/><s n="inf"/><j/></r></p><par n="S__cantar"/></e>
-  <e>       <p><l>devamo</l>    <r>dere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>devo</l>      <r>dere<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>devate</l>    <r>dere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>devi</l>      <r>dere<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>devan</l>     <r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>devano</l>    <r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>deva</l>      <r>dere<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dessimo</l>   <r>dere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>dessi</l>     <r>dere<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>deste</l>     <r>dere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>dessi</l>     <r>dere<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>desser</l>    <r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>dessero</l>   <r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>desse</l>     <r>dere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -11623,17 +11599,9 @@
   <e r="LR"><p><l>duto</l>      <r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>sso</l>       <r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>sso</l>       <r>dere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
-  <e>       <p><l>diamo</l>     <r>dere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>do</l>        <r>dere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>dete</l>      <r>dere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>di</l>        <r>dere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>don</l>       <r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>dono</l>      <r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>de</l>        <r>dere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>diamo</l>     <r>dere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e>       <p><l>da</l>        <r>dere<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
-  <e>       <p><l>diate</l>     <r>dere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e>       <p><l>da</l>        <r>dere<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>dan</l>       <r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>dano</l>      <r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>da</l>        <r>dere<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
