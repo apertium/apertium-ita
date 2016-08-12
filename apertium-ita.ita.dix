@@ -12119,12 +12119,12 @@
 </pardef>
     
 <pardef n="junior__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es</l>        <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>es</l>        <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="junior__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
     
@@ -21470,7 +21470,6 @@
 <e lm="Tav" c="Treno (ad) Alta Velocità"><i>Tav</i><par n="BBVA__n"/></e>
 <!-- <e lm="PIL"><i>PIL</i><par n="PIL__n"/></e> -->
 <e lm="UA">              <i>UA</i><par n="TV__n"/></e>
-<e lm="UEFA">            <i>UEFA</i><par n="TV__n"/></e>
 <e lm="UFC">             <i>UFC</i><par n="TV__n"/></e>
 <e lm="UGT">             <i>UGT</i><par n="TV__n"/></e>
 <e lm="UHF">             <i>UHF</i><par n="TV__n"/></e>
@@ -24918,7 +24917,7 @@
 <e lm="davanzale">       <i>davanzal</i><par n="abat/e__n"/></e>
 <e lm="dazio">           <i>dazi</i><par n="abbagli/o__n"/></e>
 <e lm="dazione">         <i>dazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="dc">              <i>dc</i><par n="abilità__n"/></e>
+<e lm="dc">              <i>dc</i><par n="abilità__n"/></e> <!-- VERIFY -->
 <e lm="dea">             <i>de</i><par n="cas/a__n"/></e>
 <e lm="deambulazione">   <i>deambulazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="debacle">         <i>debacle</i><par n="abilità__n"/></e>
@@ -32870,6 +32869,7 @@
 <e lm="slogan">          <i>slogan</i><par n="affaire__n"/></e>
 <e lm="slot-machine">    <i>slot-machine</i><par n="abilità__n"/></e>
 <e lm="slovacco">        <i>slovacc</i><par n="tedesc/o__n"/></e>
+<e lm="cecoslovacco">    <i>cecoslovacc</i><par n="tedesc/o__n"/></e>
 <e lm="sloveno">         <i>sloven</i><par n="bambin/o__n"/></e>
 <e lm="smaliziato">      <i>smaliziat</i><par n="bambin/o__n"/></e>
 <e lm="smalto">          <i>smalt</i><par n="abbain/o__n"/></e>
@@ -42563,6 +42563,7 @@
 <e lm="sleale">          <i>sleal</i><par n="fin/e__adj"/></e>
 <e lm="slegato">         <i>slegat</i><par n="abbandonat/o__adj"/></e>
 <e lm="slovacco">        <i>slovacc</i><par n="tedesc/o__adj"/></e>
+<e lm="cecoslovacco">    <i>cecoslovacc</i><par n="tedesc/o__adj"/></e>
 <e lm="sloveno">         <i>sloven</i><par n="cosiddett/o__adj"/></e>
 <e lm="smaccato">        <i>smaccat</i><par n="abbandonat/o__adj"/></e>
 <e lm="smagliante">      <i>smagliant</i><par n="fin/e__adj"/></e>
