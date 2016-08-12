@@ -12123,6 +12123,11 @@
   <e>       <p><l>es</l>        <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
     
+<pardef n="junior__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+    
 <pardef n="alchimist/a__adj">
   <e>       <p><l>a</l>         <r>a<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>i</l>         <r>a<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -28251,7 +28256,8 @@
 <e lm="lituano">         <i>lituan</i><par n="bambin/o__n"/></e>
 <e lm="liturgia">        <i>liturgi</i><par n="cas/a__n"/></e>
 <e lm="liuto">           <i>liut</i><par n="abbain/o__n"/></e>
-<e lm="live">            <i>liv</i><par n="abat/e__n"/></e>
+<e lm="live">            <i>live</i><par n="albatros__n"/></e>
+<e lm="live">            <i>live</i><par n="extra__adj"/></e>
 <e lm="livello">         <i>livell</i><par n="abbain/o__n"/></e>
 <e lm="livellamento">    <i>livellament</i><par n="abbain/o__n"/></e>
 <e lm="livido">          <i>livid</i><par n="abbain/o__n"/></e>
@@ -32590,7 +32596,8 @@
 <e lm="senegalese">      <i>senegales</i><par n="albanes/e__n"/></e>
 <e lm="senese">          <i>senes</i><par n="abat/e__n"/></e>
 <e lm="senilità">        <i>senilità</i><par n="abilità__n"/></e>
-<e lm="senior">          <i>senior</i><par n="abilità__n"/></e>
+<e lm="senior">          <i>senior</i><par n="junior__n"/></e>
+<e lm="junior">          <i>junior</i><par n="junior__n"/></e>
 <e lm="senno">           <i>senn</i><par n="abbain/o__n"/></e>
 <e lm="senso">           <i>sens</i><par n="abbain/o__n"/></e>
 <e lm="sensale">         <i>sensal</i><par n="abat/e__n"/></e>
@@ -39671,6 +39678,7 @@
 <e lm="jospiniano">      <i>jospinian</i><par n="abbandonat/o__adj"/></e>
 <e lm="jugoslavo">       <i>jugoslav</i><par n="cosiddett/o__adj"/></e>
 <e lm="junior">          <i>junior</i><par n="junior__adj"/></e>
+<e lm="senior">          <i>senior</i><par n="junior__adj"/></e>
 <e lm="juventino">       <i>juventin</i><par n="abbandonat/o__adj"/></e>
 <e lm="kafkiano">        <i>kafkian</i><par n="abbandonat/o__adj"/></e>
 <e lm="kantiano">        <i>kantian</i><par n="abbandonat/o__adj"/></e>
@@ -48515,9 +48523,6 @@
           group ij
       ****************************** -->
 <e lm="a presto">        <i>a<b/>presto</i><par n="salve__ij"/></e>
-    <!-- ******************************
-          group ij
-      ****************************** -->
 <e lm="arrivederci">     <i>arrivederci</i><par n="salve__ij"/></e>
 <e lm="aspetta">         <i>aspetta</i><par n="salve__ij"/></e>
 <e lm="basta">           <i>basta</i><par n="salve__ij"/></e>
@@ -48534,10 +48539,6 @@
 <e lm="ok">              <i>ok</i><par n="salve__ij"/></e>
 <e lm="va bene">         <i>va<b/>bene</i><par n="salve__ij"/></e>
 
-<!--       ******************************      (adj) group      ******************************    -->
-    <!-- ******************************
-          group adj_symbol
-      ****************************** -->
     <!-- ******************************
           group adj_symbol
       ****************************** -->
@@ -48556,9 +48557,6 @@
 <e r="LR" lm="serial">   <p><l>serial</l>    <r>seriale<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="st">              <p><l>st.</l>       <r>st.<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="sta">             <p><l>sta.</l>      <r>st.<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-    <!-- ******************************
-          group cnjsub
-      ****************************** -->
     <!-- ******************************
           group cnjsub
       ****************************** -->
