@@ -12167,6 +12167,14 @@
   <e>       <p><l>le<b/>quali</l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
     
+<pardef n="ne/l_quale__rel">
+  <e>       <p><l>l<b/>quale</l><r>l<b/>quale<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>lla<b/>quale</l><r>l<b/>quale<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i<b/>quali</l><r>l<b/>quale<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>gli<b/>quali</l><r>l<b/>quale<s n="rel"/><s n="an"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>lle<b/>quali</l><r>l<b/>quale<s n="rel"/><s n="an"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+    
 <pardef n="/quello_che__rel">
   <e>       <p><l>quello<b/>che</l><r>quello<b/>che<s n="rel"/><s n="an"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>quella<b/>che</l><r>quello<b/>che<s n="rel"/><s n="an"/><s n="f"/><s n="sg"/></r></p></e>
@@ -14041,11 +14049,6 @@
 <e lm="vostro">          <i>vostr</i><par n="nostr/o__prn"/></e>
 
 
-<!--       ******************************      (rel) group      ******************************    -->
- 
-    <!-- ******************************
-          group rel
-      ****************************** -->
     <!-- ******************************
           group rel
       ****************************** -->
@@ -14060,15 +14063,12 @@
 <e lm="il che">          <i>il che</i><par n="il_che__rel"/></e>
 <e lm="il cui">          <par n="/il_cui__rel"/></e>
 <e lm="il quale">        <par n="/il_quale__rel"/></e>
-<e lm="nel quale">       <i>nel<b/>quale</i><par n="dove__rel"/></e>
-<e lm="nella quale">     <i>nella<b/>quale</i><par n="dove__rel"/></e>
+<e lm="nel quale">       <i>ne</i><par n="ne/l_quale__rel"/></e>
+<e lm="col quale">       <i>co</i><par n="ne/l_quale__rel"/></e>
 <e lm="quale">           <i>qual</i><par n="qual/e__rel"/></e>
 <e lm="quando">          <i>quando</i><par n="dove__rel"/></e>
 <e r="LR" lm="quanto">   <i>quanto</i><par n="quant/o__rel"/></e>
 <e lm="quello che">      <par n="/quello_che__rel"/></e>
-    <!-- ******************************
-          group np
-      ****************************** -->
     <!-- ******************************
           group np
       ****************************** -->
@@ -15983,6 +15983,7 @@
 <e lm="Cossu">           <i>Cossu</i><par n="Díez__np"/></e>
 <e lm="Costa">           <i>Costa</i><par n="Díez__np"/></e>
 <e lm="Costa d'Avorio">  <i>Costa<b/>d'Avorio</i><par n="Europa__np"/></e>
+<e lm="Costa Azzurra">   <i>Costa<b/>Azzurra</i><par n="Europa__np"/></e>
 <e lm="Costante">        <i>Costante</i><par n="Juan__np"/></e>
 <e lm="Costantina">      <i>Costantina</i><par n="María__np"/></e>
 <e lm="Costantini">      <i>Costantini</i><par n="Díez__np"/></e>
@@ -19390,7 +19391,7 @@
 <e lm="Pippo">           <i>Pippo</i><par n="Juan__np"/></e>
 <e lm="Piramo">          <i>Piramo</i><par n="Juan__np"/></e>
 <e lm="Piras">           <i>Piras</i><par n="Díez__np"/></e>
-<e lm="Pirenei">         <i>Pirenei</i><par n="Afghanistan__np"/></e>
+<e lm="Pirenei">         <i>Pirenei</i><par n="USA__np"/></e>
 <e lm="Pirina">          <i>Pirina</i><par n="Díez__np"/></e>
 <e lm="Piroddi">         <i>Piroddi</i><par n="Díez__np"/></e>
 <e lm="Pirro">           <i>Pirro</i><par n="Juan__np"/></e>
@@ -21452,7 +21453,7 @@
 <e lm="Pil" c="Prodotto interno lordo"><i>Pil</i><par n="PIL__n"/></e>
 <e lm="PlayStation">     <i>PlayStation</i><par n="abilità__n"/></e>
 <e lm="Pokémon">         <i>Pokémon</i><par n="albatros__n"/></e>
-<e lm="Pokemon"><p><l>Pokemon</l><r>Pokémon</r></p><par n="albatros__n"/></e>
+<e r="LR" lm="Pokemon"><p><l>Pokemon</l><r>Pokémon</r></p><par n="albatros__n"/></e>
 <e lm="Rai">             <i>Rai</i><par n="TV__n"/></e>
 <e lm="Renault">         <i>Renault</i><par n="TV__n"/></e>
 <e lm="SIDA">            <i>SIDA</i><par n="TV__n"/></e>
@@ -48999,6 +49000,8 @@
 <e lm="unilateralmente">       <i>unilateralmente</i><par n="ieri__adv"/></e>
 <e lm="multilateralmente">       <i>multilateralmente</i><par n="ieri__adv"/></e>
 <e lm="collateralmente">       <i>collateralmente</i><par n="ieri__adv"/></e>
+
+<e lm="Alvernia">            <i>Alvernia</i><par n="Europa__np"/></e>
 
   </section>
 
