@@ -21452,6 +21452,7 @@
 <e lm="Pil" c="Prodotto interno lordo"><i>Pil</i><par n="PIL__n"/></e>
 <e lm="PlayStation">     <i>PlayStation</i><par n="abilità__n"/></e>
 <e lm="Pokémon">         <i>Pokémon</i><par n="albatros__n"/></e>
+<e lm="Pokemon"><p><l>Pokemon</l><r>Pokémon</r></p><par n="albatros__n"/></e>
 <e lm="Rai">             <i>Rai</i><par n="TV__n"/></e>
 <e lm="Renault">         <i>Renault</i><par n="TV__n"/></e>
 <e lm="SIDA">            <i>SIDA</i><par n="TV__n"/></e>
@@ -28487,7 +28488,7 @@
 <e lm="mammì">           <i>mammì</i><par n="abilità__n"/></e>
 <e lm="mano">            <i>man</i><par n="man/o__n"/></e>
 <e lm="management">      <i>management</i><par n="abilità__n"/></e>
-<e lm="manager">         <i>manager</i><par n="abilità__n"/></e>
+<e lm="manager">         <i>manager</i><par n="blogger__n"/></e>
 <e lm="managerialità">   <i>managerialità</i><par n="abilità__n"/></e>
 <e lm="mancamento">      <i>mancament</i><par n="abbain/o__n"/></e>
 <e lm="mancante">        <i>mancant</i><par n="albanes/e__n"/></e>
@@ -29461,6 +29462,7 @@
 <e lm="normalità">       <i>normalità</i><par n="abilità__n"/></e>
 <e lm="normalizzazione"> <i>normalizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="normanno">        <i>normann</i><par n="bambin/o__n"/></e>
+<e lm="normanno">        <i>normann</i><par n="abbandonat/o__adj"/></e>
 <e lm="normativa">       <i>normativ</i><par n="cas/a__n"/></e>
 <e lm="normografo">      <i>normograf</i><par n="bambin/o__n"/></e>
 <e lm="norvegese">       <i>norveges</i><par n="albanes/e__n"/></e>
