@@ -20545,6 +20545,9 @@
 <e lm="Tremonti">        <i>Tremonti</i><par n="Juan__np"/></e>
 <e lm="Tremp">           <i>Tremp</i><par n="Afghanistan__np"/></e>
 <e lm="Trentino-Alto Adige"><i>Trentino-Alto<b/>Adige</i><par n="Afghanistan__np"/></e>
+<e lm="Trentino">        <i>Trentino</i><par n="Afghanistan__np"/></e>
+<e lm="Alto Adige">       <i>Alto<b/>Adige</i><par n="Afghanistan__np"/></e>
+<e lm="Tirolo">          <i>Tirolo</i><par n="Afghanistan__np"/></e>
 <e lm="Trento">          <i>Trento</i><par n="Afghanistan__np"/></e>
 <e lm="Tresnuraghes">    <i>Tresnuraghes</i><par n="USA__np"/></e>
 <e lm="Treviglio">       <i>Treviglio</i><par n="Afghanistan__np"/></e>
@@ -20601,6 +20604,9 @@
 <e lm="Tìana">           <i>Tìana</i><par n="Europa__np"/></e>
 <e lm="UCI">             <i>UCI</i><par n="Fiat__np"/></e>
 <e lm="UEFA">            <i>UEFA</i><par n="Fiat__np"/></e>
+<e lm="Ue">              <i>Ue</i><par n="Fiat__np"/></e>
+<!-- <e lm="UE"><i>UE</i><par n="Fiat__np"/></e> -->
+<e lm="Unesco">          <i>Unesco</i><par n="Fiat__np"/></e>
 <e lm="UK">              <i>UK</i><par n="Afghanistan__np"/></e>
 <e lm="USA">             <i>USA</i><par n="USA__np"/></e>
 <e lm="Ubalda">          <i>Ubalda</i><par n="María__np"/></e>
@@ -21455,11 +21461,8 @@
 <e lm="TNA">             <i>TNA</i><par n="BBVA__n"/></e>
 <e lm="TV">              <i>TV</i><par n="TV__n"/></e>
 <e lm="Tav" c="Treno (ad) Alta Velocità"><i>Tav</i><par n="BBVA__n"/></e>
-<!--    
-    <e lm="PIL"><i>PIL</i><par n="PIL__n"/></e> -->
+<!-- <e lm="PIL"><i>PIL</i><par n="PIL__n"/></e> -->
 <e lm="UA">              <i>UA</i><par n="TV__n"/></e>
-<!--    
-    <e lm="UE"><i>UE</i><par n="TV__n"/></e> -->
 <e lm="UEFA">            <i>UEFA</i><par n="TV__n"/></e>
 <e lm="UFC">             <i>UFC</i><par n="TV__n"/></e>
 <e lm="UGT">             <i>UGT</i><par n="TV__n"/></e>
@@ -21469,8 +21472,6 @@
 <e lm="URL">             <i>URL</i><par n="TV__n"/></e>
 <e lm="URSS">            <i>URSS</i><par n="TV__n"/></e>
 <e lm="US">              <i>US</i><par n="TV__n"/></e>
-<e lm="Ue">              <i>Ue</i><par n="TV__n"/></e>
-<e lm="Unesco">          <i>Unesco</i><par n="TV__n"/></e>
 <e lm="VIH">             <i>VIH</i><par n="BBVA__n"/></e>
 <e lm="VPO">             <i>VPO</i><par n="PIL__n"/></e>
 <e lm="Visitazione">     <i>Visitazion</i><par n="abbreviazion/e__n"/></e>
@@ -23330,7 +23331,7 @@
 <e lm="cancellazione">   <i>cancellazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="cancelleria">     <i>cancelleri</i><par n="cas/a__n"/></e>
 <e lm="cancelletto">     <i>cancellett</i><par n="abbain/o__n"/></e>
-<e lm="cancelliere">     <i>cancellier</i><par n="albanes/e__n"/></e>
+<e lm="cancelliere">     <i>cancellier</i><par n="infermier/e__n"/></e>
 <e lm="cancellierato">   <i>cancellierat</i><par n="abbain/o__n"/></e>
 <e lm="cancellino">      <i>cancellin</i><par n="abbain/o__n"/></e>
 <e lm="cancerogeno">     <i>cancerogen</i><par n="abbain/o__n"/></e>
@@ -25761,7 +25762,6 @@
 <e lm="emerito">         <i>emerit</i><par n="abbain/o__n"/></e>
 <e lm="emersione">       <i>emersion</i><par n="abbreviazion/e__n"/></e>
 <e lm="emicrania">       <i>emicrani</i><par n="cas/a__n"/></e>
-<e lm="emigrante">       <i>emigrant</i><par n="abat/e__n"/></e>
 <e lm="emigrante">       <i>emigrant</i><par n="albanes/e__n"/></e>
 <e lm="emigrato">        <i>emigrat</i><par n="bambin/o__n"/></e>
 <e lm="emigrazione">     <i>emigrazion</i><par n="abbreviazion/e__n"/></e>
@@ -27292,7 +27292,7 @@
 <e lm="immedesimazione"> <i>immedesimazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="immensità">       <i>immensità</i><par n="abilità__n"/></e>
 <e lm="immersione">      <i>immersion</i><par n="abbreviazion/e__n"/></e>
-<e lm="immigrante">      <i>immigrant</i><par n="abat/e__n"/></e>
+<e lm="immigrante">      <i>immigrant</i><par n="albanes/e__n"/></e>
 <e lm="immigrato">       <i>immigrat</i><par n="bambin/o__n"/></e>
 <e lm="immigrazione">    <i>immigrazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="immissione">      <i>immission</i><par n="abbreviazion/e__n"/></e>
@@ -28894,7 +28894,7 @@
 <e lm="miglioramento">   <i>migliorament</i><par n="abbain/o__n"/></e>
 <e lm="migliorista">     <i>migliorist</i><par n="suicid/a__n"/></e>
 <e lm="mignolo">         <i>mignol</i><par n="abbain/o__n"/></e>
-<e lm="migrante">        <i>migrant</i><par n="abat/e__n"/></e>
+<e lm="migrante">        <i>migrant</i><par n="albanes/e__n"/></e>
 <e lm="migrazione">      <i>migrazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="milanese">        <i>milanes</i><par n="albanes/e__n"/></e>
 <e lm="milanesità">      <i>milanesità</i><par n="abilità__n"/></e>
@@ -37850,8 +37850,12 @@
 <e lm="emerito">         <i>emerit</i><par n="abbandonat/o__adj"/></e>
 <e lm="emerso">          <i>emers</i><par n="abbandonat/o__adj"/></e>
 <e lm="emigrante">       <i>emigrant</i><par n="fin/e__adj"/></e>
+<e lm="immigrante">      <i>immigrant</i><par n="fin/e__adj"/></e>
 <e lm="emigrato">        <i>emigrat</i><par n="abbandonat/o__adj"/></e>
+<e lm="immigrato">       <i>immigrat</i><par n="abbandonat/o__adj"/></e>
 <e lm="emigratorio">     <i>emigratori</i><par n="ampi/o__adj"/></e>
+<e lm="immigratorio">    <i>immigratori</i><par n="ampi/o__adj"/></e>
+<e lm="migratorio">      <i>migratori</i><par n="ampi/o__adj"/></e>
 <e lm="emiliano">        <i>emilian</i><par n="abbandonat/o__adj"/></e>
 <e lm="emiliano-romagnolo"><i>emiliano-romagnol</i><par n="abbandonat/o__adj"/></e>
 <e lm="eminente">        <i>eminent</i><par n="fin/e__adj"/></e>
@@ -44453,6 +44457,7 @@
 <e lm="capire">          <i>cap</i><par n="abbell/ire__vblex"/></e>
 <e lm="capitare">        <i>capit</i><par n="abbacin/are__vblex"/></e>
 <e lm="capitalizzare">   <i>capitalizz</i><par n="abbacin/are__vblex"/></e>
+<e lm="ricapitalizzare"> <i>ricapitalizz</i><par n="abbacin/are__vblex"/></e>
 <e lm="capitolare">      <i>capitol</i><par n="abbacin/are__vblex"/></e>
 <e lm="capovolgere">     <i>capovol</i><par n="accor/gere__vblex"/></e>
 <e lm="captare">         <i>capt</i><par n="abbacin/are__vblex"/></e>
@@ -44866,9 +44871,11 @@
 <e lm="discordare">      <i>discord</i><par n="abbacin/are__vblex"/></e>
 <e lm="discriminare">    <i>discrimin</i><par n="abbacin/are__vblex"/></e>
 <e lm="discutere">       <i>discu</i><par n="discu/tere__vblex"/></e>
+<e lm="ridiscutere">     <i>ridiscu</i><par n="discu/tere__vblex"/></e>
 <e lm="disdire">         <i>disd</i><par n="abbell/ire__vblex"/></e>
 <e lm="diseducare">      <i>diseduc</i><par n="abbarbic/are__vblex"/></e>
 <e lm="disegnare">       <i>disegn</i><par n="abbacin/are__vblex"/></e>
+<e lm="ridisegnare">     <i>ridisegn</i><par n="abbacin/are__vblex"/></e>
 <e lm="disertare">       <i>disert</i><par n="abbacin/are__vblex"/></e>
 <e lm="disfare">         <i>disf</i><par n="abbacin/are__vblex"/></e>
 <e lm="disgiungere">     <i>disgiun</i><par n="accin/gere__vblex"/></e>
@@ -44965,6 +44972,8 @@
 <e lm="emarginare">      <i>emargin</i><par n="abbacin/are__vblex"/></e>
 <e lm="emergere">        <i>emer</i><par n="emer/gere__vblex"/></e>
 <e lm="emigrare">        <i>emigr</i><par n="abbacin/are__vblex"/></e>
+<e lm="immigrare">       <i>immigr</i><par n="abbacin/are__vblex"/></e>
+<e lm="migrare">         <i>migr</i><par n="abbacin/are__vblex"/></e>
 <e lm="emozionare">      <i>emozion</i><par n="abbacin/are__vblex"/></e>
 <e lm="empiere">         <i>emp</i><par n="comp/iere__vblex"/></e>
 <e lm="emulare">         <i>emul</i><par n="abbacin/are__vblex"/></e>
@@ -46320,6 +46329,7 @@
 <e lm="sconvenire">      <i>sconv</i><par n="avv/enire__vblex"/></e>
 <e lm="sconvolgere">     <i>sconvol</i><par n="accor/gere__vblex"/></e>
 <e lm="scoprire">        <i>scop</i><par n="ap/rire__vblex"/></e>
+<e lm="riscoprire">      <i>riscop</i><par n="ap/rire__vblex"/></e>
 <e lm="scoppiare">       <i>scoppi</i><par n="abbacchi/are__vblex"/></e>
 <e lm="scorrere">        <i>scor</i><par n="accor/rere__vblex"/></e>
 <e lm="scoraggiare">     <i>scoragg</i><par n="abbiosc/iare__vblex"/></e>
@@ -47277,6 +47287,8 @@
 <e lm="coscienziosamente"><i>coscienziosamente</i><par n="ieri__adv"/></e>
 <e lm="costantemente">   <i>costantemente</i><par n="ieri__adv"/></e>
 <e lm="costituzionalmente"><i>costituzionalmente</i><par n="ieri__adv"/></e>
+<e lm="incostituzionalmente"><i>incostituzionalmente</i><par n="ieri__adv"/></e>
+<e lm="anticostituzionalmente"><i>anticostituzionalmente</i><par n="ieri__adv"/></e>
 <e lm="costruttivamente"><i>costruttivamente</i><par n="ieri__adv"/></e>
 <e lm="così">            <i>così</i><par n="ieri__adv"/></e>
 <e lm="così come">       <i>così<b/>come</i><par n="ieri__adv"/></e>
@@ -48979,6 +48991,12 @@
 
 <e lm="sfinge">           <i>sfing</i><par n="abbreviazion/e__n"/></e>
 <e lm="Tour">            <i>Tour</i><par n="ABC__np"/></e>
+
+<e lm="lateralmente">       <i>lateralmente</i><par n="ieri__adv"/></e>
+<e lm="bilateralmente">       <i>bilateralmente</i><par n="ieri__adv"/></e>
+<e lm="unilateralmente">       <i>unilateralmente</i><par n="ieri__adv"/></e>
+<e lm="multilateralmente">       <i>multilateralmente</i><par n="ieri__adv"/></e>
+<e lm="collateralmente">       <i>collateralmente</i><par n="ieri__adv"/></e>
 
   </section>
 
