@@ -12125,7 +12125,7 @@
     
 <pardef n="junior__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es</l>        <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="alchimist/a__adj">
@@ -22361,6 +22361,7 @@
 <e lm="assalto">         <i>assalt</i><par n="abbain/o__n"/></e>
 <e lm="assaltatore">     <i>assaltat</i><par n="agricolt/ore__n"/></e>
 <e lm="assassino">       <i>assassin</i><par n="bambin/o__n"/></e>
+<e lm="assassinato">     <i>assassinat</i><par n="bambin/o__n"/></e>
 <e lm="assassinio">      <i>assassini</i><par n="abbain/o__n"/></e>
 <e lm="assatanato">      <i>assatanat</i><par n="bambin/o__n"/></e>
 <e lm="assedio">         <i>assedi</i><par n="abbagli/o__n"/></e>
@@ -28998,7 +28999,6 @@
 <e lm="mitomane">        <i>mitoman</i><par n="abat/e__n"/></e>
 <e lm="mitragliamento">  <i>mitragliament</i><par n="abbain/o__n"/></e>
 <e lm="mitragliatore">   <i>mitragliat</i><par n="agricolt/ore__n"/></e>
-<e lm="mitragliatrice">  <i>mitragliatric</i><par n="abbreviazion/e__n"/></e>
 <e lm="mitragliere">     <i>mitraglier</i><par n="abat/e__n"/></e>
 <e lm="mittente">        <i>mittent</i><par n="albanes/e__n"/></e>
 <e lm="mitterrandismo">  <i>mitterrandism</i><par n="abbain/o__n"/></e>
@@ -34709,7 +34709,6 @@
 <e lm="vicepresidente">  <i>vicepresident</i><par n="baron/e__n"/></e>
 <e lm="vicepretore">     <i>vicepretor</i><par n="abat/e__n"/></e>
 <e lm="viceprocuratore"> <i>viceprocurat</i><par n="agricolt/ore__n"/></e>
-<e lm="vicequestore">    <i>vicequest</i><par n="agricolt/ore__n"/></e>
 <e lm="viceré">          <i>vicer</i><par n="vicer/é__n"/></e>
 <e lm="vicesindaco">     <i>vicesindac</i><par n="abbain/o__n"/></e>
 <e lm="vicino">          <i>vicin</i><par n="bambin/o__n"/></e>
@@ -37500,6 +37499,7 @@
 <e lm="dimostrante">     <i>dimostrant</i><par n="fin/e__adj"/></e>
 <e lm="dimostrativo">    <i>dimostrativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="dinamico">        <i>dinamic</i><par n="tecnic/o__adj"/></e>
+<e lm="termodinamico">   <i>termodinamic</i><par n="tecnic/o__adj"/></e>
 <e lm="dinamitardo">     <i>dinamitard</i><par n="abbandonat/o__adj"/></e>
 <e lm="dinastico">       <i>dinastic</i><par n="tecnic/o__adj"/></e>
 <e lm="diniano">         <i>dinian</i><par n="abbandonat/o__adj"/></e>
@@ -43765,7 +43765,7 @@
 <e lm="vicino">          <i>vicin</i><par n="abbandonat/o__adj"/></e>
 <e lm="vicinale">        <i>vicinal</i><par n="albanes/e__adj"/></e>
 <e lm="viciniano">       <i>vicinian</i><par n="abbandonat/o__adj"/></e>
-<e lm="video">           <i>vide</i><par n="abbandonat/o__adj"/></e>
+<e lm="video">           <i>video</i><par n="extra__adj"/></e>
 <e lm="videoartistico">  <i>videoartistic</i><par n="tecnic/o__adj"/></e>
 <e lm="viennese">        <i>viennes</i><par n="albanes/e__adj"/></e>
 <e lm="vietato">         <i>vietat</i><par n="abbandonat/o__adj"/></e>
@@ -49008,6 +49008,8 @@
 <e lm="collateralmente">       <i>collateralmente</i><par n="ieri__adv"/></e>
 
 <e lm="Alvernia">            <i>Alvernia</i><par n="Europa__np"/></e>
+<e lm="lubrificatore">      <i>lubrificat</i><par n="agricolt/ore__n"/></e>
+<e lm="lubrificatore">      <i>lubrificat</i><par n="accentrat/ore__adj"/></e>
 
   </section>
 
