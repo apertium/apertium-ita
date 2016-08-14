@@ -37,6 +37,7 @@ LIST Io = "io" ;
 LIST Stato = "stato" ;
 LIST San = "San" ;
 LIST Dallo = "dallo" ;
+LIST Dai = "dai" ;
 
 
 LIST Interr = itg ;
@@ -74,7 +75,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 SECTION
 
-SELECT Pron IF (0 Io) ;
+SELECT Pron IF (0 Io) ;		# WARNING: No funciona
 
 SELECT Pr IF (0 Sotto) (1 Det) ;
 
@@ -93,6 +94,10 @@ SECTION
 REMOVE Imper IF (NOT 1* Excl) ;
 
 SELECT Essere IF (0 Sg1) ;
+
+REMOVE V IF (0 Dai) (-1 N) ;	# distanza dai subordinati. WARNING: No funciona no sé perquè
+#REMOVE V IF (0 ("dai")) ;	# prova més resolutiva, que tampoc no funciona. WARNING: segurament el problema amb + de costum
+REMOVE V IF (0 Dai) (-1 A) (-2 N) ;
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
