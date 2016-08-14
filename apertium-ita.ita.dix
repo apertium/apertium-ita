@@ -36140,8 +36140,8 @@
 <e lm="bicolore">        <i>bicolor</i><par n="albanes/e__adj"/></e>
 <e lm="bidimensionale">  <i>bidimensional</i><par n="albanes/e__adj"/></e>
 <e lm="bielorusso">      <i>bieloruss</i><par n="abbandonat/o__adj"/></e>
-<e lm="biennale">        <i>biennal</i><par n="fin/e__adj"/></e>
-<e lm="biennale">        <i>biennal</i><par n="abbreviazion/e__n"/></e>
+<e lm="biennale">        <i>biennal</i><par n="albanes/e__adj"/></e>
+<e lm="biennale">        <i>biennal</i><par n="albanes/e__n"/></e>
 <e lm="bifilare">        <i>bifilar</i><par n="fin/e__adj"/></e>
 <e lm="biforcuto">       <i>biforcut</i><par n="abbandonat/o__adj"/></e>
 <e lm="bifronte">        <i>bifront</i><par n="fin/e__adj"/></e>
@@ -48728,8 +48728,6 @@
           group preadv
       ****************************** -->
 <e lm="abbastanza">      <i>abbastanza</i><par n="bene__preadv"/></e>
-    <!-- ****************************** -->
-<!--       ******************************      (preadv) group      ******************************    -->
 <e lm="appena">          <i>appena</i><par n="bene__preadv"/></e>
 <e lm="ben">             <i>ben</i><par n="bene__preadv"/></e>
 <e lm="bene">            <i>bene</i><par n="bene__preadv"/></e>
@@ -48744,15 +48742,11 @@
 <e lm="talmente">        <i>talmente</i><par n="bene__preadv"/></e>
 <e lm="tanto">           <i>tanto</i><par n="bene__preadv"/></e>
 
-<!--       ******************************      (prn) group      ******************************    -->
     <!-- ******************************
           group prn_symbol
       ****************************** -->
-    <!-- ******************************
-          group prn_symbol
-      ****************************** -->
-<e lm="Lei">             <p><l>Lei</l>       <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="Loro">            <p><l>Loro</l>      <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e lm="Lei">             <p><l>Lei</l>       <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e> <!-- VERIFY -->
+<e lm="Loro">            <p><l>Loro</l>      <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e> <!-- VERIFY -->
 <e lm="entrambi">        <p><l>entrambe</l>  <r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="entrambi">        <p><l>entrambi</l>  <r>entrambi<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 <!--    
@@ -48794,14 +48788,8 @@
     <!-- ******************************
           group det_symbol
       ****************************** -->
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
 <e lm="tanti altri">     <p><l>tante<b/>altre</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="tanti altri">     <p><l>tanti<b/>altri</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-    <!-- ****************************** -->
-
-<!--       ******************************      (cnjcoo) group      ******************************    -->
 
     <!-- ******************************
           group cnjcoo
@@ -49010,6 +48998,10 @@
 <e lm="Alvernia">            <i>Alvernia</i><par n="Europa__np"/></e>
 <e lm="lubrificatore">      <i>lubrificat</i><par n="agricolt/ore__n"/></e>
 <e lm="lubrificatore">      <i>lubrificat</i><par n="accentrat/ore__adj"/></e>
+
+<e lm="di sopra">  <i>di<b/>sopra</i><par n="ieri__adv"/></e>
+<e lm="polinomio">        <i>polinomi</i><par n="abbagli/o__n"/></e>
+<e lm="saltellare">    <i>saltell</i><par n="abbacin/are__vblex"/></e>
 
   </section>
 
