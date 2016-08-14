@@ -23,8 +23,6 @@ LIST Cm = cm ;
 LIST Pr = pr ; 
 
 LIST Pos = pos ; 
-SET AdjPos = (adj pos) ;
-SET PrnPos = (prn pos) ;
 
 LIST unknown = ("\\*.*"r) ;
 
