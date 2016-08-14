@@ -44568,6 +44568,7 @@
 <e lm="commuovere">      <i>comm</i><par n="comm/uovere__vblex"/></e>
 <e lm="commettere">      <i>comm</i><par n="amm/ettere__vblex"/></e>
 <e lm="commentare">      <i>comment</i><par n="abbacin/are__vblex"/></e>
+<e lm="commerciare">     <i>commerc</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="commercializzare"><i>commercializz</i><par n="abbacin/are__vblex"/></e>
 <e lm="comminare">       <i>commin</i><par n="abbacin/are__vblex"/></e>
 <e lm="commisurare">     <i>commisur</i><par n="abbacin/are__vblex"/></e>
@@ -46154,6 +46155,7 @@
 <e lm="rintoccare">      <i>rintocc</i><par n="abbarbic/are__vblex"/></e>
 <e lm="rintracciare">    <i>rintracc</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="rinunciare">      <i>rinunc</i><par n="abbiosc/iare__vblex"/></e>
+<e lm="rinunziare">      <i>rinunzi</i><par n="abbacchi/are__vblex"/></e>
 <e lm="rinvenire">       <i>rinv</i><par n="avv/enire__vblex"/></e>
 <e lm="rinvangare">      <i>rinvang</i><par n="abbarbic/are__vblex"/></e>
 <e lm="rinvestire">      <i>rinvest</i><par n="abbrut/ire__vblex"/></e>
