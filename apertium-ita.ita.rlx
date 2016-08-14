@@ -47,6 +47,7 @@ LIST Imper = imp ;
 LIST Excl = "!" ;
 
 LIST Sg1 = (p1 sg) ;
+LIST Sg2 = (p2 sg) ;
 
 LIST Upper = "[A-Z][a-z]+"r ;
 
@@ -95,9 +96,8 @@ REMOVE Imper IF (NOT 1* Excl) ;
 
 SELECT Essere IF (0 Sg1) ;
 
-REMOVE V IF (0 Dai) (-1 N) ;	# distanza dai subordinati. WARNING: No funciona no sé perquè
-#REMOVE V IF (0 ("dai")) ;	# prova més resolutiva, que tampoc no funciona. WARNING: segurament el problema amb + de costum
-REMOVE V IF (0 Dai) (-1 A) (-2 N) ;
+#REMOVE V IF (0 ("dai")) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+REMOVE V IF (0 Sg2) (0/* Pr) ;	# dai (alternativa bèstia)
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
