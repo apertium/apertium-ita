@@ -112,9 +112,11 @@ SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;	# le più grandi collezioni di pesci
 REMOVE Pr IF (0 Adv) (0 Pr) (-1 V) (1 CC) ; # andavano su e giù
 
 REMOVE A IF (0 A) (0 N) (-1 Det) (1 EOS) ; # una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ;
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; # il suo futuro attraverso una programmazione
 REMOVE A IF (0 A) (0 N) (-1 Det) (1 Pr) ; # il futuro della Ue.
 
 SELECT A IF (0 Pos) (-1 Det) (1 N) ; # il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
+SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;
