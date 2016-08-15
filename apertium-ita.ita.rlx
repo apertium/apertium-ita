@@ -39,6 +39,7 @@ LIST San = "San" ;
 LIST Dallo = "dallo" ;
 LIST Dai = "dai" ;
 LIST Dei = "dei" ;
+LIST Puo_essere = "può essere" ;
 
 
 LIST Interr = itg ;
@@ -79,11 +80,14 @@ SET S-BOUNDARY = CS | Interr | EOS;
 
 SECTION
 
-SELECT Pron IF (0 Io) ;		# WARNING: No funciona
+SELECT Pron IF (0 Io) ;
 
 SELECT Pr IF (0 Sotto) (1 Det) ;
 
 SELECT Avere IF (1 PrfPrc) ;
+
+SELECT Ser IF (0 Puo_essere) (1 PrfPrc) ;
+SELECT Ser IF (0 Puo_essere) (1 A) ;
 
 SELECT Det IF (-1 Pr) (0 A OR Det) (1 N) ;
 
@@ -100,6 +104,8 @@ REMOVE Imper IF (NOT 1* Excl) ;
 SELECT Essere IF (0 Sg1) ;
 
 #REMOVE V IF (0 ("dai")) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+#REMOVE V IF (0 Dai) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+#SELECT Pr IF (0 Dai) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 REMOVE V IF (0 Sg2) (0/* Pr) ;	# dai (alternativa bèstia però funciona)
 
 REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè

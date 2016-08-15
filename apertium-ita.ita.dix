@@ -27636,7 +27636,6 @@
 <e lm="innamorato">      <i>innamorat</i><par n="bambin/o__n"/></e>
 <e lm="innervazione">    <i>innervazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="innesto">         <i>innest</i><par n="abbain/o__n"/></e>
-<e lm="innocente">       <i>innocent</i><par n="albanes/e__n"/></e>
 <e lm="innocenza">       <i>innocenz</i><par n="cas/a__n"/></e>
 <e lm="innovatore">      <i>innovat</i><par n="agricolt/ore__n"/></e>
 <e lm="innovatore">      <i>innovat</i><par n="accentrat/ore__adj"/></e>
@@ -48132,6 +48131,7 @@
 <e lm="purtroppo">       <i>purtroppo</i><par n="ieri__adv"/></e>
 <e r="LR" lm="può darsi"><i>può<b/>darsi</i><par n="ieri__adv"/></e>
 <e lm="può essere">      <i>può<b/>essere</i><par n="ieri__adv"/></e>
+<e r="LR" lm="puô essere">      <p><l>può<b/>essere</l>          <r>può<b/>essere<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> <!-- per a evitar que s'analitzi només com a adv -->
 <e r="LR" lm="qua">      <i>qua</i><par n="ieri__adv"/></e>
 <e lm="qua">             <i>qua</i><par n="ieri__adv"/></e>
 <e lm="quaggiù">         <i>quaggiù</i><par n="ieri__adv"/></e>
