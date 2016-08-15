@@ -130,6 +130,7 @@ REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 EOS) ;	# loro sorte.
+REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 EOS) ;	# le più grandi collezioni.
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; # il suo futuro attraverso una programmazione
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 Pr) ;

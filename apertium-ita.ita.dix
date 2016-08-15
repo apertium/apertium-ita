@@ -15903,7 +15903,6 @@
 <e lm="Coloma">          <i>Coloma</i><par n="Díez__np"/></e>
 <e lm="Colomba">         <i>Colomba</i><par n="María__np"/></e>
 <e lm="Colombano">       <i>Colombano</i><par n="Juan__np"/></e>
-<e lm="Colombia">        <i>Colombia</i><par n="Afghanistan__np"/></e>
 <e lm="Colombia">        <i>Colombia</i><par n="Europa__np"/></e>
 <e lm="Colombino">       <i>Colombino</i><par n="Juan__np"/></e>
 <e lm="Colombo">         <i>Colombo</i><par n="Juan__np"/></e>
@@ -18896,6 +18895,7 @@
 <e lm="Nuova Scozia">    <i>Nuova<b/>Scozia</i><par n="Europa__np"/></e>
 <e lm="Nuova York">      <i>Nuova<b/>York</i><par n="Europa__np"/></e>
 <e lm="Nuova Zelanda">   <i>Nuova<b/>Zelanda</i><par n="Europa__np"/></e>
+<e lm="Zelanda">         <i>Zelanda</i><par n="Europa__np"/></e>
 <e lm="Nurachi">         <i>Nurachi</i><par n="USA__np"/></e>
 <e lm="Nuragus">         <i>Nuragus</i><par n="USA__np"/></e>
 <e lm="Nurallao">        <i>Nurallao</i><par n="Afghanistan__np"/></e>
@@ -22460,6 +22460,7 @@
 <e lm="attenuazione">    <i>attenuazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="attenzione">      <i>attenzion</i><par n="abbreviazion/e__n"/></e>
 <e lm="atterraggio">     <i>atterraggi</i><par n="abbagli/o__n"/></e>
+<e lm="allunaggio">      <i>allunaggi</i><par n="abbagli/o__n"/></e>
 <e lm="atterramento">    <i>atterrament</i><par n="abbain/o__n"/></e>
 <e lm="atteso">          <i>attes</i><par n="abbain/o__n"/></e>
 <e lm="attesa">          <i>attes</i><par n="cas/a__n"/></e>
@@ -22530,7 +22531,7 @@
 <e lm="autocompiacimento"><i>autocompiaciment</i><par n="abbain/o__n"/></e>
 <e lm="autocontrollo">   <i>autocontroll</i><par n="abbain/o__n"/></e>
 <e lm="autoconvocato">   <i>autoconvocat</i><par n="bambin/o__n"/></e>
-<e lm="autocrate">       <i>autocrat</i><par n="abat/e__n"/></e>
+<e lm="autocrate">       <i>autocrat</i><par n="albanes/e__n"/></e>
 <e lm="autodeterminazione"><i>autodeterminazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="autodistruzione"> <i>autodistruzion</i><par n="abbreviazion/e__n"/></e>
 <e lm="autodromo">       <i>autodrom</i><par n="abbain/o__n"/></e>
@@ -23602,6 +23603,9 @@
 <e lm="castrato">        <i>castrat</i><par n="abbain/o__n"/></e>
 <e lm="castrazione">     <i>castrazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="castrismo">       <i>castrism</i><par n="abbain/o__n"/></e>
+<e lm="anti-castrismo">       <i>anti-castrism</i><par n="abbain/o__n"/></e>
+<e lm="castrista">       <i>castrist</i><par n="suicid/a__n"/></e>
+<e lm="castrista">       <i>castrist</i><par n="suicid/a__adj"/></e>
 <e lm="castrone">        <i>castron</i><par n="abat/e__n"/></e>
 <e lm="casualità">       <i>casualità</i><par n="abilità__n"/></e>
 <e lm="catacomba">       <i>catacomb</i><par n="cas/a__n"/></e>
@@ -25530,6 +25534,7 @@
 <e lm="doganiere">       <i>doganier</i><par n="abat/e__n"/></e>
 <e lm="dogma">           <i>dogm</i><par n="autom/a__n"/></e>
 <e lm="dogmatismo">      <i>dogmatism</i><par n="abbain/o__n"/></e>
+<e lm="antidogmatismo">      <i>antidogmatism</i><par n="abbain/o__n"/></e>
 <e lm="dolo">            <i>dol</i><par n="abbain/o__n"/></e>
 <e lm="dolce">           <i>dolc</i><par n="abat/e__n"/></e>
 <e lm="dolcetto">        <i>dolcett</i><par n="abbain/o__n"/></e>
@@ -27981,6 +27986,10 @@
 <e lm="labrador">        <i>labrador</i><par n="blogger__n"/></e>
 <e lm="laburismo">       <i>laburism</i><par n="abbain/o__n"/></e>
 <e lm="laburista">       <i>laburist</i><par n="suicid/a__n"/></e>
+<e lm="neo-laburismo">       <i>neo-laburism</i><par n="abbain/o__n"/></e>
+<e lm="neo-laburista">       <i>neo-laburist</i><par n="suicid/a__n"/></e>
+<e lm="neolaburismo">       <i>neolaburism</i><par n="abbain/o__n"/></e>
+<e lm="neolaburista">       <i>neolaburist</i><par n="suicid/a__n"/></e>
 <e lm="laccio">          <i>lacci</i><par n="abbagli/o__n"/></e>
 <e lm="lacciuolo">       <i>lacciuol</i><par n="abbain/o__n"/></e>
 <e lm="lacerazione">     <i>lacerazion</i><par n="abbreviazion/e__n"/></e>
@@ -29288,9 +29297,12 @@
 <e lm="natura">          <i>natur</i><par n="cas/a__n"/></e>
 <e lm="naturalismo">     <i>naturalism</i><par n="abbain/o__n"/></e>
 <e lm="naturalista">     <i>naturalist</i><par n="suicid/a__n"/></e>
+<e lm="naturalista">     <i>naturalist</i><par n="suicid/a__adj"/></e>
 <e lm="naturalità">      <i>naturalità</i><par n="abilità__n"/></e>
 <e lm="naturalizzazione"><i>naturalizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="naturista">       <i>naturist</i><par n="suicid/a__n"/></e>
+<e lm="naturista">       <i>naturist</i><par n="suicid/a__adj"/></e>
+<e lm="naturismo">       <i>naturism</i><par n="abbain/o__n"/></e>
 <e lm="naufragio">       <i>naufragi</i><par n="abbagli/o__n"/></e>
 <e lm="nave">            <i>nav</i><par n="abbreviazion/e__n"/></e>
 <e lm="navata">          <i>navat</i><par n="cas/a__n"/></e>
@@ -34161,6 +34173,7 @@
 <e lm="trapassato">      <i>trapassat</i><par n="abbain/o__n"/></e>
 <e lm="trapezista">      <i>trapezist</i><par n="suicid/a__n"/></e>
 <e lm="trapianto">       <i>trapiant</i><par n="abbain/o__n"/></e>
+<e lm="autotrapianto">       <i>autotrapiant</i><par n="abbain/o__n"/></e>
 <e lm="trapiantato">     <i>trapiantat</i><par n="abbain/o__n"/></e>
 <e lm="trappola">        <i>trappol</i><par n="cas/a__n"/></e>
 <e lm="trasalimento">    <i>trasaliment</i><par n="abbain/o__n"/></e>
@@ -34397,6 +34410,8 @@
 <e lm="ultra">           <i>ultra</i><par n="abilità__n"/></e>
 <e lm="ultraconservatore"><i>ultraconservat</i><par n="agricolt/ore__n"/></e>
 <e lm="ultranazionalista"><i>ultranazionalist</i><par n="suicid/a__n"/></e>
+<e lm="ultranazionalista"><i>ultranazionalist</i><par n="suicid/a__adj"/></e>
+<e lm="ultranazionalismo"><i>ultranazionalist</i><par n="abbain/o__n"/></e>
 <e lm="ultraortodosso">  <i>ultraortodoss</i><par n="bambin/o__n"/></e>
 <e lm="ultrasuono">      <i>ultrasuon</i><par n="abbain/o__n"/></e>
 <e lm="ululato">         <i>ululat</i><par n="abbain/o__n"/></e>
@@ -35459,6 +35474,7 @@
 <e lm="anti-berlusconiano"><i>anti-berlusconian</i><par n="abbandonat/o__adj"/></e>
 <e lm="anti-canceroso">  <i>anti-canceros</i><par n="abbandonat/o__adj"/></e>
 <e lm="anti-castrista">  <i>anti-castrist</i><par n="suicid/a__adj"/></e>
+<e lm="anti-castrista">  <i>anti-castrist</i><par n="suicid/a__n"/></e>
 <e lm="anti-cattolico">  <i>anti-cattolic</i><par n="tecnic/o__adj"/></e>
 <e lm="anti-coagulante"> <i>anti-coagulant</i><par n="fin/e__adj"/></e>
 <e lm="anti-colonialista"><i>anti-colonialist</i><par n="suicid/a__adj"/></e>
@@ -35572,8 +35588,7 @@
 <e lm="antieconomico">   <i>antieconomic</i><par n="tecnic/o__adj"/></e>
 <e lm="antieroico">      <i>antieroic</i><par n="tecnic/o__adj"/></e>
 <e lm="antiestetico">    <i>antiestetic</i><par n="tecnic/o__adj"/></e>
-<e lm="antieuropeo">     <i>antieurop</i><par n="abbandonat/o__adj"/></e>
-<e lm="antieuropeo">     <i>antieurope</i><par n="tecnic/o__adj"/></e>
+<e lm="antieuropeo">     <i>antieurope</i><par n="abbandonat/o__adj"/></e>
 <e lm="antifascista">    <i>antifascist</i><par n="suicid/a__adj"/></e>
 <e lm="antifemminista">  <i>antifemminist</i><par n="suicid/a__adj"/></e>
 <e lm="antigiapponese">  <i>antigiappones</i><par n="albanes/e__adj"/></e>
@@ -35617,6 +35632,8 @@
 <e lm="antirusso">       <i>antiruss</i><par n="abbandonat/o__adj"/></e>
 <e lm="antisandinista">  <i>antisandinist</i><par n="suicid/a__adj"/></e>
 <e lm="antisegregazionista"><i>antisegregazionist</i><par n="suicid/a__adj"/></e>
+<e lm="antisegregazionista"> <i>antisegregazionist</i><par n="suicid/a__n"/></e>
+<e lm="antisegregazionismo"> <i>antisegregazionist</i><par n="abbain/o__n"/></e>
 <e lm="antiserbo">       <i>antiserb</i><par n="abbandonat/o__adj"/></e>
 <e lm="antisindacale">   <i>antisindacal</i><par n="fin/e__adj"/></e>
 <e lm="antisionista">    <i>antisionist</i><par n="suicid/a__adj"/></e>
@@ -35993,6 +36010,7 @@
 <e lm="autorizzativo">   <i>autorizzativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="autorizzatorio">  <i>autorizzatori</i><par n="ampi/o__adj"/></e>
 <e lm="autosponsorizzato"><i>autosponsorizzat</i><par n="abbandonat/o__adj"/></e>
+<e lm="sponsorizzato"><i>sponsorizzat</i><par n="abbandonat/o__adj"/></e>
 <e lm="autostradale">    <i>autostradal</i><par n="fin/e__adj"/></e>
 <e lm="autosufficiente"> <i>autosufficient</i><par n="fin/e__adj"/></e>
 <e lm="autotrapiantato"> <i>autotrapiantat</i><par n="abbandonat/o__adj"/></e>
@@ -37132,6 +37150,7 @@
 <e lm="crasso">          <i>crass</i><par n="abbandonat/o__adj"/></e>
 <e lm="craxiano">        <i>craxian</i><par n="abbandonat/o__adj"/></e>
 <e lm="craxista">        <i>craxist</i><par n="suicid/a__adj"/></e>
+<e lm="craxista">        <i>craxist</i><par n="suicid/a__n"/></e>
 <e lm="creatore">        <i>creat</i><par n="accentrat/ore__adj"/></e>
 <e lm="creativo">        <i>creativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="credente">        <i>credent</i><par n="fin/e__adj"/></e>
@@ -37148,6 +37167,7 @@
 <e lm="crespato">        <i>crespat</i><par n="abbandonat/o__adj"/></e>
 <e lm="cretino">         <i>cretin</i><par n="abbandonat/o__adj"/></e>
 <e lm="criminale">       <i>criminal</i><par n="fin/e__adj"/></e>
+<e lm="criminale">       <i>criminal</i><par n="albanes/e__n"/></e>
 <e lm="criminogeno">     <i>criminogen</i><par n="abbandonat/o__adj"/></e>
 <e lm="criminologico">   <i>criminologic</i><par n="tecnic/o__adj"/></e>
 <e lm="criminoso">       <i>criminos</i><par n="abbandonat/o__adj"/></e>
@@ -38115,6 +38135,8 @@
 <e lm="europeista">      <i>europeist</i><par n="suicid/a__adj"/></e>
 <e lm="europeistico">    <i>europeistic</i><par n="tecnic/o__adj"/></e>
 <e lm="euroscettico">    <i>euroscettic</i><par n="tecnic/o__adj"/></e>
+<e lm="euroscettico">    <i>euroscettic</i><par n="amic/o__n"/></e>
+<e lm="scettico">        <i>scettic</i><par n="amic/o__n"/></e>
 <e lm="evanescente">     <i>evanescent</i><par n="fin/e__adj"/></e>
 <e lm="evangelico">      <i>evangelic</i><par n="tecnic/o__adj"/></e>
 <e lm="evangelista">     <i>evangelist</i><par n="suicid/a__adj"/></e>
@@ -39416,7 +39438,6 @@
 <e lm="inter-comunitario"><i>inter-comunitari</i><par n="ampi/o__adj"/></e>
 <e lm="inter-generazionale"><i>inter-generazional</i><par n="fin/e__adj"/></e>
 <e lm="interannuale">    <i>interannual</i><par n="albanes/e__adj"/></e>
-<e lm="interativo">      <i>interativ</i><par n="cosiddett/o__adj"/></e>
 <e lm="interattivo">     <i>interattiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="interaziendale">  <i>interaziendal</i><par n="fin/e__adj"/></e>
 <e lm="interbancario">   <i>interbancari</i><par n="ampi/o__adj"/></e>
@@ -39443,10 +39464,13 @@
 <e lm="interministeriale"><i>interministerial</i><par n="fin/e__adj"/></e>
 <e lm="intermittente">   <i>intermittent</i><par n="fin/e__adj"/></e>
 <e lm="intermodale">     <i>intermodal</i><par n="fin/e__adj"/></e>
+<e lm="multifocale">     <i>multifocal</i><par n="fin/e__adj"/></e>
 <e lm="interno">         <i>intern</i><par n="abbandonat/o__adj"/></e>
 <e lm="internato">       <i>internat</i><par n="abbandonat/o__adj"/></e>
 <e lm="internazionale">  <i>internazional</i><par n="fin/e__adj"/></e>
 <e lm="internazionalista"><i>internazionalist</i><par n="suicid/a__adj"/></e>
+<e lm="internazionalista"><i>internazionalist</i><par n="suicid/a__n"/></e>
+<e lm="internazionalismo"><i>internazionalism</i><par n="abbain/o__n"/></e>
 <e lm="interparlamentare"><i>interparlamentar</i><par n="fin/e__adj"/></e>
 <e lm="interpersonale">  <i>interpersonal</i><par n="fin/e__adj"/></e>
 <e lm="interplanetario"> <i>interplanetari</i><par n="ampi/o__adj"/></e>
@@ -39705,6 +39729,8 @@
 <e lm="labirintico">     <i>labirintic</i><par n="tecnic/o__adj"/></e>
 <e lm="laborioso">       <i>laborios</i><par n="abbandonat/o__adj"/></e>
 <e lm="laburista">       <i>laburist</i><par n="suicid/a__adj"/></e>
+<e lm="neo-laburista">       <i>neo-laburist</i><par n="suicid/a__adj"/></e>
+<e lm="neolaburista">       <i>neolaburist</i><par n="suicid/a__adj"/></e>
 <e lm="lacero">          <i>lacer</i><par n="abbandonat/o__adj"/></e>
 <e lm="lacerante">       <i>lacerant</i><par n="fin/e__adj"/></e>
 <e lm="laconico">        <i>laconic</i><par n="tecnic/o__adj"/></e>
@@ -41272,6 +41298,7 @@
 <e lm="postbellico">     <i>postbellic</i><par n="tecnic/o__adj"/></e>
 <e lm="postcomunista">   <i>postcomunist</i><par n="suicid/a__adj"/></e>
 <e lm="postconciliare">  <i>postconciliar</i><par n="fin/e__adj"/></e>
+<e lm="preconciliare">   <i>preconciliar</i><par n="fin/e__adj"/></e>
 <e lm="postelegrafonico"><i>postelegrafonic</i><par n="tecnic/o__adj"/></e>
 <e lm="posteriore">      <i>posterior</i><par n="albanes/e__adj"/></e>
 <e lm="postindustriale"> <i>postindustrial</i><par n="fin/e__adj"/></e>
@@ -41763,12 +41790,10 @@
 <e lm="reggente">        <i>reggent</i><par n="fin/e__adj"/></e>
 <e lm="reggiano">        <i>reggian</i><par n="abbandonat/o__adj"/></e>
 <e lm="reggino">         <i>reggin</i><par n="abbandonat/o__adj"/></e>
-    <!-- ******************************
-          group adj
-      ****************************** -->
 <e lm="regio">           <i>regi</i><par n="ampi/o__adj"/></e>
 <e lm="regionale">       <i>regional</i><par n="fin/e__adj"/></e>
 <e lm="regionalista">    <i>regionalist</i><par n="suicid/a__adj"/></e>
+<e lm="regionalista">    <i>regionalist</i><par n="suicid/a__n"/></e>
 <e lm="regionalistico">  <i>regionalistic</i><par n="tecnic/o__adj"/></e>
 <e lm="regnante">        <i>regnant</i><par n="fin/e__adj"/></e>
 <e lm="regolabile">      <i>regolabil</i><par n="fin/e__adj"/></e>
@@ -42341,6 +42366,8 @@
 <e lm="segnico">         <i>segnic</i><par n="tecnic/o__adj"/></e>
 <e lm="segregato">       <i>segregat</i><par n="abbandonat/o__adj"/></e>
 <e lm="segregazionista"> <i>segregazionist</i><par n="suicid/a__adj"/></e>
+<e lm="segregazionista"> <i>segregazionist</i><par n="suicid/a__n"/></e>
+<e lm="segregazionismo"> <i>segregazionist</i><par n="abbain/o__n"/></e>
 <e lm="segreto">         <i>segret</i><par n="abbandonat/o__adj"/></e>
 <e lm="seguente">        <i>seguent</i><par n="fin/e__adj"/></e>
 <e lm="seguitore">       <i>seguit</i><par n="accentrat/ore__adj"/></e>
@@ -44328,6 +44355,7 @@
 <e lm="attentare">       <i>attent</i><par n="abbacin/are__vblex"/></e>
 <e lm="attenuare">       <i>attenu</i><par n="abbacin/are__vblex"/></e>
 <e lm="atterrare">       <i>atterr</i><par n="abbacin/are__vblex"/></e>
+<e lm="allunare">        <i>allun</i><par n="abbacin/are__vblex"/></e>
 <e lm="attestare">       <i>attest</i><par n="abbacin/are__vblex"/></e>
 <e lm="attingere">       <i>attin</i><par n="accin/gere__vblex"/></e>
 <e lm="attirare">        <i>attir</i><par n="abbacin/are__vblex"/></e>
@@ -49007,6 +49035,11 @@
 <e lm="di sopra">  <i>di<b/>sopra</i><par n="ieri__adv"/></e>
 <e lm="polinomio">        <i>polinomi</i><par n="abbagli/o__n"/></e>
 <e lm="saltellare">    <i>saltell</i><par n="abbacin/are__vblex"/></e>
+<e lm="Columbia Britannica">       <i>Columbia<b/>Britannica</i><par n="Europa__np"/></e>
+<e lm="commutativo">          <i>commutativ</i><par n="cosiddett/o__adj"/></e>
+<e lm="abeliano">          <i>abelian</i><par n="cosiddett/o__adj"/></e>
+<e lm="sponsorizzare">      <i>sponsorizz</i><par n="abbacin/are__vblex"/></e>
+<e lm="trust">      <i>trust</i><par n="albatros__n"/></e>
 
   </section>
 
