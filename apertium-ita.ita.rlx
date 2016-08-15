@@ -38,6 +38,7 @@ LIST Stato = "stato" ;
 LIST San = "San" ;
 LIST Dallo = "dallo" ;
 LIST Dai = "dai" ;
+LIST Dei = "dei" ;
 
 
 LIST Interr = itg ;
@@ -48,6 +49,8 @@ LIST Excl = "!" ;
 
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
+
+LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 
 LIST Upper = "[A-Z][a-z]+"r ;
 
@@ -99,6 +102,9 @@ SELECT Essere IF (0 Sg1) ;
 #REMOVE V IF (0 ("dai")) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 REMOVE V IF (0 Sg2) (0/* Pr) ;	# dai (alternativa bèstia però funciona)
 
+REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
+REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
+
 SELECT Prop IF (0 San) (1 Upper) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;
@@ -127,3 +133,5 @@ REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 Pr) ;
 SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
 SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;	# solució problema "del"
+
+REMOVE V IF (0 N) (0 Vconj) (-1 Pr) ;	# la rivolta dei Fasci siciliani.
