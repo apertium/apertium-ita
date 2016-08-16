@@ -24594,6 +24594,7 @@
 <e lm="copione">         <i>copion</i><par n="abat/e__n"/></e>
 <e lm="copista">         <i>copist</i><par n="suicid/a__n"/></e>
 <e lm="coppa">           <i>copp</i><par n="cas/a__n"/></e>
+<e lm="super-coppa">     <i>super-copp</i><par n="cas/a__n"/></e>
 <e lm="coppia">          <i>coppi</i><par n="cas/a__n"/></e>
 <e lm="copresidente">    <i>copresident</i><par n="baron/e__n"/></e>
 <e lm="copriletto">      <i>coprilett</i><par n="abbain/o__n"/></e>
@@ -26062,7 +26063,7 @@
 <e lm="eurocrato">       <i>eurocrat</i><par n="bambin/o__n"/></e>
 <e lm="eurodeputato">    <i>eurodeputat</i><par n="bambin/o__n"/></e>
 <e lm="eurogruppo">      <i>eurogrupp</i><par n="abbain/o__n"/></e>
-<e lm="europarlamentare"><i>europarlamentar</i><par n="abat/e__n"/></e>
+<e lm="europarlamentare"><i>europarlamentar</i><par n="albanes/e__n"/></e>
 <e lm="europeo">         <i>europe</i><par n="bambin/o__n"/></e>
 <e lm="europeismo">      <i>europeism</i><par n="abbain/o__n"/></e>
 <e lm="europeista">      <i>europeist</i><par n="suicid/a__n"/></e>
@@ -26090,7 +26091,7 @@
 <e lm="ex-comunista">    <i>ex-comunist</i><par n="suicid/a__n"/></e>
 <e lm="export">          <i>export</i><par n="abilità__n"/></e>
 <e lm="extra">           <i>extra</i><par n="blogger__n"/></e>
-<e lm="extraparlamentare"><i>extraparlamentar</i><par n="abat/e__n"/></e>
+<e lm="extraparlamentare"><i>extraparlamentar</i><par n="albanes/e__n"/></e>
 <e lm="extraterrestre">  <i>extraterrestr</i><par n="albanes/e__n"/></e>
 <e lm="fabbisogno">      <i>fabbisogn</i><par n="abbain/o__n"/></e>
 <e lm="fabbro">          <i>fabbr</i><par n="abbain/o__n"/></e>
@@ -26352,7 +26353,6 @@
 <e lm="filmetto">        <i>filmett</i><par n="abbain/o__n"/></e>
 <e lm="filmino">         <i>filmin</i><par n="abbain/o__n"/></e>
 <e lm="filmone">         <i>filmon</i><par n="abat/e__n"/></e>
-<e lm="filogovernativo"> <i>filogovernativ</i><par n="abbain/o__n"/></e>
 <e lm="filologo">        <i>filolog</i><par n="astrolog/o__n"/></e>
 <e lm="filologia">       <i>filologi</i><par n="cas/a__n"/></e>
 <e lm="filone">          <i>filon</i><par n="abat/e__n"/></e>
@@ -26476,6 +26476,7 @@
 <e lm="fondamento">      <i>fondament</i><par n="abbain/o__n"/></e>
 <e lm="fondamentalismo"> <i>fondamentalism</i><par n="abbain/o__n"/></e>
 <e lm="fondamentalista"> <i>fondamentalist</i><par n="suicid/a__n"/></e>
+<e lm="fondamentalista"> <i>fondamentalist</i><par n="suicid/a__adj"/></e>
 <e lm="fondatore">       <i>fondat</i><par n="agricolt/ore__n"/></e>
 <e lm="fondazione">      <i>fondazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="fondello">        <i>fondell</i><par n="abbain/o__n"/></e>
@@ -30043,8 +30044,11 @@
 <e lm="parità">          <i>parità</i><par n="abilità__n"/></e>
 <e lm="parkinson">       <i>parkinson</i><par n="albatros__n"/></e>
 <e lm="parlamento">      <i>parlament</i><par n="abbain/o__n"/></e>
-<e lm="parlamentare">    <i>parlamentar</i><par n="abat/e__n"/></e>
+<e lm="europarlamento">      <i>europarlament</i><par n="abbain/o__n"/></e>
+<e lm="parlamentare">    <i>parlamentar</i><par n="albanes/e__n"/></e>
 <e lm="parlamentarismo"> <i>parlamentarism</i><par n="abbain/o__n"/></e>
+<e lm="parlamentarista"> <i>parlamentarist</i><par n="suicid/a__n"/></e>
+<e lm="parlamentarista"> <i>parlamentarist</i><par n="suicid/a__adj"/></e>
 <e lm="parlamentino">    <i>parlamentin</i><par n="abbain/o__n"/></e>
 <e lm="parlante">        <i>parlant</i><par n="albanes/e__n"/></e>
 <e lm="parlatore">       <i>parlat</i><par n="agricolt/ore__n"/></e>
@@ -36521,6 +36525,7 @@
 <e lm="centroamericano"> <i>centroamerican</i><par n="abbandonat/o__adj"/></e>
 <e lm="centroeuropeo">   <i>centroeurope</i><par n="abbandonat/o__adj"/></e>
 <e lm="centrorientale">  <i>centroriental</i><par n="fin/e__adj"/></e>
+<e lm="centroccidentale">  <i>centroccidental</i><par n="fin/e__adj"/></e>
 <e lm="ceramico">        <i>ceramic</i><par n="tecnic/o__adj"/></e>
 <e lm="cerato">          <i>cerat</i><par n="abbandonat/o__adj"/></e>
 <e lm="cercatore">       <i>cercat</i><par n="accentrat/ore__adj"/></e>
@@ -36669,6 +36674,8 @@
 <e lm="classico-umanistico"><i>classico-umanistic</i><par n="tecnic/o__adj"/></e>
 <e lm="classificabile">  <i>classificabil</i><par n="fin/e__adj"/></e>
 <e lm="classista">       <i>classist</i><par n="suicid/a__adj"/></e>
+<e lm="classista">       <i>classist</i><par n="suicid/a__n"/></e>
+<e lm="classismo">       <i>classism</i><par n="abbain/o__n"/></e>
 <e lm="claudicante">     <i>claudicant</i><par n="fin/e__adj"/></e>
 <e lm="claustrale">      <i>claustral</i><par n="fin/e__adj"/></e>
 <e lm="claustrofobico">  <i>claustrofobic</i><par n="tecnic/o__adj"/></e>
@@ -36900,6 +36907,7 @@
 <e lm="confesso">        <i>confess</i><par n="abbandonat/o__adj"/></e>
 <e lm="confessabile">    <i>confessabil</i><par n="fin/e__adj"/></e>
 <e lm="confessionale">   <i>confessional</i><par n="fin/e__adj"/></e>
+<e lm="interconfessionale">   <i>confessional</i><par n="fin/e__adj"/></e>
 <e lm="confidente">      <i>confident</i><par n="fin/e__adj"/></e>
 <e lm="confidenziale">   <i>confidenzial</i><par n="fin/e__adj"/></e>
 <e lm="configurabile">   <i>configurabil</i><par n="fin/e__adj"/></e>
@@ -38331,6 +38339,7 @@
 <e lm="filo-curdo">      <i>filo-curd</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-egiziano">   <i>filo-egizian</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-governativo"><i>filo-governativ</i><par n="abbandonat/o__adj"/></e>
+<e lm="filogovernativo"><i>filogovernativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-iracheno">   <i>filo-irachen</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-iraniano">   <i>filo-iranian</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-occidentale"><i>filo-occidental</i><par n="fin/e__adj"/></e>
@@ -40245,8 +40254,10 @@
 <e lm="milanista">       <i>milanist</i><par n="suicid/a__adj"/></e>
 <e lm="milenso">         <i>milens</i><par n="abbandonat/o__adj"/></e>
 <e lm="miliardario">     <i>miliardari</i><par n="ampi/o__adj"/></e>
+<e lm="miliardario">     <i>multimiliardari</i><par n="segretari/o__n"/></e>
 <e lm="milionare">       <i>milionar</i><par n="fin/e__adj"/></e>
 <e lm="milionario">      <i>milionari</i><par n="ampi/o__adj"/></e>
+<e lm="milionario">      <i>milionari</i><par n="segretari/o__n"/></e>
 <e lm="militante">       <i>militant</i><par n="fin/e__adj"/></e>
 <e lm="militare">        <i>militar</i><par n="fin/e__adj"/></e>
 <e lm="militarista">     <i>militarist</i><par n="suicid/a__adj"/></e>
@@ -40422,7 +40433,9 @@
 <e lm="multilingue">     <i>multilingu</i><par n="fin/e__adj"/></e>
 <e lm="multimediale">    <i>multimedial</i><par n="fin/e__adj"/></e>
 <e lm="multimiliardario"><i>multimiliardari</i><par n="ampi/o__adj"/></e>
+<e lm="multimiliardario"><i>multimiliardari</i><par n="segretari/o__n"/></e>
 <e lm="multimilionario"> <i>multimilionari</i><par n="ampi/o__adj"/></e>
+<e lm="multimilionario"> <i>multimilionari</i><par n="segretari/o__n"/></e>
 <e lm="multinazionale">  <i>multinazional</i><par n="fin/e__adj"/></e>
 <e lm="multipartitico">  <i>multipartitic</i><par n="tecnic/o__adj"/></e>
 <e lm="multiplo">        <i>multipl</i><par n="abbandonat/o__adj"/></e>
@@ -44542,6 +44555,7 @@
 <e lm="censurare">       <i>censur</i><par n="abbacin/are__vblex"/></e>
 <e lm="centrare">        <i>centr</i><par n="abbacin/are__vblex"/></e>
 <e lm="centralizzare">   <i>centralizz</i><par n="abbacin/are__vblex"/></e>
+<e lm="decentralizzare">   <i>decentralizz</i><par n="abbacin/are__vblex"/></e>
 <e lm="centrifugare">    <i>centrifug</i><par n="abbarbic/are__vblex"/></e>
 <e lm="centuplicare">    <i>centuplic</i><par n="abbarbic/are__vblex"/></e>
 <e lm="cercare">         <i>cerc</i><par n="abbarbic/are__vblex"/></e>
@@ -49051,6 +49065,14 @@
 <e lm="abeliano">          <i>abelian</i><par n="cosiddett/o__adj"/></e>
 <e lm="sponsorizzare">      <i>sponsorizz</i><par n="abbacin/are__vblex"/></e>
 <e lm="trust">      <i>trust</i><par n="albatros__n"/></e>
+<e lm="parlamentare">         <i>parlament</i><par n="abbacin/are__vblex"/></e>
+<e lm="auto-" c="prefisso"><i>auto-</i><par n="extra__adj"/></e>
+<e lm="neo-" c="prefisso"><i>neo-</i><par n="extra__adj"/></e>
+<e lm="accusativo">           <i>accusativ</i><par n="abbain/o__n"/></e>
+<e lm="genitivo">           <i>genitiv</i><par n="abbain/o__n"/></e>
+<e lm="ablativo">           <i>ablativ</i><par n="abbain/o__n"/></e>
+<e lm="dativo">           <i>dativ</i><par n="abbain/o__n"/></e>
+<e lm="vocativo">           <i>vocativ</i><par n="abbain/o__n"/></e>
 
   </section>
 
