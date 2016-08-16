@@ -142,3 +142,4 @@ SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "i
 SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;	# solució problema "del"
 
 REMOVE V IF (0 N) (0 Vconj) (-1 Pr) ;	# la rivolta dei Fasci siciliani.
+REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
