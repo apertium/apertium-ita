@@ -12471,6 +12471,13 @@
   <e>       <p><l>ine</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
           
+<pardef n="ero/e__n">
+  <e>       <p><l>e</l>          <r>e<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>          <r>e<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ina</l>       <r>e<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ine</l>       <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+          
 <pardef n="vicer/é__n">
   <e>       <p><l>é</l>         <r>é<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>é</l>         <r>é<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -22103,7 +22110,7 @@
 <e lm="antidepressivo">  <i>antidepressiv</i><par n="abbain/o__n"/></e>
 <e lm="antidolorifico">  <i>antidolorific</i><par n="abbain/o__n"/></e>
 <e lm="antidoto">        <i>antidot</i><par n="abbain/o__n"/></e>
-<e lm="antieroe">        <i>antiero</i><par n="abat/e__n"/></e>
+<e lm="antieroe">        <i>antiero</i><par n="ero/e__n"/></e>
 <e lm="antifascismo">    <i>antifascism</i><par n="abbain/o__n"/></e>
 <e lm="antifascista">    <i>antifascist</i><par n="suicid/a__n"/></e>
 <e lm="antigene">        <i>antigen</i><par n="abat/e__n"/></e>
@@ -25878,7 +25885,7 @@
 <e lm="ermellino">       <i>ermellin</i><par n="abbain/o__n"/></e>
 <e lm="ermetica">        <i>ermetic</i><par n="tasc/a__n"/></e>
 <e lm="ernia">           <i>erni</i><par n="cas/a__n"/></e>
-<e lm="eroe">            <i>ero</i><par n="abat/e__n"/></e>
+<e lm="eroe">            <i>ero</i><par n="ero/e__n"/></e>
 <e lm="erogatore">       <i>erogat</i><par n="agricolt/ore__n"/></e>
 <e lm="erogazione">      <i>erogazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="eroina">          <i>eroina</i><par n="abilità__n"/></e>
@@ -28635,6 +28642,7 @@
 <e lm="martire">         <i>martir</i><par n="albanes/e__n"/></e>
 <e lm="martirio">        <i>martiri</i><par n="abbagli/o__n"/></e>
 <e lm="marxismo">        <i>marxism</i><par n="abbain/o__n"/></e>
+<e lm="elettoralismo">   <i>elettoralism</i><par n="abbain/o__n"/></e>
 <e lm="marxista">        <i>marxist</i><par n="suicid/a__n"/></e>
 <e lm="marxista-leninista"><i>marxista-leninist</i><par n="suicid/a__n"/></e>
 <e lm="marzo">           <i>marz</i><par n="marz/o__n"/></e>
@@ -33603,21 +33611,21 @@
 <e lm="supercoppa">      <i>supercopp</i><par n="cas/a__n"/></e>
 <e lm="superdollaro">    <i>superdollar</i><par n="abbain/o__n"/></e>
 <e lm="superenalotto">   <i>superenalott</i><par n="abbain/o__n"/></e>
-<e lm="supereroe">       <i>superero</i><par n="abat/e__n"/></e>
-<e lm="superesperto">    <i>superespert</i><par n="abbain/o__n"/></e>
+<e lm="supereroe">       <i>superero</i><par n="ero/e__n"/></e>
+<e lm="superesperto">    <i>superespert</i><par n="bambin/o__n"/></e>
 <e lm="superfetazione">  <i>superfetazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="superficie">      <i>superfici</i><par n="effigi/e__n"/></e>
 <e lm="superficiale">    <i>superficial</i><par n="abat/e__n"/></e>
 <e lm="superficialità">  <i>superficialità</i><par n="abilità__n"/></e>
 <e lm="superfluo">       <i>superflu</i><par n="bambin/o__n"/></e>
 <e lm="superfluità">     <i>superfluità</i><par n="abilità__n"/></e>
-<e lm="supergigante">    <i>supergigant</i><par n="abat/e__n"/></e>
+<e lm="supergigante">    <i>supergigant</i><par n="albanes/e__n"/></e>
 <e lm="supergruppo">     <i>supergrupp</i><par n="abbain/o__n"/></e>
 <e lm="superholding">    <i>superholding</i><par n="abilità__n"/></e>
 <e lm="superindice">     <i>superindic</i><par n="abat/e__n"/></e>
 <e lm="superiore">       <i>superior</i><par n="abat/e__n"/></e>
 <e lm="superiorità">     <i>superiorità</i><par n="abilità__n"/></e>
-<e lm="superispettore">  <i>superispettor</i><par n="abat/e__n"/></e>
+<e lm="superispettore">  <i>superispet</i><par n="agricolt/ore__n"/></e>
 <e lm="superlatitante">  <i>superlatitant</i><par n="abat/e__n"/></e>
 <e lm="superlativo">     <i>superlativ</i><par n="abbain/o__n"/></e>
 <e lm="superlavoro">     <i>superlavor</i><par n="abbain/o__n"/></e>
@@ -34961,7 +34969,7 @@
 <e lm="zigomo">          <i>zigom</i><par n="abbain/o__n"/></e>
 <e lm="zimbello">        <i>zimbell</i><par n="abbain/o__n"/></e>
 <e lm="zinco">           <i>zinc</i><par n="fung/o__n"/></e>
-<e lm="zingaro">         <i>zingar</i><par n="abbain/o__n"/></e>
+<e lm="zingaro">         <i>zingar</i><par n="bambin/o__n"/></e>
 <e lm="zingarello">      <i>zingarell</i><par n="abbain/o__n"/></e>
 <e lm="zip">             <i>zip</i><par n="abilità__n"/></e>
 <e lm="zoccolo">         <i>zoccol</i><par n="abbain/o__n"/></e>
@@ -38649,6 +38657,7 @@
 <e lm="giardiniere">     <i>giardinier</i><par n="fin/e__adj"/></e>
 <e lm="gibboso">         <i>gibbos</i><par n="abbandonat/o__adj"/></e>
 <e lm="gigante">         <i>gigant</i><par n="fin/e__adj"/></e>
+<e lm="supergigante">    <i>supergigant</i><par n="fin/e__adj"/></e>
 <e lm="gigantesco">      <i>gigantesc</i><par n="tedesc/o__adj"/></e>
 <e lm="gigliato">        <i>gigliat</i><par n="abbandonat/o__adj"/></e>
 <e lm="ginecologico">    <i>ginecologic</i><par n="tecnic/o__adj"/></e>
