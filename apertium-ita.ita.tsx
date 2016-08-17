@@ -2396,6 +2396,14 @@
    <prefer tags="rel.an.mf.sp"/>
    <prefer tags="cnjsub"/>
    <prefer tags="rel.adv"/>
+   <prefer tags="det.def.m.sg"/>
+   <prefer tags="det.def.f.sg"/>
+   <prefer tags="det.def.m.pl"/>
+   <prefer tags="det.def.f.pl"/>
+
+
+
+
 
   </preferences>
 </tagger>

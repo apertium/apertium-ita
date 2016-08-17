@@ -4426,7 +4426,7 @@
 ]^assistendo/assistere<vblex><ger>$[
 ]^a/a<pr>$[
 ]^temperature/temperatura<n><f><pl>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^./.<sent>$[
 ]^14/14<num>$[
 ]^dei/dio<n><m><pl>/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -4755,7 +4755,7 @@
 ]^massicce/*massicce$[
 ]^piogge/pioggia<n><f><pl>$[
 ]^da/da<pr>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^./.<sent>$[
 ]^Questo/Questo<prn><tn><m><sg>/Questo<prn><tn><nt><sg>/Questo<det><dem><m><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -4845,7 +4845,7 @@
 ]^Queste/Questo<prn><tn><f><pl>/Questo<det><dem><f><pl>$[
 ]^piogge/pioggia<n><f><pl>$[
 ]^da/da<pr>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^stanno/stare<vblex><pri><p3><pl>$[
 ]^creando/creare<vblex><ger>$[
 ]^inondazioni/inondazione<n><f><pl>$[
@@ -10703,7 +10703,7 @@
 ]^fatto/fatto<n><m><sg>/fare<vblex><pp><m><sg>$[
 ]^vedere/vedere<vblex><inf>$[
 ]^i/il<det><def><m><pl>$[
-]^dintorni/dintorni<n><m><sg>/dintorni<n><m><pl>/dintorno<n><m><pl>$[
+]^dintorni/dintorni<n><m><sp>/dintorno<n><m><pl>$[
 ]^./.<sent>$[
 ]^Se/Se<cnjadv>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -22359,7 +22359,7 @@
 ]^assistendo/assistere<vblex><ger>$[
 ]^a/a<pr>$[
 ]^temperature/temperatura<n><f><pl>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^./.<sent>$[
 ]^14/14<num>$[
 ]^dei/dio<n><m><pl>/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -22688,7 +22688,7 @@
 ]^massicce/*massicce$[
 ]^piogge/pioggia<n><f><pl>$[
 ]^da/da<pr>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^./.<sent>$[
 ]^Questo/Questo<prn><tn><m><sg>/Questo<prn><tn><nt><sg>/Questo<det><dem><m><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -22778,7 +22778,7 @@
 ]^Queste/Questo<prn><tn><f><pl>/Questo<det><dem><f><pl>$[
 ]^piogge/pioggia<n><f><pl>$[
 ]^da/da<pr>$[
-]^record/record<n><m><sg>/record<n><m><pl>$[
+]^record/record<n><m><sp>$[
 ]^stanno/stare<vblex><pri><p3><pl>$[
 ]^creando/creare<vblex><ger>$[
 ]^inondazioni/inondazione<n><f><pl>$[
@@ -28636,7 +28636,7 @@
 ]^fatto/fatto<n><m><sg>/fare<vblex><pp><m><sg>$[
 ]^vedere/vedere<vblex><inf>$[
 ]^i/il<det><def><m><pl>$[
-]^dintorni/dintorni<n><m><sg>/dintorni<n><m><pl>/dintorno<n><m><pl>$[
+]^dintorni/dintorni<n><m><sp>/dintorno<n><m><pl>$[
 ]^./.<sent>$[
 ]^Se/Se<cnjadv>$[
 ]^è/essere<vbser><pri><p3><sg>$[

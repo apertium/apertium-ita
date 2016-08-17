@@ -1658,14 +1658,14 @@
   <e r="LR"><p><l>messer</l>    <r>mere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>messero</l>   <r>mere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>messe</l>     <r>mere<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>unte</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>unte</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantate"/></e>
-  <e>       <p><l>unta</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>unta</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__cantata"/></e>
-  <e>       <p><l>unti</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>unti</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p><par n="S__cantati"/></e>
-  <e>       <p><l>unto</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>unto</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
+  <e>       <p><l>nte</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>nte</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/><j/></r></p><par n="S__cantate"/></e>
+  <e>       <p><l>nta</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>nta</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__cantata"/></e>
+  <e>       <p><l>nti</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>nti</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/><j/></r></p><par n="S__cantati"/></e>
+  <e>       <p><l>nto</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>nto</l>      <r>mere<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__cantato"/></e>
   <e>       <p><l>miamo</l>     <r>mere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>mo</l>        <r>mere<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>mete</l>      <r>mere<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -32026,7 +32026,7 @@
 <e lm="riuso">           <i>rius</i><par n="abbain/o__n"/></e>
 <e lm="riutilizzo">      <i>riutilizz</i><par n="abbain/o__n"/></e>
 <e lm="riva">            <i>riv</i><par n="cas/a__n"/></e>
-<e lm="rivale">          <i>rival</i><par n="abat/e__n"/></e>
+<e lm="rivale">          <i>rival</i><par n="albanes/e__n"/></e>
 <e lm="rivalità">        <i>rivalità</i><par n="abilità__n"/></e>
 <e lm="rivalsa">         <i>rivals</i><par n="cas/a__n"/></e>
 <e lm="rivalutazione">   <i>rivalutazion</i><par n="abbreviazion/e__n"/></e>
