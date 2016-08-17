@@ -1,4 +1,5 @@
 * text=auto !eol
+/ACKNOWLEDGEMENTS -text
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
