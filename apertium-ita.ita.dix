@@ -48877,8 +48877,7 @@
 <e lm="Loro">            <p><l>Loro</l>      <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e> <!-- VERIFY -->
 <e lm="entrambi">        <p><l>entrambe</l>  <r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="entrambi">        <p><l>entrambi</l>  <r>entrambi<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-<!--    
-    <e lm="c'è"><p><l>c'è</l><r>ci<s n="adv"/><j/>essere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>-->
+<!--<e lm="c'è"><p><l>c'è</l><r>ci<s n="adv"/><j/>essere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>-->
 <e lm="gliela">          <p><l>gliela</l>    <r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="gliela">   <p><l>gliela</l>    <r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="gliele">          <p><l>gliele</l>    <r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>

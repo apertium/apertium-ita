@@ -1335,6 +1335,11 @@
 
 
     <label-sequence>
+      <label-item label="PREADV"/>
+      <label-item label="SENT"/>
+    </label-sequence>
+
+    <label-sequence>
       <label-item label="DETM"/>
       <label-item label="SENT"/>
     </label-sequence>
