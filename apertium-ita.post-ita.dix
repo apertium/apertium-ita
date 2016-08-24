@@ -1529,6 +1529,23 @@
       </e>
     </pardef>
 
+    <pardef n="lo">
+      <e>
+        <p>
+          <l><b/></l>
+          <r>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>lo<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+    </pardef>
+
     <pardef n="i">
     <e>
         <p>
@@ -1550,23 +1567,30 @@
     </pardef>
 
 <pardef n="mi">
-      <e>
-        <p>
-          <l><b/></l>
-          <r>mi<b/></r>
-        </p>
-        <par n="vocals"/>
-      </e>
 
       <e>
         <p>
-          <l><b/><a/></l>
-          <r>mi<b/></r>
+          <l><b/><a/>lo</l>
+          <r>e<b/>lo</r>
         </p>
-        <par n="consonants"/>
       </e>
-    </pardef>
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>e<b/>la</r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le</l>
+          <r>e<b/>le</r>
+        </p>
+      </e>
 
+</pardef>
+
+
+<!--
 <pardef n="ti">
       <e>
         <p>
@@ -1638,7 +1662,7 @@
         <par n="consonants"/>
       </e>
     </pardef>
-
+-->
 <pardef n="gli">
       <e>
         <p>
@@ -1963,11 +1987,11 @@
         </p>
         <par n="cons_especiales"/>
     </e>
-<!--
+
       <e>
         <p>
           <l><a/>mi</l>
-          <r/>
+          <r>m</r>
         </p>
         <par n="mi"/>
       </e>
@@ -1976,17 +2000,9 @@
 
         <p>
           <l><a/>ti</l>
-          <r/>
+          <r>t</r>
         </p>
-        <par n="ti"/>
-      </e>
-
-      <e>
-        <p>
-          <l><a/>ci</l>
-          <r/>
-        </p>
-        <par n="ci"/>
+        <par n="mi"/>
       </e>
 
       <e>
@@ -1994,7 +2010,16 @@
           <l><a/>si</l>
           <r/>
         </p>
-        <par n="si"/>
+        <par n="gli"/>
+      </e>
+
+
+<!--      <e>
+        <p>
+          <l><a/>ci</l>
+          <r/>
+        </p>
+        <par n="ci"/>
       </e>
 
       <e>
@@ -2019,6 +2044,14 @@
           <r/>
         </p>
         <par n="gli"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>lo</l>
+          <r/>
+        </p>
+        <par n="lo"/>
       </e>
 
       <e>

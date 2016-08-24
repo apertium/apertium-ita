@@ -46,7 +46,7 @@
 ]^sto/stare<vblex><pri><p1><sg>$[
 ]^parlando/parlare<vblex><ger>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
-]^smartphone/smartphone<n><f><sp>$[
+]^smartphone/smartphone<n><m><sp>$[
 ]^./.<sent>$[
 ]^./.<sent>$[
 ]^./.<sent>$[
@@ -174,8 +174,8 @@
 ]^ovunque/ovunque<adv>$[
 ]^vogliano/volere<vbmod><imp><p3><pl>/volere<vbmod><prs><p3><pl>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^jitney/*jitney$[
+][
+]^un/un<det><ind><m><sg>$ ^jitney/*jitney$[
 ]^?/?<sent>$[
 ]^Un/Un<det><ind><m><sg>$[
 ]^Jitney/*Jitney$[
@@ -200,9 +200,9 @@
 ]^,/,<cm>$[
 ]^ma/ma<cnjcoo>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^il/il<det><def><m><sg>$[
-]^paese/paese<n><m><sg>$[
+][
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^il/il<det><def><m><sg>$ ^paese/paese<n><m><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^nel/in<pr>+il<det><def><m><sg>$[
@@ -931,7 +931,7 @@
 ]^7.9/7.9<num>$[
 ]^milioni/milione<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^miglia/miglia<n><f><sg>$[
+]^miglia/miglio<n><f><pl>$[
 ]^dalla/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><sg>/da<pr>+il<det><def><f><sg>$[
 ]^strada/strada<n><f><sg>$[
 ]^e/e<cnjcoo>$[
@@ -1051,8 +1051,8 @@
 ]^ogni/ogni<det><ind><mf><sg>$[
 ]^settimana/settimana<n><f><sg>$[
 ]^siamo/essere<vbser><imp><p1><pl>/essere<vbser><pri><p1><pl>/essere<vbser><prs><p1><pl>$[
-]^a/a<pr>$[
-]^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$[
+]^a posto/a posto<adv>$[
+][
 ]^./.<sent>$[
 ]^Come/Come<pr>/Come<cnjadv>/Come<adv><itg>/Come<rel><adv>$[
 ]^arriviamo/arrivare<vblex><imp><p1><pl>/arrivare<vblex><pri><p1><pl>/arrivare<vblex><prs><p1><pl>$[
@@ -1296,7 +1296,7 @@
 ]^,/,<cm>$[
 ]^sei/sei<num><mf><sp>/essere<vbser><imp><p2><sg>/essere<vbser><pri><p2><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^criminale/criminale<adj><mf><sg>$[
+]^criminale/criminale<n><mf><sg>/criminale<adj><mf><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^se/se<cnjadv>$[
@@ -1549,7 +1549,7 @@
 ]^coraggiosa/coraggioso<adj><f><sg>$[
 ]^decisione/decisione<n><f><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^ridisegnarla/*ridisegnarla$[
+]^ridisegnarla/ridisegnare<vblex><inf>+lo<prn><enc><p3><f><sg>$[
 ]^completamente/completamente<adv>$[
 ]^./.<sent>$[
 ]^TK/*TK$[
@@ -1827,7 +1827,7 @@
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^avere/avere<vblex><inf>/avere<vbhaver><inf>/avere<n><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^rivale/rivale<n><m><sg>/rivale<adj><mf><sg>$[
+]^rivale/rivale<n><mf><sg>/rivale<adj><mf><sg>$[
 ]^impetuoso/impetuoso<adj><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^inarrestabile/inarrestabile<adj><mf><sg>$[
@@ -1894,7 +1894,7 @@
 ]^faccio/fare<vblex><pri><p1><sg>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^imprenditore/imprenditore<n><m><sg>/imprenditore<adj><m><sg>$[
-]^da quando/da quando<adv>$[
+]^da quando/da quando<adv>/da quando<cnjadv>/da quando<adv><itg>$[
 ]^andavo/andare<vblex><pii><p1><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ]^liceo/liceo<n><m><sg>$[
@@ -2207,8 +2207,8 @@
 ]^in/in<pr>$[
 ][
 ]^molte/molto<prn><tn><f><pl>/molto<adj><ind><f><pl>/molto<det><ind><f><pl>$ ^città/città<n><f><sp>$[
-]^a/a<pr>$[
-]^metà/metà<n><f><sp>$[
+]^a metà/a metà<adv>$[
+][
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^costo/costo<n><m><sg>/costare<vblex><pri><p1><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
@@ -2533,8 +2533,8 @@
 ]^quello/quello<prn><tn><m><sg>/quello<prn><tn><nt><sg>/quello<det><dem><m><sg>$[
 ]^attuale/attuale<adj><mf><sg>/attuare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>/attuare<vblex><imp><p2><sg>+gli<prn><enc><p3><f><sg>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^passaggio/passaggio<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^passaggio/passaggio<n><m><sg>$[
 ]^Uber/*Uber$[
 ]^./.<sent>$[
 ]^Cosa/Cosa<n><f><sg>/Cosa<prn><itg><mf><sg>$[
@@ -2706,10 +2706,10 @@
 ]^trilioni/trilione<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^ore/ora<n><f><pl>$[
-]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^il/il<det><def><m><sg>$[
-]^mondo/mondo<n><m><sg>/mondo<adj><m><sg>/mondare<vblex><pri><p1><sg>$[
+]^in tutto il mondo/in tutto il mondo<adv>$[
+][
+][
+][
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^le/il<det><def><f><pl>/le<prn><pro><p3><f><sg>/lo<prn><pro><p3><f><pl>/gli<prn><pro><p3><f><sg>/gli<prn><pro><p3><f><pl>$[
 ]^persone/persona<n><f><pl>$[
@@ -3962,7 +3962,7 @@
 ]^stessi/stesso<n><m><pl>/stesso<adj><m><pl>/stare<vblex><pis><p1><sg>/stare<vblex><pis><p2><sg>/stesso<prn><tn><m><pl>$[
 ]^guardando/guardare<vblex><ger>$[
 ]^il nostro/il nostro<det><pos><m><sg>/il nostro<prn><tn><pos><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^dallo/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><nt>/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><sg>/da<pr>+il<det><def><m><sg>$[
 ]^spazio/spazio<n><m><sg>$[
 ]^./.<sent>$[
@@ -4030,7 +4030,7 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^avvolge/avvolgere<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^anche/anche<adv>/anche<cnjcoo>/anca<n><f><pl>$[
@@ -4161,7 +4161,7 @@
 ]^energia/energia<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^il nostro/il nostro<det><pos><m><sg>/il nostro<prn><tn><pos><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^brucia/bruciare<vblex><imp><p2><sg>/bruciare<vblex><pri><p3><sg>$[
 ]^ogni anno/ogni anno<adv>$[
 ]^./.<sent>$[
@@ -4196,7 +4196,7 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^surriscalda/surriscaldare<vblex><imp><p2><sg>/surriscaldare<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -4250,7 +4250,7 @@
 ]^è/essere<vbser><pri><p3><sg>$[
 ]^un/un<det><ind><m><sg>$[
 ]^grande/grande<adj><mf><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^,/,<cm>$[
 ]^ma/ma<cnjcoo>$[
 ]^(/(<lpar>$[
@@ -5173,9 +5173,9 @@
 ]^messo/messo<adj><m><sg>/mettere<vblex><pp><m><sg>$[
 ][
 ]^in/in<pr>$ ^guardia/guardia<n><m><sp>/guardia<n><f><sg>$[
-]^a/a<pr>$[
+]^a lungo/a lungo<adv>$[
 ][
-]^lungo/lungo<pr>/lungo<adj><m><sg>$ ^sulle/su<pr>+il<det><def><f><pl>$[
+]^sulle/su<pr>+il<det><def><f><pl>$[
 ]^conseguenze/conseguenza<n><f><pl>$[
 ]^delle/un<det><ind><f><pl>/di<pr>+il<det><def><f><pl>$[
 ]^crisi/crisi<n><f><sp>$[
@@ -5238,8 +5238,8 @@
 ]^e/e<cnjcoo>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^area/area<n><f><sg>$[
-]^nelle/in<pr>+il<det><def><f><pl>$[
-]^quali/quale<prn><itg><mf><pl>/quale<adj><itg><mf><pl>/quale<rel><an><mf><pl>$[
+]^nelle quali/nel quale<rel><an><f><pl>$[
+][
 ]^queste/questo<prn><tn><f><pl>/questo<det><dem><f><pl>$[
 ]^malattie/malattia<n><f><pl>$[
 ]^microbiche/microbico<adj><f><pl>$[
@@ -5390,8 +5390,8 @@
 ]^già/già<adv>$[
 ]^spostando/spostare<vblex><ger>$[
 ]^verso/verso<adv>/verso<pr>/verso<n><m><sg>/verso<adj><m><sg>/versare<vblex><pri><p1><sg>$[
-]^i/il<det><def><m><pl>$[
-]^poli/polo<n><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^poli/polo<n><m><pl>$[
 ]^con/con<pr>$[
 ]^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$[
 ]^media/media<n><f><sg>/media<n><f><sp>/medio<adj><f><sg>/mediare<vblex><imp><p2><sg>/mediare<vblex><pri><p3><sg>$[
@@ -5801,8 +5801,8 @@
 ]^cosa/cosa<n><f><sg>/cosa<prn><itg><mf><sg>$[
 ]^succede/succedere<vblex><pri><p3><sg>$[
 ]^con/con<pr>$[
-]^i/il<det><def><m><pl>$[
-]^mutui/mutuo<n><m><pl>/mutuo<adj><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^mutui/mutuo<n><m><pl>/mutuo<adj><m><pl>$[
 ]^senza/senza<pr>$[
 ]^garanzia/garanzia<n><f><sg>$[
 ]^,/,<cm>$[
@@ -5864,7 +5864,7 @@
 ]^solo/solo<adv>/solo<adj><m><sg>$[
 ]^questa/questo<prn><tn><f><sg>/questo<det><dem><f><sg>$[
 ]^quantità/quantità<n><f><sp>$[
-]^può essere/può essere<adv>$[
+]^può essere/può essere<adv>/può essere<vbser><pri><p3><sg>$[
 ]^bruciata/bruciato<n><f><sg>/bruciato<adj><f><sg>/bruciare<vblex><pp><f><sg>$[
 ]^./.<sent>$[
 ]^Il resto/Il resto<prn><tn><nt><sg>$[
@@ -6235,7 +6235,7 @@
 ]^,/,<cm>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ][
-]^di/di<pr>/dire<vblex><imp><p2><sg>$ ^sotto/sotto<adv>/sotto<pr>$[
+]^di sotto/di sotto<adv>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
@@ -6536,8 +6536,8 @@
 ]^volte/volto<adj><f><pl>/volta<n><f><pl>$[
 ]^tanto/tanto<adv>/tanto<preadv>/tanto<n><m><sg>/tanto<adj><m><sg>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^anno/anno<n><m><sg>$[
 ]^./.<sent>$[
 ]^Ora/Ora<adv>/Ora<n><f><sg>$[
@@ -6711,7 +6711,7 @@
 ]^Bangladesh/Bangladesh<np><loc><m><sg>$[
 ]^con/con<pr>$[
 ]^il/il<det><def><m><sg>$[
-]^microcredito/*microcredito$[
+]^microcredito/microcredito<n><m><sg>$[
 ]^./.<sent>$[
 ]^Questo/Questo<prn><tn><m><sg>/Questo<prn><tn><nt><sg>/Questo<det><dem><m><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -6772,8 +6772,8 @@
 ]^mondo/mondo<n><m><sg>/mondo<adj><m><sg>/mondare<vblex><pri><p1><sg>$[
 ]^ha bisogno/avere<vblex><pri><p3><sg># bisogno$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^anno/anno<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^anno/anno<n><m><sg>$[
 ]^./.<sent>$[
 ]^In/In<pr>$[
 ]^realtà/realtà<n><f><sp>$[
@@ -7000,11 +7000,11 @@
 ]^tema/tema<n><m><sg>/temere<vblex><imp><p3><sg>/temere<vblex><prs><p3><sg>/temere<vblex><prs><p1><sg>/temere<vblex><prs><p2><sg>$[
 ]^./.<sent>$[
 ]^Molte/Molto<prn><tn><f><pl>/Molto<adj><ind><f><pl>/Molto<det><ind><f><pl>$[
-]^migliaia/migliaio<n><f><pl>$[
+]^migliaia/*migliaia$[
 ]^,/,<cm>$[
 ]^decine/decine<num><mf><sp>/decina<n><f><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^migliaia/migliaio<n><f><pl>$[
+]^migliaia/*migliaia$[
 ]^hanno/avere<vblex><pri><p3><pl>/avere<vbhaver><pri><p3><pl>$[
 ]^marciato/marciare<vblex><pp><m><sg>$[
 ]^per/per<pr>$[
@@ -7291,7 +7291,7 @@
 ][
 ]^i/il<det><def><m><pl>$ ^diritti/diritto<n><m><pl>/diritto<adj><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^gay/gay<n><m><sp>$[
+]^gay/gay<n><mf><sp>/gay<adj><mf><sp>$[
 ]^e/e<cnjcoo>$[
 ]^lesbiche/lesbica<n><f><pl>/lesbica<adj><f><pl>$[
 ]^qui/qui<adv>$[
@@ -7708,7 +7708,7 @@
 ]^arriva/arrivare<vblex><imp><p2><sg>/arrivare<vblex><pri><p3><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ][
-]^di/di<pr>/dire<vblex><imp><p2><sg>$ ^sotto/sotto<adv>/sotto<pr>$[
+]^di sotto/di sotto<adv>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^grid/*grid$[
 ]^parity/*parity$[
@@ -7946,7 +7946,7 @@
 ][
 ]^il/il<det><def><m><sg>$ ^rinnovo/rinnovo<n><m><sg>/rinnovare<vblex><pri><p1><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^,/,<cm>$[
 ]^indicando/indicare<vblex><ger>$[
@@ -7959,7 +7959,7 @@
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^Trattato/Trattato<n><m><sg>/Trattare<vblex><pp><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^Lisbona/Lisbona<np><loc><m><sg>/Lisbona<np><loc><f><sg>$[
+]^Lisbona/Lisbona<np><loc><f><sg>$[
 ]^il/il<det><def><m><sg>$[
 ]^nome/nome<n><m><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
@@ -8147,7 +8147,7 @@
 ]^i/il<det><def><m><pl>$[
 ]^membri/membro<n><mf><pl>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^per/per<pr>$[
@@ -8282,7 +8282,7 @@
 ]^,/,<cm>$[
 ]^passaporto/passaporto<n><m><sg>$[
 ]^,/,<cm>$[
-]^patente/patente<n><m><sg>$[
+]^patente/patente<n><f><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^guida/guida<n><f><sg>/guidare<vblex><imp><p2><sg>/guidare<vblex><pri><p3><sg>$[
 ]^)/)<rpar>$[
@@ -8448,7 +8448,7 @@
 ]^Italia/Italia<np><loc><f><sg>$[
 ]^elegge/eleggere<vblex><pri><p3><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^73/73<num>$[
 ]^deputati/deputato<n><m><pl>$[
@@ -8460,7 +8460,7 @@
 ]^composizione/composizione<n><f><sg>$[
 ]^definitiva/definitivo<adj><f><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^nella/in<pr>+il<det><def><f><sg>$[
 ]^VIII/VIII<num><mf><sp>$[
@@ -8661,7 +8661,7 @@
 ]^ha/avere<vblex><pri><p3><sg>/avere<vbhaver><pri><p3><sg>$[
 ]^pubblicato/pubblicare<vblex><pp><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^tweet/tweet<n><f><sp>$[
+]^tweet/tweet<n><m><sp>$[
 ]^dicendo/dire<vblex><ger>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^essere/essere<vbser><inf>/essere<n><m><sg>$[
@@ -8760,7 +8760,7 @@
 ]^mentre/mentre<adv>/mentre<cnjadv>$[
 ]^il/il<det><def><m><sg>$[
 ]^Nuovo/Nuovo<n><m><sg>/Nuovo<adj><m><sg>$[
-]^Centrodestra/*Centrodestra$[
+]^Centrodestra/Centrodestra<n><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^Unione/Unione<n><f><sg>$[
@@ -8812,7 +8812,7 @@
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^Prato/Prato<n><m><sg>/Prato<np><loc><m><sg>$[
 ]^,/,<cm>$[
-]^Padova/Padova<np><loc><m><sg>/Padova<np><loc><f><sg>$[
+]^Padova/Padova<np><loc><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^Bergamo/Bergamo<np><loc><m><sg>$[
 ]^e/e<cnjcoo>$[
@@ -8875,7 +8875,7 @@
 ]^più/più<adv>$[
 ]^industrializzati/industrializzare<vblex><pp><m><pl>/industrializzare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
 ]^tema/tema<n><m><sg>/temere<vblex><imp><p3><sg>/temere<vblex><prs><p3><sg>/temere<vblex><prs><p1><sg>/temere<vblex><prs><p2><sg>$[
@@ -9173,7 +9173,7 @@
 ]^sindaco/sindaco<n><m><sg>/sindacare<vblex><pri><p1><sg>$[
 ]^,/,<cm>$[
 ]^il/il<det><def><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^vince/vincere<vblex><pri><p3><sg>$[
 ]^guidato da/guidato<adj><m><sg># da$[
 ]^Forza/Forza<n><f><sg>/Forzare<vblex><imp><p2><sg>/Forzare<vblex><pri><p3><sg>$[
@@ -9263,8 +9263,8 @@
 ]^dal/da<pr>+il<det><def><m><sg>$[
 ]^1861/1861<num>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^133/133<num>$[
 ]^anni/anno<n><m><pl>$[
@@ -9364,7 +9364,7 @@
 ]^recente/recente<adj><mf><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^più/più<adv>$[
 ]^malandato/malandato<n><m><sg>/malandato<adj><m><sg>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -9373,7 +9373,7 @@
 ]^,/,<cm>$[
 ]^ossia/ossia<cnjcoo>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^in/in<pr>$[
 ]^stallo/stallo<n><m><sg>$[
 ]^per/per<pr>$[
@@ -9394,7 +9394,7 @@
 ]^)/)<rpar>$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^dopo/dopo<adv>/dopo<pr>/dopo<adj><m><sg>$[
 ]^lo/lo<detnt>/lo<prn><pro><p3><nt>/il<det><def><m><sg>/lo<prn><pro><p3><m><sg>$[
@@ -9406,7 +9406,7 @@
 ]^frammentato/*frammentato$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^credeva/credere<vblex><pii><p3><sg>$[
 ]^solo/solo<adv>/solo<adj><m><sg>$[
@@ -9445,7 +9445,7 @@
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^elettori/elettore<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^con/con<pr>$[
 ]^la loro/il loro<det><pos><f><sg>/il loro<prn><tn><pos><f><sg>$[
@@ -9478,7 +9478,7 @@
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^elettori/elettore<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^centrosinistra/*centrosinistra$[
+]^centrosinistra/centrosinistra<n><f><sg>$[
 ]^non/non<adv>$[
 ]^abbiano/avere<vblex><imp><p3><pl>/avere<vblex><prs><p3><pl>/avere<vbhaver><prs><p3><pl>$[
 ]^fatto/fatto<n><m><sg>/fare<vblex><pp><m><sg>$[
@@ -9490,7 +9490,7 @@
 ]^,/,<cm>$[
 ]^forse/forse<adv>$[
 ]^il/il<det><def><m><sg>$[
-]^centrosinistra/*centrosinistra$[
+]^centrosinistra/centrosinistra<n><f><sg>$[
 ]^potrà/potere<vblex><fti><p3><sg>/potere<vbmod><fti><p3><sg>$[
 ]^ripartire/ripartire<vblex><inf>$[
 ]^./.<sent>$[
@@ -9700,7 +9700,7 @@
 ]^mezzo/mezzo<n><m><sg>/mezzo<adj><m><sg>$ ^agli/aglio<n><m><pl>/a<pr>+il<det><def><m><pl>$[
 ]^arresti/arresto<n><m><pl>/arrestare<vblex><imp><p3><sg>/arrestare<vblex><pri><p2><sg>/arrestare<vblex><prs><p3><sg>/arrestare<vblex><prs><p1><sg>/arrestare<vblex><prs><p2><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^presunto/presunto<adj><m><sg>$[
+]^presunto/presunto<adj><m><sg>/presumere<vblex><pp><m><sg>$[
 ]^responsabile/responsabile<n><mf><sg>/responsabile<adj><mf><sg>$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
@@ -9839,7 +9839,7 @@
 ]^immunità/immunità<n><f><sp>$[
 ]^per/per<pr>$[
 ][
-]^i/il<det><def><m><pl>$ ^parlamentari/parlamentare<n><m><pl>/parlamentare<adj><mf><pl>$[
+]^i/il<det><def><m><pl>$ ^parlamentari/parlamentare<n><mf><pl>/parlamentare<adj><mf><pl>$[
 ]^,/,<cm>$[
 ]^spiega/spiegare<vblex><imp><p2><sg>/spiegare<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
@@ -10066,8 +10066,8 @@
 ]^artista/artista<n><m><sg>/artista<n><f><sg>$[
 ]^poliedrico/poliedrico<adj><m><sg>$[
 ]^,/,<cm>$[
-]^in/in<pr>$[
-]^particolare/particolare<n><m><sg>/particolare<adj><mf><sg>$[
+]^in particolare/in particolare<adv>$[
+][
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^paroliere/paroliere<n><m><sg>$[
 ]^e/e<cnjcoo>$[
@@ -10113,7 +10113,7 @@
 ]^tra l'altro/tra l'altro<adv>$[
 ]^,/,<cm>$[
 ]^ai/a<pr>+il<det><def><m><pl>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^Notte/Notte<n><f><sg>$[
 ]^prima/prima<adv>/primo<adj><ord><f><sg>/primare<vblex><imp><p2><sg>/primare<vblex><pri><p3><sg>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -10636,9 +10636,9 @@
 ]^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$[
 ][
 ]^sia/sia<cnjcoo>/essere<vbser><imp><p3><sg>/essere<vbser><prs><p3><sg>/essere<vbser><prs><p1><sg>/essere<vbser><prs><p2><sg>$ ^al/a<pr>+il<det><def><m><sg>$[
-]^piano/piano<adv>/piano<n><m><sg>/piano<adj><m><sg>$[
-]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^sopra/sopra<adv>/sopra<pr>$[
+][
+]^piano/piano<adv>/piano<n><m><sg>/piano<adj><m><sg>$ ^di sopra/di sopra<adv>$[
+][
 ]^./.<sent>$[
 ]^Spero/Sperare<vblex><pri><p1><sg>$[
 ]^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$[
@@ -11025,7 +11025,7 @@
 ]^affetto/affetto<n><m><sg>/affetto<adj><m><sg>$[
 ]^,/,<cm>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
-]^premier/premier<n><f><sp>$[
+]^premier/premier<n><mf><sp>$[
 ]^Renzi/Renzi<np><cog><mf><sp>$[
 ]^alle/a<pr>+il<det><def><f><pl>$[
 ]^tante/tanto<adj><f><pl>$[
@@ -11095,8 +11095,8 @@
 ]^a/a<pr>$[
 ]^Siusi/*Siusi$[
 ]^in/in<pr>$[
-]^Alto/Alto<n><m><sg>/Alto<adj><m><sg>$[
-]^Adige/Adige<np><loc><m><sg>$[
+]^Alto Adige/Alto Adige<np><loc><m><sg>$[
+][
 ]^,/,<cm>$[
 ]^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$[
 ]^stava/stare<vblex><pii><p3><sg>$[
@@ -11107,7 +11107,7 @@
 ]^vacanza/vacanza<n><f><sg>$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
-]^quadro/quadro<n><m><sg>/quadro<adj><m><sg>/quadrare<vblex><pri><p1><sg>$[
+]^quadro/quadro<n><m><sg>/quadrare<vblex><pri><p1><sg>$[
 ]^clinico/clinico<adj><m><sg>$[
 ]^si/si<prn><pro><ref><p3><mf><sp>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -11300,7 +11300,7 @@
 ]^brillanti/brillante<n><m><pl>/brillante<adj><mf><pl>$[
 ]^,/,<cm>$[
 ]^in/in<pr>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^Popeye/*Popeye$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
@@ -11597,7 +11597,7 @@
 ]^colonne/colonna<n><f><pl>$[
 ]^sonore/sonoro<adj><f><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^famosi/famoso<adj><m><pl>$[
 ]^sia/sia<cnjcoo>/essere<vbser><imp><p3><sg>/essere<vbser><prs><p3><sg>/essere<vbser><prs><p1><sg>/essere<vbser><prs><p2><sg>$[
 ]^su/su<adv>/su<pr>$[
@@ -12251,7 +12251,7 @@
 ]^accontentato/accontentare<vblex><pp><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^Tweet/Tweet<n><f><sp>$[
+]^Tweet/Tweet<n><m><sp>$[
 ]^serale/serale<adj><mf><sg>$[
 ]^il/il<det><def><m><sg>$[
 ]^deputato/deputato<n><m><sg>$[
@@ -12282,7 +12282,7 @@
 ]^presentare/presentare<vblex><inf>$[
 ]^un'/un<det><ind><mf><sg>/un<det><ind><f><sg>$ [
 ]^interrogazione/interrogazione<n><f><sg>$[
-]^parlamentare/parlamentare<n><m><sg>/parlamentare<adj><mf><sg>$[
+]^parlamentare/parlamentare<vblex><inf>/parlamentare<n><mf><sg>/parlamentare<adj><mf><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ]^Ministro/Ministro<n><m><sg>$[
 ]^Padoan/*Padoan$[
@@ -12698,7 +12698,7 @@
 ]^inserire/inserire<vblex><inf>$[
 ]^anche/anche<adv>/anche<cnjcoo>/anca<n><f><pl>$[
 ]^nel/in<pr>+il<det><def><m><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^civile/civile<n><m><sg>/civile<adj><mf><sg>$[
 ]^italiano/italiano<n><m><sg>/italiano<adj><m><sg>$[
 ]^il/il<det><def><m><sg>$[
@@ -13950,7 +13950,7 @@
 ]^a/a<pr>$[
 ]^favore/favore<n><m><sg>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
-]^Guinea/Guinea<np><loc><m><sg>/Guinea<np><loc><f><sg>$[
+]^Guinea/Guinea<np><loc><f><sg>$[
 ]^Bissau/*Bissau$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
@@ -14169,7 +14169,7 @@
 ]^./.<sent>$[
 ]^Secondo/Secondo<pr>/Secondo<cnjadv>/Secondo<n><m><sg>/Secondo<np><ant><m><sg>/Secondo<adj><ord><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^report/report<n><f><sp>$[
+]^report/report<n><m><sp>$[
 ]^dell'/di<pr>+il<det><def><mf><sg>$ [
 ]^OCSE/OCSE<n><acr><m><sg>$[
 ]^,/,<cm>$[
@@ -14441,8 +14441,8 @@
 ]^sistemi/sistema<n><m><pl>/sistemare<vblex><imp><p3><sg>/sistemare<vblex><pri><p2><sg>/sistemare<vblex><prs><p3><sg>/sistemare<vblex><prs><p1><sg>/sistemare<vblex><prs><p2><sg>$[
 ]^pensionistici/pensionistico<adj><m><pl>$[
 ]^e/e<cnjcoo>$[
-]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^conseguenza/conseguenza<n><f><sg>$[
+]^di conseguenza/di conseguenza<adv>$[
+][
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
 ]^Stati/Stato<n><m><pl>/Stato<adj><m><pl>/Stare<vblex><pp><m><pl>/Essere<vbser><pp><m><pl>$[
 ]^in/in<pr>$[
@@ -14647,8 +14647,8 @@
 ]^3.600/3.600<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^reddito/reddito<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^reddito/reddito<n><m><sg>$[
 ]^da/da<pr>$[
 ]^zero/zero<num><mf><sp>/zero<n><m><sg>/zero<adj><m><sg>$[
 ]^a/a<pr>$[
@@ -14750,7 +14750,7 @@
 ][
 ]^un/un<det><ind><m><sg>$ ^organismo/organismo<n><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^pubblico/pubblico<n><m><sg>/pubblico<adj><m><sg>/pubblicare<vblex><pri><p1><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -14882,8 +14882,8 @@
 ]^ha/avere<vblex><pri><p3><sg>/avere<vbhaver><pri><p3><sg>$[
 ]^versato/versato<adj><m><sg>/versare<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^175.018/175.018<num>$[
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^175.018/175.018<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^contributi/contributo<n><m><pl>/contributo<adj><m><pl>$[
@@ -14918,8 +14918,8 @@
 ]^963.967/963.967<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^1.303/1.303<num>$[
 ]^./.<sent>$[
@@ -14997,8 +14997,8 @@
 ]^./.<sent>$[
 ]^Ma/Ma<cnjcoo>$[
 ]^con/con<pr>$[
-]^i/il<det><def><m><pl>$[
-]^redditi/reddito<n><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^redditi/reddito<n><m><pl>$[
 ]^in/in<pr>$[
 ]^picchiata/picchiare<vblex><pp><f><sg>$[
 ]^avranno/avere<vblex><fti><p3><pl>/avere<vbhaver><fti><p3><pl>$[
@@ -15736,7 +15736,7 @@
 ]^,/,<cm>$[
 ]^ordinario/ordinario<adj><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^costituzionale/costituzionale<adj><mf><sg>$[
 ]^all'/a<pr>+il<det><def><mf><sg>$ [
 ]^università/università<n><f><sp>$[
@@ -16003,8 +16003,8 @@
 ]^./.<sent>$[
 ]^A/A<pr>$[
 ]^diffondere/diffondere<vblex><inf>$[
-]^per/per<pr>$[
-]^primo/primo<n><m><sg>/primo<adj><ord><m><sg>/primare<vblex><pri><p1><sg>$[
+]^per primo/per primo<adv>$[
+][
 ]^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$[
 ]^notizia/notizia<n><f><sg>$[
 ]^sul/su<pr>+il<det><def><m><sg>$[
@@ -16034,7 +16034,7 @@
 ]^famiglia/famiglia<n><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
-]^manager/manager<n><f><sp>$[
+]^manager/manager<n><mf><sp>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^cantautore/cantautore<n><m><sg>$[
 ]^partenopeo/partenopeo<n><m><sg>/partenopeo<adj><m><sg>$[
@@ -16123,7 +16123,7 @@
 ]^arrivate/arrivato<adj><f><pl>/arrivare<vblex><imp><p2><pl>/arrivare<vblex><pp><f><pl>/arrivare<vblex><pri><p2><pl>$[
 ]^successivamente/successivamente<adv>$[
 ]^dai/dare<vblex><imp><p2><sg>/dare<vblex><pri><p2><sg>/da<pr>+il<det><def><m><pl>$[
-]^tweet/tweet<n><f><sp>$[
+]^tweet/tweet<n><m><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ][
 ]^altri/altro<prn><tn><m><pl>/altro<adj><ind><m><pl>/un altro<det><ind><m><pl>$ ^cantanti/cantante<n><mf><pl>/cantante<adj><mf><pl>$[
@@ -16317,7 +16317,7 @@
 ]^voti/voto<n><m><pl>/votare<vblex><imp><p3><sg>/votare<vblex><pri><p2><sg>/votare<vblex><prs><p3><sg>/votare<vblex><prs><p1><sg>/votare<vblex><prs><p2><sg>$[
 ]^da parte/da parte<adv>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^italiano/italiano<n><m><sg>/italiano<adj><m><sg>$[
 ]^riunito/riunito<adj><m><sg>/riunire<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
@@ -16340,7 +16340,7 @@
 ]^,/,<cm>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
 ]^Nuovo/Nuovo<n><m><sg>/Nuovo<adj><m><sg>$[
-]^Centrodestra/*Centrodestra$[
+]^Centrodestra/Centrodestra<n><f><sg>$[
 ]^,/,<cm>$[
 ]^da/da<pr>$[
 ]^Scelta/Scelta<n><f><sg>/Scelto<adj><f><sg>/Scegliere<vblex><pp><f><sg>$[
@@ -16540,16 +16540,16 @@
 ]^febbraio/febbraio<n><m><sg>$[
 ]^alle/a<pr>+il<det><def><f><pl>$[
 ]^ore/ora<n><f><pl>$[
-]^10:00/10:00<time>$[
+]^10:00/10:00<num>$[
 ]^dinanzi al/dinanzi a<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^riunito/riunito<adj><m><sg>/riunire<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
 ]^seduta/sedere<vblex><pp><f><sg>$[
 ]^comune/comune<n><m><sg>/comune<adj><mf><sg>$[
 ]^e/e<cnjcoo>$[
 ]^dalle/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>/da<pr>+il<det><def><f><pl>/dare<vblex><imp><p2><sg>+gli<prn><enc><p3><f><sg>$[
-]^11:30/11:30<time>$[
+]^11:30/11:30<num>$[
 ]^si/si<prn><pro><ref><p3><mf><sp>$[
 ]^svolgerà/svolgere<vblex><fti><p3><sg>$[
 ]^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$[
@@ -16678,7 +16678,7 @@
 ]^tutti/tutto<adj><m><pl>/tutto<predet><m><pl>/tutto<prn><tn><m><pl>$[
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^esercizi/esercizio<n><m><pl>$[
-]^commerciali/commerciale<adj><mf><pl>$[
+]^commerciali/commerciale<adj><mf><pl>/commerciare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><pl>$[
 ]^iseani/*iseani$[
 ]^a/a<pr>$[
 ]^utilizzare/utilizzare<vblex><inf>$[
@@ -17040,7 +17040,7 @@
 ]^Wikivoyage/*Wikivoyage$[
 ]^nella/in<pr>+il<det><def><f><sg>$[
 ]^fondazione/fondazione<n><f><sg>$[
-]^Wikimedia/Wikimedia<np><al><f><sg>/Wikimedia<np><org><m><sg>$[
+]^Wikimedia/Wikimedia<np><al><f><sg>$[
 ]^,/,<cm>$[
 ]^il/il<det><def><m><sg>$[
 ]^numero/numero<n><m><sg>/numerare<vblex><pri><p1><sg>$[
@@ -17431,8 +17431,8 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^sorge/sorgere<vblex><pri><p3><sg>$[
 ]^nei/neo<n><m><pl>/in<pr>+il<det><def><m><pl>$[
-]^pressi/pressi<n><m><sp>/pressare<vblex><imp><p3><sg>/pressare<vblex><pri><p2><sg>/pressare<vblex><prs><p3><sg>/pressare<vblex><prs><p1><sg>/pressare<vblex><prs><p2><sg>$[
-]^della/di<pr>+il<det><def><f><sg>$[
+][
+]^pressi/pressi<n><m><sp>/pressare<vblex><imp><p3><sg>/pressare<vblex><pri><p2><sg>/pressare<vblex><prs><p3><sg>/pressare<vblex><prs><p1><sg>/pressare<vblex><prs><p2><sg>$ ^della/di<pr>+il<det><def><f><sg>$[
 ]^città/città<n><f><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^Alcamo/Alcamo<np><loc><m><sg>$[
@@ -17811,7 +17811,7 @@
 ]^essere/essere<vbser><inf>/essere<n><m><sg>$[
 ]^appannaggio/*appannaggio$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^./.<sent>$[
 ]^Un'/Un<det><ind><mf><sg>/Un<det><ind><f><sg>$ [
 ]^anteprima/anteprima<n><f><sg>$[
@@ -17821,7 +17821,7 @@
 ]^in/in<pr>$[
 ]^campo/campo<n><m><sg>/campare<vblex><pri><p1><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^c'/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ [
 ]^era/era<n><f><sg>/essere<vbser><pii><p3><sg>$[
 ]^già/già<adv>$[
@@ -17837,7 +17837,7 @@
 ]^polemica/polemica<n><f><sg>/polemico<adj><f><sg>$[
 ]^tra/tra<pr>$[
 ]^il/il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^Fedez/*Fedez$[
 ]^e/e<cnjcoo>$[
 ]^Maurizio/Maurizio<np><ant><m><sg>$[
@@ -17860,7 +17860,7 @@
 ]^le/il<det><def><f><pl>/le<prn><pro><p3><f><sg>/lo<prn><pro><p3><f><pl>/gli<prn><pro><p3><f><sg>/gli<prn><pro><p3><f><pl>$[
 ]^difese/difeso<adj><f><pl>/difesa<n><f><pl>/difendere<vblex><ifi><p3><sg>/difendere<vblex><pp><f><pl>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^,/,<cm>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^cui/cui<rel><an><mf><sp>$[
@@ -17906,7 +17906,7 @@
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^Frankie/*Frankie$[
 ]^hi/*hi$[
 ]^nrg/*nrg$[
@@ -17979,7 +17979,7 @@
 ]^sto/stare<vblex><pri><p1><sg>$[
 ]^parlando/parlare<vblex><ger>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
-]^smartphone/smartphone<n><f><sp>$[
+]^smartphone/smartphone<n><m><sp>$[
 ]^./.<sent>$[
 ]^./.<sent>$[
 ]^./.<sent>$[
@@ -18107,8 +18107,8 @@
 ]^ovunque/ovunque<adv>$[
 ]^vogliano/volere<vbmod><imp><p3><pl>/volere<vbmod><prs><p3><pl>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^jitney/*jitney$[
+][
+]^un/un<det><ind><m><sg>$ ^jitney/*jitney$[
 ]^?/?<sent>$[
 ]^Un/Un<det><ind><m><sg>$[
 ]^Jitney/*Jitney$[
@@ -18133,9 +18133,9 @@
 ]^,/,<cm>$[
 ]^ma/ma<cnjcoo>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^il/il<det><def><m><sg>$[
-]^paese/paese<n><m><sg>$[
+][
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^il/il<det><def><m><sg>$ ^paese/paese<n><m><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^nel/in<pr>+il<det><def><m><sg>$[
@@ -18864,7 +18864,7 @@
 ]^7.9/7.9<num>$[
 ]^milioni/milione<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^miglia/miglia<n><f><sg>$[
+]^miglia/miglio<n><f><pl>$[
 ]^dalla/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><sg>/da<pr>+il<det><def><f><sg>$[
 ]^strada/strada<n><f><sg>$[
 ]^e/e<cnjcoo>$[
@@ -18984,8 +18984,8 @@
 ]^ogni/ogni<det><ind><mf><sg>$[
 ]^settimana/settimana<n><f><sg>$[
 ]^siamo/essere<vbser><imp><p1><pl>/essere<vbser><pri><p1><pl>/essere<vbser><prs><p1><pl>$[
-]^a/a<pr>$[
-]^posto/posto<n><m><sg>/porre<vblex><pp><m><sg>$[
+]^a posto/a posto<adv>$[
+][
 ]^./.<sent>$[
 ]^Come/Come<pr>/Come<cnjadv>/Come<adv><itg>/Come<rel><adv>$[
 ]^arriviamo/arrivare<vblex><imp><p1><pl>/arrivare<vblex><pri><p1><pl>/arrivare<vblex><prs><p1><pl>$[
@@ -19229,7 +19229,7 @@
 ]^,/,<cm>$[
 ]^sei/sei<num><mf><sp>/essere<vbser><imp><p2><sg>/essere<vbser><pri><p2><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^criminale/criminale<adj><mf><sg>$[
+]^criminale/criminale<n><mf><sg>/criminale<adj><mf><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^se/se<cnjadv>$[
@@ -19482,7 +19482,7 @@
 ]^coraggiosa/coraggioso<adj><f><sg>$[
 ]^decisione/decisione<n><f><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^ridisegnarla/*ridisegnarla$[
+]^ridisegnarla/ridisegnare<vblex><inf>+lo<prn><enc><p3><f><sg>$[
 ]^completamente/completamente<adv>$[
 ]^./.<sent>$[
 ]^TK/*TK$[
@@ -19760,7 +19760,7 @@
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^avere/avere<vblex><inf>/avere<vbhaver><inf>/avere<n><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^rivale/rivale<n><m><sg>/rivale<adj><mf><sg>$[
+]^rivale/rivale<n><mf><sg>/rivale<adj><mf><sg>$[
 ]^impetuoso/impetuoso<adj><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^inarrestabile/inarrestabile<adj><mf><sg>$[
@@ -19827,7 +19827,7 @@
 ]^faccio/fare<vblex><pri><p1><sg>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^imprenditore/imprenditore<n><m><sg>/imprenditore<adj><m><sg>$[
-]^da quando/da quando<adv>$[
+]^da quando/da quando<adv>/da quando<cnjadv>/da quando<adv><itg>$[
 ]^andavo/andare<vblex><pii><p1><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ]^liceo/liceo<n><m><sg>$[
@@ -20140,8 +20140,8 @@
 ]^in/in<pr>$[
 ][
 ]^molte/molto<prn><tn><f><pl>/molto<adj><ind><f><pl>/molto<det><ind><f><pl>$ ^città/città<n><f><sp>$[
-]^a/a<pr>$[
-]^metà/metà<n><f><sp>$[
+]^a metà/a metà<adv>$[
+][
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^costo/costo<n><m><sg>/costare<vblex><pri><p1><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
@@ -20466,8 +20466,8 @@
 ]^quello/quello<prn><tn><m><sg>/quello<prn><tn><nt><sg>/quello<det><dem><m><sg>$[
 ]^attuale/attuale<adj><mf><sg>/attuare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>/attuare<vblex><imp><p2><sg>+gli<prn><enc><p3><f><sg>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^passaggio/passaggio<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^passaggio/passaggio<n><m><sg>$[
 ]^Uber/*Uber$[
 ]^./.<sent>$[
 ]^Cosa/Cosa<n><f><sg>/Cosa<prn><itg><mf><sg>$[
@@ -20639,10 +20639,10 @@
 ]^trilioni/trilione<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^ore/ora<n><f><pl>$[
-]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^il/il<det><def><m><sg>$[
-]^mondo/mondo<n><m><sg>/mondo<adj><m><sg>/mondare<vblex><pri><p1><sg>$[
+]^in tutto il mondo/in tutto il mondo<adv>$[
+][
+][
+][
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^le/il<det><def><f><pl>/le<prn><pro><p3><f><sg>/lo<prn><pro><p3><f><pl>/gli<prn><pro><p3><f><sg>/gli<prn><pro><p3><f><pl>$[
 ]^persone/persona<n><f><pl>$[
@@ -21895,7 +21895,7 @@
 ]^stessi/stesso<n><m><pl>/stesso<adj><m><pl>/stare<vblex><pis><p1><sg>/stare<vblex><pis><p2><sg>/stesso<prn><tn><m><pl>$[
 ]^guardando/guardare<vblex><ger>$[
 ]^il nostro/il nostro<det><pos><m><sg>/il nostro<prn><tn><pos><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^dallo/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><nt>/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><sg>/da<pr>+il<det><def><m><sg>$[
 ]^spazio/spazio<n><m><sg>$[
 ]^./.<sent>$[
@@ -21963,7 +21963,7 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^avvolge/avvolgere<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^./.<sent>$[
 ]^E/E<cnjcoo>$[
 ]^anche/anche<adv>/anche<cnjcoo>/anca<n><f><pl>$[
@@ -22094,7 +22094,7 @@
 ]^energia/energia<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^il nostro/il nostro<det><pos><m><sg>/il nostro<prn><tn><pos><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^brucia/bruciare<vblex><imp><p2><sg>/bruciare<vblex><pri><p3><sg>$[
 ]^ogni anno/ogni anno<adv>$[
 ]^./.<sent>$[
@@ -22129,7 +22129,7 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^surriscalda/surriscaldare<vblex><imp><p2><sg>/surriscaldare<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -22183,7 +22183,7 @@
 ]^è/essere<vbser><pri><p3><sg>$[
 ]^un/un<det><ind><m><sg>$[
 ]^grande/grande<adj><mf><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^,/,<cm>$[
 ]^ma/ma<cnjcoo>$[
 ]^(/(<lpar>$[
@@ -23106,9 +23106,9 @@
 ]^messo/messo<adj><m><sg>/mettere<vblex><pp><m><sg>$[
 ][
 ]^in/in<pr>$ ^guardia/guardia<n><m><sp>/guardia<n><f><sg>$[
-]^a/a<pr>$[
+]^a lungo/a lungo<adv>$[
 ][
-]^lungo/lungo<pr>/lungo<adj><m><sg>$ ^sulle/su<pr>+il<det><def><f><pl>$[
+]^sulle/su<pr>+il<det><def><f><pl>$[
 ]^conseguenze/conseguenza<n><f><pl>$[
 ]^delle/un<det><ind><f><pl>/di<pr>+il<det><def><f><pl>$[
 ]^crisi/crisi<n><f><sp>$[
@@ -23171,8 +23171,8 @@
 ]^e/e<cnjcoo>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^area/area<n><f><sg>$[
-]^nelle/in<pr>+il<det><def><f><pl>$[
-]^quali/quale<prn><itg><mf><pl>/quale<adj><itg><mf><pl>/quale<rel><an><mf><pl>$[
+]^nelle quali/nel quale<rel><an><f><pl>$[
+][
 ]^queste/questo<prn><tn><f><pl>/questo<det><dem><f><pl>$[
 ]^malattie/malattia<n><f><pl>$[
 ]^microbiche/microbico<adj><f><pl>$[
@@ -23323,8 +23323,8 @@
 ]^già/già<adv>$[
 ]^spostando/spostare<vblex><ger>$[
 ]^verso/verso<adv>/verso<pr>/verso<n><m><sg>/verso<adj><m><sg>/versare<vblex><pri><p1><sg>$[
-]^i/il<det><def><m><pl>$[
-]^poli/polo<n><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^poli/polo<n><m><pl>$[
 ]^con/con<pr>$[
 ]^una/uno<num><f><sp>/un<det><ind><f><sg>/uno<prn><tn><f><sg>$[
 ]^media/media<n><f><sg>/media<n><f><sp>/medio<adj><f><sg>/mediare<vblex><imp><p2><sg>/mediare<vblex><pri><p3><sg>$[
@@ -23734,8 +23734,8 @@
 ]^cosa/cosa<n><f><sg>/cosa<prn><itg><mf><sg>$[
 ]^succede/succedere<vblex><pri><p3><sg>$[
 ]^con/con<pr>$[
-]^i/il<det><def><m><pl>$[
-]^mutui/mutuo<n><m><pl>/mutuo<adj><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^mutui/mutuo<n><m><pl>/mutuo<adj><m><pl>$[
 ]^senza/senza<pr>$[
 ]^garanzia/garanzia<n><f><sg>$[
 ]^,/,<cm>$[
@@ -23797,7 +23797,7 @@
 ]^solo/solo<adv>/solo<adj><m><sg>$[
 ]^questa/questo<prn><tn><f><sg>/questo<det><dem><f><sg>$[
 ]^quantità/quantità<n><f><sp>$[
-]^può essere/può essere<adv>$[
+]^può essere/può essere<adv>/può essere<vbser><pri><p3><sg>$[
 ]^bruciata/bruciato<n><f><sg>/bruciato<adj><f><sg>/bruciare<vblex><pp><f><sg>$[
 ]^./.<sent>$[
 ]^Il resto/Il resto<prn><tn><nt><sg>$[
@@ -24168,7 +24168,7 @@
 ]^,/,<cm>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ][
-]^di/di<pr>/dire<vblex><imp><p2><sg>$ ^sotto/sotto<adv>/sotto<pr>$[
+]^di sotto/di sotto<adv>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
@@ -24469,8 +24469,8 @@
 ]^volte/volto<adj><f><pl>/volta<n><f><pl>$[
 ]^tanto/tanto<adv>/tanto<preadv>/tanto<n><m><sg>/tanto<adj><m><sg>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^anno/anno<n><m><sg>$[
 ]^./.<sent>$[
 ]^Ora/Ora<adv>/Ora<n><f><sg>$[
@@ -24644,7 +24644,7 @@
 ]^Bangladesh/Bangladesh<np><loc><m><sg>$[
 ]^con/con<pr>$[
 ]^il/il<det><def><m><sg>$[
-]^microcredito/*microcredito$[
+]^microcredito/microcredito<n><m><sg>$[
 ]^./.<sent>$[
 ]^Questo/Questo<prn><tn><m><sg>/Questo<prn><tn><nt><sg>/Questo<det><dem><m><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -24705,8 +24705,8 @@
 ]^mondo/mondo<n><m><sg>/mondo<adj><m><sg>/mondare<vblex><pri><p1><sg>$[
 ]^ha bisogno/avere<vblex><pri><p3><sg># bisogno$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^anno/anno<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^anno/anno<n><m><sg>$[
 ]^./.<sent>$[
 ]^In/In<pr>$[
 ]^realtà/realtà<n><f><sp>$[
@@ -24933,11 +24933,11 @@
 ]^tema/tema<n><m><sg>/temere<vblex><imp><p3><sg>/temere<vblex><prs><p3><sg>/temere<vblex><prs><p1><sg>/temere<vblex><prs><p2><sg>$[
 ]^./.<sent>$[
 ]^Molte/Molto<prn><tn><f><pl>/Molto<adj><ind><f><pl>/Molto<det><ind><f><pl>$[
-]^migliaia/migliaio<n><f><pl>$[
+]^migliaia/*migliaia$[
 ]^,/,<cm>$[
 ]^decine/decine<num><mf><sp>/decina<n><f><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^migliaia/migliaio<n><f><pl>$[
+]^migliaia/*migliaia$[
 ]^hanno/avere<vblex><pri><p3><pl>/avere<vbhaver><pri><p3><pl>$[
 ]^marciato/marciare<vblex><pp><m><sg>$[
 ]^per/per<pr>$[
@@ -25224,7 +25224,7 @@
 ][
 ]^i/il<det><def><m><pl>$ ^diritti/diritto<n><m><pl>/diritto<adj><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^gay/gay<n><m><sp>$[
+]^gay/gay<n><mf><sp>/gay<adj><mf><sp>$[
 ]^e/e<cnjcoo>$[
 ]^lesbiche/lesbica<n><f><pl>/lesbica<adj><f><pl>$[
 ]^qui/qui<adv>$[
@@ -25641,7 +25641,7 @@
 ]^arriva/arrivare<vblex><imp><p2><sg>/arrivare<vblex><pri><p3><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ][
-]^di/di<pr>/dire<vblex><imp><p2><sg>$ ^sotto/sotto<adv>/sotto<pr>$[
+]^di sotto/di sotto<adv>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^grid/*grid$[
 ]^parity/*parity$[
@@ -25879,7 +25879,7 @@
 ][
 ]^il/il<det><def><m><sg>$ ^rinnovo/rinnovo<n><m><sg>/rinnovare<vblex><pri><p1><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^,/,<cm>$[
 ]^indicando/indicare<vblex><ger>$[
@@ -25892,7 +25892,7 @@
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^Trattato/Trattato<n><m><sg>/Trattare<vblex><pp><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^Lisbona/Lisbona<np><loc><m><sg>/Lisbona<np><loc><f><sg>$[
+]^Lisbona/Lisbona<np><loc><f><sg>$[
 ]^il/il<det><def><m><sg>$[
 ]^nome/nome<n><m><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
@@ -26080,7 +26080,7 @@
 ]^i/il<det><def><m><pl>$[
 ]^membri/membro<n><mf><pl>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^e/e<cnjcoo>$[
 ]^per/per<pr>$[
@@ -26215,7 +26215,7 @@
 ]^,/,<cm>$[
 ]^passaporto/passaporto<n><m><sg>$[
 ]^,/,<cm>$[
-]^patente/patente<n><m><sg>$[
+]^patente/patente<n><f><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^guida/guida<n><f><sg>/guidare<vblex><imp><p2><sg>/guidare<vblex><pri><p3><sg>$[
 ]^)/)<rpar>$[
@@ -26381,7 +26381,7 @@
 ]^Italia/Italia<np><loc><f><sg>$[
 ]^elegge/eleggere<vblex><pri><p3><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^73/73<num>$[
 ]^deputati/deputato<n><m><pl>$[
@@ -26393,7 +26393,7 @@
 ]^composizione/composizione<n><f><sg>$[
 ]^definitiva/definitivo<adj><f><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^Europeo/Europeo<n><m><sg>/Europeo<adj><m><sg>$[
 ]^nella/in<pr>+il<det><def><f><sg>$[
 ]^VIII/VIII<num><mf><sp>$[
@@ -26594,7 +26594,7 @@
 ]^ha/avere<vblex><pri><p3><sg>/avere<vbhaver><pri><p3><sg>$[
 ]^pubblicato/pubblicare<vblex><pp><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^tweet/tweet<n><f><sp>$[
+]^tweet/tweet<n><m><sp>$[
 ]^dicendo/dire<vblex><ger>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^essere/essere<vbser><inf>/essere<n><m><sg>$[
@@ -26693,7 +26693,7 @@
 ]^mentre/mentre<adv>/mentre<cnjadv>$[
 ]^il/il<det><def><m><sg>$[
 ]^Nuovo/Nuovo<n><m><sg>/Nuovo<adj><m><sg>$[
-]^Centrodestra/*Centrodestra$[
+]^Centrodestra/Centrodestra<n><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^l'/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$ [
 ]^Unione/Unione<n><f><sg>$[
@@ -26745,7 +26745,7 @@
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^Prato/Prato<n><m><sg>/Prato<np><loc><m><sg>$[
 ]^,/,<cm>$[
-]^Padova/Padova<np><loc><m><sg>/Padova<np><loc><f><sg>$[
+]^Padova/Padova<np><loc><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^Bergamo/Bergamo<np><loc><m><sg>$[
 ]^e/e<cnjcoo>$[
@@ -26808,7 +26808,7 @@
 ]^più/più<adv>$[
 ]^industrializzati/industrializzare<vblex><pp><m><pl>/industrializzare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^pianeta/pianeta<n><m><sg>/pianeta<n><f><sg>$[
+]^pianeta/pianeta<n><m><sg>$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
 ]^tema/tema<n><m><sg>/temere<vblex><imp><p3><sg>/temere<vblex><prs><p3><sg>/temere<vblex><prs><p1><sg>/temere<vblex><prs><p2><sg>$[
@@ -27106,7 +27106,7 @@
 ]^sindaco/sindaco<n><m><sg>/sindacare<vblex><pri><p1><sg>$[
 ]^,/,<cm>$[
 ]^il/il<det><def><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^vince/vincere<vblex><pri><p3><sg>$[
 ]^guidato da/guidato<adj><m><sg># da$[
 ]^Forza/Forza<n><f><sg>/Forzare<vblex><imp><p2><sg>/Forzare<vblex><pri><p3><sg>$[
@@ -27196,8 +27196,8 @@
 ]^dal/da<pr>+il<det><def><m><sg>$[
 ]^1861/1861<num>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^133/133<num>$[
 ]^anni/anno<n><m><pl>$[
@@ -27297,7 +27297,7 @@
 ]^recente/recente<adj><mf><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^più/più<adv>$[
 ]^malandato/malandato<n><m><sg>/malandato<adj><m><sg>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -27306,7 +27306,7 @@
 ]^,/,<cm>$[
 ]^ossia/ossia<cnjcoo>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^in/in<pr>$[
 ]^stallo/stallo<n><m><sg>$[
 ]^per/per<pr>$[
@@ -27327,7 +27327,7 @@
 ]^)/)<rpar>$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^dopo/dopo<adv>/dopo<pr>/dopo<adj><m><sg>$[
 ]^lo/lo<detnt>/lo<prn><pro><p3><nt>/il<det><def><m><sg>/lo<prn><pro><p3><m><sg>$[
@@ -27339,7 +27339,7 @@
 ]^frammentato/*frammentato$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^credeva/credere<vblex><pii><p3><sg>$[
 ]^solo/solo<adv>/solo<adj><m><sg>$[
@@ -27378,7 +27378,7 @@
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^elettori/elettore<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^centrodestra/*centrodestra$[
+]^centrodestra/centrodestra<n><f><sg>$[
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^con/con<pr>$[
 ]^la loro/il loro<det><pos><f><sg>/il loro<prn><tn><pos><f><sg>$[
@@ -27411,7 +27411,7 @@
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^elettori/elettore<n><m><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^centrosinistra/*centrosinistra$[
+]^centrosinistra/centrosinistra<n><f><sg>$[
 ]^non/non<adv>$[
 ]^abbiano/avere<vblex><imp><p3><pl>/avere<vblex><prs><p3><pl>/avere<vbhaver><prs><p3><pl>$[
 ]^fatto/fatto<n><m><sg>/fare<vblex><pp><m><sg>$[
@@ -27423,7 +27423,7 @@
 ]^,/,<cm>$[
 ]^forse/forse<adv>$[
 ]^il/il<det><def><m><sg>$[
-]^centrosinistra/*centrosinistra$[
+]^centrosinistra/centrosinistra<n><f><sg>$[
 ]^potrà/potere<vblex><fti><p3><sg>/potere<vbmod><fti><p3><sg>$[
 ]^ripartire/ripartire<vblex><inf>$[
 ]^./.<sent>$[
@@ -27633,7 +27633,7 @@
 ]^mezzo/mezzo<n><m><sg>/mezzo<adj><m><sg>$ ^agli/aglio<n><m><pl>/a<pr>+il<det><def><m><pl>$[
 ]^arresti/arresto<n><m><pl>/arrestare<vblex><imp><p3><sg>/arrestare<vblex><pri><p2><sg>/arrestare<vblex><prs><p3><sg>/arrestare<vblex><prs><p1><sg>/arrestare<vblex><prs><p2><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^presunto/presunto<adj><m><sg>$[
+]^presunto/presunto<adj><m><sg>/presumere<vblex><pp><m><sg>$[
 ]^responsabile/responsabile<n><mf><sg>/responsabile<adj><mf><sg>$[
 ]^,/,<cm>$[
 ]^un/un<det><ind><m><sg>$[
@@ -27772,7 +27772,7 @@
 ]^immunità/immunità<n><f><sp>$[
 ]^per/per<pr>$[
 ][
-]^i/il<det><def><m><pl>$ ^parlamentari/parlamentare<n><m><pl>/parlamentare<adj><mf><pl>$[
+]^i/il<det><def><m><pl>$ ^parlamentari/parlamentare<n><mf><pl>/parlamentare<adj><mf><pl>$[
 ]^,/,<cm>$[
 ]^spiega/spiegare<vblex><imp><p2><sg>/spiegare<vblex><pri><p3><sg>$[
 ]^il/il<det><def><m><sg>$[
@@ -27999,8 +27999,8 @@
 ]^artista/artista<n><m><sg>/artista<n><f><sg>$[
 ]^poliedrico/poliedrico<adj><m><sg>$[
 ]^,/,<cm>$[
-]^in/in<pr>$[
-]^particolare/particolare<n><m><sg>/particolare<adj><mf><sg>$[
+]^in particolare/in particolare<adv>$[
+][
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^paroliere/paroliere<n><m><sg>$[
 ]^e/e<cnjcoo>$[
@@ -28046,7 +28046,7 @@
 ]^tra l'altro/tra l'altro<adv>$[
 ]^,/,<cm>$[
 ]^ai/a<pr>+il<det><def><m><pl>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^Notte/Notte<n><f><sg>$[
 ]^prima/prima<adv>/primo<adj><ord><f><sg>/primare<vblex><imp><p2><sg>/primare<vblex><pri><p3><sg>$[
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
@@ -28569,9 +28569,9 @@
 ]^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$[
 ][
 ]^sia/sia<cnjcoo>/essere<vbser><imp><p3><sg>/essere<vbser><prs><p3><sg>/essere<vbser><prs><p1><sg>/essere<vbser><prs><p2><sg>$ ^al/a<pr>+il<det><def><m><sg>$[
-]^piano/piano<adv>/piano<n><m><sg>/piano<adj><m><sg>$[
-]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^sopra/sopra<adv>/sopra<pr>$[
+][
+]^piano/piano<adv>/piano<n><m><sg>/piano<adj><m><sg>$ ^di sopra/di sopra<adv>$[
+][
 ]^./.<sent>$[
 ]^Spero/Sperare<vblex><pri><p1><sg>$[
 ]^ci/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$[
@@ -28958,7 +28958,7 @@
 ]^affetto/affetto<n><m><sg>/affetto<adj><m><sg>$[
 ]^,/,<cm>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
-]^premier/premier<n><f><sp>$[
+]^premier/premier<n><mf><sp>$[
 ]^Renzi/Renzi<np><cog><mf><sp>$[
 ]^alle/a<pr>+il<det><def><f><pl>$[
 ]^tante/tanto<adj><f><pl>$[
@@ -29028,8 +29028,8 @@
 ]^a/a<pr>$[
 ]^Siusi/*Siusi$[
 ]^in/in<pr>$[
-]^Alto/Alto<n><m><sg>/Alto<adj><m><sg>$[
-]^Adige/Adige<np><loc><m><sg>$[
+]^Alto Adige/Alto Adige<np><loc><m><sg>$[
+][
 ]^,/,<cm>$[
 ]^dove/dove<adv>/dove<cnjadv>/dove<adv><itg>/dove<rel><adv>$[
 ]^stava/stare<vblex><pii><p3><sg>$[
@@ -29040,7 +29040,7 @@
 ]^vacanza/vacanza<n><f><sg>$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
-]^quadro/quadro<n><m><sg>/quadro<adj><m><sg>/quadrare<vblex><pri><p1><sg>$[
+]^quadro/quadro<n><m><sg>/quadrare<vblex><pri><p1><sg>$[
 ]^clinico/clinico<adj><m><sg>$[
 ]^si/si<prn><pro><ref><p3><mf><sp>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -29233,7 +29233,7 @@
 ]^brillanti/brillante<n><m><pl>/brillante<adj><mf><pl>$[
 ]^,/,<cm>$[
 ]^in/in<pr>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^come/come<pr>/come<cnjadv>/come<adv><itg>/come<rel><adv>$[
 ]^Popeye/*Popeye$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
@@ -29530,7 +29530,7 @@
 ]^colonne/colonna<n><f><pl>$[
 ]^sonore/sonoro<adj><f><pl>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^film/film<n><m><sg>$[
+]^film/film<n><m><sp>$[
 ]^famosi/famoso<adj><m><pl>$[
 ]^sia/sia<cnjcoo>/essere<vbser><imp><p3><sg>/essere<vbser><prs><p3><sg>/essere<vbser><prs><p1><sg>/essere<vbser><prs><p2><sg>$[
 ]^su/su<adv>/su<pr>$[
@@ -30184,7 +30184,7 @@
 ]^accontentato/accontentare<vblex><pp><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^Tweet/Tweet<n><f><sp>$[
+]^Tweet/Tweet<n><m><sp>$[
 ]^serale/serale<adj><mf><sg>$[
 ]^il/il<det><def><m><sg>$[
 ]^deputato/deputato<n><m><sg>$[
@@ -30215,7 +30215,7 @@
 ]^presentare/presentare<vblex><inf>$[
 ]^un'/un<det><ind><mf><sg>/un<det><ind><f><sg>$ [
 ]^interrogazione/interrogazione<n><f><sg>$[
-]^parlamentare/parlamentare<n><m><sg>/parlamentare<adj><mf><sg>$[
+]^parlamentare/parlamentare<vblex><inf>/parlamentare<n><mf><sg>/parlamentare<adj><mf><sg>$[
 ]^al/a<pr>+il<det><def><m><sg>$[
 ]^Ministro/Ministro<n><m><sg>$[
 ]^Padoan/*Padoan$[
@@ -30631,7 +30631,7 @@
 ]^inserire/inserire<vblex><inf>$[
 ]^anche/anche<adv>/anche<cnjcoo>/anca<n><f><pl>$[
 ]^nel/in<pr>+il<det><def><m><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^civile/civile<n><m><sg>/civile<adj><mf><sg>$[
 ]^italiano/italiano<n><m><sg>/italiano<adj><m><sg>$[
 ]^il/il<det><def><m><sg>$[
@@ -31883,7 +31883,7 @@
 ]^a/a<pr>$[
 ]^favore/favore<n><m><sg>$[
 ]^della/di<pr>+il<det><def><f><sg>$[
-]^Guinea/Guinea<np><loc><m><sg>/Guinea<np><loc><f><sg>$[
+]^Guinea/Guinea<np><loc><f><sg>$[
 ]^Bissau/*Bissau$[
 ]^./.<sent>$[
 ]^Il/Il<det><def><m><sg>$[
@@ -32102,7 +32102,7 @@
 ]^./.<sent>$[
 ]^Secondo/Secondo<pr>/Secondo<cnjadv>/Secondo<n><m><sg>/Secondo<np><ant><m><sg>/Secondo<adj><ord><m><sg>$[
 ]^un/un<det><ind><m><sg>$[
-]^report/report<n><f><sp>$[
+]^report/report<n><m><sp>$[
 ]^dell'/di<pr>+il<det><def><mf><sg>$ [
 ]^OCSE/OCSE<n><acr><m><sg>$[
 ]^,/,<cm>$[
@@ -32374,8 +32374,8 @@
 ]^sistemi/sistema<n><m><pl>/sistemare<vblex><imp><p3><sg>/sistemare<vblex><pri><p2><sg>/sistemare<vblex><prs><p3><sg>/sistemare<vblex><prs><p1><sg>/sistemare<vblex><prs><p2><sg>$[
 ]^pensionistici/pensionistico<adj><m><pl>$[
 ]^e/e<cnjcoo>$[
-]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^conseguenza/conseguenza<n><f><sg>$[
+]^di conseguenza/di conseguenza<adv>$[
+][
 ]^degli/un<det><ind><m><pl>/di<pr>+il<det><def><m><pl>$[
 ]^Stati/Stato<n><m><pl>/Stato<adj><m><pl>/Stare<vblex><pp><m><pl>/Essere<vbser><pp><m><pl>$[
 ]^in/in<pr>$[
@@ -32580,8 +32580,8 @@
 ]^3.600/3.600<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^reddito/reddito<n><m><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^reddito/reddito<n><m><sg>$[
 ]^da/da<pr>$[
 ]^zero/zero<num><mf><sp>/zero<n><m><sg>/zero<adj><m><sg>$[
 ]^a/a<pr>$[
@@ -32683,7 +32683,7 @@
 ][
 ]^un/un<det><ind><m><sg>$ ^organismo/organismo<n><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^pubblico/pubblico<n><m><sg>/pubblico<adj><m><sg>/pubblicare<vblex><pri><p1><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^è/essere<vbser><pri><p3><sg>$[
@@ -32815,8 +32815,8 @@
 ]^ha/avere<vblex><pri><p3><sg>/avere<vbhaver><pri><p3><sg>$[
 ]^versato/versato<adj><m><sg>/versare<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
-]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$[
-]^175.018/175.018<num>$[
+][
+]^tutto/tutto<adj><m><sg>/tutto<predet><m><sg>/tutto<prn><tn><m><sg>$ ^175.018/175.018<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^contributi/contributo<n><m><pl>/contributo<adj><m><pl>$[
@@ -32851,8 +32851,8 @@
 ]^963.967/963.967<num>$[
 ]^euro/euro<n><m><sp>$[
 ]^per/per<pr>$[
-]^un/un<det><ind><m><sg>$[
-]^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
+][
+]^un/un<det><ind><m><sg>$ ^totale/totale<n><m><sg>/totale<adj><mf><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^1.303/1.303<num>$[
 ]^./.<sent>$[
@@ -32930,8 +32930,8 @@
 ]^./.<sent>$[
 ]^Ma/Ma<cnjcoo>$[
 ]^con/con<pr>$[
-]^i/il<det><def><m><pl>$[
-]^redditi/reddito<n><m><pl>$[
+][
+]^i/il<det><def><m><pl>$ ^redditi/reddito<n><m><pl>$[
 ]^in/in<pr>$[
 ]^picchiata/picchiare<vblex><pp><f><sg>$[
 ]^avranno/avere<vblex><fti><p3><pl>/avere<vbhaver><fti><p3><pl>$[
@@ -33669,7 +33669,7 @@
 ]^,/,<cm>$[
 ]^ordinario/ordinario<adj><m><sg>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
-]^diritto/diritto<n><m><sg>/diritto<adj><m><sg>$[
+]^diritto/diritto<adv>/diritto<n><m><sg>/diritto<adj><m><sg>$[
 ]^costituzionale/costituzionale<adj><mf><sg>$[
 ]^all'/a<pr>+il<det><def><mf><sg>$ [
 ]^università/università<n><f><sp>$[
@@ -33936,8 +33936,8 @@
 ]^./.<sent>$[
 ]^A/A<pr>$[
 ]^diffondere/diffondere<vblex><inf>$[
-]^per/per<pr>$[
-]^primo/primo<n><m><sg>/primo<adj><ord><m><sg>/primare<vblex><pri><p1><sg>$[
+]^per primo/per primo<adv>$[
+][
 ]^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$[
 ]^notizia/notizia<n><f><sg>$[
 ]^sul/su<pr>+il<det><def><m><sg>$[
@@ -33967,7 +33967,7 @@
 ]^famiglia/famiglia<n><f><sg>$[
 ]^e/e<cnjcoo>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
-]^manager/manager<n><f><sp>$[
+]^manager/manager<n><mf><sp>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
 ]^cantautore/cantautore<n><m><sg>$[
 ]^partenopeo/partenopeo<n><m><sg>/partenopeo<adj><m><sg>$[
@@ -34056,7 +34056,7 @@
 ]^arrivate/arrivato<adj><f><pl>/arrivare<vblex><imp><p2><pl>/arrivare<vblex><pp><f><pl>/arrivare<vblex><pri><p2><pl>$[
 ]^successivamente/successivamente<adv>$[
 ]^dai/dare<vblex><imp><p2><sg>/dare<vblex><pri><p2><sg>/da<pr>+il<det><def><m><pl>$[
-]^tweet/tweet<n><f><sp>$[
+]^tweet/tweet<n><m><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ][
 ]^altri/altro<prn><tn><m><pl>/altro<adj><ind><m><pl>/un altro<det><ind><m><pl>$ ^cantanti/cantante<n><mf><pl>/cantante<adj><mf><pl>$[
@@ -34250,7 +34250,7 @@
 ]^voti/voto<n><m><pl>/votare<vblex><imp><p3><sg>/votare<vblex><pri><p2><sg>/votare<vblex><prs><p3><sg>/votare<vblex><prs><p1><sg>/votare<vblex><prs><p2><sg>$[
 ]^da parte/da parte<adv>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^italiano/italiano<n><m><sg>/italiano<adj><m><sg>$[
 ]^riunito/riunito<adj><m><sg>/riunire<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
@@ -34273,7 +34273,7 @@
 ]^,/,<cm>$[
 ]^dal/da<pr>+il<det><def><m><sg>$[
 ]^Nuovo/Nuovo<n><m><sg>/Nuovo<adj><m><sg>$[
-]^Centrodestra/*Centrodestra$[
+]^Centrodestra/Centrodestra<n><f><sg>$[
 ]^,/,<cm>$[
 ]^da/da<pr>$[
 ]^Scelta/Scelta<n><f><sg>/Scelto<adj><f><sg>/Scegliere<vblex><pp><f><sg>$[
@@ -34473,16 +34473,16 @@
 ]^febbraio/febbraio<n><m><sg>$[
 ]^alle/a<pr>+il<det><def><f><pl>$[
 ]^ore/ora<n><f><pl>$[
-]^10:00/10:00<time>$[
+]^10:00/10:00<num>$[
 ]^dinanzi al/dinanzi a<pr>+il<det><def><m><sg>$[
-]^Parlamento/Parlamento<n><m><sg>$[
+]^Parlamento/Parlamento<n><m><sg>/Parlamentare<vblex><pri><p1><sg>$[
 ]^riunito/riunito<adj><m><sg>/riunire<vblex><pp><m><sg>$[
 ]^in/in<pr>$[
 ]^seduta/sedere<vblex><pp><f><sg>$[
 ]^comune/comune<n><m><sg>/comune<adj><mf><sg>$[
 ]^e/e<cnjcoo>$[
 ]^dalle/dare<vblex><imp><p2><sg>+lo<prn><enc><p3><f><pl>/da<pr>+il<det><def><f><pl>/dare<vblex><imp><p2><sg>+gli<prn><enc><p3><f><sg>$[
-]^11:30/11:30<time>$[
+]^11:30/11:30<num>$[
 ]^si/si<prn><pro><ref><p3><mf><sp>$[
 ]^svolgerà/svolgere<vblex><fti><p3><sg>$[
 ]^la/il<det><def><f><sg>/lo<prn><pro><p3><f><sg>$[
@@ -34611,7 +34611,7 @@
 ]^tutti/tutto<adj><m><pl>/tutto<predet><m><pl>/tutto<prn><tn><m><pl>$[
 ]^gli/il<det><def><m><pl>/gli<prn><pro><p3><m><sg>/gli<prn><pro><p3><m><pl>$[
 ]^esercizi/esercizio<n><m><pl>$[
-]^commerciali/commerciale<adj><mf><pl>$[
+]^commerciali/commerciale<adj><mf><pl>/commerciare<vblex><imp><p2><sg>+lo<prn><enc><p3><m><pl>$[
 ]^iseani/*iseani$[
 ]^a/a<pr>$[
 ]^utilizzare/utilizzare<vblex><inf>$[
@@ -34973,7 +34973,7 @@
 ]^Wikivoyage/*Wikivoyage$[
 ]^nella/in<pr>+il<det><def><f><sg>$[
 ]^fondazione/fondazione<n><f><sg>$[
-]^Wikimedia/Wikimedia<np><al><f><sg>/Wikimedia<np><org><m><sg>$[
+]^Wikimedia/Wikimedia<np><al><f><sg>$[
 ]^,/,<cm>$[
 ]^il/il<det><def><m><sg>$[
 ]^numero/numero<n><m><sg>/numerare<vblex><pri><p1><sg>$[
@@ -35364,8 +35364,8 @@
 ]^che/che<cnjsub>/che<rel><an><mf><sp>$[
 ]^sorge/sorgere<vblex><pri><p3><sg>$[
 ]^nei/neo<n><m><pl>/in<pr>+il<det><def><m><pl>$[
-]^pressi/pressi<n><m><sp>/pressare<vblex><imp><p3><sg>/pressare<vblex><pri><p2><sg>/pressare<vblex><prs><p3><sg>/pressare<vblex><prs><p1><sg>/pressare<vblex><prs><p2><sg>$[
-]^della/di<pr>+il<det><def><f><sg>$[
+][
+]^pressi/pressi<n><m><sp>/pressare<vblex><imp><p3><sg>/pressare<vblex><pri><p2><sg>/pressare<vblex><prs><p3><sg>/pressare<vblex><prs><p1><sg>/pressare<vblex><prs><p2><sg>$ ^della/di<pr>+il<det><def><f><sg>$[
 ]^città/città<n><f><sp>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^Alcamo/Alcamo<np><loc><m><sg>$[
@@ -35744,7 +35744,7 @@
 ]^essere/essere<vbser><inf>/essere<n><m><sg>$[
 ]^appannaggio/*appannaggio$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^./.<sent>$[
 ]^Un'/Un<det><ind><mf><sg>/Un<det><ind><f><sg>$ [
 ]^anteprima/anteprima<n><f><sg>$[
@@ -35754,7 +35754,7 @@
 ]^in/in<pr>$[
 ]^campo/campo<n><m><sg>/campare<vblex><pri><p1><sg>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^c'/ci<prn><pro><adv>/ci<prn><pro><p1><mf><pl>$ [
 ]^era/era<n><f><sg>/essere<vbser><pii><p3><sg>$[
 ]^già/già<adv>$[
@@ -35770,7 +35770,7 @@
 ]^polemica/polemica<n><f><sg>/polemico<adj><f><sg>$[
 ]^tra/tra<pr>$[
 ]^il/il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^Fedez/*Fedez$[
 ]^e/e<cnjcoo>$[
 ]^Maurizio/Maurizio<np><ant><m><sg>$[
@@ -35793,7 +35793,7 @@
 ]^le/il<det><def><f><pl>/le<prn><pro><p3><f><sg>/lo<prn><pro><p3><f><pl>/gli<prn><pro><p3><f><sg>/gli<prn><pro><p3><f><pl>$[
 ]^difese/difeso<adj><f><pl>/difesa<n><f><pl>/difendere<vblex><ifi><p3><sg>/difendere<vblex><pp><f><pl>$[
 ]^del/di<pr>+il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^,/,<cm>$[
 ]^di/di<pr>/dire<vblex><imp><p2><sg>$[
 ]^cui/cui<rel><an><mf><sp>$[
@@ -35839,7 +35839,7 @@
 ]^della/di<pr>+il<det><def><f><sg>$[
 ]^quale/quale<prn><itg><mf><sg>/quale<adj><itg><mf><sg>/quale<rel><an><mf><sg>$[
 ]^il/il<det><def><m><sg>$[
-]^rapper/rapper<n><m><sp>$[
+]^rapper/rapper<n><mf><sp>$[
 ]^Frankie/*Frankie$[
 ]^hi/*hi$[
 ]^nrg/*nrg$[

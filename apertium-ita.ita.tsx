@@ -523,6 +523,12 @@
       <label-item label="PRNENC"/>
     </sequence>
   </def-mult>
+  <def-mult name="PROPRO" closed="true">
+    <sequence>
+      <label-item label="PRNPRO"/>
+      <label-item label="PRNPRO"/>
+    </sequence>
+  </def-mult>
 </tagset>
 
   <forbid>
@@ -2187,6 +2193,20 @@
     </label-sequence>
 
 
+    <label-sequence>
+      <label-item label="PRNTNNT"/>
+      <label-item label="ADJF"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="PRNTNNT"/>
+      <label-item label="ADJM"/>
+    </label-sequence>
+
+    <label-sequence>
+      <label-item label="PRNTNNT"/>
+      <label-item label="ADJMF"/>
+    </label-sequence>
 
   </forbid>
 
@@ -2405,6 +2425,11 @@
    <prefer tags="det.def.f.sg"/>
    <prefer tags="det.def.m.pl"/>
    <prefer tags="det.def.f.pl"/>
+
+   <prefer tags="det.dem.m.sg"/>
+   <prefer tags="det.dem.f.sg"/>
+   <prefer tags="det.dem.m.pl"/>
+   <prefer tags="det.dem.f.pl"/>
 
 
 

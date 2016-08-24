@@ -1109,8 +1109,7 @@
 ^ogni/ogni<det><ind><mf><sg>$ 
 ^settimana/settimana<n><f><sg>$ 
 ^siamo/essere<vbser><pri><p1><pl>$ 
-^a/a<pr>$ 
-^posto/posto<n><m><sg>$ 
+^a posto/a posto<adv>$ 
 ^./.<sent>$
 
 ^Come/Come<adv>$ 
@@ -2337,8 +2336,7 @@
 ^in/in<pr>$ 
 ^molte/molto<adj><f><pl>$ 
 ^città/città<n><f><sp>$ 
-^a/a<pr>$ 
-^metà/metà<n><f><sp>$ 
+^a metà/a metà<adv>$ 
 ^del/di<pr>+il<det><def><m><sg>$ 
 ^costo/costo<n><m><sg>$ 
 ^di/di<pr>$ 
@@ -2864,10 +2862,7 @@
 ^trilioni/trilione<n><m><pl>$ 
 ^di/di<pr>$ 
 ^ore/ora<n><f><pl>$ 
-^in/in<pr>$ 
-^tutto/tutto<predet><m>sg>$ 
-^il/il<det><def><m><sg>$ 
-^mondo/mondo<n><m><sg>$ 
+^in tutto il mondo/in tutto il mondo<adv>$
 ^che/che<rel><an><mf><sp>$ 
 ^le/il<det><def><f><pl>$ 
 ^persone/persona<n><f><pl>$ 
@@ -5480,8 +5475,7 @@
 ^messo/mettere<vblex><pp><m><sg>$ 
 ^in/in<pr>$ 
 ^guardia/guardia<n><f><sg>$ 
-^a/a<pr>$ 
-^lungo/lungo<adj><m><sg>$ 
+^a lungo/a lungo<adv>$ 
 ^sulle/su<pr>+il<det><def><f><pl>$ 
 ^conseguenze/conseguenza<n><f><pl>$ 
 ^delle/di<pr>+il<det><def><f><pl>$ 
@@ -5547,8 +5541,7 @@
 ^e/e<cnjcoo>$ 
 ^l'/il<det><def><mf><sg>$
 ^area/area<n><f><sg>$ 
-^nelle/in<pr>+il<det><def><f><pl>$ 
-^quali/quale<rel><an><mf><pl>$ 
+^nelle quali/nel quale<rel><an><f><pl>$
 ^queste/questo<det><dem><f><pl>$ 
 ^malattie/malattia<n><f><pl>$ 
 ^microbiche/microbico<adj><f><pl>$ 
@@ -6597,8 +6590,7 @@
 ^soglia/soglia<n><f><sg>$ 
 ^,/,<cm>$ 
 ^al/a<pr>+il<det><def><m><sg>$ 
-^di/di<pr>$ 
-^sotto/sotto<adv>$ 
+^di sotto/di sotto<adv>$ 
 ^della/di<pr>+il<det><def><f><sg>$ 
 ^quale/quale<prn><itg><mf><sg>$ 
 ^l'/il<det><def><mf><sg>$
@@ -8147,8 +8139,7 @@
 ^si/si<prn><pro><ref><p3><mf><sp>$ 
 ^arriva/arrivare<vblex><pri><p3><sg>$ 
 ^al/a<pr>+il<det><def><m><sg>$ 
-^di/di<pr>$ 
-^sotto/sotto<adv>$ 
+^di sotto/di sotto<adv>$ 
 ^della/di<pr>+il<det><def><f><sg>$ 
 ^grid/*grid$ 
 ^parity/*parity$ 
@@ -10775,8 +10766,7 @@
 ^artista/artista<n><m><sg>$
 ^poliedrico/poliedrico<adj><m><sg>$
 ^,/,<cm>$
-^in/in<pr>$
-^particolare/particolare<n><m><sg>$
+^in particolare/in particolare<adv>$
 ^come/come<pr>$
 ^paroliere/paroliere<n><m><sg>$
 ^e/e<cnjcoo>$
@@ -11420,8 +11410,7 @@
 ^sia/sia<cnjcoo>$
 ^al/a<pr>+il<det><def><m><sg>$
 ^piano/piano<adv>$
-^di/di<pr>$
-^sopra/sopra<adv>$
+^di sopra/di sopra<adv>$
 ^./.<sent>$ 
 
 
@@ -11955,8 +11944,7 @@
 ^a/a<pr>$
 ^Siusi/*Siusi$
 ^in/in<pr>$
-^Alto/Alto<n><m><sg>$
-^Adige/Adige<np><loc><m><sg>$
+^Alto Adige/Alto Adige<np><loc><m><sg>$
 ^,/,<cm>$
 ^dove/dove<adv>$
 ^stava/stare<vblex><pii><p3><sg>$
@@ -15694,8 +15682,7 @@
 ^sistemi/sistema<n><m><pl>$
 ^pensionistici/pensionistico<adj><m><pl>$
 ^e/e<cnjcoo>$
-^di/di<pr>$
-^conseguenza/conseguenza<n><f><sg>$
+^di conseguenza/di conseguenza<adv>$
 ^degli/di<pr>+il<det><def><m><pl>$
 ^Stati/Stato<n><m><pl>$
 ^in/in<pr>$
@@ -17448,8 +17435,7 @@
 
 ^A/A<pr>$
 ^diffondere/diffondere<vblex><inf>$
-^per/per<pr>$
-^primo/primo<adj><ord><m><sg>$
+^per primo/per primo<adv>$
 ^la/il<det><def><f><sg>$
 ^notizia/notizia<n><f><sg>$
 ^sul/su<pr>+il<det><def><m><sg>$
@@ -20716,8 +20702,7 @@
 ^ogni/ogni<det><ind><mf><sg>$ 
 ^settimana/settimana<n><f><sg>$ 
 ^siamo/essere<vbser><pri><p1><pl>$ 
-^a/a<pr>$ 
-^posto/posto<n><m><sg>$ 
+^a posto/a posto<adv>$ 
 ^./.<sent>$
 
 ^Come/Come<adv>$ 
@@ -21944,8 +21929,7 @@
 ^in/in<pr>$ 
 ^molte/molto<adj><f><pl>$ 
 ^città/città<n><f><sp>$ 
-^a/a<pr>$ 
-^metà/metà<n><f><sp>$ 
+^a metà/a metà<adv>$ 
 ^del/di<pr>+il<det><def><m><sg>$ 
 ^costo/costo<n><m><sg>$ 
 ^di/di<pr>$ 
@@ -22471,10 +22455,7 @@
 ^trilioni/trilione<n><m><pl>$ 
 ^di/di<pr>$ 
 ^ore/ora<n><f><pl>$ 
-^in/in<pr>$ 
-^tutto/tutto<predet><m>sg>$ 
-^il/il<det><def><m><sg>$ 
-^mondo/mondo<n><m><sg>$ 
+^in tutto il mondo/in tutto il mondo<adv>$
 ^che/che<rel><an><mf><sp>$ 
 ^le/il<det><def><f><pl>$ 
 ^persone/persona<n><f><pl>$ 
@@ -25087,8 +25068,7 @@
 ^messo/mettere<vblex><pp><m><sg>$ 
 ^in/in<pr>$ 
 ^guardia/guardia<n><f><sg>$ 
-^a/a<pr>$ 
-^lungo/lungo<adj><m><sg>$ 
+^a lungo/a lungo<adv>$ 
 ^sulle/su<pr>+il<det><def><f><pl>$ 
 ^conseguenze/conseguenza<n><f><pl>$ 
 ^delle/di<pr>+il<det><def><f><pl>$ 
@@ -25154,8 +25134,7 @@
 ^e/e<cnjcoo>$ 
 ^l'/il<det><def><mf><sg>$
 ^area/area<n><f><sg>$ 
-^nelle/in<pr>+il<det><def><f><pl>$ 
-^quali/quale<rel><an><mf><pl>$ 
+^nelle quali/nel quale<rel><an><f><pl>$
 ^queste/questo<det><dem><f><pl>$ 
 ^malattie/malattia<n><f><pl>$ 
 ^microbiche/microbico<adj><f><pl>$ 
@@ -26204,8 +26183,7 @@
 ^soglia/soglia<n><f><sg>$ 
 ^,/,<cm>$ 
 ^al/a<pr>+il<det><def><m><sg>$ 
-^di/di<pr>$ 
-^sotto/sotto<adv>$ 
+^di sotto/di sotto<adv>$ 
 ^della/di<pr>+il<det><def><f><sg>$ 
 ^quale/quale<prn><itg><mf><sg>$ 
 ^l'/il<det><def><mf><sg>$
@@ -27754,8 +27732,7 @@
 ^si/si<prn><pro><ref><p3><mf><sp>$ 
 ^arriva/arrivare<vblex><pri><p3><sg>$ 
 ^al/a<pr>+il<det><def><m><sg>$ 
-^di/di<pr>$ 
-^sotto/sotto<adv>$ 
+^di sotto/di sotto<adv>$ 
 ^della/di<pr>+il<det><def><f><sg>$ 
 ^grid/*grid$ 
 ^parity/*parity$ 
@@ -30382,8 +30359,7 @@
 ^artista/artista<n><m><sg>$
 ^poliedrico/poliedrico<adj><m><sg>$
 ^,/,<cm>$
-^in/in<pr>$
-^particolare/particolare<n><m><sg>$
+^in particolare/in particolare<adv>$
 ^come/come<pr>$
 ^paroliere/paroliere<n><m><sg>$
 ^e/e<cnjcoo>$
@@ -31027,8 +31003,7 @@
 ^sia/sia<cnjcoo>$
 ^al/a<pr>+il<det><def><m><sg>$
 ^piano/piano<adv>$
-^di/di<pr>$
-^sopra/sopra<adv>$
+^di sopra/di sopra<adv>$
 ^./.<sent>$ 
 
 
@@ -31562,8 +31537,7 @@
 ^a/a<pr>$
 ^Siusi/*Siusi$
 ^in/in<pr>$
-^Alto/Alto<n><m><sg>$
-^Adige/Adige<np><loc><m><sg>$
+^Alto Adige/Alto Adige<np><loc><m><sg>$
 ^,/,<cm>$
 ^dove/dove<adv>$
 ^stava/stare<vblex><pii><p3><sg>$
@@ -35301,8 +35275,7 @@
 ^sistemi/sistema<n><m><pl>$
 ^pensionistici/pensionistico<adj><m><pl>$
 ^e/e<cnjcoo>$
-^di/di<pr>$
-^conseguenza/conseguenza<n><f><sg>$
+^di conseguenza/di conseguenza<adv>$
 ^degli/di<pr>+il<det><def><m><pl>$
 ^Stati/Stato<n><m><pl>$
 ^in/in<pr>$
@@ -37055,8 +37028,7 @@
 
 ^A/A<pr>$
 ^diffondere/diffondere<vblex><inf>$
-^per/per<pr>$
-^primo/primo<adj><ord><m><sg>$
+^per primo/per primo<adv>$
 ^la/il<det><def><f><sg>$
 ^notizia/notizia<n><f><sg>$
 ^sul/su<pr>+il<det><def><m><sg>$
