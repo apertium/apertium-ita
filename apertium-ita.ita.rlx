@@ -61,7 +61,7 @@ SET WORD = N | V | A | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") | ("!"
 
 SET PRE-N =  A | Det | Num | CC ;
 
-SET MARK =  Cm | ("\\") | ("\;") ;
+SET MARK = Cm | ("\\") | ("\;") ;
 
 SET WORDMARK = WORD | MARK ;
 
@@ -118,6 +118,8 @@ SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 1 ("un altr
 SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
+SELECT Det (-1 BOS) (O ("I")) (NOT 1 EOS) ;	# .I movimentos
+
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;		# le più grandi collezioni di pesci
 
