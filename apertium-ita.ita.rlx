@@ -20,6 +20,7 @@ LIST CS = cnjsub ;
 LIST Interj = ij ;
 LIST Num = num ;
 LIST Cm = cm ;
+LIST Lpar = lpar ;
 LIST Pr = pr ; 
 
 LIST Pos = pos ; 
@@ -130,14 +131,49 @@ REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ; 	# solució problema "nel" (a més t
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 EOS) ;
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
 
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo.
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 	# dello Stato spagnolo.
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
+REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
+
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Cm) ; 		# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Cm) ; 		# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1C A) ; 			# dello Stato Pontificio
+
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) ; 		# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) ; 		# dello stato messicano di Coahuila
+
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+
+REMOVE A IF (0 A) (0 N) (-1 Det) (1/* Pr) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
+
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 EOS) ;	# loro sorte.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 EOS) ;	# le più grandi collezioni.
+REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 Lpar) ;	# due nuove canzonii (di cui una
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; # il suo futuro attraverso una programmazione
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 Pr) ;
 REMOVE A IF (0 A) (0 N) (-1 Det) (1 Pr) ; # il futuro della Ue.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 Pr) ;
+
+REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1C Pr) ;	# in corso "Pitretu è Bicchisgià"
+REMOVE PrfPrc IF (0 PrfPrc) (0 A) (-1C Pr) ;
 
 SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
