@@ -14012,7 +14012,7 @@
 <e lm="ce">              <i>ce</i><par n="ne__prn"/></e>
 <e lm="che">      <i>che</i><par n="che__prn"/></e>
 <e lm="chi">             <i>chi</i><par n="chi__prn"/></e>
-<e lm="chiunque">        <i>chiunque</i><par n="qualsivoglia__prn"/></e>
+<e lm="chiunque">        <i>chiunque</i><par n="sè__prn"/></e>
 <e r="LR" lm="ci">       <i>ci</i><par n="ci__prn"/></e>
 <e lm="ciascuno">        <i>ciascun</i><par n="qualcun/o__prn"/></e>
 <e lm="ciò">             <i>ciò</i><par n="qualcosa__prn"/></e>
@@ -14050,6 +14050,7 @@
 <e lm="nulla">           <i>nulla</i><par n="qualcosa__prn"/></e>
 <e lm="ognuno">          <i>ognun</i><par n="qualcun/o__prn"/></e>
 <e lm="poco">            <i>poc</i><par n="poc/o__prn"/></e>
+<e lm="poco">            <i>poco</i><par n="qualcosa__prn"/></e>
 <e lm="quale">           <i>qual</i><par n="qual/e__prn"/></e>
 <e lm="qualcosa">        <i>qualcosa</i><par n="qualcosa__prn"/></e>
 <e lm="qualcuno">        <i>qualcun</i><par n="qualcun/o__prn"/></e>
@@ -28316,7 +28317,7 @@
 <e lm="livornese">       <i>livornes</i><par n="albanes/e__n"/></e>
 <e lm="lobo">            <i>lob</i><par n="abbain/o__n"/></e>
 <e lm="lobbista">        <i>lobbist</i><par n="suicid/a__n"/></e>
-<e lm="lobby">           <i>lobby</i><par n="abilità__n"/></e>
+<e lm="lobby">           <i>lobby</i><par n="albatros__n"/></e>
 <e lm="locale">          <i>local</i><par n="abat/e__n"/></e>
 <e lm="localino">        <i>localin</i><par n="abbain/o__n"/></e>
 <e lm="localismo">       <i>localism</i><par n="abbain/o__n"/></e>
@@ -37319,7 +37320,7 @@
 <e lm="debenedettiano">  <i>debenedettian</i><par n="abbandonat/o__adj"/></e>
 <e lm="debilitato">      <i>debilitat</i><par n="cosiddett/o__adj"/></e>
 <e lm="debito">          <i>debit</i><par n="abbandonat/o__adj"/></e>
-<e lm="debitorio">       <i>debitor</i><par n="abbandonat/o__adj"/></e>
+<e lm="debitorio">       <i>debitori</i><par n="abbandonat/o__adj"/></e>
 <e lm="debitorio">       <i>debitori</i><par n="ampi/o__adj"/></e>
 <e lm="debole">          <i>debol</i><par n="albanes/e__adj"/></e>
 <e lm="debosciato">      <i>debosciat</i><par n="abbandonat/o__adj"/></e>
@@ -47020,6 +47021,7 @@
 <e lm="eccetto che">     <i>eccetto<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="escluso che">     <i>escluso<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="finché">          <i>finché</i><par n="siccome__cnjadv"/></e>
+<e lm="finché">          <i>finché</i><par n="ieri__adv"/></e>
 <e lm="giacché">         <i>giacché</i><par n="siccome__cnjadv"/></e>
 <e lm="in modo che">     <i>in<b/>modo<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="ipotizzando che"> <i>ipotizzando<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -47030,6 +47032,7 @@
 <e lm="nel contempo">    <i>nel<b/>contempo</i><par n="siccome__cnjadv"/></e>
 <e lm="nella misura in cui"><i>nella<b/>misura<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
 <e lm="nonché">          <i>nonché</i><par n="siccome__cnjadv"/></e>
+<e lm="nonché">          <i>nonché</i><par n="ieri__adv"/></e>
 <e r="RL" lm="nonostante"><i>nonostante</i><par n="siccome__cnjadv"/></e>
 <e lm="ove">             <i>ove</i><par n="siccome__cnjadv"/></e>
 <e lm="per cosa">        <i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
@@ -47248,6 +47251,8 @@
 <e lm="almeno">          <i>almeno</i><par n="ieri__adv"/></e>
 <e lm="alquanto">        <i>alquanto</i><par n="ieri__adv"/></e>
 <e lm="altamente">       <i>altamente</i><par n="ieri__adv"/></e>
+<e lm="fin">             <i>fin</i><par n="ieri__adv"/></e>
+<e lm="quanto">          <i>quanto</i><par n="ieri__adv"/></e>
 <e lm="alternativamente"><i>alternativamente</i><par n="ieri__adv"/></e>
 <e lm="alti e bassi">    <i>alti<b/>e<b/>bassi</i><par n="ieri__adv"/></e>
 <e lm="altre volte">     <i>altre<b/>volte</i><par n="ieri__adv"/></e>
