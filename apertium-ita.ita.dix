@@ -17741,6 +17741,7 @@
 <e lm="Johannesburg">    <i>Johannesburg</i><par n="Afghanistan__np"/></e>
 <e lm="Johansson">       <i>Johansson</i><par n="Díez__np"/></e>
 <e lm="John">            <i>John</i><par n="Juan__np"/></e>
+<e lm="Winston">         <i>Winston</i><par n="Juan__np"/></e>
 <e lm="Johnny">          <i>Johnny</i><par n="Juan__np"/></e>
 <e lm="Johnson">         <i>Johnson</i><par n="Díez__np"/></e>
 <e lm="Johnson-Sirleaf"> <i>Johnson-Sirleaf</i><par n="Díez__np"/></e>
@@ -17757,6 +17758,7 @@
 <e lm="Jorge">           <i>Jorge</i><par n="Juan__np"/></e>
 <e lm="Josef">           <i>Josef</i><par n="Juan__np"/></e>
 <e lm="Joseph">          <i>Joseph</i><par n="Díez__np"/></e>
+<e lm="Churchill">       <i>Churchill</i><par n="Díez__np"/></e>
 <e lm="Joseph">          <i>Joseph</i><par n="Juan__np"/></e>
 <e lm="José">            <i>José</i><par n="Juan__np"/></e>
 <e lm="Juan">            <i>Juan</i><par n="Juan__np"/></e>
@@ -19193,6 +19195,21 @@
 <e lm="Pagano">          <i>Pagano</i><par n="Díez__np"/></e>
 <e lm="Paisley">         <i>Paisley</i><par n="Díez__np"/></e>
 <e lm="Pakistan">        <i>Pakistan</i><par n="Afghanistan__np"/></e>
+<e lm="Kurdistan">       <i>Kurdistan</i><par n="Afghanistan__np"/></e>
+<e lm="Curdistan">       <i>Curdistan</i><par n="Afghanistan__np"/></e>
+<e lm="Tigri">       <i>Tigri</i><par n="Afghanistan__np"/></e>
+<e lm="Eufrate">       <i>Eufrate</i><par n="Afghanistan__np"/></e>
+<e lm="Diyarbakir">       <i>Diyarbakir</i><par n="Afghanistan__np"/></e>
+<e r="LR" lm="Diyarbakır"><p><l>Diyarbakır</l><r>Diyarbakir</r></p><par n="Afghanistan__np"/></e>
+<e r="LR" lm="Diyarbekir"><p><l>Diyarbekir</l><r>Diyarbakir</r></p><par n="Afghanistan__np"/></e>
+<e lm="Mossul">       <i>Mossul</i><par n="Afghanistan__np"/></e>
+<e lm="Arbil">       <i>Arbil</i><par n="Afghanistan__np"/></e>
+<e lm="Kirkuk">       <i>Kirkuk</i><par n="Afghanistan__np"/></e>
+<e lm="Sulaymaniyya">       <i>Sulaymaniyya</i><par n="Europa__np"/></e>
+<e lm="Kermanshah">       <i>Kermanshah</i><par n="Afghanistan__np"/></e>
+<e lm="Sanandaj">       <i>Sanandaj</i><par n="Afghanistan__np"/></e>
+<e lm="Mahabad">       <i>Mahabad</i><par n="Afghanistan__np"/></e>
+<e lm="Van">             <i>Van</i><par n="Afghanistan__np"/></e>
 <e lm="Pala">            <i>Pala</i><par n="Díez__np"/></e>
 <e lm="Palagonia">       <i>Palagonia</i><par n="Europa__np"/></e>
 <e lm="Palanti">         <i>Palanti</i><par n="Díez__np"/></e>
@@ -24925,6 +24942,7 @@
 <e lm="curatore">        <i>curat</i><par n="agricolt/ore__n"/></e>
 <e lm="curatoria">       <i>curatori</i><par n="cas/a__n"/></e>
 <e lm="curdo">           <i>curd</i><par n="bambin/o__n"/></e>
+<e lm="kurdo">           <i>kurd</i><par n="bambin/o__n"/></e>
 <e lm="curioso">         <i>curios</i><par n="bambin/o__n"/></e>
 <e lm="curiosità">       <i>curiosità</i><par n="abilità__n"/></e>
 <e lm="curriculum">      <i>curricul</i><par n="curricul/um__n"/></e>
@@ -25080,7 +25098,7 @@
 <e lm="delitto">         <i>delitt</i><par n="abbain/o__n"/></e>
 <e lm="dell'udito">      <i>dell'udito</i><par n="extra__adj"/></e>
 <e lm="delocalizzazione"><i>delocalizzazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="delta">           <i>delt</i><par n="albatros__n"/></e>
+<e lm="delta">           <i>delta</i><par n="albatros__n"/></e>
 <e lm="deltaplano">      <i>deltaplan</i><par n="abbain/o__n"/></e>
 <e lm="delucidazione">   <i>delucidazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="deluso">          <i>delus</i><par n="abbain/o__n"/></e>
@@ -26423,7 +26441,7 @@
 <e lm="fioraio">         <i>fiorai</i><par n="bambin/o__n"/></e>
 <e lm="fiordo">          <i>fiord</i><par n="abbain/o__n"/></e>
 <e lm="fiorellino">      <i>fiorellin</i><par n="abbain/o__n"/></e>
-<e lm="fiorentino">      <i>fiorentin</i><par n="abbain/o__n"/></e>
+<e lm="fiorentino">      <i>fiorentin</i><par n="bambin/o__n"/></e>
 <e lm="fioreria">        <i>fioreri</i><par n="cas/a__n"/></e>
 <e lm="fioretto">        <i>fiorett</i><par n="abbain/o__n"/></e>
 <e lm="fiorettista">     <i>fiorettist</i><par n="suicid/a__n"/></e>
@@ -27196,10 +27214,6 @@
 <e lm="gt">              <i>gt</i><par n="abilità__n"/></e>
 <e lm="guado">           <i>guad</i><par n="abbain/o__n"/></e>
 <e lm="guadagno">        <i>guadagn</i><par n="abbain/o__n"/></e>
-<!--    <e lm="dove"><i>dove</i><par n="abat/e__n"/></e>-->
-<!--    <e lm="ove"><p><l>ove</l><r>dove</r></p><par n="abat/e__n"/></e>-->
-
-
 <e lm="guaglione">       <i>guaglion</i><par n="abat/e__n"/></e>
 <e lm="guaio">           <i>guai</i><par n="abbagli/o__n"/></e>
 <e lm="guaito">          <i>guait</i><par n="abbain/o__n"/></e>
@@ -28951,7 +28965,8 @@
 <e lm="midollo">         <i>midoll</i><par n="abbain/o__n"/></e>
 <e lm="miele">           <i>miel</i><par n="abat/e__n"/></e>
 <e lm="mietitore">       <i>mietit</i><par n="agricolt/ore__n"/></e>
-<e lm="miglio">          <i>migli</i><par n="bracci/o__n"/></e>
+<e lm="miglio" c="unità di misura">          <i>migli</i><par n="bracci/o__n"/></e>
+<e lm="miglio" c="pianta">          <i>migli</i><par n="abbagli/o__n"/></e>
 <e lm="migliaio">        <i>migliai</i><par n="abbagli/o__n"/></e>
 <e lm="miglioramento">   <i>migliorament</i><par n="abbain/o__n"/></e>
 <e lm="migliorista">     <i>migliorist</i><par n="suicid/a__n"/></e>
@@ -30433,6 +30448,7 @@
 <e lm="pianale">         <i>pianal</i><par n="abat/e__n"/></e>
 <e lm="pianerottolo">    <i>pianerottol</i><par n="abbain/o__n"/></e>
 <e lm="pianeta">         <i>pianet</i><par n="autom/a__n"/></e>
+<e lm="pianeta" c="indumento liturgico">         <i>pianet</i><par n="cas/a__n"/></e>
 <e lm="pianetto">        <i>pianett</i><par n="abbain/o__n"/></e>
 <e lm="pianificatore">   <i>pianificat</i><par n="agricolt/ore__n"/></e>
 <e lm="pianificazione">  <i>pianificazion</i><par n="abbreviazion/e__n"/></e>
@@ -37285,6 +37301,7 @@
 <e lm="curato">          <i>curat</i><par n="abbandonat/o__adj"/></e>
 <e lm="curativo">        <i>curativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="curdo">           <i>curd</i><par n="abbandonat/o__adj"/></e>
+<e lm="kurdo">           <i>kurd</i><par n="abbandonat/o__adj"/></e>
 <e lm="curiale">         <i>curial</i><par n="fin/e__adj"/></e>
 <e lm="curioso">         <i>curios</i><par n="abbandonat/o__adj"/></e>
 <e lm="curriculare">     <i>curricular</i><par n="albanes/e__adj"/></e>
@@ -38364,6 +38381,7 @@
 <e lm="filo-castrista">  <i>filo-castrist</i><par n="suicid/a__adj"/></e>
 <e lm="filo-cinese">     <i>filo-cines</i><par n="albanes/e__adj"/></e>
 <e lm="filo-curdo">      <i>filo-curd</i><par n="abbandonat/o__adj"/></e>
+<e lm="filo-kurdo">      <i>filo-kurd</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-egiziano">   <i>filo-egizian</i><par n="abbandonat/o__adj"/></e>
 <e lm="filo-governativo"><i>filo-governativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="filogovernativo"><i>filogovernativ</i><par n="abbandonat/o__adj"/></e>
@@ -47075,10 +47093,6 @@
     <!-- ******************************
           group adv
       ****************************** -->
-
-    <!-- ******************************
-          group adv
-      ****************************** -->
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="quando__adv"/></e>
 <e r="RL" lm="dove">     <p><l><a/>dove</l>  <r>dove</r></p><par n="quando__adv"/></e>
 <e r="RL" lm="quando">   <p><l><a/>quando</l><r>quando</r></p><par n="quando__adv"/></e>
@@ -47097,6 +47111,7 @@
 <e lm="a determinate condizioni"><i>a<b/>determinate<b/>condizioni</i><par n="ieri__adv"/></e>
 <e lm="a digiuno">       <i>a<b/>digiuno</i><par n="ieri__adv"/></e>
 <e lm="a distanza">      <i>a<b/>distanza</i><par n="extra__adj"/></e>
+<e lm="a distanza">      <i>a<b/>distanza</i><par n="ieri__adv"/></e>
 <e lm="a est">           <i>a<b/>est</i><par n="ieri__adv"/></e>
 <e lm="a fatica">        <i>a<b/>fatica</i><par n="ieri__adv"/></e>
 <e lm="a fianco">        <i>a<b/>fianco</i><par n="ieri__adv"/></e>
