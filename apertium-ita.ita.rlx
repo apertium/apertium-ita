@@ -137,41 +137,51 @@ REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ; 	# solució problema "nel" (a més t
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 EOS) ;
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo.
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 	# dello Stato spagnolo.
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
-REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo.
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 	# dello Stato spagnolo.
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Cm) ; 		# allo stato fossile,
-REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Cm) ; 		# allo stato fossile,
-REMOVE A IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1C A) ; 			# dello Stato Pontificio
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Cm) ; 		# allo stato fossile,
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Cm) ; 		# allo stato fossile,
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) ; 		# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) ; 		# dello stato messicano di Coahuila
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Lpar) ; 	#
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Lpar) ; 	#
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Lpar) ; 		# 
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
-REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-REMOVE N IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1C A) ; 			# dello Stato Pontificio
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1/* Pr) ; 			# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) (NOT 1 ("da")) ;# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (1 ("da")); 	# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PrfPrc) (-2 Det) (-1 N) (1 Pr) (1 ("da")) ;# il titolo assunto da Filippo
+
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+
+SELECT N IF (0 A) (0 N) (-1 Det) (1/* Pr) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
 
 SELECT N IF (0 N) (0 PrfPrc) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
 SELECT Npl IF (0 Npl) (0 PrfPrc) (-1C Num) (1 unknown) ;
 SELECT Npl IF (0 Npl) (0 A) (-1C Num) (1 unknown) ;
+
+#SELECT A IF (0 A) (0 N) (1 A) (-1C N) ; 			# Regno Lombardo-Veneto (no funciona: il presidente Franco Marini)
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 EOS) ;	# loro sorte.
@@ -201,3 +211,4 @@ REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
 REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
 
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
+SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante

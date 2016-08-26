@@ -40005,6 +40005,7 @@
 <e lm="lurido">          <i>lurid</i><par n="abbandonat/o__adj"/></e>
 <e lm="lusinghiero">     <i>lusinghier</i><par n="abbandonat/o__adj"/></e>
 <e lm="lusitano">        <i>lusitan</i><par n="cosiddett/o__adj"/></e>
+<e lm="lusitano">        <i>lusitan</i><par n="bambin/o__n"/></e>
 <e lm="lussemburghese">  <i>lussemburghes</i><par n="albanes/e__adj"/></e>
 <e lm="lussuoso">        <i>lussuos</i><par n="abbandonat/o__adj"/></e>
 <e lm="lussureggiante">  <i>lussureggiant</i><par n="fin/e__adj"/></e>
@@ -41689,6 +41690,7 @@
 <e lm="puzzolente">      <i>puzzolent</i><par n="fin/e__adj"/></e>
 <e lm="quadrangolare">   <i>quadrangolar</i><par n="fin/e__adj"/></e>
 <e lm="quadrato">        <i>quadrat</i><par n="abbandonat/o__adj"/></e>
+<e lm="quadrato">        <i>quadrat</i><par n="abbain/o__n"/></e>
 <e lm="quadrettato">     <i>quadrettat</i><par n="abbandonat/o__adj"/></e>
 <e lm="quadriennale">    <i>quadriennal</i><par n="fin/e__adj"/></e>
 <e lm="quadrilatero">    <i>quadrilater</i><par n="abbandonat/o__adj"/></e>
@@ -43835,7 +43837,7 @@
 <e lm="vessatorio">      <i>vessatori</i><par n="ampi/o__adj"/></e>
 <e lm="vestibolare">     <i>vestibolar</i><par n="fin/e__adj"/></e>
 <e lm="vestito">         <i>vestit</i><par n="abbandonat/o__adj"/></e>
-<e lm="vestito">         <i>vestiti</i><par n="scacchi__n"/></e>
+<e lm="vestiti">         <i>vestiti</i><par n="scacchi__n"/></e>
 <e lm="vesuviano">       <i>vesuvian</i><par n="abbandonat/o__adj"/></e>
 <e lm="veterano">        <i>veteran</i><par n="abbandonat/o__adj"/></e>
 <e lm="veterinario">     <i>veterinari</i><par n="ampi/o__adj"/></e>
@@ -49216,6 +49218,9 @@
 <e lm="vocativo">           <i>vocativ</i><par n="abbain/o__n"/></e>
 
 <e lm="a sua volta">  <i>a<b/>sua<b/>volta</i><par n="ieri__adv"/></e>
+
+<e lm="città-stato">       <p><l>città-stato</l>         <r>città-stato<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="città-stato">       <p><l>città-stati</l>         <r>città-stato<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
   </section>
 
