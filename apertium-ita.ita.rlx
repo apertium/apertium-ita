@@ -25,6 +25,9 @@ LIST Pr = pr ;
 
 LIST Pos = pos ; 
 
+LIST Sg = sg ; 
+LIST Pl = pl ; 
+
 LIST unknown = ("\\*.*"r) ;
 
 LIST Avere = vbhaver ;
@@ -48,6 +51,9 @@ LIST Interr = itg ;
 LIST Imper = imp ;
 
 LIST Excl = "!" ;
+
+LIST Nsg = (n sg) ;
+LIST Npl = (n pl) ;
 
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
@@ -114,7 +120,7 @@ REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
-SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;
+SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: per saldare alcuni debiti bellici *lo* vendette a re Ladislao
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
@@ -162,18 +168,28 @@ REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
 
+SELECT N IF (0 N) (0 PrfPrc) (-1C Det) (1 unknown) ;
+SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
+SELECT Npl IF (0 Npl) (0 PrfPrc) (-1C Num) (1 unknown) ;
+SELECT Npl IF (0 Npl) (0 A) (-1C Num) (1 unknown) ;
+
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 EOS) ;	# loro sorte.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 EOS) ;	# le più grandi collezioni.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 Lpar) ;	# due nuove canzonii (di cui una
 
-REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; # il suo futuro attraverso una programmazione
+REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
+
+REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; 		# il suo futuro attraverso una programmazione
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 Pr) ;
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 Pr) ; # il futuro della Ue.
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 Pr) ; 		# il futuro della Ue.
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 Pr) ;
 
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1C Pr) ;	# in corso "Pitretu è Bicchisgià"
+REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1C Pr) ;		# in corso "Pitretu è Bicchisgià"
 REMOVE PrfPrc IF (0 PrfPrc) (0 A) (-1C Pr) ;
+
+REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
+REMOVE V IF (0 V) (0 N) (-1C Det) ;
 
 SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
@@ -181,3 +197,7 @@ SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;	# solució problema "del"
 
 REMOVE V IF (0 N) (0 Vconj) (-1 Pr) ;	# la rivolta dei Fasci siciliani.
 REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
+
+REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
+
+SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
