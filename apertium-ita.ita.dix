@@ -14012,7 +14012,8 @@
 <e lm="ce">              <i>ce</i><par n="ne__prn"/></e>
 <e lm="che">      <i>che</i><par n="che__prn"/></e>
 <e lm="chi">             <i>chi</i><par n="chi__prn"/></e>
-<e lm="chiunque">        <i>chiunque</i><par n="sè__prn"/></e>
+<!-- <e lm="chiunque">        <i>chiunque</i><par n="sè__prn"/></e> -->
+<e lm="chiunque">        <i>chiunque</i><par n="qualsivoglia__prn"/></e>
 <e r="LR" lm="ci">       <i>ci</i><par n="ci__prn"/></e>
 <e lm="ciascuno">        <i>ciascun</i><par n="qualcun/o__prn"/></e>
 <e lm="ciò">             <i>ciò</i><par n="qualcosa__prn"/></e>
@@ -49218,9 +49219,6 @@
 <e lm="vocativo">           <i>vocativ</i><par n="abbain/o__n"/></e>
 
 <e lm="a sua volta">  <i>a<b/>sua<b/>volta</i><par n="ieri__adv"/></e>
-
-<e lm="città-stato">       <p><l>città-stato</l>         <r>città-stato<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e lm="città-stato">       <p><l>città-stati</l>         <r>città-stato<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
   </section>
 
