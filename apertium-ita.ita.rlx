@@ -14,9 +14,11 @@ LIST Pron = prn ;
 LIST N = n ;
 LIST Prop = np ;
 LIST V = vblex ;
+LIST Vall = vblex vbmod vbser vbhaver ;
 LIST Det = det ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
+LIST CA = cnjadv ;
 LIST Interj = ij ;
 LIST Num = num ;
 LIST Cm = cm ;
@@ -45,7 +47,6 @@ LIST Dai = "dai" ;
 LIST Dei = "dei" ;
 LIST Puo_essere = "può essere" ;
 
-
 LIST Interr = itg ;
 
 LIST Imper = imp ;
@@ -59,6 +60,7 @@ LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
 
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
+LIST Vinterr = ("domandare") ("chiedere") ;
 
 LIST Upper = "[A-Z][a-z]+"r ;
 
@@ -212,3 +214,6 @@ REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazio
 
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
 SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante
+
+#SELECT Interr IF (0 Interr) (0 CA) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
+#SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
