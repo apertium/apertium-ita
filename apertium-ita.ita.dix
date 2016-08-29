@@ -25242,7 +25242,6 @@
 <e lm="devoto">          <i>devot</i><par n="bambin/o__n"/></e>
 <e lm="devozione">       <i>devozion</i><par n="abbreviazion/e__n"/></e>
 <e lm="diabete">         <i>diabet</i><par n="abat/e__n"/></e>
-<e lm="diabete">         <i>diabete</i><par n="abilità__n"/></e>
 <e lm="diabetologo">     <i>diabetolog</i><par n="astrolog/o__n"/></e>
 <e lm="diabolico">       <i>diabolic</i><par n="amic/o__n"/></e>
 <e lm="diacono">         <i>diacon</i><par n="abbain/o__n"/></e>
@@ -25881,6 +25880,7 @@
 <e lm="entropia">        <i>entropi</i><par n="cas/a__n"/></e>
 <e lm="entusiasmo">      <i>entusiasm</i><par n="abbain/o__n"/></e>
 <e lm="entusiasta">      <i>entusiast</i><par n="suicid/a__n"/></e>
+<e lm="entusiasta">      <i>entusiast</i><par n="suicid/a__adj"/></e>
 <e lm="enumerazione">    <i>enumerazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="enunciazione">    <i>enunciazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="enzima">          <i>enzim</i><par n="autom/a__n"/></e>
@@ -27100,6 +27100,7 @@
 <e lm="gomitolo">        <i>gomitol</i><par n="abbain/o__n"/></e>
 <e lm="gomma">           <i>gomm</i><par n="cas/a__n"/></e>
 <e lm="gomma da masticare"><i>gomm</i><par n="cas/a__n"/><p><l><b/>da<b/>masticare</l><r><g><b/>da<b/>masticare</g></r></p></e>
+<e lm="occhiali da sole"><i>occhiali</i><par n="scacchi__n"/><p><l><b/>da<b/>sole</l><r><g><b/>da<b/>sole</g></r></p></e>
 <e lm="gommista">        <i>gommist</i><par n="suicid/a__n"/></e>
 <e lm="gommone">         <i>gommon</i><par n="abat/e__n"/></e>
 <e lm="gondoliere">      <i>gondolier</i><par n="abat/e__n"/></e>
@@ -28186,7 +28187,6 @@
 <e lm="leninismo">       <i>leninism</i><par n="abbain/o__n"/></e>
 <e lm="leninista">       <i>leninist</i><par n="suicid/a__n"/></e>
 <e lm="lenone">          <i>lenon</i><par n="abat/e__n"/></e>
-<e lm="lento">           <i>lent</i><par n="abbain/o__n"/></e>
 <e lm="lente">           <i>lent</i><par n="abbreviazion/e__n"/></e>
 <e lm="lenticchia">      <i>lenticchi</i><par n="cas/a__n"/></e>
 <e lm="lentiggine">      <i>lentiggin</i><par n="abbreviazion/e__n"/></e>
@@ -30653,7 +30653,7 @@
 <e lm="politologia">     <i>politologi</i><par n="cas/a__n"/></e>
 <e lm="poliuretano">     <i>poliuretan</i><par n="abbain/o__n"/></e>
 <e lm="polizia">         <i>polizia</i><par n="adrenalina__n"/></e>
-<e lm="poliziotto">      <i>poliziott</i><par n="bambin/o__n"/></e>
+<e lm="poliziotto">      <i>poliziott</i><par n="abbain/o__n"/></e>
 <e lm="polizza">         <i>polizz</i><par n="cas/a__n"/></e>
 <e lm="pollo">           <i>poll</i><par n="abbain/o__n"/></e>
 <e lm="poll-tax">        <i>poll-tax</i><par n="abilità__n"/></e>
@@ -33786,7 +33786,7 @@
 <e lm="tangentopoli">    <i>tangentopoli</i><par n="abilità__n"/></e>
 <e lm="tanto">           <i>tant</i><par n="abbain/o__n"/></e>
 <e lm="tapino">          <i>tapin</i><par n="abbain/o__n"/></e>
-<e lm="tapiro">          <i>tapir</i><par n="bambin/o__n"/></e>
+<e lm="tapiro">          <i>tapir</i><par n="abbain/o__n"/></e>
 <e lm="tappo">           <i>tapp</i><par n="abbain/o__n"/></e>
 <e lm="tappa">           <i>tapp</i><par n="cas/a__n"/></e>
 <e lm="tappeto">         <i>tappet</i><par n="abbain/o__n"/></e>
@@ -38823,7 +38823,7 @@
 <e lm="guelfo">          <i>guelf</i><par n="abbandonat/o__adj"/></e>
 <e lm="guerrafondaio">   <i>guerrafondai</i><par n="ampi/o__adj"/></e>
 <e lm="guerriero">       <i>guerrier</i><par n="abbandonat/o__adj"/></e>
-<e r="LR" lm="guidato da"><i>guidat</i><par n="abbandonat/o__adj"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
+<e lm="guidato da"><i>guidat</i><par n="abbandonat/o__adj"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
 <e lm="guitto">          <i>guitt</i><par n="abbandonat/o__adj"/></e>
 <e lm="gullottiano">     <i>gullottian</i><par n="abbandonat/o__adj"/></e>
 <e lm="gustativo">       <i>gustativ</i><par n="abbandonat/o__adj"/></e>
@@ -42142,7 +42142,7 @@
 <e lm="rotondeggiante">  <i>rotondeggiant</i><par n="fin/e__adj"/></e>
 <e lm="rotto">           <i>rott</i><par n="abbandonat/o__adj"/></e>
 <e lm="rovente">         <i>rovent</i><par n="fin/e__adj"/></e>
-<e lm="rovescio">        <i>rovesci</i><par n="ampi/o__adj"/></e>
+<e lm="rovescio">        <i>rovesc</i><par n="marina/io__adj"/></e>
 <e lm="rovinoso">        <i>rovinos</i><par n="abbandonat/o__adj"/></e>
 <e lm="rozzo">           <i>rozz</i><par n="abbandonat/o__adj"/></e>
 <e lm="ruandese">        <i>ruandes</i><par n="albanes/e__adj"/></e>
@@ -44035,10 +44035,13 @@
 <e lm="breve termine">   <p><l>breve<b/>termine</l><r>breve<b/>termine<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="buon senso">      <p><l>buon<b/>senso</l><r>buon<b/>senso<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e lm="carta astrale">   <p><l>carta<b/>astrale</l><r>carta<b/>astrale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="carta d'identità"><p><l>carta<b/>d'identità</l><r>carta<b/>d'identità<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="carta d'identità"><p><l>carte<b/>d'identità</l><r>carta<b/>d'identità<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="carta dei servizi"><p><l>carta<b/>dei<b/>servizi</l><r>carta<b/>dei<b/>servizi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="carta intestata"> <p><l>carta<b/>intestata</l><r>carta<b/>intestata<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="carte astrali">   <p><l>carte<b/>astrali</l><r>carta<b/>astrale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="carte dei servizi"><p><l>carte<b/>dei<b/>servizi</l><r>carta<b/>dei<b/>servizi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
 <e lm="carta intestata"> <p><l>carte<b/>intestate</l><r>carta<b/>intestata<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="cassetta della posta"><p><l>cassetta<b/>della<b/>posta</l><r>cassetta<b/>della<b/>posta<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="cassetta della posta"><p><l>cassette<b/>della<b/>posta</l><r>cassetta<b/>della<b/>posta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -44075,7 +44078,7 @@
 <e lm="piccolo principe"><p><l>piccolo<b/>principe</l><r>piccolo<b/>principe<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="prof">            <p><l>prof</l>      <r>prof<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="professor"><p><l>professor</l> <r>professore<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="pubblico ministero"><p><l>pubblici<b/>ministeri</l><r>pubblico<b/>ministero<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="pubblico ministero"><p><l>pubblici<b/>ministeri</l><r>pubblico<b/>ministero<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 
 
@@ -47149,7 +47152,7 @@
 <e lm="a posta">         <i>a<b/>posta</i><par n="ieri__adv"/></e>
 <e lm="a posto">         <i>a<b/>posto</i><par n="ieri__adv"/></e>
 <e lm="a posteriori">    <i>a<b/>posteriori</i><par n="ieri__adv"/></e>
-<e lm="a prezzi accessibili"><i>a<b/>prezzi<b/>accessibili</i><par n="ieri__adv"/></e>
+<e lm="a prezzi accessibili"><i>a<b/>prezzi<b/>accessibili</i><par n="extra__adj"/></e>
 <e lm="a priori">        <i>a<b/>priori</i><par n="ieri__adv"/></e>
 <e lm="a proposito">     <i>a<b/>proposito</i><par n="ieri__adv"/></e>
 <e lm="a quei tempi">    <i>a<b/>quei<b/>tempi</i><par n="ieri__adv"/></e>
