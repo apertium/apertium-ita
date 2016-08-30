@@ -12404,6 +12404,15 @@
   <e>       <p><l>un'altra</l>  <r>un<b/>altro<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
+    
+<pardef n="/un_altro__prn">
+  <e>       <p><l>altri</l>     <r>un<b/>altro<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>un<b/>altro</l><r>un<b/>altro<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>altre</l>     <r>un<b/>altro<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>un'altra</l>  <r>un<b/>altro<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+
 <pardef n="/gli_altri__prn">
   <e>       <p><l>gli<b/>altri</l><r>gli<b/>altri<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>le<b/>altre</l><r>gli<b/>altri<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
@@ -14004,6 +14013,7 @@
 <e lm="alcuno">          <i>alcun</i><par n="altr/o__prn"/></e>
 <e lm="alcunché">        <i>alcunché</i><par n="qualcosa__prn"/></e>
 <e lm="altro">           <i>altr</i><par n="altr/o__prn"/></e>
+<e lm="un altro">        <i/><par n="/un_altro__prn"/></e>
 <e lm="ce">              <i>ce</i><par n="ne__prn"/></e>
 <e lm="che">      <i>che</i><par n="che__prn"/></e>
 <e lm="chi">             <i>chi</i><par n="chi__prn"/></e>
