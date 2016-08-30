@@ -217,3 +217,5 @@ SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante
 
 #SELECT Interr IF (0 Interr) (0 CA) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
+
+SELECT A IF (0 A OR Adv) (-1 Det) (1 N) ; # una prima verzione
