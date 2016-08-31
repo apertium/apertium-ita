@@ -29,6 +29,21 @@ LIST Pos = pos ;
 
 LIST Sg = sg ; 
 LIST Pl = pl ; 
+LIST M = m ;
+LIST F = f ;
+
+LIST Masc = m mf ;
+LIST Fem = f mf ;
+#LIST Sg = sg sp ;
+#LIST Pl = pl sp ;
+SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
+SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
+SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
+SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
+SET MascSg2 = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
+SET MascPl2 = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
+SET FemSg2 = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
+SET FemPl2 = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
 LIST unknown = ("\\*.*"r) ;
 
@@ -219,3 +234,16 @@ SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante
 #SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 
 SELECT A IF (0 A OR Adv) (-1 Det) (1 N) ; # una prima verzione
+
+# Coordinació
+SELECT M IF (0 N + M) (O N + F) (-1 Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
+SELECT F IF (0 N + M) (O N + F) (-1 Det + F) ;
+SELECT M IF (0 A + M) (O A + F) (-1 Det + M) ;
+SELECT F IF (0 A + M) (O A + F) (-1 Det + F) ;
+
+SELECT M IF (0 N + M) (O N + F) (-1 A + M) (NOT -1 A + F) ;	# un suo moto
+SELECT F IF (0 N + M) (O N + F) (-1 A + F) (NOT -1 A + M) ;
+SELECT M IF (0 N + M) (O N + F) (1 A + M) (NOT 1 A + F) ;	# consigliere diplomatico
+SELECT F IF (0 N + M) (O N + F) (1 A + F) (NOT 1 A + M) ;
+
+#SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)	# un suo moto proprio
