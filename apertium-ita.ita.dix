@@ -14649,6 +14649,8 @@
 <e lm="Amelio">          <i>Amelio</i><par n="Juan__np"/></e>
 <e lm="Amenta">          <i>Amenta</i><par n="Díez__np"/></e>
 <e lm="America">         <i>America</i><par n="Europa__np"/></e>
+<e lm="Amatrice">        <i>Amatrice</i><par n="Europa__np"/></e>
+<e lm="Aquila">          <i>Aquila</i><par n="Europa__np"/></e>
 <e lm="America latina">  <i>America<b/>latina</i><par n="Europa__np"/></e>
 <e lm="Amerigo">         <i>Amerigo</i><par n="Juan__np"/></e>
 <e lm="Amerinda">        <i>Amerinda</i><par n="María__np"/></e>
@@ -15111,6 +15113,8 @@
 <e lm="Barumini">        <i>Barumini</i><par n="Afghanistan__np"/></e>
 <e lm="Barumini">        <i>Barumini</i><par n="USA__np"/></e>
 <e lm="Barça">           <i>Barça</i><par n="ABC__np"/></e>
+<e lm="Podemos">         <i>Podemos</i><par n="ABC__np"/></e>
+<e lm="Ciudadanos">      <i>Ciudadanos</i><par n="ABC__np"/></e>
 <e lm="Basile">          <i>Basile</i><par n="Díez__np"/></e>
 <e lm="Basilea">         <i>Basilea</i><par n="María__np"/></e>
 <e lm="Basilea">         <i>Basilea</i><par n="Europa__np"/></e>
@@ -19824,6 +19828,11 @@
 <e lm="Rossello">        <i>Rossello</i><par n="Juan__np"/></e>
 <e lm="Rossetti">        <i>Rossetti</i><par n="Díez__np"/></e>
 <e lm="Rossi">           <i>Rossi</i><par n="Díez__np"/></e>
+<e lm="Bocca">           <i>Bocca</i><par n="Díez__np"/></e>
+<e lm="Vinci">           <i>Vinci</i><par n="Díez__np"/></e>
+<e lm="Raggi">           <i>Raggi</i><par n="Díez__np"/></e>
+<e lm="Fico">            <i>Fico</i><par n="Díez__np"/></e>
+<e lm="Vespa">           <i>Vespa</i><par n="Díez__np"/></e>
 <e lm="Rotari">          <i>Rotari</i><par n="Juan__np"/></e>
 <e lm="Rotarito">        <i>Rotarito</i><par n="Juan__np"/></e>
 <e lm="Rourke">          <i>Rourke</i><par n="Díez__np"/></e>
@@ -19945,6 +19954,7 @@
 <e lm="San Teodoro">     <i>San<b/>Teodoro</i><par n="Afghanistan__np"/></e>
 <e lm="San Vero Milis">  <i>San<b/>Vero<b/>Milis</i><par n="Afghanistan__np"/></e>
 <e lm="San Vito">        <i>San<b/>Vito</i><par n="Afghanistan__np"/></e>
+<e lm="San Vito lo Capo"><i>San<b/>Vito<b/>lo<b/>Capo</i><par n="Afghanistan__np"/></e>
 <e lm="Sanchez">         <i>Sanchez</i><par n="Díez__np"/></e>
 <e lm="Sanders">         <i>Sanders</i><par n="Díez__np"/></e>
 <e lm="Sandra">          <i>Sandra</i><par n="María__np"/></e>
