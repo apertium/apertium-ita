@@ -13936,6 +13936,10 @@
 <pardef n="BBVA__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
+<pardef n="ATS__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
+</pardef>
     
 <pardef n="PIL__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
@@ -21481,6 +21485,7 @@
 <e lm="NGC">             <i>NGC</i><par n="TV__n"/></e>
 <e lm="NHL">             <i>NHL</i><par n="TV__n"/></e>
 <e lm="OCSE">            <i>OCSE</i><par n="BBVA__n"/></e>
+<e lm="ATS">             <i>ATS</i><par n="ATS__n"/></e>
 <e lm="ONU">             <i>ONU</i><par n="TV__n"/></e>
 <e lm="OPEC">            <i>OPEC</i><par n="TV__n"/></e>
 <e lm="OSCE">            <i>OSCE</i><par n="TV__n"/></e>
@@ -44114,6 +44119,7 @@
 <e r="RL" lm="essere possibile"><i></i><par n="/essere__vblex"/><p><l><b/>possibile</l><r><g><b/>possibile</g></r></p></e>
 <e r="RL" lm="essere grato"><i></i><par n="/essere__vblex"/><p><l><b/>grato</l><r><g><b/>grato</g></r></p></e>
 <e lm="essere carente">  <i></i><par n="/essere__vblex"/><p><l><b/>carente</l><r><g><b/>carente</g></r></p></e>
+<e lm="essere imbranato">  <i></i><par n="/essere__vblex"/><p><l><b/>imbranato</l><r><g><b/>imbranato</g></r></p></e>
 <e lm="udire">           <i></i><par n="/udire__vblex"/></e>
 <e lm="abbacare">        <i>abbac</i><par n="abbarbic/are__vblex"/></e>
 <e lm="abbacchiare">     <i>abbacchi</i><par n="abbacchi/are__vblex"/></e>
@@ -45942,6 +45948,7 @@
 <e lm="svelare">         <i>svel</i><par n="abbarbic/are__vblex"/></e>
 <e lm="prendere coscienza"><i>pre</i><par n="acce/ndere__vblex"/><p><l><b/>coscienza</l><r><g><b/>coscienza</g></r></p></e>
 <e lm="prendere cura">   <i>pre</i><par n="acce/ndere__vblex"/><p><l><b/>cura</l><r><g><b/>cura</g></r></p></e>
+<e lm="essere per">      <i></i><par n="/essere__vbser"/><p><l><b/>per</l><r><g><b/>per</g></r></p></e>
 <e lm="premere">         <i>pre</i><par n="riassu/mere__vblex"/></e>
 <e lm="prendere">        <i>pre</i><par n="acce/ndere__vblex"/></e>
 <e lm="preavvertire">    <i>preavvert</i><par n="abbrut/ire__vblex"/></e>
