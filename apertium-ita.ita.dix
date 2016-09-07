@@ -27245,6 +27245,8 @@
 <e lm="guardaroba">      <i>guardaroba</i><par n="albatros__n"/></e>
 <e lm="guardia">         <i>guardi</i><par n="cas/a__n"/></e>
 <e lm="guardia">         <i>guardia</i><par n="albatros__n"/></e>
+<e lm="guardia" r="RL">  <p><l>guardia</l><r>guardia<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="guardia" r="RL">  <p><l>guardia</l><r>guardia<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="guardiano">       <i>guardian</i><par n="bambin/o__n"/></e>
 <e lm="guardone">        <i>guardon</i><par n="infermier/e__n"/></e>
 <e lm="guarigione">      <i>guarigion</i><par n="abbreviazion/e__n"/></e>
