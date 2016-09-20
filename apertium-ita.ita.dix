@@ -139,6 +139,10 @@
 <pardef n="separa">
   <e>       <re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
 </pardef>
+
+<pardef n="guionet">
+  <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+</pardef>
  
 <pardef n="coma">
   <e>       <re>,</re><p><l></l><r><s n="cm"/></r></p></e>
@@ -49324,6 +49328,7 @@
   <section id="final" type="inconditional">
 <e>                      <par n="pardret"/></e>
 <e>                      <par n="separ"/></e>
+<e>                      <par n="guionet"/></e>
 <e>                      <par n="paresq"/></e>
 <e>                      <par n="coma"/></e>
 <e>                      <par n="separa"/></e>
