@@ -37197,6 +37197,7 @@
 <e lm="corrosivo">       <i>corrosiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="corrotto">        <i>corrott</i><par n="abbandonat/o__adj"/></e>
 <e lm="corruttibile">    <i>corruttibil</i><par n="fin/e__adj"/></e>
+<e lm="anti-corso">      <i>anti-cors</i><par n="cosiddett/o__adj"/></e>
 <e lm="corso">           <i>cors</i><par n="cosiddett/o__adj"/></e>
 <e lm="corsaro">         <i>corsar</i><par n="abbandonat/o__adj"/></e>
 <e lm="corto">           <i>cort</i><par n="abbandonat/o__adj"/></e>
@@ -48697,6 +48698,7 @@
 <e lm="da">              <par n="/da__pr"/></e>
 <e lm="davanti">         <i>davanti</i><par n="accanto__pr"/></e>
 <e lm="davanti a">       <i>davanti<b/></i><par n="/a__pr"/></e>
+<e lm="dentro a">        <i>dentro<b/></i><par n="/a__pr"/></e>
 <e lm="dentro">          <i>dentro</i><par n="accanto__pr"/></e>
 <e lm="dentro di">       <i>dentro<b/></i><par n="/di__pr"/></e>
 <e lm="di">              <par n="/di__pr"/></e>
