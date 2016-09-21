@@ -110,7 +110,7 @@
     
 <pardef n="numeros">
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
-  <e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l></l><r><s n="num"/><s n="percent"/></r></p></e>
+  <e>       <re>[0-9]+([.,][0-9]+)? *</re><p><l>%</l><r><s n="num"/><s n="percent"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l>°</l><r>°<s n="num"/></r></p></e> <!-- degree -->
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l>º</l><r>º<s n="num"/></r></p></e> <!-- primo, secundo... -->
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l>ª</l><r>ª<s n="num"/></r></p></e> <!-- prima, secunda... -->
@@ -137,7 +137,8 @@
     
 
 <pardef n="separa">
-  <e>       <re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><re>([.\?;:!]|[\?!]+|...)</re><p><l/><r><s n="sent"/></r></p></e>
+
 </pardef>
 
 <pardef n="guionet">
