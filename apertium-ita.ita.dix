@@ -143,6 +143,7 @@
 
 <pardef n="guionet">
   <e>       <p><l>-</l><r>-<s n="guio"/></r></p></e>
+  <e>       <p><l>–</l><r>–<s n="guio"/></r></p></e>
 </pardef>
  
 <pardef n="coma">
