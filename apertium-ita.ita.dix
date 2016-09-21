@@ -89,12 +89,22 @@
     <sdef n="web" 	c=""/> 
     <sdef n="apos" 	c=""/> 
     <sdef n="guio" 	c=""/> 
+    <sdef n="lquot" 	c=""/> 
+    <sdef n="quot" 	c=""/> 
+    <sdef n="rquot" 	c=""/> 
     <sdef n="time" 	c=""/> 
   </sdefs>
   <pardefs>
 <pardef n="urls">
   <e>       <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l></l><r><s n="web"/></r></p></e>
 </pardef>
+
+    <pardef n="quotes">
+      <e><re>"</re><p><l/><r><s n="quot"/></r></p></e>
+      <e><re>»</re><p><l/><r><s n="rquot"/></r></p></e>
+      <e><re>«</re><p><l/><r><s n="lquot"/></r></p></e>
+    </pardef>
+
     
 <pardef n="emails">
   <e>       <re>[a-z.]+@[a-z.]+</re><p><l></l><r><s n="web"/></r></p></e>
@@ -49337,6 +49347,7 @@
 <e>                      <par n="separ"/></e>
 <e>                      <par n="guionet"/></e>
 <e>                      <par n="paresq"/></e>
+<e>                      <par n="quotes"/></e>
 <e>                      <par n="coma"/></e>
 <e>                      <par n="separa"/></e>
 <e>                      <par n="cometa"/></e>
