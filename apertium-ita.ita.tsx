@@ -2242,6 +2242,19 @@
       <label-item label="NOMMF"/>
     </label-sequence>
 
+    <label-sequence>
+      <label-item label="DETM"/>
+      <label-item label="INTPRN"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETF"/>
+      <label-item label="INTPRN"/>
+    </label-sequence>
+    <label-sequence>
+      <label-item label="DETMF"/>
+      <label-item label="INTPRN"/>
+    </label-sequence>   
+
 
   </forbid>
 

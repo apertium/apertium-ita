@@ -13439,7 +13439,7 @@
 </pardef>
     
 <pardef n="mille__num">
-  <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
+<!--  <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>-->
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
     
@@ -24459,6 +24459,7 @@
 <e lm="cinturone">       <i>cinturon</i><par n="abat/e__n"/></e>
 <e lm="cioccolato">      <i>cioccolat</i><par n="abbain/o__n"/></e>
 <e lm="cioccolato">      <i>cioccolato</i><par n="extra__adj"/></e>
+<e lm="a colori">         <i>a<b/>colori</i><par n="extra__adj"/></e>
 <e lm="cioccolatino">    <i>cioccolatin</i><par n="abbain/o__n"/></e>
 <e lm="ciociaro">        <i>ciociar</i><par n="abbain/o__n"/></e>
 <e lm="ciondolo">        <i>ciondol</i><par n="abbain/o__n"/></e>
@@ -45699,6 +45700,7 @@
 <e lm="fare un pisolino"><i>f</i><par n="f/are__vblex"/><p><l><b/>un<b/>pisolino</l><r><g><b/>un<b/>pisolino</g></r></p></e>
 <e lm="fare uno spuntino"><i>f</i><par n="f/are__vblex"/><p><l><b/>uno<b/>spuntino</l><r><g><b/>uno<b/>spuntino</g></r></p></e>
 <e lm="fare una passeggiata"><i>f</i><par n="f/are__vblex"/><p><l><b/>una<b/>passeggiata</l><r><g><b/>una<b/>passeggiata</g></r></p></e>
+<e lm="fare stare bene"><i>f</i><par n="f/are__vblex"/><p><l><b/>stare<b/>bene</l><r><g><b/>stare<b/>bene</g></r></p></e>
 <e lm="fondere">         <i>f</i><par n="conf/ondere__vblex"/></e>
 <e lm="fare">            <i>f</i><par n="f/are__vblex"/></e>
 <e lm="fabbricare">      <i>fabbric</i><par n="abbarbic/are__vblex"/></e>
@@ -46431,6 +46433,7 @@
 <e lm="popolare">        <i>popol</i><par n="abbacin/are__vblex"/></e>
 <e lm="porgere">         <i>por</i><par n="accin/gere__vblex"/></e>
 <e lm="portare avanti">  <i>port</i><par n="abbacin/are__vblex"/><p><l><b/>avanti</l><r><g><b/>avanti</g></r></p></e>
+<e lm="portare via">  <i>port</i><par n="abbacin/are__vblex"/><p><l><b/>via</l><r><g><b/>via</g></r></p></e>
 <e lm="portare">         <i>port</i><par n="abbacin/are__vblex"/></e>
 <e lm="posare">          <i>pos</i><par n="abbacin/are__vblex"/></e>
 <e lm="posizionare">     <i>posizion</i><par n="abbacin/are__vblex"/></e>
@@ -46540,7 +46543,8 @@
 <e lm="protrarre">       <i>protra</i><par n="astra/rre__vblex"/></e>
 <e lm="provenire">       <i>prov</i><par n="prov/enire__vblex"/></e>
 <e lm="provare">         <i>prov</i><par n="abbacin/are__vblex"/></e>
-<e lm="provare a">      <i>prov</i><par n="abbacin/are__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
+<e lm="provare a">       <i>prov</i><par n="abbacin/are__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
+<e lm="pensare a">       <i>pens</i><par n="abbacin/are__vblex"/><p><l><b/>a</l><r><g><b/>a</g></r></p></e>
 <e lm="provare ad" r="LR">      <i>prov</i><par n="abbacin/are__vblex"/><p><l><b/>ad</l><r><g><b/>a</g></r></p></e>
 <e lm="provocare">       <i>provoc</i><par n="abbarbic/are__vblex"/></e>
 <e lm="provvedere">      <i>provv</i><par n="intrav/edere__vblex"/></e>
@@ -47629,6 +47633,7 @@
 <e lm="a continuazione"> <i>a<b/>continuazione</i><par n="ieri__adv"/></e>
 <e lm="a contropelo">    <i>a<b/>contropelo</i><par n="ieri__adv"/></e>
 <e lm="a cosa">          <i>a<b/>cosa</i><par n="ieri__adv"/></e>
+<e lm="a colori">         <i>a<b/>colori</i><par n="ieri__adv"/></e>
 <e lm="a determinate condizioni"><i>a<b/>determinate<b/>condizioni</i><par n="ieri__adv"/></e>
 <e lm="a digiuno">       <i>a<b/>digiuno</i><par n="ieri__adv"/></e>
 <e lm="a distanza">      <i>a<b/>distanza</i><par n="extra__adj"/></e>
@@ -48379,6 +48384,8 @@
 <e lm="in nessun modo">  <i>in<b/>nessun<b/>modo</i><par n="ieri__adv"/></e>
 <e lm="in niente">       <i>in<b/>niente</i><par n="ieri__adv"/></e>
 <e lm="in onda">         <i>in<b/>onda</i><par n="ieri__adv"/></e>
+<e lm="in aria">         <i>in<b/>aria</i><par n="ieri__adv"/></e>
+<e lm="nell'aria">       <i>nell'aria</i><par n="ieri__adv"/></e>
 <e lm="in pace">         <i>in<b/>pace</i><par n="ieri__adv"/></e>
 <e lm="in piedi">        <i>in<b/>piedi</i><par n="ieri__adv"/></e>
 <e lm="in più">          <i>in<b/>più</i><par n="ieri__adv"/></e>
@@ -48770,6 +48777,7 @@
 <e lm="poco più">        <i>poco<b/>più</i><par n="ieri__adv"/></e>
 <e lm="poderosamente">   <i>poderosamente</i><par n="ieri__adv"/></e>
 <e lm="poi">             <i>poi</i><par n="ieri__adv"/></e>
+<e lm="poi tanto">       <i>poi<b/>tanto</i><par n="ieri__adv"/></e>
 <e lm="polemicamente">   <i>polemicamente</i><par n="ieri__adv"/></e>
 <e lm="politicamente">   <i>politicamente</i><par n="ieri__adv"/></e>
 <e lm="popolarmente">    <i>popolarmente</i><par n="ieri__adv"/></e>
@@ -49072,7 +49080,8 @@
 <e lm="umilmente">       <i>umilmente</i><par n="ieri__adv"/></e>
 <e lm="un'altra cosa">   <i>un'altra<b/>cosa</i><par n="ieri__adv"/></e>
 <e lm="un poco">         <i>un<b/>poco</i><par n="ieri__adv"/></e>
-<e lm="un pò">           <i>un<b/>pò</i><par n="ieri__adv"/></e>
+<e lm="un po'">          <i>un<b/>po'</i><par n="ieri__adv"/></e>
+<e lm="un bel po'">      <i>un<b/>bel<b/>po'</i><par n="ieri__adv"/></e>
 <e lm="una volta">       <i>una<b/>volta</i><par n="ieri__adv"/></e>
 <e lm="unanimemente">    <i>unanimemente</i><par n="ieri__adv"/></e>
 <e lm="unicamente">      <i>unicamente</i><par n="ieri__adv"/></e>
@@ -49204,6 +49213,7 @@
 <e lm="fuori da">        <i>fuori<b/></i><par n="/da__pr"/></e>
 <e r="LR" lm="in">       <i>in</i><par n="accanto__pr"/></e>
 <e lm="in assenza di">   <i>in<b/>assenza<b/></i><par n="/di__pr"/></e>
+<e lm="in cerca di">   <i>in<b/>cerca<b/></i><par n="/di__pr"/></e>
 <e lm="in attesa di">    <i>in<b/>attesa<b/></i><par n="/di__pr"/></e>
 <e lm="in cima a">       <i>in<b/>cima<b/></i><par n="/a__pr"/></e>
 <e lm="in mezzo a">      <i>in<b/>mezzo<b/></i><par n="/a__pr"/></e>
@@ -49211,12 +49221,16 @@
 <e lm="insieme a">       <i>insieme<b/></i><par n="/a__pr"/></e>
 <e r="RL" lm="insieme con"><p><l>insieme<b/><a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
 <e r="LR" lm="insieme con"><i>insieme<b/>con</i><par n="accanto__pr"/></e>
+<e r="RL" lm="in gara con"><p><l>in<b/>gara<a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
+<e r="LR" lm="in gara con"><i>in<b/>gara<b/>con</i><par n="accanto__pr"/></e>
+<e r="LR" lm="in gara col"><i>in<b/>gara<b/></i><par n="/col__pr"/></e>
 <e lm="intorno a">       <i>intorno<b/></i><par n="/a__pr"/></e>
 <e lm="lungo">           <i>lungo</i><par n="accanto__pr"/></e>
 <e lm="mediante">        <i>mediante</i><par n="accanto__pr"/></e>
 <e lm="nel">             <par n="/nel__pr"/></e>
 <e lm="nonostante">      <i>nonostante</i><par n="accanto__pr"/></e>
 <e lm="oltre">           <i>oltre</i><par n="accanto__pr"/></e>
+<e lm="oltre a">           <i>oltre<b/></i><par n="/a__pr"/></e>
 <e lm="per">             <i>per</i><par n="accanto__pr"/></e>
 <e lm="per altri">       <i>per<b/>altri</i><par n="accanto__pr"/></e>
 <e lm="per mezzo di">    <i>per<b/>mezzo<b/></i><par n="/di__pr"/></e>
@@ -49464,6 +49478,7 @@
 <e lm="quasi">           <i>quasi</i><par n="bene__preadv"/></e>
 <e lm="talmente">        <i>talmente</i><par n="bene__preadv"/></e>
 <e lm="tanto">           <i>tanto</i><par n="bene__preadv"/></e>
+<e lm="poi tanto">       <i>poi<b/>tanto</i><par n="bene__preadv"/></e>
 
     <!-- ******************************
           group prn_symbol
@@ -49763,7 +49778,6 @@
 <e r="LR" lm="anch'">    <p><l>anch'</l>     <r>anche</r></p><par n="ieri__adv"/></e>
 <e r="LR" lm="com'">     <p><l>com'</l>      <r>come</r></p><par n="ieri__adv"/></e>
 <e r="LR" lm="tant'">    <p><l>tant'</l>     <r>tanto</r></p><par n="ieri__adv"/></e>
-<e r="LR" lm="un po'">   <p><l>un<b/>po'</l> <r>un<b/>pò</r></p><par n="ieri__adv"/></e>
     <!-- ******************************
           group prn_symbol
       ****************************** -->
