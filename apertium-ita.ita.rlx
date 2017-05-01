@@ -109,6 +109,7 @@ SELECT Pron IF (0 Io) ;
 SELECT Pr IF (0 Sotto) (1 Det) ;
 
 SELECT Avere IF (1 PrfPrc) ;
+SELECT Avere IF (1 Adv) (2 PrfPrc) ;
 
 SELECT Ser IF (0 Puo_essere) (1 PrfPrc) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
