@@ -22179,6 +22179,7 @@
 <e lm="acquedotto">      <i>acquedott</i><par n="abbain/o__n"/></e>
 <e lm="acquerello">      <i>acquerell</i><par n="abbain/o__n"/></e>
 <e lm="acquiescenza">    <i>acquiescenz</i><par n="cas/a__n"/></e>
+<e lm="acutezza">        <i>acutezz</i><par n="cas/a__n"/></e>
 <e lm="acquirente">      <i>acquirent</i><par n="albanes/e__n"/></e>
 <e lm="acquisizione">    <i>acquisizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="acquisto">        <i>acquist</i><par n="abbain/o__n"/></e>
@@ -28183,6 +28184,7 @@
 <e lm="ingerenza">       <i>ingerenz</i><par n="cas/a__n"/></e>
 <e lm="ingiunzione">     <i>ingiunzion</i><par n="abbreviazion/e__n"/></e>
 <e lm="ingiustizia">     <i>ingiustizi</i><par n="cas/a__n"/></e>
+<e lm="ingiuria">     <i>ingiuri</i><par n="cas/a__n"/></e>
 <e lm="inglese">         <i>ingles</i><par n="albanes/e__n"/></e>
 <e lm="ingombro">        <i>ingombr</i><par n="abbain/o__n"/></e>
 <e lm="ingordo">         <i>ingord</i><par n="abbain/o__n"/></e>
@@ -46386,6 +46388,7 @@
 <e lm="personalizzare">  <i>personalizz</i><par n="abbacin/are__vblex"/></e>
 <e lm="persuadere">      <i>persua</i><par n="inva/dere__vblex"/></e>
 <e lm="perturbare">      <i>perturb</i><par n="abbacin/are__vblex"/></e>
+<e lm="turbare">         <i>turb</i><par n="abbacin/are__vblex"/></e>
 <e lm="pervenire">       <i>perv</i><par n="avv/enire__vblex"/></e>
 <e lm="pervadere">       <i>perva</i><par n="inva/dere__vblex"/></e>
 <e lm="pervertire">      <i>pervert</i><par n="aborr/ire__vblex"/></e>
@@ -47514,6 +47517,8 @@
 <e lm="zincare">         <i>zinc</i><par n="abbarbic/are__vblex"/></e>
 <e lm="zittire">         <i>zitt</i><par n="abbell/ire__vblex"/></e>
 <e lm="zoppicare">       <i>zoppic</i><par n="abbarbic/are__vblex"/></e>
+
+<e lm="arrecare">        <i>abbac</i><par n="abbarbic/are__vblex"/></e>
    
 
 <!--       ******************************      (cnjadv) group      ******************************    -->
