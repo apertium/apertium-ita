@@ -509,9 +509,9 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
 
-<pardef n="favela/s__n">
+<pardef n="favela__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>s</l>         <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="scacchi__n">
@@ -13295,7 +13295,7 @@
 
 
 <pardef n="medicine__n">
-  <e>       <p><l></l>          <r>e<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
        
@@ -14015,6 +14015,8 @@
 <e lm="un altro">        <par n="/un_altro__det"/></e>
 <e lm="vario">           <i>vari</i><par n="vari/o__det"/></e>
 <e lm="vostro">          <i>vostr</i><par n="vostr/o__det"/></e>
+<e lm="gli altri">        <par n="/gli_altri__prn"/></e>
+
     <!-- ******************************
           group prn
       ****************************** -->
@@ -14111,7 +14113,7 @@
           group rel
       ****************************** -->
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="dove__rel"/></e>
-<e r="RL" lm="quanto">   <p><l><a/>quanto</l><r>quanto</r></p><par n="quant/o__rel"/></e>
+<e r="RL" lm="quanto">   <p><l><a/>quant</l><r>quant</r></p><par n="quant/o__rel"/></e>
 <e lm="che">             <i>che</i><par n="che__rel"/></e>
 <e lm="chi">             <i>chi</i><par n="chi__rel"/></e>
 <e r="LR" lm="come">     <i>come</i><par n="dove__rel"/></e>
@@ -14125,8 +14127,10 @@
 <e lm="col quale">       <i>co</i><par n="ne/l_quale__rel"/></e>
 <e lm="quale">           <i>qual</i><par n="qual/e__rel"/></e>
 <e lm="quando">          <i>quando</i><par n="dove__rel"/></e>
-<e r="LR" lm="quanto">   <i>quanto</i><par n="quant/o__rel"/></e>
+<e r="LR" lm="quanto">   <i>quant</i><par n="quant/o__rel"/></e>
 <e lm="quello che">      <par n="/quello_che__rel"/></e>
+<e lm="quanto">          <i>quanto</i><par n="dove__rel"/></e>
+
     <!-- ******************************
           group np
       ****************************** -->
@@ -21950,7 +21954,6 @@
 <e lm="Ici" c="Imposta Comunale sugli Immobili"><i>Ici</i><par n="TV__n"/></e>
 <e lm="Ictu" c="Irish Congress of Trade Unions"><i>Ictu</i><par n="BBVA__n"/></e>
 <e lm="Idaho">           <i>Idaho</i><par n="abilità__n"/></e>
-<e lm="Inquisizione">    <i>Inquisizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="Institute">       <i>Institute</i><par n="abilità__n"/></e>
 <e lm="International">   <i>International</i><par n="abilità__n"/></e>
 <e lm="Ipsos">           <i>Ipsos</i><par n="BBVA__n"/></e>
@@ -22774,7 +22777,7 @@
 <e lm="aranese">         <i>aranes</i><par n="albanes/e__n"/></e>
 <e lm="aratro">          <i>aratr</i><par n="abbain/o__n"/></e>
 <e lm="arazzo">          <i>arazz</i><par n="abbain/o__n"/></e>
-<e lm="arbitro">         <i>arbitr</i><par n="abbain/o__n"/></e>
+<e lm="arbitro">         <i>arbitr</i><par n="sopran/o__n"/></e>
 <e lm="arbitrato">       <i>arbitrat</i><par n="abbain/o__n"/></e>
 <e lm="arbitrio">        <i>arbitri</i><par n="abbain/o__n"/></e>
 <e lm="arbusto">         <i>arbust</i><par n="abbain/o__n"/></e>
@@ -23274,7 +23277,7 @@
 <e lm="bancarottiere">   <i>bancarottier</i><par n="abat/e__n"/></e>
 <e lm="banchetto">       <i>banchett</i><par n="abbain/o__n"/></e>
 <e lm="banchiere">       <i>banchier</i><par n="abat/e__n"/></e>
-<e lm="bancomat">        <i>bancomat</i><par n="PIL__n"/></e>
+<e lm="bancomat">        <i>bancomat</i><par n="albatros__n"/></e>
 <e lm="bancone">         <i>bancon</i><par n="abat/e__n"/></e>
 <e lm="banconota">       <i>banconot</i><par n="cas/a__n"/></e>
 <e lm="banda">           <i>band</i><par n="cas/a__n"/></e>
@@ -24278,7 +24281,6 @@
 <e lm="centesimo">       <i>centesim</i><par n="abbain/o__n"/></e>
 <e lm="centimetro">      <i>centimetr</i><par n="abbain/o__n"/></e>
 <e lm="centinaio">       <i>centinai</i><par n="budell/o__n"/></e>
-<e lm="centinaio">       <i>centinai</i><par n="abbagli/o__n"/></e>
 <e lm="centometrista">   <i>centometrist</i><par n="suicid/a__n"/></e>
 <e lm="centone">         <i>centon</i><par n="abat/e__n"/></e>
 <e lm="centro">          <i>centr</i><par n="abbain/o__n"/></e>
@@ -24719,7 +24721,7 @@
 <e lm="commiato">        <i>commiat</i><par n="abbain/o__n"/></e>
 <e lm="commilitone">     <i>commiliton</i><par n="abat/e__n"/></e>
 <e lm="commisione">      <i>commision</i><par n="abbreviazion/e__n"/></e>
-<e lm="commissario">     <i>commissari</i><par n="abbain/o__n"/></e>
+<e lm="commissario">     <i>commissari</i><par n="sopran/o__n"/></e>
 <e lm="commissariamento"><i>commissariament</i><par n="abbain/o__n"/></e>
 <e lm="commissariato">   <i>commissariat</i><par n="abbain/o__n"/></e>
 <e lm="commissione">     <i>commission</i><par n="abbreviazion/e__n"/></e>
@@ -24798,7 +24800,7 @@
 <e lm="comproprietà">    <i>comproprietà</i><par n="abilità__n"/></e>
 <e lm="computo">         <i>comput</i><par n="abbain/o__n"/></e>
 <e lm="computazione">    <i>computazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="computer">        <i>computer</i><par n="affaire__n"/></e>
+<e lm="computer">        <i>computer</i><par n="albatros__n"/></e>
 <e lm="computerizzazione"><i>computerizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="comune">          <i>comun</i><par n="abat/e__n"/></e>
 <e lm="comunicabilità">  <i>comunicabilità</i><par n="agibilità__n"/></e>
@@ -26089,8 +26091,7 @@
 <e lm="divulgazione">    <i>divulgazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="dizione">         <i>dizion</i><par n="abbreviazion/e__n"/></e>
 <e lm="dizionario">      <i>dizionari</i><par n="abbagli/o__n"/></e>
-<!--
-    <e lm="do"><i>do</i><par n="albatros__n"/></e>-->
+<!--<e lm="do"><i>do</i><par n="albatros__n"/></e>-->
 <e lm="doccia">          <i>docc</i><par n="alzatacc/ia__n"/></e>
 <e lm="docente">         <i>docent</i><par n="albanes/e__n"/></e>
 <e lm="docilità">        <i>docilità</i><par n="abilità__n"/></e>
@@ -26106,7 +26107,7 @@
 <e lm="dogmatismo">      <i>dogmatism</i><par n="abbain/o__n"/></e>
 <e lm="antidogmatismo">      <i>antidogmatism</i><par n="abbain/o__n"/></e>
 <e lm="dolo">            <i>dol</i><par n="abbain/o__n"/></e>
-<e lm="dolce">           <i>dolc</i><par n="fin/e__adj"/></e>
+<e lm="dolce">           <i>dolc</i><par n="abat/e__n"/></e>
 <e lm="dolcetto">        <i>dolcett</i><par n="abbain/o__n"/></e>
 <e lm="dolcezza">        <i>dolcezz</i><par n="cas/a__n"/></e>
 <e lm="dolcificante">    <i>dolcificant</i><par n="abat/e__n"/></e>
@@ -26208,11 +26209,10 @@
 <e lm="durezza">         <i>durezz</i><par n="cas/a__n"/></e>
 <e lm="duttilità">       <i>duttilità</i><par n="abilità__n"/></e>
 <e lm="dvd">             <i>dvd</i><par n="albatros__n"/></e>
-<e lm="dà dipendenza">   <i>dà<b/>dipendenza</i><par n="abilità__n"/></e> <!-- VERIFY -->
 <e lm="dèmone">          <i>dèmon</i><par n="abat/e__n"/></e>
 <e lm="débacle">         <i>débacle</i><par n="abilità__n"/></e>
 <e lm="démone">          <i>démon</i><par n="abat/e__n"/></e>
-<e lm="e-mail">          <i>e-mail</i><par n="blogger__n"/></e>
+<e lm="e-mail">          <i>e-mail</i><par n="abilità__n"/></e>
 <e lm="easing">          <i>easing</i><par n="albatros__n"/></e>
 <e lm="ebano">           <i>eban</i><par n="abbain/o__n"/></e>
 <e lm="ebanista">        <i>ebanist</i><par n="suicid/a__n"/></e>
@@ -26266,7 +26266,7 @@
 <e lm="efebo">           <i>efeb</i><par n="abbain/o__n"/></e>
 <e lm="efferato">        <i>efferat</i><par n="abbain/o__n"/></e>
 <e lm="effetto">         <i>effett</i><par n="abbain/o__n"/></e>
-<e lm="effetto leva">    <i>effet</i><par n="abbain/o__n"/><p><l><b/>leva</l><r><g><b/>leva</g></r></p></e>
+<e lm="effetto leva">    <i>effett</i><par n="abbain/o__n"/><p><l><b/>leva</l><r><g><b/>leva</g></r></p></e>
 <e lm="efficacia">       <i>efficaci</i><par n="cas/a__n"/></e>
 <e lm="efficienza">      <i>efficienz</i><par n="cas/a__n"/></e>
 <e lm="effimero">        <i>effimer</i><par n="bambin/o__n"/></e>
@@ -26623,7 +26623,7 @@
 <e lm="eucarestia">      <i>eucaresti</i><par n="cas/a__n"/></e>
 <e lm="eufemismo">       <i>eufemism</i><par n="abbain/o__n"/></e>
 <e lm="euforia">         <i>eufori</i><par n="cas/a__n"/></e>
-<e lm="euribor">         <i>euribor</i><par n="ace__n"/></e>
+<e lm="euribor">         <i>euribor</i><par n="albatros__n"/></e>
 <e lm="euro">            <i>euro</i><par n="albatros__n"/></e>
 <e lm="eurobbligazione"> <i>eurobbligazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="eurocrato">       <i>eurocrat</i><par n="bambin/o__n"/></e>
@@ -26777,7 +26777,7 @@
 <e lm="fauna">           <i>faun</i><par n="cas/a__n"/></e>
 <e lm="fautore">         <i>faut</i><par n="agricolt/ore__n"/></e>
 <e lm="fava">            <i>fav</i><par n="cas/a__n"/></e>
-<e lm="favela">          <i>favela</i><par n="favela/s__n"/></e>
+<e lm="favela">          <i>favela</i><par n="favela__n"/></e>
 <e lm="favore">          <i>favor</i><par n="abat/e__n"/></e>
 <e lm="favoreggiamento"> <i>favoreggiament</i><par n="abbain/o__n"/></e>
 <e lm="favoreggiatore">  <i>favoreggiator</i><par n="abat/e__n"/></e>
@@ -27652,7 +27652,7 @@
 <e lm="graffito">        <i>graffit</i><par n="abbain/o__n"/></e>
 <e lm="graffiti">        <i>graffiti</i><par n="albatros__n"/></e>
 <e lm="grafia">          <i>grafi</i><par n="cas/a__n"/></e>
-<e lm="grafico">         <i>grafic</i><par n="amic/o__n"/></e>
+<e lm="grafico">         <i>grafic</i><par n="abbain/o__n"/></e>
 <e lm="grafica">         <i>grafic</i><par n="tasc/a__n"/></e>
 <e lm="grammo">          <i>gramm</i><par n="abbain/o__n"/></e>
 <e lm="grammatica">      <i>grammatic</i><par n="tasc/a__n"/></e>
@@ -28533,7 +28533,9 @@
 <e lm="kenyano">         <i>kenyan</i><par n="bambin/o__n"/></e>
 <e lm="kermesse">        <i>kermesse</i><par n="abilità__n"/></e>
 <e lm="keynesiano">      <i>keynesian</i><par n="bambin/o__n"/></e>
-<e lm="kg">              <i>kg</i><par n="PIL__n"/></e>
+<e lm="kg">              <i>kg</i><par n="albatros__n"/></e>
+<e lm="cm">              <i>cm</i><par n="albatros__n"/></e>
+<e lm="m">              <i>m</i><par n="albatros__n"/></e>
 <e lm="khomeinismo">     <i>khomeinism</i><par n="abbain/o__n"/></e>
 <e lm="khomeinista">     <i>khomeinist</i><par n="suicid/a__n"/></e>
 <e lm="killer">          <i>killer</i><par n="blogger__n"/></e>
@@ -29513,7 +29515,7 @@
 <e lm="mimetismo">       <i>mimetism</i><par n="abbain/o__n"/></e>
 <e lm="mimetizzazione">  <i>mimetizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="mina">            <i>min</i><par n="cas/a__n"/></e>
-<e lm="min.">            <i>min.</i><par n="PIL__n"/></e>
+<e lm="min.">            <i>min.</i><par n="albatros__n"/></e>
 <e lm="minaccia">        <i>minacc</i><par n="alzatacc/ia__n"/></e>
 <e lm="minareto">        <i>minaret</i><par n="abbain/o__n"/></e>
 <e lm="minatore">        <i>minat</i><par n="agricolt/ore__n"/></e>
@@ -30151,7 +30153,7 @@
 <e lm="occhietto">       <i>occhiett</i><par n="abbain/o__n"/></e>
 <e lm="occhiolino">      <i>occhiolin</i><par n="abbain/o__n"/></e>
 <e lm="occhione">        <i>occhion</i><par n="abat/e__n"/></e>
-<e lm="occidente">       <i>occident</i><par n="abat/e__n"/></e>
+<e lm="occidente">       <i>occidente</i><par n="ace__n"/></e>
 <e lm="occitano">        <i>occitan</i><par n="bambin/o__n"/></e>
 <e lm="occlusione">      <i>occlusion</i><par n="abbreviazion/e__n"/></e>
 <e lm="occultamento">    <i>occultament</i><par n="abbain/o__n"/></e>
@@ -30304,7 +30306,7 @@
 <e lm="organizzazione">  <i>organizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="orgasmo">         <i>orgasm</i><par n="abbain/o__n"/></e>
 <e lm="orgoglio">        <i>orgogli</i><par n="abbagli/o__n"/></e>
-<e lm="oriente">         <i>orient</i><par n="abat/e__n"/></e>
+<e lm="oriente">         <i>oriente</i><par n="ace__n"/></e>
 <e lm="orientalismo">    <i>orientalism</i><par n="abbain/o__n"/></e>
 <e lm="orientalista">    <i>orientalist</i><par n="suicid/a__n"/></e>
 <e lm="orientamento">    <i>orientament</i><par n="abbain/o__n"/></e>
@@ -33780,7 +33782,7 @@
 <e lm="speronamento">    <i>speronament</i><par n="abbain/o__n"/></e>
 <e lm="sperpero">        <i>sperper</i><par n="abbain/o__n"/></e>
 <e lm="spesa">           <i>spes</i><par n="cas/a__n"/></e>
-<e lm="spese">           <i>spes</i><par n="medicine__n"/></e>
+<e lm="spese">           <i>spese</i><par n="medicine__n"/></e>
 <e lm="spessore">        <i>spessor</i><par n="abat/e__n"/></e>
 <e lm="spettacolo">      <i>spettacol</i><par n="abbain/o__n"/></e>
 <e lm="spettacolarità">  <i>spettacolarità</i><par n="abilità__n"/></e>
@@ -38284,7 +38286,7 @@
 <e lm="dogale">          <i>dogal</i><par n="fin/e__adj"/></e>
 <e lm="doganale">        <i>doganal</i><par n="fin/e__adj"/></e>
 <e lm="dogmatico">       <i>dogmatic</i><par n="tecnic/o__adj"/></e>
-<e lm="dolce">           <i>dolc</i><par n="albanes/e__adj"/></e>
+<e lm="dolce">           <i>dolc</i><par n="fin/e__adj"/></e>
 <e lm="dolce-amaro">     <i>dolce-amar</i><par n="abbandonat/o__adj"/></e>
 <e lm="dolciario">       <i>dolciari</i><par n="ampi/o__adj"/></e>
 <e lm="dolciastro">      <i>dolciastr</i><par n="abbandonat/o__adj"/></e>
@@ -41571,7 +41573,7 @@
 <e lm="pazzo">           <i>pazz</i><par n="abbandonat/o__adj"/></e>
 <e lm="pazzerello">      <i>pazzerell</i><par n="abbandonat/o__adj"/></e>
 <e lm="pazzerellone">    <i>pazzerellon</i><par n="fin/e__adj"/></e>
-<e lm="pazzesco">        <i>pazzesc</i><par n="tedesc/o__adj"/></e>
+<e lm="pazzesco">        <i>pazzesc</i><par n="tecnic/o__adj"/></e>
 <e lm="pazzoide">        <i>pazzoid</i><par n="fin/e__adj"/></e>
 <e lm="pecato">          <i>pecat</i><par n="cosiddett/o__adj"/></e>
 <e lm="peccaminoso">     <i>peccaminos</i><par n="abbandonat/o__adj"/></e>
@@ -44537,6 +44539,7 @@
 <e lm="zuppo">           <i>zupp</i><par n="abbandonat/o__adj"/></e>
 <e lm="zurighese">       <i>zurighes</i><par n="albanes/e__adj"/></e>
 <e lm="zurliniano">      <i>zurlinian</i><par n="abbandonat/o__adj"/></e>
+<e lm="aragonese">       <i>aragones</i><par n="albanes/e__adj"/></e>
 
     <!-- ******************************
           group n_symbol
@@ -44563,7 +44566,7 @@
 <e lm="cassetta della posta"><p><l>cassette<b/>della<b/>posta</l><r>cassetta<b/>della<b/>posta<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="computer portatile"><p><l>computer<b/>portatile</l><r>computer<b/>portatile<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="computer portatile"><p><l>computer<b/>portatili</l><r>computer<b/>portatile<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e lm="direzione generale"><p><l>direzione<b/>generale</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="direzione generale"><p><l>Direzione<b/>Generale</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="direzione nazionale"><p><l>direzione<b/>nazionale</l><r>direzione<b/>nazionale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="direzione generale"><p><l>direzioni<b/>generali</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="direzione nazionale"><p><l>direzioni<b/>nazionali</l><r>direzione<b/>nazionale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -47665,6 +47668,7 @@
 <e lm="a metà">          <i>a<b/>metà</i><par n="ieri__adv"/></e>
 <e lm="a metà strada">   <i>a<b/>metà<b/>strada</i><par n="ieri__adv"/></e>
 <e lm="metà prezzo">     <i>metà<b/>prezzo</i><par n="ieri__adv"/></e>
+<e lm="a metà prezzo">     <i>a<b/>metà<b/>prezzo</i><par n="ieri__adv"/></e>
 <e lm="a mezzanotte">    <i>a<b/>mezzanotte</i><par n="ieri__adv"/></e>
 <e lm="a mezzogiorno">   <i>a<b/>mezzogiorno</i><par n="ieri__adv"/></e>
 <e lm="a nord">          <i>a<b/>nord</i><par n="ieri__adv"/></e>
@@ -47705,6 +47709,9 @@
 <e lm="abbastanza">      <i>abbastanza</i><par n="ieri__adv"/></e>
 <e lm="abbondantemente"> <i>abbondantemente</i><par n="ieri__adv"/></e>
 <e lm="bassa stagione">  <i>bassa<b/>stagione</i><par n="ieri__adv"/></e>
+<e lm="a dire la verità">  <i>a<b/>dire<b/>la<b/>verità</i><par n="ieri__adv"/></e>
+<e lm="part-time">       <i>part-time</i><par n="ieri__adv"/></e>
+<e lm="in privato">      <i>in<b/>privato</i><par n="ieri__adv"/></e>
 
 <!--       ******************************      (adv) group      ******************************    -->
 
@@ -48145,7 +48152,7 @@
 <e lm="dopotutto">       <i>dopotutto</i><par n="ieri__adv"/></e>
 <e lm="doppiamente">     <i>doppiamente</i><par n="ieri__adv"/></e>
 <e lm="dottamente">      <i>dottamente</i><par n="ieri__adv"/></e>
-<e lm="dove">     <i>dove</i><par n="quando__adv"/></e>
+<e lm="dove" r="LR">     <i>dove</i><par n="quando__adv"/></e>
 <e lm="doviziosamente">  <i>doviziosamente</i><par n="ieri__adv"/></e>
 <e lm="dovunque">        <i>dovunque</i><par n="ieri__adv"/></e>
 <e lm="dovutamente">     <i>dovutamente</i><par n="ieri__adv"/></e>
@@ -49226,7 +49233,7 @@
 <e lm="insieme a">       <i>insieme<b/></i><par n="/a__pr"/></e>
 <e r="RL" lm="insieme con"><p><l>insieme<b/><a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
 <e r="LR" lm="insieme con"><i>insieme<b/>con</i><par n="accanto__pr"/></e>
-<e r="RL" lm="in gara con"><p><l>in<b/>gara<a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
+<e r="RL" lm="in gara con"><p><l>in<b/>gara<a/>con</l><r>in<b/>gara<b/>con</r></p><par n="accanto__pr"/></e>
 <e r="LR" lm="in gara con"><i>in<b/>gara<b/>con</i><par n="accanto__pr"/></e>
 <e r="LR" lm="in gara col"><i>in<b/>gara<b/></i><par n="/col__pr"/></e>
 <e lm="intorno a">       <i>intorno<b/></i><par n="/a__pr"/></e>
