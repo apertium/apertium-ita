@@ -45,6 +45,10 @@ SET MascPl2 = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg2 = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl2 = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
+LIST P1 = (p1) ;
+LIST P2 = (p2) ;
+LIST P3 = (p3) ;
+
 LIST unknown = ("\\*.*"r) ;
 
 LIST Avere = vbhaver ;
@@ -73,6 +77,7 @@ LIST Npl = (n pl) ;
 
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
+LIST Pl3 = (p3 pl) ;
 
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
@@ -248,3 +253,8 @@ SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;	# consigliere diplomat
 SELECT F IF (0 N + M) (0 N + F) (1 A + F) (NOT 1 A + M) ;
 
 #SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)	# un suo moto proprio
+
+SELECT P1 IF (0 ("<sono>")) (-1 Io) ;				# io sono
+SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
+SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PrfPrc + Sg) ;		# sono povero
+SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PrfPrc + Sg) ;	# sono molto povero
