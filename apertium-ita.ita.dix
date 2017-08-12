@@ -7887,8 +7887,8 @@
   <e>       <p><l>ite</l>       <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>ite</l>       <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__canta"/></e>
   <e>       <p><l>i</l>         <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-    <!--  <e><p><l>i</l><r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e> llevat fins que el tagger millore-->
-  <e>       <p><l>i'</l>        <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>i</l>         <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__da"/></e> <!--llevat fins que el tagger millore-->
+  <e r="LR"><p><l>i'</l>        <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ì</l>         <r>ire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ican</l>      <r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>icano</l>     <r>ire<s n="vblex"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -22361,6 +22361,7 @@
 <e lm="albo">            <i>alb</i><par n="abbain/o__n"/></e>
 <e lm="alba">            <i>alb</i><par n="cas/a__n"/></e>
 <e lm="albanese">        <i>albanes</i><par n="albanes/e__n"/></e>
+<e lm="nuraghese">       <i>nuraghes</i><par n="albanes/e__n"/></e>
 <e lm="albatros">        <i>albatros</i><par n="albatros__n"/></e>
 <e lm="albero">          <i>alber</i><par n="abbain/o__n"/></e>
 <e lm="alberello">       <i>alberell</i><par n="abbain/o__n"/></e>
@@ -25763,7 +25764,7 @@
 <e lm="diabetologo">     <i>diabetolog</i><par n="astrolog/o__n"/></e>
 <e lm="diabolico">       <i>diabolic</i><par n="amic/o__n"/></e>
 <e lm="diacono">         <i>diacon</i><par n="abbain/o__n"/></e>
-<e lm="diaframma">       <i>diaframma</i><par n="autom/a__n"/></e>
+<e lm="diaframma">       <i>diaframm</i><par n="autom/a__n"/></e>
 <e lm="diagnosi">        <i>diagnosi</i><par n="abilità__n"/></e>
 <e lm="diagramma">       <i>diagramma</i><par n="albatros__n"/></e>
 <e lm="dialetto">        <i>dialett</i><par n="abbain/o__n"/></e>
@@ -33209,6 +33210,7 @@
 <e lm="senzatetto">      <i>senzatett</i><par n="abbain/o__n"/></e>
 <e lm="separatismo">     <i>separatism</i><par n="abbain/o__n"/></e>
 <e lm="separatista">     <i>separatist</i><par n="suicid/a__adj"/></e>
+<e lm="separatista">     <i>separatist</i><par n="suicid/a__n"/></e>
 <e lm="separazione">     <i>separazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="sepolcro">        <i>sepolcr</i><par n="abbain/o__n"/></e>
 <e lm="sepolto">         <i>sepolt</i><par n="abbain/o__n"/></e>
@@ -33291,6 +33293,7 @@
 <e lm="sfavillio">       <i>sfavilli</i><par n="abbain/o__n"/></e>
 <e lm="sfavore">         <i>sfavor</i><par n="abat/e__n"/></e>
 <e lm="sfera">           <i>sfer</i><par n="cas/a__n"/></e>
+<e lm="semisfera">       <i>semisfer</i><par n="cas/a__n"/></e>
 <e lm="sfida">           <i>sfid</i><par n="cas/a__n"/></e>
 <e lm="sfidante">        <i>sfidant</i><par n="abat/e__n"/></e>
 <e lm="sfiducia">        <i>sfiduci</i><par n="cas/a__n"/></e>
@@ -34987,7 +34990,7 @@
 <e lm="ultraconservatore"><i>ultraconservat</i><par n="agricolt/ore__n"/></e>
 <e lm="ultranazionalista"><i>ultranazionalist</i><par n="suicid/a__n"/></e>
 <e lm="ultranazionalista"><i>ultranazionalist</i><par n="suicid/a__adj"/></e>
-<e lm="ultranazionalismo"><i>ultranazionalist</i><par n="abbain/o__n"/></e>
+<e lm="ultranazionalismo"><i>ultranazionalism</i><par n="abbain/o__n"/></e>
 <e lm="ultraortodosso">  <i>ultraortodoss</i><par n="bambin/o__n"/></e>
 <e lm="ultrasuono">      <i>ultrasuon</i><par n="abbain/o__n"/></e>
 <e lm="ululato">         <i>ululat</i><par n="abbain/o__n"/></e>
@@ -35807,6 +35810,8 @@
 <e lm="alare">           <i>alar</i><par n="fin/e__adj"/></e>
 <e lm="alato">           <i>alat</i><par n="abbandonat/o__adj"/></e>
 <e lm="albanese">        <i>albanes</i><par n="albanes/e__adj"/></e>
+<e lm="nuraghese">       <i>nuraghes</i><par n="albanes/e__adj"/></e>
+<e lm="orotellese">      <i>orotelles</i><par n="albanes/e__adj"/></e>
 <e lm="alberato">        <i>alberat</i><par n="abbandonat/o__adj"/></e>
 <e lm="alberghiero">     <i>alberghier</i><par n="abbandonat/o__adj"/></e>
 <e lm="albino">          <i>albin</i><par n="abbandonat/o__adj"/></e>
@@ -36114,6 +36119,7 @@
 <e lm="anti-russo">      <i>anti-russ</i><par n="abbandonat/o__adj"/></e>
 <e lm="anti-scientifico"><i>anti-scientific</i><par n="tecnic/o__adj"/></e>
 <e lm="anti-separatista"><i>anti-separatist</i><par n="suicid/a__adj"/></e>
+<e lm="anti-separatista"><i>anti-separatist</i><par n="suicid/a__n"/></e>
 <e lm="anti-serbo">      <i>anti-serb</i><par n="abbandonat/o__adj"/></e>
 <e lm="anti-sindacale">  <i>anti-sindacal</i><par n="fin/e__adj"/></e>
 <e lm="anti-sionista">   <i>anti-sionist</i><par n="suicid/a__adj"/></e>
@@ -43641,6 +43647,7 @@
 <e lm="succulento">      <i>succulent</i><par n="abbandonat/o__adj"/></e>
 <e lm="sud-coreano">     <i>sud-corean</i><par n="abbandonat/o__adj"/></e>
 <e lm="sud-occidentale"> <i>sud-occidental</i><par n="albanes/e__adj"/></e>
+<e lm="sudoccidentale">  <i>sudoccidental</i><par n="albanes/e__adj"/></e>
 <e lm="sud-orientale">   <i>sud-oriental</i><par n="fin/e__adj"/></e>
 <e lm="sud-tirolese">    <i>sud-tiroles</i><par n="albanes/e__adj"/></e>
 <e lm="sudafricano">     <i>sudafrican</i><par n="abbandonat/o__adj"/></e>
@@ -44628,6 +44635,7 @@
 <e lm="udire">           <i></i><par n="/udire__vblex"/></e>
 <e lm="abbacare">        <i>abbac</i><par n="abbarbic/are__vblex"/></e>
 <e lm="abbacchiare">     <i>abbacchi</i><par n="abbacchi/are__vblex"/></e>
+<e lm="annebbiare">      <i>annebbi</i><par n="abbacchi/are__vblex"/></e>
 <e lm="abbagliare">      <i>abbagli</i><par n="accapigli/are__vblex"/></e>
 <e lm="abbaiare">        <i>abbai</i><par n="abbacchi/are__vblex"/></e>
 <e lm="abbancare">       <i>abbanc</i><par n="abbarbic/are__vblex"/></e>
@@ -45286,6 +45294,9 @@
 <e lm="consolare">       <i>consol</i><par n="abbacin/are__vblex"/></e>
 <e lm="consolidare">     <i>consolid</i><par n="abbacin/are__vblex"/></e>
 <e lm="consorziare">     <i>consorzi</i><par n="abbacchi/are__vblex"/></e>
+<e lm="annunziare">      <i>annunzi</i><par n="abbacchi/are__vblex"/></e>
+<e lm="aggraziare">      <i>aggrazi</i><par n="abbacchi/are__vblex"/></e>
+<e lm="sostanziare">     <i>sostanzi</i><par n="abbacchi/are__vblex"/></e>
 <e lm="constare">        <i>const</i><par n="abbacin/are__vblex"/></e>
 <e lm="constatare">      <i>constat</i><par n="abbacin/are__vblex"/></e>
 <e lm="consumere">       <i>consu</i><par n="riassu/mere__vblex"/></e>
@@ -47579,6 +47590,7 @@
 <e lm="escluso che">     <i>escluso<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="finché">          <i>finché</i><par n="siccome__cnjadv"/></e>
 <e lm="finché">          <i>finché</i><par n="ieri__adv"/></e>
+<e lm="un pò">           <i>un<b/>pò</i><par n="ieri__adv"/></e>
 <e lm="giacché">         <i>giacché</i><par n="siccome__cnjadv"/></e>
 <e lm="in modo che">     <i>in<b/>modo<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="ipotizzando che"> <i>ipotizzando<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -47812,6 +47824,7 @@
 <e lm="altamente">       <i>altamente</i><par n="ieri__adv"/></e>
 <e lm="fin">             <i>fin</i><par n="ieri__adv"/></e>
 <e lm="quanto">          <i>quanto</i><par n="ieri__adv"/></e>
+<e lm="normativamente">  <i>normativamente</i><par n="ieri__adv"/></e>
 <e lm="alternativamente"><i>alternativamente</i><par n="ieri__adv"/></e>
 <e lm="alti e bassi">    <i>alti<b/>e<b/>bassi</i><par n="ieri__adv"/></e>
 <e lm="altre volte">     <i>altre<b/>volte</i><par n="ieri__adv"/></e>
@@ -47956,7 +47969,7 @@
 <e lm="comprensibilmente"><i>comprensibilmente</i><par n="ieri__adv"/></e>
 <e lm="computazionalmente"><i>computazionalmente</i><par n="ieri__adv"/></e>
 <e lm="comunemente">     <i>comunemente</i><par n="ieri__adv"/></e>
-<e r="LR" lm="comunque"> <i>comunque</i><par n="ieri__adv"/></e>
+<e r="LR" lm="comunque">        <i>comunque</i><par n="ieri__adv"/></e>
 <e lm="con attenzione">  <i>con<b/>attenzione</i><par n="ieri__adv"/></e>
 <e lm="con serietà">     <i>con<b/>serietà</i><par n="ieri__adv"/></e>
 <e lm="con cura">        <i>con<b/>cura</i><par n="ieri__adv"/></e>
