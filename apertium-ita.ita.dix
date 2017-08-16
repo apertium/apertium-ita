@@ -15179,9 +15179,6 @@
 <e lm="Andalusia">       <i>Andalusia</i><par n="Europa__np"/></e>
 <e lm="Anderson">        <i>Anderson</i><par n="Díez__np"/></e>
 <e lm="Andorra">         <i>Andorra</i><par n="Europa__np"/></e>
-
-<!--       ******************************      (np) group      ******************************    -->
-
 <e lm="Andrea">          <i>Andrea</i><par n="María__np"/></e>
 <e lm="Andrea">          <i>Andrea</i><par n="Juan__np"/></e>
 <e lm="Andrew">          <i>Andrew</i><par n="Juan__np"/></e>
@@ -17783,6 +17780,7 @@
 <e lm="Giovannica">      <i>Giovannica</i><par n="María__np"/></e>
 <e lm="Giovannina">      <i>Giovannina</i><par n="María__np"/></e>
 <e lm="Giove">           <i>Giove</i><par n="Afghanistan__np"/></e>
+<e lm="Mercurio">        <i>Mercurio</i><par n="Afghanistan__np"/></e>
 <e lm="Giovenale">       <i>Giovenale</i><par n="Juan__np"/></e>
 <e lm="Giralda">         <i>Giralda</i><par n="María__np"/></e>
 <e lm="Girasole">        <i>Girasole</i><par n="USA__np"/></e>
@@ -18853,6 +18851,7 @@
 <e lm="Marta">           <i>Marta</i><par n="María__np"/></e>
 <e lm="Martana">         <i>Martana</i><par n="María__np"/></e>
 <e lm="Marte">           <i>Marte</i><par n="ABC__np"/></e>
+<e lm="Marte">           <i>Marte</i><par n="Afghanistan__np"/></e>
 <e lm="Martin">          <i>Martin</i><par n="Juan__np"/></e>
 <e lm="Martin">          <i>Martin</i><par n="Díez__np"/></e>
 <e lm="Martina">         <i>Martina</i><par n="María__np"/></e>
@@ -19307,6 +19306,8 @@
 <e lm="Nestore">         <i>Nestore</i><par n="Juan__np"/></e>
 <e lm="Nestorina">       <i>Nestorina</i><par n="María__np"/></e>
 <e lm="Nettuno">         <i>Nettuno</i><par n="Juan__np"/></e>
+<e lm="Nettuno">         <i>Nettuno</i><par n="Afghanistan__np"/></e>
+<e lm="Plutone">         <i>Plutone</i><par n="Afghanistan__np"/></e>
 <e lm="Nevada">          <i>Nevada</i><par n="Europa__np"/></e>
 <e lm="Nevia">           <i>Nevia</i><par n="María__np"/></e>
 <e lm="Nevilia">         <i>Nevilia</i><par n="María__np"/></e>
@@ -20534,6 +20535,7 @@
 <e lm="Saturnia">        <i>Saturnia</i><par n="María__np"/></e>
 <e lm="Saturnina">       <i>Saturnina</i><par n="María__np"/></e>
 <e lm="Saturno">         <i>Saturno</i><par n="ABC__np"/></e>
+<e lm="Saturno">         <i>Saturno</i><par n="Afghanistan__np"/></e>
 <e lm="Sauber">          <i>Sauber</i><par n="Fiat__np"/></e>
 <e lm="Saul">            <i>Saul</i><par n="Juan__np"/></e>
 <e lm="Saura">           <i>Saura</i><par n="María__np"/></e>
@@ -21215,6 +21217,7 @@
 <e lm="Unix">            <i>Unix</i><par n="ABC__np"/></e>
 <e lm="Urania">          <i>Urania</i><par n="María__np"/></e>
 <e lm="Uranio">          <i>Uranio</i><par n="Juan__np"/></e>
+<e lm="Urano">           <i>Uranu</i><par n="Afghanistan__np"/></e>
 <e lm="Uras">            <i>Uras</i><par n="Maldive__np"/></e>
 <e lm="Urbana">          <i>Urbana</i><par n="María__np"/></e>
 <e lm="Urbano">          <i>Urbano</i><par n="Juan__np"/></e>
@@ -21328,6 +21331,7 @@
 <e lm="Veneranda">       <i>Veneranda</i><par n="María__np"/></e>
 <e lm="Venerando">       <i>Venerando</i><par n="Juan__np"/></e>
 <e lm="Venere">          <i>Venere</i><par n="ABC__np"/></e>
+<e lm="Venere">          <i>Venere</i><par n="Europa__np"/></e>
 <e lm="Venerino">        <i>Venerino</i><par n="Juan__np"/></e>
 <e lm="Venerio">         <i>Venerio</i><par n="Juan__np"/></e>
 <e lm="Venero">          <i>Venero</i><par n="Juan__np"/></e>
@@ -49809,6 +49813,7 @@
 <e lm="coala">         <i>coala</i><par n="albatros__n"/></e>
 <e lm="puma">          <i>puma</i><par n="albatros__n"/></e>
 <e lm="prisma">        <i>prism</i><par n="autom/a__n"/></e>
+
 
   </section>
 
