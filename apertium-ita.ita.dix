@@ -16486,7 +16486,7 @@
 <e lm="Cordelia">        <i>Cordelia</i><par n="María__np"/></e>
 <e lm="Cordelio">        <i>Cordelio</i><par n="Juan__np"/></e>
 <e lm="Corea">           <i>Corea</i><par n="Europa__np"/></e>
-<e lm="Corea del Sud">   <i>Corea<b/>del<b/>Sud</i><par n="Afghanistan__np"/></e>
+<e lm="Corea del Sud">   <i>Corea<b/>del<b/>Sud</i><par n="Europa__np"/></e>
 <e lm="Corebo">          <i>Corebo</i><par n="Juan__np"/></e>
 <e lm="Coria">           <i>Coria</i><par n="Afghanistan__np"/></e>
 <e lm="Corinna">         <i>Corinna</i><par n="María__np"/></e>
@@ -17272,7 +17272,7 @@
 <e lm="Filiberto">       <i>Filiberto</i><par n="Juan__np"/></e>
 <e lm="Filippa">         <i>Filippa</i><par n="María__np"/></e>
 <e lm="Filippina">       <i>Filippina</i><par n="María__np"/></e>
-<e lm="Filippine">       <i>Filippine</i><par n="Afghanistan__np"/></e>
+<e lm="Filippine">       <i>Filippine</i><par n="Maldive__np"/></e>
 <e lm="Filippo">         <i>Filippo</i><par n="Juan__np"/></e>
 <e lm="Filomena">        <i>Filomena</i><par n="María__np"/></e>
 <e lm="Filomeno">        <i>Filomeno</i><par n="Juan__np"/></e>
@@ -17429,8 +17429,8 @@
 <e lm="Frine">           <i>Frine</i><par n="María__np"/></e>
 <e lm="Frino">           <i>Frino</i><par n="Juan__np"/></e>
 <e lm="Friuli">          <i>Friuli</i><par n="Afghanistan__np"/></e>
-<e lm="Friuli-Venezia Giulia"><i>Friuli-Venezia<b/>Giulia</i><par n="Europa__np"/></e>
 <e lm="Friuli-Venezia Giulia"><i>Friuli-Venezia<b/>Giulia</i><par n="Afghanistan__np"/></e>
+<e r="LR" lm="Friuli Venezia Giulia"><p><l>Friuli<b/>Venezia<b/>Giulia</l><r>Friuli<b/>Venezia<b/>Giulia</r></p><par n="Afghanistan__np"/></e>
 <e lm="Fronteddu">       <i>Fronteddu</i><par n="Díez__np"/></e>
 <e lm="Fujimori">        <i>Fujimori</i><par n="Díez__np"/></e>
 <e lm="Fulberto">        <i>Fulberto</i><par n="Juan__np"/></e>
@@ -20342,7 +20342,7 @@
 <e lm="Roussillon">      <i>Roussillon</i><par n="Afghanistan__np"/></e>
 <e lm="Rovigo">          <i>Rovigo</i><par n="Afghanistan__np"/></e>
 <e lm="Roy">             <i>Roy</i><par n="Juan__np"/></e>
-<e lm="Ruanda">          <i>Ruanda</i><par n="Afghanistan__np"/></e>
+<e lm="Ruanda">          <i>Ruanda</i><par n="Europa__np"/></e>
 <e lm="Rubalcaba">       <i>Rubalcaba</i><par n="Díez__np"/></e>
 <e lm="Ruben">           <i>Ruben</i><par n="Juan__np"/></e>
 <e lm="Rubina">          <i>Rubina</i><par n="María__np"/></e>
@@ -21337,7 +21337,7 @@
 <e lm="Venero">          <i>Venero</i><par n="Juan__np"/></e>
 <e lm="Veneto">          <i>Veneto</i><par n="Afghanistan__np"/></e>
 <e lm="Venezia">         <i>Venezia</i><par n="Europa__np"/></e>
-<e lm="Venezuela">       <i>Venezuela</i><par n="Afghanistan__np"/></e>
+<e lm="Venezuela">       <i>Venezuela</i><par n="Europa__np"/></e>
 <e lm="Venicia">         <i>Venicia</i><par n="María__np"/></e>
 <e lm="Ventre">          <i>Ventre</i><par n="Díez__np"/></e>
 <e lm="Venturina">       <i>Venturina</i><par n="María__np"/></e>
@@ -49845,6 +49845,16 @@
 <e lm="qatariano">    <i>qatarian</i><par n="cosiddett/o__adj"/></e>
 <e lm="qatariota">    <i>qatariot</i><par n="suicid/a__n"/></e>
 <e lm="qatariota">    <i>qatariot</i><par n="suicid/a__adj"/></e>
+<e lm="laotiano">    <i>laotian</i><par n="bambin/o__n"/></e>
+<e lm="laosiano">    <i>laosian</i><par n="cosiddett/o__adj"/></e>
+<e lm="palauano">    <i>palauan</i><par n="bambin/o__n"/></e>
+<e lm="palauano">    <i>palauan</i><par n="cosiddett/o__adj"/></e>
+<e lm="bahreinita">    <i>bahreinit</i><par n="suicid/a__n"/></e>
+<e lm="bahreinita">    <i>bahreinit</i><par n="suicid/a__adj"/></e>
+<e lm="bahrainita">    <i>bahrainit</i><par n="suicid/a__n"/></e>
+<e lm="bahrainita">    <i>bahrainit</i><par n="suicid/a__adj"/></e>
+<e lm="arabunitense">    <i>arabunitens</i><par n="albanes/e__n"/></e>
+<e lm="arabunitense">    <i>arabunitens</i><par n="albanes/e__adj"/></e>
 
   </section>
 
