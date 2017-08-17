@@ -30061,9 +30061,13 @@
 <e lm="nord-est">        <i>nord-est</i><par n="ace__n"/></e>
 <e lm="nord-ovest">      <i>nord-ovest</i><par n="ace__n"/></e>
 <e lm="nordafricano">    <i>nordafrican</i><par n="bambin/o__n"/></e>
+<e r="LR" lm="nord-africano">  <p><l>nord-african</l>    <r>nord-african</r></p><par n="bambin/o__n"/></e>
 <e lm="nordamericano">   <i>nordamerican</i><par n="bambin/o__n"/></e>
+<e r="LR" lm="nord-americano">  <p><l>nord-american</l>    <r>nord-american</r></p><par n="bambin/o__n"/></e>
 <e lm="nordcoreano">     <i>nordcorean</i><par n="bambin/o__n"/></e>
-<e lm="nordirlandese">   <i>nordirlandes</i><par n="abat/e__n"/></e>
+<e r="LR" lm="nord-coreano">  <p><l>nord-corean</l>    <r>nord-corean</r></p><par n="bambin/o__n"/></e>
+<e lm="nordirlandese">   <i>nordirlandes</i><par n="albanes/e__n"/></e>
+<e r="LR" lm="nord-irlandese">  <p><l>nord-irlandes</l>    <r>nord-irlandes</r></p><par n="albanes/e__n"/></e>
 <e lm="nordista">        <i>nordist</i><par n="suicid/a__n"/></e>
 <e lm="norma">           <i>norm</i><par n="cas/a__n"/></e>
 <e lm="normalità">       <i>normalità</i><par n="abilità__n"/></e>
@@ -34119,9 +34123,10 @@
 <e lm="sud">             <i>sud</i><par n="albatros__n"/></e>
 <e lm="sud-est">         <i>sud-est</i><par n="ace__n"/></e>
 <e lm="sud-ovest">       <i>sud-ovest</i><par n="ace__n"/></e>
-<e lm="sud-tirolese">    <i>sud-tiroles</i><par n="albanes/e__n"/></e>
 <e lm="sudafricano">     <i>sudafrican</i><par n="bambin/o__n"/></e>
+<e r="LR" lm="sud-africano">  <p><l>sud-african</l>    <r>sud-african</r></p><par n="bambin/o__n"/></e>
 <e lm="sudamericano">    <i>sudamerican</i><par n="bambin/o__n"/></e>
+<e r="LR" lm="sud-americano">  <p><l>sud-american</l>    <r>sud-american</r></p><par n="bambin/o__n"/></e>
 <e lm="sudario">         <i>sudari</i><par n="abbagli/o__n"/></e>
 <e lm="sudcoreano">      <i>sudcorean</i><par n="bambin/o__n"/></e>
 <e lm="suddito">         <i>suddit</i><par n="bambin/o__n"/></e>
@@ -34130,6 +34135,7 @@
 <e lm="sudore">          <i>sudor</i><par n="abat/e__n"/></e>
 <e lm="sudorazione">     <i>sudorazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="sudtirolese">     <i>sudtiroles</i><par n="albanes/e__n"/></e>
+<e r="LR" lm="nord-tirolese">  <p><l>nord-tiroles</l>    <r>nord-tiroles</r></p><par n="albanes/e__n"/></e>
 <e lm="sufficienza">     <i>sufficienz</i><par n="cas/a__n"/></e>
 <e lm="suffisso">        <i>suffiss</i><par n="abbain/o__n"/></e>
 <e lm="suffraganea">     <i>suffragane</i><par n="cas/a__n"/></e>
@@ -35752,11 +35758,11 @@
 <e lm="afro">            <i>afro</i><par n="extra__adj"/></e>
 <e lm="africo">          <i>afric</i><par n="tecnic/o__adj"/></e>
 <e lm="africano">        <i>african</i><par n="abbandonat/o__adj"/></e>
-<e lm="afro-americano">  <i>afro-american</i><par n="abbandonat/o__adj"/></e>
 <e lm="afro-asiatico">   <i>afro-asiatic</i><par n="tecnic/o__adj"/></e>
 <e lm="afro-iberico">    <i>afro-iberic</i><par n="tecnic/o__adj"/></e>
 <e lm="afro-mediterraneo"><i>afro-mediterrane</i><par n="abbandonat/o__adj"/></e>
 <e lm="afroamericano">   <i>afroamerican</i><par n="abbandonat/o__adj"/></e>
+<e r="LR" lm="afro-americano">  <p><l>afro-american</l>    <r>afro-american</r></p><par n="abbandonat/o__adj"/></e>
 <e lm="afrodisiaco">     <i>afrodisiac</i><par n="tecnic/o__adj"/></e>
 <e lm="agente">          <i>agent</i><par n="fin/e__adj"/></e>
 <e lm="agevole">         <i>agevol</i><par n="fin/e__adj"/></e>
@@ -37090,7 +37096,8 @@
 <e lm="centrale">        <i>central</i><par n="fin/e__adj"/></e>
 <e lm="centralista">     <i>centralist</i><par n="suicid/a__adj"/></e>
 <e lm="centralistico">   <i>centralistic</i><par n="tecnic/o__adj"/></e>
-<e lm="centramericano">  <i>centramerican</i><par n="abbandonat/o__adj"/></e>
+<e lm="centramericano">  <i>centramerican</i><par n="cosiddett/o__adj"/></e>
+<e lm="centramericano">  <i>centramerican</i><par n="bambin/o__n"/></e>
 <e lm="centrato">        <i>centrat</i><par n="abbandonat/o__adj"/></e>
 <e lm="centripeto">      <i>centripet</i><par n="abbandonat/o__adj"/></e>
 <e lm="centrista">       <i>centrist</i><par n="suicid/a__adj"/></e>
@@ -37099,7 +37106,8 @@
 <e lm="centro-occidentale"><i>centro-occidental</i><par n="fin/e__adj"/></e>
 <e lm="centro-orientale"><i>centro-oriental</i><par n="fin/e__adj"/></e>
 <e lm="centro-settentrionale"><i>centro-settentrional</i><par n="fin/e__adj"/></e>
-<e lm="centroamericano"> <i>centroamerican</i><par n="abbandonat/o__adj"/></e>
+<e lm="centroamericano"> <i>centroamerican</i><par n="cosiddett/o__adj"/></e>
+<e lm="centroamericano"> <i>centroamerican</i><par n="bambin/o__n"/></e>
 <e lm="centroeuropeo">   <i>centroeurope</i><par n="abbandonat/o__adj"/></e>
 <e lm="centrorientale">  <i>centroriental</i><par n="fin/e__adj"/></e>
 <e lm="centroccidentale">  <i>centroccidental</i><par n="fin/e__adj"/></e>
@@ -40381,8 +40389,8 @@
 <e lm="laterale">        <i>lateral</i><par n="fin/e__adj"/></e>
 <e lm="latino">          <i>latin</i><par n="abbandonat/o__adj"/></e>
 <e lm="latineggiante">   <i>latineggiant</i><par n="fin/e__adj"/></e>
-<e lm="latino-americano"><i>latino-american</i><par n="cosiddett/o__adj"/></e>
 <e lm="latinoamericano"> <i>latinoamerican</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="latino-americano">  <p><l>latino-american</l>    <r>latino-american</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="latitante">       <i>latitant</i><par n="fin/e__adj"/></e>
 <e lm="latteo">          <i>latte</i><par n="abbandonat/o__adj"/></e>
 <e lm="lattico">         <i>lattic</i><par n="tecnic/o__adj"/></e>
@@ -41156,16 +41164,18 @@
 <e lm="non-violento">    <i>non-violent</i><par n="abbandonat/o__adj"/></e>
 <e lm="non vedente">     <i>non<b/>vedent</i><par n="fin/e__adj"/></e>
 <e lm="noncurante">      <i>noncurant</i><par n="fin/e__adj"/></e>
-<e lm="nord-coreano">    <i>nord-corean</i><par n="abbandonat/o__adj"/></e>
 <e lm="nord-europeo">    <i>nord-europe</i><par n="abbandonat/o__adj"/></e>
-<e lm="nord-irlandese">  <i>nord-irlandes</i><par n="albanes/e__adj"/></e>
 <e lm="nord-occidentale"><i>nord-occidental</i><par n="fin/e__adj"/></e>
 <e lm="nord-orientale">  <i>nord-oriental</i><par n="fin/e__adj"/></e>
-<e lm="nordafricano">    <i>nordafrican</i><par n="abbandonat/o__adj"/></e>
-<e lm="nordamericano">   <i>nordamerican</i><par n="abbandonat/o__adj"/></e>
-<e lm="nordcoreano">     <i>nordcorean</i><par n="abbandonat/o__adj"/></e>
+<e lm="nordafricano">    <i>nordafrican</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="nord-africano">  <p><l>nord-african</l>    <r>nord-african</r></p><par n="cosiddett/o__adj"/></e>
+<e lm="nordamericano">   <i>nordamerican</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="nord-africano">  <p><l>nord-african</l>    <r>nord-african</r></p><par n="cosiddett/o__adj"/></e>
+<e lm="nordcoreano">     <i>nordcorean</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="nord-coreano">  <p><l>nord-corean</l>    <r>nord-corean</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="nordico">         <i>nordic</i><par n="tecnic/o__adj"/></e>
 <e lm="nordirlandese">   <i>nordirlandes</i><par n="albanes/e__adj"/></e>
+<e r="LR" lm="nord-irlandese">  <p><l>nord-irlandes</l>    <r>nord-irlandes</r></p><par n="albanes/e__n"/></e>
 <e lm="nordista">        <i>nordist</i><par n="suicid/a__adj"/></e>
 <e lm="nordoccidentale"> <i>nordoccidental</i><par n="fin/e__adj"/></e>
 <e lm="nordorientale">   <i>nordoriental</i><par n="fin/e__adj"/></e>
@@ -41479,7 +41489,7 @@
 <e lm="paludato">        <i>paludat</i><par n="abbandonat/o__adj"/></e>
 <e lm="paludoso">        <i>paludos</i><par n="abbandonat/o__adj"/></e>
 <e lm="palustre">        <i>palustr</i><par n="fin/e__adj"/></e>
-<e lm="panamense">       <i>panamens</i><par n="fàtzil/e__adj"/></e>
+<e lm="panamense">       <i>panamens</i><par n="albanes/e__adj"/></e>
 <e lm="panegirico">      <i>panegiric</i><par n="tecnic/o__adj"/></e>
 <e lm="paneuropeo">      <i>paneurope</i><par n="abbandonat/o__adj"/></e>
 <e lm="panico">          <i>panic</i><par n="tecnic/o__adj"/></e>
@@ -43650,20 +43660,22 @@
 <e lm="succoso">         <i>succos</i><par n="abbandonat/o__adj"/></e>
 <e lm="succubo">         <i>succub</i><par n="abbandonat/o__adj"/></e>
 <e lm="succulento">      <i>succulent</i><par n="abbandonat/o__adj"/></e>
-<e lm="sud-coreano">     <i>sud-corean</i><par n="abbandonat/o__adj"/></e>
 <e lm="sud-occidentale"> <i>sud-occidental</i><par n="albanes/e__adj"/></e>
 <e lm="sudoccidentale">  <i>sudoccidental</i><par n="albanes/e__adj"/></e>
 <e lm="sud-orientale">   <i>sud-oriental</i><par n="fin/e__adj"/></e>
-<e lm="sud-tirolese">    <i>sud-tiroles</i><par n="albanes/e__adj"/></e>
-<e lm="sudafricano">     <i>sudafrican</i><par n="abbandonat/o__adj"/></e>
-<e lm="sudamericano">    <i>sudamerican</i><par n="abbandonat/o__adj"/></e>
+<e lm="sudafricano">     <i>sudafrican</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="sud-africano">  <p><l>sud-african</l>    <r>sud-african</r></p><par n="cosiddett/o__adj"/></e>
+<e lm="sudamericano">    <i>sudamerican</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="sud-americano">  <p><l>sud-american</l>    <r>sud-american</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="sudanese">        <i>sudanes</i><par n="albanes/e__adj"/></e>
 <e lm="sudato">          <i>sudat</i><par n="abbandonat/o__adj"/></e>
-<e lm="sudcoreano">      <i>sudcorean</i><par n="abbandonat/o__adj"/></e>
+<e lm="sudcoreano">      <i>sudcorean</i><par n="cosiddett/o__adj"/></e>
+<e r="LR" lm="sud-coreano">  <p><l>sud-corean</l>    <r>sud-corean</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="suddetto">        <i>suddett</i><par n="abbandonat/o__adj"/></e>
 <e lm="sudista">         <i>sudist</i><par n="suicid/a__adj"/></e>
 <e lm="sudorientale">    <i>sudoriental</i><par n="fin/e__adj"/></e>
 <e lm="sudtirolese">     <i>sudtiroles</i><par n="albanes/e__adj"/></e>
+<e r="LR" lm="nord-tirolese">  <p><l>nord-tiroles</l>    <r>nord-tiroles</r></p><par n="albanes/e__n"/></e>
 <e lm="sufficiente">     <i>sufficient</i><par n="fin/e__adj"/></e>
 <e lm="suggestivo">      <i>suggestiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="suino">           <i>suin</i><par n="abbandonat/o__adj"/></e>
@@ -49824,11 +49836,15 @@
 <e lm="tobagodianoo"> <i>tobagodian</i><par n="bambin/o__n"/></e>
 <e lm="tobagodianoo"> <i>tobagodian</i><par n="cosiddett/o__adj"/></e>
 <e lm="cingalese">    <i>cingales</i><par n="albanes/e__n"/></e>
-<e lm="cingalese">    <i>cingales</i><par n="fàtzil/e__adj"/></e>
+<e lm="cingalese">    <i>cingales</i><par n="albanes/e__adj"/></e>
 <e lm="singalese">    <i>singales</i><par n="albanes/e__n"/></e>
-<e lm="singalese">    <i>singales</i><par n="fàtzil/e__adj"/></e>
+<e lm="singalese">    <i>singales</i><par n="albanes/e__adj"/></e>
 <e lm="emiratino">    <i>emiratin</i><par n="bambin/o__n"/></e>
 <e lm="emiratino">    <i>emiratin</i><par n="cosiddett/o__adj"/></e>
+<e lm="qatariano">    <i>qatarian</i><par n="bambin/o__n"/></e>
+<e lm="qatariano">    <i>qatarian</i><par n="cosiddett/o__adj"/></e>
+<e lm="qatariota">    <i>qatariot</i><par n="suicid/a__n"/></e>
+<e lm="qatariota">    <i>qatariot</i><par n="suicid/a__adj"/></e>
 
   </section>
 
