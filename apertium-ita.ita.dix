@@ -36855,6 +36855,7 @@
 <e lm="brioso">          <i>brios</i><par n="abbandonat/o__adj"/></e>
 <e lm="britanno">        <i>britann</i><par n="cosiddett/o__adj"/></e>
 <e lm="britannico">      <i>britannic</i><par n="tecnic/o__adj"/></e>
+<e lm="britannico">      <i>britannic</i><par n="amic/o__n"/></e>
 <e lm="brizzolato">      <i>brizzolat</i><par n="abbandonat/o__adj"/></e>
 <e lm="bronchiale">      <i>bronchial</i><par n="fin/e__adj"/></e>
 <e lm="bronzeo">         <i>bronze</i><par n="abbandonat/o__adj"/></e>
@@ -49827,34 +49828,380 @@
 <e lm="prisma">        <i>prism</i><par n="autom/a__n"/></e>
 
 
-<e lm="tagico">       <i>tagic</i><par n="tedesc/o__n"/></e>
-<e lm="tagico">       <i>tagic</i><par n="tedesc/o__adj"/></e>
-<e lm="tagiko">       <i>tagik</i><par n="bambin/o__n"/></e>
-<e lm="tagiko">       <i>tagik</i><par n="cosiddett/o__adj"/></e>
-<e lm="trinidadiano"> <i>trinidadian</i><par n="bambin/o__n"/></e>
-<e lm="trinidadiano"> <i>trinidadian</i><par n="cosiddett/o__adj"/></e>
-<e lm="tobagodianoo"> <i>tobagodian</i><par n="bambin/o__n"/></e>
-<e lm="tobagodianoo"> <i>tobagodian</i><par n="cosiddett/o__adj"/></e>
-<e lm="cingalese">    <i>cingales</i><par n="albanes/e__n"/></e>
-<e lm="cingalese">    <i>cingales</i><par n="albanes/e__adj"/></e>
-<e lm="singalese">    <i>singales</i><par n="albanes/e__n"/></e>
-<e lm="singalese">    <i>singales</i><par n="albanes/e__adj"/></e>
-<e lm="emiratino">    <i>emiratin</i><par n="bambin/o__n"/></e>
-<e lm="emiratino">    <i>emiratin</i><par n="cosiddett/o__adj"/></e>
-<e lm="qatariano">    <i>qatarian</i><par n="bambin/o__n"/></e>
-<e lm="qatariano">    <i>qatarian</i><par n="cosiddett/o__adj"/></e>
-<e lm="qatariota">    <i>qatariot</i><par n="suicid/a__n"/></e>
-<e lm="qatariota">    <i>qatariot</i><par n="suicid/a__adj"/></e>
-<e lm="laotiano">    <i>laotian</i><par n="bambin/o__n"/></e>
-<e lm="laosiano">    <i>laosian</i><par n="cosiddett/o__adj"/></e>
-<e lm="palauano">    <i>palauan</i><par n="bambin/o__n"/></e>
-<e lm="palauano">    <i>palauan</i><par n="cosiddett/o__adj"/></e>
-<e lm="bahreinita">    <i>bahreinit</i><par n="suicid/a__n"/></e>
-<e lm="bahreinita">    <i>bahreinit</i><par n="suicid/a__adj"/></e>
-<e lm="bahrainita">    <i>bahrainit</i><par n="suicid/a__n"/></e>
-<e lm="bahrainita">    <i>bahrainit</i><par n="suicid/a__adj"/></e>
-<e lm="arabunitense">    <i>arabunitens</i><par n="albanes/e__n"/></e>
-<e lm="arabunitense">    <i>arabunitens</i><par n="albanes/e__adj"/></e>
+<e lm="tagico" a="grfro3d">       <i>tagic</i><par n="tedesc/o__n"/></e>
+<e lm="tagico" a="grfro3d">       <i>tagic</i><par n="tedesc/o__adj"/></e>
+<e lm="tagiko" a="grfro3d">       <i>tagik</i><par n="bambin/o__n"/></e>
+<e lm="tagiko" a="grfro3d">       <i>tagik</i><par n="cosiddett/o__adj"/></e>
+<e lm="trinidadiano" a="grfro3d"> <i>trinidadian</i><par n="bambin/o__n"/></e>
+<e lm="trinidadiano" a="grfro3d"> <i>trinidadian</i><par n="cosiddett/o__adj"/></e>
+<e lm="tobagodianoo" a="grfro3d"> <i>tobagodian</i><par n="bambin/o__n"/></e>
+<e lm="tobagodianoo" a="grfro3d"> <i>tobagodian</i><par n="cosiddett/o__adj"/></e>
+<e lm="cingalese" a="grfro3d">    <i>cingales</i><par n="albanes/e__n"/></e>
+<e lm="cingalese" a="grfro3d">    <i>cingales</i><par n="albanes/e__adj"/></e>
+<e lm="singalese" a="grfro3d">    <i>singales</i><par n="albanes/e__n"/></e>
+<e lm="singalese" a="grfro3d">    <i>singales</i><par n="albanes/e__adj"/></e>
+<e lm="emiratino" a="grfro3d">    <i>emiratin</i><par n="bambin/o__n"/></e>
+<e lm="emiratino" a="grfro3d">    <i>emiratin</i><par n="cosiddett/o__adj"/></e>
+<e lm="qatariano" a="grfro3d">    <i>qatarian</i><par n="bambin/o__n"/></e>
+<e lm="qatariano" a="grfro3d">    <i>qatarian</i><par n="cosiddett/o__adj"/></e>
+<e lm="qatariota" a="grfro3d">    <i>qatariot</i><par n="suicid/a__n"/></e>
+<e lm="qatariota" a="grfro3d">    <i>qatariot</i><par n="suicid/a__adj"/></e>
+<e lm="laotiano" a="grfro3d">    <i>laotian</i><par n="bambin/o__n"/></e>
+<e lm="laosiano" a="grfro3d">    <i>laosian</i><par n="cosiddett/o__adj"/></e>
+<e lm="palauano" a="grfro3d">    <i>palauan</i><par n="bambin/o__n"/></e>
+<e lm="palauano" a="grfro3d">    <i>palauan</i><par n="cosiddett/o__adj"/></e>
+<e lm="bahreinita" a="grfro3d">    <i>bahreinit</i><par n="suicid/a__n"/></e>
+<e lm="bahreinita" a="grfro3d">    <i>bahreinit</i><par n="suicid/a__adj"/></e>
+<e lm="bahrainita" a="grfro3d">    <i>bahrainit</i><par n="suicid/a__n"/></e>
+<e lm="bahrainita" a="grfro3d">    <i>bahrainit</i><par n="suicid/a__adj"/></e>
+<e lm="arabunitense" a="grfro3d">    <i>arabunitens</i><par n="albanes/e__n"/></e>
+<e lm="arabunitense" a="grfro3d">    <i>arabunitens</i><par n="albanes/e__adj"/></e>
+
+<e lm="afganistano" a="grfro3d"><i>afganistan</i><par n="bambin/o__n"/></e>
+<e lm="afganistano" a="grfro3d"><i>afganistan</i><par n="cosiddett/o__adj"/></e>
+<e lm="angolese" a="grfro3d"><i>angoles</i><par n="albanes/e__n"/></e>
+<e lm="angolese" a="grfro3d"><i>angoles</i><par n="albanes/e__adj"/></e>
+<e lm="Antigua e Barbuda" a="grfro3d"><i>Antigua<b/>e<b/>Barbuda</i><par n="Europa__np"/></e>
+<e lm="antiguo-barbudano" a="grfro3d"><i>antiguo-barbudan</i><par n="bambin/o__n"/></e>
+<e lm="antiguo-barbudano" a="grfro3d"><i>antiguo-barbudan</i><par n="cosiddett/o__adj"/></e>
+<e lm="saudita" a="grfro3d"><i>saudit</i><par n="suicid/a__n"/></e>
+<e lm="saudita" a="grfro3d"><i>saudit</i><par n="suicid/a__adj"/></e>
+<e lm="Bahamas" a="grfro3d"><i>Bahamas</i><par n="Maldive__np"/></e>
+<e lm="bahamiano" a="grfro3d"><i>bahamian</i><par n="bambin/o__n"/></e>
+<e lm="bahamiano" a="grfro3d"><i>bahamian</i><par n="cosiddett/o__adj"/></e>
+<e lm="bengalese" a="grfro3d"><i>bengales</i><par n="albanes/e__adj"/></e>
+<e lm="Barbados" a="grfro3d"><i>Barbados</i><par n="Maldive__np"/></e>
+<e lm="barbadiano" a="grfro3d"><i>barbadian</i><par n="bambin/o__n"/></e>
+<e lm="barbadiano" a="grfro3d"><i>barbadian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Belize" a="grfro3d"><i>Belize</i><par n="Afghanistan__np"/></e>
+<e lm="belisiano" a="grfro3d"><i>belisian</i><par n="bambin/o__n"/></e>
+<e lm="belisiano" a="grfro3d"><i>belisian</i><par n="cosiddett/o__adj"/></e>
+<e lm="beninese" a="grfro3d"><i>benines</i><par n="albanes/e__n"/></e>
+<e lm="beninese" a="grfro3d"><i>benines</i><par n="albanes/e__adj"/></e>
+<e lm="butanese" a="grfro3d"><i>butanes</i><par n="albanes/e__n"/></e>
+<e lm="butanese" a="grfro3d"><i>butanes</i><par n="albanes/e__adj"/></e>
+<e lm="botswanese" a="grfro3d"><i>botswanes</i><par n="albanes/e__n"/></e>
+<e lm="botswanese" a="grfro3d"><i>botswanes</i><par n="albanes/e__adj"/></e>
+<e lm="Brunei" a="grfro3d"><i>Brunei</i><par n="Afghanistan__np"/></e>
+<e lm="bruneiese" a="grfro3d"><i>bruneies</i><par n="albanes/e__n"/></e>
+<e lm="bruneiese" a="grfro3d"><i>bruneies</i><par n="albanes/e__adj"/></e>
+<e lm="Burkina Faso" a="grfro3d"><i>Burkina<b/>Faso</i><par n="Afghanistan__np"/></e>
+<e lm="burkinese" a="grfro3d"><i>burkines</i><par n="albanes/e__n"/></e>
+<e lm="burkinese" a="grfro3d"><i>burkines</i><par n="albanes/e__adj"/></e>
+<e lm="Burundi" a="grfro3d"><i>Burundi</i><par n="Afghanistan__np"/></e>
+<e lm="burundese" a="grfro3d"><i>burundes</i><par n="albanes/e__n"/></e>
+<e lm="burundese" a="grfro3d"><i>burundes</i><par n="albanes/e__adj"/></e>
+<e lm="Capo Verde" a="grfro3d"><i>Capo<b/>Verde</i><par n="Afghanistan__np"/></e>
+<e lm="capoverdiano" a="grfro3d"><i>capoverdian</i><par n="bambin/o__n"/></e>
+<e lm="capoverdiano" a="grfro3d"><i>capoverdian</i><par n="cosiddett/o__adj"/></e>
+<e lm="neocaledoniano" a="grfro3d"><i>neocaledonian</i><par n="bambin/o__n"/></e>
+<e lm="neocaledoniano" a="grfro3d"><i>neocaledonian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Sulawesi" a="grfro3d"><i>Sulawesi</i><par n="Afghanistan__np"/></e>
+<e lm="Ciad" a="grfro3d"><i>Ciad</i><par n="Afghanistan__np"/></e>
+<e lm="ciadiano" a="grfro3d"><i>ciadian</i><par n="bambin/o__n"/></e>
+<e lm="Comore" a="grfro3d"><i>Comore</i><par n="Maldive__np"/></e>
+<e lm="comoriano" a="grfro3d"><i>comorian</i><par n="bambin/o__n"/></e>
+<e lm="comoriano" a="grfro3d"><i>comorian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Corea del Nord" a="grfro3d"><i>Corea<b/>del<b/>Nord</i><par n="Europa__np"/></e>
+<e lm="nord-coreano" a="grfro3d"><i>nord-corean</i><par n="bambin/o__n"/></e>
+<e lm="nord-coreano" a="grfro3d"><i>nord-corean</i><par n="cosiddett/o__adj"/></e>
+<e lm="sud-coreano" a="grfro3d"><i>sud-corean</i><par n="bambin/o__n"/></e>
+<e lm="sud-coreano" a="grfro3d"><i>sud-corean</i><par n="cosiddett/o__adj"/></e>
+<e lm="ivoriano" a="grfro3d"><i>ivorian</i><par n="bambin/o__n"/></e>
+<e lm="ivoriano" a="grfro3d"><i>ivorian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Costa Rica" a="grfro3d"><i>Costa<b/>Rica</i><par n="Afghanistan__np"/></e>
+<e lm="costaricano" a="grfro3d"><i>costarican</i><par n="bambin/o__n"/></e>
+<e lm="Devon" a="grfro3d"><i>Devon</i><par n="Afghanistan__np"/></e>
+<e lm="Dominica" a="grfro3d"><i>Dominica</i><par n="Europa__np"/></e>
+<e lm="dominicense" a="grfro3d"><i>dominicens</i><par n="albanes/e__n"/></e>
+<e lm="dominicense" a="grfro3d"><i>dominicens</i><par n="albanes/e__adj"/></e>
+<e lm="equadoriano" a="grfro3d"><i>equadorian</i><par n="bambin/o__n"/></e>
+<e lm="equadoriano" a="grfro3d"><i>equadorian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Ellesmere" a="grfro3d"><i>Ellesmere</i><par n="Afghanistan__np"/></e>
+<e lm="El Salvador" a="grfro3d"><i>El<b/>Salvador</i><par n="Afghanistan__np"/></e>
+<e lm="estonia" a="grfro3d"><i>estoni</i><par n="suicid/a__n"/></e>
+<e lm="estonia" a="grfro3d"><i>estoni</i><par n="suicid/a__adj"/></e>
+<e lm="etiopia" a="grfro3d"><i>etiopi</i><par n="suicid/a__n"/></e>
+<e lm="etiopia" a="grfro3d"><i>etiopi</i><par n="suicid/a__adj"/></e>
+<e lm="Fær Øer" a="grfro3d"><i>Fær<b/>Øer</i><par n="Maldive__np"/></e>
+<e lm="feroese" a="grfro3d"><i>feroes</i><par n="albanes/e__n"/></e>
+<e lm="feroese" a="grfro3d"><i>feroes</i><par n="albanes/e__adj"/></e>
+<e lm="Figi" a="grfro3d"><i>Figi</i><par n="Maldive__np"/></e>
+<e lm="fijiano" a="grfro3d"><i>fijian</i><par n="bambin/o__n"/></e>
+<e lm="fijiano" a="grfro3d"><i>fijian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Gabon" a="grfro3d"><i>Gabon</i><par n="Afghanistan__np"/></e>
+<e lm="gabonese" a="grfro3d"><i>gabones</i><par n="albanes/e__n"/></e>
+<e lm="Gambia" a="grfro3d"><i>Gambia</i><par n="Europa__np"/></e>
+<e lm="gambiano" a="grfro3d"><i>gambian</i><par n="bambin/o__n"/></e>
+<e lm="gambiano" a="grfro3d"><i>gambian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Ghana" a="grfro3d"><i>Ghana</i><par n="Afghanistan__np"/></e>
+<e lm="neo-guineano" a="grfro3d"><i>neo-guinean</i><par n="bambin/o__n"/></e>
+<e lm="neo-guineano" a="grfro3d"><i>neo-guinean</i><par n="cosiddett/o__adj"/></e>
+<e lm="Giava" a="grfro3d"><i>Giava</i><par n="Europa__np"/></e>
+<e lm="giavanese" a="grfro3d"><i>giavanes</i><par n="albanes/e__n"/></e>
+<e lm="giavanese" a="grfro3d"><i>giavanes</i><par n="albanes/e__adj"/></e>
+<e lm="Gibuti" a="grfro3d"><i>Gibuti</i><par n="Afghanistan__np"/></e>
+<e lm="gibutiano" a="grfro3d"><i>gibutian</i><par n="bambin/o__n"/></e>
+<e lm="gibutiano" a="grfro3d"><i>gibutian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Grenada" a="grfro3d"><i>Grenada</i><par n="Europa__np"/></e>
+<e lm="grenadino" a="grfro3d"><i>grenadin</i><par n="bambin/o__n"/></e>
+<e lm="grenadino" a="grfro3d"><i>grenadin</i><par n="cosiddett/o__adj"/></e>
+<e lm="groenlandese" a="grfro3d"><i>groenlandes</i><par n="albanes/e__n"/></e>
+<e lm="groenlandese" a="grfro3d"><i>groenlandes</i><par n="albanes/e__adj"/></e>
+<e lm="Guadalupa" a="grfro3d"><i>Guadalupa</i><par n="Europa__np"/></e>
+<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__n"/></e>
+<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__adj"/></e>
+<e lm="Guyana francese" a="grfro3d"><i>Guyana<b/>francese</i><par n="Europa__np"/></e>
+<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__n"/></e>
+<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__adj"/></e>
+<e lm="Guam" a="grfro3d"><i>Guam</i><par n="Afghanistan__np"/></e>
+<e lm="guamese" a="grfro3d"><i>guames</i><par n="albanes/e__n"/></e>
+<e lm="guamese" a="grfro3d"><i>guames</i><par n="albanes/e__adj"/></e>
+<e lm="guatemalteco" a="grfro3d"><i>guatemaltec</i><par n="amic/o__n"/></e>
+<e lm="guineano" a="grfro3d"><i>guinean</i><par n="bambin/o__n"/></e>
+<e lm="guineano" a="grfro3d"><i>guinean</i><par n="cosiddett/o__adj"/></e>
+<e lm="Guinea Bissau" a="grfro3d"><i>Guinea<b/>Bissau</i><par n="Europa__np"/></e>
+<e lm="guineense" a="grfro3d"><i>guineens</i><par n="albanes/e__n"/></e>
+<e lm="guineense" a="grfro3d"><i>guineens</i><par n="albanes/e__adj"/></e>
+<e lm="Guinea Equatoriale" a="grfro3d"><i>Guinea<b/>Equatoriale</i><par n="Europa__np"/></e>
+<e lm="ecuatoguineano" a="grfro3d"><i>ecuatoguinean</i><par n="bambin/o__n"/></e>
+<e lm="ecuatoguineano" a="grfro3d"><i>ecuatoguinean</i><par n="cosiddett/o__adj"/></e>
+<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__n"/></e>
+<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__adj"/></e>
+<e lm="honduregno" a="grfro3d"><i>honduregn</i><par n="bambin/o__n"/></e>
+<e lm="honduregno" a="grfro3d"><i>honduregn</i><par n="cosiddett/o__adj"/></e>
+<e lm="aleuto" a="grfro3d"><i>aleut</i><par n="bambin/o__n"/></e>
+<e lm="aleuto" a="grfro3d"><i>aleut</i><par n="cosiddett/o__adj"/></e>
+<e lm="Isole Amirante" a="grfro3d"><i>Isole<b/>Amirante</i><par n="Maldive__np"/></e>
+<e lm="Isole Andamane" a="grfro3d"><i>Isole<b/>Andamane</i><par n="Maldive__np"/></e>
+<e lm="Isole Antipodi" a="grfro3d"><i>Isole<b/>Antipodi</i><par n="Maldive__np"/></e>
+<e lm="Isole Auckland" a="grfro3d"><i>Isole<b/>Auckland</i><par n="Maldive__np"/></e>
+<e lm="Isole Azzorre" a="grfro3d"><i>Isole<b/>Azzorre</i><par n="Maldive__np"/></e>
+<e lm="Isole Bermuda" a="grfro3d"><i>Isole<b/>Bermuda</i><par n="Maldive__np"/></e>
+<e lm="bermudiano" a="grfro3d"><i>bermudian</i><par n="bambin/o__n"/></e>
+<e lm="bermudiano" a="grfro3d"><i>bermudian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Isole Bounty" a="grfro3d"><i>Isole<b/>Bounty</i><par n="Maldive__np"/></e>
+<e lm="Ilsole Campbell Lord Hove" a="grfro3d"><i>Ilsole<b/>Campbell<b/>Lord<b/>Hove</i><par n="Maldive__np"/></e>
+<e lm="Isole Canarie" a="grfro3d"><i>Isole<b/>Canarie</i><par n="Maldive__np"/></e>
+<e lm="Isole Chagos" a="grfro3d"><i>Isole<b/>Chagos</i><par n="Maldive__np"/></e>
+<e lm="Isole Chatham" a="grfro3d"><i>Isole<b/>Chatham</i><par n="Maldive__np"/></e>
+<e lm="Isola di Natale" a="grfro3d"><i>Isola<b/>di<b/>Natale</i><par n="Europa__np"/></e>
+<e lm="Isola Clipperton" a="grfro3d"><i>Isola<b/>Clipperton</i><par n="Europa__np"/></e>
+<e lm="Isole Cocos" a="grfro3d"><i>Isole<b/>Cocos</i><par n="Maldive__np"/></e>
+<e lm="Isola di Ascensione" a="grfro3d"><i>Isola<b/>di<b/>Ascensione</i><par n="Europa__np"/></e>
+<e lm="Isola Bouvet" a="grfro3d"><i>Isola<b/>Bouvet</i><par n="Europa__np"/></e>
+<e lm="Isola di Chiloé" a="grfro3d"><i>Isola<b/>di<b/>Chiloé</i><par n="Europa__np"/></e>
+<e lm="Isole di Crozet" a="grfro3d"><i>Isole<b/>di<b/>Crozet</i><par n="Maldive__np"/></e>
+<e lm="Isola di Diego Garcia" a="grfro3d"><i>Isola<b/>di<b/>Diego<b/>Garcia</i><par n="Europa__np"/></e>
+<e lm="Isole di Fernando Noronha" a="grfro3d"><i>Isole<b/>di<b/>Fernando<b/>Noronha</i><par n="Maldive__np"/></e>
+<e lm="Isola di Gough" a="grfro3d"><i>Isola<b/>di<b/>Gough</i><par n="Europa__np"/></e>
+<e lm="Isole di Juan Fernández" a="grfro3d"><i>Isole<b/>di<b/>Juan<b/>Fernández</i><par n="Maldive__np"/></e>
+<e lm="Isole di Madera" a="grfro3d"><i>Isole<b/>di<b/>Madera</i><par n="Maldive__np"/></e>
+<e lm="Isole di Trindade e Martim Vaz" a="grfro3d"><i>Isole<b/>di<b/>Trindade<b/>e<b/>Martim<b/>Vaz</i><par n="Maldive__np"/></e>
+<e lm="Isole di Saint Paul e Nuova Amsterdam" a="grfro3d"><i>Isole<b/>di<b/>Saint<b/>Paul<b/>e<b/>Nuova<b/>Amsterdam</i><par n="Maldive__np"/></e>
+<e lm="Isola di Bathurst" a="grfro3d"><i>Isola<b/>di<b/>Bathurst</i><par n="Europa__np"/></e>
+<e lm="Isola de Pitcairn" a="grfro3d"><i>Isola<b/>de<b/>Pitcairn</i><par n="Europa__np"/></e>
+<e lm="Isola di Sala e Gòmez" a="grfro3d"><i>Isola<b/>di<b/>Sala<b/>e<b/>Gòmez</i><par n="Europa__np"/></e>
+<e lm="Isola Sant' Ambrogio" a="grfro3d"><i>Isola<b/>Sant'<b/>Ambrogio</i><par n="Europa__np"/></e>
+<e lm="Isola San Félix" a="grfro3d"><i>Isola<b/>San<b/>Félix</i><par n="Europa__np"/></e>
+<e lm="Isola Saint-Paul" a="grfro3d"><i>Isola<b/>Saint-Paul</i><par n="Europa__np"/></e>
+<e lm="Isola di Sant'Elena" a="grfro3d"><i>Isola<b/>di<b/>Sant'Elena</i><par n="Europa__np"/></e>
+<e lm="Isola della Riunione" a="grfro3d"><i>Isola<b/>della<b/>Riunione</i><par n="Europa__np"/></e>
+<e lm="Isole della Società" a="grfro3d"><i>Isole<b/>della<b/>Società</i><par n="Maldive__np"/></e>
+<e lm="Isola di Trinità" a="grfro3d"><i>Isola<b/>di<b/>Trinità</i><par n="Europa__np"/></e>
+<e lm="Isola di Socotra" a="grfro3d"><i>Isola<b/>di<b/>Socotra</i><par n="Europa__np"/></e>
+<e lm="Isola del Principe del Galles" a="grfro3d"><i>Isola<b/>del<b/>Principe<b/>del<b/>Galles</i><par n="Europa__np"/></e>
+<e lm="Isole del Principe Edoardo" a="grfro3d"><i>Isole<b/>del<b/>Principe<b/>Edoardo</i><par n="Maldive__np"/></e>
+<e lm="Isole di Tristan da Cunha" a="grfro3d"><i>Isole<b/>di<b/>Tristan<b/>da<b/>Cunha</i><par n="Maldive__np"/></e>
+<e lm="Isole di Tuamotu" a="grfro3d"><i>Isole<b/>di<b/>Tuamotu</i><par n="Maldive__np"/></e>
+<e lm="Isole di Farquhar" a="grfro3d"><i>Isole<b/>di<b/>Farquhar</i><par n="Maldive__np"/></e>
+<e lm="Isole Galápagos" a="grfro3d"><i>Isole<b/>Galápagos</i><par n="Maldive__np"/></e>
+<e lm="Isola Guadalupa" a="grfro3d"><i>Isola<b/>Guadalupa</i><par n="Europa__np"/></e>
+<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__n"/></e>
+<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__adj"/></e>
+<e lm="Isole Hawai" a="grfro3d"><i>Isole<b/>Hawai</i><par n="Maldive__np"/></e>
+<e lm="hawaiano" a="grfro3d"><i>hawaian</i><par n="bambin/o__n"/></e>
+<e lm="hawaiano" a="grfro3d"><i>hawaian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Isola Heard" a="grfro3d"><i>Isola<b/>Heard</i><par n="Europa__np"/></e>
+<e lm="Isole Kerguelen" a="grfro3d"><i>Isole<b/>Kerguelen</i><par n="Maldive__np"/></e>
+<e lm="Isole del Commodoro" a="grfro3d"><i>Isole<b/>del<b/>Commodoro</i><par n="Maldive__np"/></e>
+<e lm="Isola Matua" a="grfro3d"><i>Isola<b/>Matua</i><par n="Europa__np"/></e>
+<e lm="Isole Laccadive" a="grfro3d"><i>Isole<b/>Laccadive</i><par n="Maldive__np"/></e>
+<e lm="Isola Macquarie" a="grfro3d"><i>Isola<b/>Macquarie</i><par n="Europa__np"/></e>
+<e lm="Isole Malvine" a="grfro3d"><i>Isole<b/>Malvine</i><par n="Maldive__np"/></e>
+<e lm="mariannense" a="grfro3d"><i>mariannens</i><par n="albanes/e__n"/></e>
+<e lm="mariannense" a="grfro3d"><i>mariannens</i><par n="albanes/e__adj"/></e>
+<e lm="Isola Marion" a="grfro3d"><i>Isola<b/>Marion</i><par n="Europa__np"/></e>
+<e lm="marshallese" a="grfro3d"><i>marshalles</i><par n="albanes/e__n"/></e>
+<e lm="marshallese" a="grfro3d"><i>marshalles</i><par n="albanes/e__adj"/></e>
+<e lm="Isola Mayotte" a="grfro3d"><i>Isola<b/>Mayotte</i><par n="Maldive__np"/></e>
+<e lm="Isole Nicobare" a="grfro3d"><i>Isole<b/>Nicobare</i><par n="Maldive__np"/></e>
+<e lm="Isole Ogasawara" a="grfro3d"><i>Isole<b/>Ogasawara</i><par n="Maldive__np"/></e>
+<e lm="Isole Palau" a="grfro3d"><i>Isole<b/>Palau</i><par n="Maldive__np"/></e>
+<e lm="Isole Revillagigedo" a="grfro3d"><i>Isole<b/>Revillagigedo</i><par n="Maldive__np"/></e>
+<e lm="Isole Ryukyu" a="grfro3d"><i>Isole<b/>Ryukyu</i><par n="Maldive__np"/></e>
+<e lm="Isola di San Lorenzo" a="grfro3d"><i>Isola<b/>di<b/>San<b/>Lorenzo</i><par n="Europa__np"/></e>
+<e lm="Isole Shetland" a="grfro3d"><i>Isole<b/>Shetland</i><par n="Maldive__np"/></e>
+<e lm="Isola Grande della Terra del Fuoco" a="grfro3d"><i>Isola<b/>Grande<b/>della<b/>Terra<b/>del<b/>Fuoco</i><par n="Europa__np"/></e>
+<e lm="Stati Federati di Micronesia" a="grfro3d"><i>Stati<b/>Federati<b/>di<b/>Micronesia</i><par n="USA__np"/></e>
+<e lm="micronesiano" a="grfro3d"><i>micronesian</i><par n="bambin/o__n"/></e>
+<e lm="micronesiano" a="grfro3d"><i>micronesian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Isola Tubuai" a="grfro3d"><i>Isola<b/>Tubuai</i><par n="Europa__np"/></e>
+<e lm="Isole Vergini" a="grfro3d"><i>Isole<b/>Vergini</i><par n="Maldive__np"/></e>
+<e lm="verginiano" a="grfro3d"><i>verginian</i><par n="bambin/o__n"/></e>
+<e lm="verginiano" a="grfro3d"><i>verginian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Jan Mayen" a="grfro3d"><i>Jan<b/>Mayen</i><par n="Europa__np"/></e>
+<e lm="Yemen" a="grfro3d"><i>Yemen</i><par n="Afghanistan__np"/></e>
+<e lm="yemenita" a="grfro3d"><i>yemenit</i><par n="suicid/a__n"/></e>
+<e lm="yemenita" a="grfro3d"><i>yemenit</i><par n="suicid/a__adj"/></e>
+<e lm="kazaco" a="grfro3d"><i>kazac</i><par n="tedesc/o__n"/></e>
+<e lm="kazaco" a="grfro3d"><i>kazac</i><par n="tedesc/o__adj"/></e>
+<e lm="keniota" a="grfro3d"><i>keniot</i><par n="suicid/a__n"/></e>
+<e lm="keniota" a="grfro3d"><i>keniot</i><par n="suicid/a__adj"/></e>
+<e lm="Kirghizistan" a="grfro3d"><i>Kirghizistan</i><par n="Afghanistan__np"/></e>
+<e lm="chirghiso" a="grfro3d"><i>chirghis</i><par n="bambin/o__n"/></e>
+<e lm="chirghiso" a="grfro3d"><i>chirghis</i><par n="cosiddett/o__adj"/></e>
+<e lm="Kiribati" a="grfro3d"><i>Kiribati</i><par n="Maldive__np"/></e>
+<e lm="gilbertese" a="grfro3d"><i>gilbertes</i><par n="albanes/e__n"/></e>
+<e lm="gilbertese" a="grfro3d"><i>gilbertes</i><par n="albanes/e__adj"/></e>
+<e lm="Kuwait" a="grfro3d"><i>Kuwait</i><par n="Afghanistan__np"/></e>
+<e lm="Lesotho" a="grfro3d"><i>Lesotho</i><par n="Afghanistan__np"/></e>
+<e lm="lesothiano" a="grfro3d"><i>lesothian</i><par n="bambin/o__n"/></e>
+<e lm="lesothiano" a="grfro3d"><i>lesothian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Liberia" a="grfro3d"><i>Liberia</i><par n="Europa__np"/></e>
+<e lm="libico" a="grfro3d"><i>libic</i><par n="amic/o__n"/></e>
+<e lm="Luzon" a="grfro3d"><i>Luzon</i><par n="Europa__np"/></e>
+<e lm="luzoniano" a="grfro3d"><i>luzonian</i><par n="bambin/o__n"/></e>
+<e lm="luzoniano" a="grfro3d"><i>luzonian</i><par n="cosiddett/o__adj"/></e>
+<e lm="malgascio" a="grfro3d"><i>malgasci</i><par n="bambin/o__n"/></e>
+<e lm="malgascio" a="grfro3d"><i>malgasci</i><par n="cosiddett/o__adj"/></e>
+<e lm="Malawi" a="grfro3d"><i>Malawi</i><par n="Afghanistan__np"/></e>
+<e lm="malawiano" a="grfro3d"><i>malawian</i><par n="bambin/o__n"/></e>
+<e lm="malawiano" a="grfro3d"><i>malawian</i><par n="cosiddett/o__adj"/></e>
+<e lm="maldiviano" a="grfro3d"><i>maldivian</i><par n="bambin/o__n"/></e>
+<e lm="maldiviano" a="grfro3d"><i>maldivian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Mali" a="grfro3d"><i>Mali</i><par n="Afghanistan__np"/></e>
+<e lm="maliano" a="grfro3d"><i>malian</i><par n="bambin/o__n"/></e>
+<e lm="maliano" a="grfro3d"><i>malian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Malpelo" a="grfro3d"><i>Malpelo</i><par n="Europa__np"/></e>
+<e lm="mare di Beaufort" a="grfro3d"><i>mare<b/>di<b/>Beaufort</i><par n="Afghanistan__np"/></e>
+<e lm="mauritano" a="grfro3d"><i>mauritan</i><par n="bambin/o__n"/></e>
+<e lm="mauritano" a="grfro3d"><i>mauritan</i><par n="cosiddett/o__adj"/></e>
+<e lm="mauriziano" a="grfro3d"><i>maurizian</i><par n="bambin/o__n"/></e>
+<e lm="mauriziano" a="grfro3d"><i>maurizian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Melville" a="grfro3d"><i>Melville</i><par n="Europa__np"/></e>
+<e lm="Mindanao" a="grfro3d"><i>Mindanao</i><par n="Afghanistan__np"/></e>
+<e lm="Mozambico" a="grfro3d"><i>Mozambico</i><par n="Afghanistan__np"/></e>
+<e lm="namibiano" a="grfro3d"><i>namibian</i><par n="bambin/o__n"/></e>
+<e lm="namibiano" a="grfro3d"><i>namibian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Nauru" a="grfro3d"><i>Nauru</i><par n="Afghanistan__np"/></e>
+<e lm="naruano" a="grfro3d"><i>naruan</i><par n="bambin/o__n"/></e>
+<e lm="naruano" a="grfro3d"><i>naruan</i><par n="cosiddett/o__adj"/></e>
+<e lm="Nicaragua" a="grfro3d"><i>Nicaragua</i><par n="Afghanistan__np"/></e>
+<e lm="nicaraguense"><i>nicaraguens</i><par n="albanes/e__n"/></e>
+<e lm="nicaraguense"><i>nicaraguens</i><par n="albanes/e__adj"/></e>
+<e lm="nigerino" a="grfro3d"><i>nigerin</i><par n="bambin/o__n"/></e>
+<e lm="nigerino" a="grfro3d"><i>nigerin</i><par n="cosiddett/o__adj"/></e>
+<e lm="Norfolk" a="grfro3d"><i>Norfolk</i><par n="Afghanistan__np"/></e>
+<e lm="norfolkese" a="grfro3d"><i>norfolkes</i><par n="albanes/e__n"/></e>
+<e lm="norfolkese" a="grfro3d"><i>norfolkes</i><par n="albanes/e__adj"/></e>
+<e lm="Oman" a="grfro3d"><i>Oman</i><par n="Afghanistan__np"/></e>
+<e lm="omanita" a="grfro3d"><i>omanit</i><par n="suicid/a__n"/></e>
+<e lm="omanita" a="grfro3d"><i>omanit</i><par n="suicid/a__adj"/></e>
+<e lm="Oceano Atlantico" a="grfro3d"><i>Oceano<b/>Atlantico</i><par n="Afghanistan__np"/></e>
+<e lm="atlantico" a="grfro3d"><i>atlantic</i><par n="amic/o__n"/></e>
+<e lm="Oceano Glaciale Artico" a="grfro3d"><i>Oceano<b/>Glaciale<b/>Artico</i><par n="Afghanistan__np"/></e>
+<e lm="Oceano Indiano" a="grfro3d"><i>Oceano<b/>Indiano</i><par n="Afghanistan__np"/></e>
+<e lm="Oceano Pacifico" a="grfro3d"><i>Oceano<b/>Pacifico</i><par n="Afghanistan__np"/></e>
+<e lm="Panama" a="grfro3d"><i>Panama</i><par n="Afghanistan__np"/></e>
+<e lm="panamense" a="grfro3d"><i>panamens</i><par n="albanes/e__n"/></e>
+<e lm="Papua" a="grfro3d"><i>Papua</i><par n="Europa__np"/></e>
+<e lm="papuano" a="grfro3d"><i>papuan</i><par n="bambin/o__n"/></e>
+<e lm="papuano" a="grfro3d"><i>papuan</i><par n="cosiddett/o__adj"/></e>
+<e lm="Puerto Rico" a="grfro3d"><i>Puerto<b/>Rico</i><par n="Afghanistan__np"/></e>
+<e lm="puertoricano" a="grfro3d"><i>puertorican</i><par n="bambin/o__n"/></e>
+<e lm="puertoricano" a="grfro3d"><i>puertorican</i><par n="cosiddett/o__adj"/></e>
+<e lm="Republica Dominicana" a="grfro3d"><i>Republica<b/>Dominicana</i><par n="Europa__np"/></e>
+<e lm="Repubblica Democratica del Congo" a="grfro3d"><i>Repubblica<b/>Democratica<b/>del<b/>Congo</i><par n="Europa__np"/></e>
+<e lm="Repubblica del Sudafrica" a="grfro3d"><i>Repubblica<b/>del<b/>Sudafrica</i><par n="Europa__np"/></e>
+<e lm="centrafricano" a="grfro3d"><i>centrafrican</i><par n="bambin/o__n"/></e>
+<e lm="centrafricano" a="grfro3d"><i>centrafrican</i><par n="cosiddett/o__adj"/></e>
+<e lm="Sahara Occidentale" a="grfro3d"><i>Sahara<b/>Occidentale</i><par n="Afghanistan__np"/></e>
+<e lm="Salomone" a="grfro3d"><i>Salomone</i><par n="Maldive__np"/></e>
+<e lm="salomonese" a="grfro3d"><i>salomones</i><par n="albanes/e__n"/></e>
+<e lm="salomonese" a="grfro3d"><i>salomones</i><par n="albanes/e__adj"/></e>
+<e lm="Santa Lucia" a="grfro3d"><i>Santa<b/>Lucia</i><par n="Europa__np"/></e>
+<e lm="santaluciano" a="grfro3d"><i>santalucian</i><par n="bambin/o__n"/></e>
+<e lm="santaluciano" a="grfro3d"><i>santalucian</i><par n="cosiddett/o__adj"/></e>
+<e lm="São Tomé e Príncipe" a="grfro3d"><i>São<b/>Tomé<b/>e<b/>Príncipe</i><par n="Afghanistan__np"/></e>
+<e lm="saotomense" a="grfro3d"><i>saotomens</i><par n="albanes/e__n"/></e>
+<e lm="saotomense" a="grfro3d"><i>saotomens</i><par n="albanes/e__adj"/></e>
+<e lm="Saint Vincent e Grenadine" a="grfro3d"><i>Saint<b/>Vincent<b/>e<b/>Grenadine</i><par n="Afghanistan__np"/></e>
+<e lm="sanvincentino" a="grfro3d"><i>sanvincentin</i><par n="bambin/o__n"/></e>
+<e lm="sanvincentino" a="grfro3d"><i>sanvincentin</i><par n="cosiddett/o__adj"/></e>
+<e lm="Seychelles" a="grfro3d"><i>Seychelles</i><par n="Maldive__np"/></e>
+<e lm="seychellese" a="grfro3d"><i>seychelles</i><par n="albanes/e__n"/></e>
+<e lm="seychellese" a="grfro3d"><i>seychelles</i><par n="albanes/e__adj"/></e>
+<e lm="Nuova Siberia" a="grfro3d"><i>Nuova<b/>Siberia</i><par n="Europa__np"/></e>
+<e lm="neo-siberiano" a="grfro3d"><i>neo-siberian</i><par n="bambin/o__n"/></e>
+<e lm="neo-siberiano" a="grfro3d"><i>neo-siberian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Sierra Leone" a="grfro3d"><i>Sierra<b/>Leone</i><par n="Europa__np"/></e>
+<e lm="sierraleonese" a="grfro3d"><i>sierraleones</i><par n="albanes/e__n"/></e>
+<e lm="sierraleonese" a="grfro3d"><i>sierraleones</i><par n="albanes/e__adj"/></e>
+<e lm="singaporiano" a="grfro3d"><i>singaporian</i><par n="bambin/o__n"/></e>
+<e lm="singaporiano" a="grfro3d"><i>singaporian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Somerset" a="grfro3d"><i>Somerset</i><par n="Europa__np"/></e>
+<e lm="Southampton" a="grfro3d"><i>Southampton</i><par n="Europa__np"/></e>
+<e lm="Saint-Pierre e Miquelon" a="grfro3d"><i>Saint-Pierre<b/>e<b/>Miquelon</i><par n="Afghanistan__np"/></e>
+<e lm="sudanese" a="grfro3d"><i>sudanes</i><par n="albanes/e__n"/></e>
+<e lm="Sumatra" a="grfro3d"><i>Sumatra</i><par n="Europa__np"/></e>
+<e lm="Suriname" a="grfro3d"><i>Suriname</i><par n="Europa__np"/></e>
+<e lm="surinamese" a="grfro3d"><i>surinames</i><par n="albanes/e__n"/></e>
+<e lm="surinamese" a="grfro3d"><i>surinames</i><par n="albanes/e__adj"/></e>
+<e lm="Swaziland" a="grfro3d"><i>Swaziland</i><par n="Europa__np"/></e>
+<e lm="swazilandese" a="grfro3d"><i>swazilandes</i><par n="albanes/e__n"/></e>
+<e lm="swazilandese" a="grfro3d"><i>swazilandes</i><par n="albanes/e__adj"/></e>
+<e lm="Tagikistan" a="grfro3d"><i>Tagikistan</i><par n="Afghanistan__np"/></e>
+<e lm="Tailandia" a="grfro3d"><i>Tailandia</i><par n="Europa__np"/></e>
+<e lm="taiwanese" a="grfro3d"><i>taiwanes</i><par n="albanes/e__n"/></e>
+<e lm="tanzaniano" a="grfro3d"><i>tanzanian</i><par n="bambin/o__n"/></e>
+<e lm="tanzaniano" a="grfro3d"><i>tanzanian</i><par n="cosiddett/o__adj"/></e>
+<e lm="tasmaniano" a="grfro3d"><i>tasmanian</i><par n="bambin/o__n"/></e>
+<e lm="tasmaniano" a="grfro3d"><i>tasmanian</i><par n="cosiddett/o__adj"/></e>
+<e lm="Isola di Baffin" a="grfro3d"><i>Isola<b/>di<b/>Baffin</i><par n="Europa__np"/></e>
+<e lm="Terranova" a="grfro3d"><i>Terranova</i><par n="Europa__np"/></e>
+<e lm="Timor" a="grfro3d"><i>Timor</i><par n="Afghanistan__np"/></e>
+<e lm="timorese" a="grfro3d"><i>timores</i><par n="albanes/e__n"/></e>
+<e lm="timorese" a="grfro3d"><i>timores</i><par n="albanes/e__adj"/></e>
+<e lm="Togo" a="grfro3d"><i>Togo</i><par n="Afghanistan__np"/></e>
+<e lm="togolese" a="grfro3d"><i>togoles</i><par n="albanes/e__n"/></e>
+<e lm="togolese" a="grfro3d"><i>togoles</i><par n="albanes/e__adj"/></e>
+<e lm="Trinidad e Tobago" a="grfro3d"><i>Trinidad<b/>e<b/>Tobago</i><par n="Europa__np"/></e>
+<e lm="turcamano" a="grfro3d"><i>turcaman</i><par n="bambin/o__n"/></e>
+<e lm="turcamano" a="grfro3d"><i>turcaman</i><par n="cosiddett/o__adj"/></e>
+<e lm="Tuvalu" a="grfro3d"><i>Tuvalu</i><par n="Afghanistan__np"/></e>
+<e lm="tuvaliano" a="grfro3d"><i>tuvalian</i><par n="bambin/o__n"/></e>
+<e lm="tuvaliano" a="grfro3d"><i>tuvalian</i><par n="cosiddett/o__adj"/></e>
+<e lm="ceco" a="grfro3d"><i>cec</i><par n="tedesc/o__n"/></e>
+<e lm="cipriota" a="grfro3d"><i>cipriot</i><par n="suicid/a__n"/></e>
+<e lm="cipriota" a="grfro3d"><i>cipriot</i><par n="suicid/a__adj"/></e>
+<e lm="E.a.u." a="grfro3d"><i>E.a.u.</i><par n="USA__np"/></e>
+<e lm="ugandese" a="grfro3d"><i>ugandes</i><par n="albanes/e__n"/></e>
+<e lm="ugandese" a="grfro3d"><i>ugandes</i><par n="albanes/e__adj"/></e>
+<e lm="uruguaiano" a="grfro3d"><i>uruguaian</i><par n="bambin/o__n"/></e>
+<e lm="uruguaiano" a="grfro3d"><i>uruguaian</i><par n="cosiddett/o__adj"/></e>
+<e lm="uzbeco" a="grfro3d"><i>uzbec</i><par n="tedesc/o__n"/></e>
+<e lm="uzbeco" a="grfro3d"><i>uzbec</i><par n="tedesc/o__adj"/></e>
+<e lm="Vanuatu" a="grfro3d"><i>Vanuatu</i><par n="Maldive__np"/></e>
+<e lm="vanuateco" a="grfro3d"><i>vanuatec</i><par n="amic/o__n"/></e>
+<e lm="vanuateco" a="grfro3d"><i>vanuatec</i><par n="tecnic/o__adj"/></e>
+<e lm="Isola di Banks" a="grfro3d"><i>Isola<b/>di<b/>Banks</i><par n="Europa__np"/></e>
+<e lm="Isola di Wrangel" a="grfro3d"><i>Isola<b/>di<b/>Wrangel</i><par n="Europa__np"/></e>
+<e lm="Zambia" a="grfro3d"><i>Zambia</i><par n="Europa__np"/></e>
+<e lm="zambiano" a="grfro3d"><i>zambian</i><par n="bambin/o__n"/></e>
+<e lm="Zimbawe" a="grfro3d"><i>Zimbawe</i><par n="Afghanistan__np"/></e>
+<e lm="zimbabwese" a="grfro3d"><i>zimbabwes</i><par n="albanes/e__n"/></e>
+<e lm="zimbabwese" a="grfro3d"><i>zimbabwes</i><par n="albanes/e__adj"/></e>
 
   </section>
 
