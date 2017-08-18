@@ -18427,6 +18427,7 @@
 <e lm="Leonardi">        <i>Leonardi</i><par n="Díez__np"/></e>
 <e lm="Leonardina">      <i>Leonardina</i><par n="María__np"/></e>
 <e lm="Leonardo">        <i>Leonardo</i><par n="Juan__np"/></e>
+<e lm="Leonardo da Vinci"><i>Leonardo<b/>da<b/>Vinci</i><par n="Juan__np"/></e>
 <e lm="Leoncina">        <i>Leoncina</i><par n="María__np"/></e>
 <e lm="Leone">           <i>Leone</i><par n="Juan__np"/></e>
 <e lm="Leone">           <i>Leone</i><par n="Díez__np"/></e>
@@ -36015,7 +36016,7 @@
 <e lm="angloamericano">  <i>angloamerican</i><par n="cosiddett/o__adj"/></e>
 <e lm="anglofilo">       <i>anglofil</i><par n="abbandonat/o__adj"/></e>
 <e lm="anglofobo">       <i>anglofob</i><par n="abbandonat/o__adj"/></e>
-<e lm="anglofono">       <i>anglofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="anglofono">       <i>anglofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="anglogiamaicano"> <i>anglogiamaican</i><par n="cosiddett/o__adj"/></e>
 <e lm="anglogiapponese"> <i>anglogiappones</i><par n="albanes/e__adj"/></e>
 <e lm="angloindiano">    <i>angloindian</i><par n="cosiddett/o__adj"/></e>
@@ -39055,7 +39056,7 @@
 <e lm="franco-tedesco">  <i>franco-tedesc</i><par n="tedesc/o__adj"/></e>
 <e lm="francofilo">      <i>francofil</i><par n="abbandonat/o__adj"/></e>
 <e lm="francofobo">      <i>francofob</i><par n="abbandonat/o__adj"/></e>
-<e lm="francofono">      <i>francofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="francofono">      <i>francofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="franoso">         <i>franos</i><par n="abbandonat/o__adj"/></e>
 <e lm="frastornato">     <i>frastornat</i><par n="abbandonat/o__adj"/></e>
 <e lm="fraterno">        <i>fratern</i><par n="abbandonat/o__adj"/></e>
@@ -39209,7 +39210,7 @@
 <e lm="germanico">       <i>germanic</i><par n="tecnic/o__adj"/></e>
 <e lm="germanofilo">     <i>germanofil</i><par n="abbandonat/o__adj"/></e>
 <e lm="germanofobo">     <i>germanofob</i><par n="abbandonat/o__adj"/></e>
-<e lm="germanofono">     <i>germanofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="germanofono">     <i>germanofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="germinale">       <i>germinal</i><par n="fin/e__adj"/></e>
 <e lm="geroglifico">     <i>geroglific</i><par n="tecnic/o__adj"/></e>
 <e lm="gessato">         <i>gessat</i><par n="abbandonat/o__adj"/></e>
@@ -40308,7 +40309,7 @@
 <e lm="italo-francese">  <i>italo-frances</i><par n="albanes/e__adj"/></e>
 <e lm="italo-svizzero">  <i>italo-svizzer</i><par n="abbandonat/o__adj"/></e>
 <e lm="italoamericano">  <i>italoamerican</i><par n="abbandonat/o__adj"/></e>
-<e lm="italofono">       <i>italofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="italofono">       <i>italofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="iterativo">       <i>iterativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="itinerante">      <i>itinerant</i><par n="fin/e__adj"/></e>
 <e lm="ittico">          <i>ittic</i><par n="tecnic/o__adj"/></e>
@@ -41303,7 +41304,7 @@
 <e lm="omerico">         <i>omeric</i><par n="tecnic/o__adj"/></e>
 <e lm="omoerotico">      <i>omoerotic</i><par n="tecnic/o__adj"/></e>
 <e lm="omofobo">         <i>omofob</i><par n="cosiddett/o__adj"/></e>
-<e lm="omofono">         <i>omofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="omofono">         <i>omofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="omogeneo">        <i>omogene</i><par n="abbandonat/o__adj"/></e>
 <e lm="omogeneizzato">   <i>omogeneizzat</i><par n="abbandonat/o__adj"/></e>
 <e lm="omologabile">     <i>omologabil</i><par n="fin/e__adj"/></e>
@@ -42787,7 +42788,7 @@
 <e lm="sarcastico">      <i>sarcastic</i><par n="tecnic/o__adj"/></e>
 <e lm="sardo">           <i>sard</i><par n="abbandonat/o__adj"/></e>
 <e lm="sardista">        <i>sardist</i><par n="suicid/a__adj"/></e>
-<e lm="sardofono">       <i>sardofon</i><par n="abbandonat/o__adj"/></e>
+<e lm="sardofono">       <i>sardofon</i><par n="cosiddett/o__adj"/></e>
 <e lm="sardonico">       <i>sardonic</i><par n="tecnic/o__adj"/></e>
 <e r="LR" lm="sardufono"><p><l>sardufon</l>  <r>sardofon</r></p><par n="abbandonat/o__adj"/></e>
 <e lm="sartoriale">      <i>sartorial</i><par n="fin/e__adj"/></e>
@@ -42801,7 +42802,7 @@
 <e lm="saturo">          <i>satur</i><par n="abbandonat/o__adj"/></e>
 <e lm="sauro">           <i>saur</i><par n="abbandonat/o__adj"/></e>
 <e lm="savio">           <i>savi</i><par n="ampi/o__adj"/></e>
-<e lm="savoiardo">       <i>savoiard</i><par n="abbandonat/o__adj"/></e>
+<e lm="savoiardo">       <i>savoiard</i><par n="cosiddett/o__adj"/></e>
 <e lm="sazio">           <i>sazi</i><par n="ampi/o__adj"/></e>
 <e lm="sbadato">         <i>sbadat</i><par n="abbandonat/o__adj"/></e>
 <e lm="sbagliato">       <i>sbagliat</i><par n="abbandonat/o__adj"/></e>
@@ -50205,7 +50206,33 @@
 <e lm="andorrano"><i>andorran</i><par n="bambin/o__n"/></e>
 <e lm="andorrano"><i>andorran</i><par n="cosiddett/o__adj"/></e>
 
-<e lm="in tempo">            <i>in<b/>tempo</i><par n="ieri__adv"/></e>
+<e lm="in tempo"><i>in<b/>tempo</i><par n="ieri__adv"/></e>
+
+<e lm="italianoparlante"><i>italianoparlant</i><par n="albanes/e__n"/></e>
+<e lm="italianoparlante"><i>italianoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="italoparlante"><i>italoparlant</i><par n="albanes/e__n"/></e>
+<e lm="italoparlante"><i>italoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="sardoparlante"><i>sardoparlant</i><par n="albanes/e__n"/></e>
+<e lm="sardoparlante"><i>sardoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="catalanoparlante"><i>catalanoparlant</i><par n="albanes/e__n"/></e>
+<e lm="catalanoparlante"><i>catalanoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="ispanoparlante"><i>ispanoparlant</i><par n="albanes/e__n"/></e>
+<e lm="ispanoparlante"><i>ispanoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="castiglianoparlante"><i>castiglianoparlant</i><par n="albanes/e__n"/></e>
+<e lm="castiglianoparlante"><i>castiglianoparlant</i><par n="albanes/e__adj"/></e>
+<e lm="lusofono"><i>lusofon</i><par n="bambin/o__n"/></e>
+<e lm="lusofono"><i>lusofon</i><par n="cosiddett/o__adj"/></e>
+<e lm="russofono"><i>russofon</i><par n="bambin/o__n"/></e>
+<e lm="russofono"><i>russofon</i><par n="cosiddett/o__adj"/></e>
+<e lm="castiglianofono"><i>castiglianofon</i><par n="bambin/o__n"/></e>
+<e lm="castiglianofono"><i>castiglianofon</i><par n="cosiddett/o__adj"/></e>
+
+<e lm="Mattarella"><i>Mattarella</i><par n="Díez__np"/></e>
+<e lm="Gentiloni"><i>Gentiloni</i><par n="Díez__np"/></e>
+<e lm="Mogherini"><i>Mogherini</i><par n="Díez__np"/></e>
+<e lm="Bossi"><i>Bossi</i><par n="Díez__np"/></e>
+<e lm="Maroni"><i>Maroni</i><par n="Díez__np"/></e>
+<e lm="Salvi"><i>Salvi</i><par n="Díez__np"/></e>
 
   </section>
 
