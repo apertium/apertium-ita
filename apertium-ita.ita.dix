@@ -21337,7 +21337,7 @@
 <e lm="Venero">          <i>Venero</i><par n="Juan__np"/></e>
 <e lm="Veneto">          <i>Veneto</i><par n="Afghanistan__np"/></e>
 <e lm="Venezia">         <i>Venezia</i><par n="Europa__np"/></e>
-<e lm="Venezuela">       <i>Venezuela</i><par n="Europa__np"/></e>
+<e lm="Venezuela">       <i>Venezuela</i><par n="Afghanistan__np"/></e>
 <e lm="Venicia">         <i>Venicia</i><par n="María__np"/></e>
 <e lm="Ventre">          <i>Ventre</i><par n="Díez__np"/></e>
 <e lm="Venturina">       <i>Venturina</i><par n="María__np"/></e>
@@ -23090,7 +23090,7 @@
 <e lm="austero">         <i>auster</i><par n="abbain/o__n"/></e>
 <e lm="austerità">       <i>austerità</i><par n="abilità__n"/></e>
 <e lm="australiano">     <i>australian</i><par n="bambin/o__n"/></e>
-<e lm="austriaco">       <i>austriac</i><par n="tedesc/o__n"/></e>
+<e lm="austriaco">       <i>austriac</i><par n="amic/o__n"/></e>
 <e lm="autore">          <i>aut</i><par n="agricolt/ore__n"/></e>
 <e lm="autenticazione">  <i>autenticazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="autenticità">     <i>autenticità</i><par n="abilità__n"/></e>
@@ -50202,6 +50202,10 @@
 <e lm="Zimbawe" a="grfro3d"><i>Zimbawe</i><par n="Afghanistan__np"/></e>
 <e lm="zimbabwese" a="grfro3d"><i>zimbabwes</i><par n="albanes/e__n"/></e>
 <e lm="zimbabwese" a="grfro3d"><i>zimbabwes</i><par n="albanes/e__adj"/></e>
+<e lm="andorrano"><i>andorran</i><par n="bambin/o__n"/></e>
+<e lm="andorrano"><i>andorran</i><par n="cosiddett/o__adj"/></e>
+
+<e lm="in tempo">            <i>in<b/>tempo</i><par n="ieri__adv"/></e>
 
   </section>
 
