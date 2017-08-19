@@ -38908,7 +38908,8 @@
 <e lm="fievole">         <i>fievol</i><par n="fin/e__adj"/></e>
 <e lm="fifone">          <i>fifon</i><par n="fin/e__adj"/></e>
 <e lm="figo">            <i>fig</i><par n="caric/o__adj"/></e>
-<e lm="figiano">         <i>figian</i><par n="abbandonat/o__adj"/></e>
+<e lm="figiano"><i>figian</i><par n="bambin/o__n"/></e>
+<e lm="figiano"><i>figian</i><par n="cosiddett/o__adj"/></e>
 <e lm="figurato">        <i>figurat</i><par n="abbandonat/o__adj"/></e>
 <e lm="figurativo">      <i>figurativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="filamentoso">     <i>filamentos</i><par n="abbandonat/o__adj"/></e>
@@ -49919,10 +49920,6 @@
 <e lm="equadoriano" a="grfro3d"><i>equadorian</i><par n="cosiddett/o__adj"/></e>
 <e lm="Ellesmere" a="grfro3d"><i>Ellesmere</i><par n="Afghanistan__np"/></e>
 <e lm="El Salvador" a="grfro3d"><i>El<b/>Salvador</i><par n="Afghanistan__np"/></e>
-<e lm="estonia" a="grfro3d"><i>estoni</i><par n="suicid/a__n"/></e>
-<e lm="estonia" a="grfro3d"><i>estoni</i><par n="suicid/a__adj"/></e>
-<e lm="etiopia" a="grfro3d"><i>etiopi</i><par n="suicid/a__n"/></e>
-<e lm="etiopia" a="grfro3d"><i>etiopi</i><par n="suicid/a__adj"/></e>
 <e lm="Fær Øer" a="grfro3d"><i>Fær<b/>Øer</i><par n="Maldive__np"/></e>
 <e lm="feroese" a="grfro3d"><i>feroes</i><par n="albanes/e__n"/></e>
 <e lm="feroese" a="grfro3d"><i>feroes</i><par n="albanes/e__adj"/></e>
