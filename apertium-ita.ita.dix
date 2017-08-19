@@ -14328,8 +14328,6 @@
     <e lm="Don"><i>Don</i><par n="Juan__np"/></e>
     <e lm="Colonna"><i>Colonna</i><par n="Díez__np"/></e>
     <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Díez__np"/></e>
-    <e lm="Ciciaronu"><i>Ciciaronu</i><par n="Díez__np"/></e>
-    <e lm="Luccioni"><i>Luccioni</i><par n="Díez__np"/></e>
     <e lm="Luccioni"><i>Luccioni</i><par n="Díez__np"/></e>
     <e lm="Carnot"><i>Carnot</i><par n="Díez__np"/></e>
     <e lm="Conrad"><i>Conrad</i><par n="Juan__np"/></e>
@@ -18267,7 +18265,6 @@
 <e lm="Jorge">           <i>Jorge</i><par n="Juan__np"/></e>
 <e lm="Josef">           <i>Josef</i><par n="Juan__np"/></e>
 <e lm="Joseph">          <i>Joseph</i><par n="Díez__np"/></e>
-<e lm="Churchill">       <i>Churchill</i><par n="Díez__np"/></e>
 <e lm="Joseph">          <i>Joseph</i><par n="Juan__np"/></e>
 <e lm="José">            <i>José</i><par n="Juan__np"/></e>
 <e lm="Juan">            <i>Juan</i><par n="Juan__np"/></e>
@@ -21393,7 +21390,6 @@
 <e lm="Viddalba">        <i>Viddalba</i><par n="Europa__np"/></e>
 <e lm="Vienna">          <i>Vienna</i><par n="Europa__np"/></e>
 <e lm="Vienna">          <i>Vienna</i><par n="María__np"/></e>
-<e lm="Vienna">          <i>Vienna</i><par n="Europa__np"/></e>
 <e lm="Vieri">           <i>Vieri</i><par n="Juan__np"/></e>
 <e lm="Viero">           <i>Viero</i><par n="Juan__np"/></e>
 <e lm="Vietnam">         <i>Vietnam</i><par n="Afghanistan__np"/></e>
@@ -21447,7 +21443,6 @@
 <e lm="Vincent">         <i>Vincent</i><par n="Juan__np"/></e>
 <e lm="Vincenza">        <i>Vincenza</i><par n="María__np"/></e>
 <e lm="Vincenzo">        <i>Vincenzo</i><par n="Juan__np"/></e>
-<e lm="Vinci">           <i>Vinci</i><par n="Díez__np"/></e>
 <e lm="Vinicia">         <i>Vinicia</i><par n="María__np"/></e>
 <e lm="Vinicio">         <i>Vinicio</i><par n="Juan__np"/></e>
 <e lm="Viola">           <i>Viola</i><par n="María__np"/></e>
@@ -31975,7 +31970,6 @@
 <e lm="rango">           <i>rang</i><par n="fung/o__n"/></e>
 <e lm="ranking">         <i>ranking</i><par n="albatros__n"/></e>
 <e lm="rantolo">         <i>rantol</i><par n="abbain/o__n"/></e>
-<e lm="rap">             <i>rap</i><par n="albatros__n"/></e>
 <e lm="rapace">          <i>rapac</i><par n="abat/e__n"/></e>
 <e lm="rapacità">        <i>rapacità</i><par n="abilità__n"/></e>
 <e lm="rapido">          <i>rapid</i><par n="abbain/o__n"/></e>
@@ -39476,8 +39470,6 @@
 <e lm="immenso">         <i>immens</i><par n="abbandonat/o__adj"/></e>
 <e lm="immeritato">      <i>immeritat</i><par n="abbandonat/o__adj"/></e>
 <e lm="immerso">         <i>immers</i><par n="abbandonat/o__adj"/></e>
-<e lm="immigrato">       <i>immigrat</i><par n="abbandonat/o__adj"/></e>
-<e lm="immigratorio">    <i>immigratori</i><par n="ampi/o__adj"/></e>
 <e lm="imminente">       <i>imminent</i><par n="fin/e__adj"/></e>
 <e lm="immobile">        <i>immobil</i><par n="fin/e__adj"/></e>
 <e lm="immobiliare">     <i>immobiliar</i><par n="fin/e__adj"/></e>
@@ -40844,7 +40836,6 @@
 <e lm="migliorativo">    <i>migliorativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="migliorista">     <i>migliorist</i><par n="suicid/a__adj"/></e>
 <e lm="migratorio">      <i>migrator</i><par n="ampi/o__adj"/></e>
-<e lm="migratorio">      <i>migratori</i><par n="ampi/o__adj"/></e>
 <e lm="milanese">        <i>milanes</i><par n="albanes/e__adj"/></e>
 <e lm="milanista">       <i>milanist</i><par n="suicid/a__adj"/></e>
 <e lm="milenso">         <i>milens</i><par n="abbandonat/o__adj"/></e>
@@ -41175,18 +41166,15 @@
 <e lm="nordafricano">    <i>nordafrican</i><par n="cosiddett/o__adj"/></e>
 <e r="LR" lm="nord-africano">  <p><l>nord-african</l>    <r>nord-african</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="nordamericano">   <i>nordamerican</i><par n="cosiddett/o__adj"/></e>
-<e r="LR" lm="nord-africano">  <p><l>nord-african</l>    <r>nord-african</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="nordcoreano">     <i>nordcorean</i><par n="cosiddett/o__adj"/></e>
 <e r="LR" lm="nord-coreano">  <p><l>nord-corean</l>    <r>nord-corean</r></p><par n="cosiddett/o__adj"/></e>
 <e lm="nordico">         <i>nordic</i><par n="tecnic/o__adj"/></e>
 <e lm="nordirlandese">   <i>nordirlandes</i><par n="albanes/e__adj"/></e>
-<e r="LR" lm="nord-irlandese">  <p><l>nord-irlandes</l>    <r>nord-irlandes</r></p><par n="albanes/e__n"/></e>
 <e lm="nordista">        <i>nordist</i><par n="suicid/a__adj"/></e>
 <e lm="nordoccidentale"> <i>nordoccidental</i><par n="fin/e__adj"/></e>
 <e lm="nordorientale">   <i>nordoriental</i><par n="fin/e__adj"/></e>
 <e lm="normale">         <i>normal</i><par n="fin/e__adj"/></e>
 <e lm="normalizzato">    <i>normalizzat</i><par n="cosiddett/o__adj"/></e>
-<e lm="normanno">        <i>normann</i><par n="abbandonat/o__adj"/></e>
 <e lm="normativo">       <i>normativ</i><par n="abbandonat/o__adj"/></e>
 <e lm="norvegese">       <i>norveges</i><par n="albanes/e__adj"/></e>
 <e lm="nostalgico">      <i>nostalgic</i><par n="tecnic/o__adj"/></e>
@@ -43680,7 +43668,6 @@
 <e lm="sudista">         <i>sudist</i><par n="suicid/a__adj"/></e>
 <e lm="sudorientale">    <i>sudoriental</i><par n="fin/e__adj"/></e>
 <e lm="sudtirolese">     <i>sudtiroles</i><par n="albanes/e__adj"/></e>
-<e r="LR" lm="nord-tirolese">  <p><l>nord-tiroles</l>    <r>nord-tiroles</r></p><par n="albanes/e__n"/></e>
 <e lm="sufficiente">     <i>sufficient</i><par n="fin/e__adj"/></e>
 <e lm="suggestivo">      <i>suggestiv</i><par n="abbandonat/o__adj"/></e>
 <e lm="suino">           <i>suin</i><par n="abbandonat/o__adj"/></e>
@@ -49782,7 +49769,6 @@
 <e lm="munire">        <i>mun</i><par n="abbrut/ire__vblex"/></e>
 <e lm="munire d'anse"> <i>mun</i><par n="abbrut/ire__vblex"/><p><l><b/>d'anse</l><r><g><b/>d'anse</g></r></p></e>
 
-<e lm="quanto">          <i>quanto</i><par n="siccome__cnjadv"/></e> <!-- La figlia è tanto bella quanto sua madre -->
 <e lm="da quando">       <i>da<b/>quando</i><par n="ieri__adv"/></e>
 
 <e lm="plasma">      <i>plasm</i><par n="autom/a__n"/></e>
@@ -49966,8 +49952,6 @@
 <e lm="Guinea Equatoriale" a="grfro3d"><i>Guinea<b/>Equatoriale</i><par n="Europa__np"/></e>
 <e lm="ecuatoguineano" a="grfro3d"><i>ecuatoguinean</i><par n="bambin/o__n"/></e>
 <e lm="ecuatoguineano" a="grfro3d"><i>ecuatoguinean</i><par n="cosiddett/o__adj"/></e>
-<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__n"/></e>
-<e lm="guaianese" a="grfro3d"><i>guaianes</i><par n="albanes/e__adj"/></e>
 <e lm="honduregno" a="grfro3d"><i>honduregn</i><par n="bambin/o__n"/></e>
 <e lm="honduregno" a="grfro3d"><i>honduregn</i><par n="cosiddett/o__adj"/></e>
 <e lm="aleuto" a="grfro3d"><i>aleut</i><par n="bambin/o__n"/></e>
@@ -50017,8 +50001,6 @@
 <e lm="Isole di Farquhar" a="grfro3d"><i>Isole<b/>di<b/>Farquhar</i><par n="Maldive__np"/></e>
 <e lm="Isole Galápagos" a="grfro3d"><i>Isole<b/>Galápagos</i><par n="Maldive__np"/></e>
 <e lm="Isola Guadalupa" a="grfro3d"><i>Isola<b/>Guadalupa</i><par n="Europa__np"/></e>
-<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__n"/></e>
-<e lm="guadalupense" a="grfro3d"><i>guadalupens</i><par n="albanes/e__adj"/></e>
 <e lm="Isole Hawai" a="grfro3d"><i>Isole<b/>Hawai</i><par n="Maldive__np"/></e>
 <e lm="hawaiano" a="grfro3d"><i>hawaian</i><par n="bambin/o__n"/></e>
 <e lm="hawaiano" a="grfro3d"><i>hawaian</i><par n="cosiddett/o__adj"/></e>
