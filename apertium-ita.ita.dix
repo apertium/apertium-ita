@@ -41266,6 +41266,9 @@
 <e lm="offeso">          <i>offes</i><par n="abbandonat/o__adj"/></e>
 <e lm="officiante">      <i>officiant</i><par n="fin/e__adj"/></e>
 <e lm="officinale">      <i>officinal</i><par n="fin/e__adj"/></e>
+<e lm="oftalmologia">    <i>oftalmologi</i><par n="cas/a__n"/></e>
+<e lm="oftalmologo">     <i>oftalmolog</i><par n="bambin/o__n"/></e>
+<e lm="oftalmologico">   <i>oftalmologic</i><par n="tecnic/o__adj"/></e>
 <e lm="oftalmico">       <i>oftalmic</i><par n="tecnic/o__adj"/></e>
 <e lm="oggetto">         <i>oggett</i><par n="abbandonat/o__adj"/></e>
 <e lm="oggettivo">       <i>oggettiv</i><par n="abbandonat/o__adj"/></e>
@@ -50214,6 +50217,10 @@
 <e lm="Bossi"><i>Bossi</i><par n="Díez__np"/></e>
 <e lm="Maroni"><i>Maroni</i><par n="Díez__np"/></e>
 <e lm="Salvi"><i>Salvi</i><par n="Díez__np"/></e>
+
+<e lm="centrico"><i>centric</i><par n="tecnic/o__adj"/></e>
+<e lm="geocentrico"><i>geocentric</i><par n="tecnic/o__adj"/></e>
+<e lm="geocentrismo"><i>geocentrism</i><par n="abbain/o__n"/></e>
 
   </section>
 
