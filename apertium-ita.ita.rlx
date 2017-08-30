@@ -45,6 +45,8 @@ SET MascPl2 = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg2 = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl2 = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
+SET Aord = (adj ord) ;
+
 LIST P1 = (p1) ;
 LIST P2 = (p2) ;
 LIST P3 = (p3) ;
@@ -161,10 +163,10 @@ REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ; 	# solució problema "nel" (a més t
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 EOS) ;
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo.
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 	# dello Stato spagnolo.
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo.
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
+SELECT A IF (0 A) (NOT -1 Aord) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo. / il primo amico
+SELECT A IF (0 A) (NOT -1 Aord) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo. / il primo amico
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
 SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
@@ -260,4 +262,11 @@ SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
 SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PrfPrc + Sg) ;		# sono povero
 SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PrfPrc + Sg) ;	# sono molto povero
 
-SELECT N IF (-1C Num) (0C N OR A) (1 Pr) ;			# due terzi di
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Pr) ;			# due terzi di
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CS) ;
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CA) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Pr) ;		# il primo quarto
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CS) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CA) ;

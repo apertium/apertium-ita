@@ -49438,8 +49438,6 @@
 <e lm="cinquantotto">    <i>cinquantotto</i><par n="centocinquanta__num"/></e>
 <e lm="cinque">          <i>cinque</i><par n="centocinquanta__num"/></e>
 <e lm="cinquecento">     <i>cinquecento</i><par n="trecento/__num"/></e>
-<!--<e lm="centinaia di"><i>centinaia<b/>di</i><par n="C__num"/></e>-->
-
 <e lm="decine">          <i>decine</i><par n="C__num"/></e>
 <e lm="diciannove">      <i>diciannove</i><par n="centocinquanta__num"/></e>
 <e lm="diciassette">      <i>diciassette</i><par n="centocinquanta__num"/></e>
