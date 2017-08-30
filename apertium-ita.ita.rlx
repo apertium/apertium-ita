@@ -149,6 +149,7 @@ SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 1 ("un altr
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
+SELECT Num (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
 
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;		# le più grandi collezioni di pesci
@@ -258,3 +259,5 @@ SELECT P1 IF (0 ("<sono>")) (-1 Io) ;				# io sono
 SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
 SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PrfPrc + Sg) ;		# sono povero
 SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PrfPrc + Sg) ;	# sono molto povero
+
+SELECT N IF (-1C Num) (0C N OR A) (1 Pr) ;			# due terzi di

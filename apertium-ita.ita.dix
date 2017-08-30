@@ -11988,9 +11988,11 @@
   <e>       <p><l></l>          <r><s n="adj"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
 
+<!--
 <pardef n="porno__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+-->
     
 <pardef n="extra__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -22046,18 +22048,6 @@
 <e lm="CAM">             <i>CAM</i><par n="TV__n"/></e>
 <e lm="CA">              <i>CA</i><par n="TV__n"/></e>
 <e lm="PTA">             <i>PTA</i><par n="TV__n"/></e>
-
-
-
-
-
-
-
-
-
-
-
-
 <e lm="Visitazione">     <i>Visitazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="WTA">             <i>WTA</i><par n="TV__n"/></e>
 <e lm="WWE">             <i>WWE</i><par n="TV__n"/></e>
@@ -22625,7 +22615,7 @@
 <e lm="animaletto">      <i>animalett</i><par n="abbain/o__n"/></e>
 <e lm="animalista">      <i>animalist</i><par n="suicid/a__n"/></e>
 <e lm="animalità">       <i>animalità</i><par n="abilità__n"/></e>
-<e lm="animatore">       <i>animator</i><par n="abat/e__n"/></e>
+<e lm="animatore">       <i>animat</i><par n="agricolt/ore__n"/></e>
 <e lm="animazione">      <i>animazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="animosità">       <i>animosità</i><par n="abilità__n"/></e>
 <e lm="anno">            <i>ann</i><par n="abbain/o__n"/></e>
@@ -24256,7 +24246,7 @@
 <e lm="cazzotto">        <i>cazzott</i><par n="abbain/o__n"/></e>
 <e lm="cece">            <i>cec</i><par n="abat/e__n"/></e>
 <e lm="cecchino">        <i>cecchin</i><par n="abbain/o__n"/></e>
-<e lm="ceceno">          <i>cecen</i><par n="abbain/o__n"/></e>
+<e lm="ceceno">          <i>cecen</i><par n="bambin/o__n"/></e>
 <e lm="cecità">          <i>cecità</i><par n="abilità__n"/></e>
 <e lm="cedimento">       <i>cediment</i><par n="abbain/o__n"/></e>
 <e lm="cedola">          <i>cedol</i><par n="cas/a__n"/></e>
@@ -24993,7 +24983,7 @@
 <e lm="consolidamento">  <i>consolidament</i><par n="abbain/o__n"/></e>
 <e lm="consolle">        <i>consolle</i><par n="abilità__n"/></e>
 <e lm="consonante">      <i>consonant</i><par n="abbreviazion/e__n"/></e>
-<e lm="consorte">        <i>consort</i><par n="abat/e__n"/></e>
+<e lm="consorte">        <i>consort</i><par n="albanes/e__n"/></e>
 <e lm="consorzio">       <i>consorzi</i><par n="abbagli/o__n"/></e>
 <e lm="constatazione">   <i>constatazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="consulente">      <i>consulent</i><par n="albanes/e__n"/></e>
@@ -25346,7 +25336,7 @@
 <e lm="creatività">      <i>creatività</i><par n="abilità__n"/></e>
 <e lm="creatura">        <i>creatur</i><par n="cas/a__n"/></e>
 <e lm="creazione">       <i>creazion</i><par n="abbreviazion/e__n"/></e>
-<e lm="credente">        <i>credent</i><par n="abat/e__n"/></e>
+<e lm="credente">        <i>credent</i><par n="albanes/e__n"/></e>
 <e lm="credenza">        <i>credenz</i><par n="cas/a__n"/></e>
 <e lm="credenziale">     <i>credenzial</i><par n="abbreviazion/e__n"/></e>
 <e lm="credibilità">     <i>credibilità</i><par n="abilità__n"/></e>
@@ -25358,7 +25348,7 @@
 <e lm="crema">           <i>crem</i><par n="cas/a__n"/></e>
 <e lm="cremazione">      <i>cremazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="cremonese">       <i>cremones</i><par n="albanes/e__n"/></e>
-<e lm="creolo">          <i>creol</i><par n="abbain/o__n"/></e>
+<e lm="creolo">          <i>creol</i><par n="bambin/o__n"/></e>
 <e lm="crepa">           <i>crep</i><par n="cas/a__n"/></e>
 <e lm="crepaccio">       <i>crepacci</i><par n="abbagli/o__n"/></e>
 <e lm="crepitio">        <i>crepiti</i><par n="abbain/o__n"/></e>
@@ -25639,9 +25629,11 @@
 <e lm="demitiano">       <i>demitian</i><par n="bambin/o__n"/></e>
 <e lm="demo">            <i>demo</i><par n="abilità__n"/></e>
 <e lm="democratico">     <i>democratic</i><par n="amic/o__n"/></e>
+<e lm="socialdemocratico"><i>socialdemocratic</i><par n="amic/o__n"/></e>
 <e lm="democraticità">   <i>democraticità</i><par n="abilità__n"/></e>
 <e lm="democratizzazione"><i>democratizzazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="democrazia">      <i>democrazi</i><par n="cas/a__n"/></e>
+<e lm="socialdemocrazia"><i>socialdemocrazi</i><par n="cas/a__n"/></e>
 <e lm="democristiano">   <i>democristian</i><par n="bambin/o__n"/></e>
 <e lm="demografo">       <i>demograf</i><par n="bambin/o__n"/></e>
 <e lm="demografia">      <i>demografi</i><par n="cas/a__n"/></e>
@@ -27361,6 +27353,7 @@
 <e lm="gavianeo">        <i>gaviane</i><par n="abbain/o__n"/></e>
 <e lm="gay">             <i>gay</i><par n="blogger__n"/></e>
 <e lm="gay">             <i>gay</i><par n="extra__adj"/></e>  
+<e lm="rapper">          <i>rapper</i><par n="blogger__n"/></e>
 <e lm="geco">            <i>gec</i><par n="fung/o__n"/></e>
 <e lm="geek">            <i>geek</i><par n="blogger__n"/></e>
 <e lm="gel">             <i>gel</i><par n="albatros__n"/></e>
@@ -27466,7 +27459,7 @@
 <e lm="giaccone">        <i>giaccon</i><par n="abat/e__n"/></e>
 <e lm="giacimento">      <i>giaciment</i><par n="abbain/o__n"/></e>
 <e lm="giacinto">        <i>giacint</i><par n="abbain/o__n"/></e>
-<e lm="giacobino">       <i>giacobin</i><par n="abbain/o__n"/></e>
+<e lm="giacobino">       <i>giacobin</i><par n="bambin/o__n"/></e>
 <e lm="giacobinismo">    <i>giacobinism</i><par n="abbain/o__n"/></e>
 <e lm="giada">           <i>giad</i><par n="cas/a__n"/></e>
 <e lm="giaguaro">        <i>giaguar</i><par n="abbain/o__n"/></e>
@@ -27636,7 +27629,9 @@
 <e lm="gorbaciovismo">   <i>gorbaciovism</i><par n="abbain/o__n"/></e>
 <e lm="gorgoglio">       <i>gorgogli</i><par n="abbain/o__n"/></e>
 <e lm="gorilla">         <i>gorilla</i><par n="blogger__n"/></e>
-<e lm="goto">            <i>got</i><par n="abbain/o__n"/></e>
+<e lm="goto">            <i>got</i><par n="bambin/o__n"/></e>
+<e lm="ostrogoto">       <i>ostrogot</i><par n="bambin/o__n"/></e>
+<e lm="visigoto">        <i>visigot</i><par n="bambin/o__n"/></e>
 <e lm="governo">         <i>govern</i><par n="abbain/o__n"/></e>
 <e lm="governabilità">   <i>governabilità</i><par n="abilità__n"/></e>
 <e lm="governance">      <i>governance</i><par n="abilità__n"/></e>
@@ -27755,7 +27750,7 @@
 <e lm="guaritore">       <i>guarit</i><par n="agricolt/ore__n"/></e>
 <e lm="guarnigione">     <i>guarnigion</i><par n="abbreviazion/e__n"/></e>
 <e lm="guarnizione">     <i>guarnizion</i><par n="abbreviazion/e__n"/></e>
-<e lm="guascone">        <i>guascon</i><par n="abat/e__n"/></e>
+<e lm="guascone">        <i>guascon</i><par n="albanes/e__n"/></e>
 <e lm="guasto">          <i>guast</i><par n="abbain/o__n"/></e>
 <e lm="guastatore">      <i>guastat</i><par n="agricolt/ore__n"/></e>
 <e lm="guazzabuglio">    <i>guazzabugli</i><par n="abbain/o__n"/></e>
@@ -30035,7 +30030,7 @@
 <e lm="nitrato">         <i>nitrat</i><par n="abbain/o__n"/></e>
 <e lm="nitrito">         <i>nitrit</i><par n="abbain/o__n"/></e>
 <e lm="nitrogeno">       <i>nitrogen</i><par n="abbain/o__n"/></e>
-<e lm="nobile">          <i>nobil</i><par n="abat/e__n"/></e>
+<e lm="nobile">          <i>nobil</i><par n="albanes/e__n"/></e>
 <e lm="nobiltà">         <i>nobiltà</i><par n="abilità__n"/></e>
 <e lm="noce">            <i>noc</i><par n="abbreviazion/e__n"/></e>
 <e lm="nocchiero">       <i>nocchier</i><par n="abbain/o__n"/></e>
@@ -30805,7 +30800,7 @@
 <e lm="pelato">          <i>pelat</i><par n="abbain/o__n"/></e>
 <e lm="pelino">          <i>pelin</i><par n="abbain/o__n"/></e>
 <e lm="pelle">           <i>pell</i><par n="abbreviazion/e__n"/></e>
-<e lm="pellegrino">      <i>pellegrin</i><par n="abbain/o__n"/></e>
+<e lm="pellegrino">      <i>pellegrin</i><par n="bambin/o__n"/></e>
 <e lm="pellegrinaggio">  <i>pellegrinaggi</i><par n="abbagli/o__n"/></e>
 <e lm="pellicceria">     <i>pellicceri</i><par n="cas/a__n"/></e>
 <e lm="pellicola">       <i>pellicol</i><par n="cas/a__n"/></e>
@@ -37078,7 +37073,7 @@
 <e lm="cavernoso">       <i>cavernos</i><par n="abbandonat/o__adj"/></e>
 <e lm="cavilloso">       <i>cavillos</i><par n="abbandonat/o__adj"/></e>
 <e lm="ceco">            <i>cec</i><par n="tecnic/o__adj"/></e>
-<e lm="ceceno">          <i>cecen</i><par n="abbandonat/o__adj"/></e>
+<e lm="ceceno">          <i>cecen</i><par n="cosiddett/o__adj"/></e>
 <e lm="cedevole">        <i>cedevol</i><par n="fin/e__adj"/></e>
 <e lm="cedibile">        <i>cedibil</i><par n="fin/e__adj"/></e>
 <e lm="ceduto">          <i>cedut</i><par n="cosiddett/o__adj"/></e>
@@ -40582,7 +40577,7 @@
 <e lm="machiavellico">   <i>machiavellic</i><par n="tecnic/o__adj"/></e>
 <e lm="macilento">       <i>macilent</i><par n="abbandonat/o__adj"/></e>
 <e lm="macinato">        <i>macinat</i><par n="abbandonat/o__adj"/></e>
-<e lm="macro">           <i>macro</i><par n="porno__adj"/></e>
+<e lm="macro">           <i>macro</i><par n="extra__adj"/></e>
 <e lm="macrobiotico">    <i>macrobiotic</i><par n="tecnic/o__adj"/></e>
 <e lm="macroeconomico">  <i>macroeconomic</i><par n="tecnic/o__adj"/></e>
 <e lm="macroscopico">    <i>macroscopic</i><par n="tecnic/o__adj"/></e>
@@ -41438,7 +41433,9 @@
 <e lm="ostico">          <i>ostic</i><par n="tecnic/o__adj"/></e>
 <e lm="ostile">          <i>ostil</i><par n="fin/e__adj"/></e>
 <e lm="ostinato">        <i>ostinat</i><par n="abbandonat/o__adj"/></e>
-<e lm="ostrogoto">       <i>ostrogot</i><par n="abbandonat/o__adj"/></e>
+<e lm="ostrogoto">       <i>ostrogot</i><par n="cosiddett/o__adj"/></e>
+<e lm="visigoto">        <i>visigot</i><par n="cosiddett/o__adj"/></e>
+<e lm="goto">            <i>got</i><par n="cosiddett/o__adj"/></e>
 <e lm="ostruzionistico"> <i>ostruzionistic</i><par n="tecnic/o__adj"/></e>
 <e lm="ottagonale">      <i>ottagonal</i><par n="fin/e__adj"/></e>
 <e lm="ottantacinquesimo"><i>ottantacinquesim</i><par n="prim/o__adj"/></e>
@@ -41887,7 +41884,7 @@
 <e lm="populistico">     <i>populistic</i><par n="tecnic/o__adj"/></e>
 <e lm="porcellanato">    <i>porcellanat</i><par n="abbandonat/o__adj"/></e>
 <e lm="porcino">         <i>porcin</i><par n="abbandonat/o__adj"/></e>
-<e lm="porno">           <i>porn</i><par n="porno__adj"/></e>
+<e lm="porno">           <i>porn</i><par n="extra__adj"/></e>
 <e lm="pornografico">    <i>pornografic</i><par n="tecnic/o__adj"/></e>
 <e lm="poroso">          <i>poros</i><par n="abbandonat/o__adj"/></e>
 <e lm="porporato">       <i>porporat</i><par n="abbandonat/o__adj"/></e>
@@ -50241,8 +50238,8 @@
 <e lm="scapito"><i>scapit</i><par n="abbain/o__n"/></e>
 <e lm="terteniese"><i>tertenies</i><par n="albanes/e__adj"/></e>
 
-<e lm="sinusoide">           <i>sinusoid</i><par n="abat/e__n"/></e>
-<e lm="sinusoidale">           <i>sinusoidal</i><par n="albanes/e__adj"/></e>
+<e lm="sinusoide"><i>sinusoid</i><par n="abbreviazion/e__n"/></e>
+<e lm="sinusoidale"><i>sinusoidal</i><par n="albanes/e__adj"/></e>
 
 <e lm="Aitken">          <i>Aitken</i><par n="Díez__np"/></e>
 <e lm="Alcock">          <i>Alcock</i><par n="Díez__np"/></e>
@@ -50509,6 +50506,17 @@
 <e lm="Wormald">         <i>Wormald</i><par n="Díez__np"/></e>
 <e lm="Worthington">     <i>Worthington</i><par n="Díez__np"/></e>
 <e lm="York">            <i>York</i><par n="Díez__np"/></e>
+
+<e lm="play-off">        <i>play-off</i><par n="albatros__n"/></e>
+<e lm="terzo">           <i>terz</i><par n="abbagli/o__n"/></e>
+<e lm="quarto">          <i>quart</i><par n="abbagli/o__n"/></e>
+<e lm="quinto">          <i>quint</i><par n="abbagli/o__n"/></e>
+<e lm="sesto">           <i>sest</i><par n="abbagli/o__n"/></e>
+<e lm="settimo">         <i>settim</i><par n="abbagli/o__n"/></e>
+<e lm="ottavo">          <i>ottav</i><par n="abbagli/o__n"/></e>
+<e lm="nono">            <i>non</i><par n="abbagli/o__n"/></e>
+
+<e lm="ritirata">        <i>ritirat</i><par n="cas/a__n"/></e>
 
   </section>
 
