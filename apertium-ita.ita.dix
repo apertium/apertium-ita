@@ -50518,6 +50518,12 @@
 
 <e lm="ritirata">        <i>ritirat</i><par n="cas/a__n"/></e>
 
+<e lm="franco-">           <i>franco</i><par n="extra__adj"/></e>
+<e lm="italo-">           <i>italo</i><par n="extra__adj"/></e>
+<e lm="anglo-">           <i>anglo</i><par n="extra__adj"/></e>
+<e lm="germano-">           <i>germano</i><par n="extra__adj"/></e>
+<e lm="ispano-">           <i>ispano</i><par n="extra__adj"/></e>
+
   </section>
 
   <section id="apostrophes" type="postblank">
