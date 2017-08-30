@@ -119,7 +119,7 @@ SELECT Avere IF (1 Adv) (2 PrfPrc) ;
 SELECT Ser IF (0 Puo_essere) (1 PrfPrc) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
 
-SELECT Det IF (-1 Pr) (0 A OR Det) (1 N) ;
+SELECT Det IF (-1 Pr) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
 SELECT PrfPrc IF (-1 Essere) (0 Stato) ;
 
