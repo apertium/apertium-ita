@@ -15026,6 +15026,7 @@
 <e lm="Alessandria">     <i>Alessandria</i><par n="Europa__np"/></e>
 <e lm="Alessandrina">    <i>Alessandrina</i><par n="María__np"/></e>
 <e lm="Alessandro">      <i>Alessandro</i><par n="Juan__np"/></e>
+<e lm="Alessandro Magno"><i>Alessandro<b/>Magno</i><par n="Juan__np"/></e>
 <e lm="Alessi">          <i>Alessi</i><par n="Díez__np"/></e>
 <e lm="Alessia">         <i>Alessia</i><par n="María__np"/></e>
 <e lm="Alessina">        <i>Alessina</i><par n="María__np"/></e>
@@ -16132,6 +16133,8 @@
 <e lm="Carletto">        <i>Carletto</i><par n="Juan__np"/></e>
 <e lm="Carlina">         <i>Carlina</i><par n="María__np"/></e>
 <e lm="Carlo">           <i>Carlo</i><par n="Juan__np"/></e>
+<e lm="Carlo Magno"><i>Carlo<b/>Magno</i><par n="Juan__np"/></e>
+<e lm="Carlomagno"><i>Carlomagno</i><par n="Juan__np"/></e>
 <e lm="Carloforte">      <i>Carloforte</i><par n="Afghanistan__np"/></e>
 <e lm="Carlos">          <i>Carlos</i><par n="Juan__np"/></e>
 <e lm="Carlotta">        <i>Carlotta</i><par n="María__np"/></e>
@@ -17758,6 +17761,7 @@
 <e lm="Giovanni Battista"><i>Giovanni<b/>Battista</i><par n="Juan__np"/></e>
 <e lm="Giovanni Caboto"> <i>Giovanni<b/>Caboto</i><par n="Juan__np"/></e>
 <e lm="Giovanni Calvino"><i>Giovanni<b/>Calvino</i><par n="Juan__np"/></e>
+<e lm="Giovanni Paolo">  <i>Giovanni<b/>Paolo</i><par n="Juan__np"/></e>
 <e lm="Giovanni I">      <i>Giovanni<b/>I</i><par n="Juan__np"/></e>
 <e lm="Giovanni II">     <i>Giovanni<b/>II</i><par n="Juan__np"/></e>
 <e lm="Giovanni III">    <i>Giovanni<b/>III</i><par n="Juan__np"/></e>
@@ -17961,6 +17965,7 @@
 <e lm="Hans">            <i>Hans</i><par n="Juan__np"/></e>
 <e lm="Hantuchová">      <i>Hantuchová</i><par n="Díez__np"/></e>
 <e lm="Haro">            <i>Haro</i><par n="Afghanistan__np"/></e>
+<e lm="Haro">            <i>Haro</i><par n="Díez__np"/></e>
 <e lm="Harold">          <i>Harold</i><par n="Juan__np"/></e>
 <e lm="Harper">          <i>Harper</i><par n="Díez__np"/></e>
 <e lm="Harry">           <i>Harry</i><par n="Juan__np"/></e>
@@ -17987,10 +17992,12 @@
 <e lm="Hernán">          <i>Hernán</i><par n="Juan__np"/></e>
 <e lm="Hernández">       <i>Hernández</i><par n="Díez__np"/></e>
 <e lm="Herrera">         <i>Herrera</i><par n="Europa__np"/></e>
+<e lm="Herrera">         <i>Herrera</i><par n="Díez__np"/></e>
 <e lm="Herrero">         <i>Herrero</i><par n="ABC__np"/></e>
 <e lm="Hervás">          <i>Hervás</i><par n="Afghanistan__np"/></e>
 <e lm="Hezbollah">       <i>Hezbollah</i><par n="ABC__np"/></e>
 <e lm="Hidalgo">         <i>Hidalgo</i><par n="Afghanistan__np"/></e>
+<e lm="Hidalgo">         <i>Hidalgo</i><par n="Díez__np"/></e>
 <e lm="Higgins">         <i>Higgins</i><par n="Díez__np"/></e>
 <e lm="High Net Worth Individual" a="prompsit"><i>High Net Worth Individual</i><par n="ABC__np"/></e>
 <e lm="Hilbert">         <i>Hilbert</i><par n="Díez__np"/></e>
@@ -18552,7 +18559,7 @@
 <e lm="Livorno">         <i>Livorno</i><par n="Afghanistan__np"/></e>
 <e lm="Livrizzi">        <i>Livrizzi</i><par n="Díez__np"/></e>
 <e lm="Lleida">          <i>Lleida</i><par n="Europa__np"/></e>
-<e lm="Llobregat">       <i>Llobregat</i><par n="Afghanistan__np"/></e>
+<e lm="Llobregat">       <i>Llobregat</i><par n="Po__np"/></e>
 <e lm="Lloyd">           <i>Lloyd</i><par n="Díez__np"/></e>
 <e lm="Llíria">          <i>Llíria</i><par n="Europa__np"/></e>
 <e lm="Lo Iacono">       <i>Lo<b/>Iacono</i><par n="Díez__np"/></e>
@@ -19154,7 +19161,7 @@
 <e r="LR" lm="Monteleone Rocca Doria (sardu)"><p><l>Monteleone</l><r>Monteleone<b/>Rocca<b/>Doria</r></p><par n="Afghanistan__np"/></e>
 <e lm="Monteleone Rocca Doria"><i>Monteleone<b/>Rocca<b/>Doria</i><par n="Afghanistan__np"/></e>
 <e lm="Montenegro">      <i>Montenegro</i><par n="Afghanistan__np"/></e>
-<e lm="Montero">         <i>Montero</i><par n="ABC__np"/></e>
+<e lm="Montero">         <i>Montero</i><par n="Díez__np"/></e>
 <e lm="Monterrey">       <i>Monterrey</i><par n="Afghanistan__np"/></e>
 <e lm="Montescaglioso">  <i>Montescaglioso</i><par n="Afghanistan__np"/></e>
 <e lm="Montesinos">      <i>Montesinos</i><par n="Díez__np"/></e>
@@ -20211,6 +20218,7 @@
 <e lm="Rhode Island">    <i>Rhode<b/>Island</i><par n="Afghanistan__np"/></e>
 <e lm="Ribera">          <i>Ribera</i><par n="Europa__np"/></e>
 <e lm="Ribes">           <i>Ribes</i><par n="ABC__np"/></e>
+<e lm="Ribes">           <i>Ribes</i><par n="Díez__np"/></e>
 <e lm="Ricardo">         <i>Ricardo</i><par n="Juan__np"/></e>
 <e lm="Ricca">           <i>Ricca</i><par n="María__np"/></e>
 <e lm="Riccarda">        <i>Riccarda</i><par n="María__np"/></e>
@@ -21279,7 +21287,7 @@
 <e lm="Valter">          <i>Valter</i><par n="Juan__np"/></e>
 <e lm="Valteria">        <i>Valteria</i><par n="María__np"/></e>
 <e lm="Valterina">       <i>Valterina</i><par n="María__np"/></e>
-<e lm="Valverde">        <i>Valverde</i><par n="ABC__np"/></e>
+<e lm="Valverde">        <i>Valverde</i><par n="Díez__np"/></e>
 <e lm="Van Gogh">        <i>Van<b/>Gogh</i><par n="Díez__np"/></e>
 <e lm="Vana">            <i>Vana</i><par n="María__np"/></e>
 <e lm="Vancouver">       <i>Vancouver</i><par n="Afghanistan__np"/></e>
@@ -21436,6 +21444,7 @@
 <e lm="Villaperuccio">   <i>Villaperuccio</i><par n="Europa__np"/></e>
 <e lm="Villaputzu">      <i>Villaputzu</i><par n="Europa__np"/></e>
 <e lm="Villar">          <i>Villar</i><par n="Afghanistan__np"/></e>
+<e lm="Villar">          <i>Villar</i><par n="Díez__np"/></e>
 <e lm="Villarreal">      <i>Villarreal</i><par n="Afghanistan__np"/></e>
 <e lm="Villasalto">      <i>Villasalto</i><par n="Europa__np"/></e>
 <e lm="Villasimius">     <i>Villasimius</i><par n="Europa__np"/></e>
@@ -24608,7 +24617,7 @@
 <e lm="coito">           <i>coit</i><par n="abbain/o__n"/></e>
 <e lm="colazione">       <i>colazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="coleottero">      <i>coleotter</i><par n="abbain/o__n"/></e>
-<e lm="colera">          <i>coler</i><par n="cas/a__n"/></e>
+<e lm="colera">          <i>colera</i><par n="albatros__n"/></e>
 <e lm="colesterolo">     <i>colesterol</i><par n="abbain/o__n"/></e>
 <e lm="colf">            <i>colf</i><par n="abilità__n"/></e>
 <e lm="collo">           <i>coll</i><par n="abbain/o__n"/></e>
@@ -32816,6 +32825,7 @@
 <e lm="sanremese">       <i>sanremes</i><par n="albanes/e__n"/></e>
 <e lm="sanscrito">       <i>sanscrit</i><par n="abbain/o__n"/></e>
 <e lm="santo">           <i>sant</i><par n="bambin/o__n"/></e>
+<e r="LR" lm="santo" a="hector"><p><l>san</l><r>santo<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="santificazione">  <i>santificazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="santino">         <i>santin</i><par n="abbain/o__n"/></e>
 <e lm="santità">         <i>santità</i><par n="abilità__n"/></e>
@@ -36014,7 +36024,7 @@
 <e lm="anglo-pakistano"> <i>anglo-pakistan</i><par n="cosiddett/o__adj"/></e>
 <e lm="anglo-palestinese"><i>anglo-palestines</i><par n="albanes/e__adj"/></e>
 <e lm="anglo-russo">     <i>anglo-russ</i><par n="cosiddett/o__adj"/></e>
-<e lm="anglo-sassone">   <i>anglo-sasson</i><par n="fin/e__adj"/></e>
+<e lm="anglo-sassone">   <i>anglo-sasson</i><par n="albanes/e__adj"/></e>
 <e lm="anglo-sovietico"> <i>anglo-sovietic</i><par n="tecnic/o__adj"/></e>
 <e lm="angloamericano">  <i>angloamerican</i><par n="cosiddett/o__adj"/></e>
 <e lm="anglofilo">       <i>anglofil</i><par n="abbandonat/o__adj"/></e>
@@ -36028,7 +36038,6 @@
 <e lm="anglonorvegese">  <i>anglonorveges</i><par n="albanes/e__adj"/></e>
 <e lm="anglosassone">    <i>anglosasson</i><par n="albanes/e__adj"/></e>
 <e lm="anglosovietico">  <i>anglosovietic</i><par n="tecnic/o__adj"/></e>
-<e lm="anglossassone">   <i>anglossasson</i><par n="fin/e__adj"/></e>
 <e lm="angolano">        <i>angolan</i><par n="abbandonat/o__adj"/></e>
 <e lm="angolare">        <i>angolar</i><par n="fin/e__adj"/></e>
 <e lm="angoloso">        <i>angolos</i><par n="abbandonat/o__adj"/></e>
@@ -36693,7 +36702,7 @@
 <e lm="basilare">        <i>basilar</i><par n="fin/e__adj"/></e>
 <e lm="basilico">        <i>basilic</i><par n="tecnic/o__adj"/></e>
 <e lm="basso">           <i>bass</i><par n="abbandonat/o__adj"/></e>
-<e lm="bassosassone">    <i>bassosasson</i><par n="fin/e__adj"/></e>
+<e lm="bassosassone">    <i>bassosasson</i><par n="albanes/e__adj"/></e>
 <e lm="bastardo">        <i>bastard</i><par n="abbandonat/o__adj"/></e>
 <e lm="battagliero">     <i>battaglier</i><par n="abbandonat/o__adj"/></e>
 <e lm="batterico">       <i>batteric</i><par n="tecnic/o__adj"/></e>
@@ -42800,7 +42809,7 @@
 <e r="LR" lm="sardufono"><p><l>sardufon</l>  <r>sardofon</r></p><par n="abbandonat/o__adj"/></e>
 <e lm="sartoriale">      <i>sartorial</i><par n="fin/e__adj"/></e>
 <e lm="sassarese">       <i>sassares</i><par n="albanes/e__adj"/></e>
-<e lm="sassone">         <i>sasson</i><par n="fin/e__adj"/></e>
+<e lm="sassone">         <i>sasson</i><par n="albanes/e__adj"/></e>
 <e lm="sassoso">         <i>sassos</i><par n="abbandonat/o__adj"/></e>
 <e lm="satanico">        <i>satanic</i><par n="tecnic/o__adj"/></e>
 <e lm="satellite">       <i>satellit</i><par n="fin/e__adj"/></e>
@@ -49910,7 +49919,7 @@
 <e lm="sud-coreano" a="grfro3d"><i>sud-corean</i><par n="cosiddett/o__adj"/></e>
 <e lm="ivoriano" a="grfro3d"><i>ivorian</i><par n="bambin/o__n"/></e>
 <e lm="ivoriano" a="grfro3d"><i>ivorian</i><par n="cosiddett/o__adj"/></e>
-<e lm="Costa Rica" a="grfro3d"><i>Costa<b/>Rica</i><par n="Afghanistan__np"/></e>
+<e lm="Costa Rica" a="grfro3d"><i>Costa<b/>Rica</i><par n="Europa__np"/></e>
 <e lm="costaricano" a="grfro3d"><i>costarican</i><par n="bambin/o__n"/></e>
 <e lm="Devon" a="grfro3d"><i>Devon</i><par n="Afghanistan__np"/></e>
 <e lm="Dominica" a="grfro3d"><i>Dominica</i><par n="Europa__np"/></e>
@@ -50506,13 +50515,15 @@
 <e lm="York">            <i>York</i><par n="Díez__np"/></e>
 
 <e lm="play-off">        <i>play-off</i><par n="albatros__n"/></e>
-<e lm="terzo">           <i>terz</i><par n="abbagli/o__n"/></e>
-<e lm="quarto">          <i>quart</i><par n="abbagli/o__n"/></e>
-<e lm="quinto">          <i>quint</i><par n="abbagli/o__n"/></e>
-<e lm="sesto">           <i>sest</i><par n="abbagli/o__n"/></e>
-<e lm="settimo">         <i>settim</i><par n="abbagli/o__n"/></e>
-<e lm="ottavo">          <i>ottav</i><par n="abbagli/o__n"/></e>
-<e lm="nono">            <i>non</i><par n="abbagli/o__n"/></e>
+<e lm="terzo">           <i>terz</i><par n="abbain/o__n"/></e>
+<e lm="quarto">          <i>quart</i><par n="abbain/o__n"/></e>
+<e lm="quinto">          <i>quint</i><par n="abbain/o__n"/></e>
+<e lm="sesto">           <i>sest</i><par n="abbain/o__n"/></e>
+<e lm="settimo">         <i>settim</i><par n="abbain/o__n"/></e>
+<e lm="ottavo">          <i>ottav</i><par n="abbain/o__n"/></e>
+<e lm="nono">            <i>non</i><par n="abbain/o__n"/></e>
+<e lm="quarto de finale"><i>quart</i><par n="abbain/o__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
+<e lm="ottavo de finale"><i>ottav</i><par n="abbain/o__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
 
 <e lm="ritirata">        <i>ritirat</i><par n="cas/a__n"/></e>
 
@@ -50521,6 +50532,8 @@
 <e lm="anglo-">           <i>anglo</i><par n="extra__adj"/></e>
 <e lm="germano-">           <i>germano</i><par n="extra__adj"/></e>
 <e lm="ispano-">           <i>ispano</i><par n="extra__adj"/></e>
+
+<e lm="Sisto">       <i>Sisto</i><par n="Juan__np"/></e>
 
   </section>
 
