@@ -181,12 +181,16 @@ SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228
 SELECT N IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
 SELECT N IF (0 A) (0 N) (-1/* Pr) (1C A) ; 			# dello Stato Pontificio
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) (NOT 1 ("da")) ;# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (1 ("da")); 	# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PrfPrc) (-2 Det) (-1 N) (1 Pr) (1 ("da")) ;# il titolo assunto da Filippo
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila / nei primi decenni
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (NOT 1 ("da")) ;		# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (1 ("da")); 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PrfPrc) (-2 Det) (-1 N) (1 Pr) (1 ("da")) ;	# il titolo assunto da Filippo
+
+SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR Cm OR Pr OR CS OR CA) ;	# nei primi decenni del Novecento
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
 SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
