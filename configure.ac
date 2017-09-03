@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-ita], [0.9.0], [ftyers@prompsit.com])
-AM_INIT_AUTOMAKE([apertium-ita], [0.9.0], no-define)
+AC_INIT([apertium-ita], [0.10.0], [ftyers@prompsit.com])
+AM_INIT_AUTOMAKE([apertium-ita], [0.10.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 AC_PATH_PROG(AWKPATH, $AWK,[/usr/bin/gawk])
