@@ -24986,6 +24986,7 @@
 <e lm="clero">           <i>cler</i><par n="abbain/o__n"/></e>
 <e lm="clericale">       <i>clerical</i><par n="abat/e__n"/></e>
 <e lm="clericalismo">    <i>clericalism</i><par n="abbain/o__n"/></e>
+<e lm="anticlericalismo">    <i>anticlericalism</i><par n="abbain/o__n"/></e>
 <e lm="clic">            <i>clic</i><par n="albatros__n"/></e>
 <e lm="cliché">          <i>cliché</i><par n="albatros__n"/></e>
 <e lm="click">           <i>click</i><par n="albatros__n"/></e>
@@ -50444,6 +50445,21 @@
 <!--    <e lm="c'è"><p><l>ci<b/>saranno</l><r>c'è<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>-->
 <e lm="ci vuole">        <p><l>ci<b/>vuole</l><r>ci<b/>vuole<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="lo">              <i>lo</i><par n="lo__detnt"/></e>
+
+
+
+<e lm="decathlon"><i>decathlon</i><par n="ace__n"/></e>
+<e lm="pentathlon"><i>pentathlon</i><par n="ace__n"/></e>
+<e lm="eptathlon"><i>eptathlon</i><par n="ace__n"/></e>
+<e lm="biathlon"><i>biathlon</i><par n="ace__n"/></e>
+<e lm="triathlon"><i>triathlon</i><par n="ace__n"/></e>
+<e lm="gnosticismo"><i>gnosticism</i><par n="abbain/o__n"/></e>
+<e lm="agnosticismo"><i>agnosticism</i><par n="abbain/o__n"/></e>
+<e lm="Ratzinger"><i>Ratzinger</i><par n="Díez__np"/></e>
+<e lm="Bergoglio"><i>Bergoglio</i><par n="Díez__np"/></e>
+<e lm="viola"><i>viol</i><par n="cas/a__n"/></e>
+
+
   </section>
 
   <section id="apostrophes" type="postblank">
