@@ -50358,11 +50358,13 @@
 <e r="LR" lm="me li">    <p><l>me li</l>     <r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR" lm="me lo">    <p><l>me lo</l>     <r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="me ne">    <p><l>me ne</l>     <r>mi<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<!-- aquestes formes no permeten analitzar correctament coses com "Se lo avessimo saputo, ...."
 <e r="LR" lm="se la">    <p><l>se la</l>     <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="se le">    <p><l>se le</l>     <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" lm="se li">    <p><l>se li</l>     <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR" lm="se lo">    <p><l>se lo</l>     <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="se ne">    <p><l>se ne</l>     <r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/><j/>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+-->
 <e lm="sé">              <p><l>sé</l>        <r>sé<s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e lm="tanti altri">     <p><l>tante<b/>altre</l><r>tanti<b/>altri<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="tanti altri">     <p><l>tanti<b/>altri</l><r>tanti<b/>altri<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
