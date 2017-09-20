@@ -17185,6 +17185,7 @@
 <e lm="Franceschina">    <i>Franceschina</i><par n="María__np"/></e>
 <e lm="Franceschino">    <i>Franceschino</i><par n="Juan__np"/></e>
 <e lm="Francesco">       <i>Francesco</i><par n="Juan__np"/></e>
+<e lm="Francesco Giuseppe"><i>Francesco<b/>Giuseppe</i><par n="Juan__np"/></e>
 <e lm="Francescu">       <i>Francescu</i><par n="Juan__np"/></e>
 <e lm="Franchi">         <i>Franchi</i><par n="Díez__np"/></e>
 <e lm="Franchina">       <i>Franchina</i><par n="María__np"/></e>
@@ -17636,6 +17637,7 @@
 <e lm="Giulietta">       <i>Giulietta</i><par n="María__np"/></e>
 <e lm="Giulio">          <i>Giulio</i><par n="Juan__np"/></e>
 <e lm="Giulio">          <i>Giulio</i><par n="Díez__np"/></e>
+<e lm="Giulio Cesare">   <i>Giulio<b/>Cesare</i><par n="Juan__np"/></e>
 <e lm="Giulio Tremonti" a="prompsit"><i>Giulio Tremonti</i><par n="Juan__np"/></e>
 <e lm="Giummarra">       <i>Giummarra</i><par n="Díez__np"/></e>
 <e lm="Giunta">          <i>Giunta</i><par n="Díez__np"/></e>
