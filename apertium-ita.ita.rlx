@@ -274,3 +274,5 @@ SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Pr) ;		# il primo quarto
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CS) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CA) ;
+
+SELECT N IF (0 ("mezzo")) (1 ("di")) (2 ("comunicazione")) ;
