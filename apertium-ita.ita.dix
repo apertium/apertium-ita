@@ -50294,6 +50294,7 @@
 <e lm="svuotare">        <i>svuot</i><par n="abbacin/are__vblex"/></e>
 <e lm="swingare">        <i>swing</i><par n="abbarbic/are__vblex"/></e>
 <e lm="tenere">          <i>t</i><par n="appart/enere__vblex"/></e>
+<e lm="tenere conto">    <i>t</i><par n="appart/enere__vblex"/><p><l><b/>conto</l><r><g><b/>conto</g></r></p></e>
 <e lm="tabaccare">       <i>tabacc</i><par n="abbarbic/are__vblex"/></e>
 <e lm="tagliare">        <i>tagli</i><par n="abbacchi/are__vblex"/></e>
 <e lm="taglieggiare">    <i>tagliegg</i><par n="abbiosc/iare__vblex"/></e>

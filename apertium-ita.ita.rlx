@@ -10,6 +10,7 @@ LIST EOS = (<<<) ;
 
 LIST A = adj ;
 LIST Adv = adv ;
+LIST PreAdv = preadv ;
 LIST Pron = prn ;
 LIST N = n ;
 LIST Prop = np ;
@@ -40,10 +41,6 @@ SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
 SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
-SET MascSg2 = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
-SET MascPl2 = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
-SET FemSg2 = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
-SET FemPl2 = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
 SET Aord = (adj ord) ;
 
@@ -58,6 +55,7 @@ LIST Ser = vbser ;
 LIST Essere = "essere" ;
 
 LIST PrfPrc = pp ;
+LIST Ifi = ifi ;
 
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
@@ -145,9 +143,14 @@ REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
-SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
-SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
-SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
+SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+
+SELECT PreAdv IF (-1 N + $$MascSg) (0 PreAdv) (1 A + $$MascSg) ;
+SELECT PreAdv IF (-1 N + $$MascPl) (0 PreAdv) (1 A + $$MascPl) ;
+SELECT PreAdv IF (-1 N + $$FemSg) (0 PreAdv) (1 A + $$FemSg) ;
+SELECT PreAdv IF (-1 N + $$FemPl) (0 PreAdv) (1 A + $$FemPl) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -158,9 +161,9 @@ SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;		# le più grandi collezioni di pesci
 
 REMOVE Pr IF (0 Adv) (0 Pr) (-1 V) (1 CC) ;	# andavano su e giù
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
+REMOVE A IF (0 A) (0 N) (-1 Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ; 	# solució problema "nel" (a més tracta el cas: Pr N/A.
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 EOS) ;
+REMOVE PrfPrc IF (0 PrfPrc) (0 N) (NOT -1 ("molto")) (-1 Det) (1 EOS) ;
 REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
 
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
@@ -233,6 +236,11 @@ REMOVE PrfPrc IF (0 PrfPrc) (0 A) (-1C Pr) ;
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
 
+REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;		# lingue più diffuse
+REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;	# lingue internazionali più diffuse
+SELECT A IF (-2 N) (-1 ("più") OR ("meno")) (0 A OR PrfPrc) ;			# lingue più diffuse
+SELECT A IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 A OR PrfPrc) ;		# lingue internazionali più diffuse
+
 SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
 SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;	# solució problema "del"
@@ -260,6 +268,8 @@ SELECT M IF (0 N + M) (0 N + F) (-1 A + M) (NOT -1 A + F) ;	# un suo moto
 SELECT F IF (0 N + M) (0 N + F) (-1 A + F) (NOT -1 A + M) ;
 SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;	# consigliere diplomatico
 SELECT F IF (0 N + M) (0 N + F) (1 A + F) (NOT 1 A + M) ;
+SELECT M IF (0 N + M) (0 N + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
+SELECT F IF (0 N + M) (0 N + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
 #SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)	# un suo moto proprio
 
