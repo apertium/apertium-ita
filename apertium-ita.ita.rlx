@@ -145,9 +145,9 @@ REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
 SELECT Prop IF (0 San) (1 Upper) ;
 
-SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: per saldare alcuni debiti bellici *lo* vendette a re Ladislao
-SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
-SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
+SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -206,6 +206,8 @@ SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
 
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) ; 			# lo stato italiano
+
 SELECT N IF (0 N) (0 PrfPrc) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
 SELECT Npl IF (0 Npl) (0 PrfPrc) (-1C Num) (1 unknown) ;
@@ -246,7 +248,7 @@ SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante
 #SELECT Interr IF (0 Interr) (0 CA) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 
-SELECT A IF (0 A OR Adv) (-1 Det) (1 N) ; # una prima verzione
+SELECT A IF (0C A OR Adv) (-1 Det) (1 N) ; # una prima verzione
 
 # Coordinació
 SELECT M IF (0 N + M) (0 N + F) (-1 Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
