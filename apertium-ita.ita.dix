@@ -13568,8 +13568,8 @@
   <e r="LR"><p><l>la<b/>nostra</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l><a/>i<b/>nostri</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l><a/>il<b/>nostro</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>le<b/>nostre</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><a/>la<b/>nostra</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>nostre</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>nostra</l><r>il<b/>nostro<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
        
 <pardef n="ogni__det">
