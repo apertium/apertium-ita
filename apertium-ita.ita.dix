@@ -48087,7 +48087,7 @@
 <e lm="censurare">       <i>censur</i><par n="abbacin/are__vblex"/></e>
 <e lm="centrare">        <i>centr</i><par n="abbacin/are__vblex"/></e>
 <e r="LR" lm="centrare su"><i>centr</i><par n="abbacin/are__vblex"/><p><l><b/>su</l><r><g><b/>su</g></r></p></e>
-<e r="RL" lm="centrare su"><i>centr</i><par n="abbacin/are__vblex"/><p><l><b/><a/>su</l><r><g><b/>su</g></r></p></e>
+<e r="RL" lm="centrare su"><i>centr</i><par n="abbacin/are__vblex"/><p><l><b/>su</l><r><g><b/>su</g></r></p></e>
 <e lm="centralizzare">   <i>centralizz</i><par n="abbacin/are__vblex"/></e>
 <e lm="centrifugare">    <i>centrifug</i><par n="abbarbic/are__vblex"/></e>
 <e lm="centuplicare">    <i>centuplic</i><par n="abbarbic/are__vblex"/></e>
