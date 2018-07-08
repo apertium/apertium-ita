@@ -32572,6 +32572,7 @@
 <e lm="mercantile">      <i>mercantil</i><par n="abat/e__n"/></e>
 <e lm="mercanzia">       <i>mercanzi</i><par n="cas/a__n"/></e>
 <e lm="mercato">         <i>mercat</i><par n="abbain/o__n"/></e>
+<e lm="mercato delle pulci"><i>mercat</i><par n="abbain/o__n"/><p><l><b/>delle<b/>pulci</l><r><g><b/>delle<b/>pulci</g></r></p></e>
 <e lm="mercatino">       <i>mercatin</i><par n="abbain/o__n"/></e>
 <e lm="mercenario">      <i>mercenari</i><par n="segretari/o__n"/></e>
 <e lm="mercificazione">  <i>mercificazion</i><par n="abbreviazion/e__n"/></e>
