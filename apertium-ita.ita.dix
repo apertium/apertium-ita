@@ -24203,7 +24203,6 @@
 <e lm="metaforicamente"> <i>metaforicamente</i><par n="ieri__adv"/></e>
 <e lm="meticolosamente"> <i>meticolosamente</i><par n="ieri__adv"/></e>
 <e lm="metà prezzo">     <i>metà<b/>prezzo</i><par n="ieri__adv"/></e>
-<e lm="mezza notte">     <i>mezza<b/>notte</i><par n="ieri__adv"/></e>
 <e lm="mica">            <i>mica</i><par n="ieri__adv"/></e>
 <e lm="migliore">        <i>migliore</i><par n="ieri__adv"/></e>
 <e lm="militarmente">    <i>militarmente</i><par n="ieri__adv"/></e>
@@ -48210,6 +48209,7 @@
 <e lm="condizionare">    <i>condizion</i><par n="abbacin/are__vblex"/></e>
 <e lm="confondere">      <i>conf</i><par n="conf/ondere__vblex"/></e>
 <e lm="conferire">       <i>confer</i><par n="abbell/ire__vblex"/></e>
+<e lm="conferire un premio">       <i>confer</i><par n="abbell/ire__vblex"/><p><l><b/>un<b/>premio</l><r><g><b/>un<b/>premio</g></r></p></e>
 <e lm="confermare">      <i>conferm</i><par n="abbacin/are__vblex"/></e>
 <e lm="confessare">      <i>confess</i><par n="abbacin/are__vblex"/></e>
 <e lm="confidare">       <i>confid</i><par n="abbacin/are__vblex"/></e>
