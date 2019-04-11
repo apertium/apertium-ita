@@ -13,10 +13,11 @@ LIST Adv = adv ;
 LIST PreAdv = preadv ;
 LIST Pron = prn ;
 LIST N = n ;
-LIST Prop = np ;
+LIST NP = np ;
 LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
 LIST Det = det ;
+LIST Def = def ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
 LIST CA = cnjadv ;
@@ -141,7 +142,7 @@ REMOVE V IF (0 Sg2) (0/* Pr) ;	# dai (alternativa bèstia però funciona)
 REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
 REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
-SELECT Prop IF (0 San) (1 Upper) ;
+SELECT NP IF (0 San) (1 Upper) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
@@ -158,6 +159,7 @@ SELECT Num (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
 
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;		# le più grandi collezioni di pesci
+SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
 
 REMOVE Pr IF (0 Adv) (0 Pr) (-1 V) (1 CC) ;	# andavano su e giù
 
@@ -256,7 +258,7 @@ REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
 REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
 
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
-SELECT N IF (0 ("corso")) (1 Prop) ;		# il corso Dante
+SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
 #SELECT Interr IF (0 Interr) (0 CA) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
@@ -293,3 +295,5 @@ SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CS) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CA) ;
 
 SELECT N IF (0 ("mezzo")) (1 ("di")) (2 ("comunicazione")) ;
+SELECT N IF (0 ("capitale")) (1/* ("di")) ;
+SELECT N IF (-1 NP) (0 ("capitale"));
