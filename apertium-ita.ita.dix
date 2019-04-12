@@ -15738,6 +15738,7 @@
 <e lm="citazionale">     <i>citazional</i><par n="fin/e__adj"/></e>
 <e lm="citazionistico">  <i>citazionistic</i><par n="tecnic/o__adj"/></e>
 <e lm="citotossico">     <i>citotossic</i><par n="tecnic/o__adj"/></e>
+<e lm="citrico">         <i>citric</i><par n="abbain/o__n"/></e>
 <e lm="citrico">         <i>citric</i><par n="tecnic/o__adj"/></e>
 <e lm="cittadino">       <i>cittadin</i><par n="abbandonat/o__adj"/></e>
 <e lm="ciuvascio">       <i>ciuvasci</i><par n="ampi/o__adj"/></e>
@@ -23233,6 +23234,7 @@
           group adv
       ****************************** -->
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="quando__adv"/></e>
+<e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="ieri__adv"/></e>
 <e r="RL" lm="dove">     <p><l><a/>dove</l>  <r>dove</r></p><par n="quando__adv"/></e>
 <e r="RL" lm="quando">   <p><l><a/>quando</l><r>quando</r></p><par n="quando__adv"/></e>
 <e lm="a forza">         <i>a forza</i><par n="ieri__adv"/></e>
@@ -23527,6 +23529,7 @@
 <e lm="collegialmente">  <i>collegialmente</i><par n="ieri__adv"/></e>
 <e lm="collettivamente"> <i>collettivamente</i><par n="ieri__adv"/></e>
 <e r="LR" lm="come">     <i>come</i><par n="quando__adv"/></e>
+<e r="LR" lm="come">     <i>come</i><par n="ieri__adv"/></e>
 <e lm="come conseguenza"><i>come<b/>conseguenza</i><par n="ieri__adv"/></e>
 <e lm="come di consueto"><i>come<b/>di<b/>consueto</i><par n="ieri__adv"/></e>
 <e lm="come finora">     <i>come<b/>finora</i><par n="ieri__adv"/></e>
@@ -29264,6 +29267,7 @@
 <e lm="donatore">        <i>donat</i><par n="agricolt/ore__n"/></e>
 <e lm="donazione">       <i>donazion</i><par n="abbreviazion/e__n"/></e>
 <e lm="donna">           <i>donn</i><par n="cas/a__n"/></e>
+<e lm="nobildonna">      <i>nobildonn</i><par n="cas/a__n"/></e>
 <e lm="donnaiolo">       <i>donnaiol</i><par n="abbain/o__n"/></e>
 <e lm="donnone">         <i>donnon</i><par n="abat/e__n"/></e>
 <e lm="dopaggio">        <i>dopaggi</i><par n="abbagli/o__n"/></e>
@@ -38337,6 +38341,7 @@
 <e lm="untore">          <i>untor</i><par n="abat/e__n"/></e>
 <e lm="unzione">         <i>unzion</i><par n="abbreviazion/e__n"/></e>
 <e lm="uomo">            <i>uom</i><par n="galantuom/o__n"/></e>
+<e lm="nobiluomo">       <i>nobiluom</i><par n="galantuom/o__n"/></e>
 <e lm="uovo">            <i>uov</i><par n="budell/o__n"/></e>
 <e lm="uovo">            <i>uov</i><par n="abbain/o__n"/></e>
 <e lm="uragano">         <i>uragan</i><par n="abbain/o__n"/></e>
@@ -47749,6 +47754,7 @@
 <e lm="aggraziare">      <i>aggrazi</i><par n="abbacchi/are__vblex"/></e>
 <e lm="aggredire">       <i>aggred</i><par n="abbell/ire__vblex"/></e>
 <e lm="aggregare">       <i>aggreg</i><par n="abbarbic/are__vblex"/></e>
+<e lm="disgregare">      <i>disgreg</i><par n="abbarbic/are__vblex"/></e>
 <e lm="aggricciare">     <i>aggricc</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="aggrinzire">      <i>aggrinz</i><par n="abbrut/ire__vblex"/></e>
 <e lm="agitare">         <i>agit</i><par n="abbacin/are__vblex"/></e>
@@ -50524,9 +50530,6 @@
     <!-- ******************************
           group vbmod
       ****************************** -->
-    <!-- ******************************
-          group vbmod
-      ****************************** -->
 <e r="RL" lm="essere necessario"><i></i><par n="/essere_necessario__vbmod"/></e>
 <e lm="avere da">        <i></i><par n="/avere__vbmod"/><p><l><b/>da</l><r><g><b/>da</g></r></p></e>
 <e lm="avere bisogno che"><par n="/avere_bisogno_che__vbmod"/></e>
@@ -50537,9 +50540,6 @@
 <e lm="potere">          <i>p</i><par n="p/otere__vbmod"/></e>
 <e lm="volere">          <i>v</i><par n="v/olere__vbmod"/></e>
 
-    <!-- ******************************
-          group vbser
-      ****************************** -->
     <!-- ******************************
           group vbser
       ****************************** -->
