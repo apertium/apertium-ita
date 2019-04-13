@@ -301,4 +301,6 @@ SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CA) ;
 
 SELECT N IF (0 ("mezzo")) (1 ("di")) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* ("di")) ;
+SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* ("di")) ;
+SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
