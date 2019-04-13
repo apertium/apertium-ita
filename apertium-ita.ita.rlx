@@ -18,6 +18,7 @@ LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
 LIST Det = det ;
 LIST Def = def ;
+LIST Ind = ind ;
 LIST CC = cnjcoo ;
 LIST CS = cnjsub ;
 LIST CA = cnjadv ;
@@ -120,8 +121,6 @@ SELECT Avere IF (1 Adv) (2 PrfPrc) ;
 SELECT Ser IF (0 Puo_essere) (1 PrfPrc) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
 
-SELECT Det IF (-1 Pr) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
-
 SELECT PrfPrc IF (-1 Essere) (0 Stato) ;
 
 SELECT PrfPrc IF (-1 Stato LINK -1 Essere) ;
@@ -143,6 +142,12 @@ REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No fun
 REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
 SELECT NP IF (0 San) (1 Upper) ;
+
+SELECT Det IF (-1 Pr) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
+
+REMOVE A IF (NOT -1 Det + Ind) (0 Det) (0 A) (1C N) ;
+  # mia mamma
+  # un suo libro
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
