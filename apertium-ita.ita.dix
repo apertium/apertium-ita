@@ -11975,11 +11975,6 @@
   <e>       <p><l>e</l>         <r>o<s n="adj"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="agroalimentar/e__adj">
-  <e>       <p><l></l>          <r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>i</l>         <r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-</pardef>
-    
 <pardef n="ambedue__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
@@ -12173,11 +12168,6 @@
 <pardef n="junior__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
-</pardef>
-    
-<pardef n="alchimist/a__adj">
-  <e>       <p><l>a</l>         <r>a<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>i</l>         <r>a<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="suicid/a__adj">
@@ -15873,7 +15863,7 @@
 <e lm="commensurabile">  <i>commensurabil</i><par n="fin/e__adj"/></e>
 <e lm="commerciabile">   <i>commerciabil</i><par n="fin/e__adj"/></e>
 <e lm="commerciale">     <i>commercial</i><par n="fin/e__adj"/></e>
-<e lm="commercializzabile"><i>commercializzabil</i><par n="agroalimentar/e__adj"/></e>
+<e lm="commercializzabile"><i>commercializzabil</i><par n="fin/e__adj"/></e>
 <e lm="commerciante">    <i>commerciant</i><par n="albanes/e__adj"/></e>
 <e lm="commestibile">    <i>commestibil</i><par n="fin/e__adj"/></e>
 <e lm="commissariale">   <i>commissarial</i><par n="fin/e__adj"/></e>
@@ -18729,7 +18719,7 @@
 <e lm="ippico">          <i>ippic</i><par n="tecnic/o__adj"/></e>
 <e lm="iracheno">        <i>irachen</i><par n="cosiddett/o__adj"/></e>
 <e lm="iracondo">        <i>iracond</i><par n="abbandonat/o__adj"/></e>
-<e lm="irakeno">         <i>iraken</i><par n="abbandonat/o__adj"/></e>
+<e r="RL" lm="irakeno">  <i>iraken</i><par n="abbandonat/o__adj"/></e>
 <e lm="iraniano">        <i>iranian</i><par n="abbandonat/o__adj"/></e>
 <e lm="iranico">         <i>iranic</i><par n="tecnic/o__adj"/></e>
 <e lm="irascibile">      <i>irascibil</i><par n="fin/e__adj"/></e>
@@ -31621,7 +31611,7 @@
 <e lm="ippopotamo">      <i>ippopotam</i><par n="abbain/o__n"/></e>
 <e lm="ira">             <i>ir</i><par n="cas/a__n"/></e>
 <e lm="iracheno">        <i>irachen</i><par n="bambin/o__n"/></e>
-<e lm="irakeno">         <i>iraken</i><par n="bambin/o__n"/></e>
+<e r="RL" lm="irakeno">  <i>iraken</i><par n="bambin/o__n"/></e>
 <e lm="iraniano">        <i>iranian</i><par n="bambin/o__n"/></e>
 <e lm="iride">           <i>irid</i><par n="abbreviazion/e__n"/></e>
 <e lm="irlandese">       <i>irlandes</i><par n="albanes/e__n"/></e>
