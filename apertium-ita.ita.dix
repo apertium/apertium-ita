@@ -23832,7 +23832,6 @@
 <e lm="finanziariamente"><i>finanziariamente</i><par n="ieri__adv"/></e>
 <e lm="finché">          <i>finché</i><par n="ieri__adv"/></e>
 <e lm="finemente">       <i>finemente</i><par n="ieri__adv"/></e>
-<e lm="fino a">          <i>fino<b/>a</i><par n="ieri__adv"/></e>
 <e lm="fino ad allora">  <i>fino<b/>ad<b/>allora</i><par n="ieri__adv"/></e>
 <e lm="finora">          <i>finora</i><par n="ieri__adv"/></e>
 <e lm="fiscalmente">     <i>fiscalmente</i><par n="ieri__adv"/></e>
@@ -24472,7 +24471,6 @@
 <e lm="questa mattina">  <i>questa<b/>mattina</i><par n="ieri__adv"/></e>
 <e lm="questa volta">    <i>questa<b/>volta</i><par n="ieri__adv"/></e>
 <e lm="qui">             <i>qui</i><par n="ieri__adv"/></e>
-<e lm="quindi">          <i>quindi</i><par n="ieri__adv"/></e>
 <e lm="quotidianamente"> <i>quotidianamente</i><par n="ieri__adv"/></e>
 <e lm="rabbiosamente">   <i>rabbiosamente</i><par n="ieri__adv"/></e>
 <e lm="radicalmente">    <i>radicalmente</i><par n="ieri__adv"/></e>
@@ -24838,6 +24836,7 @@
 <e lm="purché">          <i>purché</i><par n="siccome__cnjadv"/></e>
 <e lm="quando">          <i>quando</i><par n="siccome__cnjadv"/></e>
 <e lm="quanto">          <i>quanto</i><par n="siccome__cnjadv"/></e> <!-- La figlia è tanto bella quanto sua madre -->
+<e lm="quindi">          <i>quindi</i><par n="siccome__cnjadv"/></e>
 <e lm="se">              <i>se</i><par n="siccome__cnjadv"/></e>
 <e lm="sebbene">         <i>sebbene</i><par n="siccome__cnjadv"/></e>
 <e lm="secondo">         <i>secondo</i><par n="siccome__cnjadv"/></e>
@@ -47255,6 +47254,8 @@
 <e r="RL" lm="su">       <p><l><a/>su</l>    <r>su</r></p><par n="accanto__pr"/></e>
 <e lm="a">               <par n="/a__pr"/></e>
 <e lm="a cominciare da"> <i>a<b/>cominciare<b/></i><par n="/da__pr"/></e>
+<e lm="a nord di">       <i>a<b/>nord<b/></i><par n="/di__pr"/></e>
+<e lm="a fronte di">     <i>a<b/>fronte<b/></i><par n="/di__pr"/></e>
 <e lm="a partire da">    <i>a<b/>partire<b/></i><par n="/da__pr"/></e>
 <e lm="accanto a">       <i>accanto<b/></i><par n="/a__pr"/></e>
 <e lm="agli inizi di">   <i>agli<b/>inizi<b/></i><par n="/di__pr"/></e>
@@ -47304,6 +47305,7 @@
 <e r="LR" lm="in gara col"><i>in<b/>gara<b/></i><par n="/col__pr"/></e>
 <e r="LR" lm="in gara con"><i>in<b/>gara<b/>con</i><par n="accanto__pr"/></e>
 <e lm="in mezzo a">      <i>in<b/>mezzo<b/></i><par n="/a__pr"/></e>
+<e lm="incontro a">      <i>incontro<b/></i><par n="/a__pr"/></e>
 <e lm="innanzi a">       <i>innanzi<b/></i><par n="/a__pr"/></e>
 <e lm="insieme a">       <i>insieme<b/></i><par n="/a__pr"/></e>
 <e r="RL" lm="insieme con"><p><l>insieme<b/><a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
