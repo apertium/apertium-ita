@@ -24758,7 +24758,22 @@
 <e lm="volgarmente">     <i>volgarmente</i><par n="ieri__adv"/></e>
 <e lm="volontariamente"> <i>volontariamente</i><par n="ieri__adv"/></e>
 <e lm="volutamente">     <i>volutamente</i><par n="ieri__adv"/></e>
-<!--    <e lm="stare"><i>st</i><par n="st/are__vbser"/></e>-->
+<e lm="di certo">        <i>di<b/>certo</i><par n="ieri__adv"/></e>
+<e lm="ecc">        <i>ecc</i><par n="ieri__adv"/></e>
+<e lm="per intanto">        <i>per<b/>intanto</i><par n="ieri__adv"/></e>
+<e lm="di contro">        <i>di<b/>contro</i><par n="ieri__adv"/></e>
+<e lm="per contro">        <i>per<b/>contro</i><par n="ieri__adv"/></e>
+<e lm="per l'apppunto">        <i>per<b/>l'apppunto</i><par n="ieri__adv"/></e>
+<e lm="caso mai">        <i>caso<b/>mai</i><par n="ieri__adv"/></e>
+<e lm="al contrario">        <i>al<b/>contrario</i><par n="ieri__adv"/></e>
+<e lm="a tutt'oggi">        <i>a<b/>tutt'oggi</i><par n="ieri__adv"/></e>
+<e lm="difatti">        <i>difatti</i><par n="ieri__adv"/></e>
+<e lm="prima di tutto">        <i>prima<b/>di<b/>tutto</i><par n="ieri__adv"/></e>
+<e lm="su internet">        <i>su<b/>internet</i><par n="ieri__adv"/></e>
+<e lm="d'altronde">        <i>d'altronde</i><par n="ieri__adv"/></e>
+<e lm="in salvo">        <i>in<b/>salvo</i><par n="ieri__adv"/></e>
+<e lm="a malapena">        <i>a<b/>malapena</i><par n="ieri__adv"/></e>
+<e lm="tutt'ora">        <i>tutt'ora</i><par n="ieri__adv"/></e>
    
     <!-- ******************************
           group cnjadv
@@ -50551,6 +50566,8 @@
       ****************************** -->
 <e lm="essere per">      <i></i><par n="/essere__vbser"/><p><l><b/>per</l><r><g><b/>per</g></r></p></e>
 <e lm="essere">          <par n="/essere__vbser"/></e>
+<!--    <e lm="stare"><i>st</i><par n="st/are__vbser"/></e>-->
+
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
