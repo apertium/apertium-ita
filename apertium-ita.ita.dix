@@ -23250,7 +23250,6 @@
 <e lm="a medio e lungo termine"><i>a<b/>medio<b/>e<b/>lungo<b/>termine</i><par n="ieri__adv"/></e>
 <e lm="a medio termine"> <i>a<b/>medio<b/>termine</i><par n="ieri__adv"/></e>
 <e lm="a memoria">       <i>a<b/>memoria</i><par n="ieri__adv"/></e>
-<e lm="a meno che">      <i>a<b/>meno<b/>che</i><par n="ieri__adv"/></e>
 <e lm="a metà">          <i>a<b/>metà</i><par n="ieri__adv"/></e>
 <e lm="a metà prezzo">   <i>a<b/>metà<b/>prezzo</i><par n="ieri__adv"/></e>
 <e lm="a metà strada">   <i>a<b/>metà<b/>strada</i><par n="ieri__adv"/></e>
@@ -23334,7 +23333,6 @@
 <e lm="al piano inferiore"><i>al<b/>piano<b/>inferiore</i><par n="ieri__adv"/></e>
 <e lm="al piano superiore"><i>al<b/>piano<b/>superiore</i><par n="ieri__adv"/></e>
 <e lm="al più presto possibile"><i>al<b/>più<b/>presto<b/>possibile</i><par n="ieri__adv"/></e>
-<e lm="al posto di">     <i>al<b/>posto<b/>di</i><par n="ieri__adv"/></e>
 <e lm="al rovescio">     <i>al<b/>rovescio</i><par n="ieri__adv"/></e>
 <!--
     <e lm="al riguardo"><i>al<b/>riguardo</i><par n="ieri__adv"/></e>-->
@@ -23631,8 +23629,6 @@
 <e lm="da un lato">      <i>da<b/>un<b/>lato</i><par n="ieri__adv"/></e>
 <e lm="da vicino">       <i>da<b/>vicino</i><par n="ieri__adv"/></e>
 <e lm="daccanto">        <i>daccanto</i><par n="ieri__adv"/></e>
-<e lm="dal momento che"> <i>dal<b/>momento<b/>che</i><par n="ieri__adv"/></e>
-<e lm="dal momento in cui"><i>dal<b/>momento<b/>in<b/>cui</i><par n="ieri__adv"/></e>
 <e lm="dall'altro lato"> <i>dall'altro<b/>lato</i><par n="ieri__adv"/></e>
 <e lm="dall'estero">     <i>dall'estero</i><par n="ieri__adv"/></e>
 <e lm="dannosamente">    <i>dannosamente</i><par n="ieri__adv"/></e>
@@ -23723,7 +23719,6 @@
 <e lm="dolorosamente">   <i>dolorosamente</i><par n="ieri__adv"/></e>
 <e lm="domani">          <i>domani</i><par n="ieri__adv"/></e>
 <e lm="dopo">            <i>dopo</i><par n="ieri__adv"/></e>
-<e lm="dopo di che">     <i>dopo<b/>di<b/>che</i><par n="ieri__adv"/></e>
 <e lm="dopo di ché">     <i>dopo<b/>di<b/>ché</i><par n="ieri__adv"/></e>
 <e lm="dopodiché">       <i>dopodiché</i><par n="ieri__adv"/></e>
 <e lm="dopodomani">      <i>dopodomani</i><par n="ieri__adv"/></e>
@@ -24329,6 +24324,7 @@
 <e lm="per di là">       <i>per<b/>di<b/>là</i><par n="ieri__adv"/></e>
 <e lm="per di qui">      <i>per<b/>di<b/>qui</i><par n="ieri__adv"/></e>
 <e lm="per esempio">     <i>per<b/>esempio</i><par n="ieri__adv"/></e>
+<e lm="per fortuna">     <i>per<b/>fortuna</i><par n="ieri__adv"/></e>
 <e lm="per intero">      <i>per<b/>intero</i><par n="ieri__adv"/></e>
 <e lm="per la prima volta"><i>per<b/>la<b/>prima<b/>volta</i><par n="ieri__adv"/></e>
 <e lm="per lo meno">     <i>per<b/>lo<b/>meno</i><par n="ieri__adv"/></e>
@@ -24340,6 +24336,8 @@
 <e lm="per prima cosa">  <i>per<b/>prima<b/>cosa</i><par n="ieri__adv"/></e>
 <e lm="per primo">       <i>per<b/>primo</i><par n="ieri__adv"/></e>
 <e lm="per pura coincidenza"><i>per<b/>pura<b/>coincidenza</i><par n="ieri__adv"/></e>
+<e lm="per quello">      <i>per<b/>quello</i><par n="siccome__cnjadv"/></e>
+<e lm="per questo">      <i>per<b/>questo</i><par n="siccome__cnjadv"/></e>
 <e lm="per scontato">    <i>per<b/>scontato</i><par n="ieri__adv"/></e>
 <e lm="per secondo">     <i>per<b/>secondo</i><par n="ieri__adv"/></e>
 <e lm="per sentito dire"><i>per<b/>sentito<b/>dire</i><par n="ieri__adv"/></e>
@@ -24770,6 +24768,7 @@
       ****************************** -->
 <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="a migliaia">      <i>a<b/>migliaia</i><par n="siccome__cnjadv"/></e>
+<e lm="a meno che">      <i>a<b/>meno<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="a patto che">     <i>a<b/>patto<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="a quanto pare">   <i>a<b/>quanto<b/>pare</i><par n="siccome__cnjadv"/></e>
 <e lm="a quanto si dice"><i>a<b/>quanto<b/>si<b/>dice</i><par n="siccome__cnjadv"/></e>
@@ -24791,14 +24790,13 @@
 <e lm="cosicché">        <i>cosicché</i><par n="siccome__cnjadv"/></e>
 <e lm="così">            <i>così</i><par n="siccome__cnjadv"/></e>
 <e lm="da quando">       <i>da<b/>quando</i><par n="siccome__cnjadv"/></e>
+<e lm="dal momento che"> <i>dal<b/>momento<b/>che</i><par n="siccome__cnjadv"/></e>
+<e lm="dal momento in cui"><i>dal<b/>momento<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
 <e lm="dando per scontato che"><i>dando<b/>per<b/>scontato<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="dato che">        <i>dato<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="dato il caso in cui"><i>dato<b/>il<b/>caso<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
 <e lm="difatti">         <i>difatti</i><par n="siccome__cnjadv"/></e>
-
-   <!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>  -->
-
-
+<e lm="dopo di che">     <i>dopo<b/>di<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="dunque">          <i>dunque</i><par n="siccome__cnjadv"/></e>
 <e lm="eccetto che">     <i>eccetto<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="escluso che">     <i>escluso<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -24816,14 +24814,11 @@
 <e r="RL" lm="nonostante"><i>nonostante</i><par n="siccome__cnjadv"/></e>
 <e lm="ove">             <i>ove</i><par n="siccome__cnjadv"/></e>
 <e lm="per cosa">        <i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
+<!-- <e lm="per chi"><i>per<b/>chi</i><par n="affinché__cnjsub"/></e>  -->
 <e lm="per di più">      <i>per<b/>di<b/>più</i><par n="ieri__adv"/></e>
 <e lm="per dire">        <i>per<b/>dire</i><par n="siccome__cnjadv"/></e>
-<e lm="per esempio">     <i>per<b/>esempio</i><par n="siccome__cnjadv"/></e>
-<e lm="per fortuna">     <i>per<b/>fortuna</i><par n="siccome__cnjadv"/></e>
 <e lm="per il resto">    <i>per<b/>il<b/>resto</i><par n="siccome__cnjadv"/></e>
 <e lm="per molto che">   <i>per<b/>molto<b/>che</i><par n="siccome__cnjadv"/></e>
-<e lm="per quello">      <i>per<b/>quello</i><par n="siccome__cnjadv"/></e>
-<e lm="per questo">      <i>per<b/>questo</i><par n="siccome__cnjadv"/></e>
 <e lm="per tutto ciò">   <i>per<b/>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="perche'">  <p><l>perche'</l>   <r>perché</r></p><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="perché">   <p><l>perchè</l>    <r>perché</r></p><par n="siccome__cnjadv"/></e>
@@ -47266,6 +47261,7 @@
 <e lm="accanto a">       <i>accanto<b/></i><par n="/a__pr"/></e>
 <e lm="agli inizi di">   <i>agli<b/>inizi<b/></i><par n="/di__pr"/></e>
 <e r="LR" lm="al di fuori da"><i>al<b/>di<b/>fuori<b/></i><par n="/da__pr"/></e>
+<e lm="al posto di">     <i>al<b/>posto<b/></i><par n="/di__pr"/></e>
 <e lm="alla vista di">   <i>alla<b/>vista<b/></i><par n="/di__pr"/></e>
 <e lm="anti">            <i>anti</i><par n="accanto__pr"/></e>
 <e lm="attorno a">       <i>attorno<b/></i><par n="/a__pr"/></e>
