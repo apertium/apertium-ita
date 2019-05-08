@@ -24686,7 +24686,7 @@
 <e lm="tutt'attorno">    <i>tutt'attorno</i><par n="ieri__adv"/></e>
 <e lm="tutt'intorno">    <i>tutt'intorno</i><par n="ieri__adv"/></e>
 <e lm="tutt'oggi">       <i>tutt'oggi</i><par n="ieri__adv"/></e>
-<e lm="tutt'ora">        <i>tutt'ora</i><par n="ieri__adv"/></e>
+<e r="LR" lm="tutt'ora"> <i>tutt'ora</i><par n="ieri__adv"/></e>
 <e r="LR" lm="tuttavia"> <i>tuttavia</i><par n="ieri__adv"/></e>
 <e lm="tuttavia">        <i>tuttavia</i><par n="ieri__adv"/></e>
 <e lm="tuttora">         <i>tuttora</i><par n="ieri__adv"/></e>
@@ -24772,7 +24772,6 @@
 <e lm="a quanto pare">   <i>a<b/>quanto<b/>pare</i><par n="siccome__cnjadv"/></e>
 <e lm="a quanto si dice"><i>a<b/>quanto<b/>si<b/>dice</i><par n="siccome__cnjadv"/></e>
 <e lm="a rischio">       <i>a<b/>rischio</i><par n="siccome__cnjadv"/></e>
-<e lm="a seconda di">    <i>a<b/>seconda<b/>di</i><par n="siccome__cnjadv"/></e>
 <e lm="affinché">        <i>affinché</i><par n="siccome__cnjadv"/></e>
 <e lm="al contrario">    <i>al<b/>contrario</i><par n="siccome__cnjadv"/></e>
 <e lm="al punto che">    <i>al<b/>punto<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -24784,7 +24783,6 @@
 <e lm="basta che">       <i>basta<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="bensì">           <i>bensì</i><par n="siccome__cnjadv"/></e>
 <e lm="ciò nonostante">  <i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
-<e lm="col fine di">     <i>col<b/>fine<b/>di</i><par n="siccome__cnjadv"/></e>
 <e lm="come">            <i>come</i><par n="siccome__cnjadv"/></e>
 <e lm="come vuoi che">   <i>come<b/>vuoi<b/>che</i><par n="siccome__cnjadv"/></e>
 <e r="LR" lm="comunque"> <i>comunque</i><par n="siccome__cnjadv"/></e>
@@ -24837,7 +24835,6 @@
 <e lm="poiché">          <i>poiché</i><par n="siccome__cnjadv"/></e>
 <e lm="prima che">       <i>prima<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="pur">             <i>pur</i><par n="siccome__cnjadv"/></e>
-<e lm="pur di">          <i>pur<b/>di</i><par n="siccome__cnjadv"/></e>
 <e lm="purché">          <i>purché</i><par n="siccome__cnjadv"/></e>
 <e lm="quando">          <i>quando</i><par n="siccome__cnjadv"/></e>
 <e lm="quanto">          <i>quanto</i><par n="siccome__cnjadv"/></e> <!-- La figlia è tanto bella quanto sua madre -->
@@ -47333,6 +47330,7 @@
 <e lm="insieme a">       <i>insieme<b/></i><par n="/a__pr"/></e>
 <e r="RL" lm="insieme con"><p><l>insieme<b/><a/>con</l><r>insieme<b/>con</r></p><par n="accanto__pr"/></e>
 <e r="LR" lm="insieme con"><i>insieme<b/>con</i><par n="accanto__pr"/></e>
+<e r="LR" lm="insieme col"><i>insieme<b/></i><par n="/col__pr"/></e>
 <e lm="intorno a">       <i>intorno<b/></i><par n="/a__pr"/></e>
 <e lm="lungo">           <i>lungo</i><par n="accanto__pr"/></e>
 <e lm="malgrado">        <i>malgrado</i><par n="accanto__pr"/></e>
@@ -47375,6 +47373,16 @@
 <e r="LR" lm="verso">    <i>verso</i><par n="accanto__pr"/></e>
 <e lm="verso">           <i>verso</i><par n="accanto__pr"/></e>
 <e lm="vicino a">        <i>vicino<b/></i><par n="/a__pr"/></e>
+<e lm="a seconda di">    <i>a<b/>seconda<b/></i><par n="/di__pr"/></e>
+<e lm="col fine di">     <i>col<b/>fine<b/></i><par n="/di__pr"/></e>
+<e lm="un po'di">        <i>un<b/>po'</i><par n="/di__pr"/></e>
+<e lm="anziché">        <i>anziché</i><par n="accanto__pr"/></e>
+<e r="RL" lm="assieme con"><p><l>assieme<b/><a/>con</l><r>assieme<b/>con</r></p><par n="accanto__pr"/></e>
+<e r="LR" lm="assieme con"><i>assieme<b/>con</i><par n="accanto__pr"/></e>
+<e r="LR" lm="assieme col"><i>assieme<b/></i><par n="/col__pr"/></e>
+<e lm="pur di">        <i>pur<b/></i><par n="/di__pr"/></e>
+<e lm="salvo">        <i>salvo</i><par n="accanto__pr"/></e>
+<e lm="lungi da">        <i>lungi<b/></i><par n="/da__pr"/></e>
 
     <!-- ******************************
           group preadv
