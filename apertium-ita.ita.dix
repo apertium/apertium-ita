@@ -13981,9 +13981,6 @@
     <!-- ******************************
           group abbr
       ****************************** -->
-    <!-- ******************************
-          group abbr
-      ****************************** -->
 <e lm="F">               <i>F</i><par n="a.C.__abbr"/></e>
 <e lm="GB">              <i>GB</i><par n="a.C.__abbr"/></e>
 <e lm="KB">              <i>KB</i><par n="a.C.__abbr"/></e>
@@ -14006,9 +14003,6 @@
 <e lm="p.es.">           <i>p.es.</i><par n="a.C.__abbr"/></e>
 <e lm="s">               <i>s</i><par n="a.C.__abbr"/></e>
 
-    <!-- ******************************
-          group adj
-      ****************************** -->
     <!-- ******************************
           group adj
       ****************************** -->
@@ -23198,9 +23192,6 @@
     <!-- ******************************
           group adj_symbol
       ****************************** -->
-    <!-- ******************************
-          group adj_symbol
-      ****************************** -->
 <e r="LR" lm="buon">     <p><l>buon</l>      <r>buono<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="don">             <p><l>don</l>       <r>don<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="don">             <p><l>don</l>       <r>don<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -23218,9 +23209,6 @@
 <e lm="st">              <p><l>st.</l>       <r>st.<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="sta">             <p><l>sta.</l>      <r>st.<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 
-    <!-- ******************************
-          group adv
-      ****************************** -->
     <!-- ******************************
           group adv
       ****************************** -->
@@ -24778,9 +24766,6 @@
     <!-- ******************************
           group cnjadv
       ****************************** -->
-    <!-- ******************************
-          group cnjadv
-      ****************************** -->
 <e lm="a condizione che"><i>a<b/>condizione<b/>che</i><par n="siccome__cnjadv"/></e>
 <e lm="a migliaia">      <i>a<b/>migliaia</i><par n="siccome__cnjadv"/></e>
 <e lm="a patto che">     <i>a<b/>patto<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -24863,10 +24848,14 @@
 <e lm="solo con">        <i>solo<b/>con</i><par n="siccome__cnjadv"/></e>
 <e lm="tenendo in conto che"><i>tenendo<b/>in<b/>conto</i><par n="siccome__cnjadv"/></e>
 <e lm="tutto ciò">       <i>tutto<b/>ciò</i><par n="siccome__cnjadv"/></e>
+<e lm="comunque">        <i>comunque</i><par n="siccome__cnjadv"/></e>
+<e lm="intanto che">     <i>intanto<b/>che</i><par n="siccome__cnjadv"/></e>
+<e lm="frattanto che">   <i>frattanto<b/>che</i><par n="siccome__cnjadv"/></e>
+<e lm="nel caso che">    <i>nel<b/>caso<b/>che</i><par n="siccome__cnjadv"/></e>
+<e lm="benché">          <i>benché</i><par n="siccome__cnjadv"/></e>
+<e lm="come se">         <i>come<b/>se</i><par n="siccome__cnjadv"/></e>
+<e lm="qualora">         <i>qualora</i><par n="siccome__cnjadv"/></e>
 
-    <!-- ******************************
-          group cnjcoo
-      ****************************** -->
     <!-- ******************************
           group cnjcoo
       ****************************** -->
@@ -24874,6 +24863,7 @@
   <!-- <e lm="meno male che"><i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e> must be used also in isolation-->
 <e lm="cioè">            <i>cioè</i><par n="ancorché__cnjcoo"/></e>
 <e lm="e">               <i>e</i><par n="ancorché__cnjcoo"/></e>
+<e lm="e intanto">       <i>e<b/>intanto</i><par n="ancorché__cnjcoo"/></e>
 <e lm="ed">              <i>ed</i><par n="ancorché__cnjcoo"/></e>
    <!-- <e lm="in tutto"><i>in<b/>tutto</i><par n="ieri__adv"/></e> must be used also in isolation-->
 <e lm="invece">          <i>invece</i><par n="ancorché__cnjcoo"/></e>
@@ -24893,9 +24883,6 @@
     <!-- ******************************
           group cnjsub
       ****************************** -->
-    <!-- ******************************
-          group cnjsub
-      ****************************** -->
 <e lm="appena">          <i>appena</i><par n="affinché__cnjsub"/></e>
 <e lm="basta che">       <i>basta<b/>che</i><par n="affinché__cnjsub"/></e>
 <e lm="che">             <i>che</i><par n="affinché__cnjsub"/></e>
@@ -24912,9 +24899,6 @@
 <e lm="seppure">         <i>seppure</i><par n="affinché__cnjsub"/></e>
 <e lm="solo che">        <i>solo<b/>che</i><par n="affinché__cnjsub"/></e>
 
-    <!-- ******************************
-          group det
-      ****************************** -->
     <!-- ******************************
           group det
       ****************************** -->
@@ -24956,15 +24940,9 @@
     <!-- ******************************
           group det_symbol
       ****************************** -->
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
 <e lm="tanti altri">     <p><l>tante<b/>altre</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="tanti altri">     <p><l>tanti<b/>altri</l><r>tanti<b/>altri<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 
-    <!-- ******************************
-          group ij
-      ****************************** -->
     <!-- ******************************
           group ij
       ****************************** -->
@@ -24987,9 +24965,6 @@
 <e lm="va bene">         <i>va<b/>bene</i><par n="salve__ij"/></e>
 <e lm="wow">             <i>wow</i><par n="salve__ij"/></e>
 
-    <!-- ******************************
-          group n
-      ****************************** -->
     <!-- ******************************
           group n
       ****************************** -->
@@ -38879,9 +38854,6 @@
     <!-- ******************************
           group n_symbol
       ****************************** -->
-    <!-- ******************************
-          group n_symbol
-      ****************************** -->
 <e lm="direzione generale"><p><l>Direzione<b/>Generale</l><r>direzione<b/>generale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="Jr">              <p><l>Jr</l>        <r>Jr<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="Lord">            <p><l>Lord</l>      <r>Lord<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -38945,9 +38917,6 @@
 <e lm="vino cotto">      <p><l>vini<b/>cotti</l><r>vino<b/>cotto<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="vino cotto">      <p><l>vino<b/>cotto</l><r>vino<b/>cotto<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
-    <!-- ******************************
-          group np
-      ****************************** -->
     <!-- ******************************
           group np
       ****************************** -->
@@ -47144,9 +47113,6 @@
     <!-- ******************************
           group num
       ****************************** -->
-    <!-- ******************************
-          group num
-      ****************************** -->
 <e lm="mila">            <i></i><par n="mila__num"/></e>
 <e lm="C">               <i>C</i><par n="C__num"/></e>
 <e lm="D">               <i>D</i><par n="C__num"/></e>
@@ -47282,9 +47248,6 @@
     <!-- ******************************
           group pr
       ****************************** -->
-    <!-- ******************************
-          group pr
-      ****************************** -->
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="accanto__pr"/></e>
 <e r="RL" lm="con">      <p><l><a/>con</l>   <r>con</r></p><par n="accanto__pr"/></e>
 <e r="RL" lm="in">       <p><l><a/>in</l>    <r>in</r></p><par n="accanto__pr"/></e>
@@ -47402,9 +47365,6 @@
     <!-- ******************************
           group preadv
       ****************************** -->
-    <!-- ******************************
-          group preadv
-      ****************************** -->
 <e lm="abbastanza">      <i>abbastanza</i><par n="bene__preadv"/></e>
 <e lm="appena">          <i>appena</i><par n="bene__preadv"/></e>
 <e lm="ben">             <i>ben</i><par n="bene__preadv"/></e>
@@ -47421,9 +47381,6 @@
 <e lm="talmente">        <i>talmente</i><par n="bene__preadv"/></e>
 <e lm="tanto">           <i>tanto</i><par n="bene__preadv"/></e>
 
-    <!-- ******************************
-          group prn
-      ****************************** -->
     <!-- ******************************
           group prn
       ****************************** -->
@@ -47516,9 +47473,6 @@
     <!-- ******************************
           group prn_symbol
       ****************************** -->
-    <!-- ******************************
-          group prn_symbol
-      ****************************** -->
 <e lm="Lei">             <p><l>Lei</l>       <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e> <!-- VERIFY -->
 <e lm="Loro">            <p><l>Loro</l>      <r>Lei<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e> <!-- VERIFY -->
 <e lm="entrambi">        <p><l>entrambe</l>  <r>entrambi<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
@@ -47561,9 +47515,6 @@
     <!-- ******************************
           group rel
       ****************************** -->
-    <!-- ******************************
-          group rel
-      ****************************** -->
 <e r="RL" lm="come">     <p><l><a/>come</l>  <r>come</r></p><par n="dove__rel"/></e>
 <e r="RL" lm="dove">     <p><l><a/>dove</l>  <r>dove</r></p><par n="dove__rel"/></e>
 <e r="RL" lm="quanto">   <p><l><a/>quant</l> <r>quant</r></p><par n="quant/o__rel"/></e>
@@ -47583,9 +47534,6 @@
 <e lm="quanto">          <i>quanto</i><par n="dove__rel"/></e>
 <e lm="quello che">      <par n="/quello_che__rel"/></e>
 
-    <!-- ******************************
-          group vblex
-      ****************************** -->
     <!-- ******************************
           group vblex
       ****************************** -->
@@ -50590,16 +50538,10 @@
     <!-- ******************************
           group adv
       ****************************** -->
-    <!-- ******************************
-          group adv
-      ****************************** -->
 <e r="LR" lm="anch'">    <p><l>anch'</l>     <r>anche</r></p><par n="ieri__adv"/></e>
 <e r="LR" lm="com'">     <p><l>com'</l>      <r>come</r></p><par n="ieri__adv"/></e>
 <e r="LR" lm="tant'">    <p><l>tant'</l>     <r>tanto</r></p><par n="ieri__adv"/></e>
 
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
     <!-- ******************************
           group det_symbol
       ****************************** -->
@@ -50611,14 +50553,9 @@
     <!-- ******************************
           group n_symbol
       ****************************** -->
-    <!-- ******************************
-          group n_symbol
-      ****************************** -->
 <e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="sant'">    <p><l>sant'</l>     <r>santo<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <!-- ******************************
-          group pr_symbol
-      ****************************** -->
+
     <!-- ******************************
           group pr_symbol
       ****************************** -->
@@ -50656,24 +50593,19 @@
     <!-- ******************************
           group rel_symbol
       ****************************** -->
-    <!-- ******************************
-          group rel_symbol
-      ****************************** -->
 <e r="LR" lm="quand'">   <p><l>quand'</l>    <r>quando<s n="rel"/><s n="adv"/></r></p></e>
 <e r="LR" lm="quant'">   <p><l>quant'</l>    <r>quanto<s n="rel"/><s n="adv"/></r></p></e>
+
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
 <e r="LR" lm="dov'">     <p><l>dov'</l>      <r>dove<s n="adv"/><s n="itg"/></r></p></e>
 <e r="LR">               <p><l>cent'</l>     <r>cento<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
-
-    <!-- ******************************
-          group(s) with only one element
-      ****************************** -->
 <e r="LR" lm="cos'">     <p><l>cos'</l>      <r>cosa</r></p><par n="che__prn"/></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e r="LR" lm="dev'">     <p><l>dev'</l>      <r>dovere<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   </section>
+
   <section id="regexp" type="standard">
 <e>                      <par n="emails"/></e>
 <e>                      <par n="hour-digital"/></e>
@@ -50681,6 +50613,7 @@
 <e>                      <par n="numeros"/></e>
 <e>                      <par n="urls"/></e>
   </section>
+
   <section id="final" type="inconditional">
 <e>                      <par n="coma"/></e>
 <e>                      <par n="cometa"/></e>
