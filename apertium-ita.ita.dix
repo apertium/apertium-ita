@@ -19692,6 +19692,7 @@
 <e lm="nicaraguense">    <i>nicaraguens</i><par n="albanes/e__adj"/></e>
 <e lm="nichilista">      <i>nichilist</i><par n="suicid/a__adj"/></e>
 <e lm="nido">            <i>nid</i><par n="abbandonat/o__adj"/></e>
+<e lm="niente">          <i>niente</i><par n="extra__adj"/></e>
 <e lm="nigeriano">       <i>nigerian</i><par n="abbandonat/o__adj"/></e>
 <e lm="nigerino" a="grfro3d"><i>nigerin</i><par n="cosiddett/o__adj"/></e>
 <e lm="nipponico">       <i>nipponic</i><par n="tecnic/o__adj"/></e>
@@ -23963,6 +23964,7 @@
 <e lm="in filiera">      <i>in<b/>filiera</i><par n="ieri__adv"/></e>
 <e lm="in fin dei conti"><i>in<b/>fin<b/>dei<b/>conti</i><par n="ieri__adv"/></e>
 <e lm="in fretta">       <i>in<b/>fretta</i><par n="ieri__adv"/></e>
+<e lm="in genere">       <i>in<b/>genere</i><par n="ieri__adv"/></e>
 <e lm="in generale">     <i>in<b/>generale</i><par n="ieri__adv"/></e>
 <e lm="in giù">          <i>in<b/>giù</i><par n="ieri__adv"/></e>
 <e lm="in guerra">       <i>in<b/>guerra</i><par n="ieri__adv"/></e>
@@ -39363,6 +39365,7 @@
 <e lm="Alfina">          <i>Alfina</i><par n="María__np"/></e>
 <e lm="Alfino">          <i>Alfino</i><par n="Juan__np"/></e>
 <e lm="Alfio">           <i>Alfio</i><par n="Juan__np"/></e>
+<e lm="Alfons">          <i>Alfons</i><par n="Juan__np"/></e>
 <e lm="Alfonsa">         <i>Alfonsa</i><par n="María__np"/></e>
 <e lm="Alfonsi">         <i>Alfonsi</i><par n="Díez__np"/></e>
 <e lm="Alfonsina">       <i>Alfonsina</i><par n="María__np"/></e>
