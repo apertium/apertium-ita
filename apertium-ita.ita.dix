@@ -24367,6 +24367,7 @@
 <e lm="pertanto">        <i>pertanto</i><par n="ieri__adv"/></e>
 <e lm="pesantemente">    <i>pesantemente</i><par n="ieri__adv"/></e>
 <e lm="pianamente">      <i>pianamente</i><par n="ieri__adv"/></e>
+<e lm="pian">            <i>pian</i><par n="ieri__adv"/></e>
 <e lm="piano">           <i>piano</i><par n="ieri__adv"/></e>
 <e lm="pienamente">      <i>pienamente</i><par n="ieri__adv"/></e>
 <e lm="piuttosto">       <i>piuttosto</i><par n="ieri__adv"/></e>
@@ -24380,6 +24381,7 @@
 <e lm="po'">             <i>po'</i><par n="ieri__adv"/></e>
 <e lm="poco">            <i>poco</i><par n="ieri__adv"/></e>
 <e lm="poco a poco">     <i>poco<b/>a<b/>poco</i><par n="ieri__adv"/></e>
+<e lm="a poco a poco">   <i>a<b/>poco<b/>a<b/>poco</i><par n="ieri__adv"/></e>
 <e lm="poco meno">       <i>poco<b/>meno</i><par n="ieri__adv"/></e>
 <e lm="poco più">        <i>poco<b/>più</i><par n="ieri__adv"/></e>
 <e lm="poderosamente">   <i>poderosamente</i><par n="ieri__adv"/></e>
@@ -39350,6 +39352,7 @@
 <e lm="Alex">            <i>Alex</i><par n="Juan__np"/></e>
 <e lm="Alexander">       <i>Alexander</i><par n="Díez__np"/></e>
 <e lm="Alexander">       <i>Alexander</i><par n="Juan__np"/></e>
+<e lm="Alexandre">       <i>Alexandre</i><par n="Juan__np"/></e>
 <e lm="Alfaro">          <i>Alfaro</i><par n="Díez__np"/></e>
 <e lm="Alfeo">           <i>Alfeo</i><par n="Juan__np"/></e>
 <e lm="Alferia">         <i>Alferia</i><par n="María__np"/></e>
@@ -47318,6 +47321,7 @@
 <e lm="migliaia di">     <i>migliaia<b/></i><par n="/di__pr"/></e>
 <e lm="migliaio di">     <i>migliaio<b/></i><par n="/di__pr"/></e>
 <e lm="nel">             <par n="/nel__pr"/></e>
+<e lm="nel corso di">    <i>nel<b/>corso<b/></i><par n="/di__pr"/></e>
 <e lm="nonostante">      <i>nonostante</i><par n="accanto__pr"/></e>
 <e lm="oltre">           <i>oltre</i><par n="accanto__pr"/></e>
 <e lm="oltre a">         <i>oltre<b/></i><par n="/a__pr"/></e>
@@ -48019,6 +48023,7 @@
 <e lm="buttare">         <i>butt</i><par n="abbacin/are__vblex"/></e>
 <e lm="cuocere">         <i>c</i><par n="c/uocere__vblex"/></e>
 <e lm="cadere">          <i>ca</i><par n="ca/dere__vblex"/></e>
+<e lm="cadere a terra">  <i>ca</i><par n="ca/dere__vblex"/><p><l><b/>a<b/>terra</l><r><g><b/>a<b/>terra</g></r></p></e>
 <e lm="cacare">          <i>cac</i><par n="abbarbic/are__vblex"/></e>
 <e lm="cacciare">        <i>cacc</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="cagare">          <i>cag</i><par n="abbarbic/are__vblex"/></e>
