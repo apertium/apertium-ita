@@ -222,6 +222,7 @@ SELECT N IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) ; 			# lo stato italiano
+SELECT N IF (0 Adv) (0 N) (-1 Det) (1 A) ; 			# un'altra specie chimica
 
 SELECT N IF (0 N) (0 PrfPrc) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
