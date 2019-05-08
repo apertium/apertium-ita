@@ -24779,7 +24779,6 @@
 <e lm="anzi">            <i>anzi</i><par n="siccome__cnjadv"/></e>
 <e lm="anziché">         <i>anziché</i><par n="siccome__cnjadv"/></e>
 <e lm="basta che">       <i>basta<b/>che</i><par n="siccome__cnjadv"/></e>
-<e lm="bensì">           <i>bensì</i><par n="siccome__cnjadv"/></e>
 <e lm="ciò nonostante">  <i>ciò<b/>nonostante</i><par n="siccome__cnjadv"/></e>
 <e lm="come">            <i>come</i><par n="siccome__cnjadv"/></e>
 <e lm="come vuoi che">   <i>come<b/>vuoi<b/>che</i><par n="siccome__cnjadv"/></e>
@@ -24807,13 +24806,13 @@
 <e lm="malgrado">        <i>malgrado</i><par n="siccome__cnjadv"/></e>
 <e lm="mentre">          <i>mentre</i><par n="siccome__cnjadv"/></e>
 <e lm="nel caso in cui"> <i>nel<b/>caso<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
-<e lm="nel contempo">    <i>nel<b/>contempo</i><par n="siccome__cnjadv"/></e>
+<e lm="nel contempo">    <i>nel<b/>contempo</i><par n="ieri__adv"/></e>
 <e lm="nella misura in cui"><i>nella<b/>misura<b/>in<b/>cui</i><par n="siccome__cnjadv"/></e>
 <e lm="nonché">          <i>nonché</i><par n="siccome__cnjadv"/></e>
 <e r="RL" lm="nonostante"><i>nonostante</i><par n="siccome__cnjadv"/></e>
 <e lm="ove">             <i>ove</i><par n="siccome__cnjadv"/></e>
 <e lm="per cosa">        <i>per<b/>cosa</i><par n="siccome__cnjadv"/></e>
-<e lm="per di più">      <i>per<b/>di<b/>più</i><par n="siccome__cnjadv"/></e>
+<e lm="per di più">      <i>per<b/>di<b/>più</i><par n="ieri__adv"/></e>
 <e lm="per dire">        <i>per<b/>dire</i><par n="siccome__cnjadv"/></e>
 <e lm="per esempio">     <i>per<b/>esempio</i><par n="siccome__cnjadv"/></e>
 <e lm="per fortuna">     <i>per<b/>fortuna</i><par n="siccome__cnjadv"/></e>
@@ -24859,6 +24858,7 @@
           group cnjcoo
       ****************************** -->
 <e lm="anche">           <i>anche</i><par n="ancorché__cnjcoo"/></e>
+<e lm="bensì">           <i>bensì</i><par n="ancorché__cnjcoo"/></e>
   <!-- <e lm="meno male che"><i>meno<b/>male<b/>che</i><par n="ancorché__cnjcoo"/></e> must be used also in isolation-->
 <e lm="cioè">            <i>cioè</i><par n="ancorché__cnjcoo"/></e>
 <e lm="e">               <i>e</i><par n="ancorché__cnjcoo"/></e>
