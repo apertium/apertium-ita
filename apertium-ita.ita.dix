@@ -41422,6 +41422,7 @@
 <e lm="Edoarda">         <i>Edoarda</i><par n="María__np"/></e>
 <e lm="Edoardina">       <i>Edoardina</i><par n="María__np"/></e>
 <e lm="Edoardo">         <i>Edoardo</i><par n="Juan__np"/></e>
+<e lm="Eduard">          <i>Eduard</i><par n="Juan__np"/></e>
 <e lm="Eduarda">         <i>Eduarda</i><par n="María__np"/></e>
 <e lm="Eduardo">         <i>Eduardo</i><par n="Juan__np"/></e>
 <e lm="Eduilia">         <i>Eduilia</i><par n="María__np"/></e>
@@ -41566,6 +41567,7 @@
 <e lm="Enos">            <i>Enos</i><par n="Juan__np"/></e>
 <e lm="Enotria">         <i>Enotria</i><par n="María__np"/></e>
 <e lm="Enotrio">         <i>Enotrio</i><par n="Juan__np"/></e>
+<e lm="Enric">           <i>Enric</i><par n="Juan__np"/></e>
 <e lm="Enrica">          <i>Enrica</i><par n="María__np"/></e>
 <e lm="Enrico">          <i>Enrico</i><par n="Juan__np"/></e>
 <e lm="Enrique">         <i>Enrique</i><par n="Juan__np"/></e>
@@ -47141,10 +47143,10 @@
 <e lm="Lime">       <i>Lime</i><par n="Díez__np"/></e>
 <e lm="Prati">       <i>Prati</i><par n="Díez__np"/></e>
 <e lm="Prato">       <i>Prato</i><par n="Díez__np"/></e>
-<e lm="Rossi">       <i>Rossi</i><par n="Díez__np"/></e>
 <e lm="Rosso">       <i>Rosso</i><par n="Díez__np"/></e>
 <e lm="Fabbri">       <i>Fabbri</i><par n="Díez__np"/></e>
 <e lm="Caviglia">       <i>Caviglia</i><par n="Díez__np"/></e>
+<e lm="Napolitano">       <i>Napolitano</i><par n="Díez__np"/></e>
 
     <!-- ******************************
           group num
