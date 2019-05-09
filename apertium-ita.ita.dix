@@ -12243,6 +12243,10 @@
   <e>       <p><l>le<b/>cui</l> <r>il<b/>cui<s n="rel"/><s n="aa"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
     
+<pardef n="cui__rel">
+  <e>       <p><l></l>          <r><s n="rel"/><s n="an"/><s n="mf"/><s n="sp"/></r></p></e>
+</pardef>
+    
 <pardef n="il_che__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="an"/><s n="nt"/></r></p></e>
 </pardef>
@@ -23257,6 +23261,9 @@
 <e lm="a mezzogiorno">   <i>a<b/>mezzogiorno</i><par n="ieri__adv"/></e>
 <e lm="a morte">         <i>a<b/>morte</i><par n="ieri__adv"/></e>
 <e lm="a nord">          <i>a<b/>nord</i><par n="ieri__adv"/></e>
+<e lm="a sud">           <i>a<b/>sud</i><par n="ieri__adv"/></e>
+<e lm="ad est">          <i>ad<b/>est</i><par n="ieri__adv"/></e>
+<e lm="ad ovest">        <i>ad<b/>ovest</i><par n="ieri__adv"/></e>
 <e lm="a parte">         <i>a<b/>parte</i><par n="ieri__adv"/></e>
 <e lm="a partire dalle"> <i>a<b/>partire<b/>dalle</i><par n="ieri__adv"/></e>
 <e lm="a piedi">         <i>a<b/>piedi</i><par n="ieri__adv"/></e>
@@ -23997,6 +24004,7 @@
 <e lm="in segreto">      <i>in<b/>segreto</i><par n="ieri__adv"/></e>
 <e lm="in seguito">      <i>in<b/>seguito</i><par n="ieri__adv"/></e>
 <e lm="in silenzio">     <i>in<b/>silenzio</i><par n="ieri__adv"/></e>
+<e lm="in su">           <i>in<b/>su</i><par n="ieri__adv"/></e>
 <e lm="in tal modo">     <i>in<b/>tal<b/>modo</i><par n="ieri__adv"/></e>
 <e lm="in tempo">        <i>in<b/>tempo</i><par n="ieri__adv"/></e>
 <e lm="in terzo luogo">  <i>in<b/>terzo<b/>luogo</i><par n="ieri__adv"/></e>
@@ -24222,7 +24230,6 @@
 <e lm="neanche">         <i>neanche</i><par n="ieri__adv"/></e>
 <e lm="necessariamente"> <i>necessariamente</i><par n="ieri__adv"/></e>
 <e lm="negativamente">   <i>negativamente</i><par n="ieri__adv"/></e>
-<e lm="nei pressi di">   <i>nei<b/>pressi<b/>di</i><par n="ieri__adv"/></e>
 <e lm="nel caso">        <i>nel<b/>caso</i><par n="ieri__adv"/></e>
 <e lm="nel frattempo">   <i>nel<b/>frattempo</i><par n="ieri__adv"/></e>
 <e lm="nel mentre">      <i>nel<b/>mentre</i><par n="ieri__adv"/></e>
@@ -41034,6 +41041,7 @@
 <e lm="Crispino">        <i>Crispino</i><par n="Juan__np"/></e>
 <e lm="Cristaldi">       <i>Cristaldi</i><par n="Díez__np"/></e>
 <e lm="Cristiana">       <i>Cristiana</i><par n="María__np"/></e>
+<e lm="Cristià">         <i>Cristià</i><par n="Juan__np"/></e>
 <e lm="Cristiano">       <i>Cristiano</i><par n="Juan__np"/></e>
 <e lm="Cristina">        <i>Cristina</i><par n="María__np"/></e>
 <e lm="Cristo">          <i>Cristo</i><par n="Juan__np"/></e>
@@ -46633,6 +46641,7 @@
 <e lm="Vittoriana">      <i>Vittoriana</i><par n="María__np"/></e>
 <e lm="Vittorina">       <i>Vittorina</i><par n="María__np"/></e>
 <e lm="Vittorio">        <i>Vittorio</i><par n="Juan__np"/></e>
+<e lm="Vittorio Emanuele"><i>Vittorio<b/>Emanuele</i><par n="Juan__np"/></e>
 <e lm="Vituccia">        <i>Vituccia</i><par n="María__np"/></e>
 <e lm="Viva">            <i>Viva</i><par n="María__np"/></e>
 <e lm="Vivalda">         <i>Vivalda</i><par n="María__np"/></e>
@@ -47256,6 +47265,9 @@
 <e lm="a">               <par n="/a__pr"/></e>
 <e lm="a cominciare da"> <i>a<b/>cominciare<b/></i><par n="/da__pr"/></e>
 <e lm="a nord di">       <i>a<b/>nord<b/></i><par n="/di__pr"/></e>
+<e lm="a sud di">        <i>a<b/>sud<b/></i><par n="/di__pr"/></e>
+<e lm="ad est di">       <i>ad<b/>est<b/></i><par n="/di__pr"/></e>
+<e lm="ad ovest di">     <i>ad<b/>ovest<b/></i><par n="/di__pr"/></e>
 <e lm="a fronte di">     <i>a<b/>fronte<b/></i><par n="/di__pr"/></e>
 <e lm="a partire da">    <i>a<b/>partire<b/></i><par n="/da__pr"/></e>
 <e lm="accanto a">       <i>accanto<b/></i><par n="/a__pr"/></e>
@@ -47319,6 +47331,7 @@
 <e lm="mediante">        <i>mediante</i><par n="accanto__pr"/></e>
 <e lm="migliaia di">     <i>migliaia<b/></i><par n="/di__pr"/></e>
 <e lm="migliaio di">     <i>migliaio<b/></i><par n="/di__pr"/></e>
+<e lm="nei pressi di">   <i>nei<b/>pressi<b/></i><par n="/di__pr"/></e>
 <e lm="nel">             <par n="/nel__pr"/></e>
 <e lm="nel corso di">    <i>nel<b/>corso<b/></i><par n="/di__pr"/></e>
 <e lm="nonostante">      <i>nonostante</i><par n="accanto__pr"/></e>
@@ -47347,6 +47360,7 @@
 <e lm="sopra">           <i>sopra</i><par n="accanto__pr"/></e>
 <e r="LR" lm="sotto">    <i>sotto</i><par n="accanto__pr"/></e>
 <e r="LR" lm="su">       <i>su</i><par n="accanto__pr"/></e>
+<e lm="su di">           <i>su<b/></i><par n="/di__pr"/></e>
 <e lm="sul">             <par n="/sul__pr"/></e>
 <e lm="tra">             <i>tra</i><par n="accanto__pr"/></e>
 <e lm="tramite">         <i>tramite</i><par n="accanto__pr"/></e>
@@ -47527,9 +47541,10 @@
 <e lm="chi">             <i>chi</i><par n="chi__rel"/></e>
 <e lm="col quale">       <i>co</i><par n="ne/l_quale__rel"/></e>
 <e r="LR" lm="come">     <i>come</i><par n="dove__rel"/></e>
-<e lm="cui">             <par n="/il_cui__rel"/></e>
+<!-- <e lm="cui">             <par n="cui__rel"/></e> -->
+<!-- <e lm="a cui">           <i>a<b/></i><par n="cui__rel"/></e> -->
 <e r="LR" lm="dove">     <i>dove</i><par n="dove__rel"/></e>
-<e lm="il che">          <i>il che</i><par n="il_che__rel"/></e>
+<e lm="il che">          <i>il<b/>che</i><par n="il_che__rel"/></e>
 <e lm="il cui">          <par n="/il_cui__rel"/></e>
 <e lm="il quale">        <par n="/il_quale__rel"/></e>
 <e lm="nel quale">       <i>ne</i><par n="ne/l_quale__rel"/></e>
