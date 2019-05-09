@@ -79,6 +79,8 @@ LIST Dallo = "dallo" ;
 LIST Dai = "dai" ;
 LIST Dei = "dei" ;
 LIST Puo_essere = "può essere" ;
+LIST Da = "da" ;
+LIST In = "in" ; 
 
 LIST Interr = itg ;
 
@@ -98,6 +100,8 @@ LIST Vinterr = ("domandare") ("chiedere") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
+
+SET Dignità = ("presidente") OR ("governatore") OR ("imperatore") OR ("re") OR ("principe") OR ("barone") OR ("conte") OR ("visconte") OR ("marquese") OR ("duca") OR ("arciduca") OR ("vescovo") OR ("arcivescovo");
 
 # All possible word categories
 
@@ -330,6 +334,36 @@ SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
+REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog)  ;
+REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant)  ;
+
+SELECT Ant IF (0 Ant) (1C Ant) ;
+        # Rosa Maria
+SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
+SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
+SELECT Ant IF (0 Ant) (0 Cog) (1 ("di")) (2 Top) ;
+	# Alfonso di Portogallo
+SELECT Top IF (-2 Ant) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+	# Ipparco di Nicea
+SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+	# Joan II di Castiglia
+SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzione") OR ("trattato") OR ("dichiarazione"))
+	(-1 ("di")) (0 Ant OR Cog OR Top) ;
+	# concilio di Nicea
+SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 ("di")) (0 Cog OR Top) ;
+	# regno di Castiglia
+SELECT Top IF (-2 Dignità) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+	# principe di Viana
+SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a")) (0 Ant OR Cog OR Top) ;
+REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a")) (0C Ant OR Cog OR Top) ;
+SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
+REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
+SELECT Top IF (-2 NP) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+
+SELECT Top IF (-2C Top) (-1 Cm OR CC) (0 Top) (0 Cog OR Ant);
+SELECT Top IF (2 Top) (1 Cm OR CC) (0 Top) (0 Cog OR Ant);
+
+# São
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE:nom_propicomu NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
 
