@@ -183,6 +183,11 @@ SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
 SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Cm) ; 		# allo stato fossile,
 SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Cm) ; 		# allo stato fossile,
 
+SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Vall) ; 	# il comune nacque
+SELECT N IF (0 A) (0 N) (-1/* Pr) (0 A) (0 N) (1 Vall) ; 	# il comune nacque
+SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
+SELECT N IF (0 A) (0 N) (-1/* Pr) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
+
 SELECT N IF (-1 Det + $$MascSg) (0 A + $$MascSg) (0 N + $$MascSg) (NOT 1 N + $$MascSg) ;
 SELECT N IF (-1 Det + $$FemSg) (0 A + $$FemSg) (0 N + $$FemSg) (NOT 1 N + $$FemSg) ;
 SELECT N IF (-1 Det + $$MascPl) (0 A + $$MascPl) (0 N + $$MascPl) (NOT 1 N + $$MascPl) ;	# distinguere gli ambiti e usi
