@@ -30,6 +30,12 @@ LIST Pr = pr ;
 
 LIST Pos = pos ; 
 
+SET Ant = (np ant) ;
+SET Cog = (np cog) ;
+SET Ant_Cog = Ant OR Cog ;
+SET Top = (np top) OR (np loc) ;
+SET Al = (al) ;
+
 LIST Sg = sg ; 
 LIST Pl = pl ; 
 LIST M = m ;
@@ -51,6 +57,12 @@ LIST P2 = (p2) ;
 LIST P3 = (p3) ;
 
 LIST unknown = ("\\*.*"r) ;
+LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
+LIST MajIni = ("<[A-ZÀÁÈÉíÒÓÚÜÇ].*>"r) ;
+LIST MinIni = ("<[a-zàáèéìíòóùúçñ].*>"r) ;
+LIST MajIni2 = ("<[A-ZÀÁÈÉÍÌÒÓÚÜÇ][a-zàáèéìíòóùúïüçñ·]+.*>"r) ;
+LIST segles_num_romans = ("[IVX][IVX]*"r) ;
+LIST Upper = "[A-Z][a-z]+"r ;
 
 LIST Avere = vbhaver ;
 LIST Ser = vbser ;
@@ -84,7 +96,8 @@ LIST Pl3 = (p3 pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 
-LIST Upper = "[A-Z][a-z]+"r ;
+# coincidències nom propi/comú
+SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
 
 # All possible word categories
 
@@ -311,3 +324,17 @@ SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* ("di")) ;
 SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
+
+
+# NP
+
+SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
+
+# Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
+REMOVE:nom_propicomu NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
+
+# Per a evitar la traducció de cognoms
+# Posa com a lema la forma de la paraula marcada amb *
+# Amb els adjectius hi ha més risc d'error (!)
+SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al")) ; 
+REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al"));  # Això no sé si és útil. 
