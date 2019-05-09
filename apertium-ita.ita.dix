@@ -16,7 +16,7 @@
     <sdef n="percent" 	c=""/> 
     <sdef n="predet" 	c=""/> 
     <sdef n="detnt" 	c=""/> 
-    <sdef n="loc" 	c=""/> 
+    <sdef n="top" 	c=""/> 
     <sdef n="hyd" 	c=""/> 
     <sdef n="cog" 	c=""/> 
     <sdef n="ant" 	c=""/> 
@@ -13916,19 +13916,19 @@
 </pardef>
     
 <pardef n="Afghanistan__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
     
 <pardef n="Europa__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
     
 <pardef n="USA__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="Maldive__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
     
 <pardef n="Po__np">
