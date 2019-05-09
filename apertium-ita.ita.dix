@@ -47833,6 +47833,7 @@
 <e lm="ancheggiare">     <i>anchegg</i><par n="abbiosc/iare__vblex"/></e>
 <e lm="ancorare">        <i>ancor</i><par n="abbacin/are__vblex"/></e>
 <e lm="andare">          <par n="/andare__vblex"/></e>
+<e lm="andare via">      <par n="/andare__vblex"/><p><l><b/>via</l><r><g><b/>via</g></r></p></e>
 <e lm="animare">         <i>anim</i><par n="abbacin/are__vblex"/></e>
 <e lm="annaffiare">      <i>annaffi</i><par n="espi/are__vblex"/></e>
 <e lm="annettere">       <i>anne</i><par n="conne/ttere__vblex"/></e>
