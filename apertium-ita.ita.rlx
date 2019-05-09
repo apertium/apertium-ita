@@ -339,7 +339,7 @@ REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant)  ;
 
 SELECT Ant IF (0 Ant) (1C Ant) ;
         # Rosa Maria
-SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
+SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 ("di"));
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
 SELECT Ant IF (0 Ant) (0 Cog) (1 ("di")) (2 Top) ;
 	# Alfonso di Portogallo
@@ -363,7 +363,6 @@ SELECT Top IF (-2 NP) (-1 ("di")) (0 Ant OR Cog OR Top) ;
 SELECT Top IF (-2C Top) (-1 Cm OR CC) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 Cm OR CC) (0 Top) (0 Cog OR Ant);
 
-# São
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE:nom_propicomu NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
 
