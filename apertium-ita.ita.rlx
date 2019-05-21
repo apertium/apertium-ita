@@ -1,4 +1,5 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+
 SOFT-DELIMITERS = "<,>" ;
 
 SUBREADINGS = LTR ;
@@ -271,6 +272,11 @@ REMOVE PrfPrc IF (0 PrfPrc) (0 A) (-1C Pr) ;
 
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
+
+REMOVE V IF (NOT -2 N) (-1C A + $$MascSg) (0 N + $$MascSg) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + $$FemSg) (0 N + $$FemSg) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + $$MascPl) (0 N + $$MascPl) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + $$FemPl) (0 N + $$FemPl) (0 V) ;	# primo violino
 
 REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;		# lingue più diffuse
 REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;	# lingue internazionali più diffuse
