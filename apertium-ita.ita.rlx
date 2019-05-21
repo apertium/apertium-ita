@@ -159,6 +159,7 @@ REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No fun
 REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
 
 SELECT NP IF (0 San) (1 Upper) ;
+REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 
 SELECT Det IF (-1 Pr) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
@@ -331,6 +332,13 @@ SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 
 # NP
+
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra")) ;
+	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+
+SELECT N IF (-1 ("<il>")) (0 ("<Sole>")) ;		# il Sole
+SELECT N IF (-1 ("<la>")) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
+SELECT N IF (-2 ("<la>")) (-1 A) (0 ("<Guerra>")) ;	# la Gran Guerra
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
