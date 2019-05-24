@@ -77,6 +77,7 @@ LIST Ifi = ifi ;
 
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
+LIST Lei = "lei" ; 
 LIST Stato = "stato" ;
 LIST San = "San" ;
 LIST Dallo = "dallo" ;
@@ -134,6 +135,7 @@ SET S-BOUNDARY = CS | Interr | EOS;
 SECTION
 
 SELECT Pron IF (0 Io) ;
+SELECT F IF (0 Lei) ;
 
 SELECT Pr IF (0 Sotto) (1 Det) ;
 
