@@ -25,10 +25,11 @@ LIST CS = cnjsub ;
 LIST CA = cnjadv ;
 LIST Interj = ij ;
 LIST Num = num ;
-LIST Cm = cm ;
-LIST Lpar = lpar ;
 LIST Pr = pr ; 
 LIST Rel = rel ; 
+LIST Cm = cm ;
+LIST Lpar = lpar ;
+LIST Guio = guio ;
 
 LIST Pos = pos ; 
 
@@ -40,8 +41,10 @@ SET Al = (al) ;
 
 LIST Sg = sg ; 
 LIST Pl = pl ; 
+LIST SP = sp ;
 LIST M = m ;
 LIST F = f ;
+LIST MF = mf ;
 
 LIST Masc = m mf ;
 LIST Fem = f mf ;
@@ -321,6 +324,11 @@ SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che) ;
 
 SELECT A IF (0C A OR Adv) (-1 Det) (1 N) ; # una prima verzione
+
+SELECT A + MF + SP IF (0 A + MF + SP) (1 Guio) (2 A) ;	# neo-strano, filo-tibetano
+REMOVE A + MF + SP IF (0 ("filo")) (NOT 1 Guio) ;
+REMOVE A + MF + SP IF (0 ("neo")) (NOT 1 Guio) ;
+REMOVE A + MF + SP IF (0 ("americano")) (NOT 1 Guio) ;
 
 # Coordinació
 SELECT M IF (0 N + M) (0 N + F) (-1 Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
