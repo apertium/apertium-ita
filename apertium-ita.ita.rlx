@@ -7,7 +7,7 @@ SUBREADINGS = LTR ;
 SETS
 
 LIST BOS = (>>>) ;
-LIST EOS = (<<<) ;
+LIST EOS = (EOS) ;
 
 LIST A = adj ;
 LIST Adv = adv ;
@@ -17,21 +17,31 @@ LIST N = n ;
 LIST NP = np ;
 LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
+LIST Vmod = vbmod ;
+LIST Inf = inf ;
+LIST PP = pp ;
+LIST Ifi = ifi ;
+LIST Prs = prs  ;
 LIST Det = det ;
 LIST Def = def ;
 LIST Ind = ind ;
-LIST CC = cnjcoo ;
-LIST CS = cnjsub ;
-LIST CA = cnjadv ;
+LIST Pos = pos ; 
+LIST CnjCoo = cnjcoo ;
+LIST CnjSub = cnjsub ;
+LIST CnjAdv = cnjadv ;
 LIST Interj = ij ;
 LIST Num = num ;
-LIST Pr = pr ; 
+LIST Prep = pr ; 
 LIST Rel = rel ; 
-LIST Cm = cm ;
+LIST CM = cm ;
 LIST Lpar = lpar ;
 LIST Guio = guio ;
 
-LIST Pos = pos ; 
+SET Noun_Adj = N OR A ;
+SET Noun_Adj_PP = N OR A OR PP ;
+SET Adj_PP = A OR PP ;
+
+SET Adv_PreAdv = Adv OR PreAdv ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
@@ -55,13 +65,17 @@ SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
+SET Ref = (prn pro ref) ;
+SET Pro = (prn pro) ;
+SET Tn = (prn tn) ;
+SET Tn_nt = (prn tn nt) ;
+
 SET Aord = (adj ord) ;
 
 LIST P1 = (p1) ;
 LIST P2 = (p2) ;
 LIST P3 = (p3) ;
-
-LIST Prs = prs  ;
+SET Pers = (p1) OR (p2) OR (p3) ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
@@ -74,9 +88,7 @@ LIST Upper = "[A-Z][a-z]+"r ;
 LIST Avere = vbhaver ;
 LIST Ser = vbser ;
 LIST Essere = "essere" ;
-
-LIST PrfPrc = pp ;
-LIST Ifi = ifi ;
+LIST Dovere = "dovere" ;
 
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
@@ -114,11 +126,11 @@ SET Dignità = ("presidente") OR ("governatore") OR ("imperatore") OR ("re") OR 
 
 # All possible word categories
 
-SET WORD = N | V | A | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") | ("!") ;
+SET WORD = N | V | A | Pron | Det | Adv | CnjCoo | CnjSub | Interj | Num | ("\?") | ("!") ;
 
-SET PRE-N =  A | Det | Num | CC ;
+SET PRE-N =  A | Det | Num | CnjCoo ;
 
-SET MARK = Cm | ("\\") | ("\;") ;
+SET MARK = CM | ("\\") | ("\;") ;
 
 SET WORDMARK = WORD | MARK ;
 
@@ -133,24 +145,30 @@ SET NOT-ADV = WORDMARK - Adv ;
 
 # Barriers
 
-SET S-BOUNDARY = CS | Interr | EOS;
+SET S-BOUNDARY = CnjSub | Interr | EOS;
+
+SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Vall OR Rel OR Pro ;	# Vall és perillós per la ambigüitat, però en general, prolífic
+SET Barrera_Final_Estrict_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
+SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Vall OR Rel ;		# Vall és perillós per la ambigüitat, però en general, prolífic
+SET Barrera_Inicial_Estrict_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
+SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 
 SECTION
 
 SELECT Pron IF (0 Io) ;
 SELECT F IF (0 Lei) ;
 
-SELECT Pr IF (0 Sotto) (1 Det) ;
+SELECT Prep IF (0 Sotto) (1 Det) ;
 
-SELECT Avere IF (1 PrfPrc) ;
-SELECT Avere IF (1 Adv) (2 PrfPrc) ;
+SELECT Avere IF (1 PP) ;
+SELECT Avere IF (1 Adv) (2 PP) ;
 
-SELECT Ser IF (0 Puo_essere) (1 PrfPrc) ;
+SELECT Ser IF (0 Puo_essere) (1 PP) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
 
-SELECT PrfPrc IF (-1 Essere) (0 Stato) ;
+SELECT PP IF (-1 Essere) (0 Stato) ;
 
-SELECT PrfPrc IF (-1 Stato LINK -1 Essere) ;
+SELECT PP IF (-1 Stato LINK -1 Essere) ;
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
@@ -160,18 +178,20 @@ REMOVE Imper IF (NOT 1* Excl) ;
 
 SELECT Essere IF (0 Sg1) ;
 
-#REMOVE V IF (0 ("dai")) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
-#REMOVE V IF (0 Dai) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
-#SELECT Pr IF (0 Dai) ;	# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
-REMOVE V IF (0 Sg2) (0/* Pr) ;	# dai (alternativa bèstia però funciona)
+SELECT Vmod IF (0 Dovere) (1 Vall + Inf) ;
 
-REMOVE N IF (0 ("dei")) ;	# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
-REMOVE N IF (0 N) (0/* Pr) ;	# dei (alternativa bèstia però funciona)
+#REMOVE V IF (0 ("dai")) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+#REMOVE V IF (0 Dai) ;			# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+#SELECT Prep IF (0 Dai) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
+REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
+
+REMOVE N IF (0 ("dei")) ;		# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
+REMOVE N IF (0 N) (0/* Prep) ;		# dei (alternativa bèstia però funciona)
 
 SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 
-SELECT Det IF (-1 Pr) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
+SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
 REMOVE A IF (NOT -1 Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
@@ -191,40 +211,40 @@ SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
 SELECT Num (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
 
 
-SELECT N IF (0 N) (0 V) (-1 A) (1 Pr) ;		# le più grandi collezioni di pesci
+SELECT N IF (0 N) (0 V) (-1 A) (1 Prep) ;	# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
 
 SELECT V IF (0 N) (0 V) (NOT -2/* Det) (-1 Rel) (NOT -1 ("il cui")) ;	# il paese in cui abito / la donna il cui figlio / dal cui inizio
 SELECT N IF (0 N + MascSg) (0 V) (-1 ("il cui") + MascSg) (1 V) ;	# il cui suoni ricordanno
-SELECT N IF (0 N + FemSg) (0 V) (-1 ("il cui") + FemSg) (1 V) ;	# il cui suoni ricordanno
+SELECT N IF (0 N + FemSg) (0 V) (-1 ("il cui") + FemSg) (1 V) ;		# il cui suoni ricordanno
 SELECT N IF (0 N + MascPl) (0 V) (-1 ("il cui") + MascPl) (1 V) ;	# il cui suoni ricordanno
-SELECT N IF (0 N + FemPl) (0 V) (-1 ("il cui") + FemPl) (1 V) ;	# il cui suoni ricordanno
+SELECT N IF (0 N + FemPl) (0 V) (-1 ("il cui") + FemPl) (1 V) ;		# il cui suoni ricordanno
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
 SELECT Sg If (-1 ("il cui") + Sg) (0 V) (NOT 0 N) ;
 SELECT Pl If (-1 ("il cui") + Pl) (0 V) (NOT 0 N) ;
 
-REMOVE Pr IF (0 Adv) (0 Pr) (-1 V) (1 CC) ;	# andavano su e giù
+REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 
 REMOVE A IF (0 A) (0 N) (-1 Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
-REMOVE A IF (0 A) (0 N) (-1/* Pr) (1 EOS) ; 	# solució problema "nel" (a més tracta el cas: Pr N/A.
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (NOT -1 ("molto")) (-1 Det) (1 EOS) ;
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1/* Pr) (1 EOS) ;
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
+REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1 Det) (1 EOS) ;
+REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1 EOS) ;
 
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2 EOS) ; 		# dello Stato spagnolo. / il primo amico
 SELECT A IF (0 A) (NOT -1 Aord) (0 N) (-2 Det) (-1 N) (1 EOS) ; 		# dello Stato spagnolo. / il primo amico
-SELECT A IF (0 A) (NOT -1 Aord) (0 N) (-2/* Pr) (-1 N) (1 EOS) ; 		# dello Stato spagnolo. / il primo amico
+SELECT A IF (0 A) (NOT -1 Aord) (0 N) (-2/* Prep) (-1 N) (1 EOS) ; 		# dello Stato spagnolo. / il primo amico
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Cm) ; 		# allo stato fossile,
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Cm) ; 		# allo stato fossile,
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Cm) ; 		# allo stato fossile,
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 CM) ; 			# allo stato fossile,
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 CM) ; 		# allo stato fossile,
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 CM) ; 			# allo stato fossile,
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 CM) ; 			# allo stato fossile,
 
-SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Vall) ; 	# il comune nacque
-SELECT N IF (0 A) (0 N) (-1/* Pr) (0 A) (0 N) (1 Vall) ; 	# il comune nacque
+SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Vall) ; 		# il comune nacque
+SELECT N IF (0 A) (0 N) (-1/* Prep) (0 A) (0 N) (1 Vall) ; 		# il comune nacque
 SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
-SELECT N IF (0 A) (0 N) (-1/* Pr) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
+SELECT N IF (0 A) (0 N) (-1/* Prep) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
 
 SELECT N IF (-1 Det + $$MascSg) (0 A + $$MascSg) (0 N + $$MascSg) (NOT 1 N + $$MascSg) ;
 SELECT N IF (-1 Det + $$FemSg) (0 A + $$FemSg) (0 N + $$FemSg) (NOT 1 N + $$FemSg) ;
@@ -232,62 +252,62 @@ SELECT N IF (-1 Det + $$MascPl) (0 A + $$MascPl) (0 N + $$MascPl) (NOT 1 N + $$M
 SELECT N IF (-1 Det + $$FemPl) (0 A + $$FemPl) (0 N + $$FemPl) (NOT 1 N + $$FemPl) ;
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Lpar) ; 	#
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2 Lpar) ; 	#
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
 SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Lpar) ; 		# 
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1C A) ; 			# dello Stato Pontificio
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1C A) ; 			# dello Stato Pontificio
 
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila / nei primi decenni
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 	# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 Aord) (0 N) (-1/* Pr) (1 A) (1 N) (2C Pr) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (NOT 1 ("da")) ;		# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1 Pr) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Pr) (1 ("da")); 		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PrfPrc) (-2 Det) (-1 N) (1 Pr) (1 ("da")) ;	# il titolo assunto da Filippo
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 ("da")); 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 ("da")) ;	# il titolo assunto da Filippo
 
-SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR Cm OR Pr OR CS OR CA) ;	# nei primi decenni del Novecento
+SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Pr) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Pr) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
 SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Pr) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1/* Pr) ; 			# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Pr) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1 Det) (1/* Prep) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1/* Pr) (1/* Det) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) ; 			# lo stato italiano
 SELECT N IF (0 Adv) (0 N) (-1 Det) (1 A) ; 			# un'altra specie chimica
 
-SELECT N IF (0 N) (0 PrfPrc) (-1C Det) (1 unknown) ;
+SELECT N IF (0 N) (0 PP) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
-SELECT Npl IF (0 Npl) (0 PrfPrc) (-1C Num) (1 unknown) ;
+SELECT Npl IF (0 Npl) (0 PP) (-1C Num) (1 unknown) ;
 SELECT Npl IF (0 Npl) (0 A) (-1C Num) (1 unknown) ;
 
 #SELECT A IF (0 A) (0 N) (1 A) (-1C N) ; 			# Regno Lombardo-Veneto (no funciona: il presidente Franco Marini)
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 EOS) ;	# loro sorte.
+REMOVE PP IF (0 PP) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 EOS) ;	# le più grandi collezioni.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 Lpar) ;	# due nuove canzonii (di cui una
 
 REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
-REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Pr) ; 		# il suo futuro attraverso una programmazione
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Pos) (1 Pr) ;
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 Pr) ; 		# il futuro della Ue.
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1 Det) (1 Pr) ;
+REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Prep) ; 		# il suo futuro attraverso una programmazione
+REMOVE PP IF (0 PP) (0 N) (-1 Pos) (1 Prep) ;
+REMOVE A IF (0 A) (0 N) (-1 Det) (1 Prep) ; 		# il futuro della Ue.
+REMOVE PP IF (0 PP) (0 N) (-1 Det) (1 Prep) ;
 
-REMOVE PrfPrc IF (0 PrfPrc) (0 N) (-1C Pr) ;		# in corso "Pitretu è Bicchisgià"
-REMOVE PrfPrc IF (0 PrfPrc) (0 A) (-1C Pr) ;
+REMOVE PP IF (0 PP) (0 N) (-1C Prep) ;		# in corso "Pitretu è Bicchisgià"
+REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
 
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
@@ -297,16 +317,16 @@ REMOVE V IF (NOT -2 N) (-1C A + $$FemSg) (0 N + $$FemSg) (0 V) ;	# primo violino
 REMOVE V IF (NOT -2 N) (-1C A + $$MascPl) (0 N + $$MascPl) (0 V) ;	# primo violino
 REMOVE V IF (NOT -2 N) (-1C A + $$FemPl) (0 N + $$FemPl) (0 V) ;	# primo violino
 
-REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;		# lingue più diffuse
-REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PrfPrc) ;	# lingue internazionali più diffuse
-SELECT A IF (-2 N) (-1 ("più") OR ("meno")) (0 A OR PrfPrc) ;			# lingue più diffuse
-SELECT A IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 A OR PrfPrc) ;		# lingue internazionali più diffuse
+REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;		# lingue più diffuse
+REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;	# lingue internazionali più diffuse
+SELECT A IF (-2 N) (-1 ("più") OR ("meno")) (0 A OR PP) ;			# lingue più diffuse
+SELECT A IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 A OR PP) ;		# lingue internazionali più diffuse
 
 SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
-SELECT A IF (0 Pos) (-1/* Pr) (1 N) ;	# solució problema "del"
+SELECT A IF (0 Pos) (-1/* Prep) (1 N) ;	# solució problema "del"
 
-REMOVE V IF (0 N) (0 Vconj) (-1 Pr) ;	# la rivolta dei Fasci siciliani.
+REMOVE V IF (0 N) (0 Vconj) (-1 Prep) ;	# la rivolta dei Fasci siciliani.
 REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
 
 REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
@@ -314,11 +334,11 @@ REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazio
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
 SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
-#SELECT Interr IF (0 Interr) (0 CA) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
-#SELECT Interr IF (0 Interr) (0 CA) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
+#SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
+#SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 
-SELECT Rel IF (-1C N OR A OR NP) (0 Che) ;	# l'uomo che dice
-SELECT Rel IF (-2 N OR A OR NP) (-1 Cm) (0 Che) ;	# l'uomo, che dice
+SELECT Rel IF (-1C N OR A OR NP) (0 Che) ;		# l'uomo che dice
+SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che) ;	# l'uomo, che dice
 SELECT Rel IF (-1/* Det + Def) (0 Che) ;
 SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che) ;
@@ -336,28 +356,28 @@ SELECT F IF (0 N + M) (0 N + F) (-1 Det + F) ;
 SELECT M IF (0 A + M) (0 A + F) (-1 Det + M) ;
 SELECT F IF (0 A + M) (0 A + F) (-1 Det + F) ;
 
-SELECT M IF (0 N + M) (0 N + F) (-1 A + M) (NOT -1 A + F) ;	# un suo moto
+SELECT M IF (0 N + M) (0 N + F) (-1 A + M) (NOT -1 A + F) ;		# un suo moto
 SELECT F IF (0 N + M) (0 N + F) (-1 A + F) (NOT -1 A + M) ;
-SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;	# consigliere diplomatico
+SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;		# consigliere diplomatico
 SELECT F IF (0 N + M) (0 N + F) (1 A + F) (NOT 1 A + M) ;
 SELECT M IF (0 N + M) (0 N + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
 SELECT F IF (0 N + M) (0 N + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
-#SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)	# un suo moto proprio
+#SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)		# un suo moto proprio
 
-SELECT P1 IF (0 ("<sono>")) (-1 Io) ;				# io sono
+SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
 SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
-SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PrfPrc + Sg) ;		# sono povero
-SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PrfPrc + Sg) ;	# sono molto povero
+SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PP + Sg) ;			# sono povero
+SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PP + Sg) ;		# sono molto povero
 
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Pr) ;			# due terzi di
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CS) ;
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CA) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Pr) ;		# il primo quarto
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjSub) ;
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjAdv) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CS) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CA) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
 
 SELECT N IF (0 ("mezzo")) (1 ("di")) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* ("di")) ;
@@ -365,6 +385,80 @@ SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* ("di")) ;
 SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
+
+# COORDINAZIONE
+
+# NOM CONJ NOM
+
+REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+## un químico y profesor
+
+REMOVE A OR PP IF (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-3 CnjCoo) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) ;
+## o prodotto o persona
+
+REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+# los italianos y españoles son amplia mayoría
+
+REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+# los italianos y los españoles son amplia mayoría
+
+REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-3 Barrera_Inicial_SN LINK NOT 0 N) (NOT -3 Limite_Barrera_Inicial_SN) (-2 Noun_Adj_PP LINK 0 N OR NP) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-3 Barrera_Inicial_SN LINK NOT 0 N) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Barrera_Final_SN) ;
+# entre comunistas y anarquistas
+
+REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM) (2 Noun_Adj_PP LINK 0 N OR NP) (3 CnjCoo) (4 Noun_Adj_PP LINK 0 N OR NP) (5 Barrera_Final_SN) ;
+# entre catalanes, vascos y gallegos
+
+REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM) (2 Noun_Adj_PP LINK 0 N OR NP) (3 CM) (4 Noun_Adj_PP LINK 0 N OR NP) (5 CnjCoo) (6 Noun_Adj_PP LINK 0 N OR NP) (7 Barrera_Final_SN) ;
+# entre occitanos, catalanes, vascos y gallegos
+# vinieron italianos, alemanes, polacos y ucranianos.
+
+SELECT N IF (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK NOT 0 NP) (1 Barrera_Final_Estrict_SN) (NOT 0 ("<segons>"i)) ;
+## adquiriendo una gran reputación como poeta y crítico.
+SELECT N IF (2C N) (1 CnjCoo) (0C Noun_Adj_PP LINK NOT 0 NP) (-1 Barrera_Inicial_SN) ;
+## "se utiliza en periódicos y libros"
+
+# NOM, NOM CONJ NOM
+
+SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+SELECT N IF (-3 CM) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 A) ; 
+SELECT N IF (0 Noun_Adj_PP) (1 CM) (2C N) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+# compositor, teórico y pedagogo
+# varios religiosos, pensadores y políticos
+
+SELECT N IF (-2 N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2C N) ; 
+SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Det) (3 N) ; 
+# Dificil tratar a la vez:
+# ". Católicos, ortodoxos y algunos anglicanos consideran"
+# "Se encuentra en latín, polaco, lituano y otras lenguas."
+
+# ADJ, ADJ CONJ ADJ
+
+SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+SELECT A IF (-3 CM) (-2C A) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 N) ; 
+SELECT A IF (0 Noun_Adj_PP) (1 CM) (2C A) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+# rojo, verde y azul
+
+# NOM, NOM,
+
+SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
+SELECT N IF (-4 Det) (-3C N) (-2 CM) (-1 Det) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
+
+# ADJ, ADJ,
+
+SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 
 # NP
@@ -406,8 +500,8 @@ SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0 Ant 
 REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-2 NP) (-1 ("di")) (0 Ant OR Cog OR Top) ;
 
-SELECT Top IF (-2C Top) (-1 Cm OR CC) (0 Top) (0 Cog OR Ant);
-SELECT Top IF (2 Top) (1 Cm OR CC) (0 Top) (0 Cog OR Ant);
+SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE:nom_propicomu NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
