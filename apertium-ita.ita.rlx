@@ -393,6 +393,11 @@ SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 # COORDINAZIONE
 
+REMOVE Pl IF (-1C Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
+REMOVE Sg IF (-1C Det + Pl) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;
+REMOVE Masc IF (-1C Det + Fem) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
+REMOVE Fem IF (-1C Det + Masc) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
+
 # NOM CONJ NOM
 
 REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
