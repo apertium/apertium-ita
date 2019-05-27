@@ -79,11 +79,13 @@
     <tags-item tags="np.cog.*"/>
   </def-label>
   <def-label name="TOPONIM">
+    <tags-item tags="np.top.*"/>
     <tags-item tags="np.loc.*"/>
     <tags-item tags="np.hyd.*"/>
   </def-label>
   <def-label name="NPALTRES">
     <tags-item tags="np.org.*"/>
+    <tags-item tags="np.al"/>
     <tags-item tags="np.al.*"/>
   </def-label>
   <def-label name="NUM" closed="true">
