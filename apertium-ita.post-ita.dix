@@ -2098,7 +2098,66 @@
         <par n="era"/>
       </e>
 
+      <e>
+        <p>
+	  <l><a/>a_<b/>anni</l>
+	  <r>'anni</r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>a_<b/></l>
+	  <r>a<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>a_</l>
+	  <r>a</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
+      <e>
+        <p>
+	  <l><a/>i_<b/>anni</l>
+	  <r>'anni</r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>i_<b/></l>
+	  <r>i<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>i_</l>
+	  <r>i</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+
+      <e>
+        <p>
+	  <l><a/>e</l>
+	  <r>ed</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+	  <l><a/>e<b/></l>
+	  <r>e<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>e</l>
+	  <r>e</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
   </section>
 
