@@ -324,6 +324,7 @@ REMOVE PP IF (0 PP) (0 N) (-1 Det) (1 Prep) ;
 
 REMOVE PP IF (0 PP) (0 N) (-1C Prep) ;		# in corso "Pitretu è Bicchisgià"
 REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
+REMOVE PP IF (0 PP) (0 A) (-1C N) (NOT 1 Da) ;	# nucleo abitato
 
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
