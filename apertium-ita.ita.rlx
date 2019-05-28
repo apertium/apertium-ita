@@ -7,7 +7,7 @@ SUBREADINGS = LTR ;
 SETS
 
 LIST BOS = (>>>) ;
-LIST EOS = (EOS) ;
+LIST EOS = (<<<) sent;
 
 LIST A = adj ;
 LIST Adv = adv ;
@@ -119,6 +119,8 @@ LIST Pl3 = (p3 pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 
+LIST Sole = "sole" ; 
+
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
 
@@ -209,10 +211,14 @@ REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la cr
 
 REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall) ;			# tutelando così la credibilità
 
+REMOVE Adv IF (-1/* Det + $$MascSg) (0 Adv) (0 Noun_Adj_PP + $$MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
+REMOVE Adv IF (-1/* Det + $$MascPl) (0 Adv) (0 Noun_Adj_PP + $$MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + $$FemSg) (0 Adv) (0 Noun_Adj_PP + $$FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + $$FemPl) (0 Adv) (0 Noun_Adj_PP + $$FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
 SELECT Num (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
-
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Prep) ;	# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
@@ -228,6 +234,8 @@ SELECT Sg If (-1 ("il cui") + Sg) (0 V) (NOT 0 N) ;
 SELECT Pl If (-1 ("il cui") + Pl) (0 V) (NOT 0 N) ;
 
 REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
+
+SELECT N IF (-1 ("pieno")) (0 Sole) ;
 
 REMOVE A IF (0 A) (0 N) (-1 Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
@@ -396,33 +404,33 @@ SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 # COORDINAZIONE
 
-REMOVE Pl IF (-1C Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
-REMOVE Sg IF (-1C Det + Pl) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;
-REMOVE Masc IF (-1C Det + Fem) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
-REMOVE Fem IF (-1C Det + Masc) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
+REMOVE Pl IF (-1C/* Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
+REMOVE Sg IF (-1C/* Det + Pl) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;
+REMOVE M IF (-1C/* Det + Fem) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
+REMOVE F IF (-1C/* Det + Masc) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
 
 # NOM CONJ NOM
 
-REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
+REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
 ## un químico y profesor
 
 REMOVE A OR PP IF (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
 REMOVE A OR PP IF (-3 CnjCoo) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) ;
 ## o prodotto o persona
 
-REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
 # los italianos y españoles son amplia mayoría
 
-REMOVE A OR PP IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
 # los italianos y los españoles son amplia mayoría
 
 REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
