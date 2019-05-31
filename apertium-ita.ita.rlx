@@ -369,6 +369,11 @@ REMOVE A + MF + SP IF (0 ("neo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("americano")) (NOT 1 Guio) ;
 
 # Coordinació
+SELECT M IF (-1C Ant + M) (0 ("Andrea")) ;	# Filippo Andrea
+SELECT M IF (1C Ant + M) (0 ("Andrea")) ;
+SELECT F IF (-1C Ant + F) (0 ("Andrea")) ;
+SELECT F IF (1C Ant + F) (0 ("Andrea")) ;
+
 SELECT M IF (0 N + M) (0 N + F) (-1 Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
 SELECT F IF (0 N + M) (0 N + F) (-1 Det + F) ;
 SELECT M IF (0 A + M) (0 A + F) (-1 Det + M) ;
