@@ -93,6 +93,8 @@ LIST Dovere = "dovere" ;
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
 LIST Lei = "lei" ; 
+LIST Lo = "lo" ;
+LIST Il = "il" ;
 LIST Stato = "stato" ;
 LIST San = "San" ;
 LIST Dallo = "dallo" ;
@@ -159,6 +161,12 @@ SECTION
 
 SELECT Pron IF (0 Io) ;
 SELECT F IF (0 Lei) ;
+
+SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
+SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
+SELECT Det IF (0 Lo) (0 Il) (NOT 1 Vall) (NOT 2 Vall) ;
+SELECT Det IF (0 Lo) (0 Il) (1 N) ;
+SELECT Det IF (0 Lo) (0 Il) (1 A) (2 N) ;
 
 SELECT Prep IF (0 Sotto) (1 Det) ;
 
