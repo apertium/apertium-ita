@@ -19,6 +19,7 @@ LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
 LIST Vmod = vbmod ;
 LIST Inf = inf ;
+LIST Ger = ger ;
 LIST PP = pp ;
 LIST Ifi = ifi ;
 LIST Prs = prs  ;
@@ -382,10 +383,14 @@ SELECT M IF (1C Ant + M) (0 ("Andrea")) ;
 SELECT F IF (-1C Ant + F) (0 ("Andrea")) ;
 SELECT F IF (1C Ant + F) (0 ("Andrea")) ;
 
-SELECT M IF (0 N + M) (0 N + F) (-1 Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
-SELECT F IF (0 N + M) (0 N + F) (-1 Det + F) ;
-SELECT M IF (0 A + M) (0 A + F) (-1 Det + M) ;
-SELECT F IF (0 A + M) (0 A + F) (-1 Det + F) ;
+SELECT M IF (0 N + M) (0 N + F) (-1/* Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
+SELECT F IF (0 N + M) (0 N + F) (-1/* Det + F) ;
+SELECT M IF (0 A + M) (0 A + F) (-1/* Det + M) ;
+SELECT F IF (0 A + M) (0 A + F) (-1/* Det + F) ;
+REMOVE M IF (0 N + MF) (0 N + F) (-1/* Det + F) ;
+REMOVE M IF (0 A + MF) (0 A + F) (-1/* Det + F) ;
+REMOVE F IF (0 N + MF) (0 N + F) (-1/* Det + M) ;
+REMOVE F IF (0 A + MF) (0 A + F) (-1/* Det + M) ;
 
 SELECT M IF (0 N + M) (0 N + F) (-1 A + M) (NOT -1 A + F) ;		# un suo moto
 SELECT F IF (0 N + M) (0 N + F) (-1 A + F) (NOT -1 A + M) ;
@@ -393,6 +398,15 @@ SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;		# consigliere diploma
 SELECT F IF (0 N + M) (0 N + F) (1 A + F) (NOT 1 A + M) ;
 SELECT M IF (0 N + M) (0 N + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
 SELECT F IF (0 N + M) (0 N + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
+
+SELECT Sg IF (0 N + Sg) (0 N + Pl) (-1/* Det + Sg) ;
+SELECT Pl IF (0 N + Sg) (0 N + Pl) (-1/* Det + Pl) ;
+SELECT Sg IF (0 A + Sg) (0 A + Pl) (-1/* Det + Sg) ;
+SELECT Pl IF (0 A + Sg) (0 A + Pl) (-1/* Det + Pl) ;
+REMOVE Sg IF (0 N + SP) (0 N + Pl) (-1/* Det + Pl) ;
+REMOVE Sg IF (0 A + SP) (0 A + Pl) (-1/* Det + Pl) ;
+REMOVE Pl IF (0 N + SP) (0 N + Pl) (-1/* Det + Sg) ;
+REMOVE Pl IF (0 A + SP) (0 A + Pl) (-1/* Det + Sg) ;
 
 #SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)		# un suo moto proprio
 
@@ -540,7 +554,8 @@ SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
-REMOVE:nom_propicomu NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
+REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
+REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
