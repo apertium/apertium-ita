@@ -722,6 +722,84 @@
 
    </pardef> 
 
+   <pardef n="vocal_a">
+      <e>
+        <i>a</i>
+      </e>
+      <e>
+        <i>á</i>
+      </e>
+      <e>
+        <i>à</i>
+      </e>
+      <e>
+        <i>*a</i>
+      </e>
+      <e>
+        <i>*á</i>
+      </e>
+      <e>
+        <i>*à</i>
+      </e>
+      <e>
+        <i>"a</i>
+      </e>
+      <e>
+        <i>"á</i>
+      </e>
+      <e>
+        <i>"à</i>
+      </e>
+      <e>
+        <i>«a</i>
+      </e>
+      <e>
+        <i>«á</i>
+      </e>
+      <e>
+        <i>«à</i>
+      </e>
+   </pardef> 
+
+   <pardef n="vocal_e">
+      <e>
+        <i>e</i>
+      </e>
+      <e>
+        <i>é</i>
+      </e>
+      <e>
+        <i>è</i>
+      </e>
+      <e>
+        <i>*e</i>
+      </e>
+      <e>
+        <i>*é</i>
+      </e>
+      <e>
+        <i>*è</i>
+      </e>
+      <e>
+        <i>"e</i>
+      </e>
+      <e>
+        <i>"é</i>
+      </e>
+      <e>
+        <i>"è</i>
+      </e>
+      <e>
+        <i>«e</i>
+      </e>
+      <e>
+        <i>«é</i>
+      </e>
+      <e>
+        <i>«è</i>
+      </e>
+   </pardef> 
+
     <pardef n="a">
       <e>
         <p>
@@ -827,7 +905,7 @@
           <l><b/></l>
           <r>ad<b/></r>
         </p>
-        <par n="vocals"/>
+        <par n="vocal_a"/>
       </e>
 
       <e>
@@ -1933,7 +2011,7 @@
           <l><a/>e<b/></l>
           <r>ed<b/></r>
         </p>
-        <par n="vocal_sin_h"/>
+        <par n="vocal_e"/>
       </e>
       
       <e>
@@ -2143,7 +2221,7 @@
 	  <l><a/>e</l>
 	  <r>ed</r>
         </p>
-        <par n="vocals"/>
+        <par n="vocal_e"/>
       </e>
       <e>
         <p>
