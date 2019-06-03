@@ -121,6 +121,7 @@ LIST Pl3 = (p3 pl) ;
 
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
+LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ;
 
 LIST Sole = "sole" ; 
 
@@ -226,8 +227,9 @@ REMOVE Adv IF (-1/* Det + $$FemSg) (0 Adv) (0 Noun_Adj_PP + $$FemSg) (1 Barrera_
 REMOVE Adv IF (-1/* Det + $$FemPl) (0 Adv) (0 Noun_Adj_PP + $$FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
-SELECT Det (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
-SELECT Num (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
+SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
+SELECT Num IF (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
+SELECT N IF (0 Secoli) (-1/* Det + Def + MascSg) ;
 
 SELECT N IF (0 N) (0 V) (-1 A) (1 Prep) ;	# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
