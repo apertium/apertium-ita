@@ -122,7 +122,7 @@ LIST Pl3 = (p3 pl) ;
 
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
-LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ;
+LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ("Duemila") ;
 
 LIST Sole = "sole" ; 
 
