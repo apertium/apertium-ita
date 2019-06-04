@@ -105,6 +105,7 @@ LIST Puo_essere = "può essere" ;
 LIST Da = "da" ;
 LIST In = "in" ; 
 LIST Che = "che" ; 
+LIST Fine = "fine" ; 
 
 LIST Interr = itg ;
 
@@ -308,6 +309,9 @@ SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) ; 			# lo stato italiano
 SELECT N IF (0 Adv) (0 N) (-1 Det) (1 A) ; 			# un'altra specie chimica
+
+SELECT N IF (0 A) (0 N) (-1C V) (1 Det) ; 			# porre fine a
+SELECT M IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 			# porre fine a
 
 REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1 Det + MascSg) (NOT 1 A + MascSg) ; 	# ogni insieme
 REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1 Det + MascPl) (NOT 1 A + MascPl) ; 	# ogni insieme
