@@ -106,6 +106,8 @@ LIST Da = "da" ;
 LIST In = "in" ; 
 LIST Che = "che" ; 
 LIST Fine = "fine" ; 
+LIST Subito = "subito" ; 
+LIST Diverso = "diverso" ; 
 
 LIST Interr = itg ;
 
@@ -209,6 +211,9 @@ SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 REMOVE A IF (NOT -1 Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
   # un suo libro
+SELECT Det IF (NOT -1 Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT Det IF (NOT -1 Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
+  # diversi amici
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
@@ -221,6 +226,8 @@ SELECT PreAdv IF (-1 N + $$FemPl) (0 PreAdv) (1 A + $$FemPl) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la credibilità
 
 REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall) ;			# tutelando così la credibilità
+
+REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
 
 REMOVE Adv IF (-1/* Det + $$MascSg) (0 Adv) (0 Noun_Adj_PP + $$MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
 REMOVE Adv IF (-1/* Det + $$MascPl) (0 Adv) (0 Noun_Adj_PP + $$MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
@@ -369,6 +376,7 @@ SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
+REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
 
 SELECT Rel IF (-1C N OR A OR NP) (0 Che) ;		# l'uomo che dice
 SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che) ;	# l'uomo, che dice
