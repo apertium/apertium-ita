@@ -103,6 +103,7 @@ LIST Dai = "dai" ;
 LIST Dei = "dei" ;
 LIST Puo_essere = "può essere" ;
 LIST Da = "da" ;
+LIST Di = "di" ;
 LIST In = "in" ; 
 LIST Che = "che" ; 
 LIST Fine = "fine" ; 
@@ -205,6 +206,7 @@ REMOVE N IF (0 N) (0/* Prep) ;		# dei (alternativa bèstia però funciona)
 
 SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
+REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
 SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
@@ -293,10 +295,10 @@ SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 	# dello s
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 ("da")) ;	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 ("da")); 		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 ("da")) ;	# il titolo assunto da Filippo
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) ;		# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) ;	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 Da); 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 Da) ;		# il titolo assunto da Filippo
 
 SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
@@ -438,9 +440,9 @@ SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
 
-SELECT N IF (0 ("mezzo")) (1 ("di")) (2 ("comunicazione")) ;
-SELECT N IF (0 ("capitale")) (1/* ("di")) ;
-SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* ("di")) ;
+SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
+SELECT N IF (0 ("capitale")) (1/* Di) ;
+SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* Di) ;
 SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
@@ -543,26 +545,26 @@ SELECT Ant IF (0 Ant) (1C Ant) ;
         # Rosa Maria
 SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
         # sant Benet
-SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 ("di"));
+SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
-SELECT Ant IF (0 Ant) (0 Cog) (1 ("di")) (2 Top) ;
+SELECT Ant IF (0 Ant) (0 Cog) (1 Di) (2 Top) ;
 	# Alfonso di Portogallo
-SELECT Top IF (-2 Ant) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (-2 Ant) (-1 Di) (0 Ant OR Cog OR Top) ;
 	# Ipparco di Nicea
-SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 Di) (0 Ant OR Cog OR Top) ;
 	# Joan II di Castiglia
 SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzione") OR ("trattato") OR ("dichiarazione"))
-	(-1 ("di")) (0 Ant OR Cog OR Top) ;
+	(-1 Di) (0 Ant OR Cog OR Top) ;
 	# concilio di Nicea
-SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 ("di")) (0 Cog OR Top) ;
+SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (0 Cog OR Top) ;
 	# regno di Castiglia
-SELECT Top IF (-2 Dignità) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;
 	# principe di Viana
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a")) (0 Ant OR Cog OR Top) ;
 REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a")) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
 REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
-SELECT Top IF (-2 NP) (-1 ("di")) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (-2 NP) (-1 Di) (0 Ant OR Cog OR Top) ;
 
 SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
