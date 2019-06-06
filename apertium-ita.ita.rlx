@@ -424,6 +424,12 @@ REMOVE Sg IF (0 A + SP) (0 A + Pl) (-1/* Det + Pl) ;
 REMOVE Pl IF (0 N + SP) (0 N + Pl) (-1/* Det + Sg) ;
 REMOVE Pl IF (0 A + SP) (0 A + Pl) (-1/* Det + Sg) ;
 
+REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1 Num + SP LINK NOT 0 ("uno")) ;	# tre metro
+REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1 Num LINK NOT 0 SP OR ("1")) ;	# 3 metro
+REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1/* Det + Pl) ;			# i metro
+
+SELECT Sg IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
+
 #SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)		# un suo moto proprio
 
 SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
