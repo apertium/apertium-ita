@@ -109,6 +109,8 @@ LIST Che = "che" ;
 LIST Fine = "fine" ; 
 LIST Subito = "subito" ; 
 LIST Diverso = "diverso" ; 
+LIST Principe = "principe" ; 
+LIST Principio = "principio" ; 
 
 LIST Interr = itg ;
 
@@ -216,6 +218,10 @@ REMOVE A IF (NOT -1 Det + Ind) (0 Det) (0 A) (1C N) ;
 SELECT Det IF (NOT -1 Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
 SELECT Det IF (NOT -1 Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
   # diversi amici
+
+SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) ;
+SELECT Principio IF (0 Principe) (0 Principio) (1 Di) (NOT 2 Top OR unknownMajIni) ;
+SELECT Principe IF (0 Principe) (0 Principio) (1 Di) (2 Top LINK NOT 0 Cog) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
