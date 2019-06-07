@@ -227,20 +227,20 @@ SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
-SELECT PreAdv IF (-1 N + $$MascSg) (0 PreAdv) (1 A + $$MascSg) ;
-SELECT PreAdv IF (-1 N + $$MascPl) (0 PreAdv) (1 A + $$MascPl) ;
-SELECT PreAdv IF (-1 N + $$FemSg) (0 PreAdv) (1 A + $$FemSg) ;
-SELECT PreAdv IF (-1 N + $$FemPl) (0 PreAdv) (1 A + $$FemPl) ;
+SELECT PreAdv IF (-1 N + MascSg) (0 PreAdv) (1 A + MascSg) ;
+SELECT PreAdv IF (-1 N + MascPl) (0 PreAdv) (1 A + MascPl) ;
+SELECT PreAdv IF (-1 N + FemSg) (0 PreAdv) (1 A + FemSg) ;
+SELECT PreAdv IF (-1 N + FemPl) (0 PreAdv) (1 A + FemPl) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la credibilità
 
 REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall) ;			# tutelando così la credibilità
 
 REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
 
-REMOVE Adv IF (-1/* Det + $$MascSg) (0 Adv) (0 Noun_Adj_PP + $$MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
-REMOVE Adv IF (-1/* Det + $$MascPl) (0 Adv) (0 Noun_Adj_PP + $$MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + $$FemSg) (0 Adv) (0 Noun_Adj_PP + $$FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + $$FemPl) (0 Adv) (0 Noun_Adj_PP + $$FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
+REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -284,10 +284,10 @@ SELECT N IF (0 A) (0 N) (-1/* Prep) (0 A) (0 N) (1 Vall) ; 		# il comune nacque
 SELECT N IF (0 A) (0 N) (-1 Det) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
 SELECT N IF (0 A) (0 N) (-1/* Prep) (0 A) (0 N) (1 Adv) (2 Vall) ; 	# il comune non nacque
 
-SELECT N IF (-1 Det + $$MascSg) (0 A + $$MascSg) (0 N + $$MascSg) (NOT 1 N + $$MascSg) ;
-SELECT N IF (-1 Det + $$FemSg) (0 A + $$FemSg) (0 N + $$FemSg) (NOT 1 N + $$FemSg) ;
-SELECT N IF (-1 Det + $$MascPl) (0 A + $$MascPl) (0 N + $$MascPl) (NOT 1 N + $$MascPl) ;	# distinguere gli ambiti e usi
-SELECT N IF (-1 Det + $$FemPl) (0 A + $$FemPl) (0 N + $$FemPl) (NOT 1 N + $$FemPl) ;
+SELECT N IF (-1 Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) ;
+SELECT N IF (-1 Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) ;
+SELECT N IF (-1 Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) ;	# distinguere gli ambiti e usi
+SELECT N IF (-1 Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) ;
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Lpar) ; 	#
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
@@ -360,10 +360,10 @@ REMOVE PP IF (0 PP) (0 A) (-1C V) ;		# si rivelò corretta
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
 
-REMOVE V IF (NOT -2 N) (-1C A + $$MascSg) (0 N + $$MascSg) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + $$FemSg) (0 N + $$FemSg) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + $$MascPl) (0 N + $$MascPl) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + $$FemPl) (0 N + $$FemPl) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + MascSg) (0 N + MascSg) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + FemSg) (0 N + FemSg) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + MascPl) (0 N + MascPl) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + FemPl) (0 N + FemPl) (0 V) ;	# primo violino
 
 REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;		# lingue più diffuse
 REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;	# lingue internazionali più diffuse
@@ -385,6 +385,15 @@ SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
+
+REMOVE Interr IF (-1 N + MascSg) (0 Interr) (0 Rel + MascSg) ;			# figure quali l’eufemismo
+REMOVE Interr IF (-1 N + MascPl) (0 Interr) (0 Rel + MascPl) ;
+REMOVE Interr IF (-1 N + FemSg) (0 Interr) (0 Rel + FemSg) ;
+REMOVE Interr IF (-1 N + FemPl) (0 Interr) (0 Rel + FemPl) ;
+REMOVE Interr IF (-2 N + MascSg) (-1 A + MascSg) (0 Interr) (0 Rel + MascSg) ;	# figure retoriche quali l’eufemismo
+REMOVE Interr IF (-2 N + MascPl) (-1 A + MascPl) (0 Interr) (0 Rel + MascPl) ;
+REMOVE Interr IF (-2 N + FemSg) (-1 A + FemSg) (0 Interr) (0 Rel + FemSg) ;
+REMOVE Interr IF (-2 N + FemPl) (-1 A + FemPl) (0 Interr) (0 Rel + FemPl) ;
 
 SELECT Rel IF (-1C N OR A OR NP) (0 Che) ;		# l'uomo che dice
 SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che) ;	# l'uomo, che dice
@@ -436,7 +445,7 @@ REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1/* Det + Pl) ;			# i metro
 
 SELECT Sg IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
 
-#SELECT A IF (0 ADJ + $$MascSg) (0 Adv) (-1 N + $$MascSg)		# un suo moto proprio
+#SELECT A IF (0 ADJ + MascSg) (0 Adv) (-1 N + MascSg)		# un suo moto proprio
 
 SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
 SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
@@ -503,7 +512,7 @@ REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_In
 # entre occitanos, catalanes, vascos y gallegos
 # vinieron italianos, alemanes, polacos y ucranianos.
 
-SELECT N IF (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK NOT 0 NP) (1 Barrera_Final_Estrict_SN) (NOT 0 ("anche") OR ("secondo")) ;
+SELECT N IF (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK NOT 0 NP) (1 Barrera_Final_Estrict_SN) (NOT 0 ("anche") OR ("secondo") OR ("ancora")) ;
 ## adquiriendo una gran reputación como poeta y crítico.
 SELECT N IF (2C N) (1 CnjCoo) (0C Noun_Adj_PP LINK NOT 0 NP) (-1 Barrera_Inicial_SN) ;
 ## "se utiliza en periódicos y libros"
