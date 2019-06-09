@@ -170,11 +170,11 @@ SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 SECTION
 
 SELECT Pron IF (0 Io) ;
-#SELECT F IF (0 Lei) ;
 
 SELECT Pron IF (0 Lui) (0 Loro) (1C Det) ;
 SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) ;
 	# per proporre loro i libri
+SELECT Lui + F IF (0 Lui) (0 Lei) (0 ("<Lei>")) (-1 BOS) ;
 SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>")) (NOT -1 BOS) ;
 SELECT Lui IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>")) ;
 SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
