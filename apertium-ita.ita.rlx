@@ -93,6 +93,8 @@ LIST Dovere = "dovere" ;
 
 LIST Sotto = "sotto" ;
 LIST Io = "io" ;
+LIST Loro = "loro" ;
+LIST Lui = "lui" ;
 LIST Lei = "lei" ; 
 LIST Lo = "lo" ;
 LIST Il = "il" ;
@@ -168,7 +170,15 @@ SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 SECTION
 
 SELECT Pron IF (0 Io) ;
-SELECT F IF (0 Lei) ;
+#SELECT F IF (0 Lei) ;
+
+SELECT Pron IF (0 Lui) (0 Loro) (1C Det) ;
+SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) ;
+	# per proporre loro i libri
+SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>")) (NOT -1 BOS) ;
+SELECT Lui IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>")) ;
+SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
+	# tra di loro
 
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
@@ -223,9 +233,9 @@ SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 SELECT Principe IF (0 Principe) (0 Principio) (1 Di) (2 Top LINK NOT 0 Cog) ;
 
-SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
-SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
-SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 ("loro")) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
+SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
 SELECT PreAdv IF (-1 N + MascSg) (0 PreAdv) (1 A + MascSg) ;
 SELECT PreAdv IF (-1 N + MascPl) (0 PreAdv) (1 A + MascPl) ;
