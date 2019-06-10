@@ -114,6 +114,8 @@ LIST Subito = "subito" ;
 LIST Diverso = "diverso" ; 
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
+LIST Genere = "genere" ; 
+LIST Genero = "genero" ; 
 LIST Ancora = "ancora" ; 
 LIST Secondo = "secondo" ; 
 
@@ -236,7 +238,12 @@ SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 SELECT Principe IF (0 Principe) (0 Principio) (1 Di) (2 Top LINK NOT 0 Cog) ;
 
-SELECT Adv IF (0 Ancora) (-1 Ser) (1 A OR PP) ;
+SELECT Genere IF (0 Genere) (0 Genero) (NOT 1 Di) ;
+SELECT Genere IF (0 Genere) (0 Genero) (1 Di) (NOT 2 Ant_Cog OR unknownMajIni) ;
+SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
+
+SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
+SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 
 REMOVE A IF (0 ("<Natale>")) ;
 
