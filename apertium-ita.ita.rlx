@@ -118,6 +118,7 @@ LIST Genere = "genere" ;
 LIST Genero = "genero" ; 
 LIST Ancora = "ancora" ; 
 LIST Secondo = "secondo" ; 
+LIST Cardinale = "cardinale" ; 
 
 LIST Interr = itg ;
 
@@ -246,6 +247,8 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 
 REMOVE A IF (0 ("<Natale>")) ;
+
+SELECT N IF (0 Cardinale) (1 Ant_Cog OR unknownMajIni) ;
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
 
@@ -600,7 +603,7 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 SELECT N IF (-1 ("<il>")) (0 ("<Sole>")) ;		# il Sole
