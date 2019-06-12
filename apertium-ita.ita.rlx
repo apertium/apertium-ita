@@ -41,6 +41,7 @@ LIST Guio = guio ;
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
 SET Adj_PP = A OR PP ;
+SET Noun_NP = N OR NP ;
 
 SET Adv_PreAdv = Adv OR PreAdv ;
 
@@ -454,34 +455,34 @@ SELECT M IF (1C Ant + M) (0 ("Andrea")) ;
 SELECT F IF (-1C Ant + F) (0 ("Andrea")) ;
 SELECT F IF (1C Ant + F) (0 ("Andrea")) ;
 
-SELECT M IF (0 N + M) (0 N + F) (-1/* Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo
-SELECT F IF (0 N + M) (0 N + F) (-1/* Det + F) ;
+SELECT M IF (0 Noun_NP + M) (0 Noun_NP + F) (-1/* Det + M) ;	# un pirata, i calci, un file, sul fronte jugoslavo, il Lazio / la Lazio
+SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (-1/* Det + F) ;
 SELECT M IF (0 A + M) (0 A + F) (-1/* Det + M) ;
 SELECT F IF (0 A + M) (0 A + F) (-1/* Det + F) ;
-REMOVE M IF (0 N + MF) (0 N + F) (-1/* Det + F) ;
+REMOVE M IF (0 Noun_NP + MF) (0 Noun_NP + F) (-1/* Det + F) ;
 REMOVE M IF (0 A + MF) (0 A + F) (-1/* Det + F) ;
-REMOVE F IF (0 N + MF) (0 N + F) (-1/* Det + M) ;
+REMOVE F IF (0 Noun_NP + MF) (0 Noun_NP + F) (-1/* Det + M) ;
 REMOVE F IF (0 A + MF) (0 A + F) (-1/* Det + M) ;
 
-SELECT M IF (0 N + M) (0 N + F) (-1 A + M) (NOT -1 A + F) ;		# un suo moto
-SELECT F IF (0 N + M) (0 N + F) (-1 A + F) (NOT -1 A + M) ;
-SELECT M IF (0 N + M) (0 N + F) (1 A + M) (NOT 1 A + F) ;		# consigliere diplomatico
-SELECT F IF (0 N + M) (0 N + F) (1 A + F) (NOT 1 A + M) ;
-SELECT M IF (0 N + M) (0 N + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
-SELECT F IF (0 N + M) (0 N + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
+SELECT M IF (0 Noun_NP + M) (0 Noun_NP + F) (-1 A + M) (NOT -1 A + F) ;		# un suo moto
+SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (-1 A + F) (NOT -1 A + M) ;
+SELECT M IF (0 Noun_NP + M) (0 Noun_NP + F) (1 A + M) (NOT 1 A + F) ;		# consigliere diplomatico
+SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 A + F) (NOT 1 A + M) ;
+SELECT M IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
+SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
-SELECT Sg IF (0 N + Sg) (0 N + Pl) (-1/* Det + Sg) ;
-SELECT Pl IF (0 N + Sg) (0 N + Pl) (-1/* Det + Pl) ;
+SELECT Sg IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Sg) ;
+SELECT Pl IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Pl) ;
 SELECT Sg IF (0 A + Sg) (0 A + Pl) (-1/* Det + Sg) ;
 SELECT Pl IF (0 A + Sg) (0 A + Pl) (-1/* Det + Pl) ;
-REMOVE Sg IF (0 N + SP) (0 N + Pl) (-1/* Det + Pl) ;
+REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Pl) (-1/* Det + Pl) ;
 REMOVE Sg IF (0 A + SP) (0 A + Pl) (-1/* Det + Pl) ;
-REMOVE Pl IF (0 N + SP) (0 N + Pl) (-1/* Det + Sg) ;
+REMOVE Pl IF (0 Noun_NP + SP) (0 Noun_NP + Pl) (-1/* Det + Sg) ;
 REMOVE Pl IF (0 A + SP) (0 A + Pl) (-1/* Det + Sg) ;
 
-REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1 Num + SP LINK NOT 0 ("uno")) ;	# tre metro
-REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1 Num LINK NOT 0 SP OR ("1")) ;	# 3 metro
-REMOVE Sg IF (0 N + SP) (0 N + Sg) (-1/* Det + Pl) ;			# i metro
+REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1 Num + SP LINK NOT 0 ("uno")) ;	# tre metro
+REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1 Num LINK NOT 0 SP OR ("1")) ;	# 3 metro
+REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1/* Det + Pl) ;			# i metro
 
 SELECT Sg IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
 
