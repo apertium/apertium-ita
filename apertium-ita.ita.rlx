@@ -120,7 +120,10 @@ LIST Genero = "genero" ;
 LIST Ancora = "ancora" ; 
 LIST Secondo = "secondo" ; 
 LIST Cardinale = "cardinale" ; 
+LIST Primo = "primo" ; 
 LIST Ultimo = "ultimo" ; 
+LIST Mandato = "mandato" ; 
+LIST Anche = "anche" ; 
 
 LIST Interr = itg ;
 
@@ -171,8 +174,8 @@ SET S-BOUNDARY = CnjSub | Interr | EOS;
 
 SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Vall OR Rel OR Pro ;	# Vall és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Final_Estrict_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
-SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Vall OR Rel ;		# Vall és perillós per la ambigüitat, però en general, prolífic
-SET Barrera_Inicial_Estrict_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
+SET Barrera_Inicial_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Vall OR Rel ;		# Vall és perillós per la ambigüitat, però en general, prolífic
+SET Barrera_Inicial_Estrict_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
 SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 
 SECTION
@@ -237,7 +240,8 @@ SELECT Det IF (NOT -1 Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
 SELECT Det IF (NOT -1 Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
   # diversi amici
 
-SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) ;
+SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
+SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) (NOT -1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 SELECT Principe IF (0 Principe) (0 Principio) (1 Di) (2 Top LINK NOT 0 Cog) ;
 
@@ -255,6 +259,8 @@ SELECT N IF (0 Cardinale) (1 Ant_Cog OR unknownMajIni) ;
 REMOVE V IF (0 Ultimo + MascSg) (-1 Def + MascSg) ;	# l'ultimo
 REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
 REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
+
+REMOVE V IF (0 Mandato) (-1 Primo) ;
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
 
@@ -276,6 +282,8 @@ REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Fi
 REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
 REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0C N OR Adv) (NOT 0 Anche) (1 Barrera_Final_Estrict_SN) ;	# Origini e culto / ma anche per
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -403,6 +411,16 @@ REMOVE PP IF (0 PP) (0 N) (-1C Prep) ;		# in corso "Pitretu è Bicchisgià"
 REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
 REMOVE PP IF (0 PP) (0 A) (-1C N) (NOT 1 Da) ;	# nucleo abitato
 REMOVE PP IF (0 PP) (0 A) (-1C V) ;		# si rivelò corretta
+
+SELECT PP IF (-1C N + MascSg) (0C V) (0 PP + MascSg) ;
+SELECT PP IF (-1C N + MascPl) (0C V) (0 PP + MascPl) ;
+SELECT PP IF (-1C N + FemSg) (0C V) (0 PP + FemSg) ;
+SELECT PP IF (-1C N + FemPl) (0C V) (0 PP + FemPl) ;	# delle vesti schiacciate sul corpo
+
+REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + MascSg) (0 Adv) (1C N + MascSg) ;	# Primo mandato
+REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + MascPl) (0 Adv) (1C N + MascPl) ;
+REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + FemSg) (0 Adv) (1C N + FemSg) ;
+REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + FemPl) (0 Adv) (1C N + FemPl) ;
 
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
