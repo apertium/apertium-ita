@@ -120,6 +120,7 @@ LIST Genero = "genero" ;
 LIST Ancora = "ancora" ; 
 LIST Secondo = "secondo" ; 
 LIST Cardinale = "cardinale" ; 
+LIST Ultimo = "ultimo" ; 
 
 LIST Interr = itg ;
 
@@ -250,6 +251,10 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 REMOVE A IF (0 ("<Natale>")) ;
 
 SELECT N IF (0 Cardinale) (1 Ant_Cog OR unknownMajIni) ;
+
+REMOVE V IF (0 Ultimo + MascSg) (-1 Def + MascSg) ;	# l'ultimo
+REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
+REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
 
