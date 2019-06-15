@@ -605,12 +605,16 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina") OR ("Beni")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 SELECT N IF (-1 ("<il>")) (0 ("<Sole>")) ;		# il Sole
 SELECT N IF (-1 ("<la>")) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
 SELECT N IF (-2 ("<la>")) (-1 A) (0 ("<Guerra>")) ;	# la Gran Guerra
+SELECT N IF (-1 Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
+SELECT N IF (-1 Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
+SELECT N IF (-1 Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
+SELECT N IF (-1 Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
