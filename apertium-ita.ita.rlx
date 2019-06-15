@@ -605,7 +605,7 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina") OR ("Beni")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 SELECT N IF (-1 ("<il>")) (0 ("<Sole>")) ;		# il Sole
