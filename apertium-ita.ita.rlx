@@ -124,6 +124,7 @@ LIST Primo = "primo" ;
 LIST Ultimo = "ultimo" ; 
 LIST Mandato = "mandato" ; 
 LIST Anche = "anche" ; 
+LIST Venire = "venire" ; 
 
 LIST Interr = itg ;
 
@@ -261,6 +262,8 @@ REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
 REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 REMOVE V IF (0 Mandato) (-1 Primo) ;
+
+SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
 
