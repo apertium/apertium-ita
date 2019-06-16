@@ -300,7 +300,6 @@ SELECT N IF (0 N + MascSg) (0 V) (-1 ("il cui") + MascSg) (1 V) ;	# il cui suoni
 SELECT N IF (0 N + FemSg) (0 V) (-1 ("il cui") + FemSg) (1 V) ;		# il cui suoni ricordanno
 SELECT N IF (0 N + MascPl) (0 V) (-1 ("il cui") + MascPl) (1 V) ;	# il cui suoni ricordanno
 SELECT N IF (0 N + FemPl) (0 V) (-1 ("il cui") + FemPl) (1 V) ;		# il cui suoni ricordanno
-#REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
 SELECT Sg If (-1 ("il cui") + Sg) (0 V) (NOT 0 N) ;
 SELECT Pl If (-1 ("il cui") + Pl) (0 V) (NOT 0 N) ;
@@ -681,3 +680,10 @@ REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 # Amb els adjectius hi ha més risc d'error (!)
 SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al")) ; 
 REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al"));  # Això no sé si és útil. 
+
+
+# Tempi
+
+#REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
+
+REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
