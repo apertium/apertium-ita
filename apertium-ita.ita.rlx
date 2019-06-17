@@ -127,6 +127,8 @@ LIST Anche = "anche" ;
 LIST Venire = "venire" ; 
 LIST Sette = "sette" ; 
 LIST Sole = "sole" ; 
+LIST Dopo = "dopo" ; 
+LIST Circa = "circa" ; 
 
 LIST Interr = itg ;
 
@@ -253,6 +255,10 @@ SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1 Det + FemSg) ;
+
+REMOVE Adv IF (0 Dopo) (1 Circa) ;	# dopo circa 10 anni
+SELECT Adv IF (-1 Dopo) (0 Circa) ;	# dopo circa 10 anni
+SELECT Adv IF (0 Circa) (1 Num) ;	# dopo circa 10 anni
 
 REMOVE A IF (0 ("<Natale>")) ;
 
