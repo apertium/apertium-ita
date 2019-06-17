@@ -72,7 +72,7 @@ SET Pro = (prn pro) ;
 SET Tn = (prn tn) ;
 SET Tn_nt = (prn tn nt) ;
 
-SET Aord = (adj ord) ;
+SET Aord = (adj ord) OR ("sette") ;	# sette/setta
 
 LIST P1 = (p1) ;
 LIST P2 = (p2) ;
@@ -125,6 +125,8 @@ LIST Ultimo = "ultimo" ;
 LIST Mandato = "mandato" ; 
 LIST Anche = "anche" ; 
 LIST Venire = "venire" ; 
+LIST Sette = "sette" ; 
+LIST Sole = "sole" ; 
 
 LIST Interr = itg ;
 
@@ -142,8 +144,6 @@ LIST Pl3 = (p3 pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ("Duemila") ;
-
-LIST Sole = "sole" ; 
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -255,6 +255,11 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 
 REMOVE A IF (0 ("<Natale>")) ;
 
+REMOVE N IF (0 Sette) (1 N + MascPl) ;
+REMOVE N IF (0 Sette) (1 N + FemPl) ;
+REMOVE N IF (0 Sette) (1 A + MascPl) (2 N + MascPl) ;
+REMOVE N IF (0 Sette) (1 A + FemPl) (2 N + FemPl) ;
+
 SELECT N IF (0 Cardinale) (1 Ant_Cog OR unknownMajIni) ;
 
 REMOVE V IF (0 Ultimo + MascSg) (-1 Def + MascSg) ;	# l'ultimo
@@ -358,21 +363,21 @@ SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 	# dello s
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) ;		# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) ;	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 Da); 		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 Da) ;		# il titolo assunto da Filippo
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;		# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
 
 SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 
 SELECT N IF (0 A) (0 N) (-1 Det) (1/* Prep) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
