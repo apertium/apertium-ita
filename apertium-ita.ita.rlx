@@ -528,10 +528,13 @@ SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjSub) ;
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjAdv) ;
+SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Rel) ;			# nei 27 Comuni dove
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
+SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Rel) ;
+
 
 SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* Di) ;
