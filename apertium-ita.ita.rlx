@@ -252,6 +252,7 @@ SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
+SELECT Adv IF (0 Ancora) (NOT -1 Det + FemSg) ;
 
 REMOVE A IF (0 ("<Natale>")) ;
 
