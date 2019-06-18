@@ -377,10 +377,11 @@ SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 	# dello s
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;		# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
 SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Prep) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
+REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-3 Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
 SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
@@ -432,6 +433,11 @@ REMOVE PP IF (0 PP) (0 N) (-1C Prep) ;		# in corso "Pitretu è Bicchisgià"
 REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
 REMOVE PP IF (0 PP) (0 A) (-1C N) (NOT 1 Da) ;	# nucleo abitato
 REMOVE PP IF (0 PP) (0 A) (-1C V) ;		# si rivelò corretta
+
+REMOVE PP IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (NOT 1 Da) ;
+REMOVE PP IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (NOT 1 Da) ;
+REMOVE PP IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (NOT 1 Da) ;		# geometria algebrica astratta
+REMOVE PP IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (NOT 1 Da) ;
 
 SELECT PP IF (-1C N + MascSg) (0C V) (0 PP + MascSg) ;
 SELECT PP IF (-1C N + MascPl) (0C V) (0 PP + MascPl) ;
