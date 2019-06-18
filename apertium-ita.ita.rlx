@@ -1,8 +1,6 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
-
-SOFT-DELIMITERS = "<,>" ;
-
-SUBREADINGS = LTR ;
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>" "<;>";
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
 
@@ -221,6 +219,8 @@ REMOVE Imper IF (NOT 1* Excl) ;
 SELECT Essere IF (0 Sg1) ;
 
 SELECT Vmod IF (0 Dovere) (1 Vall + Inf) ;
+SELECT Vmod IF (0 Dovere) (1 Adv OR Pron) (2 Vall + Inf) ;
+REMOVE Vmod IF (0 Dovere) (NOT 1 Inf) (NOT 2 Inf) ;
 
 #REMOVE V IF (0 ("dai")) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #REMOVE V IF (0 Dai) ;			# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
@@ -493,7 +493,7 @@ SELECT Rel IF (-1/* Det + Def) (0 Che) ;
 SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che) ;
 
-SELECT A IF (0C A OR Adv) (-1 Det) (1 N) ; # una prima verzione
+SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
 
 SELECT A + MF + SP IF (0 A + MF + SP) (1 Guio) (2 A) ;	# neo-strano, filo-tibetano
 REMOVE A + MF + SP IF (0 ("filo")) (NOT 1 Guio) ;
