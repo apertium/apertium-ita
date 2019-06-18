@@ -23,6 +23,7 @@ LIST Ger = ger ;
 LIST PP = pp ;
 LIST Ifi = ifi ;
 LIST Prs = prs  ;
+LIST Imper = imp ;
 LIST Det = det ;
 LIST Def = def ;
 LIST Ind = ind ;
@@ -31,6 +32,7 @@ LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
 LIST CnjAdv = cnjadv ;
 LIST Interj = ij ;
+LIST Interr = itg ;
 LIST Num = num ;
 LIST Prep = pr ; 
 LIST Rel = rel ; 
@@ -92,47 +94,45 @@ LIST Ser = vbser ;
 LIST Essere = "essere" ;
 LIST Dovere = "dovere" ;
 
-List Un = "un" ;
-LIST Sotto = "sotto" ;
+LIST Anche = "anche" ; 
+LIST Ancora = "ancora" ; 
+LIST Cardinale = "cardinale" ; 
+LIST Che = "che" ; 
+LIST Circa = "circa" ; 
+LIST Da = "da" ;
+LIST Dai = "dai" ;
+LIST Dallo = "dallo" ;
+LIST Dei = "dei" ;
+LIST Di = "di" ;
+LIST Diverso = "diverso" ; 
+LIST Dopo = "dopo" ; 
+LIST Il = "il" ;
+LIST In = "in" ; 
 LIST Io = "io" ;
+LIST Fine = "fine" ; 
+LIST Genere = "genere" ; 
+LIST Genero = "genero" ; 
+LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
 LIST Lei = "lei" ; 
-LIST Lo = "lo" ;
-LIST Il = "il" ;
-LIST Stato = "stato" ;
-LIST San = "San" ;
-LIST Dallo = "dallo" ;
-LIST Dai = "dai" ;
-LIST Dei = "dei" ;
+LIST Mandato = "mandato" ; 
+LIST Primo = "primo" ; 
 LIST Puo_essere = "può essere" ;
-LIST Da = "da" ;
-LIST Di = "di" ;
-LIST In = "in" ; 
-LIST Che = "che" ; 
-LIST Fine = "fine" ; 
-LIST Subito = "subito" ; 
-LIST Diverso = "diverso" ; 
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
-LIST Genere = "genere" ; 
-LIST Genero = "genero" ; 
-LIST Ancora = "ancora" ; 
+LIST San = "San" ;
 LIST Secondo = "secondo" ; 
-LIST Cardinale = "cardinale" ; 
-LIST Primo = "primo" ; 
-LIST Ultimo = "ultimo" ; 
-LIST Mandato = "mandato" ; 
-LIST Anche = "anche" ; 
-LIST Venire = "venire" ; 
 LIST Sette = "sette" ; 
+LIST Si = "si" ;
 LIST Sole = "sole" ; 
-LIST Dopo = "dopo" ; 
-LIST Circa = "circa" ; 
-
-LIST Interr = itg ;
-
-LIST Imper = imp ;
+LIST Sotto = "sotto" ;
+LIST Stato = "stato" ;
+LIST Subito = "subito" ; 
+LIST Trovare = "trovare" ; 
+LIST Ultimo = "ultimo" ; 
+LIST Un = "un" ;
+LIST Venire = "venire" ; 
 
 LIST Excl = "!" ;
 
@@ -708,6 +708,9 @@ REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR 
 
 
 # Tempi
+
+REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
+REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
