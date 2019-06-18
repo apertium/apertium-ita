@@ -338,6 +338,8 @@ REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 
 SELECT N IF (-1 ("pieno")) (0 Sole) ;
 
+# N O A
+
 REMOVE A IF (0 A) (0 N) (-1 Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1 Det) (1 EOS) ;
@@ -421,8 +423,6 @@ REMOVE A IF (0 A) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE PP IF (0 PP) (0 N) (-1 Pos) (1 EOS) ;		# loro sorte.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 EOS) ;	# le più grandi collezioni.
 REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 Lpar) ;	# due nuove canzonii (di cui una
-
-REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Prep) ; 		# il suo futuro attraverso una programmazione
 REMOVE PP IF (0 PP) (0 N) (-1 Pos) (1 Prep) ;
@@ -537,12 +537,9 @@ REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1/* Det + Pl) ;			# i metro
 
 SELECT Sg IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
 
-#SELECT A IF (0 ADJ + MascSg) (0 Adv) (-1 N + MascSg)		# un suo moto proprio
+REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
-SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
-SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
-SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PP + Sg) ;			# sono povero
-SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PP + Sg) ;		# sono molto povero
+#SELECT A IF (0 ADJ + MascSg) (0 Adv) (-1 N + MascSg)		# un suo moto proprio
 
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
 SELECT N IF (-1C Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
@@ -555,7 +552,6 @@ SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
 SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Rel) ;
 
-
 SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* Di) ;
 SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* Di) ;
@@ -567,6 +563,14 @@ SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascSg) (0 Adj_PP) (1 Adj_PP +
 SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemSg) (0 Adj_PP) (1 Adj_PP + FemSg LINK NOT 0 N) ;	# Partita giocata
 SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascPl) (0 Adj_PP) (1 Adj_PP + MascPl LINK NOT 0 N) ;
 SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemPl) (0 Adj_PP) (1 Adj_PP + FemPl LINK NOT 0 N) ;
+
+# A O ADV
+
+REMOVE Adv IF (0 Adv) (0 A + MascSg) (-1 N + MascSg) (NOT 1 Vall) ; 	# il territorio proprio di
+REMOVE Adv IF (0 Adv) (0 A + MascPl) (-1 N + MascPl) (NOT 1 Vall) ; 
+REMOVE Adv IF (0 Adv) (0 A + FemSg) (-1 N + FemSg) (NOT 1 Vall) ;
+REMOVE Adv IF (0 Adv) (0 A + FemPl) (-1 N + FemPl) (NOT 1 Vall) ;
+
 
 # COORDINAZIONE
 
@@ -713,7 +717,12 @@ SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (co
 REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al"));  # Això no sé si és útil. 
 
 
-# Tempi
+# Verbi
+
+SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
+SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
+SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PP + Sg) ;			# sono povero
+SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PP + Sg) ;		# sono molto povero
 
 REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
 REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
