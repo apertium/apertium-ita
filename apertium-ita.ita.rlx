@@ -291,6 +291,13 @@ REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la cr
 
 REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall) ;			# tutelando così la credibilità
 
+REMOVE CnjAdv IF (0 ("visto che")) (-1 Avere) ;				# ha visto che
+REMOVE CnjAdv IF (0 ("visto che")) (-2 Avere) (-1 Adv) ;		# ha visto che
+SELECT CnjAdv IF (0 ("visto che")) (NOT -2 Avere) (NOT -1 Avere) ;	# ha visto che
+REMOVE CnjAdv IF (0 ("considerato che")) (-1 Avere) ;			# ha considerato che
+REMOVE CnjAdv IF (0 ("considerato che")) (-2 Avere) (-1 Adv) ;		# ha visto che
+SELECT CnjAdv IF (0 ("considerato che")) (NOT -2 Avere) (NOT -1 Avere) ;	# ha visto che
+
 REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
 
 REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
