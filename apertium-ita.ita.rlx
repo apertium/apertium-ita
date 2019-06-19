@@ -127,6 +127,7 @@ LIST Sole = "sole" ;
 LIST Sotto = "sotto" ;
 LIST Stato = "stato" ;
 LIST Subito = "subito" ; 
+LIST Tratta = "tratta" ; 
 LIST Trovare = "trovare" ; 
 LIST Ultimo = "ultimo" ; 
 LIST Un = "un" ;
@@ -278,6 +279,8 @@ REMOVE V IF (0 Mandato) (-1 Primo) ;
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
+
+SELECT V IF (0 Tratta) (1 Det) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
@@ -727,7 +730,7 @@ SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PP + Sg) ;		# sono molto povero
 REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
 REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 
-SELECT Vall (-1 Si) (0 Vall + P3) ;	# si tratta di
+SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
