@@ -727,6 +727,8 @@ SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 A + Sg OR PP + Sg) ;		# sono molto povero
 REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
 REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 
+SELECT Vall (-1 Si) (0 Vall + P3) ;	# si tratta di
+
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
