@@ -115,6 +115,7 @@ LIST Loro = "loro" ;
 LIST Lui = "lui" ;
 LIST Lei = "lei" ; 
 LIST Mandato = "mandato" ; 
+LIST Oltre = "oltre" ; 
 LIST Primo = "primo" ; 
 LIST Puo_essere = "può essere" ;
 LIST Principe = "principe" ; 
@@ -146,6 +147,9 @@ LIST Pl3 = (p3 pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ("Duemila") ;
+
+# verbi seguiti da aggetivo
+LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -258,9 +262,11 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1 Det + FemSg) ;
 
-REMOVE Adv IF (0 Dopo) (1 Circa) ;	# dopo circa 10 anni
-SELECT Adv IF (-1 Dopo) (0 Circa) ;	# dopo circa 10 anni
-SELECT Adv IF (0 Circa) (1 Num) ;	# dopo circa 10 anni
+REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
+SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
+SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
+SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
+SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
 
 REMOVE A IF (0 ("<Natale>")) ;
 
@@ -295,7 +301,7 @@ SELECT PreAdv IF (-1 N + FemSg) (0 PreAdv) (1 A + FemSg) ;
 SELECT PreAdv IF (-1 N + FemPl) (0 PreAdv) (1 A + FemPl) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la credibilità
 
-REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall) ;			# tutelando così la credibilità
+REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall + Pers) ;		# tutelando così la credibilità
 
 REMOVE CnjAdv IF (0 ("visto che")) (-1 Avere) ;				# ha visto che
 REMOVE CnjAdv IF (0 ("visto che")) (-2 Avere) (-1 Adv) ;		# ha visto che
@@ -505,6 +511,22 @@ SELECT A + MF + SP IF (0 A + MF + SP) (1 Guio) (2 A) ;	# neo-strano, filo-tibeta
 REMOVE A + MF + SP IF (0 ("filo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("neo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("americano")) (NOT 1 Guio) ;
+
+
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 Barrera_Final_Estrict_SN) ;
+	# detonar explosivos.
+	# nos vino impuesto.
+	# ricevere tangenti
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1 PP) (NOT -1 VAdj) (-2 Ser OR Avere) (1 Barrera_Final_Estrict_SN) ;
+	# ha ricevuto tangenti
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 CnjCoo) (2 Barrera_Final_Estrict_SN) ;
+	# detonando explosivos y derrumbando
+
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 NP OR ("ser") OR Prep) (-1C Det) (1 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 NP OR ("ser") OR Prep) (-1C Det) (1 CM OR CnjCoo) (1 Barrera_Final_Estrict_SN) ;
+	# detonar los explosivos.
+	# PERO: Las clasificaciones más reconocidas internacionalmente son la francesa y la estadounidense.
+	# PERO: muy poco conocida.
 
 # Coordinació
 SELECT M IF (-1C Ant + M) (0 ("Andrea")) ;	# Filippo Andrea
