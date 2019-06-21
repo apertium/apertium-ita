@@ -104,6 +104,7 @@ LIST Dei = "dei" ;
 LIST Di = "di" ;
 LIST Diverso = "diverso" ; 
 LIST Dopo = "dopo" ; 
+LIST Era = "era" ; 
 LIST Il = "il" ;
 LIST In = "in" ; 
 LIST Io = "io" ;
@@ -215,6 +216,10 @@ SELECT Ser IF (0 Puo_essere) (1 A) ;
 SELECT PP IF (-1 Essere) (0 Stato) ;
 
 SELECT PP IF (-1 Stato LINK -1 Essere) ;
+
+SELECT Ser IF (-1C Adv) (0 Era) ;	# non era già arribato
+SELECT Ser IF (0 Era) (1 PP + Sg) ;
+SELECT Ser IF (0 Era) (1 Adv) (2 PP + Sg) ;
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
