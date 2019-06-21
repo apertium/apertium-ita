@@ -738,3 +738,13 @@ SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
+
+REMOVE Ifi IF (0 Ifi) (0 PP + MascSg) (-1 CM OR Lpar) (-2 NP + MascSg OR N + MascSg) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + MascPl) (-1 CM OR Lpar) (-2 NP + MascPl OR N + MascPl) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + FemSg) (-1 CM OR Lpar) (-2 NP + FemSg OR N + FemSg) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 CM OR Lpar) (-2 NP + FemPl OR N + FemPl) ;	# le Dolomitti, dette
+REMOVE Ifi IF (0 Ifi) (0 PP + MascSg) (-1 Adv) (-2 CM OR Lpar) (-3 NP + MascSg OR N + MascSg) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + MascPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + MascPl OR N + MascPl) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + FemSg) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemSg OR N + FemSg) ;
+REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemPl OR N + FemPl) ;	# le Dolomitti, anche dette
+REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("includere") OR ("dire") OR ("chiamare") OR ("comprendere") OR ("situare") OR ("ubicare") OR ("dividere") OR ("suddividere") OR ("chiudere")) ;
