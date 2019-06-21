@@ -288,6 +288,11 @@ REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 REMOVE V IF (0 Mandato) (-1 Primo) ;
 
+SELECT A IF (-1 Det + MascSg) (0 Primo + MascSg) ;	# li primo
+SELECT A IF (-1 Det + FemSg) (0 Primo + FemSg) ;	# la prima
+SELECT A IF (-1 Det + MascPl) (0 Primo + MascPl) ;
+SELECT A IF (-1 Det + FemPl) (0 Primo + FemPl) ;
+
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
@@ -334,7 +339,7 @@ SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1C A) (1 Prep) ;		# le più grandi collezio
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musicale nato nel 1856
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
 
-SELECT V IF (0 N) (0 V) (NOT -2/* Det) (-1 Rel) (NOT -1 ("il cui")) ;	# il paese in cui abito / la donna il cui figlio / dal cui inizio
+SELECT V IF (0 N) (0 V) (NOT -2/* Det) (-1 Rel) (NOT -1 ("il cui") OR ("come")) ;	# il paese in cui abito / la donna il cui figlio / dal cui inizio
 SELECT N IF (0 N + MascSg) (0 V) (-1 ("il cui") + MascSg) (1 V) ;	# il cui suoni ricordanno
 SELECT N IF (0 N + FemSg) (0 V) (-1 ("il cui") + FemSg) (1 V) ;		# il cui suoni ricordanno
 SELECT N IF (0 N + MascPl) (0 V) (-1 ("il cui") + MascPl) (1 V) ;	# il cui suoni ricordanno
@@ -780,3 +785,5 @@ REMOVE Ifi IF (0 Ifi) (0 PP + MascPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + MascPl O
 REMOVE Ifi IF (0 Ifi) (0 PP + FemSg) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemSg OR N + FemSg) ;
 REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemPl OR N + FemPl) ;	# le Dolomitti, anche dette
 REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("includere") OR ("dire") OR ("chiamare") OR ("comprendere") OR ("situare") OR ("ubicare") OR ("dividere") OR ("suddividere") OR ("chiudere")) ;
+
+#REMOVE Ifi IF (0 Ifi) (0 PP) (-1* Vall + Pers BARRIER BOS OR CnjSub OR CnjAdv OR Rel) (1* Vall + Pers BARRIER EOS OR CnjSub OR CnjAdv OR Rel);
