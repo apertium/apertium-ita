@@ -330,7 +330,7 @@ SELECT Num IF (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
 SELECT N IF (0 Secoli) (-1/* Det + Def + MascSg) ;
 SELECT Det IF (NOT -1 Ant) (0 ("I")) (1 Cog) ;	# I Jefferson
 
-SELECT N IF (0 N) (0 V) (-1C A) (1 Prep) ;		# le più grandi collezioni di pesci
+SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1C A) (1 Prep) ;		# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musicale nato nel 1856
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
 
@@ -451,10 +451,15 @@ REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
 REMOVE PP IF (0 PP) (0 A) (-1C N) (NOT 1 Da) ;	# nucleo abitato
 REMOVE PP IF (0 PP) (0 A) (-1C V) ;		# si rivelò corretta
 
-REMOVE PP IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (NOT 1 Da) ;
-REMOVE PP IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (NOT 1 Da) ;
-REMOVE PP IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (NOT 1 Da) ;		# geometria algebrica astratta
-REMOVE PP IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (NOT 1 Da) ;
+REMOVE PP IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (NOT 1/* Da) ;
+REMOVE PP IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (NOT 1/* Da) ;
+REMOVE PP IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (NOT 1/* Da) ;		# geometria algebrica astratta
+REMOVE PP IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (NOT 1/* Da) ;
+
+REMOVE A IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (1/* Da) ;
+REMOVE A IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (1/* Da) ;
+REMOVE A IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (1/* Da) ;
+REMOVE A IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (1/* Da) ;		# informazioni autentiche scritte dai cronisti
 
 SELECT PP IF (-1C N + MascSg) (0C V) (0 PP + MascSg) ;
 SELECT PP IF (-1C N + MascPl) (0C V) (0 PP + MascPl) ;
