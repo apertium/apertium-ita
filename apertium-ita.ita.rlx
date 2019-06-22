@@ -710,12 +710,14 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
-SELECT N IF (-1 ("<il>")) (0 ("<Sole>")) ;		# il Sole
-SELECT N IF (-1 ("<la>")) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
-SELECT N IF (-2 ("<la>")) (-1 A) (0 ("<Guerra>")) ;	# la Gran Guerra
+SELECT N IF (-1 Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
+SELECT N IF (-1 Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
+SELECT N IF (-2 Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
+SELECT N IF (-1 Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
+SELECT N IF (-2 Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
 SELECT N IF (-1 Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
 SELECT N IF (-1 Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
 SELECT N IF (-1 Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
