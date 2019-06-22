@@ -125,6 +125,7 @@ LIST Primo = "primo" ;
 LIST Puo_essere = "può essere" ;
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
+LIST Regia = "regia" ;
 LIST San = "San" ;
 LIST Secondo = "secondo" ; 
 LIST Sette = "sette" ; 
@@ -269,6 +270,8 @@ SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 
 SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
 
+SELECT N IF (0 Regia) (1 Di) ;		# regia di
+
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1 Det + FemSg) ;
@@ -302,8 +305,8 @@ SELECT A IF (-1 Det + FemPl) (0 Primo + FemPl) ;
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
-
-SELECT V IF (0 Tratta) (1 Det) ;
+REMOVE CnjAdv IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
+REMOVE Prep IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
@@ -717,18 +720,20 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
-SELECT N IF (-1 Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
-SELECT N IF (-1 Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
-SELECT N IF (-2 Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
-SELECT N IF (-1 Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
-SELECT N IF (-2 Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
-SELECT N IF (-1 Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
-SELECT N IF (-1 Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
-SELECT N IF (-1 Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
-SELECT N IF (-1 Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Consiglio>")) ;	# il Consiglio
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;		# il Tesoro
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
+SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
+SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
+SELECT N IF (-1/* Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
+SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
+SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
+SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
@@ -771,8 +776,8 @@ REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
 # Amb els adjectius hi ha més risc d'error (!)
-SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al")) ; 
-REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al"));  # Això no sé si és útil. 
+SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ; 
+REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
 
 
 # Verbi
