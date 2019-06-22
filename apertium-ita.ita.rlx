@@ -97,6 +97,8 @@ LIST Ancora = "ancora" ;
 LIST Cardinale = "cardinale" ; 
 LIST Che = "che" ; 
 LIST Circa = "circa" ; 
+LIST Colle = "colle" ; 
+LIST Collo = "collo" ; 
 LIST Da = "da" ;
 LIST Dai = "dai" ;
 LIST Dallo = "dallo" ;
@@ -116,6 +118,7 @@ LIST Loro = "loro" ;
 LIST Lui = "lui" ;
 LIST Lei = "lei" ; 
 LIST Mandato = "mandato" ; 
+LIST Mosca = "Mosca" ; 
 LIST Oltre = "oltre" ; 
 LIST Primo = "primo" ; 
 LIST Puo_essere = "può essere" ;
@@ -262,6 +265,8 @@ SELECT Principe IF (0 Principe) (0 Principio) (1 Di) (2 Top LINK NOT 0 Cog) ;
 SELECT Genere IF (0 Genere) (0 Genero) (NOT 1 Di) ;
 SELECT Genere IF (0 Genere) (0 Genero) (1 Di) (NOT 2 Ant_Cog OR unknownMajIni) ;
 SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
+
+SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
 
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
@@ -741,10 +746,11 @@ SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (
 SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;
 	# principe di Viana
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a")) (0 Ant OR Cog OR Top) ;
-REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a")) (0C Ant OR Cog OR Top) ;
+#REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a")) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
-REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
+#REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-2 NP) (-1 Di) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (NOT -2 ("parlare")) (-1 ("a")) (0 Mosca) ;
 
 SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
