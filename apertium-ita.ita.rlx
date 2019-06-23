@@ -252,11 +252,11 @@ REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
 SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
-REMOVE A IF (NOT -1 Det + Ind) (0 Det) (0 A) (1C N) ;
+REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
   # un suo libro
-SELECT Det IF (NOT -1 Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
-SELECT Det IF (NOT -1 Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
+SELECT Det IF (NOT -1/* Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT Det IF (NOT -1/* Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
   # diversi amici
 
 SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
@@ -274,7 +274,7 @@ SELECT N IF (0 Regia) (1 Di) ;		# regia di
 
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
-SELECT Adv IF (0 Ancora) (NOT -1 Det + FemSg) ;
+SELECT Adv IF (0 Ancora) (NOT -1/* Det + FemSg) ;
 
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
@@ -297,10 +297,10 @@ REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 REMOVE V IF (0 Mandato) (-1 Primo) ;
 
-SELECT A IF (-1 Det + MascSg) (0 Primo + MascSg) ;	# li primo
-SELECT A IF (-1 Det + FemSg) (0 Primo + FemSg) ;	# la prima
-SELECT A IF (-1 Det + MascPl) (0 Primo + MascPl) ;
-SELECT A IF (-1 Det + FemPl) (0 Primo + FemPl) ;
+SELECT A IF (-1/* Det + MascSg) (0 Primo + MascSg) ;	# li primo
+SELECT A IF (-1/* Det + FemSg) (0 Primo + FemSg) ;	# la prima
+SELECT A IF (-1/* Det + MascPl) (0 Primo + MascPl) ;
+SELECT A IF (-1/* Det + FemPl) (0 Primo + FemPl) ;
 
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
@@ -310,7 +310,7 @@ REMOVE Prep IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
-REMOVE N IF (0 Ora) (0 Adv) (NOT -1 Det + MascSg) (1C PP) ;	# ora conservato
+REMOVE N IF (0 Ora) (0 Adv) (NOT -1/* Det + MascSg) (1C PP) ;	# ora conservato
 
 SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
@@ -373,77 +373,77 @@ SELECT N IF (-1 ("pieno")) (0 Sole) ;
 
 # N O A
 
-REMOVE A IF (0 A) (0 N) (-1 Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
+REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1 EOS) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
-REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1 Det) (1 EOS) ;
+REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1 EOS) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1 EOS) ;
 
-SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1 Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
 SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
-SELECT A IF (0 A) (0 N) (NOT -1 Aord) (-2 Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
+SELECT A IF (0 A) (0 N) (NOT -1 Aord) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
 SELECT A IF (0 A) (0 N) (NOT -1 Aord) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
 
 SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1 Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ;
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 CM) ; 			# allo stato fossile,
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 CM) ; 		# allo stato fossile,
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 CM) ; 			# allo stato fossile,
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 CM) ; 			# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 CM) ; 			# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 CM) ; 			# allo stato fossile,
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1C Vall) ; 				# il comune nacque
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1C Vall) ; 			# il comune nacque / di media durata
-SELECT N IF (0 A) (0 N) (-1 Det) (1 Adv) (2 Vall) ; 			# il comune non nacque
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 Adv) (2 Vall) ; 			# il comune non nacque
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1C Vall) ; 				# il comune nacque
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Vall) ; 			# il comune nacque / di media durata
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 Adv) (2 Vall) ; 			# il comune non nacque
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 Adv) (2 Vall) ; 			# il comune non nacque
 
-SELECT N IF (-1 Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) ;
-SELECT N IF (-1 Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) ;
-SELECT N IF (-1 Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) ;	# distinguere gli ambiti e usi
-SELECT N IF (-1 Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) ;
+REMOVE A IF (-1/* Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) ;
+REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) ;
+REMOVE A IF (-1/* Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) ;	# distinguere gli ambiti e usi
+REMOVE A IF (-1/* Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) ;
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2 Lpar) ; 	#
+SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Lpar) ; 		# 
+SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		# 
 SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1C A) ; 			# dello Stato Pontificio
+SELECT N IF (0 A) (0 N) (-1/* Det) (1C A) ; 			# dello Stato Pontificio
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1C A) ; 			# dello Stato Pontificio
 
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
+SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
 SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 Aord) (0 N) (-1 Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+SELECT A IF (0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
 SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
+SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
 SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
-REMOVE N IF (0 A) (0 N) (-2 Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PP) (-2 Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
-REMOVE A IF (0 A) (0 PP) (-3 Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
+REMOVE A IF (0 A) (0 PP) (-3/* Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
 SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2 Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1/* Prep) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Det) (1/* Prep) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1 Det) (1/* Det) ; 			# sullo stato dei mari
+SELECT N IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
 SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
-SELECT N IF (0 A) (0 N) (-1 Det) (1 A) ; 			# lo stato italiano
-SELECT N IF (0 Adv) (0 N) (-1 Det) (1 A) ; 			# un'altra specie chimica
+SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) ; 			# lo stato italiano
+SELECT N IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
 
-SELECT N IF (0 A) (0 N) (-1C V) (1 Det) ; 			# porre fine a
+SELECT N IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 SELECT M IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 			# porre fine a
 
-REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1 Det + MascSg) (NOT 1 A + MascSg) ; 	# ogni insieme
-REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1 Det + MascPl) (NOT 1 A + MascPl) ; 	# ogni insieme
-REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1 Det + FemSg) (NOT 1 A + FemSg) ; 	# ogni insieme
-REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemSg) (NOT 1 A + FemPl) ; 	# ogni insieme
+REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1/* Det + MascSg) (NOT 1 A + MascSg) ; 	# ogni insieme
+REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1/* Det + MascPl) (NOT 1 A + MascPl) ; 	# ogni insieme
+REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1/* Det + FemSg) (NOT 1 A + FemSg) ; 	# ogni insieme
+REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1/* Det + FemSg) (NOT 1 A + FemPl) ; 	# ogni insieme
 
 SELECT N IF (0 N) (0 PP) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
@@ -459,8 +459,8 @@ REMOVE Vconj IF (0 Vconj) (0 N) (-1C A) (1 Lpar) ;	# due nuove canzonii (di cui 
 
 REMOVE A IF (0 A) (0 N) (-1 Pos) (1 Prep) ; 		# il suo futuro attraverso una programmazione
 REMOVE PP IF (0 PP) (0 N) (-1 Pos) (1 Prep) ;
-REMOVE A IF (0 A) (0 N) (-1 Det) (1 Prep) ; 		# il futuro della Ue.
-REMOVE PP IF (0 PP) (0 N) (-1 Det) (1 Prep) ;
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 Prep) ; 		# il futuro della Ue.
+REMOVE PP IF (0 PP) (0 N) (-1/* Det) (1 Prep) ;
 
 REMOVE PP IF (0 PP) (0 N) (-1C Prep) ;		# in corso "Pitretu è Bicchisgià"
 REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
@@ -500,7 +500,7 @@ REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;	# lin
 SELECT A IF (-2 N) (-1 ("più") OR ("meno")) (0 A OR PP) ;			# lingue più diffuse
 SELECT A IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 A OR PP) ;		# lingue internazionali più diffuse
 
-SELECT A IF (0 Pos) (-1 Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
+SELECT A IF (0 Pos) (-1/* Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
 					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
 SELECT A IF (0 Pos) (-1/* Prep) (1 N) ;	# solució problema "del"
 
@@ -532,6 +532,7 @@ SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che) ;
 
 SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
+SELECT A IF (0C A OR Adv) (-1/* Det + Det) (1 N) ; # una prima verzione (Hack perquè funcioni)
 
 SELECT A + MF + SP IF (0 A + MF + SP) (1 Guio) (2 A) ;	# neo-strano, filo-tibetano
 REMOVE A + MF + SP IF (0 ("filo")) (NOT 1 Guio) ;
@@ -595,16 +596,16 @@ REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
 #SELECT A IF (0 ADJ + MascSg) (0 Adv) (-1 N + MascSg)		# un suo moto proprio
 
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjSub) ;
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 CnjAdv) ;
-SELECT N IF (-1C Num OR Det) (0C N OR A) (1 Rel) ;			# nei 27 Comuni dove
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
-SELECT N IF (-2C Num OR Det) (-1C A) (0C N OR A) (1 Rel) ;
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 CnjSub) ;
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 CnjAdv) ;
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Rel) ;			# nei 27 Comuni dove
+SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
+SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
+SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
+SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
+SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 Rel) ;
 
 SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* Di) ;
@@ -711,7 +712,7 @@ SELECT A IF (0 Noun_Adj_PP) (1 CM) (2C A) (1 CnjCoo) (2 Noun_Adj_PP) ;
 # NOM, NOM,
 
 SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
-SELECT N IF (-4 Det) (-3C N) (-2 CM) (-1 Det) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
+SELECT N IF (-4/* Det) (-3C N) (-2 CM) (-1 Det) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # ADJ, ADJ,
 
