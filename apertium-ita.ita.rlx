@@ -400,47 +400,50 @@ REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) ;
 REMOVE A IF (-1/* Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) ;	# distinguere gli ambiti e usi
 REMOVE A IF (-1/* Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) ;
 
-SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
-SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		# 
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		# 
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
-SELECT N IF (0 A) (0 N) (-1/* Det) (1C A) ; 			# dello Stato Pontificio
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1C A) ; 			# dello Stato Pontificio
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1C A) ; 			# dello Stato Pontificio
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C A) ; 			# dello Stato Pontificio
 
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
-SELECT N IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
+REMOVE A IF (0 A) (NOT 0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
+REMOVE A IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
+REMOVE N IF (0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+REMOVE N IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-3/* Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
 SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
-SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
-SELECT A IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Prep) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 
-SELECT N IF (0 A) (0 N) (-1/* Det) (1/* Prep) ; 			# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
-SELECT N IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Prep) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
-SELECT N IF (0 A) (0 N) (-1/* Det) (1 A) ; 			# lo stato italiano
-SELECT N IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) ; 			# lo stato italiano
+REMOVE A IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
 
-SELECT N IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
-SELECT M IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 			# porre fine a
+REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
+REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
 
-REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1/* Det + MascSg) (NOT 1 A + MascSg) ; 	# ogni insieme
+REMOVE A IF (0 A) (0 N) (-1 ("avere")) (NOT 1 A) ;
+REMOVE A IF (0 A) (0 N) (-2 ("avere")) (-1 Adv) (NOT 1 A) ;	# non ebbe più dubbi
+
+REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1/* Det + MascSg) (NOT 1 A + MascSg) (NOT -1 PreAdv) ; 	# ogni insieme / molto male
 REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1/* Det + MascPl) (NOT 1 A + MascPl) ; 	# ogni insieme
 REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1/* Det + FemSg) (NOT 1 A + FemSg) ; 	# ogni insieme
 REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1/* Det + FemSg) (NOT 1 A + FemPl) ; 	# ogni insieme
@@ -626,10 +629,23 @@ REMOVE Adv IF (0 Adv) (0 A + MascPl) (-1 N + MascPl) (NOT 1 Vall) ;
 REMOVE Adv IF (0 Adv) (0 A + FemSg) (-1 N + FemSg) (NOT 1 Vall) ;
 REMOVE Adv IF (0 Adv) (0 A + FemPl) (-1 N + FemPl) (NOT 1 Vall) ;
 
+SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Sg) (1 PP + Sg) ;		# si era molto impoverito
+SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Pl) (1 PP + Pl) ;
+
 # A O V
 
 REMOVE Inf IF (0 Inf) (0 A + MascSg) (-1 N + MascSg) ;
 REMOVE Inf IF (0 Inf) (0 A + FemSg) (-1 N + FemSg) ;		# la più grande assemblea parlamentare al mondo
+
+# N O V
+
+REMOVE Prs IF (0 N + MascSg) (0 Prs) (1 A + MascSg) (NOT -1* CnjAdv) ;
+REMOVE Prs IF (0 N + MascPl) (0 Prs) (1 A + MascPl) (NOT -1* CnjAdv) ;
+REMOVE Prs IF (0 N + FemSg) (0 Prs) (1 A + FemSg) (NOT -1* CnjAdv) ;
+REMOVE Prs IF (0 N + FemPl) (0 Prs) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
+
+REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
+REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
 
 # COORDINAZIONE
 
@@ -721,7 +737,7 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro") OR ("Verdi")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
