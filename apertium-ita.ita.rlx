@@ -99,6 +99,8 @@ LIST Che = "che" ;
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
 LIST Collo = "collo" ; 
+LIST Conte = "conte" ; 
+LIST Conto = "conto" ; 
 LIST Da = "da" ;
 LIST Dai = "dai" ;
 LIST Dallo = "dallo" ;
@@ -207,7 +209,10 @@ SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (NOT 1 Vall) (NOT 2 Vall) ;
-SELECT Det IF (0 Lo) (0 Il) (1 N) ;
+SELECT Det IF (0 Lo) (0 Il + MascSg) (1 N + MascSg) (NOT 1 Vall) ;
+SELECT Det IF (0 Lo) (0 Il + MascPl) (1 N + MascPl) (NOT 1 Vall) ;
+SELECT Det IF (0 Lo) (0 Il + FemSg) (1 N + FemSg) (NOT 1 Vall) ;
+SELECT Det IF (0 Lo) (0 Il + FemPl) (1 N + FemPl) (NOT 1 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (1 A) (2 N) ;
 
 SELECT Prep IF (0 Sotto) (1 Det) ;
@@ -244,7 +249,7 @@ REMOVE Vmod IF (0 Dovere) (NOT 1 Inf) (NOT 2 Inf) ;
 REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 
 REMOVE N IF (0 ("dei")) ;		# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
-REMOVE N IF (0 N) (0/* Prep) ;		# dei (alternativa bèstia però funciona)
+REMOVE N IF (0 N) (0/* Prep) (NOT 0 ("secondo")) ;	# dei (alternativa bèstia però funciona)
 
 SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
@@ -269,6 +274,10 @@ SELECT Genere IF (0 Genere) (0 Genero) (1 Di) (NOT 2 Ant_Cog OR unknownMajIni) ;
 SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 
 SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
+
+SELECT Conte IF (0 Conte) (0 Conto) (1 Di) (2 Top OR unknownMajIni) ;	# conti di Barcellona
+SELECT Conto IF (0 Conte) (0 Conto) (NOT 1 Di) ;
+SELECT Conto IF (0 Conte) (0 Conto) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 
 SELECT N IF (0 Regia) (1 Di) ;		# regia di
 
@@ -307,12 +316,17 @@ SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
 REMOVE CnjAdv IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 REMOVE Prep IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
+SELECT Prep IF (0 Secondo) (1 NP) ;
+SELECT Prep IF (0 Secondo) (1 Det) (2 Noun_Adj) ;
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
 REMOVE N IF (0 Ora) (0 Adv) (NOT -1/* Det + MascSg) (1C PP) ;	# ora conservato
 
-SELECT Det IF (0 Det) (0 Pron) (1 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problemes: per saldare alcuni debiti bellici *lo* vendette a re Ladislao; conferendo loro valori nuovi
+SELECT Det IF (0 Det + MascSg) (0 Pron) (1 N + MascSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
+SELECT Det IF (0 Det + MascPl) (0 Pron) (1 N + MascPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
+SELECT Det IF (0 Det + FemSg) (0 Pron) (1 N + FemSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
+SELECT Det IF (0 Det + FemPl) (0 Pron) (1 N + FemPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0 Det) (0 Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0 Det) (0 Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
@@ -332,13 +346,6 @@ REMOVE CnjAdv IF (0 ("considerato che")) (-2 Avere) (-1 Adv) ;		# ha visto che
 SELECT CnjAdv IF (0 ("considerato che")) (NOT -2 Avere) (NOT -1 Avere) ;	# ha visto che
 
 REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
-
-REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
-REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
-
-REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0C N OR Adv) (NOT 0 Anche) (1 Barrera_Final_Estrict_SN) ;	# Origini e culto / ma anche per
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -378,10 +385,10 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a m�
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1 EOS) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1 EOS) ;
 
-SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
-SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
-SELECT A IF (0 A) (0 N) (NOT -1 Aord) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
-SELECT A IF (0 A) (0 N) (NOT -1 Aord) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE N IF (0 A) (0 N) (NOT -1 Aord) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
+REMOVE N IF (0 A) (0 N) (NOT -1 Aord) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
 
 SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1 Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ;
 
@@ -418,7 +425,7 @@ REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo 
 REMOVE A IF (0 A) (0 PP) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-3/* Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
-SELECT N IF (0 N OR A) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
+REMOVE A IF (0 A) (0 N) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
@@ -637,6 +644,20 @@ SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Pl) (1 PP + Pl) ;
 REMOVE Inf IF (0 Inf) (0 A + MascSg) (-1 N + MascSg) ;
 REMOVE Inf IF (0 Inf) (0 A + FemSg) (-1 N + FemSg) ;		# la più grande assemblea parlamentare al mondo
 
+# N O Adv
+
+REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
+REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0C N OR Adv) (NOT 0 Anche) (1 Barrera_Final_Estrict_SN) ;	# Origini e culto / ma anche per
+
+REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1 Det + MascSg) (1 A + MascSg) ; 	# il piano nobile
+REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1 Det + MascPl) (1 A + MascPl) ;
+REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1 Det + FemSg) (1 A + FemSg) ;
+REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemPl) (1 A + FemPl) ;
+
 # N O V
 
 REMOVE Prs IF (0 N + MascSg) (0 Prs) (1 A + MascSg) (NOT -1* CnjAdv) ;
@@ -646,6 +667,86 @@ REMOVE Prs IF (0 N + FemPl) (0 Prs) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere 
 
 REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
 REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
+
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adj_PP + MascSg) ;	# il filosofo preferito
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adj_PP + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adj_PP + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adj_PP + FemPl) ;
+
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adv_PreAdv) (2 Adj_PP + MascSg) ;	# il piu vicino
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adv_PreAdv) (2 Adj_PP + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adv_PreAdv) (2 Adj_PP + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adv_PreAdv) (2 Adj_PP + FemPl) ;
+
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 NP OR unknownMajIni) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 NP OR unknownMajIni) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 NP OR unknownMajIni) ;
+
+REMOVE V IF (0 N + MascSg) (0 V) (-2C Vall) (-1 Det + MascSg) ; 			# prevede l'uso di / è il secondo di
+REMOVE V IF (0 N + MascPl) (0 V) (-2C Vall) (-1 Det + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-2C Vall) (-1 Det + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-2C Vall) (-1 Det + FemPl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-3C Vall) (-2 Adv) (-1 Det + MascSg) ;		# prevede sempre l'uso
+REMOVE V IF (0 N + MascPl) (0 V) (-3C Vall) (-2 Adv) (-1 Det + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-3C Vall) (-2 Adv) (-1 Det + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-3C Vall) (-2 Adv) (-1 Det + FemPl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascSg) ;		# portare a termine il compito
+REMOVE V IF (0 N + MascPl) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemPl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascSg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemSg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemPl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascSg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascPl) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemSg) ;		# raccomandò più volte l'utilizzo
+REMOVE V IF (0 N + FemPl) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemPl) ;
+
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Vall + P3 + Pl) ; 
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Vall + P3 + Sg) ;			# che la regola mettesse
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Vall + P3 + Pl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ; 	# gli sci invece arrivarono
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Prep) (3 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Prep) (3 Vall + P3 + Pl) ; 
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Prep) (3 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Prep) (3 Vall + P3 + Pl) ;
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Prep) (4 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Prep) (4 Vall + P3 + Pl) ; 
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Prep) (4 Vall + P3 + Sg) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Prep) (4 Vall + P3 + Pl) ;
+
+# la forma, le dimensioni e il posizionamento
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+# il posizionamento, la forma e le dimensioni
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+
+# Queste sono supposizioni
+
+REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;	# la disputa del dottore / la isola di Arturo / la voglia di cantare
+REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+
+REMOVE V + P1 IF (0 N + MascSg) (0 V + P1) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P1 IF (0 N + MascPl) (0 V + P1) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P1 IF (0 N + FemSg) (0 V + P1) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P1 IF (0 N + FemPl) (0 V + P1) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P2 IF (0 N + MascSg) (0 V + P2) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P2 IF (0 N + MascPl) (0 V + P2) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P2 IF (0 N + FemSg) (0 V + P2) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE V + P2 IF (0 N + FemPl) (0 V + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
 
 # COORDINAZIONE
 
@@ -737,16 +838,22 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Guerra") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro") OR ("Verdi")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+
+REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
+REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
 
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Consiglio>")) ;	# il Consiglio
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;		# il Tesoro
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;	# il Tesoro
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Cantone>")) ;	# il Cantone
 SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
 SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
 SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
 SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Chiesa>")) ;		# la Chiesa
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Bandiera>")) ;	# la Bandiera
 SELECT N IF (-1/* Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
 SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
 SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
@@ -810,6 +917,8 @@ REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
+
+REMOVE Prs IF (NOT -1* CnjAdv OR Che + Rel) ;
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
 
