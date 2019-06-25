@@ -624,10 +624,10 @@ SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
-SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascSg) (0 Adj_PP) (1 Adj_PP + MascSg LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856
-SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemSg) (0 Adj_PP) (1 Adj_PP + FemSg LINK NOT 0 N) ;	# Partita giocata
-SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascPl) (0 Adj_PP) (1 Adj_PP + MascPl LINK NOT 0 N) ;
-SELECT N IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemPl) (0 Adj_PP) (1 Adj_PP + FemPl LINK NOT 0 N) ;
+REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascSg) (0 Adj_PP) (1 Adj_PP + MascSg LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856
+REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemSg) (0 Adj_PP) (1 Adj_PP + FemSg LINK NOT 0 N) ;	# Partita giocata
+REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascPl) (0 Adj_PP) (1 Adj_PP + MascPl LINK NOT 0 N) ;
+REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemPl) (0 Adj_PP) (1 Adj_PP + FemPl LINK NOT 0 N) ;
 
 # A O ADV
 
@@ -866,6 +866,8 @@ REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant)  ;
 
 SELECT Ant IF (0 Ant) (1C Ant) ;
         # Rosa Maria
+SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;
+        # Giordano Bruno
 SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
         # sant Benet
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
