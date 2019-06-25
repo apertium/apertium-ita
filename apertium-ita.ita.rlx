@@ -668,85 +668,85 @@ REMOVE Prs IF (0 N + FemPl) (0 Prs) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere 
 REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
 REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
 
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adj_PP + MascSg) ;	# il filosofo preferito
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adj_PP + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adj_PP + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adj_PP + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adj_PP + MascSg) ;	# il filosofo preferito
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adj_PP + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adj_PP + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adj_PP + FemPl) ;
 
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adv_PreAdv) (2 Adj_PP + MascSg) ;	# il piu vicino
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adv_PreAdv) (2 Adj_PP + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adv_PreAdv) (2 Adj_PP + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adv_PreAdv) (2 Adj_PP + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adv_PreAdv) (2 Adj_PP + MascSg) ;	# il piu vicino
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adv_PreAdv) (2 Adj_PP + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adv_PreAdv) (2 Adj_PP + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adv_PreAdv) (2 Adj_PP + FemPl) ;
 
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 NP OR unknownMajIni) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 NP OR unknownMajIni) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 NP OR unknownMajIni) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 NP OR unknownMajIni) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 NP OR unknownMajIni) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 NP OR unknownMajIni) ;
 
-REMOVE V IF (0 N + MascSg) (0 V) (-2C Vall) (-1 Det + MascSg) ; 			# prevede l'uso di / è il secondo di
-REMOVE V IF (0 N + MascPl) (0 V) (-2C Vall) (-1 Det + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-2C Vall) (-1 Det + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-2C Vall) (-1 Det + FemPl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-3C Vall) (-2 Adv) (-1 Det + MascSg) ;		# prevede sempre l'uso
-REMOVE V IF (0 N + MascPl) (0 V) (-3C Vall) (-2 Adv) (-1 Det + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-3C Vall) (-2 Adv) (-1 Det + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-3C Vall) (-2 Adv) (-1 Det + FemPl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascSg) ;		# portare a termine il compito
-REMOVE V IF (0 N + MascPl) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemPl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascSg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemSg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemPl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascSg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascPl) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemSg) ;		# raccomandò più volte l'utilizzo
-REMOVE V IF (0 N + FemPl) (0 V) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-2C Vall) (-1 Det + MascSg) ; 			# prevede l'uso di / è il secondo di
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-2C Vall) (-1 Det + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-2C Vall) (-1 Det + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-2C Vall) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + MascSg) ;		# prevede sempre l'uso
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascSg) ;		# portare a termine il compito
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascSg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascSg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemSg) ;		# raccomandò più volte l'utilizzo
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemPl) ;
 
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Vall + P3 + Pl) ; 
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Vall + P3 + Sg) ;			# che la regola mettesse
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Vall + P3 + Pl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ; 	# gli sci invece arrivarono
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Prep) (3 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Prep) (3 Vall + P3 + Pl) ; 
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Prep) (3 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Prep) (3 Vall + P3 + Pl) ;
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Prep) (4 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Prep) (4 Vall + P3 + Pl) ; 
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 Prep) (4 Vall + P3 + Sg) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Prep) (4 Vall + P3 + Pl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Vall + P3 + Pl) ; 
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Vall + P3 + Sg) ;			# che la regola mettesse
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Vall + P3 + Pl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ; 	# gli sci invece arrivarono
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Prep) (3 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Prep) (3 Vall + P3 + Pl) ; 
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Prep) (3 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Prep) (3 Vall + P3 + Pl) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Prep) (4 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Prep) (4 Vall + P3 + Pl) ; 
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Prep) (4 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Prep) (4 Vall + P3 + Pl) ;
 
 # la forma, le dimensioni e il posizionamento
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
 # il posizionamento, la forma e le dimensioni
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + FemSg) (0 V) (-1 Det + FemSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
 
 # Queste sono supposizioni
 
-REMOVE V IF (0 N + MascSg) (0 V) (-1 Det + MascSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
-REMOVE V IF (0 N + MascPl) (0 V) (-1 Det + MascPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
 REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;	# la disputa del dottore / la isola di Arturo / la voglia di cantare
-REMOVE V IF (0 N + FemPl) (0 V) (-1 Det + FemPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
 
-REMOVE V + P1 IF (0 N + MascSg) (0 V + P1) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P1 IF (0 N + MascPl) (0 V + P1) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P1 IF (0 N + FemSg) (0 V + P1) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P1 IF (0 N + FemPl) (0 V + P1) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P2 IF (0 N + MascSg) (0 V + P2) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P2 IF (0 N + MascPl) (0 V + P2) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P2 IF (0 N + FemSg) (0 V + P2) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE V + P2 IF (0 N + FemPl) (0 V + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P1 IF (0 N + MascSg) (0 Vall + P1) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P1 IF (0 N + MascPl) (0 Vall + P1) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P1 IF (0 N + FemSg) (0 Vall + P1) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P1 IF (0 N + FemPl) (0 Vall + P1) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P2 IF (0 N + MascSg) (0 Vall + P2) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P2 IF (0 N + MascPl) (0 Vall + P2) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P2 IF (0 N + FemSg) (0 Vall + P2) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P2 IF (0 N + FemPl) (0 Vall + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
 
 # COORDINAZIONE
 
