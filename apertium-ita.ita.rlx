@@ -94,6 +94,7 @@ LIST Dovere = "dovere" ;
 
 LIST Anche = "anche" ; 
 LIST Ancora = "ancora" ; 
+LIST Andare = "andare" ; 
 LIST Cardinale = "cardinale" ; 
 LIST Che = "che" ; 
 LIST Circa = "circa" ; 
@@ -243,6 +244,11 @@ SELECT Vmod IF (0 Dovere) (1 Vall + Inf) ;
 SELECT Vmod IF (0 Dovere) (1 Adv OR Pron) (2 Vall + Inf) ;
 REMOVE Vmod IF (0 Dovere) (NOT 1 Inf) (NOT 2 Inf) ;
 
+SELECT PP IF (-1 Andare + Inf) (0 PP + Sg) ;
+SELECT PP IF (-1 Andare + Ger) (0 PP + Sg) ;
+SELECT PP IF (-1 Andare + Sg) (0 PP + Sg) ;
+SELECT PP IF (-1 Andare + Pl) (0 PP + Pl) ;
+
 #REMOVE V IF (0 ("dai")) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #REMOVE V IF (0 Dai) ;			# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #SELECT Prep IF (0 Dai) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
@@ -336,7 +342,7 @@ SELECT PreAdv IF (-1 N + FemSg) (0 PreAdv) (1 A + FemSg) ;
 SELECT PreAdv IF (-1 N + FemPl) (0 PreAdv) (1 A + FemPl) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la credibilità
 
-REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 1* Vall + Pers) ;		# tutelando così la credibilità
+REMOVE CnjAdv IF (0 Adv) (0 CnjAdv) (NOT 0 Interr) (NOT 1* Vall + Pers) ;	# tutelando così la credibilità / ha ricevuto una certa notorietà da quando
 
 REMOVE CnjAdv IF (0 ("visto che")) (-1 Avere) ;				# ha visto che
 REMOVE CnjAdv IF (0 ("visto che")) (-2 Avere) (-1 Adv) ;		# ha visto che
@@ -525,6 +531,8 @@ SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
+REMOVE Interr IF (NOT -1 Vall OR Adv) (0 Interr) (0 CnjAdv) ;	# ha ricevuto una certa notorietà da quando
+REMOVE Interr IF (NOT -2 Vall) (-1 Adv) (0 Interr) (0 CnjAdv) ;
 
 REMOVE Interr IF (-1 N + MascSg) (0 Interr) (0 Rel + MascSg) ;			# figure quali l’eufemismo
 REMOVE Interr IF (-1 N + MascPl) (0 Interr) (0 Rel + MascPl) ;
@@ -550,11 +558,11 @@ REMOVE A + MF + SP IF (0 ("neo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("americano")) (NOT 1 Guio) ;
 
 
-SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 Barrera_Final_Estrict_SN) (NOT -1 ("considerare") OR ("vedere") OR ("rivelare")) ;
 	# detonar explosivos.
 	# nos vino impuesto.
 	# ricevere tangenti
-SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1 PP) (NOT -1 VAdj) (-2 Ser OR Avere) (1 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1 PP) (NOT -1 VAdj) (-2 Ser OR Avere) (1 Barrera_Final_Estrict_SN) (NOT -1 ("considerare") OR ("vedere") OR ("rivelare")) ;
 	# ha ricevuto tangenti
 SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 CnjCoo) (2 Barrera_Final_Estrict_SN) ;
 	# detonando explosivos y derrumbando
@@ -748,6 +756,8 @@ REMOVE Vall + P2 IF (0 N + MascPl) (0 Vall + P2) (-1 Det + MascPl) (1 Barrera_Fi
 REMOVE Vall + P2 IF (0 N + FemSg) (0 Vall + P2) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
 REMOVE Vall + P2 IF (0 N + FemPl) (0 Vall + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
 
+REMOVE V IF (-1 Det + MascSg) (0 ("libro") + MascSg) ;		# il libro
+
 # COORDINAZIONE
 
 REMOVE Pl IF (-1C/* Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
@@ -838,13 +848,15 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
 REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
 
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Castello>")) ;	# il Castello
+SELECT N IF (-1/* Det + Def + MascPl) (0 ("<Castelli>")) ;	# i Castelli
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Consiglio>")) ;	# il Consiglio
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;	# il Tesoro
 SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Cantone>")) ;	# il Cantone
@@ -935,3 +947,6 @@ REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemPl OR 
 REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("includere") OR ("dire") OR ("chiamare") OR ("comprendere") OR ("situare") OR ("ubicare") OR ("dividere") OR ("suddividere") OR ("chiudere")) ;
 
 #REMOVE Ifi IF (0 Ifi) (0 PP) (-1* Vall + Pers BARRIER BOS OR CnjSub OR CnjAdv OR Rel) (1* Vall + Pers BARRIER EOS OR CnjSub OR CnjAdv OR Rel);
+
+REMOVE Pers IF (-1C Vall + Pers) (0 Vall + Pers) ;	# vide rinchiusi
+REMOVE Pers IF (0C Vall + Pers) (1 Vall + Pers) ;	# vide rinchiusi
