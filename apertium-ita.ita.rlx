@@ -26,6 +26,7 @@ LIST Det = det ;
 LIST Def = def ;
 LIST Ind = ind ;
 LIST Pos = pos ; 
+LIST PreDet = predet ;
 LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
 LIST CnjAdv = cnjadv ;
@@ -100,6 +101,7 @@ LIST Che = "che" ;
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
 LIST Collo = "collo" ; 
+LIST Considerare = "considerare" ; 
 LIST Conte = "conte" ; 
 LIST Conto = "conto" ; 
 LIST Da = "da" ;
@@ -116,21 +118,30 @@ LIST Io = "io" ;
 LIST Fine = "fine" ; 
 LIST Genere = "genere" ; 
 LIST Genero = "genero" ; 
+LIST Giudicare = "giudicare" ; 
 LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
 LIST Lei = "lei" ; 
 LIST Mandato = "mandato" ; 
+LIST Mantenere = "mantenere" ; 
+LIST Molto = "molto" ; 
 LIST Mosca = "Mosca" ; 
 LIST Oltre = "oltre" ; 
 LIST Ora = "ora" ; 
+LIST Parere = "parere" ; 
 LIST Primo = "primo" ; 
 LIST Puo_essere = "può essere" ;
+LIST Principale = "principale" ; 
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
 LIST Regia = "regia" ;
+LIST Rimanere = "rimanere" ; 
+LIST Risultare = "risultare" ; 
 LIST San = "San" ;
 LIST Secondo = "secondo" ; 
+LIST Sembrare = "sembrare" ; 
+LIST Sentire = "sentire" ; 
 LIST Sette = "sette" ; 
 LIST Si = "si" ;
 LIST Sole = "sole" ; 
@@ -159,6 +170,9 @@ LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seice
 
 # verbi seguiti da aggetivo
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
+
+# aggetivi seguiti da nome
+LIST AdjN = ("principale") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -297,6 +311,8 @@ SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
 SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
 SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
 
+SELECT A IF (0 Principale) (-1 Def OR Pos) ;	# il principale responsabile
+
 REMOVE A IF (0 ("<Natale>")) ;
 
 REMOVE N IF (0 Sette) (1 N + MascPl) ;
@@ -391,47 +407,47 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a m�
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1 EOS) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1 EOS) ;
 
-REMOVE A IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
-REMOVE A IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
-REMOVE N IF (0 A) (0 N) (NOT -1 Aord) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
-REMOVE N IF (0 A) (0 N) (NOT -1 Aord) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
+REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
 
-SELECT N IF (0 A) (0 N) (NOT 0 Aord) (NOT 0 ("medio")) (-1 Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1 Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ;
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
-REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
-REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 CM) ; 			# allo stato fossile,
-REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 CM) ; 			# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (NOT -1 Aord OR AdjN) (1 CM) ; 			# allo stato fossile,
+REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (NOT -1 Aord OR AdjN) (1 CM) ; 			# allo stato fossile,
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1C Vall) ; 				# il comune nacque
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Vall) ; 			# il comune nacque / di media durata
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 Adv) (2 Vall) ; 			# il comune non nacque
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 Adv) (2 Vall) ; 			# il comune non nacque
 
-REMOVE A IF (-1/* Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) ;
-REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) ;
-REMOVE A IF (-1/* Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) ;	# distinguere gli ambiti e usi
-REMOVE A IF (-1/* Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) ;
+REMOVE A IF (-1/* Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) (NOT -1 Molto) ;
+REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) (NOT -1 Molto) ;
+REMOVE A IF (-1/* Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl) (NOT -1 Molto) ;	# distinguere gli ambiti e usi
+REMOVE A IF (-1/* Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl) (NOT -1 Molto) ;
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		# 
 REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1C A) ; 			# dello Stato Pontificio
-REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C A) ; 			# dello Stato Pontificio
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1C A) (NOT 0 AdjN) ; 	# dello Stato Pontificio
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C A) (NOT 0 AdjN) ; 	# dello Stato Pontificio
 
-REMOVE A IF (0 A) (NOT 0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
-REMOVE A IF (0 A) (NOT 0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
-REMOVE N IF (0 Aord) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
-REMOVE N IF (0 Aord) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+REMOVE A IF (0 A) (NOT 0 Aord OR AdjN) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 	# dello stato messicano di Coahuila / nei primi decenni
+REMOVE A IF (0 A) (NOT 0 Aord OR AdjN) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ;# dello stato messicano di Coahuila / nei primi decenni
+REMOVE N IF (0 Aord OR AdjN) (0 N) (-1/* Det) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
+REMOVE N IF (0 Aord OR AdjN) (0 N) (-1/* Prep) (1 A) (1 N) (2C Prep) ; 		# dello stato messicano di Coahuila / nei primi decenni
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
 REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Prep) (NOT 1 Da) (NOT -1 Sette) ;	# dello stato messicano di Coahuila
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-3/* Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
-REMOVE A IF (0 A) (0 N) (-1C Aord OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
+REMOVE A IF (0 A) (0 N) (-1C Aord OR AdjN OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
@@ -447,8 +463,17 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) ; 			# lo stato italiano
-REMOVE A IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 AdjN LINK 1 Noun_Adj) ; 	# lo stato italiano
+REMOVE Adv IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
+
+REMOVE N IF (0 AdjN) (1 unknown) ;
+
+REMOVE N IF (0 N + Sg) (0 A + Sg) (-1 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) ;	# è verde
+REMOVE N IF (0 N + Pl) (0 A + Pl) (-1 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Pl) ;
+REMOVE N IF (0 N + Sg) (0 A + Sg) (-2 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-1 Adv_PreAdv) ;	# è molto verde
+REMOVE N IF (0 N + Pl) (0 A + Pl) (-2 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-1 Adv_PreAdv) ;	# è molto verde
+REMOVE N IF (0 N + Sg) (0 A + Sg) (-3 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-2 Adv_PreAdv) (-1 Adv_PreAdv) ;	# è sempre molto verde
+REMOVE N IF (0 N + Pl) (0 A + Pl) (-3 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-2 Adv_PreAdv) (-1 Adv_PreAdv) ;	# è sempre molto verde
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
@@ -686,6 +711,11 @@ REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adv_PreAdv) (2 Adj_P
 REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adv_PreAdv) (2 Adj_PP + FemSg) ;
 REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adv_PreAdv) (2 Adj_PP + FemPl) ;
 
+REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (-2 PreDet + MascSg) ;
+REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (-2 PreDet + MascPl) ;
+REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (-2 PreDet + FemSg) ;
+REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (-2 PreDet + FemPl) ;		# tutte le partite
+
 REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
 REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 NP OR unknownMajIni) ;
 REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 NP OR unknownMajIni) ;
@@ -848,7 +878,7 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
@@ -866,6 +896,8 @@ SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carol
 SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
 SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Chiesa>")) ;		# la Chiesa
 SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Bandiera>")) ;	# la Bandiera
+SELECT N IF (-1/* Det + MascSg) (0 ("<Evangelista>")) ;		# un Evangelista
+SELECT N IF (-1/* Det + MascPl OR Num) (0 ("<Evangelisti>")) ;	# i Evangelisti
 SELECT N IF (-1/* Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
 SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
 SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
