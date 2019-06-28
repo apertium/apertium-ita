@@ -21,6 +21,7 @@ LIST Ger = ger ;
 LIST PP = pp ;
 LIST Ifi = ifi ;
 LIST Prs = prs  ;
+LIST Pis = pis  ;
 LIST Imper = imp ;
 LIST Det = det ;
 LIST Def = def ;
@@ -135,6 +136,7 @@ LIST Puo_essere = "può essere" ;
 LIST Principale = "principale" ; 
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
+LIST Qualunque = "qualunque" ; 
 LIST Regia = "regia" ;
 LIST Rimanere = "rimanere" ; 
 LIST Risultare = "risultare" ; 
@@ -344,6 +346,9 @@ SELECT Prep IF (0 Secondo) (1 Det) (2 Noun_Adj) ;
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
 REMOVE N IF (0 Ora) (0 Adv) (NOT -1/* Det + MascSg) (1C PP) ;	# ora conservato
+
+SELECT CnjAdv IF (0 Qualunque) (1 Prs OR Pis) ;
+REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
 SELECT Det IF (0 Det + MascSg) (0 Pron) (1 N + MascSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0 Det + MascPl) (0 Pron) (1 N + MascPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
