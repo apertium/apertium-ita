@@ -128,9 +128,11 @@ LIST Mandato = "mandato" ;
 LIST Mantenere = "mantenere" ; 
 LIST Molto = "molto" ; 
 LIST Mosca = "Mosca" ; 
+LIST Ogni = "ogni" ; 
 LIST Oltre = "oltre" ; 
 LIST Ora = "ora" ; 
 LIST Parere = "parere" ; 
+LIST Partita = "partita" ; 
 LIST Primo = "primo" ; 
 LIST Puo_essere = "può essere" ;
 LIST Principale = "principale" ; 
@@ -301,6 +303,19 @@ SELECT Conte IF (0 Conte) (0 Conto) (1 Di) (2 Top OR unknownMajIni) ;	# conti di
 SELECT Conto IF (0 Conte) (0 Conto) (NOT 1 Di) ;
 SELECT Conto IF (0 Conte) (0 Conto) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 
+SELECT N IF (0 Partita + FemSg) (1 ("giocchare") + PP + FemSg) ;
+SELECT N IF (0 Partita + FemSg) (1 ("vincere") + PP + FemSg) ;
+SELECT N IF (0 Partita + FemSg) (1 ("perdere") + PP + FemSg) ;
+SELECT N IF (0 Partita + FemPl) (1 ("giocchare") + PP + FemPl) ;
+SELECT N IF (0 Partita + FemPl) (1 ("vincere") + PP + FemPl) ;
+SELECT N IF (0 Partita + FemPl) (1 ("perdere") + PP + FemPl) ;
+SELECT PP IF (-1 Partita + FemSg) (0 ("giocchare") + PP + FemSg) ;
+SELECT PP IF (-1 Partita + FemSg) (0 ("vincere") + PP + FemSg) ;
+SELECT PP IF (-1 Partita + FemSg) (0 ("perdere") + PP + FemSg) ;
+SELECT PP IF (-1 Partita + FemPl) (0 ("giocchare") + PP + FemPl) ;
+SELECT PP IF (-1 Partita + FemPl) (0 ("vincere") + PP + FemPl) ;
+SELECT PP IF (-1 Partita + FemPl) (0 ("perdere") + PP + FemPl) ;
+
 SELECT N IF (0 Regia) (1 Di) ;		# regia di
 
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
@@ -379,6 +394,10 @@ SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
 SELECT Num IF (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
 SELECT N IF (0 Secoli) (-1/* Det + Def + MascSg) ;
 SELECT Det IF (NOT -1 Ant) (0 ("I")) (1 Cog) ;	# I Jefferson
+
+REMOVE N IF (0 ("<V>")) (-1 Ant) (NOT 1 Cog OR Ant) ;		# Petro I
+REMOVE N IF (0 ("<V>")) (-1 unknownMajIni) ; 			# Strannocz I
+SELECT N IF (0 ("<V>")) (-1 Num) ;				# 220 V
 
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1C A) (1 Prep) ;		# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musicale nato nel 1856
@@ -475,10 +494,10 @@ REMOVE N IF (0 AdjN) (1 unknown) ;
 
 REMOVE N IF (0 N + Sg) (0 A + Sg) (-1 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) ;	# è verde
 REMOVE N IF (0 N + Pl) (0 A + Pl) (-1 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Pl) ;
-REMOVE N IF (0 N + Sg) (0 A + Sg) (-2 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-1 Adv_PreAdv) ;	# è molto verde
-REMOVE N IF (0 N + Pl) (0 A + Pl) (-2 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-1 Adv_PreAdv) ;	# è molto verde
-REMOVE N IF (0 N + Sg) (0 A + Sg) (-3 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-2 Adv_PreAdv) (-1 Adv_PreAdv) ;	# è sempre molto verde
-REMOVE N IF (0 N + Pl) (0 A + Pl) (-3 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-2 Adv_PreAdv) (-1 Adv_PreAdv) ;	# è sempre molto verde
+REMOVE N IF (0 N + Sg) (0 A + Sg) (-2 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-1 Adv_PreAdv OR CnjAdv) ;	# è molto verde
+REMOVE N IF (0 N + Pl) (0 A + Pl) (-2 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-1 Adv_PreAdv OR CnjAdv) ;	# sono però piuttosto piatti
+REMOVE N IF (0 N + Sg) (0 A + Sg) (-3 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
+REMOVE N IF (0 N + Pl) (0 A + Pl) (-3 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
@@ -646,9 +665,8 @@ REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
-SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 CnjSub) ;
-SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 CnjAdv) ;
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Rel) ;			# nei 27 Comuni dove
+SELECT N IF (-1C/* Num OR Det) (0C N OR A OR PP) (1 Barrera_Final_Estrict_SN OR CM) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
@@ -792,6 +810,8 @@ REMOVE Vall + P2 IF (0 N + FemSg) (0 Vall + P2) (-1 Det + FemSg) (1 Barrera_Fina
 REMOVE Vall + P2 IF (0 N + FemPl) (0 Vall + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
 
 REMOVE V IF (-1 Det + MascSg) (0 ("libro") + MascSg) ;		# il libro
+
+REMOVE N IF (0 N) (0 Vall) (1 Ogni) ;		# orbita ogni 20 giorni
 
 # COORDINAZIONE
 
