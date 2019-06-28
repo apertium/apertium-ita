@@ -176,7 +176,7 @@ LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seice
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
 
 # aggetivi seguiti da nome
-LIST AdjN = ("principale") ;
+LIST AdjN = ("principale") ("ultimo") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -436,7 +436,18 @@ REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 Barrera_
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
 
-SELECT N IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1 Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 A) (0 N + MascSg) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + MascSg) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 A) (0 N + MascPl) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + MascPl) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 A) (0 N + FemSg) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + FemSg) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT N IF (0 A) (0 N + FemPl) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + FemPl) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + MascSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascSg) (1 A) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + MascPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascPl) (1 A) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + FemSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemSg) (1 A) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + FemPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemPl) (1 A) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + MascSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascSg) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
+SELECT Aord IF (0 N) (0 Aord + MascPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascPl) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
+SELECT Aord IF (0 N) (0 Aord + FemSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemSg) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
+SELECT Aord IF (0 N) (0 Aord + FemPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemPl) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
@@ -666,7 +677,8 @@ REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Prep) ;			# due terzi di
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 EOS) ;			# due terzi.
 SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Rel) ;			# nei 27 Comuni dove
-SELECT N IF (-1C/* Num OR Det) (0C N OR A OR PP) (1 Barrera_Final_Estrict_SN OR CM) ;
+SELECT N IF (-1C/* Num OR Det) (0C N OR A) (1 Barrera_Final_Estrict_SN OR CM);
+SELECT N IF (-1C/* Num OR Det) (0C N OR A OR PP) (1 Barrera_Final_Estrict_SN OR CM) (NOT 1 ("da")) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 Prep) ;		# il primo quarto
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
