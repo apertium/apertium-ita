@@ -102,6 +102,7 @@ LIST Che = "che" ;
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
 LIST Collo = "collo" ; 
+LIST Come = "come" ; 
 LIST Considerare = "considerare" ; 
 LIST Conte = "conte" ; 
 LIST Conto = "conto" ; 
@@ -138,6 +139,7 @@ LIST Puo_essere = "può essere" ;
 LIST Principale = "principale" ; 
 LIST Principe = "principe" ; 
 LIST Principio = "principio" ; 
+LIST Quale = "quale" ; 
 LIST Qualunque = "qualunque" ; 
 LIST Regia = "regia" ;
 LIST Rimanere = "rimanere" ; 
@@ -321,6 +323,12 @@ SELECT N IF (0 Regia) (1 Di) ;		# regia di
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1/* Det + FemSg) ;
+
+SELECT Prep IF (0 Come OR Quale) (-1 Vall) (NOT -1 PP) ;	# adottare como
+SELECT Prep IF (0 Come OR Quale) (-2 Avere OR Ser OR Venire) (-1 PP) ;	# avere/essere/venire adottato como
+SELECT Prep IF (0 Come OR Quale) (-3 Avere OR Ser OR Venire) (-2 Adv) (-1 PP) ;
+SELECT Prep IF (0 Come) (-1 Barrera_Inicial_Estrict_SN OR CM) ;
+#REMOVE Prep IF (0 Come OR Quale) (NOT -1 PP) (NOT -2 PP) (NOT -3 PP) ;
 
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
