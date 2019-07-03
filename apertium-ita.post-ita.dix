@@ -111,6 +111,75 @@
       </e>
     </pardef>
 
+    <pardef n="numeros_vocale">
+      <e>
+        <i>1<b/></i>
+      </e>
+      <e>
+        <i>11<b/></i>
+      </e>
+      <e>
+        <i>8</i>
+      </e>
+    </pardef>
+
+    <pardef n="numeros_no_vocale">
+      <e>
+        <i>2</i>
+      </e>
+      <e>
+        <i>3</i>
+      </e>
+      <e>
+        <i>4</i>
+      </e>
+      <e>
+        <i>5</i>
+      </e>
+      <e>
+        <i>6</i>
+      </e>
+      <e>
+        <i>7</i>
+      </e>
+      <e>
+        <i>9</i>
+      </e>
+      <e>
+        <i>0</i>
+      </e>
+      <e>
+        <i>10</i>
+      </e>
+      <e>
+        <i>12</i>
+      </e>
+      <e>
+        <i>13</i>
+      </e>
+      <e>
+        <i>14</i>
+      </e>
+      <e>
+        <i>15</i>
+      </e>
+      <e>
+        <i>16</i>
+      </e>
+      <e>
+        <i>17</i>
+      </e>
+      <e>
+        <i>18</i>
+      </e>
+      <e>
+        <i>19</i>
+      </e>
+      <e>
+        <i>11[0123456789]</i>
+      </e>
+    </pardef>
+
     <pardef n="consonants">
       <e>
         <i>b</i>
@@ -815,6 +884,7 @@
         </p>
         <par n="cons_especiales"/>
       </e>
+<!--
       <e>
         <p>
           <l><b/><a/>il<b/></l>
@@ -822,6 +892,22 @@
         </p>
         <par n="numeros"/>
       </e>
+-->
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>all'</r>
+        </p>
+        <par n="numeros_vocale"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>al<b/></r>
+        </p>
+        <par n="numeros_no_vocale"/>
+      </e>
+
       <e>
         <p>
           <l><b/><a/>il<b/>0<b/></l>
@@ -1035,12 +1121,28 @@
         </p>
         <par n="vocals"/>
       </e>
+<!--
       <e>
         <p>
           <l><b/><a/>il<b/></l>
           <r>del<b/></r>
         </p>
         <par n="numeros"/>
+      </e>
+-->
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>dell'</r>
+        </p>
+        <par n="numeros_vocale"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>del<b/></r>
+        </p>
+        <par n="numeros_no_vocale"/>
       </e>
       <e>
         <p>
@@ -1568,7 +1670,14 @@
           <l><b/><a/>il<b/></l>
           <r>nell'</r>
         </p>
-        <par n="numeros"/>
+        <par n="numeros_vocale"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/></l>
+          <r>nel<b/></r>
+        </p>
+        <par n="numeros_no_vocale"/>
       </e>
 
       <e>
