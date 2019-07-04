@@ -178,7 +178,7 @@ LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seice
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
 
 # aggetivi seguiti da nome
-LIST AdjN = ("principale") ("ultimo") ;
+LIST AdjN = ("principale") ("ultimo") ("altro") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -439,7 +439,7 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 EOS) ; 			# solució problema "nel" (a m�
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1 EOS) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1 EOS) ;
 
-REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det OR Num) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
@@ -466,6 +466,9 @@ REMOVE A IF (0 A) (0 N) (-1/* Det) (1C Vall) ; 				# il comune nacque
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Vall) ; 			# il comune nacque / di media durata
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 Adv) (2 Vall) ; 			# il comune non nacque
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 Adv) (2 Vall) ; 			# il comune non nacque
+
+REMOVE A IF (0 A) (0 N + Pl) (-1 Num) (1C Barrera_Final_Estrict_SN OR Vall) ; 	# I 5 comuni facenti parte
+REMOVE A IF (0 A) (0 N + Pl) (-1 Num) (NOT 0 Aord OR AdjN) ;
 
 REMOVE A IF (-1/* Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg) (NOT -1 Molto) ;
 REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg) (NOT -1 Molto) ;
