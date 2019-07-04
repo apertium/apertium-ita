@@ -2468,6 +2468,51 @@
         <par n="caracter_general"/>
       </e>
 
+      <e>
+        <p>
+	  <l><a/>un<b/>bello<b/></l>
+	  <r>un<b/>bel<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>il<b/>bello<b/></l>
+	  <r>il<b/>bel<b/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+	  <l><a/>un<b/>buono<b/></l>
+	  <r>un<b/>buon<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>il<b/>buono<b/></l>
+	  <r>il<b/>buon<b/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+	  <l><a/>un<b/><a/>santo<b/></l>
+	  <r>un<b/>san<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>il<b/><a/>santo<b/></l>
+	  <r>il<b/>san<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>santo<b/></l>
+	  <r>santo<b/></r>
+        </p>
+      </e>
+
   </section>
 
 </dictionary>
