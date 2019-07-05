@@ -99,6 +99,7 @@ LIST Ancora = "ancora" ;
 LIST Andare = "andare" ; 
 LIST Cardinale = "cardinale" ; 
 LIST Che = "che" ; 
+LIST Certo = "certo" ; 
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
 LIST Collo = "collo" ; 
@@ -178,7 +179,7 @@ LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seice
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
 
 # aggetivi seguiti da nome
-LIST AdjN = ("principale") ("ultimo") ("altro") ;
+LIST AdjN = ("principale") ("ultimo") ("altro") ("ex") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -335,6 +336,11 @@ SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
 SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
 SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
+
+SELECT A IF (-1 Det + MascSg) (0 Certo + MascSg) (1 N + MascSg) ;	# un certo inquinamento
+SELECT A IF (-1 Det + MascPl) (0 Certo + MascPl) (1 N + MascPl) ;
+SELECT A IF (-1 Det + FemSg) (0 Certo + FemSg) (1 N + FemSg) ;
+SELECT A IF (-1 Det + FemPl) (0 Certo + FemPl) (1 N + FemPl) ;
 
 SELECT A IF (0 Principale) (-1 Def OR Pos) ;	# il principale responsabile
 
