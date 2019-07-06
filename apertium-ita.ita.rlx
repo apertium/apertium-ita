@@ -125,9 +125,9 @@ LIST Giudicare = "giudicare" ;
 LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
-LIST Lei = "lei" ; 
-LIST Mandato = "mandato" ; 
-LIST Mantenere = "mantenere" ; 
+LIST Lei = "Lei" ;
+LIST Mandato = "mandato" ;
+LIST Mantenere = "mantenere" ;
 LIST Molto = "molto" ; 
 LIST Mosca = "Mosca" ; 
 LIST Ogni = "ogni" ; 
@@ -220,11 +220,11 @@ SECTION
 SELECT Pron IF (0 Io) ;
 
 SELECT Pron IF (0 Lui) (0 Loro) (1C Det) ;
-SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) ;
+SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) (NOT 0 ("<Loro>")) ;
 	# per proporre loro i libri
 SELECT Lui + F IF (0 Lui) (0 Lei) (0 ("<Lei>")) (-1 BOS) ;
-SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>")) (NOT -1 BOS) ;
-SELECT Lui IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>")) ;
+SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>") OR ("<Loro>")) (NOT -1 BOS) ;
+REMOVE Lei IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>") OR ("<Loro>")) ;
 SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
 	# tra di loro
 
@@ -932,7 +932,7 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
