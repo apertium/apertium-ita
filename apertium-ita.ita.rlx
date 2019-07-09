@@ -126,6 +126,8 @@ LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
 LIST Lei = "Lei" ;
+LIST Indire = "indire" ;
+LIST Indicare = "indicare" ;
 LIST Mandato = "mandato" ;
 LIST Mantenere = "mantenere" ;
 LIST Molto = "molto" ; 
@@ -358,6 +360,8 @@ REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
 REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 REMOVE V IF (0 Mandato) (-1 Primo) ;
+
+REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
 SELECT A IF (-1/* Det + MascSg) (0 Primo + MascSg) ;	# li primo
 SELECT A IF (-1/* Det + FemSg) (0 Primo + FemSg) ;	# la prima
