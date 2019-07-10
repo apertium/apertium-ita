@@ -97,6 +97,7 @@ LIST Dovere = "dovere" ;
 LIST Anche = "anche" ; 
 LIST Ancora = "ancora" ; 
 LIST Andare = "andare" ; 
+LIST Calibro = "calibro" ; 
 LIST Cardinale = "cardinale" ; 
 LIST Che = "che" ; 
 LIST Certo = "certo" ; 
@@ -303,6 +304,8 @@ SELECT Genere IF (0 Genere) (0 Genero) (1 Di) (NOT 2 Ant_Cog OR unknownMajIni) ;
 SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 
 SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
+
+SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
 
 SELECT Conte IF (0 Conte) (0 Conto) (1 Di) (2 Top OR unknownMajIni) ;	# conti di Barcellona
 SELECT Conto IF (0 Conte) (0 Conto) (NOT 1 Di) ;
