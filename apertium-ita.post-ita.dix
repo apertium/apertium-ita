@@ -2528,6 +2528,60 @@
         </p>
       </e>
 
+      <e>
+        <p>
+	  <l><a/>questo<b/></l>
+	  <r>quest'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+	  <l><a/>questo<b/></l>
+	  <r>questo<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>questa<b/></l>
+	  <r>quest'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+	  <l><a/>questa<b/></l>
+	  <r>questa<b/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+	  <l><a/>quello<b/></l>
+	  <r>quell'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+	  <l><a/>quello<b/></l>
+	  <r>quello<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+	  <l><a/>quella<b/></l>
+	  <r>quell'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+	  <l><a/>quella<b/></l>
+	  <r>quella<b/></r>
+        </p>
+      </e>
+
   </section>
 
 </dictionary>
