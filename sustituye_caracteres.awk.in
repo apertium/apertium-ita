@@ -30,7 +30,7 @@ function modifica_l(cad                ,PARTES)
     }
     if(res != $0)
     {
-      if (!index(res, "r=\"LR\""))
+      if (!index(res, "r=\"LR\"") && !index(res, "r=\"RL\""))
       {
         gsub("<e", "<e r=\"LR\"", res);
       }
