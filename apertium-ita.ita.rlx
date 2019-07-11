@@ -51,6 +51,7 @@ SET Ant = (np ant) ;
 SET Cog = (np cog) ;
 SET Ant_Cog = Ant OR Cog ;
 SET Top = (np top) OR (np loc) ;
+SET Org = (org) ;
 SET Al = (al) ;
 
 LIST Sg = sg ; 
@@ -115,6 +116,7 @@ LIST Dei = "dei" ;
 LIST Di = "di" ;
 LIST Diverso = "diverso" ; 
 LIST Dopo = "dopo" ; 
+LIST Duce = "Duce" ; 
 LIST Era = "era" ; 
 LIST Il = "il" ;
 LIST In = "in" ; 
@@ -341,6 +343,8 @@ SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
 SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
 SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
+
+SELECT Al IF (0 Duce) (-1 Def + MascSg) ;
 
 SELECT A IF (-1 Det + MascSg) (0 Certo + MascSg) (1 N + MascSg) ;	# un certo inquinamento
 SELECT A IF (-1 Det + MascPl) (0 Certo + MascPl) (1 N + MascPl) ;
@@ -990,6 +994,8 @@ SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (
 	# regno di Castiglia
 SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;
 	# principe di Viana
+REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
+REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli 
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a")) (0 Ant OR Cog OR Top) ;
 #REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a")) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
