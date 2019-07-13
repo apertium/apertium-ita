@@ -390,6 +390,8 @@ REMOVE N IF (0 Ora) (0 Adv) (NOT -1/* Det + MascSg) (1C PP) ;	# ora conservato
 SELECT CnjAdv IF (0 Qualunque) (1 Prs OR Pis) ;
 REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
+REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
+
 SELECT Det IF (0/* Det + MascSg) (0/* Pron) (1 N + MascSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det + MascPl) (0/* Pron) (1 N + MascPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det + FemSg) (0/* Pron) (1 N + FemSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
