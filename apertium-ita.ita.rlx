@@ -294,8 +294,12 @@ REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
   # un suo libro
 SELECT Det IF (NOT -1/* Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
-SELECT Det IF (NOT -1/* Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;
-  # diversi amici
+SELECT Det IF (NOT -1/* Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
+SELECT A IF (-1 Noun_Adj_PP + MascSg) (0 Diverso + MascSg) (1 Barrera_Final_Estrict_SN) ;
+SELECT A IF (-1 Noun_Adj_PP + MascPl) (0 Diverso + MascPl) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
+SELECT A IF (-1 Noun_Adj_PP + FemSg) (0 Diverso + FemSg) (1 Barrera_Final_Estrict_SN) ;
+SELECT A IF (-1 Noun_Adj_PP + FemPl) (0 Diverso + FemPl) (1 Barrera_Final_Estrict_SN) ;
+
 
 SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) (NOT -1 Di) ;
@@ -385,6 +389,10 @@ REMOVE CnjAdv IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 REMOVE Prep IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 SELECT Prep IF (0 Secondo) (1 NP) ;
 SELECT Prep IF (0 Secondo) (1 Det) (2 Noun_Adj) ;
+
+#SELECT PP IF (0 Subito) (1 Da) ;
+SELECT Adv IF (NOT -1 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
+SELECT Adv IF (-2 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
