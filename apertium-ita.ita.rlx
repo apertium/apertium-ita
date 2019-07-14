@@ -160,6 +160,7 @@ LIST Si = "si" ;
 LIST Sole = "sole" ; 
 LIST Sotto = "sotto" ;
 LIST Stato = "stato" ;
+LIST Stesso = "stesso" ;
 LIST Subito = "subito" ; 
 LIST Tratta = "tratta" ; 
 LIST Trovare = "trovare" ; 
@@ -252,6 +253,7 @@ SELECT Ser IF (0 Puo_essere) (1 PP) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
 
 SELECT PP IF (-1 Essere) (0 Stato) ;
+SELECT Ser IF (-2 ("arribare")) (-1 ("a")) (0 Essere) ;
 
 SELECT PP IF (-1 Stato LINK -1 Essere) ;
 
@@ -289,6 +291,8 @@ REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
 SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
+
+SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
 
 REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
@@ -393,6 +397,11 @@ SELECT Prep IF (0 Secondo) (1 Det) (2 Noun_Adj) ;
 #SELECT PP IF (0 Subito) (1 Da) ;
 SELECT Adv IF (NOT -1 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
 SELECT Adv IF (-2 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
+
+SELECT A IF (-1 N + MascSg) (0 Stesso + MascSg) ;
+SELECT A IF (-1 N + FemSg) (0 Stesso + FemSg) ;
+SELECT A IF (-1 N + MascPl) (0 Stesso + MascPl) ; 	# i umanisti stessi
+SELECT A IF (-1 N + FemPl) (0 Stesso + FemPl) ;
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
