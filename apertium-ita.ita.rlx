@@ -965,8 +965,15 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
+
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Di) (2 Top OR ("San") OR unknownMajIni) ;
+SELECT Sg IF (0 ("signore")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) ;
+SELECT Sg IF (0 ("signore")) (1 Di) (2 Ant OR unknownMajIni) ;
+REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
 REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
@@ -1031,6 +1038,7 @@ SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
 REMOVE NP IF (0 ("Pesce")) (-1 BOS);
+REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
 
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
