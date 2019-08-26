@@ -786,6 +786,13 @@ REMOVE Prs IF (0 N + FemPl) (0 Prs) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere 
 REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
 REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
 
+REMOVE P2 IF (-1C N OR V) (0 P2 OR N OR A OR PP) ;		# conserva collezioni di
+REMOVE P1 IF (-1C N OR V) (0 P1 OR N OR A OR PP) ;		# alimenti complessi
+#REMOVE Prs IF (-1C N + MascSg) (0 Prs OR A + MascSg) ;		# sito attivo
+#REMOVE Prs IF (-1C N + MascPl) (0 Prs OR A + MascPl) ;		# alimenti complessi
+#REMOVE Prs IF (-1C N + FemSg) (0 Prs OR A + FemSg) ;
+#REMOVE Prs IF (-1C N + FemPl) (0 Prs OR A + FemPl) ;
+
 REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adj_PP + MascSg) ;	# il filosofo preferito
 REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adj_PP + MascPl) ;
 REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adj_PP + FemSg) ;
@@ -965,15 +972,16 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
-REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
 
-REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Di) (2 Top OR ("San") OR unknownMajIni) ;
-SELECT Sg IF (0 ("signore")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) ;
-SELECT Sg IF (0 ("signore")) (1 Di) (2 Ant OR unknownMajIni) ;
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Di) (2 Top OR ("San") OR unknownMajIni) ;
 REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
+SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) (NOT -1/* Pl) ;
+SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Di) (2 Top OR ("San") OR unknownMajIni) (NOT -1/* Pl) ;
+
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
 REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
