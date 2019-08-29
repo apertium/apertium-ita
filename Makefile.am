@@ -2,7 +2,7 @@
 ## Makefile for apertium-ita
 ###############################################################################
 
-VERSION=0.20.0
+VERSION=0.2.5
 LANG1=ita
 BASENAME=apertium-$(LANG1)
 
