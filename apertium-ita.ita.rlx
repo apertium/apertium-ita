@@ -220,6 +220,7 @@ SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Vall OR Rel OR 
 SET Barrera_Final_Estrict_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
 SET Barrera_Inicial_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Vall OR Rel ;		# Vall és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Inicial_Estrict_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
+SET Barrera_Inicial_Prop = BOS OR CnjSub OR CnjAdv OR Rel ;
 SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 
 SECTION
@@ -260,6 +261,11 @@ SELECT PP IF (-1 Stato LINK -1 Essere) ;
 SELECT Ser IF (-1C Adv) (0 Era) ;	# non era già arribato
 SELECT Ser IF (0 Era) (1 PP + Sg) ;
 SELECT Ser IF (0 Era) (1 Adv) (2 PP + Sg) ;
+
+SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Det + Sg) ;		# Era un rappresentante
+SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 N + Sg) ;		# Era rappresentante
+SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 A + Sg) ;		# Era intelligente
+SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto intelligente
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
