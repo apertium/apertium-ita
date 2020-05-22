@@ -1063,11 +1063,24 @@ REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR 
 
 # Verbi
 
-SELECT P1 IF (0 ("<sono>")) (-1 Io) ;					# io sono
-SELECT P1 IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
-SELECT P1 IF (0 ("<sono>")) (1 A + Sg OR PP + Sg) ;			# sono povero
-SELECT P1 IF (0 ("<sono>")) (1 Adv_PreAdv) (2 A + Sg OR PP + Sg) ;	# sono molto povero
-SELECT P1 IF (0 ("<sono>")) (1 Adv) (2 Adv_PreAdv) (3 A + Sg OR PP + Sg) ;
+SELECT Sg IF (0 ("<sono>")) (-1 Io) ;						# io sono
+SELECT Sg IF (0 ("<sono>")) (-2 Io) (-1 Adv OR Pron) ;
+SELECT Sg IF (0 ("<sono>")) (-1 Loro) ;						# loro sono
+SELECT Sg IF (0 ("<sono>")) (-2 Loro) (-1 Adv OR Pron) ;
+
+#SELECT Sg IF (0 ("<sono>")) (-1C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) ;	# MA: I locali di vendita sono un luoco
+#SELECT Sg IF (0 ("<sono>")) (-2C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) (-1 Adv OR Pron) ;
+#SELECT Pl IF (0 ("<sono>")) (-1C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) ;
+#SELECT Pl IF (0 ("<sono>")) (-2C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) (-1 Adv OR Pron) ;
+
+SELECT Sg IF (0 ("<sono>")) (1 Adv) (2 Adv_PreAdv) (3 A + Sg OR PP + Sg) ;	# sono sempre molto povero
+SELECT Pl IF (0 ("<sono>")) (1 Adv) (2 Adv_PreAdv) (3 A + Pl OR PP + Pl) ;	# sono sempre molto poveri
+SELECT Sg IF (0 ("<sono>")) (1 Adv_PreAdv) (2 A + Sg OR PP + Sg) ;	# sono molto povero; sono sempre un bambino
+SELECT Pl IF (0 ("<sono>")) (1 Adv_PreAdv) (2 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;	# sono molto poveri; sono sempre dei bambini
+SELECT Sg IF (0 ("<sono>")) (1 A + Sg OR PP + Sg) ;			# sono povero; sono un bambino; sono tutta la famiglia; MA: sono un luogo importante
+SELECT Pl IF (0 ("<sono>")) (1 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;			# sono poveri; sono dei bambini; sono tutti i bambini
+SELECT Pl IF (0 ("<sono>")) (1 Adv) (2 Num) (NOT 2 ("uno")) ;
+SELECT Pl IF (0 ("<sono>")) (1 Num) (NOT 1 ("uno")) ;
 
 REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
 REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
