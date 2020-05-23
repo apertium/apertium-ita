@@ -22,6 +22,7 @@ LIST PP = pp ;
 LIST Ifi = ifi ;
 LIST Prs = prs  ;
 LIST Pis = pis  ;
+LIST Subj = prs pis ;
 LIST Imper = imp ;
 LIST Det = det ;
 LIST Def = def ;
@@ -888,6 +889,9 @@ REMOVE V IF (-1 Det + MascSg) (0 ("libro") + MascSg) ;		# il libro
 
 REMOVE N IF (0 N) (0 Vall) (1 Ogni) ;		# orbita ogni 20 giorni
 
+REMOVE N IF (0 Vall) (-1 ("non")) ;
+REMOVE N IF (0 A) (-1 ("non")) ;
+
 # COORDINAZIONE
 
 REMOVE Pl IF (-1C/* Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
@@ -1089,7 +1093,8 @@ SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
 
-REMOVE Prs IF (NOT -1* CnjAdv OR Che + Rel) ;
+REMOVE Prs IF (NOT -1* CnjSub OR CnjAdv OR Che + Rel OR (".*# che"r)) ;	# "sperare# che" et sim.
+SELECT Subj IF (-1* ("sperare# che")) (0C Vall) ;
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
 
