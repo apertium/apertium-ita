@@ -1,0 +1,17 @@
+<e lm="altroché" a="jaumeortola">        <i>altroché</i><par n="ieri__adv"/></e>
+<e lm="anch'" a="jaumeortola">           <i>anch'</i><par n="ieri__adv"/></e>
+<e lm="ancor" a="jaumeortola">           <i>ancor</i><par n="ieri__adv"/></e>
+<e lm="ben" a="jaumeortola">             <i>ben</i><par n="ieri__adv"/></e>
+<e lm="c'" a="jaumeortola">              <i>c'</i><par n="ieri__adv"/></e>
+<e lm="ce" a="jaumeortola">              <i>ce</i><par n="ieri__adv"/></e>
+<e lm="ci" a="jaumeortola">              <i>ci</i><par n="ieri__adv"/></e>
+<e lm="cioé" a="jaumeortola">            <i>cioé</i><par n="ieri__adv"/></e>
+<e lm="cioè" a="jaumeortola">            <i>cioè</i><par n="ieri__adv"/></e>
+<e lm="dunque" a="jaumeortola">          <i>dunque</i><par n="ieri__adv"/></e>
+<e lm="gioventù" a="jaumeortola">        <i>gioventù</i><par n="ieri__adv"/></e>
+<e lm="però" a="jaumeortola">            <i>però</i><par n="ieri__adv"/></e>
+<e lm="pressocché" a="jaumeortola">      <i>pressocché</i><par n="ieri__adv"/></e>
+<e lm="pur" a="jaumeortola">             <i>pur</i><par n="ieri__adv"/></e>
+<e lm="qualsivoglia" a="jaumeortola">    <i>qualsivoglia</i><par n="ieri__adv"/></e>
+<e lm="quindi" a="jaumeortola">          <i>quindi</i><par n="ieri__adv"/></e>
+<e lm="vi" a="jaumeortola">              <i>vi</i><par n="ieri__adv"/></e>
