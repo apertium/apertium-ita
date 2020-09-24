@@ -507,6 +507,11 @@ SELECT Aord IF (0 N) (0 Aord + MascPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + Ma
 SELECT Aord IF (0 N) (0 Aord + FemSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemSg) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 SELECT Aord IF (0 N) (0 Aord + FemPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemPl) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 
+SELECT Aord IF (-1 Det + MascSg) (0 Aord + MascSg) (1C N + MascSg) ;
+SELECT Aord IF (-1 Det + MascPl) (0 Aord + MascPl) (1C N + MascPl) ;
+SELECT Aord IF (-1 Det + FemSg) (0 Aord + FemSg) (1C N + FemSg) ;
+SELECT Aord IF (-1 Det + FemPl) (0 Aord + FemPl) (1C N + FemPl) ;
+
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (NOT -1 Aord OR AdjN) (1 CM) ; 			# allo stato fossile,
