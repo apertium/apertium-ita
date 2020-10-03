@@ -794,6 +794,8 @@ REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemPl) (1 A + FemPl) ;
 
 # N O V
 
+REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
+
 REMOVE Prs IF (0 N + MascSg) (0 Prs) (1 A + MascSg) (NOT -1* CnjAdv) ;
 REMOVE Prs IF (0 N + MascPl) (0 Prs) (1 A + MascPl) (NOT -1* CnjAdv) ;
 REMOVE Prs IF (0 N + FemSg) (0 Prs) (1 A + FemSg) (NOT -1* CnjAdv) ;
