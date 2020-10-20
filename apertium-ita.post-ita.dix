@@ -928,6 +928,19 @@
         </p>
         <par n="vocals"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA<b/></l>
+          <r>all'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA</l>
+          <r>all'RNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
       <e>
         <p>
@@ -1127,6 +1140,19 @@
           <r>dell'</r>
         </p>
         <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA<b/></l>
+          <r>dell'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA</l>
+          <r>dell'RNA</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
 <!--
       <e>
@@ -1331,6 +1357,19 @@
         </p>
         <par n="vocals"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA<b/></l>
+          <r>dall'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA</l>
+          <r>dall'RNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
       <e>
         <p>
@@ -1497,6 +1536,19 @@
           <r>sull'</r>
         </p>
         <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA<b/></l>
+          <r>sull'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA</l>
+          <r>sull'RNA</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
 
       <e>
@@ -1679,6 +1731,19 @@
         </p>
         <par n="vocals"/>
       </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA<b/></l>
+          <r>nell'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il<b/>RNA</l>
+          <r>nell'RNA</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
       <e>
         <p>
@@ -1794,6 +1859,19 @@
           <r>l'</r>
         </p>
         <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/>RNA<b/></l>
+          <r>l'RNA<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l><b/>RNA</l>
+          <r>l'RNA</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
     
       <e>
