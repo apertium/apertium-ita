@@ -236,6 +236,10 @@ SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>") OR ("<Loro>")) (NOT -1 BOS) ;
 REMOVE Lei IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>") OR ("<Loro>")) ;
 SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
 	# tra di loro
+REMOVE Det IF (0 Loro) (1C Vall) ;
+REMOVE Det IF (0 Loro) (1 Adv) (2 Vall) ;
+SELECT Lui IF (0 Loro) (1 Vall + P3 + Pl) ;
+SELECT Lui IF (0 Loro) (1 Adv) (2 Vall + P3 + Pl) ;
 
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
