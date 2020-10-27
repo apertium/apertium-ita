@@ -236,6 +236,10 @@ SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>") OR ("<Loro>")) (NOT -1 BOS) ;
 REMOVE Lei IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>") OR ("<Loro>")) ;
 SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
 	# tra di loro
+REMOVE Det IF (0 Loro) (1C Vall) ;
+REMOVE Det IF (0 Loro) (1 Adv) (2 Vall) ;
+SELECT Lui IF (0 Loro) (1 Vall + P3 + Pl) ;
+SELECT Lui IF (0 Loro) (1 Adv) (2 Vall + P3 + Pl) ;
 
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
@@ -785,12 +789,26 @@ REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Fi
 REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
 REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 
+REMOVE Adv IF (-1C Prep) (NOT -1/* Det) (0 Adv) (0 N) (1 Barrera_Final_Estrict_SN) ;	# di male.
+
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0C N OR Adv) (NOT 0 Anche) (1 Barrera_Final_Estrict_SN) ;	# Origini e culto / ma anche per
 
 REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1 Det + MascSg) (1 A + MascSg) ; 	# il piano nobile
 REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1 Det + MascPl) (1 A + MascPl) ;
 REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1 Det + FemSg) (1 A + FemSg) ;
 REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemPl) (1 A + FemPl) ;
+
+SELECT Adv IF (-1C V) (0 ("male")) ;		# cominciano male
+SELECT Adv IF (-2 V) (-1 Adv) (0 ("male")) ;	# cominciano sempre male
+
+# N O Prn
+
+REMOVE Pron IF (-2/* Det + MascSg) (-1 A + MascSg) (0 Pron) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Pron IF (-2/* Det + MascPl) (-1 A + MascPl) (0 Pron) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Pron IF (-2* Det + FemSg) (-1 A + FemSg) (0 Pron) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# una buona cosa
+REMOVE Pron IF (-2/* Det + FemPl) (-1 A + FemPl) (0 Pron) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+
+SELECT Pron IF (-1 ("<quello>"i)) (0 ("cosa")) ;
 
 # N O V
 
