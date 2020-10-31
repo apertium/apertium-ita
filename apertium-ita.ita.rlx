@@ -305,6 +305,8 @@ SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
 SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
 
+SELECT Pron IF (0 Si) (1 Vall + P3) ;
+
 REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
   # un suo libro
@@ -314,7 +316,6 @@ SELECT A IF (-1 Noun_Adj_PP + MascSg) (0 Diverso + MascSg) (1 Barrera_Final_Estr
 SELECT A IF (-1 Noun_Adj_PP + MascPl) (0 Diverso + MascPl) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 SELECT A IF (-1 Noun_Adj_PP + FemSg) (0 Diverso + FemSg) (1 Barrera_Final_Estrict_SN) ;
 SELECT A IF (-1 Noun_Adj_PP + FemPl) (0 Diverso + FemPl) (1 Barrera_Final_Estrict_SN) ;
-
 
 SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) (NOT -1 Di) ;
