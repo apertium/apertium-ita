@@ -27,6 +27,7 @@ LIST Imper = imp ;
 LIST Det = det ;
 LIST Def = def ;
 LIST Ind = ind ;
+LIST Dem = dem ;
 LIST Pos = pos ; 
 LIST PreDet = predet ;
 LIST CnjCoo = cnjcoo ;
@@ -451,6 +452,8 @@ SELECT CnjAdv IF (0 ("considerato che")) (NOT -2 Avere) (NOT -1 Avere) ;	# ha vi
 
 REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
 
+REMOVE PP IF (-1C Tn OR Pro OR Det LINK NOT 0 Dem) (-1 Pron) (0 Vall + Pers) ;	# Chi me la porta? / Quelle ligate a
+
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
 SELECT Num IF (NOT -1 BOS) (0 ("I")) (1C N + Sg OR A + Sg) ;	# del secolo I a.C.
@@ -786,6 +789,8 @@ SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Pl) (1 PP + Pl) ;
 REMOVE Inf IF (0 Inf) (0 A + MascSg) (-1 N + MascSg) ;
 REMOVE Inf IF (0 Inf) (0 A + FemSg) (-1 N + FemSg) ;		# la più grande assemblea parlamentare al mondo
 
+REMOVE A IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
+
 # N O Adv
 
 REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
@@ -817,6 +822,8 @@ SELECT Pron IF (-1 ("<quello>"i)) (0 ("cosa")) ;
 # N O V
 
 REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
+
+REMOVE N IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
 REMOVE Prs IF (0 N + MascSg) (0 Prs) (1 A + MascSg) (NOT -1* CnjAdv) ;
 REMOVE Prs IF (0 N + MascPl) (0 Prs) (1 A + MascPl) (NOT -1* CnjAdv) ;
