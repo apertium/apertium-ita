@@ -156,6 +156,7 @@ LIST San = "San" ;
 LIST Secondo = "secondo" ; 
 LIST Sembrare = "sembrare" ; 
 LIST Sentire = "sentire" ; 
+LIST Serie = "serie" ;
 LIST Sette = "sette" ; 
 LIST Si = "si" ;
 LIST Sole = "sole" ; 
@@ -388,6 +389,8 @@ REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
 REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
 REMOVE V IF (0 Mandato) (-1 Primo) ;
+
+SELECT N IF (0 Serie) (1 A) ;
 
 REMOVE A IF (0 Nato) (1 ("a")) ;			# una russa nata a Mosca
 
