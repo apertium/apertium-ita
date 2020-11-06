@@ -1064,6 +1064,7 @@ SELECT N IF (-1/* Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
 SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
 SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
 SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
+REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
