@@ -820,6 +820,10 @@ REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemPl) (1 A + FemPl) ;
 SELECT Adv IF (-1C V) (0 ("male")) ;		# cominciano male
 SELECT Adv IF (-2 V) (-1 Adv) (0 ("male")) ;	# cominciano sempre male
 
+# Det O Prn
+
+SELECT Pron IF (0 ("quello")) (1C Prep) ;
+
 # N O Prn
 
 REMOVE Pron IF (-2/* Det + MascSg) (-1 A + MascSg) (0 Pron) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;
