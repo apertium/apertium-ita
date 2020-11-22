@@ -401,6 +401,10 @@ SELECT A IF (-1/* Det + MascSg) (0 Primo + MascSg) ;	# li primo
 SELECT A IF (-1/* Det + FemSg) (0 Primo + FemSg) ;	# la prima
 SELECT A IF (-1/* Det + MascPl) (0 Primo + MascPl) ;
 SELECT A IF (-1/* Det + FemPl) (0 Primo + FemPl) ;
+SELECT A IF (-1 Prep) (0 Primo + MascSg) (1 N + MascSg) ;
+SELECT A IF (-1 Prep) (0 Primo + FemSg) (1 N + FemSg) ;	# per prima cosa
+SELECT A IF (-1 Prep) (0 Primo + MascPl) (1 N + MascPl) ;
+SELECT A IF (-1 Prep) (0 Primo + FemPl) (1 N + FemPl) ;
 
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
@@ -832,6 +836,7 @@ REMOVE Pron IF (-2* Det + FemSg) (-1 A + FemSg) (0 Pron) (0 Noun_Adj_PP + FemSg)
 REMOVE Pron IF (-2/* Det + FemPl) (-1 A + FemPl) (0 Pron) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 
 SELECT Pron IF (-1 ("<quello>"i)) (0 ("cosa")) ;
+REMOVE Pron IF (-1 Aord) (0 ("cosa")) ;
 
 # N O V
 
