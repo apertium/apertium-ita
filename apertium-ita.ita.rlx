@@ -763,7 +763,8 @@ REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1 Num + SP LINK NOT 0 ("uno")) 
 REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1 Num LINK NOT 0 SP OR ("1")) ;	# 3 metro
 REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1/* Det + Pl) ;			# i metro
 
-SELECT Sg IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
+REMOVE SP IF (0 ("metro") + Sg) (1 ("quadrato") OR ("cubo")) ;
+SELECT SP IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
 
 REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
