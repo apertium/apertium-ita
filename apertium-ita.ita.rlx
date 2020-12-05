@@ -436,6 +436,10 @@ REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
 REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
 
+SELECT Aord IF (-1 Det + Def + MascSg) (0 Aord + MascSg) (1 N + MascSg) ;		# il quinto piano
+SELECT Aord IF (-1 Det + Def + FemSg) (0 Aord + FemSg) (1 N + FemSg) ;
+SELECT Aord IF (-1 Det + Def + MascPl) (0 Aord + MascPl) (1 N + MascPl) ;
+SELECT Aord IF (-1 Det + Def + FemPl) (0 Aord + FemPl) (1 N + FemPl) ;
 SELECT A + Pos IF (-1 Det + Def + MascSg) (0 A + Pos + MascSg) (1 Aord + MascSg) ;	# il suo secondo libro, il suo terzo libro
 SELECT A + Pos IF (-1 Det + Def + FemSg) (0 A + Pos + FemSg) (1 Aord + FemSg) ;
 SELECT A + Pos IF (-1 Det + Def + MascPl) (0 A + Pos + MascPl) (1 Aord + MascPl) ;
@@ -577,7 +581,8 @@ REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ; 		# il titolo 
 REMOVE A IF (0 A) (0 PP) (-2/* Det) (-1 N) (1 Da) (NOT -1 Sette) ;		# il titolo assunto da Filippo
 REMOVE A IF (0 A) (0 PP) (-3/* Det) (-2 N) (-1 A) (1 Da) (NOT -2 Sette) ;	
 
-REMOVE A IF (0 A) (0 N) (-1C Aord OR AdjN OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# nei primi decenni del Novecento
+REMOVE A IF (0 A) (0 N) (-1C Aord OR AdjN OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;		# nei primi decenni del Novecento
+REMOVE Adv IF (0 Adv) (0 N) (-1C Aord OR AdjN OR Det) (1 EOS OR CM OR Prep OR CnjSub OR CnjAdv) ;	# il quinto piano
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Prep) ; 		# dello stato tedesco del Baden-Württemberg
