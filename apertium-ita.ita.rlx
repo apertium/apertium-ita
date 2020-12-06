@@ -297,8 +297,8 @@ SELECT PP IF (-1 Andare + Pl) (0 PP + Pl) ;
 #SELECT Prep IF (0 Dai) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 
-REMOVE N IF (0 ("dei")) ;		# dei: la rivolta dei Fasci siciliani. WARNING: No funciona no sé perquè
-REMOVE N IF (0 N) (0/* Prep) (NOT 0 ("secondo")) ;	# dei (alternativa bèstia però funciona)
+SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
+SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
 
 SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
