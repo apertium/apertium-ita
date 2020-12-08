@@ -304,6 +304,8 @@ SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
+SELECT Pron IF (0 ("alcun") OR ("ciascun") OR ("qualcun") OR ("nessun")) (1 Prep) ;
+
 SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
 SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
@@ -449,7 +451,6 @@ SELECT Aord IF (-2 Det + Def + FemSg) (-1 A + Pos + FemSg) (0 Aord + FemSg) (1 N
 SELECT Aord IF (-2 Det + Def + MascPl) (-1 A + Pos + MascPl) (0 Aord + MascPl) (1 N + MascPl) ;
 SELECT Aord IF (-2 Det + Def + FemPl) (-1 A + Pos + FemPl) (0 Aord + FemPl) (1 N + FemPl) ;
 
-
 SELECT Det IF (0/* Det + MascSg) (0/* Pron) (1 N + MascSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det + MascPl) (0/* Pron) (1 N + MascPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det + FemSg) (0/* Pron) (1 N + FemSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
@@ -510,10 +511,6 @@ REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 
 
 SELECT N IF (-1 ("pieno")) (0 Sole) ;
-
-# DET O PRON
-
-SELECT Pron IF (0 ("alcun") OR ("ciascun") OR ("qualcun") OR ("nessun")) (1 Prep) ;
 
 # N O A
 
