@@ -169,6 +169,7 @@ LIST Subito = "subito" ;
 LIST Tratta = "tratta" ; 
 LIST Trovare = "trovare" ; 
 LIST Turbo = "turbo" ; 
+LIST Tutto = "tutto" ;
 LIST Ultimo = "ultimo" ; 
 LIST Un = "un" ;
 LIST Venire = "venire" ; 
@@ -255,6 +256,11 @@ SELECT Det IF (0 Lo) (0 Il) (1 A) (2 N) ;
 
 SELECT Prep IF (0 Sotto) (1 Det) ;
 
+SELECT Pron IF (0 Tutto + MascSg) (NOT 1 Det + MascSg) ;
+SELECT Pron IF (0 Tutto + MascPl) (NOT 1 Det + MascPl) ;
+SELECT Pron IF (0 Tutto + FemSg) (NOT 1 Det + FemSg) ;
+SELECT Pron IF (0 Tutto + FemPl) (NOT 1 Det + FemPl) ;
+
 SELECT Avere IF (1 PP) ;
 SELECT Avere IF (1 Adv) (2 PP) ;
 
@@ -291,6 +297,10 @@ SELECT PP IF (-1 Andare + Inf) (0 PP + Sg) ;
 SELECT PP IF (-1 Andare + Ger) (0 PP + Sg) ;
 SELECT PP IF (-1 Andare + Sg) (0 PP + Sg) ;
 SELECT PP IF (-1 Andare + Pl) (0 PP + Pl) ;
+
+SELECT Adj_PP (-2 Ser + Sg) (-1 Tutto + Sg) (0 Adj_PP + Sg) ;
+SELECT Adj_PP (-2 Ser + Pl) (-1 Tutto + Pl) (0 Adj_PP + Pl) ;
+SELECT Adj_PP (-2 Avere) (-1 Tutto) (0 Adj_PP) ;
 
 #REMOVE V IF (0 ("dai")) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #REMOVE V IF (0 Dai) ;			# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
