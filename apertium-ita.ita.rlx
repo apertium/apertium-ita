@@ -457,6 +457,11 @@ REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
 REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
 
+SELECT PreDet IF (0 PreDet + MascSg) (1 Det + Def + MascSg) (2 N + MascSg) ;
+SELECT PreDet IF (0 PreDet + FemSg) (1 Det + Def + FemSg) (2 N + FemSg) ;
+SELECT PreDet IF (0 PreDet + MascPl) (1 Det + Def + MascPl) (2 N + MascPl) ;
+SELECT PreDet IF (0 PreDet + FemPl) (1 Det + Def + FemPl) (2 N + FemPl) ;		# ambedue le aree politiche
+
 SELECT Aord IF (-1 Det + Def + MascSg) (0 Aord + MascSg) (1 N + MascSg) ;		# il quinto piano
 SELECT Aord IF (-1 Det + Def + FemSg) (0 Aord + FemSg) (1 N + FemSg) ;
 SELECT Aord IF (-1 Det + Def + MascPl) (0 Aord + MascPl) (1 N + MascPl) ;
