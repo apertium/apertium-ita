@@ -837,6 +837,8 @@ REMOVE Inf IF (0 Inf) (0 A + FemSg) (-1 N + FemSg) ;		# la più grande assemblea
 
 REMOVE A IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
+REMOVE A IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
+
 # N O Adv
 
 REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
@@ -871,6 +873,8 @@ SELECT Pron IF (-1 ("<quello>"i)) (0 ("cosa")) ;
 REMOVE Pron IF (-1 Aord) (0 ("cosa")) ;
 
 # N O V
+
+REMOVE N IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
 REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
 
