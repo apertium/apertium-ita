@@ -65,8 +65,8 @@ LIST MF = mf ;
 
 LIST Masc = m mf ;
 LIST Fem = f mf ;
-#LIST Sg = sg sp ;
-#LIST Pl = pl sp ;
+LIST SgSp = sg sp ;
+LIST PlSp = pl sp ;
 SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
 SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
@@ -116,6 +116,7 @@ LIST Dai = "dai" ;
 LIST Dallo = "dallo" ;
 LIST Dei = "dei" ;
 LIST Di = "di" ;
+LIST Diventare = "diventare" ; 
 LIST Diverso = "diverso" ; 
 LIST Dopo = "dopo" ; 
 LIST Duce = "Duce" ; 
@@ -235,6 +236,14 @@ SELECT Pron IF (0 Io) ;
 SELECT Pron IF (0 Lui) (0 Loro) (1C Det) ;
 SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) (NOT 0 ("<Loro>")) ;
 	# per proporre loro i libri
+SELECT Lei IF (0 ("<Lei>")) (1 Ser + Sg OR Diventare + Sg) (2 Adj_PP + M + SgSp) ;				# Lei è simpatico
+SELECT Lei IF (0 ("<Loro>")) (1 Ser + Pl OR Diventare + Pl) (2 Adj_PP + M + PlSp) ;				# Loro sono simpatici
+SELECT Lei IF (0 ("<Lei>")) (1 Adv) (2 Ser + Sg OR Diventare + Sg) (3 Adj_PP + M + SgSp) ;			# Lei non è simpatico
+SELECT Lei IF (0 ("<Loro>")) (1 Adv) (2 Ser + Pl OR Diventare + Pl) (3 Adj_PP + M + PlSp) ;			# Loro non sono simpatici
+SELECT Lei IF (0 ("<Lei>")) (1 Ser + Sg OR Diventare + Sg) (2 Adv_PreAdv) (3 Adj_PP + M + SgSp) ;		# Lei è molto simpatico
+SELECT Lei IF (0 ("<Loro>")) (1 Ser + Pl OR Diventare + Pl) (2 Adv_PreAdv) (3 Adj_PP + M + PlSp) ;		# Loro sono molto simpatici
+SELECT Lei IF (0 ("<Lei>")) (1 Adv) (2 Ser + Sg OR Diventare + Sg) (3 Adv_PreAdv) (4 Adj_PP + M + SgSp) ;	# Lei non è molto simpatico
+SELECT Lei IF (0 ("<Loro>")) (1 Adv) (2 Ser + Pl OR Diventare + Pl) (3 Adv_PreAdv) (4 Adj_PP + M + PlSp) ;	# Loro non sono molto simpatici
 SELECT Lui + F IF (0 Lui) (0 Lei) (0 ("<Lei>")) (-1 BOS) ;
 SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>") OR ("<Loro>")) (NOT -1 BOS) ;
 REMOVE Lei IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>") OR ("<Loro>")) ;
