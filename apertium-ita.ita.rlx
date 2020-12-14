@@ -124,6 +124,7 @@ LIST Era = "era" ;
 LIST Il = "il" ;
 LIST In = "in" ; 
 LIST Io = "io" ;
+LIST Fare = "fare" ; 
 LIST Fine = "fine" ; 
 LIST Fronte = "fronte" ; 
 LIST Genere = "genere" ; 
@@ -291,6 +292,8 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 A + Sg) ;		# Era intelligente
 SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto intelligente
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
+
+SELECT V IF (-1 Adv) (0 ("<fa>")) ;	# non fa, sempre fa
 
 SECTION
 
@@ -819,6 +822,8 @@ REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascSg) (0 Adj_PP) (1 Adj
 REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemSg) (0 Adj_PP) (1 Adj_PP + FemSg LINK NOT 0 N) ;	# Partita giocata
 REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascPl) (0 Adj_PP) (1 Adj_PP + MascPl LINK NOT 0 N) ;
 REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemPl) (0 Adj_PP) (1 Adj_PP + FemPl LINK NOT 0 N) ;
+
+REMOVE Adj_PP IF (-1 Fare) (0 N + Pl) ;		# fa compromessi
 
 # A O ADV
 
