@@ -362,6 +362,9 @@ SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
 
 SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
 
+SELECT A IF (0 ("<Santo>")) (1 ("spirito") OR ("sepolcro")) ;
+
+SELECT NP IF (0 ("<Conti>")) (-1 Ant OR Cog) ;
 SELECT Conte IF (0 Conte) (0 Conto) (1 Di) (2 Top OR unknownMajIni) ;	# conti di Barcellona
 SELECT Conto IF (0 Conte) (0 Conto) (NOT 1 Di) ;
 SELECT Conto IF (0 Conte) (0 Conto) (1 Di) (NOT 2 Top OR unknownMajIni) ;
@@ -1161,11 +1164,12 @@ REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
 REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
 
+# These rules are commented because they cause more trouble than they solve
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
 # Amb els adjectius hi ha més risc d'error (!)
-SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ; 
-REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
+#SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ; 
+#REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
 
 # Prn
 
