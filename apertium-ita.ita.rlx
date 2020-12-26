@@ -642,7 +642,7 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 AdjN LINK 1 Noun_Adj) ; 	# lo stato italiano
+REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 Aord OR AdjN) ; # lo stato italiano
 REMOVE Adv IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
 
 REMOVE N IF (0 AdjN) (1 unknown) ;
@@ -653,6 +653,23 @@ REMOVE N IF (0 N + Sg) (0 A + Sg) (-2 Ser + Sg OR Considerare + Sg OR Giudicare 
 REMOVE N IF (0 N + Pl) (0 A + Pl) (-2 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-1 Adv_PreAdv OR CnjAdv) ;	# sono però piuttosto piatti
 REMOVE N IF (0 N + Sg) (0 A + Sg) (-3 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
 REMOVE N IF (0 N + Pl) (0 A + Pl) (-3 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
+
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2/* Det + FemSg) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2/* Det + MascPl) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2/* Det + FemPl) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascSg) (NOT -1 N + MascSg) (NOT 0 Aord OR AdjN) (0 N + MascSg) (1 A + MascSg) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemSg) (NOT -1 N + FemSg) (NOT 0 Aord OR AdjN) (0 N + FemSg) (1 A + FemSg) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascPl) (NOT -1 N + MascPl) (NOT 0 Aord OR AdjN) (0 N + MascPl) (1 A + MascPl) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemPl) (NOT -1 N + FemPl) (NOT 0 Aord OR AdjN) (0 N + FemPl) (1 A + FemPl) ;
+SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (NOT 0 Aord OR AdjN) (1 A + MascSg) ;
+SELECT N IF (-2/* Det + FemSg) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (NOT 0 Aord OR AdjN) (1 A + FemSg) ;
+SELECT N IF (-2/* Det + MascPl) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (NOT 0 Aord OR AdjN) (1 A + MascPl) ;
+SELECT N IF (-2/* Det + FemPl) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (NOT 0 Aord OR AdjN) (1 A + FemPl) ;
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
