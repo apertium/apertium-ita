@@ -168,6 +168,7 @@ LIST Sotto = "sotto" ;
 LIST Stato = "stato" ;
 LIST Stesso = "stesso" ;
 LIST Subito = "subito" ; 
+LIST Tra = "tra" ; 
 LIST Tratta = "tratta" ; 
 LIST Trovare = "trovare" ; 
 LIST Turbo = "turbo" ; 
@@ -549,10 +550,15 @@ REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 #SELECT Un IF (-1 Ser + Pl) (NOT -1 Ser + PP) (0 Un + MascPl) (1 N + MascPl) ;
 #SELECT Un IF (-1 Ser + Pl) (NOT -1 Ser + PP) (0 Un + FemPl) (1 N + FemPl) ;
 
-
 SELECT N IF (-1 ("pieno")) (0 Sole) ;
 
+SELECT N IF (0 ("<Stato>")) (NOT -1 BOS) ;
+SELECT N IF (0 Stato) (-1 Det OR Aord OR Pos OR AdjN) ;
+
 # N O A
+
+SELECT N IF (-1 Tra) (1 ("e")) (2C N) ;
+SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1C Barrera_Final_SN) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 			# nei seguenti comuni
