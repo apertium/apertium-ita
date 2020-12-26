@@ -1096,10 +1096,13 @@ SELECT N IF (-4/* Det) (-3C N) (-2 CM) (-1 Det) (0 Noun_Adj_PP LINK NOT 0 NP) (1
 
 SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 
+# PREADV
+
+REMOVE PreAdv IF (NOT 1 A OR Adv) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini") OR ("Palazzo") OR ("Palazzi")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Costa")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
@@ -1114,7 +1117,6 @@ REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Cont
 REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
 SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) (NOT -1/* Pl) ;
 SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Di) (2 Top OR ("San") OR unknownMajIni) (NOT -1/* Pl) ;
-
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
 REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
@@ -1140,6 +1142,7 @@ SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
 
 REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
 REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
+REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
