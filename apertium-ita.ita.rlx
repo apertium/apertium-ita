@@ -1127,7 +1127,7 @@ REMOVE PreAdv IF (NOT 1 A OR Adv) ;
 
 # NP
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Costa")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Consiglio") OR ("Tesoro") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Cantone") OR ("Bandiera") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Costa") OR ("Golfo")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 
 REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
