@@ -478,6 +478,8 @@ SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
 REMOVE N IF (0 Ora) (0 Adv) (NOT -1/* Det + MascSg) (1C PP) ;	# ora conservato
 
+SELECT N IF (0 ("attacco")) (1 ("hacker")) ;
+
 SELECT CnjAdv IF (0 Qualunque) (1 Prs OR Pis) ;
 REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
