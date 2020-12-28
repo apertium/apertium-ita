@@ -301,7 +301,9 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
-SELECT V IF (-1 Adv) (0 ("<fa>")) ;	# non fa, sempre fa
+SELECT V IF (-1 Adv) (0 ("<fa>"i)) ;	# non fa, sempre fa
+SELECT Adv IF (-2 Num OR Ind) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("giorno") OR ("settimana") OR ("mese") OR ("anno") OR ("lustro") OR ("decennio") OR ("secolo") OR ("millennio")) (0 ("<fa>"i)) ;	# una settimana fa 
+REMOVE Adv IF (0 ("<fa>"i)) ;
 
 SECTION
 
