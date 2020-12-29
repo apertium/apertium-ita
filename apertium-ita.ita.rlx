@@ -780,8 +780,10 @@ SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
 
 SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
-SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("spiegare")) (0 Chi) ;
-SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("spiegare")) (-1 Adv) (0 Chi) ;
+SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (0 Chi) ;
+SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (-1 Adv) (0 Chi) ;
+SELECT Interr IF (-1 ("domandare") OR ("chiedere")) (0 Che) ;
+SELECT Interr IF (-2 ("domandare") OR ("chiedere")) (-1 Adv) (0 Che) ;
 
 SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
 SELECT A IF (0C A OR Adv) (-1/* Det + Det) (1 N) ; # una prima verzione (Hack perquè funcioni)
