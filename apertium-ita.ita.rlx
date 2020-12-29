@@ -510,7 +510,8 @@ SELECT PreAdv IF (-1 N + MascSg) (0 PreAdv) (1 A + MascSg) ;
 SELECT PreAdv IF (-1 N + MascPl) (0 PreAdv) (1 A + MascPl) ;
 SELECT PreAdv IF (-1 N + FemSg) (0 PreAdv) (1 A + FemSg) ;
 SELECT PreAdv IF (-1 N + FemPl) (0 PreAdv) (1 A + FemPl) ;
-REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR Adv) ;			# tutelando così la credibilità
+REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR PP OR Adv) ;		# tutelando così la credibilità
+SELECT PreAdv IF (0 Molto) (1C A OR PP OR Adv) ;			# era molto complessa, e molto corrotta
 
 SELECT A OR Adv OR PP IF (-1C PreAdv) ;
 
@@ -897,7 +898,8 @@ REMOVE A IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
 # N O Adv
 
-REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# al sole
+SELECT Adv IF (-1 ("<molto>"i)) (0 ("<bene>"i)) ;
+REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) (NOT -1 Molto) ;	# al sole
 REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
 REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
 REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
@@ -1289,3 +1291,5 @@ REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("
 
 REMOVE Pers IF (-1C Vall + Pers) (0 Vall + Pers) ;	# vide rinchiusi
 REMOVE Pers IF (0C Vall + Pers) (1 Vall + Pers) ;	# vide rinchiusi
+REMOVE Pers IF (-2C Ser + Pers) (-1 Molto) (0 Vall + Pers) ;			# è molto complesso
+REMOVE Pers IF (-2C Ser + Pers) (-1C PreAdv OR Adv) (0 Vall + Pers) (0 A) ;	# è sempre complesso
