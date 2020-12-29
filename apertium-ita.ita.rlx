@@ -103,6 +103,7 @@ LIST Andare = "andare" ;
 LIST Calibro = "calibro" ; 
 LIST Cardinale = "cardinale" ; 
 LIST Che = "che" ; 
+LIST Chi = "chi" ; 
 LIST Certo = "certo" ; 
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
@@ -772,11 +773,15 @@ REMOVE Interr IF (-2 N + MascPl) (-1 A + MascPl) (0 Interr) (0 Rel + MascPl) ;
 REMOVE Interr IF (-2 N + FemSg) (-1 A + FemSg) (0 Interr) (0 Rel + FemSg) ;
 REMOVE Interr IF (-2 N + FemPl) (-1 A + FemPl) (0 Interr) (0 Rel + FemPl) ;
 
-SELECT Rel IF (-1C N OR A OR NP) (0 Che) ;		# l'uomo che dice
-SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che) ;	# l'uomo, che dice
-SELECT Rel IF (-1/* Det + Def) (0 Che) ;
+SELECT Rel IF (-1C N OR A OR NP) (0 Che OR Chi) ;		# l'uomo che dice
+SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
+SELECT Rel IF (-1/* Det + Def) (0 Che OR Chi) ;
 SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
-SELECT Rel IF (-1 unknown) (0 Che) ;
+SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
+
+SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
+SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("spiegare")) (0 Chi) ;
+SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("spiegare")) (-1 Adv) (0 Chi) ;
 
 SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
 SELECT A IF (0C A OR Adv) (-1/* Det + Det) (1 N) ; # una prima verzione (Hack perquè funcioni)
