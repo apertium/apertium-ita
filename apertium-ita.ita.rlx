@@ -97,6 +97,7 @@ LIST Ser = vbser ;
 LIST Essere = "essere" ;
 LIST Dovere = "dovere" ;
 
+LIST Altro = "altro" ; 
 LIST Anche = "anche" ; 
 LIST Ancora = "ancora" ; 
 LIST Andare = "andare" ; 
@@ -346,6 +347,11 @@ SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
 
 SELECT Pron IF (0 Si) (1 Vall + P3) ;
+
+SELECT A IF (-1/* Det + MascSg) (0 Altro + MascSg) (1 N + MascSg) ;
+SELECT A IF (-1/* Det + FemSg) (0 Altro + FemSg) (1 N + FemSg) ;
+SELECT A IF (-1/* Det + MascPl) (0 Altro + MascPl) (1 N + MascPl) ;
+SELECT A IF (-1/* Det + FemPl) (0 Altro + FemPl) (1 N + FemPl) ;
 
 REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
   # mia mamma
