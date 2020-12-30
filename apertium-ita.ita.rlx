@@ -578,6 +578,7 @@ SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1C Barrera_Final_SN) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 			# nei seguenti comuni
+REMOVE A IF (0 A) (0 N) (-2 CnjCoo) (-1C A) (1C Barrera_Final_SN) ; 			# e grande amico
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1C Barrera_Final_SN) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ;
