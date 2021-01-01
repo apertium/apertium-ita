@@ -166,6 +166,7 @@ LIST Serie = "serie" ;
 LIST Sette = "sette" ; 
 LIST Si = "si" ;
 LIST Sole = "sole" ; 
+LIST Solo = "solo" ; 
 LIST Sotto = "sotto" ;
 LIST Stato = "stato" ;
 LIST Stesso = "stesso" ;
@@ -569,6 +570,8 @@ REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 #SELECT Un IF (-1 Ser + Pl) (NOT -1 Ser + PP) (0 Un + FemPl) (1 N + FemPl) ;
 
 SELECT N IF (-1 ("pieno")) (0 Sole) ;
+
+SELECT Adv IF (0 Solo + MascSg) (1 Da) ;		# 5 milioni e mezzo di euro solo dal video
 
 SELECT N IF (0 ("<Stato>")) (NOT -1 BOS) ;
 SELECT N IF (0 Stato) (-1 Det OR Aord OR Pos OR AdjN) ;
