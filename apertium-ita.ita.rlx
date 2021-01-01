@@ -467,6 +467,8 @@ SELECT A IF (-1 Prep) (0 Primo + FemPl) (1 N + FemPl) ;
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
 SELECT A IF (-1/* Det + MascSg) (0 Secondo + MascSg) (1 Noun_Adj_PP + MascSg) ;
+SELECT A IF (0 Secondo) (1 Di) (2 Num) ;	# Secondo dei dieci figli
+SELECT A IF (-1 ("atto") + MascSg OR ("capitolo") + MascSg) (0 Secondo + MascSg) (NOT 1 Det) ;
 REMOVE CnjAdv IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 REMOVE Prep IF (-1/* Det + MascSg) (0 Secondo + MascSg) ;
 SELECT Prep IF (0 Secondo) (1 NP) ;
