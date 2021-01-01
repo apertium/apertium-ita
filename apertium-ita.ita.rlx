@@ -337,6 +337,10 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
 
+REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
+REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (-1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
+SELECT ("riso_pianta") IF (0 ("<riso>"i)) (0 ("riso")) ;
+
 SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
