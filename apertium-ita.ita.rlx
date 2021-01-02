@@ -366,7 +366,7 @@ SELECT A IF (-1/* Det + FemSg) (0 Altro + FemSg) (1 N + FemSg) ;
 SELECT A IF (-1/* Det + MascPl) (0 Altro + MascPl) (1 N + MascPl) ;
 SELECT A IF (-1/* Det + FemPl) (0 Altro + FemPl) (1 N + FemPl) ;
 
-REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) ;
+REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) (NOT 0 Certo) ;
   # mia mamma
   # un suo libro
 SELECT Det IF (NOT -1/* Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
@@ -441,6 +441,10 @@ SELECT A IF (-1 Det + MascSg) (0 Certo + MascSg) (1 N + MascSg) ;	# un certo inq
 SELECT A IF (-1 Det + MascPl) (0 Certo + MascPl) (1 N + MascPl) ;
 SELECT A IF (-1 Det + FemSg) (0 Certo + FemSg) (1 N + FemSg) ;
 SELECT A IF (-1 Det + FemPl) (0 Certo + FemPl) (1 N + FemPl) ;
+SELECT A IF (-1 N + MascSg) (0 Certo + MascSg) ;	# una notizia certa riguardante 
+SELECT A IF (-1 N + MascPl) (0 Certo + MascPl) ;
+SELECT A IF (-1 N + FemSg) (0 Certo + FemSg) ;
+SELECT A IF (-1 N + FemPl) (0 Certo + FemPl) ;
 
 SELECT A IF (0 Principale) (-1 Def OR Pos) ;	# il principale responsabile
 
