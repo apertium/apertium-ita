@@ -77,6 +77,8 @@ SET Pro = (prn pro) ;
 SET Tn = (prn tn) ;
 SET Tn_nt = (prn tn nt) ;
 
+SET Pref = (adj mf sp) ;
+
 SET Aord = (adj ord) OR ("sette") ;	# sette/setta
 
 LIST P1 = (p1) ;
@@ -309,6 +311,12 @@ SELECT Adv IF (-2 Num OR Ind) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("gior
 REMOVE Adv IF (0 ("<fa>"i)) ;
 
 REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
+
+# Prefissi
+
+SELECT Pref IF (0 (META:/-/r)) (1 N OR A OR V) ;
+SELECT Pref IF (1 ("-")) (2 N OR A OR V) ;
+REMOVE Pref IF (0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
 
 SECTION
 
