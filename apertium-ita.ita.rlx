@@ -705,6 +705,19 @@ SELECT N IF (-2/* Det + FemSg) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (
 SELECT N IF (-2/* Det + MascPl) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (NOT 0 Aord OR AdjN) (1 A + MascPl) ;
 SELECT N IF (-2/* Det + FemPl) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (NOT 0 Aord OR AdjN) (1 A + FemPl) ;
 
+REMOVE N IF (-1C N + MascSg) (0 A + MascSg) ;
+REMOVE N IF (-1C N + MascPl) (0 A + MascPl) ;
+REMOVE N IF (-1C N + FemSg) (0 A + FemSg) ;
+REMOVE N IF (-1C N + FemPl) (0 A + FemPl) ;
+REMOVE N IF (-2C N + MascSg) (-1 A + MascSg) (0 A + MascSg) ;
+REMOVE N IF (-2C N + MascPl) (-1 A + MascPl) (0 A + MascPl) ;
+REMOVE N IF (-2C N + FemSg) (-1 A + FemSg) (0 A + FemSg) ;
+REMOVE N IF (-2C N + FemPl) (-1 A + FemPl) (0 A + FemPl) ;
+REMOVE N IF (-3C N + MascSg) (-2 A + MascSg) (-1 A + MascSg) (0 A + MascSg) ;
+REMOVE N IF (-3C N + MascPl) (-2 A + MascPl) (-1 A + MascPl) (0 A + MascPl) ;
+REMOVE N IF (-3C N + FemSg) (-2 A + FemSg) (-1 A + FemSg) (0 A + FemSg) ;
+REMOVE N IF (-3C N + FemPl) (-2 A + FemPl) (-1 A + FemPl) (0 A + FemPl) ;
+
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
 
@@ -1135,6 +1148,14 @@ SELECT N IF (2C N) (1 CnjCoo) (0C Noun_Adj_PP LINK NOT 0 NP) (-1 Barrera_Inicial
 SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ; 
 SELECT N IF (-3 CM) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 A) ; 
 SELECT N IF (0 Noun_Adj_PP) (1 CM) (2C N) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+SELECT Sg IF (-2C N + Sg) (-1 CM) (0 N + Sg) (1 CnjCoo) (2 N + Sg) ; 
+SELECT Pl IF (-2C N + Pl) (-1 CM) (0 N + Pl) (1 CnjCoo) (2 N + Pl) ; 
+SELECT Masc IF (-2C N + Masc) (-1 CM) (0 N + Masc) (1 CnjCoo) (2 N + Masc) ; 
+SELECT Fem IF (-2C N + Fem) (-1 CM) (0 N + Fem) (1 CnjCoo) (2 N + Fem) ; 
+SELECT Sg IF (-3 CM) (-2C N + Sg) (-1 CnjCoo) (0 N + Sg) (NOT 1 A) ; 
+SELECT Pl IF (-3 CM) (-2C N + Pl) (-1 CnjCoo) (0 N + Pl) (NOT 1 A) ; 
+SELECT Masc IF (-3 CM) (-2C N + Masc) (-1 CnjCoo) (0 N + Masc) (NOT 1 A) ; 
+SELECT Fem IF (-3 CM) (-2C N + Fem) (-1 CnjCoo) (0 N + Fem) (NOT 1 A) ; 
 # compositor, teórico y pedagogo
 # varios religiosos, pensadores y políticos
 
