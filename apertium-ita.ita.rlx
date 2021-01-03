@@ -876,6 +876,18 @@ SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 A + F) (NOT 1 A + M) ;
 SELECT M IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + M) (NOT 2 A + F) ;	# consigliere molto diplomatico
 SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
+SELECT Top IF (-1 ("regione") OR ("provincia") OR ("distretto")) (0 MajIni) ;		# nella Regione Veneto
+SELECT Top IF (-2 ("regione") OR ("provincia") OR ("distretto")) (-1 A) (0 MajIni) ;
+
+REMOVE A + F IF (-1C Noun_NP + M) (0 A + F) (NOT -1 (META:/[-"«»]/r));
+REMOVE A + M IF (-1C Noun_NP + F) (0 A + M) (NOT -1 (META:/[-"«»]/r)) ;
+REMOVE A + Pl IF (-1C Noun_NP + Sg) (0 A + Pl) (NOT -1 (META:/[-"«»]/r)) ;
+REMOVE A + Sg IF (-1C Noun_NP + Pl) (0 A + Sg) (NOT -1 (META:/[-"«»]/r)) ;
+REMOVE N + F IF (0 N + F) (1C A + M) (NOT 0 (META:/[-"«»]/r)) ;			# consigliere comunale
+REMOVE N + M IF (0 N + M) (1C A + F) (NOT 0 (META:/[-"«»]/r)) ;
+REMOVE N + Pl IF (0 N + Pl) (1C A + Sg) (NOT 0 (META:/[-"«»]/r)) ;		# consigliere comunale
+REMOVE N + Sg IF (0 N + Sg) (1C A + Pl) (NOT 0 (META:/[-"«»]/r)) ;
+
 SELECT Sg IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Sg) ;
 SELECT Pl IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Pl) ;
 SELECT Sg IF (0 A + Sg) (0 A + Pl) (-1/* Det + Sg) ;
