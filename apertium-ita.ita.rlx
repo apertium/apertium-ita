@@ -194,6 +194,7 @@ LIST Pl3 = (p3 pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ("Duemila") ;
+LIST Mesi = ("gennaio") ("febbraio") ("marzo") ("aprile") ("maggio") ("giugno") ("luglio") ("agosto") ("settembre") ("ottobre") ("novembre") ("dicembre") ;
 
 # verbi seguiti da aggetivo
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
@@ -724,6 +725,8 @@ REMOVE N IF (-3C N + FemPl) (-2 A + FemPl) (-1 A + FemPl) (0 A + FemPl) ;
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
+SELECT N IF (0 Fine) (1 Mesi) ;
+SELECT Fem IF (0 Fine) (1 Mesi) ;
 
 REMOVE A IF (0 A) (0 N) (-1 ("avere")) (NOT 1 A) ;
 REMOVE A IF (0 A) (0 N) (-2 ("avere")) (-1 Adv) (NOT 1 A) ;	# non ebbe più dubbi
