@@ -6,5 +6,6 @@
     <equiv-char value="&#x2BC;"/>
     <equiv-char value="&#8217;"/>
     <equiv-char value="´"/>
+    <equiv-char value="‘"/>
   </char>
 </analysis-chars>
