@@ -1332,6 +1332,10 @@ SELECT Adv IF (0 Ce) (1 Lo) (2 ("avere") + Pers) ;			# ce l'ho
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 ("questo") OR ("quello")) ;
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 N) ;
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 A) (4 N) ;
+SELECT P1 IF (0 Ci) (1 ("piacere") + P3) ;
+SELECT P1 IF (0 Ci) (1 ("dispiacere") + P3) ;
+SELECT P1 IF (0 Ci) (1 ("dolere") + P3) ;
+SELECT P1 IF (0 Ci) (1 ("solere") + P3) ;
 
 # Verbi
 
