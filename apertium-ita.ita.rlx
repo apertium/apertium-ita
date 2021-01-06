@@ -105,9 +105,11 @@ LIST Ancora = "ancora" ;
 LIST Andare = "andare" ; 
 LIST Calibro = "calibro" ; 
 LIST Cardinale = "cardinale" ; 
+LIST Ce = "ce" ; 
+LIST Certo = "certo" ; 
 LIST Che = "che" ; 
 LIST Chi = "chi" ; 
-LIST Certo = "certo" ; 
+LIST Ci = "ci" ; 
 LIST Circa = "circa" ; 
 LIST Colle = "colle" ; 
 LIST Collo = "collo" ; 
@@ -826,6 +828,7 @@ SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
 
 SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
+SELECT Interr IF (-2 BOS) (-1 Prep) (0 Che OR Chi) (1* ("?")) ;
 SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (0 Chi) ;
 SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (-1 Adv) (0 Chi) ;
 SELECT Interr IF (-1 ("domandare") OR ("chiedere")) (0 Che) ;
@@ -1308,7 +1311,15 @@ REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
 
 # Prn
 
-SELECT P1 IF (0 ("ci")) (1 Vall + P1 + Pl) ;
+SELECT Adv IF (0 Ci) (1 Ser + P3) (NOT 1 PP) ;
+SELECT P3 IF (-1 Ci) (0 Ser + P3) (NOT 1 PP) ;
+SELECT P1 IF (0 Ci) (1 Vall + P1 + Pl) ;
+SELECT P1 IF (0 Ce) (1 Lo) (2 V + Pers) (NOT 2 ("avere")) (NOT 3 PP) ;	# ce lo dice
+SELECT P1 IF (0 Ce) (1 Lo) (2 Avere + Pers) (3 PP) ;			# ce lo ha detto
+SELECT Adv IF (0 Ce) (1 Lo) (2 ("avere") + Pers) ;			# ce l'ho
+SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 ("questo") OR ("quello")) ;
+SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 N) ;
+SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 A) (4 N) ;
 
 # Verbi
 
