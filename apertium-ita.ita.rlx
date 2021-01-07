@@ -320,9 +320,12 @@ REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
 
 # Prefissi
 
-SELECT Pref IF (0 (META:/-/r)) (1 N OR A OR V) ;
-SELECT Pref IF (1 ("-")) (2 N OR A OR V) ;
+SELECT Pref IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
+SELECT Pref IF (1 ("-")) (2 N OR A OR V OR unknown) ;
 REMOVE Pref IF (0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
+SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
+SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (1 ("-")) (2 N OR A OR V OR unknown) ;
+REMOVE A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
 
 SECTION
 
