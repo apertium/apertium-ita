@@ -1320,6 +1320,10 @@ REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
 REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
 
+SELECT Org IF (0 ("Lazio")) (-1 Det + Def + FemSg) ;
+SELECT Org IF (0 ("Lazio")) (-2 Det + Def + FemSg) ;
+REMOVE Org IF (0 ("Lazio")) ;
+
 # These rules are commented because they cause more trouble than they solve
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
