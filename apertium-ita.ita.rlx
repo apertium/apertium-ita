@@ -1347,6 +1347,9 @@ SELECT P1 IF (0 Ci) (1 ("piacere") + P3) ;
 SELECT P1 IF (0 Ci) (1 ("dispiacere") + P3) ;
 SELECT P1 IF (0 Ci) (1 ("dolere") + P3) ;
 SELECT P1 IF (0 Ci) (1 ("solere") + P3) ;
+SELECT SUB:1 P1 IF (0 Imper) (0/* Ci + Enc) ;
+SELECT SUB:1 P1 IF (-1 Vall + P1 + Pl) (0 Inf) (0/* Ci + Enc) ;
+SELECT SUB:1 P1 IF (-2 Vall + P1 + Pl) (-1 Prep) (0 Inf) (0/* Ci + Enc) ;
 
 # Verbi
 
