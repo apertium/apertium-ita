@@ -330,6 +330,7 @@ REMOVE A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("rus
 SECTION
 
 REMOVE Imper IF (NOT 1* Excl) ;
+SELECT Imper IF (0C Vall) (1* Excl) (NOT -1* Vall + Pers) (NOT 1* Vall + Pers) ;
 
 SELECT Essere IF (0 Sg1) ;
 
