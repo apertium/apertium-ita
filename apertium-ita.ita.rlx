@@ -1412,3 +1412,12 @@ REMOVE Pers IF (-1C Vall + Pers) (0 Vall + Pers) ;	# vide rinchiusi
 REMOVE Pers IF (0C Vall + Pers) (1 Vall + Pers) ;	# vide rinchiusi
 REMOVE Pers IF (-2C Ser + Pers) (-1 Molto) (0 Vall + Pers) ;			# è molto complesso
 REMOVE Pers IF (-2C Ser + Pers) (-1C PreAdv OR Adv) (0 Vall + Pers) (0 A) ;	# è sempre complesso
+
+# Selection of dictionary forms if there is only one word
+SELECT N + MascSg IF (-1 BOS) (1 EOS) ;
+SELECT N + FemSg IF (-1 BOS) (1 EOS) ;
+SELECT A + MascSg IF (-1 BOS) (1 EOS) ;
+SELECT V + Inf IF (-1 BOS) (1 EOS) ;
+SELECT Pron + MascSg IF (-1 BOS) (1 EOS) ;
+SELECT Prep IF (-1 BOS) (1 EOS) ;
+SELECT Adv IF (-1 BOS) (1 EOS) ;
