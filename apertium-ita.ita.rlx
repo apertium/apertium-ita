@@ -126,6 +126,7 @@ LIST Di = "di" ;
 LIST Diventare = "diventare" ; 
 LIST Diverso = "diverso" ; 
 LIST Dopo = "dopo" ; 
+LIST Dove = "dove" ; 
 LIST Duce = "Duce" ; 
 LIST Era = "era" ; 
 LIST Il = "il" ;
@@ -162,6 +163,7 @@ LIST Principe = "principe" ;
 LIST Principio = "principio" ; 
 LIST Quale = "quale" ; 
 LIST Qualunque = "qualunque" ; 
+LIST Quanto = "cuanto" ; 
 LIST Regia = "regia" ;
 LIST Rimanere = "rimanere" ; 
 LIST Risultare = "risultare" ; 
@@ -435,11 +437,11 @@ SELECT Prep IF (0 Come OR Quale) (-2 Avere OR Ser OR Venire) (-1 PP) ;	# avere/e
 SELECT Prep IF (0 Come OR Quale) (-3 Avere OR Ser OR Venire) (-2 Adv) (-1 PP) ;
 SELECT Prep IF (0 Come) (-1 Barrera_Inicial_Estrict_SN OR CM) ;
 #REMOVE Prep IF (0 Come OR Quale) (NOT -1 PP) (NOT -2 PP) (NOT -3 PP) ;
-SELECT Interr IF (0 Come OR Quale) (1 V) (1* ("?")) ;
-SELECT V IF (-1 Come OR Quale) (0 V) (1* ("?")) ;
-SELECT Interr IF (0 Come OR Quale) (1 Tn) (2 V) (1* ("?")) ;
-SELECT Interr IF (0 Come OR Quale) (1 Det) (2 N) (3 V) (1* ("?")) ;
-SELECT Interr IF (0 Come OR Quale) (1 Det) (2 Noun_Adj) (3 Noun_Adj) (4 V) (1* ("?")) ;
+SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 V) (1* ("?")) ;
+SELECT V IF (-1 Come OR Quale OR Quanto OR Dove) (0 V) (1* ("?")) ;
+SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Tn) (2 V) (1* ("?")) ;
+SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 N) (3 V) (1* ("?")) ;
+SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 Noun_Adj) (3 Noun_Adj) (4 V) (1* ("?")) ;
 
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
@@ -832,6 +834,7 @@ REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazio
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
 SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
+REMOVE CnjAdv IF (-1 BOS) (0 Interr) (0 CnjAdv) (1* ("?"));
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
 REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
