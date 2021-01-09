@@ -137,6 +137,8 @@ LIST Fronte = "fronte" ;
 LIST Genere = "genere" ; 
 LIST Genero = "genero" ; 
 LIST Giudicare = "giudicare" ; 
+LIST Latta = "latta" ; 
+LIST Latte = "latte" ; 
 LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
@@ -481,6 +483,8 @@ REMOVE A IF (0 Nato) (1 ("a")) ;			# una russa nata a Mosca
 
 SELECT Masc IF (NOT -1/* F OR N) (0 Fronte + Fem) (NOT 1 F) ;
 SELECT Masc IF (NOT -1/* F OR N) (0 Fronte + Fem) (1 Prep) ;
+
+SELECT Latte + Sg IF (NOT -1/* Pl) (0 Latta + Pl) (NOT 1 Pl) ;
 
 REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
