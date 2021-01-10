@@ -249,6 +249,8 @@ SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 SECTION
 
 REMOVE Interj IF (NOT 1* ("!")) ;
+SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
+SELECT Interj IF (1 CM) (1* ("!")) ;
 
 SELECT Pron IF (0 Io) ;
 
