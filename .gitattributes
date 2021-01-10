@@ -1,37 +1,7 @@
-* text=auto !eol
-/ACKNOWLEDGEMENTS -text
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/apertium-ita.ita.acx -text
-/apertium-ita.ita.dix -text
-/apertium-ita.ita.rlx -text
-/apertium-ita.ita.tsx -text svneol=unset#application/xml
-/apertium-ita.pc.in -text
-/apertium-ita.post-ita.dix -text
-/autogen.sh -text
-/ciao -text
-/configure.ac -text
-/i_to_p.awk.in -text
-/inline_e.awk.in -text
-/ita-supervised.make -text
-ita-tagger-data/ita-supervised.prob -text
-ita-tagger-data/ita.crp -text
-ita-tagger-data/ita.crp.txt -text
-ita-tagger-data/ita.dic -text
-ita-tagger-data/ita.tagged -text
-ita-tagger-data/ita.tagged.txt -text
-ita-tagger-data/ita.untagged -text
-/ita-unsupervised.make -text
-/ita.prob -text
-/modes.xml -text svneol=unset#application/xml
-/sustituye_caracteres.awk.in -text
-texts/puupankki/puupankki.ita.vislcg -text
+* text eol=lf
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true
+*.prob binary

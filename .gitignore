@@ -17,3 +17,7 @@
 /ita.automorf.att.gz
 /missing
 /modes
+/.deps
+/i_to_p.awk
+/inline_e.awk
+/sustituye_caracteres.awk
