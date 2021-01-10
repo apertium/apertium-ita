@@ -635,6 +635,7 @@ REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 		# nei segue
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1 CnjCoo) (NOT 2 A) ; 
 REMOVE A IF (0 A) (0 N) (-2 CnjCoo) (-1C A) (1C Barrera_Final_SN) ;		# e grande amico
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 CnjCoo) (2C Prep) ; 			# tempo di record e nel giro
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1C Barrera_Final_SN) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ;
 
