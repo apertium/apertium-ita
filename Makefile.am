@@ -66,7 +66,11 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_itadir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_ita_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_ita_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_ita_DATA=$(TARGETS_COMMON) \
+	$(LANG1).prob \
+	$(BASENAME).$(LANG1).dix \
+	$(BASENAME).$(LANG1).rlx \
+	$(BASENAME).$(LANG1).tsx
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -74,10 +78,6 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_ita_srcdir) || mkdir -p $(DESTDIR)$(apertium_ita_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_ita_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ita_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).tsx $(DESTDIR)$(apertium_ita_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
