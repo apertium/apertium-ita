@@ -1,0 +1,24 @@
+[0DUCxD10owuT#0] ^,/,<cm>$
+[/0DUCxD10owuT]
+[0IB31Mid3j4m#0] ^prima dʼ/prima di<pr>$
+[/0IB31Mid3j4m]
+[1XA1LFU_EuJ1#0] ^t’/ti<prn><pro><p2><mf><sg>$
+[/1XA1LFU_EuJ1]
+[BaBlArJO0kM_#0] ^Clbeaiu/*Clbeaiu$
+[/BaBlArJO0kM_]
+[Ca9ey7EkDTOX#0] ^grazie all’/grazie a<pr>+il<det><def><mf><sg>$
+[/Ca9ey7EkDTOX]
+[Jl_aF6NGEbFT#0] ^'/'<apos>$
+[/Jl_aF6NGEbFT]
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[i7vZKpQDMpa9#0] ^n'/ne<prn><pro><adv>$
+[/i7vZKpQDMpa9]
+[lmx8rIyD9HJd#0] ^lʼ/il<det><def><mf><sg>/lo<prn><pro><p3><m><sg>/lo<prn><pro><p3><f><sg>$
+[/lmx8rIyD9HJd]
+[poEKQq2qTVXt#0] ^«/«<lquot>$
+[/poEKQq2qTVXt]
+[q132Jbx229Th#0] ^.../...<sent>$
+[/q132Jbx229Th]
+[xdGMTQU3kfQx#0] ^Fo/*Fo$^./.<sent>$^m/m<abbr>/m<n><m><sp>/m<n><acr><m><sp>$
+[/xdGMTQU3kfQx]

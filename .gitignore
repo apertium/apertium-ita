@@ -21,3 +21,8 @@
 /i_to_p.awk
 /inline_e.awk
 /sustituye_caracteres.awk
+/*.hfst
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/test/*-output.txt
