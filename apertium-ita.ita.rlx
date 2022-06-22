@@ -392,6 +392,8 @@ SELECT A IF (-1 Noun_Adj_PP + MascPl) (0 Diverso + MascPl) (1 Barrera_Final_Estr
 SELECT A IF (-1 Noun_Adj_PP + FemSg) (0 Diverso + FemSg) (1 Barrera_Final_Estrict_SN) ;
 SELECT A IF (-1 Noun_Adj_PP + FemPl) (0 Diverso + FemPl) (1 Barrera_Final_Estrict_SN) ;
 
+REMOVE Cog IF (0 ("<XI>")) ;
+
 SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) (NOT -1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (1 Di) (NOT 2 Top OR unknownMajIni) ;
