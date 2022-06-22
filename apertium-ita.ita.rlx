@@ -72,6 +72,23 @@ SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
 
+LIST P1 = (p1) ;
+LIST P2 = (p2) ;
+LIST P3 = (p3) ;
+SET Sg1 = (p1 sg) ;
+SET Sg2 = (p2 sg) ;
+SET Sg3 = (p3 sg) ;
+SET Pl1 = (p1 pl) ;
+SET Pl2 = (p2 pl) ;
+SET Pl3 = (p3 pl) ;
+SET Pers = (p1) OR (p2) OR (p3) ;
+
+
+SET ConcordaGN = MascSg OR MascPl OR FemSg OR FemPl;
+SET ConcordaSP = Sg OR Pl ;
+SET ConcordaGV = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
+
+
 SET Ref = (prn pro ref) ;
 SET Pro = (prn pro) ;
 SET Enc = (prn enc) ;
@@ -81,11 +98,6 @@ SET Tn_nt = (prn tn nt) ;
 SET Pref = (adj mf sp) ;
 
 SET Aord = (adj ord) OR ("sette") ;	# sette/setta
-
-LIST P1 = (p1) ;
-LIST P2 = (p2) ;
-LIST P3 = (p3) ;
-SET Pers = (p1) OR (p2) OR (p3) ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
@@ -195,10 +207,6 @@ LIST Excl = "!" ;
 
 LIST Nsg = (n sg) ;
 LIST Npl = (n pl) ;
-
-LIST Sg1 = (p1 sg) ;
-LIST Sg2 = (p2 sg) ;
-LIST Pl3 = (p3 pl) ;
 
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
@@ -329,9 +337,9 @@ REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
 SELECT Pref IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
 SELECT Pref IF (1 ("-")) (2 N OR A OR V OR unknown) ;
 REMOVE Pref IF (0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
-SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
-SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (1 ("-")) (2 N OR A OR V OR unknown) ;
-REMOVE A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
+SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
+SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (1 ("-")) (2 N OR A OR V OR unknown) ;
+REMOVE A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
 
 SECTION
 
