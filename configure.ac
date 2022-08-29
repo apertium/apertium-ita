@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Italian], [1.1.1], [apertium-stuff@lists.sourceforge.net], [apertium-ita], [https://wiki.apertium.org/wiki/Apertium-ita])
+AC_INIT([Apertium Italian], [1.1.2], [apertium-stuff@lists.sourceforge.net], [apertium-ita], [https://wiki.apertium.org/wiki/Apertium-ita])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 AC_PATH_PROG(AWKPATH, $AWK, [/usr/bin/gawk])
