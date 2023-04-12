@@ -4,8 +4,8 @@ SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
 
-LIST BOS = (>>>) ;
-LIST EOS = (<<<) sent;
+LIST BOS = (>>>) sent ;
+LIST EOS = (<<<) sent ;
 
 LIST A = adj ;
 LIST Adv = adv ;
@@ -286,23 +286,14 @@ SELECT Lui IF (0 Loro) (1 Adv) (2 Vall + P3 + Pl) ;
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (NOT 1 Vall) (NOT 2 Vall) ;
-SELECT Det IF (0 Lo) (0 Il + MascSg) (1 N + MascSg) (NOT 1 Vall) ;
-SELECT Det IF (0 Lo) (0 Il + MascPl) (1 N + MascPl) (NOT 1 Vall) ;
-SELECT Det IF (0 Lo) (0 Il + FemSg) (1 N + FemSg) (NOT 1 Vall) ;
-SELECT Det IF (0 Lo) (0 Il + FemPl) (1 N + FemPl) (NOT 1 Vall) ;
+SELECT Det IF (0 Lo) (0 Il + &&ConcordaGN) (1 N + &&ConcordaGN) (NOT 1 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (1 A) (2 N) ;
 
 SELECT Prep IF (0 Sotto) (1 Det) ;
 
-SELECT PreDet IF (0 PreDet + MascSg) (1 Det + Def + MascSg) (2 N + MascSg) ;
-SELECT PreDet IF (0 PreDet + FemSg) (1 Det + Def + FemSg) (2 N + FemSg) ;
-SELECT PreDet IF (0 PreDet + MascPl) (1 Det + Def + MascPl) (2 N + MascPl) ;
-SELECT PreDet IF (0 PreDet + FemPl) (1 Det + Def + FemPl) (2 N + FemPl) ;		# ambedue le aree politiche
+SELECT PreDet IF (0 PreDet + &&ConcordaGN) (1 Det + Def + &&ConcordaGN) (2 N + &&ConcordaGN) ;	# ambedue le aree politiche
 
-SELECT Pron IF (0 Tutto + MascSg) (NOT 1 Det + MascSg) ;
-SELECT Pron IF (0 Tutto + MascPl) (NOT 1 Det + MascPl) ;
-SELECT Pron IF (0 Tutto + FemSg) (NOT 1 Det + FemSg) ;
-SELECT Pron IF (0 Tutto + FemPl) (NOT 1 Det + FemPl) ;
+SELECT Pron IF (0 Tutto + &&ConcordaGN) (NOT 1 Det + &&ConcordaGN) ;
 
 SELECT Avere IF (1 PP) ;
 SELECT Avere IF (1 Adv) (2 PP) ;
@@ -385,20 +376,14 @@ SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
 
 SELECT Pron IF (0 Si) (1 Vall + P3) ;
 
-SELECT A IF (-1/* Det + MascSg) (0 Altro + MascSg) (1 N + MascSg) ;
-SELECT A IF (-1/* Det + FemSg) (0 Altro + FemSg) (1 N + FemSg) ;
-SELECT A IF (-1/* Det + MascPl) (0 Altro + MascPl) (1 N + MascPl) ;
-SELECT A IF (-1/* Det + FemPl) (0 Altro + FemPl) (1 N + FemPl) ;
+SELECT A IF (-1/* Det + &&ConcordaGN) (0 Altro + &&ConcordaGN) (1 N + &&ConcordaGN) ;
 
 REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) (NOT 0 Certo OR Vario) ;
   # mia mamma
   # un suo libro
 SELECT Det IF (NOT -1/* Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
 SELECT Det IF (NOT -1/* Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
-SELECT A IF (-1 Noun_Adj_PP + MascSg) (0 Diverso + MascSg) (1 Barrera_Final_Estrict_SN) ;
-SELECT A IF (-1 Noun_Adj_PP + MascPl) (0 Diverso + MascPl) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
-SELECT A IF (-1 Noun_Adj_PP + FemSg) (0 Diverso + FemSg) (1 Barrera_Final_Estrict_SN) ;
-SELECT A IF (-1 Noun_Adj_PP + FemPl) (0 Diverso + FemPl) (1 Barrera_Final_Estrict_SN) ;
+SELECT A IF (-1 Noun_Adj_PP + &&ConcordaGN) (0 Diverso + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 
 REMOVE Cog IF (0 ("<XI>")) ;
 
@@ -445,10 +430,7 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1/* Det + FemSg) ;
 
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 V) (1* ("<?>")) ;
-SELECT Interr + A IF (0 Quanto + MascSg) (1 Noun_Adj + MascSg) (2 V) (1* ("<?>")) ;
-SELECT Interr + A IF (0 Quanto + FemSg) (1 Noun_Adj + FemSg) (2 V) (1* ("<?>")) ;
-SELECT Interr + A IF (0 Quanto + MascPl) (1 Noun_Adj + MascPl) (2 V) (1* ("<?>")) ;
-SELECT Interr + A IF (0 Quanto + FemPl) (1 Noun_Adj + FemPl) (2 V) (1* ("<?>")) ;
+SELECT Interr + A IF (0 Quanto + &&ConcordaGN) (1 Noun_Adj + &&ConcordaGN) (2 V) (1* ("<?>")) ;
 SELECT Interr + Pron IF (0 Quanto) (1 V) (1* ("<?>")) ;
 SELECT V + Pers IF (-1 Come OR Quale OR Quanto + Pron OR Dove) (0 V + Pers) (1* ("?")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Tn) (2 V) (1* ("?")) ;
@@ -469,14 +451,8 @@ SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
 
 SELECT Al IF (0 Duce) (-1 Def + MascSg) ;
 
-SELECT A IF (-1 Det + MascSg) (0 Certo + MascSg) (1 N + MascSg) ;	# un certo inquinamento
-SELECT A IF (-1 Det + MascPl) (0 Certo + MascPl) (1 N + MascPl) ;
-SELECT A IF (-1 Det + FemSg) (0 Certo + FemSg) (1 N + FemSg) ;
-SELECT A IF (-1 Det + FemPl) (0 Certo + FemPl) (1 N + FemPl) ;
-SELECT A IF (-1 N + MascSg) (0 Certo + MascSg) ;	# una notizia certa riguardante 
-SELECT A IF (-1 N + MascPl) (0 Certo + MascPl) ;
-SELECT A IF (-1 N + FemSg) (0 Certo + FemSg) ;
-SELECT A IF (-1 N + FemPl) (0 Certo + FemPl) ;
+SELECT A IF (-1 Det + &&ConcordaGN) (0 Certo + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# un certo inquinamento
+SELECT A IF (-1 N + &&ConcordaGN) (0 Certo + &&ConcordaGN) ;	# una notizia certa riguardante 
 SELECT A + Vario IF (-1 Det + MascPl) (0 Vario + MascPl) (1 N + MascPl) ;
 SELECT A + Vario IF (-1 Det + FemPl) (0 Vario + FemPl) (1 N + FemPl) ;
 
@@ -491,7 +467,7 @@ REMOVE N IF (0 Sette) (1 A + FemPl) (2 N + FemPl) ;
 
 SELECT N IF (0 Cardinale) (1 Ant_Cog OR unknownMajIni) ;
 
-REMOVE V IF (0 Ultimo + MascSg) (-1 Def + MascSg) ;	# l'ultimo
+REMOVE V IF (0 Ultimo + &&ConcordaGN) (-1 Def + &&ConcordaGN) ;	# l'ultimo
 REMOVE V IF (0 Ultimo + FemSg) (-1 Def + FemSg) ;	# l'ultima
 REMOVE V IF (0 Ultimo + MascPl) (-1 Def + MascPl) ;
 
@@ -508,14 +484,8 @@ SELECT Latte + Sg IF (NOT -1/* Pl) (0 Latta + Pl) (NOT 1 Pl) ;
 
 REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
-SELECT A IF (-1/* Det + MascSg) (0 Primo + MascSg) ;	# li primo
-SELECT A IF (-1/* Det + FemSg) (0 Primo + FemSg) ;	# la prima
-SELECT A IF (-1/* Det + MascPl) (0 Primo + MascPl) ;
-SELECT A IF (-1/* Det + FemPl) (0 Primo + FemPl) ;
-SELECT A IF (-1 Prep) (0 Primo + MascSg) (1 N + MascSg) ;
-SELECT A IF (-1 Prep) (0 Primo + FemSg) (1 N + FemSg) ;	# per prima cosa
-SELECT A IF (-1 Prep) (0 Primo + MascPl) (1 N + MascPl) ;
-SELECT A IF (-1 Prep) (0 Primo + FemPl) (1 N + FemPl) ;
+SELECT A IF (-1/* Det + &&ConcordaGN) (0 Primo + &&ConcordaGN) ;	# li primo
+SELECT A IF (-1 Prep) (0 Primo + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# per prima cosa
 
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
@@ -531,10 +501,7 @@ SELECT Prep IF (0 Secondo) (1 Det) (2 Noun_Adj) ;
 SELECT Adv IF (NOT -1 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
 SELECT Adv IF (-2 Avere) (NOT -1 Adv) (0 Subito) (NOT 1 Da) ;
 
-SELECT A IF (-1 N + MascSg) (0 Stesso + MascSg) ;
-SELECT A IF (-1 N + FemSg) (0 Stesso + FemSg) ;
-SELECT A IF (-1 N + MascPl) (0 Stesso + MascPl) ; 	# i umanisti stessi
-SELECT A IF (-1 N + FemPl) (0 Stesso + FemPl) ;
+SELECT A IF (-1 N + &&ConcordaGN) (0 Stesso + &&ConcordaGN) ;	# i umanisti stessi
 
 SELECT N IF (0 Turbo) (-1 ("motoro") OR NP OR unknownMajIni) ;
 
@@ -547,35 +514,20 @@ REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 
 REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
 
-SELECT Aord IF (-1 Det + Def + MascSg) (0 Aord + MascSg) (1 N + MascSg) ;		# il quinto piano
-SELECT Aord IF (-1 Det + Def + FemSg) (0 Aord + FemSg) (1 N + FemSg) ;
-SELECT Aord IF (-1 Det + Def + MascPl) (0 Aord + MascPl) (1 N + MascPl) ;
-SELECT Aord IF (-1 Det + Def + FemPl) (0 Aord + FemPl) (1 N + FemPl) ;
-SELECT A + Pos IF (-1 Det + Def + MascSg) (0 A + Pos + MascSg) (1 Aord + MascSg) ;	# il suo secondo libro, il suo terzo libro
-SELECT A + Pos IF (-1 Det + Def + FemSg) (0 A + Pos + FemSg) (1 Aord + FemSg) ;
-SELECT A + Pos IF (-1 Det + Def + MascPl) (0 A + Pos + MascPl) (1 Aord + MascPl) ;
-SELECT A + Pos IF (-1 Det + Def + FemPl) (0 A + Pos + FemPl) (1 Aord + FemPl) ;
-SELECT Aord IF (-2 Det + Def + MascSg) (-1 A + Pos + MascSg) (0 Aord + MascSg) (1 N + MascSg) ;	# il suo secondo libro, il suo terzo libro
-SELECT Aord IF (-2 Det + Def + FemSg) (-1 A + Pos + FemSg) (0 Aord + FemSg) (1 N + FemSg) ;
-SELECT Aord IF (-2 Det + Def + MascPl) (-1 A + Pos + MascPl) (0 Aord + MascPl) (1 N + MascPl) ;
-SELECT Aord IF (-2 Det + Def + FemPl) (-1 A + Pos + FemPl) (0 Aord + FemPl) (1 N + FemPl) ;
+SELECT Aord IF (-1 Det + Def + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;		# il quinto piano
+SELECT A + Pos IF (-1 Det + Def + &&ConcordaGN) (0 A + Pos + &&ConcordaGN) (1 Aord + &&ConcordaGN) ;	# il suo secondo libro, il suo terzo libro
+SELECT Aord IF (-2 Det + Def + &&ConcordaGN) (-1 A + Pos + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# il suo secondo libro, il suo terzo libro
 SELECT Aord IF (-1 Det + Def + MascSg) (0 Aord + MascSg) (1 Vall + P3 + Sg) ;	# il terzo è...
 REMOVE N IF (-1C Vall + Sg) (0 Aord + Sg) ;		# arrivarò sesto
 REMOVE N IF (-1C Vall + Pl) (0 Aord + Pl) ;		# arrivarono sesti
 REMOVE N IF (-1 Vall) (-1/* Enc) (0 Aord) ;		# classificandosi terzo
 
 
-SELECT Det IF (0/* Det + MascSg) (0/* Pron) (1 N + MascSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
-SELECT Det IF (0/* Det + MascPl) (0/* Pron) (1 N + MascPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
-SELECT Det IF (0/* Det + FemSg) (0/* Pron) (1 N + FemSg) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
-SELECT Det IF (0/* Det + FemPl) (0/* Pron) (1 N + FemPl) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
+SELECT Det IF (0/* Det + &&ConcordaGN) (0/* Pron) (1 N + &&ConcordaGN) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det) (0/* Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0/* Det) (0/* Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 
-SELECT PreAdv IF (-1 N + MascSg) (0 PreAdv) (1 A + MascSg) ;
-SELECT PreAdv IF (-1 N + MascPl) (0 PreAdv) (1 A + MascPl) ;
-SELECT PreAdv IF (-1 N + FemSg) (0 PreAdv) (1 A + FemSg) ;
-SELECT PreAdv IF (-1 N + FemPl) (0 PreAdv) (1 A + FemPl) ;
+SELECT PreAdv IF (-1 N + &&ConcordaGN) (0 PreAdv) (1 A + &&ConcordaGN) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR PP OR Adv) ;		# tutelando così la credibilità
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (1 Come) ;				# proprio come me
 SELECT PreAdv IF (0 Molto) (1C A OR PP OR Adv) ;			# era molto complessa, e molto corrotta
@@ -610,10 +562,7 @@ SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musical
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
 
 SELECT V IF (0 N) (0 V) (NOT -2/* Det) (-1 Rel) (NOT -1 ("il cui") OR ("come")) ;	# il paese in cui abito / la donna il cui figlio / dal cui inizio
-SELECT N IF (0 N + MascSg) (0 V) (-1 ("il cui") + MascSg) (1 V) ;	# il cui suoni ricordanno
-SELECT N IF (0 N + FemSg) (0 V) (-1 ("il cui") + FemSg) (1 V) ;		# il cui suoni ricordanno
-SELECT N IF (0 N + MascPl) (0 V) (-1 ("il cui") + MascPl) (1 V) ;	# il cui suoni ricordanno
-SELECT N IF (0 N + FemPl) (0 V) (-1 ("il cui") + FemPl) (1 V) ;		# il cui suoni ricordanno
+SELECT N IF (0 N + &&ConcordaGN) (0 V) (-1 ("il cui") + &&ConcordaGN) (1 V) ;	# il cui suoni ricordanno
 
 SELECT Sg If (-1 ("il cui") + Sg) (0 V) (NOT 0 N) ;
 SELECT Pl If (-1 ("il cui") + Pl) (0 V) (NOT 0 N) ;
@@ -656,23 +605,11 @@ REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 Barrera_
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
 
-SELECT N IF (0 A) (0 N + MascSg) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + MascSg) (1 N) (2 Barrera_Final_Estrict_SN) ;
-SELECT N IF (0 A) (0 N + MascPl) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + MascPl) (1 N) (2 Barrera_Final_Estrict_SN) ;
-SELECT N IF (0 A) (0 N + FemSg) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + FemSg) (1 N) (2 Barrera_Final_Estrict_SN) ;
-SELECT N IF (0 A) (0 N + FemPl) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + FemPl) (1 N) (2 Barrera_Final_Estrict_SN) ;
-SELECT Aord IF (0 N) (0 Aord + MascSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascSg) (1 A) (2 Barrera_Final_Estrict_SN) ;
-SELECT Aord IF (0 N) (0 Aord + MascPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascPl) (1 A) (2 Barrera_Final_Estrict_SN) ;
-SELECT Aord IF (0 N) (0 Aord + FemSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemSg) (1 A) (2 Barrera_Final_Estrict_SN) ;
-SELECT Aord IF (0 N) (0 Aord + FemPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemPl) (1 A) (2 Barrera_Final_Estrict_SN) ;
-SELECT Aord IF (0 N) (0 Aord + MascSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascSg) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
-SELECT Aord IF (0 N) (0 Aord + MascPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + MascPl) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
-SELECT Aord IF (0 N) (0 Aord + FemSg) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemSg) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
-SELECT Aord IF (0 N) (0 Aord + FemPl) (-1 Barrera_Inicial_Estrict_SN) (1 N + FemPl) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
+SELECT N IF (0 A) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_Estrict_SN) (1 A + &&ConcordaGN) (1 N) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 N + &&ConcordaGN) (1 A) (2 Barrera_Final_Estrict_SN) ;
+SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 N + &&ConcordaGN) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 
-SELECT Aord IF (-1 Det + MascSg) (0 Aord + MascSg) (1C N + MascSg) ;
-SELECT Aord IF (-1 Det + MascPl) (0 Aord + MascPl) (1C N + MascPl) ;
-SELECT Aord IF (-1 Det + FemSg) (0 Aord + FemSg) (1C N + FemSg) ;
-SELECT Aord IF (-1 Det + FemPl) (0 Aord + FemPl) (1C N + FemPl) ;
+SELECT Aord IF (-1 Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1C N + &&ConcordaGN) ;
 
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
@@ -687,14 +624,8 @@ REMOVE Adj_PP IF (0 Adj_PP) (0 N) (-1/* Prep) (1 Adv) (2 Vall) ; 			# il comune 
 REMOVE Adj_PP IF (0 Adj_PP) (0 N + Pl) (-1 Num) (1C Barrera_Final_Estrict_SN OR Vall) ; 	# I 5 comuni facenti parte
 REMOVE Adj_PP IF (0 Adj_PP) (0 N + Pl) (-1 Num) (NOT 0 Aord OR AdjN) ;
 
-REMOVE A IF (-1/* Det + MascSg) (0 A + MascSg) (0 N + MascSg) (NOT 1 N + MascSg OR CnjCoo) (NOT -1 Molto) ;
-REMOVE A IF (-1/* Det + FemSg) (0 A + FemSg) (0 N + FemSg) (NOT 1 N + FemSg OR CnjCoo) (NOT -1 Molto) ;
-REMOVE A IF (-1/* Det + MascPl) (0 A + MascPl) (0 N + MascPl) (NOT 1 N + MascPl OR CnjCoo) (NOT -1 Molto) ;	# distinguere gli ambiti e usi
-REMOVE A IF (-1/* Det + FemPl) (0 A + FemPl) (0 N + FemPl) (NOT 1 N + FemPl OR CnjCoo) (NOT -1 Molto) ;
-SELECT A IF (-1/* Det + Def + MascSg) (0 Aord + MascSg) ;	# il settimo e ultimo re
-SELECT A IF (-1/* Det + Def + FemSg) (0 Aord + FemSg) ;
-SELECT A IF (-1/* Det + Def + MascPl) (0 Aord + MascPl) ;
-SELECT A IF (-1/* Det + Def + FemPl) (0 Aord + FemPl) ;
+REMOVE A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN) (0 N + &&ConcordaGN) (NOT 1 N + &&ConcordaGN OR CnjCoo) (NOT -1 Molto) ;	# distinguere gli ambiti e usi
+SELECT A IF (-1/* Det + Def + &&ConcordaGN) (0 Aord + &&ConcordaGN) ;	# il settimo e ultimo re
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
@@ -743,35 +674,14 @@ REMOVE N IF (0 N + Pl) (0 A + Pl) (-2 Ser + Pl OR Considerare + Sg OR Giudicare 
 REMOVE N IF (0 N + Sg) (0 A + Sg) (-3 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
 REMOVE N IF (0 N + Pl) (0 A + Pl) (-3 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Pl OR Parere + Pl) (-2 Adv_PreAdv OR CnjAdv) (-1 Adv_PreAdv) ;
 
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2/* Det + FemSg) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2/* Det + MascPl) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2/* Det + FemPl) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (1 Barrera_Final_Estrict_SN OR A) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascSg) (NOT -1 N + MascSg) (NOT 0 Aord OR AdjN) (0 N + MascSg) (1 A + MascSg) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemSg) (NOT -1 N + FemSg) (NOT 0 Aord OR AdjN) (0 N + FemSg) (1 A + FemSg) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + MascPl) (NOT -1 N + MascPl) (NOT 0 Aord OR AdjN) (0 N + MascPl) (1 A + MascPl) ;
-SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + FemPl) (NOT -1 N + FemPl) (NOT 0 Aord OR AdjN) (0 N + FemPl) (1 A + FemPl) ;
-SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (NOT -1 N + MascSg) (0 N + MascSg) (NOT 0 Aord OR AdjN) (1 A + MascSg) ;
-SELECT N IF (-2/* Det + FemSg) (-1 A + FemSg) (NOT -1 N + FemSg) (0 N + FemSg) (NOT 0 Aord OR AdjN) (1 A + FemSg) ;
-SELECT N IF (-2/* Det + MascPl) (-1 A + MascPl) (NOT -1 N + MascPl) (0 N + MascPl) (NOT 0 Aord OR AdjN) (1 A + MascPl) ;
-SELECT N IF (-2/* Det + FemPl) (-1 A + FemPl) (NOT -1 N + FemPl) (0 N + FemPl) (NOT 0 Aord OR AdjN) (1 A + FemPl) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (0 N + &&ConcordaGN) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (0 N + &&ConcordaGN) (1 Barrera_Final_Estrict_SN OR A) ;
+SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) ;
+SELECT N IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (1 A + &&ConcordaGN) ;
 
-REMOVE N IF (-1C N + MascSg) (0 A + MascSg) ;
-REMOVE N IF (-1C N + MascPl) (0 A + MascPl) ;
-REMOVE N IF (-1C N + FemSg) (0 A + FemSg) ;
-REMOVE N IF (-1C N + FemPl) (0 A + FemPl) ;
-REMOVE N IF (-2C N + MascSg) (-1 A + MascSg) (0 A + MascSg) ;
-REMOVE N IF (-2C N + MascPl) (-1 A + MascPl) (0 A + MascPl) ;
-REMOVE N IF (-2C N + FemSg) (-1 A + FemSg) (0 A + FemSg) ;
-REMOVE N IF (-2C N + FemPl) (-1 A + FemPl) (0 A + FemPl) ;
-REMOVE N IF (-3C N + MascSg) (-2 A + MascSg) (-1 A + MascSg) (0 A + MascSg) ;
-REMOVE N IF (-3C N + MascPl) (-2 A + MascPl) (-1 A + MascPl) (0 A + MascPl) ;
-REMOVE N IF (-3C N + FemSg) (-2 A + FemSg) (-1 A + FemSg) (0 A + FemSg) ;
-REMOVE N IF (-3C N + FemPl) (-2 A + FemPl) (-1 A + FemPl) (0 A + FemPl) ;
+REMOVE N IF (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN) ;
+REMOVE N IF (-2C N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 A + &&ConcordaGN) ;
+REMOVE N IF (-3C N + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 A + &&ConcordaGN) ;
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
@@ -781,10 +691,7 @@ SELECT Fem IF (0 Fine) (1 Mesi) ;
 REMOVE A IF (0 A) (0 N) (-1 ("avere")) (NOT 1 A) ;
 REMOVE A IF (0 A) (0 N) (-2 ("avere")) (-1 Adv) (NOT 1 A) ;	# non ebbe più dubbi
 
-REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1/* Det + MascSg) (NOT 1 A + MascSg) (NOT -1 PreAdv) ; 	# ogni insieme / molto male
-REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1/* Det + MascPl) (NOT 1 A + MascPl) ; 	# ogni insieme
-REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1/* Det + FemSg) (NOT 1 A + FemSg) ; 	# ogni insieme
-REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1/* Det + FemSg) (NOT 1 A + FemPl) ; 	# ogni insieme
+REMOVE Adv IF (0 Adv) (0 N + &&ConcordaGN) (-1/* Det + &&ConcordaGN) (NOT 1 A + &&ConcordaGN) (NOT -1 PreAdv) ; 	# ogni insieme / molto male
 
 SELECT N IF (0 N) (0 PP) (-1C Det) (1 unknown) ;
 SELECT N IF (0 N) (0 A) (-1C Det) (1 unknown) ;			# Secondo la rivista Motorrader
@@ -808,33 +715,18 @@ REMOVE PP IF (0 PP) (0 A) (-1C Prep) ;
 REMOVE PP IF (0 PP) (0 A) (-1C N) (NOT 1 Da) ;	# nucleo abitato
 REMOVE PP IF (0 PP) (0 A) (-1C V) ;		# si rivelò corretta
 
-REMOVE PP IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (NOT 1/* Da) ;
-REMOVE PP IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (NOT 1/* Da) ;
-REMOVE PP IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (NOT 1/* Da) ;		# geometria algebrica astratta
-REMOVE PP IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (NOT 1/* Da) ;
+REMOVE PP IF (0 PP + &&ConcordaGN) (0 A + &&ConcordaGN) (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT 1/* Da) ;	# geometria algebrica astratta
 
-REMOVE A IF (0 PP + MascSg) (0 A + MascSg) (-2 N + MascSg) (-1 A + MascSg) (1/* Da) ;
-REMOVE A IF (0 PP + MascPl) (0 A + MascPl) (-2 N + MascPl) (-1 A + MascPl) (1/* Da) ;
-REMOVE A IF (0 PP + FemSg) (0 A + FemSg) (-2 N + FemSg) (-1 A + FemSg) (1/* Da) ;
-REMOVE A IF (0 PP + FemPl) (0 A + FemPl) (-2 N + FemPl) (-1 A + FemPl) (1/* Da) ;		# informazioni autentiche scritte dai cronisti
+REMOVE A IF (0 PP + &&ConcordaGN) (0 A + &&ConcordaGN) (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (1/* Da) ;	# informazioni autentiche scritte dai cronisti
 
-SELECT PP IF (-1C N + MascSg) (0C V) (0 PP + MascSg) ;
-SELECT PP IF (-1C N + MascPl) (0C V) (0 PP + MascPl) ;
-SELECT PP IF (-1C N + FemSg) (0C V) (0 PP + FemSg) ;
-SELECT PP IF (-1C N + FemPl) (0C V) (0 PP + FemPl) ;	# delle vesti schiacciate sul corpo
+SELECT PP IF (-1C N + &&ConcordaGN) (0C V) (0 PP + &&ConcordaGN) ;	# delle vesti schiacciate sul corpo
 
-REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + MascSg) (0 Adv) (1C N + MascSg) ;	# Primo mandato
-REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + MascPl) (0 Adv) (1C N + MascPl) ;
-REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + FemSg) (0 Adv) (1C N + FemSg) ;
-REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + FemPl) (0 Adv) (1C N + FemPl) ;
+REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + &&ConcordaGN) (0 Adv) (1C N + &&ConcordaGN) ;	# Primo mandato
 
 REMOVE V IF (0 V) (0 A) (-1C Det) ;		# i celebri laghi
 REMOVE V IF (0 V) (0 N) (-1C Det) ;
 
-REMOVE V IF (NOT -2 N) (-1C A + MascSg) (0 N + MascSg) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + FemSg) (0 N + FemSg) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + MascPl) (0 N + MascPl) (0 V) ;	# primo violino
-REMOVE V IF (NOT -2 N) (-1C A + FemPl) (0 N + FemPl) (0 V) ;	# primo violino
+REMOVE V IF (NOT -2 N) (-1C A + &&ConcordaGN) (0 N + &&ConcordaGN) (0 V) ;	# primo violino
 
 REMOVE Ifi IF (-2 N) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;		# lingue più diffuse
 REMOVE Ifi IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 Ifi OR A OR PP) ;	# lingue internazionali più diffuse
@@ -860,14 +752,8 @@ REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
 REMOVE Interr IF (NOT -1 Vall OR Adv) (0 Interr) (0 CnjAdv) ;	# ha ricevuto una certa notorietà da quando
 REMOVE Interr IF (NOT -2 Vall) (-1 Adv) (0 Interr) (0 CnjAdv) ;
 
-REMOVE Interr IF (-1 N + MascSg) (0 Interr) (0 Rel + MascSg) ;			# figure quali l’eufemismo
-REMOVE Interr IF (-1 N + MascPl) (0 Interr) (0 Rel + MascPl) ;
-REMOVE Interr IF (-1 N + FemSg) (0 Interr) (0 Rel + FemSg) ;
-REMOVE Interr IF (-1 N + FemPl) (0 Interr) (0 Rel + FemPl) ;
-REMOVE Interr IF (-2 N + MascSg) (-1 A + MascSg) (0 Interr) (0 Rel + MascSg) ;	# figure retoriche quali l’eufemismo
-REMOVE Interr IF (-2 N + MascPl) (-1 A + MascPl) (0 Interr) (0 Rel + MascPl) ;
-REMOVE Interr IF (-2 N + FemSg) (-1 A + FemSg) (0 Interr) (0 Rel + FemSg) ;
-REMOVE Interr IF (-2 N + FemPl) (-1 A + FemPl) (0 Interr) (0 Rel + FemPl) ;
+REMOVE Interr IF (-1 N + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;			# figure quali l’eufemismo
+REMOVE Interr IF (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;	# figure retoriche quali l’eufemismo
 
 SELECT Rel IF (-1C N OR A OR NP) (0 Che OR Chi) ;		# l'uomo che dice
 SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
@@ -905,6 +791,8 @@ SELECT N IF (0 Noun_Adj_PP LINK NOT 0 NP OR ("ser") OR Prep) (-1C Det) (1 CM OR 
 	# detonar los explosivos.
 	# PERO: Las clasificaciones más reconocidas internacionalmente son la francesa y la estadounidense.
 	# PERO: muy poco conocida.
+
+SELECT N + &&ConcordaGN IF (-1C Barrera_Inicial_Estrict_SN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) (2C Barrera_Final_Estrict_SN) ;	# note tecniche
 
 # Coordinació
 SELECT M IF (-1C Ant + M) (0 ("Andrea")) ;	# Filippo Andrea
@@ -978,19 +866,13 @@ SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
 SELECT N IF (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
-REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascSg) (0 Adj_PP) (1 Adj_PP + MascSg LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856
-REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemSg) (0 Adj_PP) (1 Adj_PP + FemSg LINK NOT 0 N) ;	# Partita giocata
-REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + MascPl) (0 Adj_PP) (1 Adj_PP + MascPl LINK NOT 0 N) ;
-REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + FemPl) (0 Adj_PP) (1 Adj_PP + FemPl LINK NOT 0 N) ;
+REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + &&ConcordaGN) (0 Adj_PP) (1 Adj_PP + &&ConcordaGN LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856 ; partita giocata
 
 REMOVE Adj_PP IF (-1 Fare) (0 N + Pl) ;		# fa compromessi
 
 # A O ADV
 
-REMOVE Adv IF (0 Adv) (0 A + MascSg) (-1 N + MascSg) (NOT 1 Vall) ; 	# il territorio proprio di
-REMOVE Adv IF (0 Adv) (0 A + MascPl) (-1 N + MascPl) (NOT 1 Vall) ; 
-REMOVE Adv IF (0 Adv) (0 A + FemSg) (-1 N + FemSg) (NOT 1 Vall) ;
-REMOVE Adv IF (0 Adv) (0 A + FemPl) (-1 N + FemPl) (NOT 1 Vall) ;
+REMOVE Adv IF (0 Adv) (0 A + &&ConcordaGN) (-1 N + &&ConcordaGN) (NOT 1 Vall) ; 	# il territorio proprio di
 
 SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Sg) (1 PP + Sg) ;		# si era molto impoverito
 SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Pl) (1 PP + Pl) ;
@@ -1007,19 +889,13 @@ REMOVE A IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 # N O Adv
 
 SELECT Adv IF (-1 ("<molto>"i)) (0 ("<bene>"i)) ;
-REMOVE Adv IF (-1/* Det + MascSg) (0 Adv) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) (NOT -1 Molto) ;	# al sole
-REMOVE Adv IF (-1/* Det + MascPl) (0 Adv) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + FemSg) (0 Adv) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Adv IF (-1/* Det + FemPl) (0 Adv) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Adv IF (-1/* Det + &&ConcordaGN) (0 Adv) (0 Noun_Adj_PP + &&ConcordaGN) (1 Barrera_Final_Estrict_SN OR CM) (NOT -1 Molto) ;	# al sole
 
 REMOVE Adv IF (-1C Prep) (NOT -1/* Det) (0 Adv) (0 N) (1 Barrera_Final_Estrict_SN) ;	# di male.
 
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0C N OR Adv) (NOT 0 Anche) (1 Barrera_Final_Estrict_SN) ;	# Origini e culto / ma anche per
 
-REMOVE Adv IF (0 Adv) (0 N + MascSg) (-1 Det + MascSg) (1 A + MascSg) ; 	# il piano nobile
-REMOVE Adv IF (0 Adv) (0 N + MascPl) (-1 Det + MascPl) (1 A + MascPl) ;
-REMOVE Adv IF (0 Adv) (0 N + FemSg) (-1 Det + FemSg) (1 A + FemSg) ;
-REMOVE Adv IF (0 Adv) (0 N + FemPl) (-1 Det + FemPl) (1 A + FemPl) ;
+REMOVE Adv IF (0 Adv) (0 N + &&ConcordaGN) (-1 Det + &&ConcordaGN) (1 A + &&ConcordaGN) ; 	# il piano nobile
 
 SELECT Adv IF (-1C V) (0 ("male")) ;		# cominciano male
 SELECT Adv IF (-2 V) (-1 Adv) (0 ("male")) ;	# cominciano sempre male
@@ -1035,10 +911,7 @@ REMOVE Det IF (-1C Det) (0 Det) ;		# degli altri
 
 # N O Prn
 
-REMOVE Pron IF (-2/* Det + MascSg) (-1 A + MascSg) (0 Pron) (0 Noun_Adj_PP + MascSg) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Pron IF (-2/* Det + MascPl) (-1 A + MascPl) (0 Pron) (0 Noun_Adj_PP + MascPl) (1 Barrera_Final_Estrict_SN OR CM) ;
-REMOVE Pron IF (-2* Det + FemSg) (-1 A + FemSg) (0 Pron) (0 Noun_Adj_PP + FemSg) (1 Barrera_Final_Estrict_SN OR CM) ;	# una buona cosa
-REMOVE Pron IF (-2/* Det + FemPl) (-1 A + FemPl) (0 Pron) (0 Noun_Adj_PP + FemPl) (1 Barrera_Final_Estrict_SN OR CM) ;
+REMOVE Pron IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 Pron) (0 Noun_Adj_PP + &&ConcordaGN) (1 Barrera_Final_Estrict_SN OR CM) ;
 
 SELECT Pron IF (-1 ("<quello>"i)) (0 ("cosa")) ;
 REMOVE Pron IF (-1 Aord) (0 ("cosa")) ;
@@ -1051,105 +924,47 @@ REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
 
 REMOVE N IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
-REMOVE Prs IF (0 N + MascSg) (0 Prs) (1 A + MascSg) (NOT -1* CnjAdv) ;
-REMOVE Prs IF (0 N + MascPl) (0 Prs) (1 A + MascPl) (NOT -1* CnjAdv) ;
-REMOVE Prs IF (0 N + FemSg) (0 Prs) (1 A + FemSg) (NOT -1* CnjAdv) ;
-REMOVE Prs IF (0 N + FemPl) (0 Prs) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
+REMOVE Prs IF (0 N + &&ConcordaGN) (0 Prs) (1 A + &&ConcordaGN) (NOT -1* CnjAdv) ;	# mettere in campo azioni alternative
 
 REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
 REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
 
 REMOVE P2 IF (-1C N OR V) (0 P2 OR N OR A OR PP) ;		# conserva collezioni di
 REMOVE P1 IF (-1C N OR V) (0 P1 OR N OR A OR PP) ;		# alimenti complessi
-#REMOVE Prs IF (-1C N + MascSg) (0 Prs OR A + MascSg) ;		# sito attivo
-#REMOVE Prs IF (-1C N + MascPl) (0 Prs OR A + MascPl) ;		# alimenti complessi
-#REMOVE Prs IF (-1C N + FemSg) (0 Prs OR A + FemSg) ;
-#REMOVE Prs IF (-1C N + FemPl) (0 Prs OR A + FemPl) ;
+#REMOVE Prs IF (-1C N + &&ConcordaGN) (0 Prs OR A + &&ConcordaGN) ;		# sito attivo ; alimenti complessi
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adj_PP + MascSg) ;	# il filosofo preferito
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adj_PP + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adj_PP + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adj_PP + FemPl) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Adj_PP + &&ConcordaGN) ;	# il filosofo preferito
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adv_PreAdv) (2 Adj_PP + MascSg) ;	# il piu vicino
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adv_PreAdv) (2 Adj_PP + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adv_PreAdv) (2 Adj_PP + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adv_PreAdv) (2 Adj_PP + FemPl) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Adv_PreAdv) (2 Adj_PP + &&ConcordaGN) ;	# il piu vicino
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (-2 PreDet + MascSg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (-2 PreDet + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (-2 PreDet + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (-2 PreDet + FemPl) ;		# tutte le partite
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (-2 PreDet + &&ConcordaGN) ;	# tutte le partite
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 NP OR unknownMajIni) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 NP OR unknownMajIni) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 NP OR unknownMajIni) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 NP OR unknownMajIni) ;		# il filosofo Manlio Sgalambro
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-2C Vall) (-1 Det + MascSg) ; 			# prevede l'uso di / è il secondo di
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-2C Vall) (-1 Det + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-2C Vall) (-1 Det + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-2C Vall) (-1 Det + FemPl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + MascSg) ;		# prevede sempre l'uso
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + FemPl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascSg) ;		# portare a termine il compito
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + FemPl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascSg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemSg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + FemPl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascSg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + MascPl) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemSg) ;		# raccomandò più volte l'utilizzo
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + FemPl) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-2C Vall) (-1 Det + &&ConcordaGN) ; 			# prevede l'uso di / è il secondo di
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-3C Vall) (-2 Adv) (-1 Det + &&ConcordaGN) ;		# prevede sempre l'uso
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-4C Vall) (-3 Prep) (-2 N) (-1 Det + &&ConcordaGN) ;		# portare a termine il compito
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-5C Vall) (-4 Prep) (-2 Noun_Adj) (-1 Det + &&ConcordaGN) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-4C Vall) (-3 Adv) (-2 Noun_Adj) (-1 Det + &&ConcordaGN) ;	# raccomandò più volte l'utilizzo
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Vall + P3 + Pl) ; 
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Vall + P3 + Sg) ;			# che la regola mettesse
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Vall + P3 + Pl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ; 	# gli sci invece arrivarono
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Adv OR Pro) (2 Vall + P3 + Pl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Prep) (3 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Prep) (3 Vall + P3 + Pl) ; 
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Prep) (3 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Prep) (3 Vall + P3 + Pl) ;
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Prep) (4 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Prep) (4 Vall + P3 + Pl) ; 
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Prep) (4 Vall + P3 + Sg) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Prep) (4 Vall + P3 + Pl) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Vall + P3 + Sg) ;	# che la regola mettesse
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Adv OR Pro) (2 Vall + P3 + Sg) ;	# gli sci invece arrivarono
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Prep) (3 Vall + P3 + Sg) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Prep) (4 Vall + P3 + Sg) ;
 
 # la forma, le dimensioni e il posizionamento
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 CM OR CnjCoo) (2 Det) (3 Noun_Adj_PP) ;
 # il posizionamento, la forma e le dimensioni
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
+
+REMOVE Vall IF (-1 Det + &&ConcordaGN) (0 N + &&ConcordaGN) (1C Vall) (1 Vall + P3) ;	# Le condizioni peggiorarono
 
 # Queste sono supposizioni
 
-REMOVE Vall IF (0 N + MascSg) (0 Vall) (-1 Det + MascSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
-REMOVE Vall IF (0 N + MascPl) (0 Vall) (-1 Det + MascPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
-REMOVE Vall IF (0 N + FemSg) (0 Vall) (-1 Det + FemSg) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;	# la disputa del dottore / la isola di Arturo / la voglia di cantare
-REMOVE Vall IF (0 N + FemPl) (0 Vall) (-1 Det + FemPl) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;
+REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;	# la disputa del dottore / la isola di Arturo / la voglia di cantare
 
-REMOVE Vall + P1 IF (0 N + MascSg) (0 Vall + P1) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P1 IF (0 N + MascPl) (0 Vall + P1) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P1 IF (0 N + FemSg) (0 Vall + P1) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P1 IF (0 N + FemPl) (0 Vall + P1) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P2 IF (0 N + MascSg) (0 Vall + P2) (-1 Det + MascSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P2 IF (0 N + MascPl) (0 Vall + P2) (-1 Det + MascPl) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P2 IF (0 N + FemSg) (0 Vall + P2) (-1 Det + FemSg) (1 Barrera_Final_Estrict_SN) ;
-REMOVE Vall + P2 IF (0 N + FemPl) (0 Vall + P2) (-1 Det + FemPl) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P1 IF (0 N + &&ConcordaGN) (0 Vall + P1) (-1 Det + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;
+REMOVE Vall + P2 IF (0 N + &&ConcordaGN) (0 Vall + P2) (-1 Det + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;
 
 REMOVE V IF (-1 Det + MascSg) (0 ("libro") + MascSg) ;		# il libro
 
@@ -1167,35 +982,17 @@ REMOVE F IF (-1C/* Det + Masc) (0 Noun_Adj_PP + Fem) (0 Noun_Adj_PP + Masc) ;
 
 # NOM CONJ NOM
 
-REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-## un químico y profesor
+REMOVE A OR PP IF (-1/* Det + &&ConcordaGN) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
 
 # ADJ CONJ ADJ
 
-REMOVE N OR PP IF (-3 N + MascSg) (-2C A + MascSg) (-1 CnjCoo) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) ;
-REMOVE N OR PP IF (-3 N + FemSg) (-2C A + MascSg) (-1 CnjCoo) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) ;
-REMOVE N OR PP IF (-3 N + MascPl) (-2C A + FemPl) (-1 CnjCoo) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) ;
-REMOVE N OR PP IF (-3 N + FemPl) (-2C A + FemPl) (-1 CnjCoo) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) ;
-## genere musicale e teatrale
+REMOVE N OR PP IF (-3 N + &&ConcordaGN) (-2C A + &&ConcordaGN) (-1 CnjCoo) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) ;	# genere musicale e teatrale
 
 REMOVE A OR PP IF (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
-REMOVE A OR PP IF (-3 CnjCoo) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) ;
-## o prodotto o persona
+REMOVE A OR PP IF (-3 CnjCoo) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) ;	# o prodotto o persona
 
-REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
-# los italianos y españoles son amplia mayoría
-
-REMOVE A OR PP IF (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-REMOVE A OR PP IF (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
-# los italianos y los españoles son amplia mayoría
+REMOVE A OR PP IF (-1/* Det + &&ConcordaGN) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
+REMOVE A OR PP IF (-1/* Det + &&ConcordaGN) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) (1 CnjCoo) (2 Det) (3 Noun_Adj_PP LINK 0 N OR NP) (4 Barrera_Final_SN) ;
 
 REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (NOT -1 Limite_Barrera_Inicial_SN) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2 Noun_Adj_PP LINK 0 N OR NP) (3 Barrera_Final_SN) ;
 REMOVE A OR PP IF (-1 Barrera_Inicial_SN LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) (3 Barrera_Final_SN) ;
@@ -1297,7 +1094,7 @@ SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Chiesa>")) ;		# la Chiesa
 SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Bandiera>")) ;	# la Bandiera
 SELECT N IF (-1/* Det + MascSg) (0 ("<Evangelista>")) ;		# un Evangelista
 SELECT N IF (-1/* Det + MascPl OR Num) (0 ("<Evangelisti>")) ;	# i Evangelisti
-SELECT N IF (-1/* Det + MascSg) (0 NP) (0 N + MascSg) (1C A + MascSg) ;
+SELECT N IF (-1/* Det + &&ConcordaGN) (0 NP) (0 N + &&ConcordaGN) (1C A + &&ConcordaGN) ;
 SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
 SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
 SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
@@ -1422,14 +1219,8 @@ SELECT Subj IF (-1* ("sperare# che")) (0C Vall) ;
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
 
-REMOVE Ifi IF (0 Ifi) (0 PP + MascSg) (-1 CM OR Lpar) (-2 NP + MascSg OR N + MascSg) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + MascPl) (-1 CM OR Lpar) (-2 NP + MascPl OR N + MascPl) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + FemSg) (-1 CM OR Lpar) (-2 NP + FemSg OR N + FemSg) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 CM OR Lpar) (-2 NP + FemPl OR N + FemPl) ;	# le Dolomitti, dette
-REMOVE Ifi IF (0 Ifi) (0 PP + MascSg) (-1 Adv) (-2 CM OR Lpar) (-3 NP + MascSg OR N + MascSg) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + MascPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + MascPl OR N + MascPl) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + FemSg) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemSg OR N + FemSg) ;
-REMOVE Ifi IF (0 Ifi) (0 PP + FemPl) (-1 Adv) (-2 CM OR Lpar) (-3 NP + FemPl OR N + FemPl) ;	# le Dolomitti, anche dette
+REMOVE Ifi IF (0 Ifi) (0 PP + &&ConcordaGN) (-1 CM OR Lpar) (-2 NP + &&ConcordaGN OR N + &&ConcordaGN) ;	# le Dolomitti, dette
+REMOVE Ifi IF (0 Ifi) (0 PP + &&ConcordaGN) (-1 Adv) (-2 CM OR Lpar) (-3 NP + &&ConcordaGN OR N + &&ConcordaGN) ;	# le Dolomitti, anche dette
 REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("includere") OR ("dire") OR ("chiamare") OR ("comprendere") OR ("situare") OR ("ubicare") OR ("dividere") OR ("suddividere") OR ("chiudere")) ;
 
 #REMOVE Ifi IF (0 Ifi) (0 PP) (-1* Vall + Pers BARRIER BOS OR CnjSub OR CnjAdv OR Rel) (1* Vall + Pers BARRIER EOS OR CnjSub OR CnjAdv OR Rel);
