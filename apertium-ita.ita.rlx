@@ -85,7 +85,7 @@ SET Pers = (p1) OR (p2) OR (p3) ;
 
 
 SET ConcordaGN = MascSg OR MascPl OR FemSg OR FemPl;
-SET ConcordaSP = Sg OR Pl ;
+SET ConcordaSP = SgSp OR PlSp ;
 SET ConcordaGV = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
 
 
@@ -222,7 +222,7 @@ LIST AdjN = ("tanto") ("principale") ("ultimo") ("altro") ("ex") ;
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
 
-SET Dignità = ("presidente") OR ("governatore") OR ("imperatore") OR ("re") OR ("principe") OR ("barone") OR ("conte") OR ("visconte") OR ("marquese") OR ("duca") OR ("arciduca") OR ("vescovo") OR ("arcivescovo");
+SET Dignità = ("presidente") OR ("governatore") OR ("imperatore") OR ("re") OR ("principe") OR ("barone") OR ("conte") OR ("visconte") OR ("marchese") OR ("duca") OR ("arciduca") OR ("vescovo") OR ("arcivescovo");
 
 # All possible word categories
 
@@ -448,6 +448,7 @@ SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
 SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
 SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
+REMOVE Prep IF (-1 Vall) (0 Circa) (1C Noun_Adj) ;
 
 SELECT Al IF (0 Duce) (-1 Def + MascSg) ;
 
@@ -902,7 +903,9 @@ SELECT Adv IF (-2 V) (-1 Adv) (0 ("male")) ;	# cominciano sempre male
 
 # Prep O Adv
 
-REMOVE Prep IF (0 Adv) (1 Di) ;			# su di
+REMOVE Prep IF (0 Adv) (1 Di) ;		# su di
+REMOVE Prep IF (1 CM OR EOS) ;
+REMOVE CnjAdv IF (1 CM OR EOS) ;	# Venticinque anni dopo
 
 # Det O Prn
 
@@ -1108,29 +1111,21 @@ SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog)  ;
 REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant)  ;
 
-SELECT Ant IF (0 Ant) (1C Ant) ;
-        # Rosa Maria
-SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;
-        # Giordano Bruno
-SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
-        # sant Benet
+SELECT Ant IF (0 Ant) (1C Ant) ;	# Rosa Maria
+SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;	# Giordano Bruno
+SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;	# sant Benet
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
 SELECT Ant_Cog IF (0 Cog OR Ant) (1 unknownMajIni) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
 SELECT Ant_Cog IF (-1 unknownMajIni) (0 Cog OR Ant) ;
-SELECT Ant IF (0 Ant) (0 Cog) (1 Di) (2 Top OR unknownMajIni) ;
-	# Alfonso di Portogallo
-SELECT Top IF (-2 Ant) (-1 Di) (0 Ant OR Cog OR Top) ;
-	# Ipparco di Nicea
-SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 Di) (0 Ant OR Cog OR Top) ;
-	# Joan II di Castiglia
+SELECT Ant IF (0 Ant) (0 Cog) (1 Di) (2 Top OR unknownMajIni) ;	# Alfonso di Portogallo
+SELECT Top IF (-2 Ant) (-1 Di) (0 Ant OR Cog OR Top) ;	# Ipparco di Nicea
+SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 Di) (0 Ant OR Cog OR Top) ;	# Joan II di Castiglia
 SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzione") OR ("trattato") OR ("dichiarazione"))
 	(-1 Di) (0 Ant OR Cog OR Top) ;
 	# concilio di Nicea
-SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (0 Cog OR Top) ;
-	# regno di Castiglia
-SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;
-	# principe di Viana
+SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (0 Cog OR Top) ;	# regno di Castiglia
+SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;	# principe di Viana
 REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
 REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli 
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a")) (0 Ant OR Cog OR Top) ;
