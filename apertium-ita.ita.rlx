@@ -101,6 +101,7 @@ SET Aord = (adj ord) OR ("sette") ;	# sette/setta
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
+LIST unknownMajIni2 = ("\\*[A-ZÀÁÈÉÍÌÒÓÚÜÇ][a-zàáèéìíòóùúïüçñ·]+.*"r) ;
 LIST MajIni = ("<[A-ZÀÁÈÉíÒÓÚÜÇ].*>"r) ;
 LIST MinIni = ("<[a-zàáèéìíòóùúçñ].*>"r) ;
 LIST MajIni2 = ("<[A-ZÀÁÈÉÍÌÒÓÚÜÇ][a-zàáèéìíòóùúïüçñ·]+.*>"r) ;
@@ -512,6 +513,9 @@ SELECT N IF (0 ("attacco")) (1 ("hacker")) ;
 
 SELECT CnjAdv IF (0 Qualunque) (1 Prs OR Pis) ;
 REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
+
+SELECT Num IF (-1 MajIni2) (0 ("<I>")) ;	# Armanda I
+SELECT Num IF (-1 unknownMajIni2) (0 ("<I>")) ;	# Armandax I
 
 REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
 
