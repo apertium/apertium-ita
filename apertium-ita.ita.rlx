@@ -415,6 +415,8 @@ SELECT Conte IF (0 Conte) (0 Conto) (1 Di) (2 Top OR unknownMajIni) ;	# conti di
 SELECT Conto IF (0 Conte) (0 Conto) (NOT 1 Di) ;
 SELECT Conto IF (0 Conte) (0 Conto) (1 Di) (NOT 2 Top OR unknownMajIni) ;
 
+REMOVE NP IF (0 ("<Nato>")) (-1 BOS) ;
+
 SELECT N IF (0 Partita + FemSg) (1 ("giocchare") + PP + FemSg) ;
 SELECT N IF (0 Partita + FemSg) (1 ("vincere") + PP + FemSg) ;
 SELECT N IF (0 Partita + FemSg) (1 ("perdere") + PP + FemSg) ;
