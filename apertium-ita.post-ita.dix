@@ -1968,6 +1968,23 @@
       </e>
     </pardef>
 
+    <pardef n="ne">
+      <e>
+        <p>
+          <l><b/></l>
+          <r>n'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/></l>
+          <r>ne<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+    </pardef>
+
     <pardef n="mi">
       <e>
         <p>
@@ -2356,10 +2373,18 @@
         <par n="il"/>
       </e>
 
-    <e>
+      <e>
         <p>
           <l><a/>la</l>
           <r/>
+        </p>
+        <par n="la"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ci<b/><a/>la</l>
+          <r>ce<b/></r>
         </p>
         <par n="la"/>
       </e>
@@ -2372,7 +2397,7 @@
         <par n="i"/>
       </e>
 
-    <e>
+      <e>
         <p>
           <l><a/>una</l>
           <r/>
@@ -2380,13 +2405,13 @@
         <par n="una"/>
       </e>
 
-    <e>
+      <e>
         <p>
           <l><a/>un<b/></l>
           <r>uno<b/></r>
         </p>
         <par n="cons_especiales"/>
-    </e>
+      </e>
 
       <e>
         <p>
@@ -2397,7 +2422,6 @@
       </e>
 
       <e>
-
         <p>
           <l><a/>ti</l>
           <r>t</r>
@@ -2452,6 +2476,44 @@
           <r/>
         </p>
         <par n="lo"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ci<b/><a/>lo</l>
+          <r>ce<b/></r>
+        </p>
+        <par n="lo"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ci<b/><a/>li<b/></l>
+          <r>ce<b/>li<b/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ci<b/><a/>le<b/></l>
+          <r>ce<b/>le<b/></r>
+        </p>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ne</l>
+          <r/>
+        </p>
+        <par n="ne"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ci<b/><a/>ne</l>
+          <r>ce<b/></r>
+        </p>
+        <par n="ne"/>
       </e>
 
       <e>
