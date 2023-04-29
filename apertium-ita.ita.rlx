@@ -302,6 +302,7 @@ SELECT Pron IF (0 Tutto + &&ConcordaGN) (NOT 1 Det + &&ConcordaGN) ;
 
 SELECT Avere IF (1 PP) ;
 SELECT Avere IF (1 Adv) (2 PP) ;
+SELECT Avere IF (1 Adv OR PreAdv) (2 Adv) (3 PP) ;
 
 SELECT Ser IF (0 Puo_essere) (1 PP) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
