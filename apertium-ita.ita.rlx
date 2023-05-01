@@ -311,6 +311,8 @@ SELECT Ser IF (0 Puo_essere) (1 PP) ;
 SELECT Ser IF (0 Puo_essere) (1 A) ;
 
 SELECT PP IF (-1 Essere) (0 Stato) ;
+SELECT PP IF (-2 Essere) (-1 Adv) (0 Stato) ;
+SELECT PP IF (-3 Essere) (-2 Adv) (-1 Adv) (0 Stato) ;
 SELECT Ser IF (-2 ("arribare")) (-1 ("a")) (0 Essere) ;
 
 SELECT PP IF (-1 Stato LINK -1 Essere) ;
