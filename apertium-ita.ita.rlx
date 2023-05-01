@@ -110,6 +110,7 @@ LIST MinIni = ("<[a-zàáèéìíòóùúçñ].*>"r) ;
 LIST MajIni2 = ("<[A-ZÀÁÈÉÍÌÒÓÚÜÇ][a-zàáèéìíòóùúïüçñ·]+.*>"r) ;
 LIST Maj = ("<[A-ZÀÁÈÉíÒÓÚÜÇ]*>"r) ;
 LIST segles_num_romans = ("[IVX][IVX]*"r) ;
+LIST Anno = ("[1-2][0-9][0-9][0-9]"r) ;
 LIST Upper = "[A-Z][a-z]+"r ;
 
 LIST Avere = vbhaver ;
@@ -207,6 +208,8 @@ LIST Ultimo = "ultimo" ;
 LIST Un = "un" ;
 LIST Vario = "vario" ; 
 LIST Venire = "venire" ; 
+
+LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" ;
 
 LIST Excl = "!" ;
 
@@ -384,11 +387,13 @@ SELECT Pron IF (0 Si) (1 Vall + P3) ;
 
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 Altro + &&ConcordaGN) (1 N + &&ConcordaGN) ;
 
-REMOVE A IF (NOT -1/* Det + Ind) (0 Det) (0 A) (1C N) (NOT 0 Certo OR Vario) ;
-  # mia mamma
-  # un suo libro
-SELECT Det IF (NOT -1/* Det) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
-SELECT Det IF (NOT -1/* Det) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
+REMOVE A IF (-2/* Det + Sg) (-1 Anno) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # nel 2009 diversi amici
+REMOVE A IF (-2 Mese) (-1 Anno) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # il 13 dicembre 2008 diversi amici
+REMOVE A IF (NOT -1/* Det + Ind OR Num) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # mia mamma ; un suo libro
+SELECT Det IF (NOT -1/* Det OR Num) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT Det IF (NOT -1/* Det OR Num) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
+SELECT A IF (-1/* Det OR Num) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT A IF (-1/* Det OR Num) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# due diversi amici
 SELECT A IF (-1 Noun_Adj_PP + &&ConcordaGN) (0 Diverso + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 
 REMOVE Cog IF (0 ("<XI>")) ;
