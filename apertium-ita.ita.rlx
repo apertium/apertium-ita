@@ -746,8 +746,8 @@ SELECT A IF (-2 N) (-1 ("più") OR ("meno")) (0 A OR PP) ;			# lingue più diffu
 SELECT A IF (-3 N) (-2 A) (-1 ("più") OR ("meno")) (0 A OR PP) ;		# lingue internazionali più diffuse
 
 SELECT A IF (0 Pos) (-1/* Det) (1 N) ;	# il suo governo [regla necesaria porque "il suo" y similares no se cogen como un lema en ita-srd]
-					# WARNING: No funciona per a "del suo governo" (igual que a dalt amb "nel mondo")
-SELECT A IF (0 Pos) (-1/* Prep) (1 N) ;	# solució problema "del"
+SELECT A IF (0 Pos) (-1/* Det) (1 A) (2 N) ;	# il suo nuovo governo
+SELECT A IF (0 Pos) (-1/* Det) (1 PreAdv OR Adv) (2 A) (3 N) ;	# il suo molto buovo comportamento
 
 REMOVE V IF (0 N) (0 Vconj) (-1 Prep) ;	# la rivolta dei Fasci siciliani.
 REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
