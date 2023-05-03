@@ -779,6 +779,7 @@ SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
 SELECT Rel IF (-1/* Det + Def) (0 Che OR Chi) ;
 SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
+SELECT Rel IF (-2 unknown) (-1 CM) (0 Che OR Chi) ;
 
 SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
 SELECT Interr IF (-2 BOS) (-1 Prep) (0 Che OR Chi) (1* ("?")) ;
@@ -786,6 +787,8 @@ SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")
 SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (-1 Adv) (0 Chi) ;
 SELECT Interr IF (-1 ("domandare") OR ("chiedere")) (0 Che) ;
 SELECT Interr IF (-2 ("domandare") OR ("chiedere")) (-1 Adv) (0 Che) ;
+REMOVE Interr IF (0 Che OR Chi) ;
+REMOVE A IF (0 Che) (NOT 1 N) ;
 
 SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
 SELECT A IF (0C A OR Adv) (-1/* Det + Det) (1 N) ; # una prima verzione (Hack perquè funcioni)
@@ -1081,6 +1084,7 @@ SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
 SELECT NP IF (0 ("Val")) (1 ("-")) ;
+REMOVE NP IF (0 ("Prima")) (-1 BOS) ;
 
 REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
 SELECT Ant IF (-1 ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (0 Ant) ;
