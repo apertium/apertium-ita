@@ -30,7 +30,7 @@ LIST Det = det ;
 LIST Def = def ;
 LIST Ind = ind ;
 LIST Dem = dem ;
-LIST Pos = pos ; 
+LIST Pos = pos ;
 LIST PreDet = predet ;
 LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
@@ -38,8 +38,8 @@ LIST CnjAdv = cnjadv ;
 LIST Interj = ij ;
 LIST Interr = itg ;
 LIST Num = num ;
-LIST Prep = pr ; 
-LIST Rel = rel ; 
+LIST Prep = pr ;
+LIST Rel = rel ;
 LIST CM = cm ;
 LIST Lpar = lpar ;
 LIST Guio = guio ;
@@ -58,8 +58,8 @@ SET Top = (np top) OR (np loc) ;
 SET Org = (org) ;
 SET Al = (al) ;
 
-LIST Sg = sg ; 
-LIST Pl = pl ; 
+LIST Sg = sg ;
+LIST Pl = pl ;
 LIST SP = sp ;
 LIST M = m ;
 LIST F = f ;
@@ -118,46 +118,47 @@ LIST Ser = vbser ;
 LIST Essere = "essere" ;
 LIST Dovere = "dovere" ;
 
-LIST Altro = "altro" ; 
-LIST Anche = "anche" ; 
-LIST Ancora = "ancora" ; 
-LIST Andare = "andare" ; 
-LIST Calibro = "calibro" ; 
-LIST Cardinale = "cardinale" ; 
-LIST Ce = "ce" ; 
-LIST Certo = "certo" ; 
-LIST Che = "che" ; 
-LIST Chi = "chi" ; 
-LIST Ci = "ci" ; 
-LIST Circa = "circa" ; 
-LIST Colle = "colle" ; 
-LIST Collo = "collo" ; 
-LIST Come = "come" ; 
-LIST Considerare = "considerare" ; 
-LIST Conte = "conte" ; 
-LIST Conto = "conto" ; 
+LIST Altro = "altro" ;
+LIST Anche = "anche" ;
+LIST Ancora = "ancora" ;
+LIST Andare = "andare" ;
+LIST Calibro = "calibro" ;
+LIST Cardinale = "cardinale" ;
+LIST Ce = "ce" ;
+LIST Certo = "certo" ;
+LIST Che = "che" ;
+LIST Chi = "chi" ;
+LIST Ci = "ci" ;
+LIST Circa = "circa" ;
+LIST Colle = "colle" ;
+LIST Collo = "collo" ;
+LIST Come = "come" ;
+LIST Considerare = "considerare" ;
+LIST Conte = "conte" ;
+LIST Conto = "conto" ;
+LIST Cosa = "cosa" ;
 LIST Da = "da" ;
 LIST Dai = "dai" ;
 LIST Dallo = "dallo" ;
 LIST Dei = "dei" ;
 LIST Di = "di" ;
-LIST Diventare = "diventare" ; 
-LIST Diverso = "diverso" ; 
-LIST Dopo = "dopo" ; 
-LIST Dove = "dove" ; 
-LIST Duce = "Duce" ; 
-LIST Era = "era" ; 
+LIST Diventare = "diventare" ;
+LIST Diverso = "diverso" ;
+LIST Dopo = "dopo" ;
+LIST Dove = "dove" ;
+LIST Duce = "Duce" ;
+LIST Era = "era" ;
 LIST Il = "il" ;
-LIST In = "in" ; 
+LIST In = "in" ;
 LIST Io = "io" ;
-LIST Fare = "fare" ; 
-LIST Fine = "fine" ; 
-LIST Fronte = "fronte" ; 
-LIST Genere = "genere" ; 
-LIST Genero = "genero" ; 
-LIST Giudicare = "giudicare" ; 
-LIST Latta = "latta" ; 
-LIST Latte = "latte" ; 
+LIST Fare = "fare" ;
+LIST Fine = "fine" ;
+LIST Fronte = "fronte" ;
+LIST Genere = "genere" ;
+LIST Genero = "genero" ;
+LIST Giudicare = "giudicare" ;
+LIST Latta = "latta" ;
+LIST Latte = "latte" ;
 LIST Lo = "lo" ;
 LIST Loro = "loro" ;
 LIST Lui = "lui" ;
@@ -166,48 +167,48 @@ LIST Indire = "indire" ;
 LIST Indicare = "indicare" ;
 LIST Mandato = "mandato" ;
 LIST Mantenere = "mantenere" ;
-LIST Molto = "molto" ; 
-LIST Mosca = "Mosca" ; 
-LIST Nato = "nato" ; 
-LIST Ogni = "ogni" ; 
-LIST Oltre = "oltre" ; 
-LIST Ora = "ora" ; 
-LIST Parere = "parere" ; 
-LIST Partita = "partita" ; 
-LIST Primo = "primo" ; 
+LIST Molto = "molto" ;
+LIST Mosca = "Mosca" ;
+LIST Nato = "nato" ;
+LIST Ogni = "ogni" ;
+LIST Oltre = "oltre" ;
+LIST Ora = "ora" ;
+LIST Parere = "parere" ;
+LIST Partita = "partita" ;
+LIST Primo = "primo" ;
 LIST Puo_essere = "può essere" ;
-LIST Principale = "principale" ; 
-LIST Principe = "principe" ; 
-LIST Principio = "principio" ; 
-LIST Quale = "quale" ; 
-LIST Qualunque = "qualunque" ; 
-LIST Quanto = "quanto" ; 
+LIST Principale = "principale" ;
+LIST Principe = "principe" ;
+LIST Principio = "principio" ;
+LIST Quale = "quale" ;
+LIST Qualunque = "qualunque" ;
+LIST Quanto = "quanto" ;
 LIST Regia = "regia" ;
-LIST Rimanere = "rimanere" ; 
-LIST Risultare = "risultare" ; 
+LIST Rimanere = "rimanere" ;
+LIST Risultare = "risultare" ;
 LIST San = "San" ;
-LIST Secondo = "secondo" ; 
-LIST Sembrare = "sembrare" ; 
-LIST Sentire = "sentire" ; 
+LIST Secondo = "secondo" ;
+LIST Sembrare = "sembrare" ;
+LIST Sentire = "sentire" ;
 LIST Serie = "serie" ;
-LIST Sette = "sette" ; 
+LIST Sette = "sette" ;
 LIST Si = "si" ;
-LIST Sole = "sole" ; 
-LIST Solo = "solo" ; 
+LIST Sole = "sole" ;
+LIST Solo = "solo" ;
 LIST Sotto = "sotto" ;
 LIST Stato = "stato" ;
 LIST Stesso = "stesso" ;
-LIST Subito = "subito" ; 
-LIST Tra = "tra" ; 
-LIST Tratta = "tratta" ; 
-LIST Trovare = "trovare" ; 
+LIST Subito = "subito" ;
+LIST Tra = "tra" ;
+LIST Tratta = "tratta" ;
+LIST Trovare = "trovare" ;
 LIST Tu = "tu" ;
-LIST Turbo = "turbo" ; 
+LIST Turbo = "turbo" ;
 LIST Tutto = "tutto" ;
-LIST Ultimo = "ultimo" ; 
+LIST Ultimo = "ultimo" ;
 LIST Un = "un" ;
-LIST Vario = "vario" ; 
-LIST Venire = "venire" ; 
+LIST Vario = "vario" ;
+LIST Venire = "venire" ;
 
 LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" ;
 
@@ -329,7 +330,7 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
 SELECT V IF (-1 Adv) (0 ("<fa>"i)) ;	# non fa, sempre fa
-SELECT Adv IF (-2 Num OR Ind) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("giorno") OR ("settimana") OR ("mese") OR ("anno") OR ("lustro") OR ("decennio") OR ("secolo") OR ("millennio")) (0 ("<fa>"i)) ;	# una settimana fa 
+SELECT Adv IF (-2 Num OR Ind) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("giorno") OR ("settimana") OR ("mese") OR ("anno") OR ("lustro") OR ("decennio") OR ("secolo") OR ("millennio")) (0 ("<fa>"i)) ;	# una settimana fa
 REMOVE Adv IF (0 ("<fa>"i)) ;
 
 REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
@@ -444,6 +445,8 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1/* Det + FemSg) ;
 
+SELECT Interr IF (-1 BOS) (0 Che OR Cosa OR Come OR Quale OR Quanto OR Dove) (1* ("<?>")) ;
+SELECT Interr IF (-1 BOS) (0 Che) (1* ("<!>")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 V) (1* ("<?>")) ;
 SELECT Interr + A IF (0 Quanto + &&ConcordaGN) (1 Noun_Adj + &&ConcordaGN) (2 V) (1* ("<?>")) ;
 SELECT Interr + Pron IF (0 Quanto) (1 V) (1* ("<?>")) ;
@@ -451,6 +454,10 @@ SELECT V + Pers IF (-1 Come OR Quale OR Quanto + Pron OR Dove) (0 V + Pers) (1* 
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Tn) (2 V) (1* ("?")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 N) (3 V) (1* ("?")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 Noun_Adj) (3 Noun_Adj) (4 V) (1* ("?")) ;
+
+LIST V_Interr = "sapere" "chiedere" "dire" "spiegare" ;
+SELECT Interr IF (-1 V_Interr) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
+SELECT Interr IF (-2 V_Interr) (-1 Adv) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
 
 SELECT Prep IF (0 Come OR Quale) (-1 Vall) (NOT -1 PP) ;	# adottare como
 SELECT Prep IF (0 Come OR Quale) (-2 Avere OR Ser OR Venire) (-1 PP) ;	# avere/essere/venire adottato como
@@ -468,7 +475,7 @@ REMOVE Prep IF (-1 Vall) (0 Circa) (1C Noun_Adj) ;
 SELECT Al IF (0 Duce) (-1 Def + MascSg) ;
 
 SELECT A IF (-1 Det + &&ConcordaGN) (0 Certo + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# un certo inquinamento
-SELECT A IF (-1 N + &&ConcordaGN) (0 Certo + &&ConcordaGN) ;	# una notizia certa riguardante 
+SELECT A IF (-1 N + &&ConcordaGN) (0 Certo + &&ConcordaGN) ;	# una notizia certa riguardante
 SELECT A + Vario IF (-1 Det + MascPl) (0 Vario + MascPl) (1 N + MascPl) ;
 SELECT A + Vario IF (-1 Det + FemPl) (0 Vario + FemPl) (1 N + FemPl) ;
 
@@ -612,7 +619,7 @@ SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1C Barrera_Final_SN) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 		# nei seguenti comuni
-REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1 CnjCoo) (NOT 2 A) ; 
+REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1 CnjCoo) (NOT 2 A) ;
 REMOVE A IF (0 A) (0 N) (-2 CnjCoo) (-1C A) (1C Barrera_Final_SN) ;		# e grande amico
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ; 			# solució problema "nel" (a més tracta el cas: Prep N/A.
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 CnjCoo) (2C Prep) ; 			# tempo di record e nel giro
@@ -648,7 +655,7 @@ SELECT A IF (-1/* Det + Def + &&ConcordaGN) (0 Aord + &&ConcordaGN) ;	# il setti
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (1 N) (2 Lpar) ; 	#
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2 Lpar) ; 	#
-REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		# 
+REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1 Lpar) ; 		#
 REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1 Lpar) ; 		# per miglio quadrato (228,5/km²)
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1C A) (NOT 0 AdjN) ; 	# dello Stato Pontificio
@@ -1038,31 +1045,31 @@ SELECT N IF (2C N) (1 CnjCoo) (0C Noun_Adj_PP LINK NOT 0 NP) (-1 Barrera_Inicial
 
 # NOM, NOM CONJ NOM
 
-SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ; 
-SELECT N IF (-3 CM) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 A) ; 
-SELECT N IF (0 Noun_Adj_PP) (1 CM) (2C N) (1 CnjCoo) (2 Noun_Adj_PP) ; 
-SELECT Sg IF (-2C N + Sg) (-1 CM) (0 N + Sg) (1 CnjCoo) (2 N + Sg) ; 
-SELECT Pl IF (-2C N + Pl) (-1 CM) (0 N + Pl) (1 CnjCoo) (2 N + Pl) ; 
-SELECT Masc IF (-2C N + Masc) (-1 CM) (0 N + Masc) (1 CnjCoo) (2 N + Masc) ; 
-SELECT Fem IF (-2C N + Fem) (-1 CM) (0 N + Fem) (1 CnjCoo) (2 N + Fem) ; 
-SELECT Sg IF (-3 CM) (-2C N + Sg) (-1 CnjCoo) (0 N + Sg) (NOT 1 A) ; 
-SELECT Pl IF (-3 CM) (-2C N + Pl) (-1 CnjCoo) (0 N + Pl) (NOT 1 A) ; 
-SELECT Masc IF (-3 CM) (-2C N + Masc) (-1 CnjCoo) (0 N + Masc) (NOT 1 A) ; 
-SELECT Fem IF (-3 CM) (-2C N + Fem) (-1 CnjCoo) (0 N + Fem) (NOT 1 A) ; 
+SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ;
+SELECT N IF (-3 CM) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 A) ;
+SELECT N IF (0 Noun_Adj_PP) (1 CM) (2C N) (1 CnjCoo) (2 Noun_Adj_PP) ;
+SELECT Sg IF (-2C N + Sg) (-1 CM) (0 N + Sg) (1 CnjCoo) (2 N + Sg) ;
+SELECT Pl IF (-2C N + Pl) (-1 CM) (0 N + Pl) (1 CnjCoo) (2 N + Pl) ;
+SELECT Masc IF (-2C N + Masc) (-1 CM) (0 N + Masc) (1 CnjCoo) (2 N + Masc) ;
+SELECT Fem IF (-2C N + Fem) (-1 CM) (0 N + Fem) (1 CnjCoo) (2 N + Fem) ;
+SELECT Sg IF (-3 CM) (-2C N + Sg) (-1 CnjCoo) (0 N + Sg) (NOT 1 A) ;
+SELECT Pl IF (-3 CM) (-2C N + Pl) (-1 CnjCoo) (0 N + Pl) (NOT 1 A) ;
+SELECT Masc IF (-3 CM) (-2C N + Masc) (-1 CnjCoo) (0 N + Masc) (NOT 1 A) ;
+SELECT Fem IF (-3 CM) (-2C N + Fem) (-1 CnjCoo) (0 N + Fem) (NOT 1 A) ;
 # compositor, teórico y pedagogo
 # varios religiosos, pensadores y políticos
 
-SELECT N IF (-2 N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2C N) ; 
-SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Det) (3 N) ; 
+SELECT N IF (-2 N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2C N) ;
+SELECT N IF (-2C N) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Det) (3 N) ;
 # Dificil tratar a la vez:
 # ". Católicos, ortodoxos y algunos anglicanos consideran"
 # "Se encuentra en latín, polaco, lituano y otras lenguas."
 
 # ADJ, ADJ CONJ ADJ
 
-SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ; 
-SELECT A IF (-3 CM) (-2C A) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 N) ; 
-SELECT A IF (0 Noun_Adj_PP) (1 CM) (2C A) (1 CnjCoo) (2 Noun_Adj_PP) ; 
+SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP) (1 CnjCoo) (2 Noun_Adj_PP) ;
+SELECT A IF (-3 CM) (-2C A) (-1 CnjCoo) (0 Noun_Adj_PP) (NOT 1 N) ;
+SELECT A IF (0 Noun_Adj_PP) (1 CM) (2C A) (1 CnjCoo) (2 Noun_Adj_PP) ;
 # rojo, verde y azul
 
 # NOM, NOM,
@@ -1168,7 +1175,7 @@ SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzion
 SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (0 Cog OR Top) ;	# regno di Castiglia
 SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;	# principe di Viana
 REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
-REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli 
+REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0 Ant OR Cog OR Top) ;
 #REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
@@ -1180,7 +1187,7 @@ SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
-REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni); 
+REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
 REMOVE NP IF (0 ("Pesce")) (-1 BOS);
 REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
 
@@ -1192,7 +1199,7 @@ REMOVE Org IF (0 ("Lazio")) ;
 # Per a evitar la traducció de cognoms
 # Posa com a lema la forma de la paraula marcada amb *
 # Amb els adjectius hi ha més risc d'error (!)
-#SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ; 
+#SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ;
 #REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
 
 # Prn
