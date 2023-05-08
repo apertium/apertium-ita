@@ -445,6 +445,8 @@ SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 unknown) ;
 SELECT Adv IF (0 Ancora) (NOT -1/* Det + FemSg) ;
 
+REMOVE PreAdv IF (-1 N OR A) (0 Che) ;
+
 SELECT Interr IF (-1 BOS) (0 Che OR Cosa OR Come OR Quale OR Quanto OR Dove) (1* ("<?>")) ;
 SELECT Interr IF (-1 BOS) (0 Che) (1* ("<!>")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 V) (1* ("<?>")) ;
