@@ -220,7 +220,6 @@ LIST Npl = (n pl) ;
 LIST Vconj = (vblex p1) (vblex p2) (vblex p3) ;	# verb conjugat
 LIST Vinterr = ("domandare") ("chiedere") ;
 LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seicento") ("Settecento") ("Ottocento") ("Novecento") ("Duemila") ;
-LIST Mesi = ("gennaio") ("febbraio") ("marzo") ("aprile") ("maggio") ("giugno") ("luglio") ("agosto") ("settembre") ("ottobre") ("novembre") ("dicembre") ;
 
 # verbi seguiti da aggetivo
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
@@ -713,8 +712,8 @@ REMOVE N IF (-3C N + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1 A + &&ConcordaGN) (
 
 REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
-SELECT N IF (0 Fine) (1 Mesi) ;
-SELECT Fem IF (0 Fine) (1 Mesi) ;
+SELECT N IF (0 Fine) (1 Mese) ;
+SELECT Fem IF (0 Fine) (1 Mese) ;
 
 REMOVE A IF (0 A) (0 N) (-1 ("avere")) (NOT 1 A) ;
 REMOVE A IF (0 A) (0 N) (-2 ("avere")) (-1 Adv) (NOT 1 A) ;	# non ebbe più dubbi
@@ -849,6 +848,7 @@ SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
 SELECT Top IF (-1 ("regione") OR ("provincia") OR ("distretto")) (0 MajIni) ;		# nella Regione Veneto
 SELECT Top IF (-2 ("regione") OR ("provincia") OR ("distretto")) (-1 A) (0 MajIni) ;
+SELECT Top IF (0 MajIni) (1 CM) (2 Num) (3 Mese) ;	#  Milano, 6 luglio
 
 REMOVE A + F IF (-1C Noun_NP + M) (0 A + F) (NOT -1 (META:/[-"«»]/r));
 REMOVE A + M IF (-1C Noun_NP + F) (0 A + M) (NOT -1 (META:/[-"«»]/r)) ;
