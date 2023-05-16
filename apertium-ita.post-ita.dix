@@ -2704,8 +2704,15 @@
       </e>
       <e>
         <p>
+          <l><a/>quello<b/></l>
+          <r>quello<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+      </e>
+      <e>
+        <p>
 	  <l><a/>quello<b/></l>
-	  <r>quello<b/></r>
+	  <r>quel<b/></r>
         </p>
       </e>
       <e>
