@@ -51,6 +51,7 @@ SET Noun_NP = N OR NP ;
 
 SET Adv_PreAdv = Adv OR PreAdv ;
 
+SET Aord = (adj ord) ;
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
 SET Ant_Cog = Ant OR Cog ;
@@ -510,6 +511,8 @@ REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 Primo + &&ConcordaGN) ;	# li primo
 SELECT A IF (-1 Prep) (0 Primo + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# per prima cosa
+SELECT A IF (-1/* Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# nell'ottavo centenario
+SELECT A IF (-1 Prep) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;
 
 SELECT PP IF (-1 Venire) (0 Noun_Adj_PP) ;		# viene divisa
 
