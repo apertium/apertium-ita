@@ -904,6 +904,10 @@ REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + &&ConcordaGN) (0 Adj_PP) 
 
 REMOVE Adj_PP IF (-1 Fare) (0 N + Pl) ;		# fa compromessi
 
+# A O NUM
+
+REMOVE Num IF (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# 2º posto
+
 # A O ADV
 
 REMOVE Adv IF (0 Adv) (0 A + &&ConcordaGN) (-1 N + &&ConcordaGN) (NOT 1 Vall) ; 	# il territorio proprio di
