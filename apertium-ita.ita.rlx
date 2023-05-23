@@ -393,10 +393,10 @@ SELECT A IF (-1/* Det + &&ConcordaGN) (0 Altro + &&ConcordaGN) (1 N + &&Concorda
 REMOVE A IF (-2/* Det + Sg) (-1 Anno) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # nel 2009 diversi amici
 REMOVE A IF (-2 Mese) (-1 Anno) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # il 13 dicembre 2008 diversi amici
 REMOVE A IF (NOT -1/* Det + Ind OR Num) (0 Det) (1C N) (NOT 0 Certo OR Vario) ; # mia mamma ; un suo libro
-SELECT Det IF (NOT -1/* Det OR Num) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
-SELECT Det IF (NOT -1/* Det OR Num) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
-SELECT A IF (-1/* Det OR Num) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
-SELECT A IF (-1/* Det OR Num) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# due diversi amici
+SELECT Det IF (NOT -1/* Det OR Num OR A + Pos) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT Det IF (NOT -1/* Det OR Num OR A + Pos) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# diversi amici
+SELECT A IF (-1/* Det OR Num OR A + Pos) (0 Diverso + MascPl) (1 Noun_Adj + MascPl) ;
+SELECT A IF (-1/* Det OR Num OR A + Pos) (0 Diverso + FemPl) (1 Noun_Adj + FemPl) ;				# due diversi amici
 SELECT A IF (-1 Noun_Adj_PP + &&ConcordaGN) (0 Diverso + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 
 REMOVE Cog IF (0 ("<XI>")) ;
@@ -633,7 +633,7 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 CnjCoo) (2C Prep) ; 			# tempo di record 
 REMOVE PP IF (0 PP) (0 N) (NOT -1 ("molto")) (-1/* Det) (1C Barrera_Final_SN) ;
 REMOVE PP IF (0 PP) (0 N) (-1/* Prep) (1C Barrera_Final_SN) ;
 
-REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det OR Num) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
+REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det OR Num OR A + Pos) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 Barrera_Final_Estrict_SN) ; 	# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Det) (-1 N) (1 Barrera_Final_Estrict_SN) ; 				# dello Stato spagnolo. / il primo amico
 REMOVE N IF (0 A) (0 N) (NOT -1 Aord OR AdjN) (-2/* Prep) (-1 N) (1 Barrera_Final_Estrict_SN) ; 			# dello Stato spagnolo. / il primo amico
