@@ -553,9 +553,12 @@ REMOVE N IF (-1C Vall + Pl) (0 Aord + Pl) ;		# arrivarono sesti
 REMOVE N IF (-1 Vall) (-1/* Enc) (0 Aord) ;		# classificandosi terzo
 
 
-SELECT Det IF (0/* Det + &&ConcordaGN) (0/* Pron) (1 N + &&ConcordaGN) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
+SELECT Det + &&ConcordaGN IF (0/* Det + &&ConcordaGN) (0/* Pron) (1 N + &&ConcordaGN) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det) (0/* Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0/* Det) (0/* Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
+SELECT A + &&ConcordaGN IF (0 A + Pos + &&ConcordaGN) (0 Pron) (1 Adj_PP + &&ConcordaGN) (2 N + &&ConcordaGN) ;
+SELECT A + &&ConcordaGN IF (0 A + Pos + &&ConcordaGN) (0 Pron) (1 Num) (2 N + &&ConcordaGN) ;	# le sue tre manifestazioni ; i sui 3 metri
+SELECT A + &&ConcordaGN IF (0 A + Pos + &&ConcordaGN) (0 Pron) (1 Num) (2 Adj_PP + &&ConcordaGN) (3 N + &&ConcordaGN) ;	# le sue due grandi passioni
 
 SELECT PreAdv IF (-1 N + &&ConcordaGN) (0 PreAdv) (1 A + &&ConcordaGN) ;
 REMOVE PreAdv IF (0 Adv) (0 PreAdv) (NOT 1 A OR PP OR Adv) ;		# tutelando così la credibilità
