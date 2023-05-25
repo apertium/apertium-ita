@@ -505,6 +505,8 @@ REMOVE A IF (0 Nato) (1 ("a")) ;			# una russa nata a Mosca
 SELECT Masc IF (NOT -1/* F OR N) (0 Fronte + Fem) (NOT 1 F) ;
 SELECT Masc IF (NOT -1/* F OR N) (0 Fronte + Fem) (1 Prep) ;
 
+SELECT Fem IF (NOT -1/* M) (0 ("biennale") + Masc) (NOT 1 M) ;
+
 SELECT Latte + Sg IF (NOT -1/* Pl) (0 Latta + Pl) (NOT 1 Pl) ;
 
 REMOVE Indire IF (0 Indicare) (0 Indire) ;
