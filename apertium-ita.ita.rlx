@@ -400,6 +400,13 @@ SELECT A IF (-1/* Det OR Num OR A + Pos) (0 Diverso + FemPl) (1 Noun_Adj + FemPl
 SELECT A IF (-1 Noun_Adj_PP + &&ConcordaGN) (0 Diverso + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 
 REMOVE Cog IF (0 ("<XI>")) ;
+REMOVE Num IF (-1 (quot)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+REMOVE Num IF (0 (META:/[-–—"“«]/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+REMOVE Num IF (-1 (META:/[-–—"“«]/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+#REMOVE Num IF (0 (META:/\"/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+#REMOVE Num IF (-1 (META:/\"/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+#SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
+#REMOVE Num IF (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
 
 SELECT Principe IF (0 Principe) (0 Principio) (-2 ("parco")) (-1 Di) ;
 SELECT Principio IF (0 Principe) (0 Principio) (NOT 1 Di) (NOT -1 Di) ;
