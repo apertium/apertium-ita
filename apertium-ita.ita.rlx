@@ -123,6 +123,8 @@ LIST Altro = "altro" ;
 LIST Anche = "anche" ;
 LIST Ancora = "ancora" ;
 LIST Andare = "andare" ;
+LIST Bua = "bua" ;
+LIST Bue = "bue" ;
 LIST Calibro = "calibro" ;
 LIST Cardinale = "cardinale" ;
 LIST Ce = "ce" ;
@@ -420,6 +422,9 @@ SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
 
 SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
+
+SELECT Bue IF (NOT -1 F) (0 Bua) (NOT -1 F) ;
+SELECT Bue IF (NOT -1 Pl) (0 Bua) (NOT -1 Pl) ;
 
 SELECT A IF (0 ("<Santo>")) (1 ("spirito") OR ("sepolcro")) ;
 SELECT N IF (0 ("<Vergine>")) (-1/* Det + Fem) ;
