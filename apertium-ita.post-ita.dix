@@ -121,6 +121,12 @@
       <e>
         <i>8</i>
       </e>
+      <e>
+        <i>VIII<b/></i>
+      </e>
+      <e>
+        <i>XI<b/></i>
+      </e>
     </pardef>
 
     <pardef n="numeros_no_vocale">
@@ -177,6 +183,24 @@
       </e>
       <e>
         <i>11[0123456789]</i>
+      </e>
+      <e>
+        <i>I<b/></i>
+      </e>
+      <e>
+        <i>II<b/></i>
+      </e>
+      <e>
+        <i>III<b/></i>
+      </e>
+      <e>
+        <i>IV<b/></i>
+      </e>
+      <e>
+        <i>IX<b/></i>
+      </e>
+      <e>
+        <i>I[IVXLCM]</i>
       </e>
     </pardef>
 
@@ -424,6 +448,9 @@
         <i>«z</i>
       </e>
 
+      <e>
+        <par n="numeros_no_vocale"/>
+      </e>
     </pardef>
 
   <pardef n="cons_especiales">
@@ -624,7 +651,7 @@
       </e>
 
       <e>
-        <i>XI<b/></i>
+        <par n="numeros_vocale"/>
       </e>
 
     </pardef> 
