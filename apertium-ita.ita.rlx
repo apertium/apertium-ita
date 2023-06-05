@@ -925,6 +925,7 @@ REMOVE Adj_PP IF (-1 Fare) (0 N + Pl) ;		# fa compromessi
 # A O NUM
 
 REMOVE Num IF (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# 2º posto
+SELECT Num IF (0 Num) (1 Aord + &&ConcordaGN + Pl) (2 N + &&ConcordaGN + Pl) ;	# due terzi posti
 
 # A O ADV
 
@@ -979,6 +980,8 @@ REMOVE Pron IF (-1 Aord) (0 ("cosa")) ;
 REMOVE N IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
 REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
+
+SELECT N IF (-1 Aord + &&ConcordaGN) (0 ("posto") + &&ConcordaGN) ;	# 2º posto
 
 REMOVE N IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
