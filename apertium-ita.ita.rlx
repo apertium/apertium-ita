@@ -1218,6 +1218,8 @@ SELECT Top IF (NOT -2 ("parlare")) (-1 ("a")) (0 Mosca) ;
 SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 
+SELECT Ant IF (0 ("Orfeo")) (NOT 1 Ant OR Cog) ;
+
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
 REMOVE NP IF (0 ("Pesce")) (-1 BOS);
