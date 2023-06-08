@@ -478,6 +478,12 @@ SELECT Prep IF (0 Come OR Quale) (-3 Avere OR Ser OR Venire) (-2 Adv) (-1 PP) ;
 SELECT Prep IF (0 Come) (-1 Barrera_Inicial_Estrict_SN OR CM) ;
 #REMOVE Prep IF (0 Come OR Quale) (NOT -1 PP) (NOT -2 PP) (NOT -3 PP) ;
 
+SELECT Prep IF (0 ("<ne>"i)) (1C Det) ;	# ne "Il pipistrello" ; ne "I predatori"
+SELECT Prep IF (0 ("<ne>"i)) (1 (quot)) (2C Det) ;
+SELECT Prep IF (0 ("<ne>"i)) (1C ("<il>"i) OR ("<i>"i)) ;
+SELECT Prep IF (0 ("<ne>"i)) (1 (quot)) (2C ("<il>"i) OR ("<i>"i)) ;
+REMOVE Prep IF (0 ("<ne>"i)) ;
+
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
