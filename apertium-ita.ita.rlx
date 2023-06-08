@@ -812,6 +812,7 @@ REMOVE Interr IF (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 Interr) (0 Rel +
 SELECT Rel IF (-1C N OR A OR NP) (0 Che OR Chi) ;		# l'uomo che dice
 SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
 SELECT Rel IF (-1/* Det + Def) (0 Che OR Chi) ;
+SELECT Rel IF (-1/* Det + Dem) (0 Che OR Chi) ;
 SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
 SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
 SELECT Rel IF (-2 unknown) (-1 CM) (0 Che OR Chi) ;
@@ -1296,6 +1297,32 @@ REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
+
+SELECT Prs + P3 IF (0 Ser + Prs + P3 + &&ConcordaSP) (1 Det + &&ConcordaSP) (2 Che OR Interr OR Rel) (3 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
+SELECT Prs + P3 IF (-3 Ser + Prs + P3 + &&ConcordaSP) (-2 Det + &&ConcordaSP) (-1 Che OR Interr OR Rel) (0 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
+SELECT Prs + &&ConcordaGV IF (0 Ser + Prs + &&ConcordaGV) (1 Interr OR Rel) (2 Ser + Prs + &&ConcordaGV) ;	# sia quello che sia
+SELECT Prs + &&ConcordaGV IF (-2 Ser + Prs + &&ConcordaGV) (-1 Interr OR Rel) (0 Ser + Prs + &&ConcordaGV) ;	# sia quello che sia
+#SELECT Prs + P3 IF (0 Ser + Prs + P3) (1 Interr OR Rel) (2 Ser + Prs + P3) ;	# sia quello che sia
+SELECT Prs + &&ConcordaGV IF (0 Ser + Prs + &&ConcordaGV) (1 Interr OR Rel) (2 Tn) (3 Ser + Prs + &&ConcordaGV) ;	# sia quello che tu sia [ConcordaGV not working]
+SELECT Prs + Sg1 IF (0 Ser + Prs + Sg1) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Sg1) ;
+SELECT Prs + Sg2 IF (0 Ser + Prs + Sg2) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Sg2) ;	# sia quello che tu sia
+SELECT Prs + Sg3 IF (0 Ser + Prs + Sg3) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Sg3) ;
+SELECT Prs + Pl1 IF (0 Ser + Prs + Pl1) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Pl1) ;
+SELECT Prs + Pl2 IF (0 Ser + Prs + Pl2) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Pl2) ;
+SELECT Prs + Pl3 IF (0 Ser + Prs + Pl3) (1 Interr OR Rel) (2 Tn) (3C Ser + Prs + Pl3) ;
+
+LIST Verbs_X_quel_che_X = "costare" ;
+SELECT Prs + P3 IF (0 Verbs_X_quel_che_X + Prs + P3 + &&ConcordaSP) (1 Det + &&ConcordaSP) (2 Che OR Interr OR Rel) (3 Verbs_X_quel_che_X + Prs + P3 + &&ConcordaSP) ;	# costi quel che costi
+SELECT Prs + P3 IF (-3 Verbs_X_quel_che_X + Prs + P3 + &&ConcordaSP) (-2 Det + &&ConcordaSP) (-1 Che OR Interr OR Rel) (0 Verbs_X_quel_che_X + Prs + P3 + &&ConcordaSP) ;	# costi quel che costi
+SELECT Prs + &&ConcordaGV IF (0 Verbs_X_quel_che_X + Prs + &&ConcordaGV) (1 Interr OR Rel) (2 Verbs_X_quel_che_X + Prs + &&ConcordaGV) ;	# costi quello che costi
+SELECT Prs + &&ConcordaGV IF (-2 Verbs_X_quel_che_X + Prs + &&ConcordaGV) (-1 Interr OR Rel) (0 Verbs_X_quel_che_X + Prs + &&ConcordaGV) ;	# costi quello che costi
+SELECT Prs + Sg1 IF (0 Verbs_X_quel_che_X + Prs + Sg1) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Sg1) ;
+SELECT Prs + Sg2 IF (0 Verbs_X_quel_che_X + Prs + Sg2) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Sg2) ;
+SELECT Prs + Sg3 IF (0 Verbs_X_quel_che_X + Prs + Sg3) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Sg3) ;	# costi quello che mi costi
+SELECT Prs + Pl1 IF (0 Verbs_X_quel_che_X + Prs + Pl1) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Pl1) ;
+SELECT Prs + Pl2 IF (0 Verbs_X_quel_che_X + Prs + Pl2) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Pl2) ;
+SELECT Prs + Pl3 IF (0 Verbs_X_quel_che_X + Prs + Pl3) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Pl3) ;
+
 
 REMOVE Prs IF (NOT -1* CnjSub OR CnjAdv OR Che + Rel OR (".*# che"r)) ;	# "sperare# che" et sim.
 SELECT Subj IF (-1* ("sperare# che")) (0C Vall) ;
