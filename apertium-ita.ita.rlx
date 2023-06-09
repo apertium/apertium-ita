@@ -43,6 +43,7 @@ LIST Rel = rel ;
 LIST CM = cm ;
 LIST Lpar = lpar ;
 LIST Guio = guio ;
+LIST Quot = quot ;
 
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
@@ -382,6 +383,10 @@ SELECT NP IF (0 San) (1 Upper) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
+SELECT NP IF (-1 Ant) (0 Di) (1 MajIni OR unknownMajIni) ;
+SELECT NP IF (NOT -1 BOS OR MajIni OR Quot) (NOT -1 (META:/[–—"“«]/r)) (0 Di) (1 MajIni OR unknownMajIni) ;
+REMOVE NP IF (0 Di) ;
+
 SELECT Pron IF (0 ("alcun") OR ("ciascun") OR ("qualcun") OR ("nessun")) (1 Prep) ;
 
 SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
@@ -402,7 +407,7 @@ SELECT A IF (-1/* Det OR Num OR A + Pos) (0 Diverso + FemPl) (1 Noun_Adj + FemPl
 SELECT A IF (-1 Noun_Adj_PP + &&ConcordaGN) (0 Diverso + &&ConcordaGN) (1 Barrera_Final_Estrict_SN) ;	# provider diversi
 
 REMOVE Cog IF (0 ("<XI>")) ;
-REMOVE Num IF (-1 (quot)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
+REMOVE Num IF (-1 Quot) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
 REMOVE Num IF (0 (META:/[-–—"“«]/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
 REMOVE Num IF (-1 (META:/[-–—"“«]/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
 #REMOVE Num IF (0 (META:/\"/r)) (0 ("<I>")) (1 Noun_Adj + MascPl) ;	# Nella serie televisiva statunitense "I misteri della laguna"
@@ -479,9 +484,9 @@ SELECT Prep IF (0 Come) (-1 Barrera_Inicial_Estrict_SN OR CM) ;
 #REMOVE Prep IF (0 Come OR Quale) (NOT -1 PP) (NOT -2 PP) (NOT -3 PP) ;
 
 SELECT Prep IF (0 ("<ne>"i)) (1C Det) ;	# ne "Il pipistrello" ; ne "I predatori"
-SELECT Prep IF (0 ("<ne>"i)) (1 (quot)) (2C Det) ;
+SELECT Prep IF (0 ("<ne>"i)) (1 Quot) (2C Det) ;
 SELECT Prep IF (0 ("<ne>"i)) (1C ("<il>"i) OR ("<i>"i)) ;
-SELECT Prep IF (0 ("<ne>"i)) (1 (quot)) (2C ("<il>"i) OR ("<i>"i)) ;
+SELECT Prep IF (0 ("<ne>"i)) (1 Quot) (2C ("<il>"i) OR ("<i>"i)) ;
 REMOVE Prep IF (0 ("<ne>"i)) ;
 
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
