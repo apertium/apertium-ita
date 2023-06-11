@@ -1229,7 +1229,8 @@ SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzion
 	(-1 Di) (0 Ant OR Cog OR Top) ;
 	# concilio di Nicea
 SELECT Top IF (-2 ("corona") OR ("regno") OR ("contea") OR ("ducato")) (-1 Di) (0 Cog OR Top) ;	# regno di Castiglia
-SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog OR Top) ;	# principe di Viana
+SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog) ;	# principe di Viana
+SELECT Top IF (-2 ("città") OR ("aeroporto") OR ("porto") OR ("regno") OR ("principato") OR ("granducato") OR ("ducato") OR ("marchesato") OR ("contea") OR ("baronia") OR ("signoria") OR ("califfato") OR ("emirato") OR ("sultanato") OR ("khanato") OR ("satrapia") OR ("repubblica") OR ("arcivescovado") OR ("vescovado")) (-1 Di) (0 Cog OR Ant) ;
 REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
 REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli
 SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0 Ant OR Cog OR Top) ;
