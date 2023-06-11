@@ -1003,6 +1003,8 @@ REMOVE N IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
 REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
 
+REMOVE Inf IF (-1/* Det + MascSg) (0 ("potere")) ;
+
 SELECT N IF (-1 Aord + &&ConcordaGN) (0 ("posto") + &&ConcordaGN) ;	# 2º posto
 
 REMOVE N IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
