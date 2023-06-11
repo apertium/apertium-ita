@@ -648,6 +648,16 @@ SELECT N IF (0 Stato) (-1 Det OR Aord OR Pos OR AdjN) ;
 SELECT N IF (-1 Tra) (1 ("e")) (2C N) ;
 SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
+LIST QuartiDiFinale = "quarto" "ottavo" ;
+REMOVE Aord IF (0 N) (0 Aord + &&ConcordaGN) (1 Di) (2 ("finale")) ;	# quarto di finale
+REMOVE Aord IF (0 N) (0 Aord + &&ConcordaGN) (1 Di) (2 ("ora")) ;	# quarto di finale
+REMOVE Aord IF (-2 ("passare") OR ("uscire") OR ("approdare") OR ("battere") OR ("vincere")) (-1 ("a")) (0 QuartiDiFinale) (NOT 1 N) ;
+REMOVE Aord IF (-4 ("battere") OR ("vincere")) (-3 Det + Def) (-1 ("a")) (0 QuartiDiFinale) (NOT 1 N) ;	# i merengues battono il Bayern ai quarti
+REMOVE Aord IF (-5 ("battere") OR ("vincere")) (-4 Det + Def) (-1 ("a")) (0 QuartiDiFinale) (NOT 1 N) ;	# i merengues battono il Bayern Monaco ai quarti
+REMOVE Aord IF (-1 ("raggiunge")) (0 QuartiDiFinale) (NOT 1 N) ;
+REMOVE Aord IF (-1 In) (0 QuartiDiFinale + Pl) (NOT 1 N) ;
+REMOVE N IF (-1/* Det + Def + &&ConcordaGN) (0 N) (0 Aord + &&ConcordaGN) ;
+
 REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1C Barrera_Final_SN) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 		# nei seguenti comuni
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1 CnjCoo) (NOT 2 A) ;
