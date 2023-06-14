@@ -375,6 +375,8 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
 
+REMOVE N IF (NOT -1/* Det + FemSg OR A + FemSg) (0 ("<era>"i)) (NOT 1C V + Pers) ;	# era figlia
+
 REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
 REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (-1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
 SELECT ("riso_pianta") IF (0 ("<riso>"i)) (0 ("riso")) ;
