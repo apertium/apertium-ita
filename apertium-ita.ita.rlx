@@ -234,7 +234,7 @@ LIST AdjN = ("tanto") ("principale") ("ultimo") ("altro") ("ex") ;
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
 
-SET Dignità = ("presidente") OR ("governatore") OR ("imperatore") OR ("re") OR ("principe") OR ("barone") OR ("conte") OR ("visconte") OR ("marchese") OR ("duca") OR ("arciduca") OR ("vescovo") OR ("arcivescovo");
+SET Dignità = ("presidente") OR ("presidentessa") OR ("presidenta") OR ("vicepresidente") OR ("vicepresidentessa") OR ("vicepresidenta") OR ("governatore") OR ("imperatore") OR ("re") OR ("principe") OR ("barone") OR ("conte") OR ("visconte") OR ("marchese") OR ("duca") OR ("arciduca") OR ("vescovo") OR ("arcivescovo");
 
 # All possible word categories
 
@@ -617,6 +617,10 @@ REMOVE N IF (0 ("<V>")) (-1 Ant) (NOT 1 Cog OR Ant) ;		# Petro I
 REMOVE N IF (0 ("<V>")) (-1 unknownMajIni) ; 			# Strannocz I
 SELECT N IF (0 ("<V>")) (-1 Num) ;				# 220 V
 
+REMOVE A IF (0 ("accado")) (NOT -1 N) ;
+REMOVE N IF (0 ("accado") + Sg) ;
+REMOVE N IF (0 ("accado") + Fem) ;
+
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1C A) (1 Prep) ;		# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musicale nato nel 1856
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
@@ -727,9 +731,9 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tede
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Prep) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Prep) ; 		# sullo stato dei mari ; molto comune nei bambini
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1/* Det) (1/* Det) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Det) ; 			# sullo stato dei mari
 REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 Aord OR AdjN) ; # lo stato italiano
@@ -946,6 +950,19 @@ SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + &&ConcordaGN) (0 Adj_PP) (1 Adj_PP + &&ConcordaGN LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856 ; partita giocata
 
 REMOVE Adj_PP IF (-1 Fare) (0 N + Pl) ;		# fa compromessi
+
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-1 Ser + &&ConcordaSP) (0C Noun_Adj_PP + &&ConcordaSP) (NOT 1 A + &&ConcordaSP) ;	# è presidente ; è molto comune
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-2 Ser + &&ConcordaSP) (-1 Adv) (0C Noun_Adj_PP + &&ConcordaSP) (NOT 1 A + &&ConcordaSP) ;
+SELECT Noun_Adj_PP + &&ConcordaGN IF (-1 Ser + PP + &&ConcordaGN) (0C Noun_Adj_PP + &&ConcordaGN) (NOT 1 A + &&ConcordaSP) ;	# è stato presidente
+SELECT Noun_Adj_PP + &&ConcordaGN IF (-2 Ser + PP + &&ConcordaGN) (-1 Adv) (0C Noun_Adj_PP + &&ConcordaGN) (NOT 1 A + &&ConcordaSP) ;
+SELECT Adv OR Noun_Adj_PP + &&ConcordaSP IF (-1 Ser + &&ConcordaSP) (0C Noun_Adj_PP + &&ConcordaSP) (1 A + &&ConcordaSP) ;	# molto comune
+SELECT Adv OR Noun_Adj_PP + &&ConcordaSP IF (-2 Ser + &&ConcordaSP) (-1 Adv) (0C Noun_Adj_PP + &&ConcordaSP) (1 A + &&ConcordaSP) ;
+SELECT Adv OR Noun_Adj_PP + &&ConcordaGN IF (-1 Ser + PP + &&ConcordaGN) (0C Noun_Adj_PP + &&ConcordaGN) (1 A + &&ConcordaSP) ;	# è stato molto comune
+SELECT Adv OR Noun_Adj_PP + &&ConcordaGN IF (-2 Ser + PP + &&ConcordaGN) (-1 Adv) (0C Noun_Adj_PP + &&ConcordaGN) (1 A + &&ConcordaSP) ;
+
+SELECT Masc IF (NOT -1/* F) (NOT -1/* Pl) (0 ("presidente")) (NOT 1 F) (NOT 1 Pl) ;
+SELECT Masc IF (NOT -1/* F) (NOT -1/* Pl) (0 ("vicepresidente")) (NOT 1 F) (NOT 1 Pl) ;
+
 
 # A O NUM
 
