@@ -579,6 +579,10 @@ REMOVE N IF (-1C Vall + Sg) (0 Aord + Sg) ;		# arrivarò sesto
 REMOVE N IF (-1C Vall + Pl) (0 Aord + Pl) ;		# arrivarono sesti
 REMOVE N IF (-1 Vall) (-1/* Enc) (0 Aord) ;		# classificandosi terzo
 
+SELECT PreAdv OR Adv IF (0 ("molto")) (1C A OR PP) ;	# molto affettuoso
+SELECT Det + &&ConcordaGN OR A + &&ConcordaGN IF (0 ("molto") + &&ConcordaGN) (1C N + &&ConcordaGN) ;
+REMOVE Pron IF (0 ("molto") + &&ConcordaGN) (1 Noun_Adj_PP + &&ConcordaGN) ;	# molti danni
+
 SELECT Det + &&ConcordaGN IF (0/* Det + &&ConcordaGN) (0/* Pron) (1 N + &&ConcordaGN) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det) (0/* Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
 SELECT Det IF (0/* Det) (0/* Pron) (1 A) (2 N) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
