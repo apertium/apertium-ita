@@ -128,7 +128,6 @@ LIST Bua = "bua" ;
 LIST Bue = "bue" ;
 LIST Calibro = "calibro" ;
 LIST Cardinale = "cardinale" ;
-LIST Ce = "ce" ;
 LIST Certo = "certo" ;
 LIST Che = "che" ;
 LIST Chi = "chi" ;
@@ -1290,9 +1289,9 @@ REMOVE Org IF (0 ("Lazio")) ;
 SELECT Adv IF (0 Ci) (1 Ser + P3) (NOT 1 PP) ;
 SELECT P3 IF (-1 Ci) (0 Ser + P3) (NOT 1 PP) ;
 SELECT P1 IF (0 Ci) (1 Vall + P1 + Pl) ;
-SELECT P1 IF (0 Ce) (1 Lo) (2 V + Pers) (NOT 2 ("avere")) (NOT 3 PP) ;	# ce lo dice
-SELECT P1 IF (0 Ce) (1 Lo) (2 Avere + Pers) (3 PP) ;			# ce lo ha detto
-SELECT Adv IF (0 Ce) (1 Lo) (2 ("avere") + Pers) ;			# ce l'ho
+SELECT P1 IF (0 Ci) (1 Lo) (2 V + Pers) (NOT 2 ("avere")) (NOT 3 PP) ;	# ce lo dice
+SELECT P1 IF (0 Ci) (1 Lo) (2 Avere + Pers) (3 PP) ;			# ce lo ha detto
+SELECT Adv IF (0 Ci) (1 Lo) (2 ("avere") + Pers) ;			# ce l'ho
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 ("questo") OR ("quello")) ;
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 N) ;
 SELECT P1 IF (0 Ci) (1 Vall + Pers) (2 Det) (3 A) (4 N) ;
