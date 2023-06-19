@@ -212,6 +212,7 @@ LIST Ultimo = "ultimo" ;
 LIST Un = "un" ;
 LIST Vario = "vario" ;
 LIST Venire = "venire" ;
+LIST Vi = "vi" ;
 
 LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" ;
 
@@ -1302,6 +1303,7 @@ SELECT P1 IF (0 Ci) (1 ("solere") + P3) ;
 SELECT SUB:1 P1 IF (0 Imper) (0/* Ci + Enc) ;
 SELECT SUB:1 P1 IF (-1 Vall + P1 + Pl) (0 Inf) (0/* Ci + Enc) ;
 SELECT SUB:1 P1 IF (-2 Vall + P1 + Pl) (-1 Prep) (0 Inf) (0/* Ci + Enc) ;
+SELECT SUB:1 P2 IF (0 Vall) (0/* Vi + Enc) (0/* ("lo") + Enc) ;	# darvela
 
 # Verbi
 
