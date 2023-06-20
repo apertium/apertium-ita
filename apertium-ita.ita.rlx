@@ -143,6 +143,7 @@ LIST Cosa = "cosa" ;
 LIST Da = "da" ;
 LIST Dai = "dai" ;
 LIST Dallo = "dallo" ;
+LIST Dare = "dare" ;
 LIST Dei = "dei" ;
 LIST Di = "di" ;
 LIST Diventare = "diventare" ;
@@ -275,8 +276,7 @@ SELECT Interj IF (1 CM) (1* ("!")) ;
 SELECT Pron IF (0 Io) ;
 
 SELECT Pron IF (0 Lui) (0 Loro) (1C Det) ;
-SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) (NOT 0 ("<Loro>")) ;
-	# per proporre loro i libri
+SELECT Lui IF (0 Lui) (0 Loro) (-1 Vall) (NOT 1 A OR N) (NOT 0 ("<Loro>")) ;	# per proporre loro i libri
 SELECT Lei IF (0 ("<Lei>")) (1 Ser + Sg OR Diventare + Sg) (2 Adj_PP + M + SgSp) ;				# Lei è simpatico
 SELECT Lei IF (0 ("<Loro>")) (1 Ser + Pl OR Diventare + Pl) (2 Adj_PP + M + PlSp) ;				# Loro sono simpatici
 SELECT Lei IF (0 ("<Lei>")) (1 Adv) (2 Ser + Sg OR Diventare + Sg) (3 Adj_PP + M + SgSp) ;			# Lei non è simpatico
@@ -288,8 +288,7 @@ SELECT Lei IF (0 ("<Loro>")) (1 Adv) (2 Ser + Pl OR Diventare + Pl) (3 Adv_PreAd
 SELECT Lui + F IF (0 Lui) (0 Lei) (0 ("<Lei>")) (-1 BOS) ;
 SELECT Lei IF (0 Lui) (0 Lei) (0 ("<Lei>") OR ("<Loro>")) (NOT -1 BOS) ;
 REMOVE Lei IF (0 Lui) (0 Lei) (NOT 0 ("<Lei>") OR ("<Loro>")) ;
-SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;
-	# tra di loro
+SELECT Lui + Pron IF (0 Lui) (0 Loro) (-1C Prep) (NOT 1 A OR N) ;	# tra di loro
 REMOVE Det IF (0 Loro) (1C Vall) ;
 REMOVE Det IF (0 Loro) (1 Adv) (2 Vall) ;
 SELECT Lui IF (0 Loro) (1 Vall + P3 + Pl) ;
@@ -476,7 +475,7 @@ SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Tn) (2 V) (1* ("?")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 N) (3 V) (1* ("?")) ;
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 Noun_Adj) (3 Noun_Adj) (4 V) (1* ("?")) ;
 
-LIST V_Interr = "sapere" "chiedere" "dire" "spiegare" ;
+LIST V_Interr = "sapere" "chiedere" "dire" "spiegare" "domandare" ;
 SELECT Interr IF (-1 V_Interr) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
 SELECT Interr IF (-2 V_Interr) (-1 Adv) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
 
@@ -609,6 +608,10 @@ SELECT CnjAdv IF (0 ("considerato che")) (NOT -2 Avere) (NOT -1 Avere) ;	# ha vi
 REMOVE PP IF (-1 V LINK NOT 0 PP) (0 PP) (0 Adv) ;			# denominò subito il territorio
 
 REMOVE PP IF (-1C Tn OR Pro OR Det LINK NOT 0 Dem) (-1 Pron) (0 Vall + Pers) ;	# Chi me la porta? / Quelle ligate a
+REMOVE PP IF (0 Vall + Pers) (-1 BOS OR CnjSub OR CnjAdv OR Rel) (NOT 0 Dare) ;	# porto loro
+REMOVE PP IF (0 Vall + Pers) (-1 Adv) (-2 BOS OR CnjSub OR CnjAdv OR Rel) (NOT 0 Dare) ;
+REMOVE PP IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 BOS OR CnjSub OR CnjAdv OR Rel) (NOT 0 Dare) ;
+REMOVE PP IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 CM) (-4 CnjSub OR CnjAdv OR Rel) (NOT 0 Dare) ;
 
 SELECT Det IF (0 Det) (0 Pron) (1 unknown) ;
 SELECT Det IF (-1 BOS) (0 ("I")) (NOT 1 EOS) ;	# .I movimentos
@@ -1067,6 +1070,11 @@ REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 CM OR Cn
 REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (-2 CM OR CnjCoo) (-4 Det) (-3 Noun_Adj_PP) ;
 
 REMOVE Vall IF (-1 Det + &&ConcordaGN) (0 N + &&ConcordaGN) (1C Vall) (1 Vall + P3) ;	# Le condizioni peggiorarono
+
+REMOVE N OR A IF (0 Vall + Pers) (-1 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;	# porto loro
+REMOVE N OR A IF (0 Vall + Pers) (-1 Adv) (-2 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
+REMOVE N OR A IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
+REMOVE N OR A IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 CM) (-4 CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
 
 # Queste sono supposizioni
 
