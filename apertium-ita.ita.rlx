@@ -179,6 +179,7 @@ LIST Oltre = "oltre" ;
 LIST Ora = "ora" ;
 LIST Parere = "parere" ;
 LIST Partita = "partita" ;
+LIST Perche = "perché" ;
 LIST Primo = "primo" ;
 LIST Puo_essere = "può essere" ;
 LIST Principale = "principale" ;
@@ -476,8 +477,11 @@ SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 N) (3 V) (1* ("?
 SELECT Interr IF (0 Come OR Quale OR Quanto OR Dove) (1 Det) (2 Noun_Adj) (3 Noun_Adj) (4 V) (1* ("?")) ;
 
 LIST V_Interr = "sapere" "chiedere" "dire" "spiegare" "domandare" ;
-SELECT Interr IF (-1 V_Interr) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
-SELECT Interr IF (-2 V_Interr) (-1 Adv) (0 Cosa OR Come OR Quale OR Quanto OR Dove) ;
+SELECT Interr IF (-1 V_Interr) (0 Cosa OR Perche OR Come OR Quale OR Quanto OR Dove) ;
+SELECT Interr IF (-2 V_Interr) (-1 Adv) (0 Cosa OR Perche OR Come OR Quale OR Quanto OR Dove) ;
+SELECT Interr IF (0 Cosa OR Perche OR Quale OR Quanto OR Dove) (1 Inf) ;
+SELECT Interr IF (0 Cosa OR Perche OR Quale OR Quanto OR Dove) (1 Pro) (2 Inf) ;
+SELECT Interr IF (0 Cosa OR Perche OR Quale OR Quanto OR Dove) (1 Pro) (2 Pro) (3 Inf) ;
 
 SELECT Prep IF (0 Come OR Quale) (-1 Vall) (NOT -1 PP) ;	# adottare como
 SELECT Prep IF (0 Come OR Quale) (-2 Avere OR Ser OR Venire) (-1 PP) ;	# avere/essere/venire adottato como
