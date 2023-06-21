@@ -427,6 +427,9 @@ SELECT Genere IF (0 Genere) (0 Genero) (NOT 1 Di) ;
 SELECT Genere IF (0 Genere) (0 Genero) (1 Di) (NOT 2 Ant_Cog OR unknownMajIni) ;
 SELECT Genero IF (0 Genere) (0 Genero) (1 Di) (2 Ant_Cog) ;
 
+SELECT ("peso_valuta") IF (0 ("peso")) (1 ("argentino") OR ("boliviano") OR ("cileno") OR ("colombiano") OR ("cubano") OR ("dominicano") OR ("filippino") OR ("honduregno") OR ("messicano") OR ("uruguaiano")) ;
+REMOVE ("peso_valuta") IF (0 ("peso")) ;
+
 SELECT Colle IF (0 Colle) (0 Collo) ;	# sette colli
 
 SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
