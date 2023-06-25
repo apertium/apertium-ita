@@ -99,7 +99,8 @@ SET Enc = (prn enc) ;
 SET Tn = (prn tn) ;
 SET Tn_nt = (prn tn nt) ;
 
-SET Pref = (adj mf sp) ;
+SET Pref1 = (pref) ;	# "real" prefix
+SET Pref2 = (adj mf sp) ;	# adj.mf.sp used as a prefix
 
 SET Aord = (adj ord) OR ("sette") ;	# sette/setta
 
@@ -341,12 +342,18 @@ REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
 
 # Prefissi
 
-SELECT Pref IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
-SELECT Pref IF (1 ("-")) (2 N OR A OR V OR unknown) ;
-REMOVE Pref IF (0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("russo") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
+SELECT Pref1 IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
+SELECT Pref1 IF (1 ("-")) (2 N OR A OR V OR unknown) ;
+REMOVE Pref1 ; # IF (NOT 0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("ex") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
+SELECT Pref2 IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
+SELECT Pref2 IF (1 ("-")) (2 N OR A OR V OR unknown) ;
+REMOVE Pref2 IF (0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("ex") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
 SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
 SELECT A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (1 ("-")) (2 N OR A OR V OR unknown) ;
 REMOVE A IF (0 ("anti") OR ("auto") OR ("multi") OR ("post") OR ("pre") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
+SELECT N OR A OR V IF (-1C Pref1 OR Pref2) (0 (META:/-/r)) ;
+SELECT N OR A OR V IF (-2C Pref1 OR Pref2) (-1 ("-")) ;
+
 
 SECTION
 
