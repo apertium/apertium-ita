@@ -162,6 +162,8 @@ LIST Fronte = "fronte" ;
 LIST Genere = "genere" ;
 LIST Genero = "genero" ;
 LIST Giudicare = "giudicare" ;
+LIST Ione = "ione" ;
+LIST Ionio = "ionio" ;
 LIST Latta = "latta" ;
 LIST Latte = "latte" ;
 LIST Lo = "lo" ;
@@ -1424,3 +1426,7 @@ SELECT V + Inf IF (-1 BOS) (1 EOS) ;
 SELECT Pron + MascSg IF (-1 BOS) (1 EOS) ;
 SELECT Prep IF (-1 BOS) (1 EOS) ;
 SELECT Adv IF (-1 BOS) (1 EOS) ;
+
+
+REMOVE Ionio IF (0 Ione) (1 MajIni OR unknownMajIni) ;
+REMOVE Ionio IF (-1 V) (0 Ione) ;
