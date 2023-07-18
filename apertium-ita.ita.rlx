@@ -1245,6 +1245,7 @@ SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
 REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
 REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
 REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
+REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
