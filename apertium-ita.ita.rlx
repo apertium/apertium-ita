@@ -507,6 +507,9 @@ SELECT Prep IF (0 ("<ne>"i)) (1C ("<il>"i) OR ("<i>"i)) ;
 SELECT Prep IF (0 ("<ne>"i)) (1 Quot) (2C ("<il>"i) OR ("<i>"i)) ;
 REMOVE Prep IF (0 ("<ne>"i)) ;
 
+SELECT ("in direzione") IF (0 ("in direzione")) (1 NP OR unknownMajIni) ;
+REMOVE ("in direzione") IF (0 ("in direzione")) ;
+
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
