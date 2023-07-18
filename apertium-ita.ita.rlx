@@ -993,6 +993,7 @@ REMOVE ("parto") + A IF (NOT -1 Noun_Adj + FemPl) (0 ("parte")) ;
 # A O NUM
 
 REMOVE Num IF (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# 2º posto
+REMOVE Num IF (-1 ("secolo") OR ("sec.")) (0 Aord + &&ConcordaGN) ;	# nel sec. 19°
 SELECT Num IF (0 Num) (1 Aord + &&ConcordaGN + Pl) (2 N + &&ConcordaGN + Pl) ;	# due terzi posti
 
 # A O ADV
