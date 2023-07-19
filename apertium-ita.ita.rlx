@@ -1296,6 +1296,11 @@ SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + De
 #REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
 SELECT Top IF (-2 NP) (-1 Di) (0 Ant OR Cog OR Top) ;
 SELECT Top IF (NOT -2 ("parlare")) (-1 ("a")) (0 Mosca) ;
+REMOVE Ant IF (0 ("Apollo")) (1 Num) ;	# Apollo 11
+REMOVE Ant IF (-1 Det + Fem) (NOT 1 Det + Masc) (0 ("Apollo")) ;
+REMOVE Ant IF (-1 Det + Def + Fem) (0 ("Apollo")) (NOT 1 Di) ;
+REMOVE Ant IF (-1 ("programma") OR ("missione") OR ("spaziale") OR ("lunare")) (0 ("Apollo")) ;
+SELECT Ant IF (0 ("Apollo")) ;
 
 SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
 SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
