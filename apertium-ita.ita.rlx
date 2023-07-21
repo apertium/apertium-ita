@@ -346,6 +346,8 @@ REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
 
 SELECT Pref1 IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
 SELECT Pref1 IF (1 ("-")) (2 N OR A OR V OR unknown) ;
+SELECT Pref1 IF (0 ("al")) (0 (META:/-/r)) (1 MajIni OR unknownMajIni) ;
+SELECT Pref1 IF (0 ("al")) (1 ("-")) (2 MajIni OR unknownMajIni) ;
 REMOVE Pref1 ; # IF (NOT 0 ("anti") OR ("auto") OR ("multi") OR ("neo") OR ("pluri") OR ("post") OR ("pre") OR ("proto") OR ("ex") OR ("semi")) (NOT 0 (META:/-/r)) (NOT 1 ("-")) ;
 SELECT Pref2 IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
 SELECT Pref2 IF (1 ("-")) (2 N OR A OR V OR unknown) ;
