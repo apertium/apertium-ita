@@ -1117,6 +1117,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/>il</l>
+          <r>del</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/><a/>il<b/></l>
           <r>dello<b/></r>
        </p>
@@ -1125,21 +1132,21 @@
 
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare<b/></l>
-	  <r>del<b/>mar<b/></r>
+          <l><b/><a/>il<b/><a/>mare<b/></l>
+          <r>del<b/>mar<b/></r>
         </p>
         <par n="consonants"/>
       </e>
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare<b/></l>
-	  <r>del<b/>mare<b/></r>
+          <l><b/><a/>il<b/><a/>mare<b/></l>
+          <r>del<b/>mare<b/></r>
         </p>
       </e>
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare</l>
-	  <r>del<b/>mare</r>
+          <l><b/><a/>il<b/><a/>mare</l>
+          <r>del<b/>mare</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -1221,6 +1228,14 @@
 
       <e>
         <p>
+          <l><b/><a/>la</l>
+          <r>della</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+
+      <e>
+        <p>
           <l><b/><a/>la<b/></l>
           <r>dell'</r>
         </p>
@@ -1266,6 +1281,13 @@
        <par n="consonants"/>
       </e>
 
+      <e>
+        <p>
+          <l><b/><a/>i</l>
+          <r>dei</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
 
       <e>
         <p>
@@ -1332,6 +1354,13 @@
       </e>
       <e>
         <p>
+          <l><b/>le</l>
+          <r>delle</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/>le<b/></l>
           <r>delle<b/></r>
         </p>
@@ -1360,6 +1389,36 @@
         </p>
         <par n="numeros"/>
       </e>
+
+      <e>
+        <p>
+          <l><b/><a/>il/<a/>di<b/><a/>la<b/></l>
+          <r>dell'<b/></r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il/<a/>di<b/><a/>la<b/></l>
+          <r>del/della<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>i/<a/>di<b/>le<b/></l>
+          <r>degli/delle<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>i/<a/>di<b/>le<b/></l>
+          <r>dei/delle<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+
     </pardef>
 
     <pardef n="da">
@@ -1369,6 +1428,13 @@
           <r>dal<b/></r>
         </p>
         <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il</l>
+          <r>dal</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
       <e>
         <p>
@@ -1400,21 +1466,21 @@
 
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare<b/></l>
-	  <r>dal<b/>mar<b/></r>
+          <l><b/><a/>il<b/><a/>mare<b/></l>
+          <r>dal<b/>mar<b/></r>
         </p>
         <par n="consonants"/>
       </e>
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare<b/></l>
-	  <r>dal<b/>mare<b/></r>
+          <l><b/><a/>il<b/><a/>mare<b/></l>
+          <r>dal<b/>mare<b/></r>
         </p>
       </e>
       <e>
         <p>
-	  <l><b/><a/>il<b/><a/>mare</l>
-	  <r>dal<b/>mare</r>
+          <l><b/><a/>il<b/><a/>mare</l>
+          <r>dal<b/>mare</r>
         </p>
         <par n="caracter_general"/>
       </e>
@@ -1443,6 +1509,14 @@
           <r>dalla<b/></r>
         </p>
        <par n="consonants"/>
+      </e>
+
+      <e>
+        <p>
+          <l><b/><a/>la</l>
+          <r>dalla</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
 
       <e>
@@ -1488,6 +1562,14 @@
 
       <e>
         <p>
+          <l><b/><a/>i</l>
+          <r>dai</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+
+      <e>
+        <p>
           <l><b/></l>
           <r>da<b/></r>
         </p>
@@ -1511,6 +1593,13 @@
       </e>
       <e>
         <p>
+          <l><b/><a/>le</l>
+          <r>dalle</r>
+        </p>
+        <par n="caracter_general"/>
+      </e>
+      <e>
+        <p>
           <l><b/>le<b/></l>
           <r>dalle<b/></r>
         </p>
@@ -1518,7 +1607,7 @@
       </e>
 
 
-    <e>
+      <e>
         <p>
           <l><b/><a/>le<b/></l>
           <r>dalle<b/></r>
@@ -1540,6 +1629,36 @@
         </p>
         <par n="numeros"/>
       </e>
+
+      <e>
+        <p>
+          <l><b/><a/>il/<a/>da<b/><a/>la<b/></l>
+          <r>dall'<b/></r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>il/<a/>da<b/><a/>la<b/></l>
+          <r>dal/dalla<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>i/<a/>da<b/>le<b/></l>
+          <r>dagli/dalle<b/></r>
+        </p>
+        <par n="cons_especiales"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>i/<a/>da<b/>le<b/></l>
+          <r>dai/dalle<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+
     </pardef>
 
     <pardef n="su">
