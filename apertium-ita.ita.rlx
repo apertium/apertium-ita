@@ -1093,6 +1093,8 @@ REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (-2 CM OR C
 
 REMOVE Vall IF (-1 Det + &&ConcordaGN) (0 N + &&ConcordaGN) (1C Vall) (1 Vall + P3) ;	# Le condizioni peggiorarono
 
+SELECT A IF (0 ("tardo") + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# tarda età
+
 REMOVE N OR A IF (0 Vall + Pers) (-1 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;	# porto loro
 REMOVE N OR A IF (0 Vall + Pers) (-1 Adv) (-2 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
 REMOVE N OR A IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
