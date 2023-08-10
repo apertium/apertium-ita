@@ -114,7 +114,6 @@ LIST MajIni2 = ("<[A-ZÀÁÈÉÍÌÒÓÚÜÇ][a-zàáèéìíòóùúïüçñ·]
 LIST Maj = ("<[A-ZÀÁÈÉíÒÓÚÜÇ]*>"r) ;
 LIST segles_num_romans = ("[IVX][IVX]*"r) ;
 LIST Anno = ("[1-2][0-9][0-9][0-9]"r) ;
-LIST Upper = "[A-Z][a-z]+"r ;
 
 LIST Avere = vbhaver ;
 LIST Ser = vbser ;
@@ -195,6 +194,7 @@ LIST Regia = "regia" ;
 LIST Rimanere = "rimanere" ;
 LIST Risultare = "risultare" ;
 LIST San = "San" ;
+LIST Santo = "santo" ;
 LIST Secondo = "secondo" ;
 LIST Sembrare = "sembrare" ;
 LIST Sentire = "sentire" ;
@@ -393,7 +393,7 @@ REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (1* ("goia") OR ("allegria") OR ("lacr
 REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (-1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
 SELECT ("riso_pianta") IF (0 ("<riso>"i)) (0 ("riso")) ;
 
-SELECT NP IF (0 San) (1 Upper) ;
+SELECT NP IF (0 San) (1 MajIni OR unknownMajIni) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
 
@@ -447,6 +447,8 @@ SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
 
 SELECT Bue IF (NOT -1 F OR Pl) (0 Bua) (NOT -1 F OR Pl) ;
 
+SELECT A + &&ConcordaGN IF (0 Santo + &&ConcordaGN) (1 Ant + &&ConcordaGN) ;
+SELECT A IF (0 Santo) (1 unknownMajIni) ;
 SELECT A IF (0 ("<Santo>")) (1 ("spirito") OR ("sepolcro")) ;
 SELECT N IF (0 ("<Vergine>")) (-1/* Det + Fem) ;
 SELECT N IF (0 ("<Vergine>")) (-1 A + Fem) ;
@@ -1197,6 +1199,8 @@ REMOVE PreAdv IF (NOT 1 A OR Adv) ;
 
 # NP
 
+REMOVE NP IF (0 ("Arcangelo")) (1 ("Michele") OR ("Gabriele")) ;
+
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Francese") OR ("Russo") OR ("Italiana") OR ("Tedesco") OR ("Tedeschi") OR ("Catalano") OR ("Romano") OR ("Romana") OR ("Romani") OR ("Lombardo") OR ("Lombardi") OR ("Milanese") OR ("Milanesi") OR ("Bolognesi") OR ("Toscano") OR ("Toscani") OR ("Genovese") OR ("Romagnoli") OR ("Fiorentina") OR ("Veneziani") OR ("Napolitano") OR ("Siciliano") OR ("Siciliani") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via")) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
@@ -1317,6 +1321,9 @@ SELECT Cog IF (-2C Cog) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
 SELECT Cog IF (2C Cog) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
 
 SELECT Ant IF (0 ("Orfeo")) (NOT 1 Ant OR Cog) ;
+
+SELECT Masc IF (0 ("<sant'>"i)) (1 ("Andrea")) ;
+
 
 # Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
 REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
