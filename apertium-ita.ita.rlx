@@ -547,6 +547,8 @@ REMOVE V IF (0 Mandato) (-1 Primo) ;
 
 SELECT N IF (0 Serie) (1 A) ;
 
+SELECT N IF (0 ("<dati>"i)) (1 Anno) ;
+
 REMOVE A IF (0 Nato) (1 ("a")) ;			# una russa nata a Mosca
 
 SELECT Masc IF (NOT -1/* F OR N) (0 Fronte + Fem) (NOT 1 F) ;
@@ -842,8 +844,9 @@ SELECT A IF (0 Pos) (-1/* Det) (1 N) ;	# il suo governo [regla necesaria porque 
 SELECT A IF (0 Pos) (-1/* Det) (1 A) (2 N) ;	# il suo nuovo governo
 SELECT A IF (0 Pos) (-1/* Det) (1 PreAdv OR Adv) (2 A) (3 N) ;	# il suo molto buovo comportamento
 
-REMOVE V IF (0 N) (0 Vconj) (-1 Prep) ;	# la rivolta dei Fasci siciliani.
-REMOVE V IF (0 N) (0 Vconj) (-1C Det) ;	# in un dato
+REMOVE Vconj IF (-1 Prep) (0 N) ;	# la rivolta dei Fasci siciliani.
+REMOVE Vconj IF (-2C Prep) (-1 A + &&ConcordaGN) (0 N + &&ConcordaGN) ;	# con moltissimo ritardo
+REMOVE Vconj IF (-1C Det) (0 N) ;	# in un dato
 
 REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
 
@@ -1102,6 +1105,15 @@ REMOVE N OR A IF (0 Vall + Pers) (-1 Adv) (-2 BOS OR CnjSub OR CnjAdv OR Rel) (1
 REMOVE N OR A IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 BOS OR CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
 REMOVE N OR A IF (0 Vall + Pers) (-1 CM) (-2 Adv OR Interj) (-3 CM) (-4 CnjSub OR CnjAdv OR Rel) (1C Lui + Pl OR Det OR N) (NOT 0 ("migliore") OR Aord) ;
 
+REMOVE N OR A OR PP IF (-1C Pro) (1 Vall) ;	# si forma
+
+REMOVE N IF (0 ("<fosse>"i)) (1 PP) (NOT 1 A + FemPl) ;	# fosse composto
+SELECT N IF (-1 ("sotto")) (0 ("<contratto>"i)) ;
+
+REMOVE Pers IF (-1*C V + Pers BARRIER CnjSub OR CnjAdv OR CnjCoo OR Rel OR Come) (0 N) ;	# garantiranno a Kiev aiuti
+REMOVE Pers IF (-1*C Vall + Pers BARRIER CnjSub OR CnjAdv OR CnjCoo OR Rel OR Come) (0 N) ;	# posso garantire a Kiev aiuti
+REMOVE Pers IF (-1*C Avere + Pers BARRIER CnjSub OR CnjAdv OR CnjCoo OR Rel OR Come) (0 N) ;	# hanno garantito a Kiev aiuti
+
 # Queste sono supposizioni
 
 REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Di) (2 Noun_Adj_PP OR NP OR Inf) ;	# la disputa del dottore / la isola di Arturo / la voglia di cantare
@@ -1129,7 +1141,8 @@ REMOVE A OR PP IF (-1/* Det + &&ConcordaGN) (0 Noun_Adj_PP + &&ConcordaGN LINK 0
 
 # ADJ CONJ ADJ
 
-REMOVE N OR PP IF (-3 N + &&ConcordaGN) (-2C A + &&ConcordaGN) (-1 CnjCoo) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) ;	# genere musicale e teatrale
+REMOVE PP IF (-3 N + &&ConcordaGN) (-2C A + &&ConcordaGN) (-1 CnjCoo) (0 Noun_Adj_PP + &&ConcordaGN LINK 0 N OR NP) ;	# genere musicale e teatrale
+REMOVE N IF (-3 N + &&ConcordaGN) (-2C A + &&ConcordaGN) (-1 CnjCoo) (0 N + &&ConcordaGN ) (NOT 1 A) ;	# contrasti politici e scontri verbali
 
 REMOVE A OR PP IF (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CnjCoo) (2C N) ;
 REMOVE A OR PP IF (-3 CnjCoo) (-2C N) (-1 CnjCoo) (0 Noun_Adj_PP LINK 0 N OR NP) ;	# o prodotto o persona
