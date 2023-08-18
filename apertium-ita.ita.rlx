@@ -338,6 +338,7 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto
 
 SELECT V IF (-1 Adv) (0 ("<fa>"i)) ;	# non fa, sempre fa
 SELECT Adv IF (-2 Num OR Ind) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("giorno") OR ("settimana") OR ("mese") OR ("anno") OR ("lustro") OR ("decennio") OR ("secolo") OR ("millennio")) (0 ("<fa>"i)) ;	# una settimana fa
+SELECT Adv IF (-3 ("dozzina") OR ("ventina") OR ("trentina") OR ("quarantina") OR ("cinquantina") OR ("centinaio") OR ("migliaio") OR ("milione") OR ("miliardo")) (-2 Di) (-1 ("secondo") OR ("minuto") OR ("ora") OR ("giorno") OR ("settimana") OR ("mese") OR ("anno") OR ("lustro") OR ("decennio") OR ("secolo") OR ("millennio")) (0 ("<fa>"i)) ;	# una settimana fa
 REMOVE Adv IF (0 ("<fa>"i)) ;
 
 REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
