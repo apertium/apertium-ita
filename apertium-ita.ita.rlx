@@ -1300,7 +1300,8 @@ SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (1 Top) (0 (META:/-/r)) ;	# Milano-Nap
 
 SELECT Ant IF (0 Ant) (1C Ant) ;	# Rosa Maria
 SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;	# Giordano Bruno
-SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;	# sant Benet
+SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
+SELECT Ant IF (-1 ("San")) (0 Ant) (0 Cog OR Top) ;	# San Paolo
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
 SELECT Ant_Cog IF (0 Cog OR Ant) (1 unknownMajIni) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
