@@ -1020,6 +1020,10 @@ REMOVE A IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
 REMOVE A IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
+# PP O V
+
+REMOVE PP IF (-1C NP + &&ConcordaSP) (0 V + P3 + &&ConcordaSP) (NOT 1 Da) ;	# Giuda pesa quasi due quintali
+
 # N O Adv
 
 SELECT Adv IF (-1 ("<molto>"i)) (0 ("<bene>"i)) ;
