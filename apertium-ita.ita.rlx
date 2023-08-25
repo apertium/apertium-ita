@@ -854,6 +854,9 @@ REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazio
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
 SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
+SELECT N IF (-1 Num) (0 ("maggio")) ;	# 30 maggio
+SELECT N IF (0 ("maggio")) (1 Num) ;	# maggio 2023
+
 REMOVE CnjAdv IF (-1 BOS) (0 Interr) (0 CnjAdv) (1* ("?"));
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
