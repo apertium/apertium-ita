@@ -857,6 +857,8 @@ SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 SELECT N IF (-1 Num) (0 ("maggio")) ;	# 30 maggio
 SELECT N IF (0 ("maggio")) (1 Num) ;	# maggio 2023
 
+SELECT N IF (-1 ("mondiale")) (0 ("<donne>"i)) ;	# i Mondiali donne
+
 REMOVE CnjAdv IF (-1 BOS) (0 Interr) (0 CnjAdv) (1* ("?"));
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
 #SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
