@@ -894,6 +894,7 @@ REMOVE A + MF + SP IF (0 ("filo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("neo")) (NOT 1 Guio) ;
 REMOVE A + MF + SP IF (0 ("americano")) (NOT 1 Guio) ;
 
+SELECT Top IF (NOT -1 BOS) (0 NP) (1 CM) (2 Anno) ;	# – Burgos, 1259
 
 SELECT N IF (0 Noun_Adj_PP LINK NOT 0 Adv OR PP OR Ger OR Inf OR NP OR Prep OR Ser OR ("ma")) (-1C V) (NOT -1 PP OR VAdj) (1 Barrera_Final_Estrict_SN) (NOT -1 ("considerare") OR ("vedere") OR ("rivelare")) ;
 	# detonar explosivos.
@@ -1302,7 +1303,6 @@ SELECT Top IF (0 Top) (1C Top) (0 (META:/-/r)) ;
 SELECT Top IF (-1C Top) (0 Top) (-1 (META:/-/r)) ;
 SELECT Top IF (NOT -2 Ant OR Cog) (-1 Top) (0 Top) (-1 (META:/-/r)) ;	# Milano-Napoli
 SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (1 Top) (0 (META:/-/r)) ;	# Milano-Napoli
-SELECT Top IF (NOT -1 BOS) (0 NP) (1 CM) (2 Anno) ;	# – Burgos, 1259
 
 SELECT Ant IF (0 Ant) (1C Ant) ;	# Rosa Maria
 SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;	# Giordano Bruno
