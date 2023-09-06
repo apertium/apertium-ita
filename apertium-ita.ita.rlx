@@ -517,6 +517,11 @@ REMOVE Prep IF (0 ("<ne>"i)) ;
 SELECT ("in direzione") IF (0 ("in direzione")) (1 NP OR unknownMajIni) ;
 REMOVE ("in direzione") IF (0 ("in direzione")) ;
 
+SELECT ("d'estate") IF (NOT -1 N OR A) (0 ("d'estate")) ;
+REMOVE ("d'estate") ;
+SELECT ("d'inverno") IF (NOT -1 N OR A) (0 ("d'inverno")) ;
+REMOVE ("d'inverno") ;
+
 REMOVE Adv IF (0 Dopo) (1 Circa OR Oltre) ;	# dopo circa 10 anni
 SELECT Adv IF (-1 Dopo) (0 Circa) ;		# dopo circa 10 anni
 SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
