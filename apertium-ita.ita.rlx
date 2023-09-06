@@ -1066,6 +1066,7 @@ REMOVE Pron IF (-1 Aord) (0 ("cosa")) ;
 
 # N O V
 
+SELECT V IF (0 ("prendere")) (1 ("possesso")) ;	# Bernabò Visconti prese possesso delle terre
 REMOVE N IF (-1 BOS) (0 Vall + Pers) (1 Prep) (2 Inf) ;	# Continuo a pensare
 
 REMOVE N IF (-1 ("se")) (0 Vall) ;	# se fosse
