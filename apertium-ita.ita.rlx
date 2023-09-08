@@ -22,8 +22,8 @@ LIST Inf = inf ;
 LIST Ger = ger ;
 LIST PP = pp ;
 LIST Ifi = ifi ;
-LIST Prs = prs  ;
-LIST Pis = pis  ;
+LIST Prs = prs ;
+LIST Pis = pis ;
 LIST Subj = prs pis ;
 LIST Imper = imp ;
 LIST Det = det ;
@@ -245,7 +245,7 @@ SET Dignità = ("presidente") OR ("presidentessa") OR ("presidenta") OR ("vicepr
 
 SET WORD = N | V | A | Pron | Det | Adv | CnjCoo | CnjSub | Interj | Num | ("\?") | ("!") ;
 
-SET PRE-N =  A | Det | Num | CnjCoo ;
+SET PRE-N = A | Det | Num | CnjCoo ;
 
 SET MARK = CM | ("\\") | ("\;") ;
 
@@ -704,6 +704,9 @@ REMOVE Aord IF (-1 ("raggiunge")) (0 QuartiDiFinale) (NOT 1 N) ;
 REMOVE Aord IF (-1 In) (0 QuartiDiFinale + Pl) (NOT 1 N) ;
 REMOVE N IF (-1/* Det + Def + &&ConcordaGN) (0 N) (0 Aord + &&ConcordaGN) ;
 
+SELECT A IF (-2 Ant) (-1 Det + Def + MascSg) (0 A + MascSg + MajIni) ;	# Ludovico il Pio
+SELECT A IF (-2 Ant) (-1 Det + Def + FemSg) (0 A + FemSg + MajIni) ;
+
 REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1 ("molto")) (1C Barrera_Final_SN) ; 	# una forza valida nel mondo. WARNING: No funciona per a "nel", però sí per a "el" (problema CG)
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1C Barrera_Final_SN) ; 		# nei seguenti comuni
 REMOVE A IF (0 A) (0 N) (-2/* Det) (-1C A) (1 CnjCoo) (NOT 2 A) ;
@@ -944,7 +947,7 @@ SELECT F IF (0 Noun_NP + M) (0 Noun_NP + F) (1 Adv) (2 A + F) (NOT 2 A + M) ;
 
 SELECT Top IF (-1 ("regione") OR ("provincia") OR ("distretto")) (0 MajIni) ;		# nella Regione Veneto
 SELECT Top IF (-2 ("regione") OR ("provincia") OR ("distretto")) (-1 A) (0 MajIni) ;
-SELECT Top IF (0 MajIni) (1 CM) (2 Num) (3 Mese) ;	#  Milano, 6 luglio
+SELECT Top IF (0 MajIni) (1 CM) (2 Num) (3 Mese) ;	# Milano, 6 luglio
 
 REMOVE A + F IF (-1C Noun_NP + M) (0 A + F) (NOT -1 (META:/[-"«»]/r));
 REMOVE A + M IF (-1C Noun_NP + F) (0 A + M) (NOT -1 (META:/[-"«»]/r)) ;
@@ -1290,8 +1293,8 @@ REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
-REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog)  ;
-REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant)  ;
+REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog) ;
+REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant) ;
 
 SELECT NP IF (0 N OR NP) (2 NP) (1 Guio) ;	# Pierre-Michel
 SELECT Ant IF (0 Ant) (2C Ant) (1 Guio) ;	# Jean-René
