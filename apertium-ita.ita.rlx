@@ -477,6 +477,9 @@ SELECT PP IF (-1 Partita + FemPl) (0 ("giocchare") + PP + FemPl) ;
 SELECT PP IF (-1 Partita + FemPl) (0 ("vincere") + PP + FemPl) ;
 SELECT PP IF (-1 Partita + FemPl) (0 ("perdere") + PP + FemPl) ;
 
+SELECT PP + &&ConcordaGN IF (-2C PP) (-2 PP + &&ConcordaGN) (-1 CnjCoo) (0 PP + &&ConcordaGN) ; # umiliati e offesi
+SELECT PP + &&ConcordaGN IF (2C PP) (0 PP + &&ConcordaGN) (1 CnjCoo) (2 PP + &&ConcordaGN) ; # offesi e umiliati
+
 SELECT N IF (0 Regia) (1 Di) ;		# regia di
 
 SELECT Adv IF (0 Ancora) (-1C Ser OR V) (1 Noun_Adj_PP) ;
