@@ -276,6 +276,7 @@ SECTION
 REMOVE Interj IF (NOT 1* ("!")) ;
 SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 SELECT Interj IF (1 CM) (1* ("!")) ;
+SELECT Interj IF (0 ("<Presto>")) (1 CM) ;
 
 SELECT Pron IF (0 Io) ;
 
