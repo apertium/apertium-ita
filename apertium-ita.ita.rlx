@@ -173,6 +173,7 @@ LIST Indire = "indire" ;
 LIST Indicare = "indicare" ;
 LIST Mandato = "mandato" ;
 LIST Mantenere = "mantenere" ;
+LIST Mezzo = "mezzo" ;
 LIST Molto = "molto" ;
 LIST Mosca = "Mosca" ;
 LIST Nato = "nato" ;
@@ -1030,6 +1031,9 @@ REMOVE Adv IF (0 Adv) (0 A + &&ConcordaGN) (-1 N + &&ConcordaGN) (NOT 1 Vall) ; 
 
 SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Sg) (1 PP + Sg) ;		# si era molto impoverito
 SELECT Adv IF (0 Adv) (-2 Si) (-1 Ser + Pl) (1 PP + Pl) ;
+
+SELECT Adv IF (-1 N + &&ConcordaGN) (0 Mezzo) (1 Adj_PP + &&ConcordaGN) ;	# frutta mezzo guasta
+SELECT Adv IF (0 Mezzo) (1C PP) ;
 
 # A O V
 
