@@ -806,7 +806,7 @@ REMOVE N IF (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN) ;
 REMOVE N IF (-2C N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 A + &&ConcordaGN) ;
 REMOVE N IF (-3C N + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 A + &&ConcordaGN) ;
 
-REMOVE A IF (0 A) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
+REMOVE Adj_PP IF (0 Adj_PP) (0 N) (-1C V) (1/* Det) ; 			# porre fine a
 REMOVE A IF (0 Fine) (-1 ("porre")) (1/* ("a")) ; 		# porre fine a
 SELECT N IF (0 Fine) (1 Mese) ;
 SELECT Fem IF (0 Fine) (1 Mese) ;
