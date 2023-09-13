@@ -867,6 +867,7 @@ REMOVE Vconj IF (-1C Det) (0 N) ;	# in un dato
 REMOVE Vconj IF (0 Vconj) (0 N) (-1 BOS) (1C A) (2 EOS) ;	# Relazioni internazionali
 
 SELECT N IF (0 ("guerra")) (1 ("civile")) ;	# la Guerra Civile
+SELECT Ant IF (0 ("Corso")) (1 Cog) ;		# Corso Sparviero
 SELECT N IF (0 ("corso")) (1 NP) ;		# il corso Dante
 
 SELECT N IF (-1 Num) (0 ("maggio")) ;	# 30 maggio
