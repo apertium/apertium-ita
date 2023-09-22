@@ -2134,21 +2134,57 @@
     <pardef n="mi">
       <e>
         <p>
-          <l><b/><a/>lo</l>
-          <r>e<b/>lo</r>
+          <l><b/><a/>lo<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>lo<b/></l>
+          <r>e<b/>lo<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>la<b/></l>
+          <r>e<b/>l'</r>
+        </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>la<b/></l>
+          <r>e<b/>la<b/></r>
+        </p>
+        <par n="consonants"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>le<b/></l>
+          <r>e<b/>le<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/><a/>la</l>
-          <r>e<b/>la</r>
+          <l><b/><a/>li<b/></l>
+          <r>e<b/>li<b/></r>
         </p>
       </e>
       <e>
         <p>
-          <l><b/><a/>le</l>
-          <r>e<b/>le</r>
+          <l><b/><a/>ne<b/></l>
+          <r>e<b/>n'</r>
         </p>
+        <par n="vocals"/>
+      </e>
+      <e>
+        <p>
+          <l><b/><a/>ne<b/></l>
+          <r>e<b/>ne<b/></r>
+        </p>
+        <par n="consonants"/>
       </e>
     </pardef>
 
