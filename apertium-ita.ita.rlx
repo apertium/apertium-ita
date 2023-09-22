@@ -274,6 +274,9 @@ SET Limite_Barrera_Inicial_SN = ("esser") OR ("parere") OR ("avere") ;
 
 SECTION
 
+SELECT Interj IF (NOT -1/* Det + MascSg) (0 ("buon giorno")) ;
+SELECT Interj IF (NOT -1/* Det + FemSg) (0 ("buona sera")) ;
+SELECT Interj IF (NOT -1/* Det + FemSg) (0 ("buona notte")) ;
 REMOVE Interj IF (NOT 1* ("!")) ;
 SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 SELECT Interj IF (1 CM) (1* ("!")) ;
