@@ -576,6 +576,37 @@ SELECT Latte + Sg IF (NOT -1/* Pl) (0 Latta + Pl) (NOT 1 Pl) ;
 
 REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
+SELECT P1 + Sg IF (-1 Io) (0 Vall + P1 + Sg) ;
+SELECT P2 + Sg IF (-1 Tu) (0 Vall + P2 + Sg) ;
+
+SELECT Sg IF (0 ("<sono>"i)) (-1 Io) ;						# io sono
+SELECT Sg IF (0 ("<sono>"i)) (-2 Io) (-1 Adv OR Pron) ;
+SELECT Sg IF (0 ("<sono>"i)) (1 Io) ;						# sono io
+SELECT Sg IF (0 ("<sono>"i)) (2 Io) (1 Adv OR Pron) ;
+SELECT Sg IF (0 ("<sono>"i)) (-1 Loro) ;					# loro sono
+SELECT Sg IF (0 ("<sono>"i)) (-2 Loro) (-1 Adv OR Pron) ;
+SELECT Sg IF (0 ("<sono>"i)) (1 Loro) ;					# sono loro
+SELECT Sg IF (0 ("<sono>"i)) (2 Loro) (1 Adv OR Pron) ;
+
+#SELECT Sg IF (0 ("<sono>"i)) (-1C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) ;	# MA: I locali di vendita sono un luoco
+#SELECT Sg IF (0 ("<sono>"i)) (-2C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) (-1 Adv OR Pron) ;
+#SELECT Pl IF (0 ("<sono>"i)) (-1C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) ;
+#SELECT Pl IF (0 ("<sono>"i)) (-2C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) (-1 Adv OR Pron) ;
+
+SELECT Sg IF (0 ("<sono>"i)) (1 Adv) (2 Adv_PreAdv) (3 A + Sg OR PP + Sg) ;	# sono sempre molto povero
+SELECT Pl IF (0 ("<sono>"i)) (1 Adv) (2 Adv_PreAdv) (3 A + Pl OR PP + Pl) ;	# sono sempre molto poveri
+SELECT Sg IF (0 ("<sono>"i)) (1 Adv_PreAdv) (2 A + Sg OR PP + Sg) ;	# sono molto povero; sono sempre un bambino
+SELECT Pl IF (0 ("<sono>"i)) (1 Adv_PreAdv) (2 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;	# sono molto poveri; sono sempre dei bambini
+SELECT Sg IF (0 ("<sono>"i)) (1 A + Sg OR PP + Sg) ;			# sono povero; sono un bambino; sono tutta la famiglia; MA: sono un luogo importante
+SELECT Pl IF (0 ("<sono>"i)) (1 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;			# sono poveri; sono dei bambini; sono tutti i bambini
+SELECT Pl IF (0 ("<sono>"i)) (1 Adv) (2 Num) (NOT 2 ("uno")) ;
+SELECT Pl IF (0 ("<sono>"i)) (1 Num) (NOT 1 ("uno")) ;
+
+SELECT Sg IF (0 ("<sono>"i)) (-1 BOS) (1 Det + Sg) (NOT 1 Pl) ;		# Questo è problematico: Sono la chiave di..., Sono il simbolo di...
+SELECT Pl IF (0 ("<sono>"i)) (-1 BOS) (1 Det + Pl) (NOT 1 Sg) ;
+SELECT Sg IF (0 ("<sono>"i)) (-1 BOS) (1 N + Sg) (NOT 1 Pl) ;
+SELECT Pl IF (0 ("<sono>"i)) (-1 BOS) (1 N + Pl) (NOT 1 Sg) ;
+
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 Primo + &&ConcordaGN) ;	# li primo
 SELECT A IF (-1 Prep) (0 Primo + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# per prima cosa
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;	# nell'ottavo centenario
@@ -1410,33 +1441,6 @@ SELECT SUB:1 P1 IF (-2 Vall + P1 + Pl) (-1 Prep) (0 Inf) (0/* Ci + Enc) ;
 SELECT SUB:1 P2 IF (0 Vall) (0/* Vi + Enc) (0/* ("lo") + Enc) ;	# darvela
 
 # Verbi
-
-SELECT P1 + Sg IF (-1 Io) (0 Vall + P1 + Sg) ;
-SELECT P2 + Sg IF (-1 Tu) (0 Vall + P2 + Sg) ;
-
-SELECT Sg IF (0 ("<sono>"i)) (-1 Io) ;						# io sono
-SELECT Sg IF (0 ("<sono>"i)) (-2 Io) (-1 Adv OR Pron) ;
-SELECT Sg IF (0 ("<sono>"i)) (-1 Loro) ;					# loro sono
-SELECT Sg IF (0 ("<sono>"i)) (-2 Loro) (-1 Adv OR Pron) ;
-
-#SELECT Sg IF (0 ("<sono>"i)) (-1C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) ;	# MA: I locali di vendita sono un luoco
-#SELECT Sg IF (0 ("<sono>"i)) (-2C N + Sg OR A + Sg OR PP + Sg OR NP + Sg) (-1 Adv OR Pron) ;
-#SELECT Pl IF (0 ("<sono>"i)) (-1C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) ;
-#SELECT Pl IF (0 ("<sono>"i)) (-2C N + Pl OR A + Pl OR PP + Pl OR NP + Pl) (-1 Adv OR Pron) ;
-
-SELECT Sg IF (0 ("<sono>"i)) (1 Adv) (2 Adv_PreAdv) (3 A + Sg OR PP + Sg) ;	# sono sempre molto povero
-SELECT Pl IF (0 ("<sono>"i)) (1 Adv) (2 Adv_PreAdv) (3 A + Pl OR PP + Pl) ;	# sono sempre molto poveri
-SELECT Sg IF (0 ("<sono>"i)) (1 Adv_PreAdv) (2 A + Sg OR PP + Sg) ;	# sono molto povero; sono sempre un bambino
-SELECT Pl IF (0 ("<sono>"i)) (1 Adv_PreAdv) (2 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;	# sono molto poveri; sono sempre dei bambini
-SELECT Sg IF (0 ("<sono>"i)) (1 A + Sg OR PP + Sg) ;			# sono povero; sono un bambino; sono tutta la famiglia; MA: sono un luogo importante
-SELECT Pl IF (0 ("<sono>"i)) (1 A + Pl OR PP + Pl OR Det + Pl OR PreDet + Pl) ;			# sono poveri; sono dei bambini; sono tutti i bambini
-SELECT Pl IF (0 ("<sono>"i)) (1 Adv) (2 Num) (NOT 2 ("uno")) ;
-SELECT Pl IF (0 ("<sono>"i)) (1 Num) (NOT 1 ("uno")) ;
-
-SELECT Sg IF (0 ("<sono>"i)) (-1 BOS) (1 Det + Sg) (NOT 1 Pl) ;		# Questo è problematico: Sono la chiave di..., Sono il simbolo di...
-SELECT Pl IF (0 ("<sono>"i)) (-1 BOS) (1 Det + Pl) (NOT 1 Sg) ;
-SELECT Sg IF (0 ("<sono>"i)) (-1 BOS) (1 N + Sg) (NOT 1 Pl) ;
-SELECT Pl IF (0 ("<sono>"i)) (-1 BOS) (1 N + Pl) (NOT 1 Sg) ;
 
 REMOVE Pers (-2 Si) (-1 Trovare + P3) (0 Pers OR PP) ;	# si trovano suddivise
 REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
