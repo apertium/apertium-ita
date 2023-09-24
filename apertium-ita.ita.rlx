@@ -577,6 +577,8 @@ SELECT Latte + Sg IF (NOT -1/* Pl) (0 Latta + Pl) (NOT 1 Pl) ;
 
 REMOVE Indire IF (0 Indicare) (0 Indire) ;
 
+REMOVE Det IF (0 ("<gli>"i) ) (NOT 1 MascPl) (1 Vall) ;	# gli corse
+
 SELECT P1 + Sg IF (-1 Io) (0 Vall + P1 + Sg) ;
 SELECT P2 + Sg IF (-1 Tu) (0 Vall + P2 + Sg) ;
 
