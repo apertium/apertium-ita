@@ -385,6 +385,7 @@ SELECT Adj_PP (-2 Ser + Sg) (-1 Tutto + Sg) (0 Adj_PP + Sg) ;
 SELECT Adj_PP (-2 Ser + Pl) (-1 Tutto + Pl) (0 Adj_PP + Pl) ;
 SELECT Adj_PP (-2 Avere) (-1 Tutto) (0 Adj_PP) ;
 
+SELECT Imper IF (-1 BOS OR Guio) (0C ("<dai>"i) OR ("<dagli>"i) ) (1* Excl) ;
 #REMOVE V IF (0 ("dai")) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #REMOVE V IF (0 Dai) ;			# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
 #SELECT Prep IF (0 Dai) ;		# dai: distanza dai subordinati. WARNING: No funciona no sé perquè
