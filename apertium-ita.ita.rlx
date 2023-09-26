@@ -235,7 +235,7 @@ LIST Secoli = ("Duecento") ("Trecento") ("Quattrocento") ("Cinquecento") ("Seice
 LIST VAdj = ("considerare") ("giudicare") ("sentire") ("risultare") ("parere") ("mantenere") ("rimanere") ;
 
 # aggetivi seguiti da nome
-LIST AdjN = ("tanto") ("principale") ("ultimo") ("altro") ("ex") ;
+LIST AdjN = ("tanto") ("principale") ("ultimo") ("altro") ("unico") ("ex") ;
 
 # coincidències nom propi/comú
 SET NomPropiComu = ("Sala") OR ("Guerra") OR ("Guardia");
@@ -838,6 +838,9 @@ SELECT N IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (NOT -2 N + &&Concor
 SELECT N IF (-2 Barrera_Inicial_Estrict_SN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) ;
 SELECT N IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (1 A + &&ConcordaGN) ;
 SELECT N IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (NOT -2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT -1 N + &&ConcordaGN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) ;
+
+SELECT N IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (NOT -1 Adv OR PreAdv) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (1 CM) ;	# lontano dalla sua patria,
+SELECT N IF (-2/* Det + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (1 CM) (NOT 2 A + &&ConcordaGN) ;	# lontano dalla sua patria,
 
 REMOVE N IF (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN) ;
 REMOVE N IF (-2C N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 A + &&ConcordaGN) ;
