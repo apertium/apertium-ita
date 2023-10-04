@@ -447,6 +447,9 @@
       <e>
         <i>«z</i>
       </e>
+      <e>
+        <i><a/>niente</i>
+      </e>
 
       <e>
         <par n="numeros_no_vocale"/>
@@ -2899,16 +2902,30 @@
       </e>
       <e>
         <p>
-	  <l><a/>quella<b/></l>
-	  <r>quell'</r>
+         <l><a/>quella<b/></l>
+         <r>quell'</r>
         </p>
         <par n="vocals"/>
       </e>
       <e>
         <p>
-	  <l><a/>quella<b/></l>
-	  <r>quella<b/></r>
+         <l><a/>quella<b/></l>
+         <r>quella<b/></r>
         </p>
+      </e>
+
+      <e>
+        <p>
+         <l><a/>niente<b/>altro<b/></l>
+         <r>nient'altro<b/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+         <l><a/>niente<b/>altro</l>
+         <r>nient'altro</r>
+        </p>
+        <par n="caracter_general"/>
       </e>
 
   </section>
