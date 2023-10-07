@@ -536,6 +536,9 @@ REMOVE Prep IF (0 ("di mezzo")) ;
 SELECT N IF (0 ("dato che")) (-1/* Det + MascSg) ;
 REMOVE N IF (0 ("dato che")) ;
 
+SELECT A IF (0 ("prima di")) (-1/* Det + FemSg) ;
+REMOVE A IF (0 ("prima di")) ;
+
 SELECT ("d'estate") IF (NOT -1 N OR A) (0 ("d'estate")) ;
 REMOVE ("d'estate") ;
 SELECT ("d'inverno") IF (NOT -1 N OR A) (0 ("d'inverno")) ;
