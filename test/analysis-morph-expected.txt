@@ -20,5 +20,5 @@
 [/poEKQq2qTVXt]
 [q132Jbx229Th#0] ^.../...<sent>$
 [/q132Jbx229Th]
-[xdGMTQU3kfQx#0] ^Fo/*Fo$^./.<sent>$^m/m<abbr>/m<n><m><sp>/m<n><acr><m><sp>$
+[xdGMTQU3kfQx#0] ^Fo/Fo<np><cog><mf><sp>$^./.<sent>$^m/m<abbr>/m<n><m><sp>/m<n><acr><m><sp>$
 [/xdGMTQU3kfQx]
