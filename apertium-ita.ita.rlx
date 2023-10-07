@@ -532,6 +532,9 @@ REMOVE ("in direzione") IF (0 ("in direzione")) ;
 REMOVE ("di mezzo") IF (0 ("di mezzo")) (1 N + MascSg) ;
 REMOVE Prep IF (0 ("di mezzo")) ;
 
+SELECT N IF (0 ("dato che")) (-1/* Det + MascSg) ;
+REMOVE N IF (0 ("dato che")) ;
+
 SELECT ("d'estate") IF (NOT -1 N OR A) (0 ("d'estate")) ;
 REMOVE ("d'estate") ;
 SELECT ("d'inverno") IF (NOT -1 N OR A) (0 ("d'inverno")) ;
