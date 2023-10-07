@@ -305,6 +305,7 @@ REMOVE Det IF (0 Loro) (1 Adv) (2 Vall) ;
 SELECT Lui IF (0 Loro) (1 Vall + P3 + Pl) ;
 SELECT Lui IF (0 Loro) (1 Adv) (2 Vall + P3 + Pl) ;
 
+SELECT Pron IF (-1 ("non")) (0 Lo) (0 Il) (1 Inf) ;
 SELECT Det IF (0 Lo) (0 Il) (1 Inf) ;
 SELECT Pron IF (0 Lo) (0 Il) (1C Vall) ;
 SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
