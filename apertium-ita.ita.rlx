@@ -981,6 +981,8 @@ SELECT N IF (0 Noun_Adj_PP LINK NOT 0 NP OR ("ser") OR Prep) (-1C Det) (1 CM OR 
 
 SELECT N + &&ConcordaGN IF (-1C Barrera_Inicial_Estrict_SN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) (2C Barrera_Final_Estrict_SN) ;	# note tecniche
 
+SELECT A + &&ConcordaGN IF (-1 N + &&ConcordaGN + MajIni) (0 ("rosso") + &&ConcordaGN + MajIni) ;	# Stella Rossa ; Armata Rossa
+
 # Coordinació
 SELECT M IF (-1C Ant + M) (0 ("Andrea")) ;	# Filippo Andrea
 SELECT M IF (1C Ant + M) (0 ("Andrea")) ;
