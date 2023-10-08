@@ -1505,6 +1505,8 @@ SELECT Subj IF (-1* ("sperare# che")) (0C Vall) ;
 
 REMOVE Prs IF (0 Ser + P1 + Pl) (1 PP + Pl) ;		# siamo nutriti
 
+REMOVE Prs IF (-1C Vall + Pers OR Inf) ;	# crescere sani ; trasferire rinforzi
+
 REMOVE Ifi IF (0 Ifi) (0 PP + &&ConcordaGN) (-1 CM OR Lpar) (-2 NP + &&ConcordaGN OR N + &&ConcordaGN) ;	# le Dolomitti, dette
 REMOVE Ifi IF (0 Ifi) (0 PP + &&ConcordaGN) (-1 Adv) (-2 CM OR Lpar) (-3 NP + &&ConcordaGN OR N + &&ConcordaGN) ;	# le Dolomitti, anche dette
 REMOVE Ifi IF (0 Ifi) (0 PP) (-1 CM OR Lpar) (NOT -2 Ifi) (0 ("escludere") OR ("includere") OR ("dire") OR ("chiamare") OR ("comprendere") OR ("situare") OR ("ubicare") OR ("dividere") OR ("suddividere") OR ("chiudere")) ;
