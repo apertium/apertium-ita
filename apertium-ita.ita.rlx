@@ -1037,6 +1037,8 @@ REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1/* Det + Pl) ;			# i metro
 REMOVE SP IF (0 ("metro") + Sg) (1 ("quadrato") OR ("cubo")) ;
 SELECT SP IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
 
+SELECT N IF (-1 Num) (0 ("ora") + Sg) (1 A + Gentilizio + FemSg) ;	# le 5 ora italiana
+
 REMOVE Sg IF (0 Vconj) (0 N) (0 Sg) (-1C Num) (NOT -1 ("uno"));		# dieci canzoni
 
 #SELECT A IF (0 ADJ + MascSg) (0 Adv) (-1 N + MascSg)		# un suo moto proprio
