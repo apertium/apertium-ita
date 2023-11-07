@@ -533,6 +533,9 @@ REMOVE ("in direzione") IF (0 ("in direzione")) ;
 REMOVE ("di mezzo") IF (0 ("di mezzo")) (1 N + MascSg) ;
 REMOVE Prep IF (0 ("di mezzo")) ;
 
+REMOVE ("di fianco") IF (0 ("di fianco")) (1 A + MascSg) ;
+REMOVE Prep IF (0 ("di fianco")) ;
+
 SELECT N IF (0 ("dato che")) (-1/* Det + MascSg) ;
 REMOVE N IF (0 ("dato che")) ;
 
