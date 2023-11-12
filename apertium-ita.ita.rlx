@@ -1019,10 +1019,10 @@ REMOVE A + F IF (-1C Noun_NP + M) (0 A + F) (NOT -1 (META:/[-"«»]/r));
 REMOVE A + M IF (-1C Noun_NP + F) (0 A + M) (NOT -1 (META:/[-"«»]/r)) ;
 REMOVE A + Pl IF (-1C Noun_NP + Sg) (0 A + Pl) (NOT -1 (META:/[-"«»]/r)) ;
 REMOVE A + Sg IF (-1C Noun_NP + Pl) (0 A + Sg) (NOT -1 (META:/[-"«»]/r)) ;
-REMOVE N + F IF (0 N + F) (1C A + M) (NOT 0 (META:/[-"«»]/r)) ;			# consigliere comunale
-REMOVE N + M IF (0 N + M) (1C A + F) (NOT 0 (META:/[-"«»]/r)) ;
-REMOVE N + Pl IF (0 N + Pl) (1C A + Sg) (NOT 0 (META:/[-"«»]/r)) ;		# consigliere comunale
-REMOVE N + Sg IF (0 N + Sg) (1C A + Pl) (NOT 0 (META:/[-"«»]/r)) ;
+REMOVE N + F IF (0 N + F) (1C A + M) (NOT 0 (META:/[-"«»]/r)) (NOT -1/* Det + F) ;			# consigliere comunale
+REMOVE N + M IF (0 N + M) (1C A + F) (NOT 0 (META:/[-"«»]/r)) (NOT -1/* Det + M) ;
+REMOVE N + Pl IF (0 N + Pl) (1C A + Sg) (NOT 0 (META:/[-"«»]/r)) (NOT -1/* Det + Pl) ;		# consigliere comunale
+REMOVE N + Sg IF (0 N + Sg) (1C A + Pl) (NOT 0 (META:/[-"«»]/r)) (NOT -1/* Det + Sg) ;
 
 SELECT Sg IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Sg) ;
 SELECT Pl IF (0 Noun_NP + Sg) (0 Noun_NP + Pl) (-1/* Det + Pl) ;
@@ -1309,7 +1309,7 @@ REMOVE PreAdv IF (NOT 1 A OR Adv) ;
 
 REMOVE NP IF (0 ("Arcangelo")) (1 ("Michele") OR ("Gabriele")) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via")) (NOT 0 Gentilizio) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via") OR ("Terra")) (NOT 0 Gentilizio) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
 SELECT NP IF (0 ("Val")) (1 ("-")) ;
