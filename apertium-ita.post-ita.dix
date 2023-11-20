@@ -1314,7 +1314,15 @@
           <l><b/></l>
           <r>d'</r>
         </p>
-        <par n="vocals"/>
+        <par n="numeros_vocale"/>
+      </e>
+
+      <e>
+        <p>
+          <l><b/></l>
+          <r>d'</r>
+        </p>
+        <par n="vocal_sin_h"/>
       </e>
 
       <e>
