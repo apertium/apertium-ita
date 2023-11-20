@@ -17,6 +17,7 @@ LIST N = n ;
 LIST NP = np ;
 LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
+LIST Vaux = vbser vbhaver ;
 LIST Vmod = vbmod ;
 LIST Inf = inf ;
 LIST Ger = ger ;
@@ -992,6 +993,12 @@ SELECT N IF (0 Noun_Adj_PP LINK NOT 0 NP OR ("ser") OR Prep) (-1C Det) (1 CM OR 
 SELECT N + &&ConcordaGN IF (-1C Barrera_Inicial_Estrict_SN) (0 N + &&ConcordaGN) (1 A + &&ConcordaGN) (2C Barrera_Final_Estrict_SN) ;	# note tecniche
 
 SELECT A + &&ConcordaGN IF (-1 N + &&ConcordaGN + MajIni) (0 ("rosso") + &&ConcordaGN + MajIni) ;	# Stella Rossa ; Armata Rossa
+
+REMOVE CnjCoo IF (-1 Vaux) (0 Adv) (1 PP) ;	# ès invece stato una sventura
+REMOVE CnjCoo IF (-1 Vall LINK NOT 0 PP) (0 Adv) (1C Det) ;	# fu invece una sventura
+REMOVE CnjCoo IF (-2 Vaux) (-1 PP) (0 Adv) (1C Det) ;	# ès stato invece una sventura
+REMOVE CnjCoo IF (-3 Vaux) (-2 Adv) (-1 PP) (0 Adv) (1C Det) ;	# ès sempre stato invece una sventura
+
 
 # Coordinació
 SELECT M IF (-1C Ant + M) (0 ("Andrea")) ;	# Filippo Andrea
