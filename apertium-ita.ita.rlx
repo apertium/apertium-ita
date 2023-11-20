@@ -1447,6 +1447,7 @@ SELECT Cog IF (-2C Cog) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
 SELECT Cog IF (2C Cog) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
 
 SELECT Ant IF (0 ("Orfeo")) (NOT 1 Ant OR Cog) ;
+SELECT Ant IF (0 ("Belisario")) (NOT 1 Ant OR Cog) ;
 
 SELECT Masc IF (0 ("<sant'>"i)) (1 ("Andrea")) ;
 
