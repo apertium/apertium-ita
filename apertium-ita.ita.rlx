@@ -330,6 +330,10 @@ SELECT PP IF (-1 Essere) (0 Stato) ;
 SELECT PP IF (-2 Essere) (-1 Adv) (0 Stato) ;
 SELECT PP IF (-3 Essere) (-2 Adv) (-1 Adv) (0 Stato) ;
 SELECT Ser IF (-2 ("arribare")) (-1 ("a")) (0 Essere) ;
+SELECT Ser IF (-1 Ser) (0 Ser + PP) (1 PP) ;
+SELECT Ser IF (-2 Ser) (-1 Adv) (0 Ser + PP) (1 PP) ;
+SELECT Ser IF (-1 Ser) (0 Ser + PP) (1 Adv) (2 PP) ;
+SELECT Ser IF (-2 Ci) (-1 Ser) (0 Ser + PP) ;	# c'è stato
 
 SELECT PP IF (-1 Stato LINK -1 Essere) ;
 
