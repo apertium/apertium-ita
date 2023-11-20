@@ -335,6 +335,12 @@ SELECT Ser IF (-1 Ser) (0 Ser + PP) (1 PP) ;
 SELECT Ser IF (-2 Ser) (-1 Adv) (0 Ser + PP) (1 PP) ;
 SELECT Ser IF (-1 Ser) (0 Ser + PP) (1 Adv) (2 PP) ;
 SELECT Ser IF (-2 Ci) (-1 Ser) (0 Ser + PP) ;	# c'è stato
+SELECT Ser IF (-1 Ser) (0 PP) (1C Det) ;	# è stato una sventura
+SELECT Ser IF (-1 Ser) (0 PP) (1 Adv) (2C Det) ;	# è stato invece una sventura
+SELECT Ser IF (-1 Ser) (0 PP) (1 Adv OR PreAdv) (2 Adv OR PreDet) (3C Det) ;
+SELECT Ser IF (-2 Ser) (-1 Adv) (0 PP) (1C Det) ;
+SELECT Ser IF (-2 Ser) (-1 Adv) (0 PP) (1 Adv OR PreDet) (2C Det) ;
+SELECT Ser IF (-2 Ser) (0 PP) (1 Adv OR PreAdv) (2 Adv OR PreDet) (3C Det) ;
 
 SELECT PP IF (-1 Stato LINK -1 Essere) ;
 
@@ -994,10 +1000,10 @@ SELECT N + &&ConcordaGN IF (-1C Barrera_Inicial_Estrict_SN) (0 N + &&ConcordaGN)
 
 SELECT A + &&ConcordaGN IF (-1 N + &&ConcordaGN + MajIni) (0 ("rosso") + &&ConcordaGN + MajIni) ;	# Stella Rossa ; Armata Rossa
 
-REMOVE CnjCoo IF (-1 Vaux) (0 Adv) (1 PP) ;	# ès invece stato una sventura
+REMOVE CnjCoo IF (-1 Vaux) (0 Adv) (1 PP) ;	# è invece stato una sventura
 REMOVE CnjCoo IF (-1 Vall LINK NOT 0 PP) (0 Adv) (1C Det) ;	# fu invece una sventura
-REMOVE CnjCoo IF (-2 Vaux) (-1 PP) (0 Adv) (1C Det) ;	# ès stato invece una sventura
-REMOVE CnjCoo IF (-3 Vaux) (-2 Adv) (-1 PP) (0 Adv) (1C Det) ;	# ès sempre stato invece una sventura
+REMOVE CnjCoo IF (-2 Vaux) (-1 PP) (0 Adv) (1C Det) ;	# è stato invece una sventura
+REMOVE CnjCoo IF (-3 Vaux) (-2 Adv) (-1 PP) (0 Adv) (1C Det) ;	# è sempre stato invece una sventura
 
 
 # Coordinació
