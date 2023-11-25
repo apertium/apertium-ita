@@ -98,7 +98,8 @@ SET Ref = (prn pro ref) ;
 SET Pro = (prn pro) ;
 SET Enc = (prn enc) ;
 SET Tn = (prn tn) ;
-SET Tn_nt = (prn tn nt) ;
+SET Tn_Nt = (prn tn nt) ;
+SET Pro_Nt = (prn pro nt) ;
 
 SET Pref1 = (pref) ;	# "real" prefix
 SET Pref2 = (adj mf sp) ;	# adj.mf.sp used as a prefix
@@ -313,6 +314,11 @@ SELECT Pron IF (0 Lo) (0 Il) (1 Pro) (2 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (NOT 1 Vall) (NOT 2 Vall) ;
 SELECT Det IF (0 Lo) (0 Il + &&ConcordaGN) (1 N + &&ConcordaGN) (NOT 1 Vall) ;
 SELECT Det IF (0 Lo) (0 Il) (1 A) (2 N) ;
+
+LIST No_Pro_Nt = "dare# fastidio" "innalzare" "infuriare" "molestare" ;
+REMOVE Pro_Nt IF (0 Lo) (1 No_Pro_Nt) ;	# lo infuria
+REMOVE Pro_Nt IF (0 Lo) (1 ("fare")) (2 No_Pro_Nt + Inf) ;	# lo fa infuriare
+REMOVE Pro_Nt IF (0 Lo) (1 ("fare")) (2 Adv) (3 No_Pro_Nt + Inf) ;	# lo fa sempre infuriare
 
 SELECT Prep IF (0 Sotto) (1 Det) ;
 
