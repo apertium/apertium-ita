@@ -1332,7 +1332,7 @@ REMOVE PreAdv IF (NOT 1 A OR Adv) ;
 
 REMOVE NP IF (0 ("Arcangelo")) (1 ("Michele") OR ("Gabriele")) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via") OR ("Terra")) (NOT 0 Gentilizio) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via") OR ("Capo") OR ("Terra")) (NOT 0 Gentilizio) ;
 	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
 SELECT NP IF (0 ("Val")) (1 ("-")) ;
@@ -1358,6 +1358,7 @@ REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Duca") OR ("Marchesi
 REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
 SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) (NOT -1/* Pl) ;
 SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Di) (2 Top OR ("San") OR unknownMajIni) (NOT -1/* Pl) ;
+REMOVE NP IF (0 ("Capo")) (1 ("di")) ;
 
 REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
 REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
