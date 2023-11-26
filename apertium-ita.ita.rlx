@@ -224,7 +224,7 @@ LIST Vi = "vi" ;
 
 LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" ;
 
-LIST Gentilizio = "abcaso" "accadiano" "accado" "acheo" "adyghè" "ainu" "albanese" "algonchino" "alsaziano" "altai" "alvernese" "amazigh" "amorreo" "andaluso" "angioino" "apache" "arabo" "aragonese" "arameo" "aranese" "armeno" "assiro" "asturiano" "ateniese" "avaro" "aymarà" "azero" "balkar" "baltico" "bambara" "bantu" "basco" "bashkir" "battriano" "bavarese" "beluci" "bengalese" "berbero" "bielorusso" "birmano" "bolognese" "borgognone" "boscimane" "boscimano" "bosniaco" "bretone" "bulgaro" "burgundio" "burgundo" "buriato" "cabardino" "cabilo" "calabrese" "calmucco" "cambogiano" "cananeo" "cantonese" "caracalpaco" "caraciai-balcaro" "careliano" "cartaginese" "casciubo" "cassita" "castigliano" "catalano" "ceceno" "ceco" "cecoslovacco" "ceremisso" "cherokee" "chuvash" "cimmerio" "cinese" "circasso" "ciukcio" "comanche" "coreano" "cornico" "corso" "cretese" "croato" "cumano" "curdo" "dacio" "dalmata" "danese" "dioula" "dorio" "ebraico" "elamita" "emiliano" "eoliano" "eschimese" "estone" "etiope" "etrusco" "fenicio" "fiammingo" "finlandese" "fiorentino" "francese" "franco" "frigio" "frisone" "friulano" "fula" "fulani" "gallese" "gallo" "genovese" "georgiano" "giapponese" "giavanese" "goto" "greco" "guaraní" "guascone" "gujarati" "hausa" "hawaiano" "hazara" "hurrita" "ibero" "igbo" "illirio" "indonesiano" "inglese" "inguscio" "inuit" "ionio" "irlandese" "irochese" "islandese" "istriano" "italiano" "ittita" "jacuto" "jakuto" "karachai" "kashmiro" "kazako" "khanti" "khmer" "kirghizo" "komi" "laotiano" "leonese" "lesgo" "lettone" "lezghiano" "lidio" "ligure" "limosino" "linguadociano" "lituano" "lombardo" "longobardo" "loreno" "lussemburghese" "macedone" "maiorchino" "malese" "malgascio" "maltese" "manciù" "mannese" "mansi" "maori" "mapuce" "mari" "marshallese" "miceneo" "micronesiano" "milanese" "mingrelio" "minoico" "minorchino" "mirandese" "moghul" "mohawk" "moldavo" "mongolo" "montenegrino" "mordvino" "mozarabo" "nabateo" "napoletano" "napolitano" "navajo" "nepalese" "nizzardo" "nogai" "normanno" "norvegese" "nubiano" "occitano" "olandese" "oromo" "osco" "osseto" "ostiaco" "ostrogoto" "ottentotto" "ottomano" "palmireno" "pangiabi" "pashtun" "pecenego" "persiano" "peul" "picardo" "piemontese" "pisano" "polacco" "polinesiano" "portoghese" "provenzale" "punico" "punjabi" "quechua" "rapanui" "romagnolo" "romano" "rumeno" "russo" "ruteno" "sabino" "sakha" "samoano" "saraceno" "sardo" "savoiardo" "scita" "scozzese" "serbo" "siciliano" "sindhi" "singalese" "siriaco" "slavo" "slovacco" "sloveno" "sogdiano" "somalo" "songhai" "sorabo" "spagnolo" "spartano" "sumero" "svedese" "svevo" "swahili" "tagico" "tailandese" "taiwanese" "tamil" "tataro" "tebano" "tedesco" "telugu" "tibetano" "toscano" "tracio" "troiano" "tuareg" "tunguse" "turco" "turkmeno" "tuvano" "ucraino" "udmurto" "uiguro" "umbro" "ungherese" "unno" "uzbeko" "valdese" "valenciano" "vallone" "vandalo" "veneziano" "vichingo" "vietnamita" "visigoto" "votiaco" "xhosa" "yoruba" "zulu" ;
+LIST Gentilizio = "abcaso" "accadiano" "accado" "acheo" "adyghè" "africano" "ainu" "albanese" "algonchino" "alsaziano" "altai" "alvernese" "amazigh" "americano" "amorreo" "andaluso" "angioino" "apache" "arabo" "aragonese" "arameo" "aranese" "armeno" "asiatico" "assiro" "asturiano" "ateniese" "australiano" "avaro" "aymarà" "azero" "balkar" "baltico" "bambara" "bantu" "basco" "bashkir" "battriano" "bavarese" "beluci" "bengalese" "berbero" "bielorusso" "birmano" "bolognese" "borgognone" "boscimane" "boscimano" "bosniaco" "bretone" "bulgaro" "burgundio" "burgundo" "buriato" "cabardino" "cabilo" "calabrese" "calmucco" "cambogiano" "cananeo" "cantonese" "caracalpaco" "caraciai-balcaro" "careliano" "cartaginese" "casciubo" "cassita" "castigliano" "catalano" "ceceno" "ceco" "cecoslovacco" "centroamericano" "ceremisso" "cherokee" "chuvash" "cimmerio" "cinese" "circasso" "ciukcio" "comanche" "coreano" "cornico" "corso" "cretese" "croato" "cumano" "curdo" "dacio" "dalmata" "danese" "dioula" "dorio" "ebraico" "elamita" "emiliano" "eoliano" "eschimese" "estone" "etiope" "etrusco" "europeo" "fenicio" "fiammingo" "finlandese" "fiorentino" "francese" "franco" "frigio" "frisone" "friulano" "fula" "fulani" "gallese" "gallo" "genovese" "georgiano" "giapponese" "giavanese" "goto" "greco" "guaraní" "guascone" "gujarati" "hausa" "hawaiano" "hazara" "hurrita" "ibero" "igbo" "illirio" "indonesiano" "inglese" "inguscio" "inuit" "ionio" "irlandese" "irochese" "islandese" "istriano" "italiano" "ittita" "jacuto" "jakuto" "karachai" "kashmiro" "kazako" "khanti" "khmer" "kirghizo" "komi" "laotiano" "leonese" "lesgo" "lettone" "lezghiano" "lidio" "ligure" "limosino" "linguadociano" "lituano" "lombardo" "longobardo" "loreno" "lussemburghese" "macedone" "maiorchino" "malese" "malgascio" "maltese" "manciù" "mannese" "mansi" "maori" "mapuce" "mari" "marshallese" "miceneo" "micronesiano" "milanese" "mingrelio" "minoico" "minorchino" "mirandese" "moghul" "mohawk" "moldavo" "mongolo" "montenegrino" "mordvino" "mozarabo" "nabateo" "napoletano" "napolitano" "navajo" "nepalese" "nizzardo" "nogai" "normanno" "nordamericano" "norvegese" "nubiano" "occitano" "olandese" "oromo" "osco" "osseto" "ostiaco" "ostrogoto" "ottentotto" "ottomano" "palmireno" "pangiabi" "pashtun" "pecenego" "persiano" "peul" "picardo" "piemontese" "pisano" "polacco" "polinesiano" "portoghese" "provenzale" "punico" "punjabi" "quechua" "rapanui" "romagnolo" "romano" "rumeno" "russo" "ruteno" "sabino" "sakha" "samoano" "saraceno" "sardo" "savoiardo" "scita" "scozzese" "serbo" "siciliano" "sindhi" "singalese" "siriaco" "slavo" "slovacco" "sloveno" "sogdiano" "somalo" "songhai" "sorabo" "spagnolo" "spartano" "sudamericano" "sumero" "svedese" "svevo" "swahili" "tagico" "tailandese" "taiwanese" "tamil" "tartaro" "tataro" "tebano" "tedesco" "telugu" "tibetano" "toscano" "tracio" "troiano" "tuareg" "tunguse" "turco" "turkmeno" "tuvano" "ucraino" "udmurto" "uiguro" "umbro" "ungherese" "unno" "uzbeko" "valdese" "valenciano" "vallone" "vandalo" "veneziano" "vichingo" "vietnamita" "visigoto" "votiaco" "xhosa" "yoruba" "zulu" ;
 
 LIST Excl = "!" ;
 
@@ -360,8 +360,8 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 A + Sg) ;		# Era intelligente
 SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto intelligente
 
 REMOVE Ant IF (-1 BOS) (0 ("<Era>")) (NOT 1* ("Zeus") OR ("Crono") OR ("Rea") OR ("Giunone") OR ("Eracle")) ;
-REMOVE Ant IF (1 PP) ;
-REMOVE Ant IF (1 Adv) (2 PP) ;
+REMOVE Ant IF (0 ("<Era>")) (1 PP) ;
+REMOVE Ant IF (0 ("<Era>")) (1 Adv) (2 PP) ;
 
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
@@ -682,6 +682,33 @@ REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
 SELECT Num IF (-1 MajIni2) (0 ("<I>")) ;	# Armanda I
 SELECT Num IF (-1 unknownMajIni2) (0 ("<I>")) ;	# Armandax I
 
+REMOVE CnjAdv IF (-1 BOS) (0 Interr) (0 CnjAdv) (1* ("?"));
+#SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
+#SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
+REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
+REMOVE Interr IF (NOT -1 Vall OR Adv) (0 Interr) (0 CnjAdv) ;	# ha ricevuto una certa notorietà da quando
+REMOVE Interr IF (NOT -2 Vall) (-1 Adv) (0 Interr) (0 CnjAdv) ;
+
+REMOVE Interr IF (-1 N + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;			# figure quali l’eufemismo
+REMOVE Interr IF (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;	# figure retoriche quali l’eufemismo
+
+SELECT Rel IF (-1C N OR A OR NP) (0 Che OR Chi) ;		# l'uomo che dice
+SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
+SELECT Rel IF (-1/* Det + Def) (0 Che OR Chi) ;
+SELECT Rel IF (-1/* Det + Dem) (0 Che OR Chi) ;
+SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
+SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
+SELECT Rel IF (-2 unknown) (-1 CM) (0 Che OR Chi) ;
+
+SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
+SELECT Interr IF (-2 BOS) (-1 Prep) (0 Che OR Chi) (1* ("?")) ;
+SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (0 Chi) ;
+SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (-1 Adv) (0 Chi) ;
+SELECT Interr IF (-1 ("domandare") OR ("chiedere")) (0 Che) ;
+SELECT Interr IF (-2 ("domandare") OR ("chiedere")) (-1 Adv) (0 Che) ;
+REMOVE Interr IF (0 Che OR Chi) ;
+REMOVE A IF (0 Che) (NOT 1 N) ;
+
 REMOVE Prep IF (-1 Vall) (0 Prep) (0 Adv) (1 Ger) ;		# si chiamò fuori dando vita
 
 SELECT Aord IF (-1 Det + Def + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1 N + &&ConcordaGN) ;		# il quinto piano
@@ -806,7 +833,10 @@ SELECT N IF (0 A) (0 N + &&ConcordaGN) (NOT 0 Aord OR AdjN) (-1 Barrera_Inicial_
 SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 N + &&ConcordaGN) (1 A) (2 Barrera_Final_Estrict_SN) ;
 SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 N + &&ConcordaGN) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 
-SELECT Aord IF (-1 Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1C N + &&ConcordaGN) ;
+SELECT Aord IF (-1/* Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1C N + &&ConcordaGN) ;
+SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN) (1C N + &&ConcordaGN) ;
+SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN LINK NOT 0 N) (1C Gentilizio + &&ConcordaGN) ;
+SELECT A OR PP IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN OR PP + &&ConcordaGN) ;	# l'Estremo Oriente russo ; le prime canzoni scritte da lei
 
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
@@ -953,33 +983,6 @@ SELECT N IF (-1 Num) (0 ("maggio")) ;	# 30 maggio
 SELECT N IF (0 ("maggio")) (1 Num) ;	# maggio 2023
 
 SELECT N IF (-1 ("mondiale")) (0 ("<donne>"i)) ;	# i Mondiali donne
-
-REMOVE CnjAdv IF (-1 BOS) (0 Interr) (0 CnjAdv) (1* ("?"));
-#SELECT Interr IF (0 Interr) (0 CnjAdv) (-1 Vinterr) ;	# problema: il Principe Taik fu chiesto come pagamento
-#SELECT Interr IF (0 Interr) (0 CnjAdv) (1C Vall) ;	# de moment comento aquesta regla que provoca molts canvis
-REMOVE Interr IF (-1/* Det) (0 Interr) (0 Rel) ;	# nella quale
-REMOVE Interr IF (NOT -1 Vall OR Adv) (0 Interr) (0 CnjAdv) ;	# ha ricevuto una certa notorietà da quando
-REMOVE Interr IF (NOT -2 Vall) (-1 Adv) (0 Interr) (0 CnjAdv) ;
-
-REMOVE Interr IF (-1 N + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;			# figure quali l’eufemismo
-REMOVE Interr IF (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (0 Interr) (0 Rel + &&ConcordaGN) ;	# figure retoriche quali l’eufemismo
-
-SELECT Rel IF (-1C N OR A OR NP) (0 Che OR Chi) ;		# l'uomo che dice
-SELECT Rel IF (-2 N OR A OR NP) (-1 CM) (0 Che OR Chi) ;	# l'uomo, che dice
-SELECT Rel IF (-1/* Det + Def) (0 Che OR Chi) ;
-SELECT Rel IF (-1/* Det + Dem) (0 Che OR Chi) ;
-SELECT Rel IF (-1 ("ciò") OR ("tutto ciò")) (0 Che) ;
-SELECT Rel IF (-1 unknown) (0 Che OR Chi) ;
-SELECT Rel IF (-2 unknown) (-1 CM) (0 Che OR Chi) ;
-
-SELECT Interr IF (-1 BOS) (0 Che OR Chi) (1* ("?")) ;
-SELECT Interr IF (-2 BOS) (-1 Prep) (0 Che OR Chi) (1* ("?")) ;
-SELECT Interr IF (-1 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (0 Chi) ;
-SELECT Interr IF (-2 ("sapere") OR ("domandare") OR ("chiedere") OR ("spiegare")) (-1 Adv) (0 Chi) ;
-SELECT Interr IF (-1 ("domandare") OR ("chiedere")) (0 Che) ;
-SELECT Interr IF (-2 ("domandare") OR ("chiedere")) (-1 Adv) (0 Che) ;
-REMOVE Interr IF (0 Che OR Chi) ;
-REMOVE A IF (0 Che) (NOT 1 N) ;
 
 SELECT A IF (0C A OR Adv) (-1/* Det) (1 N) ; # una prima verzione
 SELECT A IF (0C A OR Adv) (-1/* Det + Det) (1 N) ; # una prima verzione (Hack perquè funcioni)
@@ -1389,6 +1392,7 @@ SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
 
 REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
 REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
+REMOVE Cog IF (NOT -1 Ant) (0 ("<Antonino>")) ;
 REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
 REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
 
