@@ -359,6 +359,10 @@ SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 N + Sg) ;		# Era rappresentan
 SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 A + Sg) ;		# Era intelligente
 SELECT Ser IF (-1 Barrera_Inicial_Prop) (0 Era) (1 Adv) (2 A + Sg) ;	# Era molto intelligente
 
+REMOVE Ant IF (-1 BOS) (0 ("<Era>")) (NOT 1* ("Zeus") OR ("Crono") OR ("Rea") OR ("Giunone") OR ("Eracle")) ;
+REMOVE Ant IF (1 PP) ;
+REMOVE Ant IF (1 Adv) (2 PP) ;
+
 #SELECT Pron IF (0C Pron OR Det) (NOT 1* N BARRIER NPNHA) ; -- aquesta regla genera infinitat d'errors
 
 SELECT V IF (-1 Adv) (0 ("<fa>"i)) ;	# non fa, sempre fa
