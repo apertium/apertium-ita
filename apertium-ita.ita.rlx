@@ -836,7 +836,7 @@ SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 
 SELECT Aord IF (-1/* Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1C N + &&ConcordaGN) ;
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN) (1C N + &&ConcordaGN) ;
 SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN LINK NOT 0 N) (1C Gentilizio + &&ConcordaGN) ;
-SELECT A OR PP IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN OR PP + &&ConcordaGN) ;	# l'Estremo Oriente russo ; le prime canzoni scritte da lei
+SELECT A OR PP IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN OR PP + &&ConcordaGN) (NOT 0 ("Benedetto")) (NOT 1 Cog) ;	# l'Estremo Oriente Russo ; le prime canzoni scritte da lei ; il primo ministro Benedetto Cairoli
 
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Prep) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
