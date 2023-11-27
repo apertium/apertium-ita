@@ -1397,6 +1397,9 @@ REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
 REMOVE Cog IF (NOT -1 Ant) (0 ("<Antonino>")) ;
 REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
 REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
+SELECT Al IF (-1/* Det + FemSg) (0 ("<Madonna>")) ;
+SELECT Al IF (0 ("<Madonna>")) (1 Di) ;
+REMOVE Al IF (0 ("<Madonna>")) ;
 
 SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 
