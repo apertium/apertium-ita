@@ -372,6 +372,9 @@ REMOVE Adv IF (0 ("<fa>"i)) ;
 
 REMOVE Ant IF (-1 BOS) (0 ("Che")) ;
 
+REMOVE A IF (0 ("don")) (NOT -1 NP OR unknownMajIni) ;
+
+
 # Prefissi
 
 SELECT Pref1 IF (0 (META:/-/r)) (1 N OR A OR V OR unknown) ;
