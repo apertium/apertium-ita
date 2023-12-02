@@ -786,6 +786,14 @@ REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 SELECT N IF (NOT -1 N) (0 ("amico")) (1 Ant_Cog OR unknownMajIni) ;	# al suo amico Monty
 SELECT M IF (NOT -1 M OR F) (0C N) (1 Ant + M) ;
 SELECT F IF (NOT -1 M OR F) (0C N) (1 Ant + F) ;
+SELECT M IF (NOT -1 M OR F) (0C N) (1 A + MF) (2 Ant + M) ;
+SELECT F IF (NOT -1 M OR F) (0C N) (1 A + MF) (2 Ant + F) ;
+SELECT M IF (NOT -1 M OR F) (0C N) (1 CM OR Lpar) (2 Ant + M) ;
+SELECT F IF (NOT -1 M OR F) (0C N) (1 CM OR Lpar) (2 Ant + F) ;
+SELECT M IF (-2 Ant + M) (-1 CM OR Lpar) (0C N) (NOT 1 M OR F) ;
+SELECT F IF (-2 Ant + F) (-1 CM OR Lpar) (0C N) (NOT 1 M OR F) ;
+SELECT M IF (-3 Ant + M) (-2 Ant OR Cog) (-1 CM OR Lpar) (0C N) (NOT 1 M OR F) ;
+SELECT F IF (-3 Ant + F) (-2 Ant OR Cog) (-1 CM OR Lpar) (0C N) (NOT 1 M OR F) ;
 
 # Partitivo
 #SELECT Un IF (-1 Ser + PP + MascPl) (0 Un + MascPl) (1 N + MascPl) ;
