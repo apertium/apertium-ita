@@ -1203,6 +1203,7 @@ SELECT N IF (-1 Aord + &&ConcordaGN) (0 ("posto") + &&ConcordaGN) ;	# 2º posto
 REMOVE N IF (-1C Pro) (0 Vall + Pers) ;		# Chi me la porta?
 
 REMOVE Prs IF (0 N + &&ConcordaGN) (0 Prs) (1 A + &&ConcordaGN) (NOT -1* CnjAdv) ;	# mettere in campo azioni alternative
+REMOVE Prs OR Pis IF (-1 BOS) (0 N OR A) ;	# Premessa:
 
 REMOVE P2 IF (0 N + FemSg) (0 P2) (1 A + FemSg) (NOT -1* CnjAdv) ;
 REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in campo azioni alternative
