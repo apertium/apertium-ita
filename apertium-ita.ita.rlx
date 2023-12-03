@@ -904,6 +904,7 @@ REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 Aord OR AdjN) ; # lo stato itali
 REMOVE Adv IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
 
 REMOVE N IF (0 AdjN) (1 unknown) ;
+REMOVE A IF (-1C Barrera_Inicial_Estrict_SN) (0 N) (1 unknown OR EOS) ;
 
 REMOVE N IF (0 N + Sg) (0 A + Sg) (-1 Ser + Sg OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Sg) ;	# è verde
 REMOVE N IF (0 N + Pl) (0 A + Pl) (-1 Ser + Pl OR Considerare + Sg OR Giudicare + Sg OR Sentire + Sg OR Risultare + Sg OR Mantenere + Sg + Rimanere + Sg OR Sembrare + Sg OR Parere + Pl) ;
