@@ -1584,3 +1584,4 @@ SELECT Adv IF (-1 BOS) (1 EOS) ;
 
 REMOVE Ionio IF (0 Ione) (1 MajIni OR unknownMajIni) ;
 REMOVE Ionio IF (-1 V) (0 Ione) ;
+REMOVE N + Ionio IF (0 Ione) (NOT 0 MajIni) ;
