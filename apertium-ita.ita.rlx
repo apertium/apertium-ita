@@ -1419,6 +1419,9 @@ SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
 REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog) ;
 REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant) ;
 
+SELECT Top IF (-1 ("regione") OR ("distretto")) (0 Top) ;
+SELECT Top IF (-2 ("regione") OR ("distretto") OR ("città")) (-1 Di) (0 Top) ;
+
 SELECT NP IF (0 N OR NP) (2 NP) (1 Guio) ;	# Pierre-Michel
 SELECT Ant IF (0 Ant) (2C Ant) (1 Guio) ;	# Jean-René
 SELECT Ant IF (-2C Ant) (0 Ant) (-1 Guio) ;
