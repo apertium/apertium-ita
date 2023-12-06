@@ -14,6 +14,7 @@ LIST Adv = adv ;
 LIST PreAdv = preadv ;
 LIST Pron = prn ;
 LIST N = n ;
+LIST Acr = (n acr) ;
 LIST NP = np ;
 LIST V = vblex ;
 LIST Vall = vblex vbmod vbser vbhaver ;
@@ -681,6 +682,8 @@ REMOVE N IF (NOT 1/* Det + Def + MascSg) (0 ("oltremare") OR ("oltreoceano")) ;
 
 SELECT CnjAdv IF (0 Qualunque) (1 Prs OR Pis) ;
 REMOVE CnjAdv IF (0 Qualunque) (NOT 1 Prs OR Pis) ;
+
+SELECT Acr IF (0 ("ROM")) ;
 
 SELECT Num IF (-1 MajIni2) (0 ("<I>")) ;	# Armanda I
 SELECT Num IF (-1 unknownMajIni2) (0 ("<I>")) ;	# Armandax I
