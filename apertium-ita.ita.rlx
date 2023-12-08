@@ -484,6 +484,7 @@ SELECT N IF (0 Calibro) (-1 ("fucile") OR ("pistola") OR ("revolver")) ;
 SELECT Bue IF (NOT -1 F OR Pl) (0 Bua) (NOT -1 F OR Pl) ;
 
 SELECT A + &&ConcordaGN IF (0 Santo + &&ConcordaGN) (1 Ant + &&ConcordaGN) ;
+SELECT A IF (0 Santo + Pl) (1 Ant) (2 CnjCoo) (3 Ant) ;
 SELECT A IF (0 Santo) (1 unknownMajIni) ;
 SELECT A IF (0 ("<Santo>")) (1 ("spirito") OR ("sepolcro")) ;
 SELECT N IF (0 ("<Vergine>")) (-1/* Det + Fem) ;
@@ -810,6 +811,167 @@ SELECT Adv IF (0 Solo + MascSg) (1 Da) ;		# 5 milioni e mezzo di euro solo dal v
 
 SELECT N IF (0 ("<Stato>")) (NOT -1 BOS) ;
 SELECT N IF (0 Stato) (-1 Det OR Aord OR Pos OR AdjN) ;
+
+# NP
+
+REMOVE NP IF (0 ("Arcangelo")) (1 ("Michele") OR ("Gabriele")) ;
+REMOVE NP IF (-1/* Det + MascSg) (0 ("Corsaro")) ;
+REMOVE NP IF (0 ("<Corsaro>")) (1 ("<Nero>")) ;
+REMOVE NP IF (-2 Ant) (-1 Det + Def + Sg + &&ConcordaGN) (0 Noun_Adj + &&ConcordaGN) ;	# Ludovico il Pio
+REMOVE NP IF (-1/* Det + MascPl) (0 ("Nativi")) ;
+REMOVE NP IF (0 ("<Grande>")) (1 N + MascSg) ;	# Grande Maestro
+REMOVE NP IF (-1 ("<Grande>")) (0 ("<Maestro>")) ;
+
+
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Casa") OR ("Valle") OR ("Villa") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Rosario") OR ("Santo") OR ("Santa") OR ("Santi") OR ("Sante") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Re") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via") OR ("Capo") OR ("Terra") OR ("Natale")) (NOT 0 Gentilizio) ;
+	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
+SELECT NP IF (0 ("Val")) (1 ("-")) ;
+REMOVE NP IF (0 ("Prima")) (-1 BOS) ;
+REMOVE NP IF (-1 Det + Def) (0 ("Salvatore")) ;
+SELECT NP IF (0 ("Salvatore")) ;
+REMOVE NP IF (NOT -1 Ant) (0 ("Via")) (NOT 0 (META:/-/r)) (1 MajIni OR unknownMajIni) ;
+SELECT N IF (NOT -1 Ant) (0 ("via")) (NOT 0 (META:/-/r)) (1 MajIni OR unknownMajIni) ;
+SELECT N IF (NOT -1 Ant) (0 ("via")) (1 Di) (2 MajIni OR unknownMajIni) ;
+SELECT N IF (NOT -1 Ant) (0 ("via")) (1 Di) (2 Det) (3 MajIni OR unknownMajIni) ;
+
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Delfino") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
+SELECT Ant IF (-1 ("duca") OR ("marchese") OR ("conte") OR ("barone") OR ("principe") OR ("re") OR ("tsar") OR ("papa")) (0 Ant) ;
+SELECT Ant OR Cog IF (-1 ("signore")) (0 Ant OR Cog) ;
+REMOVE NP IF (0 ("Sacco")) (1 Di) (2 MajIni OR unknownMajIni) ;
+
+REMOVE NP IF (-1/* Det + MascSg) (0 Noun_Adj + MascSg) ;
+REMOVE NP IF (-1/* Det + MascPl OR ("<dai>") OR ("<dei>")) (0 Noun_Adj + MascPl) (NOT 0 ("USA") OR ("Usa_min")) ;
+REMOVE NP IF (-1/* Det + FemSg) (0 Noun_Adj + FemSg) ;
+REMOVE NP IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
+
+REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Di) (2 Top OR ("San") OR unknownMajIni) ;
+REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
+SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) (NOT -1/* Pl) ;
+SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Di) (2 Top OR ("San") OR unknownMajIni) (NOT -1/* Pl) ;
+REMOVE NP IF (0 ("Capo")) (1 ("di")) ;
+
+REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
+REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
+
+SELECT A IF (-1 Noun_Adj) (0 ("<USA>")) ;			# le sale cinematografiche USA
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Castello>")) ;	# il Castello
+SELECT N IF (-1/* Det + Def + MascPl) (0 ("<Castelli>")) ;	# i Castelli
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Consiglio>")) ;	# il Consiglio
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;	# il Tesoro
+SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Cantone>")) ;	# il Cantone
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
+SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
+SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Chiesa>")) ;		# la Chiesa
+SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Bandiera>")) ;	# la Bandiera
+SELECT N IF (-1/* Det + MascSg) (0 ("<Evangelista>")) ;		# un Evangelista
+SELECT N IF (-1/* Det + MascPl OR Num) (0 ("<Evangelisti>")) ;	# i Evangelisti
+SELECT N IF (-1/* Det + &&ConcordaGN) (0 NP) (0 N + &&ConcordaGN) (1C A + &&ConcordaGN) ;
+SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
+SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
+SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
+
+REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
+REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
+REMOVE Cog IF (NOT -1 Ant) (0 ("<Antonino>")) ;
+REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
+REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
+SELECT Al IF (-1/* Det + FemSg) (0 ("<Madonna>")) ;
+SELECT Al IF (0 ("<Madonna>")) (1 Di) ;
+REMOVE Al IF (0 ("<Madonna>")) ;
+
+SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
+
+REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog) ;
+REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant) ;
+
+SELECT Top IF (-1 ("regione") OR ("distretto")) (0 Top) ;
+SELECT Top IF (-2 ("regione") OR ("distretto") OR ("città")) (-1 Di) (0 Top) ;
+
+SELECT NP IF (0 N OR NP) (2 NP) (1 Guio) ;	# Pierre-Michel
+SELECT Ant IF (0 Ant) (2C Ant) (1 Guio) ;	# Jean-René
+SELECT Ant IF (-2C Ant) (0 Ant) (-1 Guio) ;
+SELECT Cog IF (0 Cog) (2C Cog) (1 Guio) ;
+SELECT Cog IF (-2C Cog) (0 Cog) (-1 Guio) ;
+SELECT Top IF (0 Top) (2C Top) (1 Guio) ;
+SELECT Top IF (-2C Top) (0 Top) (-1 Guio) ;
+SELECT Top IF (NOT -3 Ant OR Cog) (-2 Top) (0 Top) (-1 Guio) ;	# Milano-Napoli
+SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (2 Top) (1 Guio) ;	# Milano-Napoli
+SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) ;	# Pierre-Michel
+SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;	# Jean-René
+SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
+SELECT Cog IF (0 Cog) (1C Cog) (0 (META:/-/r)) ;
+SELECT Cog IF (-1C Cog) (0 Cog) (-1 (META:/-/r)) ;
+SELECT Top IF (0 Top) (1C Top) (0 (META:/-/r)) ;
+SELECT Top IF (-1C Top) (0 Top) (-1 (META:/-/r)) ;
+SELECT Top IF (NOT -2 Ant OR Cog) (-1 Top) (0 Top) (-1 (META:/-/r)) ;	# Milano-Napoli
+SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (1 Top) (0 (META:/-/r)) ;	# Milano-Napoli
+
+SELECT Ant IF (0 Ant) (1C Ant) ;	# Rosa Maria
+SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;	# Giordano Bruno
+SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
+SELECT Ant IF (-1 ("San")) (0 Ant) (0 Cog OR Top) ;	# San Paolo
+SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
+SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
+SELECT Ant_Cog IF (0 Cog OR Ant) (1 unknownMajIni) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
+SELECT Ant_Cog IF (-1 unknownMajIni) (0 Cog OR Ant) ;
+SELECT Ant IF (0 Ant) (0 Cog) (1 Di) (2 Top OR unknownMajIni) ;	# Alfonso di Portogallo
+SELECT Top IF (-2 Ant) (-1 Di) (0 Ant OR Cog OR Top) ;	# Ipparco di Nicea
+SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 Di) (0 Ant OR Cog OR Top) ;	# Joan II di Castiglia
+SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzione") OR ("trattato") OR ("dichiarazione"))
+	(-1 Di) (0 Ant OR Cog OR Top) ;
+	# concilio di Nicea
+SELECT Top IF (-2 ("corona") OR ("regno") OR ("giudicato") OR ("contea") OR ("ducato") OR ("despotado")) (-1 Di) (0 Cog OR Top) ;	# regno di Castiglia
+SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog) ;	# principe di Viana
+SELECT Top IF (-2 ("città") OR ("aeroporto") OR ("porto") OR ("regno") OR ("giudicato") OR ("principato") OR ("granducato") OR ("ducato") OR ("marchesato") OR ("contea") OR ("baronia") OR ("signoria") OR ("califfato") OR ("emirato") OR ("sultanato") OR ("khanato") OR ("satrapia") OR ("repubblica") OR ("arcivescovado") OR ("vescovado")) (-1 Di) (0 Cog OR Ant) ;
+REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
+REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli
+SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0 Ant OR Cog OR Top) ;
+#REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0C Ant OR Cog OR Top) ;
+SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
+#REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
+SELECT Top IF (-2 NP) (-1 Di) (0 Ant OR Cog OR Top) ;
+SELECT Top IF (NOT -2 ("parlare")) (-1 ("a")) (0 Mosca) ;
+REMOVE Ant IF (0 ("Apollo")) (1 Num) ;	# Apollo 11
+REMOVE Ant IF (-1 Det + Fem) (NOT 1 Det + Masc) (0 ("Apollo")) ;
+REMOVE Ant IF (-1 Det + Def + Fem) (0 ("Apollo")) (NOT 1 Di) ;
+REMOVE Ant IF (-1 ("programma") OR ("missione") OR ("spaziale") OR ("lunare")) (0 ("Apollo")) ;
+SELECT Ant IF (0 ("Apollo")) ;
+
+SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Ant OR Cog IF (-2C Ant OR Cog) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Ant OR Cog IF (2 Ant OR Cog) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
+SELECT Ant IF (-2C Ant) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
+SELECT Ant IF (2C Ant) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
+SELECT Cog IF (-2C Cog) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
+SELECT Cog IF (2C Cog) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
+
+SELECT Ant IF (0 ("Orfeo")) (NOT 1 Ant OR Cog) ;
+SELECT Ant IF (0 ("Belisario")) (NOT 1 Ant OR Cog) ;
+
+SELECT Masc IF (0 ("<sant'>"i)) (1 ("Andrea")) ;
+
+
+# Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
+REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
+REMOVE NP IF (0 ("Pesce")) (-1 BOS);
+REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
+
+SELECT Org IF (0 ("Lazio")) (-1 Det + Def + FemSg) ;
+SELECT Org IF (0 ("Lazio")) (-2 Det + Def + FemSg) ;
+REMOVE Org IF (0 ("Lazio")) ;
+
+# These rules are commented because they cause more trouble than they solve
+# Per a evitar la traducció de cognoms
+# Posa com a lema la forma de la paraula marcada amb *
+# Amb els adjectius hi ha més risc d'error (!)
+#SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ;
+#REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
 
 # N O A
 
@@ -1352,160 +1514,6 @@ SELECT A IF (-2C A) (-1 CM) (0 Noun_Adj_PP LINK NOT 0 NP) (1 CM OR CnjCoo) ;
 # PREADV
 
 REMOVE PreAdv IF (NOT 1 A OR Adv) ;
-
-# NP
-
-REMOVE NP IF (0 ("Arcangelo")) (1 ("Michele") OR ("Gabriele")) ;
-
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Lei") OR ("Loro") OR ("Mia") OR ("Sole") OR ("Gran") OR ("Grande") OR ("Alta") OR ("Basso") OR ("Bassa") OR ("Bassi") OR ("Guerra") OR ("Marina") OR ("Regina") OR ("Beni") OR ("Castello") OR ("Castelli") OR ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Consiglio") OR ("Tesoro") OR ("Verde") OR ("Verdi") OR ("Vecchio") OR ("Chiesa") OR ("Croce") OR ("Cantone") OR ("Bandiera") OR ("Campo") OR ("Evangelista") OR ("Evangelisti") OR ("Signore") OR ("Signori") OR ("Zarina") OR ("Delfino") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Visconti") OR ("Barone") OR ("Baroni") OR ("Principe") OR ("Governatori") OR ("Giardini") OR ("Palazzo") OR ("Palazzi") OR ("Primo") OR ("Prima") OR ("Bello") OR ("Bella") OR ("Belli") OR ("Belle") OR ("Costa") OR ("Golfo") OR ("Terzo") OR ("Terza") OR ("Terzi") OR ("Usa") OR ("USA") OR ("Salvatore") OR ("Via") OR ("Capo") OR ("Terra")) (NOT 0 Gentilizio) ;
-	# Llevem paraules que, per una raó o altra, es posen en majúscules sense ser NP
-SELECT NP IF (0 ("Val")) (0 (META:/-/r)) ;
-SELECT NP IF (0 ("Val")) (1 ("-")) ;
-REMOVE NP IF (0 ("Prima")) (-1 BOS) ;
-REMOVE NP IF (-1 Det + Def) (0 ("Salvatore")) ;
-SELECT NP IF (0 ("Salvatore")) ;
-REMOVE NP IF (NOT -1 Ant) (0 ("Via")) (NOT 0 (META:/-/r)) (1 MajIni OR unknownMajIni) ;
-SELECT N IF (NOT -1 Ant) (0 ("via")) (NOT 0 (META:/-/r)) (1 MajIni OR unknownMajIni) ;
-SELECT N IF (NOT -1 Ant) (0 ("via")) (1 Di) (2 MajIni OR unknownMajIni) ;
-SELECT N IF (NOT -1 Ant) (0 ("via")) (1 Di) (2 Det) (3 MajIni OR unknownMajIni) ;
-
-REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Delfino") OR ("Duca") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Ant OR unknownMajIni) ;
-SELECT Ant IF (-1 ("duca") OR ("marchese") OR ("conte") OR ("barone") OR ("principe") OR ("re") OR ("tsar") OR ("papa")) (0 Ant) ;
-SELECT Ant OR Cog IF (-1 ("signore")) (0 Ant OR Cog) ;
-REMOVE NP IF (0 ("Sacco")) (1 Di) (2 MajIni OR unknownMajIni) ;
-
-REMOVE NP IF (-1/* Det + MascSg) (0 Noun_Adj + MascSg) ;
-REMOVE NP IF (-1/* Det + MascPl OR ("<dai>") OR ("<dei>")) (0 Noun_Adj + MascPl) (NOT 0 ("USA") OR ("Usa_min")) ;
-REMOVE NP IF (-1/* Det + FemSg) (0 Noun_Adj + FemSg) ;
-REMOVE NP IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
-
-REMOVE NP IF (0 ("Signore") OR ("Signori") OR ("Duca") OR ("Duca") OR ("Marchesi") OR ("Conte") OR ("Contessa") OR ("Conti") OR ("Barone") OR ("Baroni") OR ("Principe")) (1 Di) (2 Top OR ("San") OR unknownMajIni) ;
-REMOVE NP IF (0 ("Principe")) (1 ("elettore")) ;
-SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Ant OR unknownMajIni) (NOT 1 Ant + Fem) (NOT -1/* Pl) ;
-SELECT Sg IF (0 ("signore") OR ("marchese")) (1 Di) (2 Top OR ("San") OR unknownMajIni) (NOT -1/* Pl) ;
-REMOVE NP IF (0 ("Capo")) (1 ("di")) ;
-
-REMOVE NP IF (-2 Ant) (-1 Det + Def + MascSg) (0 NP) (0 Noun_Adj + MascSg) ;	# Plinio il Vecchio
-REMOVE NP IF (-2 Ant) (-1 Det + Def + FemSg) (0 NP) (0 Noun_Adj + FemSg) ;	# Caterina la Grande
-
-SELECT A IF (-1 Noun_Adj) (0 ("<USA>")) ;			# le sale cinematografiche USA
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Sole>")) ;		# il Sole
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Castello>")) ;	# il Castello
-SELECT N IF (-1/* Det + Def + MascPl) (0 ("<Castelli>")) ;	# i Castelli
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Consiglio>")) ;	# il Consiglio
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Tesoro>")) ;	# il Tesoro
-SELECT N IF (-1/* Det + Def + MascSg) (0 ("<Cantone>")) ;	# il Cantone
-SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Guerra>")) ;		# la Guerra (Mundial, d'Independència, etc.)
-SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Guerra>")) ;	# la Gran Guerra
-SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Regina>")) ;		# la Regina Maria Carolina
-SELECT N IF (-2/* Det + Def + FemSg) (-1 A + FemSg) (0 ("<Regina>")) ;
-SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Chiesa>")) ;		# la Chiesa
-SELECT N IF (-1/* Det + Def + FemSg) (0 ("<Bandiera>")) ;	# la Bandiera
-SELECT N IF (-1/* Det + MascSg) (0 ("<Evangelista>")) ;		# un Evangelista
-SELECT N IF (-1/* Det + MascPl OR Num) (0 ("<Evangelisti>")) ;	# i Evangelisti
-SELECT N IF (-1/* Det + &&ConcordaGN) (0 NP) (0 N + &&ConcordaGN) (1C A + &&ConcordaGN) ;
-SELECT N IF (-1/* Det + MascPl) (0 NP) (0 N + MascPl) (1C A + MascPl) ;
-SELECT N IF (-1/* Det + FemSg) (0 NP) (0 N + FemSg) (1C A + FemSg) ;
-SELECT N IF (-1/* Det + FemPl) (0 NP) (0 N + FemPl) (1C A + FemPl) ;
-
-REMOVE Cog IF (-1 BOS) (0 ("<Dati>")) ;
-REMOVE Cog IF (NOT -1 Ant) (0 ("<Palazzo>")) ;
-REMOVE Cog IF (NOT -1 Ant) (0 ("<Antonino>")) ;
-REMOVE Cog IF (0 ("<Costa>")) (1 A + FemSg) ;
-REMOVE Cog IF (0 ("Roma")) (NOT -1 Ant OR Cog) ;
-SELECT Al IF (-1/* Det + FemSg) (0 ("<Madonna>")) ;
-SELECT Al IF (0 ("<Madonna>")) (1 Di) ;
-REMOVE Al IF (0 ("<Madonna>")) ;
-
-SELECT NP IF (0 Top) (0 N OR A) (NOT -1C (ant) OR (cog));
-
-REMOVE Cog IF (-1 In OR Da) (0 Top) (0 Cog) ;
-REMOVE Ant IF (-1 In OR Da) (0 Top) (0 Ant) ;
-
-SELECT Top IF (-1 ("regione") OR ("distretto")) (0 Top) ;
-SELECT Top IF (-2 ("regione") OR ("distretto") OR ("città")) (-1 Di) (0 Top) ;
-
-SELECT NP IF (0 N OR NP) (2 NP) (1 Guio) ;	# Pierre-Michel
-SELECT Ant IF (0 Ant) (2C Ant) (1 Guio) ;	# Jean-René
-SELECT Ant IF (-2C Ant) (0 Ant) (-1 Guio) ;
-SELECT Cog IF (0 Cog) (2C Cog) (1 Guio) ;
-SELECT Cog IF (-2C Cog) (0 Cog) (-1 Guio) ;
-SELECT Top IF (0 Top) (2C Top) (1 Guio) ;
-SELECT Top IF (-2C Top) (0 Top) (-1 Guio) ;
-SELECT Top IF (NOT -3 Ant OR Cog) (-2 Top) (0 Top) (-1 Guio) ;	# Milano-Napoli
-SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (2 Top) (1 Guio) ;	# Milano-Napoli
-SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) ;	# Pierre-Michel
-SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;	# Jean-René
-SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
-SELECT Cog IF (0 Cog) (1C Cog) (0 (META:/-/r)) ;
-SELECT Cog IF (-1C Cog) (0 Cog) (-1 (META:/-/r)) ;
-SELECT Top IF (0 Top) (1C Top) (0 (META:/-/r)) ;
-SELECT Top IF (-1C Top) (0 Top) (-1 (META:/-/r)) ;
-SELECT Top IF (NOT -2 Ant OR Cog) (-1 Top) (0 Top) (-1 (META:/-/r)) ;	# Milano-Napoli
-SELECT Top IF (NOT -1 Ant OR Cog) (0 Top) (1 Top) (0 (META:/-/r)) ;	# Milano-Napoli
-
-SELECT Ant IF (0 Ant) (1C Ant) ;	# Rosa Maria
-SELECT Ant IF (0 Ant) (1 Cog) (NOT -1 Ant) ;	# Giordano Bruno
-SELECT Ant IF (-1 ("santo")) (0 Ant) (0 Cog OR Top) ;
-SELECT Ant IF (-1 ("San")) (0 Ant) (0 Cog OR Top) ;	# San Paolo
-SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 segles_num_romans) (NOT 1 Cog) (NOT 1 Di);
-SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
-SELECT Ant_Cog IF (0 Cog OR Ant) (1 unknownMajIni) (NOT 0 ("Lago") OR ("Val") OR ("Monte") OR ("Monti") OR ("Torre")) ;
-SELECT Ant_Cog IF (-1 unknownMajIni) (0 Cog OR Ant) ;
-SELECT Ant IF (0 Ant) (0 Cog) (1 Di) (2 Top OR unknownMajIni) ;	# Alfonso di Portogallo
-SELECT Top IF (-2 Ant) (-1 Di) (0 Ant OR Cog OR Top) ;	# Ipparco di Nicea
-SELECT Top IF (-3 Ant) (-2 segles_num_romans) (-1 Di) (0 Ant OR Cog OR Top) ;	# Joan II di Castiglia
-SELECT Top IF (-2 ("concilio") OR ("parlamento") OR ("statuto") OR ("costituzione") OR ("trattato") OR ("dichiarazione"))
-	(-1 Di) (0 Ant OR Cog OR Top) ;
-	# concilio di Nicea
-SELECT Top IF (-2 ("corona") OR ("regno") OR ("giudicato") OR ("contea") OR ("ducato") OR ("despotado")) (-1 Di) (0 Cog OR Top) ;	# regno di Castiglia
-SELECT Top IF (-2 Dignità) (-1 Di) (0 Ant OR Cog) ;	# principe di Viana
-SELECT Top IF (-2 ("città") OR ("aeroporto") OR ("porto") OR ("regno") OR ("giudicato") OR ("principato") OR ("granducato") OR ("ducato") OR ("marchesato") OR ("contea") OR ("baronia") OR ("signoria") OR ("califfato") OR ("emirato") OR ("sultanato") OR ("khanato") OR ("satrapia") OR ("repubblica") OR ("arcivescovado") OR ("vescovado")) (-1 Di) (0 Cog OR Ant) ;
-REMOVE Ant_Cog IF (-1 Det + Def) (0 NP) ;	# la Roma, il Veneto
-REMOVE Ant_Cog IF (-1 ("in")) (0 NP) ;		# in Napoli
-SELECT Top IF (-2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0 Ant OR Cog OR Top) ;
-#REMOVE Top IF (NOT -2 ("andare") OR ("viaggiare")) (-1 ("a") OR ("in")) (0C Ant OR Cog OR Top) ;
-SELECT Top IF (-3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0 Ant OR Cog OR Top) ;
-#REMOVE Top IF (NOT -3 ("andare") OR ("viaggiare")) (-2 ("a") OR ("in")) (-1 Det + Def) (0C Ant OR Cog OR Top) ;
-SELECT Top IF (-2 NP) (-1 Di) (0 Ant OR Cog OR Top) ;
-SELECT Top IF (NOT -2 ("parlare")) (-1 ("a")) (0 Mosca) ;
-REMOVE Ant IF (0 ("Apollo")) (1 Num) ;	# Apollo 11
-REMOVE Ant IF (-1 Det + Fem) (NOT 1 Det + Masc) (0 ("Apollo")) ;
-REMOVE Ant IF (-1 Det + Def + Fem) (0 ("Apollo")) (NOT 1 Di) ;
-REMOVE Ant IF (-1 ("programma") OR ("missione") OR ("spaziale") OR ("lunare")) (0 ("Apollo")) ;
-SELECT Ant IF (0 ("Apollo")) ;
-
-SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
-SELECT Top IF (2 Top) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
-SELECT Top IF (-2C Top) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
-SELECT Ant OR Cog IF (-2C Ant OR Cog) (-1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
-SELECT Ant OR Cog IF (2 Ant OR Cog) (1 CM OR CnjCoo) (0 Top) (0 Cog OR Ant);
-SELECT Ant IF (-2C Ant) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
-SELECT Ant IF (2C Ant) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
-SELECT Cog IF (-2C Cog) (-1 CM OR CnjCoo) (0 Cog) (0 Ant);
-SELECT Cog IF (2C Cog) (1 CM OR CnjCoo) (0 Cog) (0 Ant);
-
-SELECT Ant IF (0 ("Orfeo")) (NOT 1 Ant OR Cog) ;
-SELECT Ant IF (0 ("Belisario")) (NOT 1 Ant OR Cog) ;
-
-SELECT Masc IF (0 ("<sant'>"i)) (1 ("Andrea")) ;
-
-
-# Coincidència nom propi/comú. Ex. Fons Europeu, Guerra Civil...
-REMOVE NP IF (0 NomPropiComu) (NOT -1C (ant) OR (cog) OR unknownMajIni);
-REMOVE NP IF (0 ("Pesce")) (-1 BOS);
-REMOVE NP IF (0 ("Anni")) (1 Num OR (apos));
-
-SELECT Org IF (0 ("Lazio")) (-1 Det + Def + FemSg) ;
-SELECT Org IF (0 ("Lazio")) (-2 Det + Def + FemSg) ;
-REMOVE Org IF (0 ("Lazio")) ;
-
-# These rules are commented because they cause more trouble than they solve
-# Per a evitar la traducció de cognoms
-# Posa com a lema la forma de la paraula marcada amb *
-# Amb els adjectius hi ha més risc d'error (!)
-#SUBSTITUTE:nom_propi1 (".*"r) ("\\*$1"v) TARGET ("<(.*)>"r) IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo")) ;
-#REPLACE:nom_propi2 (np) Vall OR N OR A IF (-1C (ant) OR (cog)) (0C Vall OR N OR A) (0 MajIni) (NOT 0 segles_num_romans) (NOT -1 ("Al") OR ("Primo"));
 
 # Prn
 
