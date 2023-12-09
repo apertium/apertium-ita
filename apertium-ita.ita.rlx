@@ -197,7 +197,7 @@ LIST Quanto = "quanto" ;
 LIST Regia = "regia" ;
 LIST Rimanere = "rimanere" ;
 LIST Risultare = "risultare" ;
-LIST San = "San" ;
+LIST San = "<San>" ;
 LIST Santo = "santo" ;
 LIST Secondo = "secondo" ;
 LIST Sembrare = "sembrare" ;
@@ -428,6 +428,11 @@ REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (1* ("goia") OR ("allegria") OR ("lacr
 REMOVE ("riso_pianta") IF (0 ("<riso>"i)) (-1* ("goia") OR ("allegria") OR ("lacrima") OR ("ridere") OR ("piangere"));
 SELECT ("riso_pianta") IF (0 ("<riso>"i)) (0 ("riso")) ;
 
+LIST ChiesaEcc = "chiesa" "duomo" "capella" ;
+REMOVE NP IF (-2 ChiesaEcc) (-1 Di) (0 San) (1 MajIni OR unknownMajIni) ;
+REMOVE NP IF (-3 ChiesaEcc) (-2 A) (-1 Di) (0 San) (1 MajIni OR unknownMajIni) ;
+REMOVE NP IF (-5 ChiesaEcc) (-4 Di) (-3 San) (-2 MajIni OR unknownMajIni) (-1 CnjCoo) (0 San) ;
+REMOVE NP IF (-6 ChiesaEcc) (-5 A) (-4 Di) (-3 San) (-2 MajIni OR unknownMajIni) (-1 CnjCoo) (0 San) ;
 SELECT NP IF (0 San) (1 MajIni OR unknownMajIni) ;
 REMOVE NP IF (-1 BOS) (0 ("<Primo>")) (1 MinIni) ;
 REMOVE NP IF (0 ("<Valle>")) (1 Di) (1/* Det + Def) ;
