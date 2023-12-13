@@ -1443,6 +1443,8 @@ REMOVE N IF (0 N) (0 Vall) (1 Ogni) ;		# orbita ogni 20 giorni
 REMOVE N IF (0 Vall) (-1 ("non")) ;
 REMOVE N IF (0 A) (-1 ("non")) ;
 
+REMOVE N IF (NOT -2 Vall) (-1 ("di solito")) (0 Vall + Pers) ;	# di solito lavoro
+
 # COORDINAZIONE
 
 REMOVE Pl IF (-1C/* Det + Sg) (0 Noun_Adj_PP + Sg) (0 Noun_Adj_PP + Pl) ;	# e la morte.
