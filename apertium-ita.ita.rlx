@@ -123,6 +123,7 @@ LIST Ser = vbser ;
 LIST Essere = "essere" ;
 LIST Dovere = "dovere" ;
 
+LIST Abbastanza = "abbastanza" ;
 LIST Altro = "altro" ;
 LIST Anche = "anche" ;
 LIST Ancora = "ancora" ;
@@ -222,6 +223,8 @@ LIST Un = "un" ;
 LIST Vario = "vario" ;
 LIST Venire = "venire" ;
 LIST Vi = "vi" ;
+
+LIST VCop = vbser "sembrare" "parere" ;
 
 LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "agosto" "settembre" "ottobre" "novembre" "dicembre" ;
 
@@ -424,6 +427,10 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
+SELECT Det IF (-2 Ci) (-1 Ser) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
+SELECT Det IF (-3 Ci) (-2 Ser) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
+SELECT Det IF (-3 Ci) (-2 Ser) (-1 Ser + PP) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
+SELECT Det IF (-4 Ci) (-3 Ser) (-2 Ser + PP) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
 
 REMOVE N IF (NOT -1/* Det + FemSg OR A + FemSg) (0 ("<era>"i)) (NOT 1C V + Pers) ;	# era figlia
 
@@ -739,6 +746,9 @@ SELECT PreAdv IF (0 ("<molto>")) (1 A + Sg) ;	# molto malalta
 SELECT PreAdv IF (0 ("<molto>")) (1 A + Pl) ;
 SELECT Det + &&ConcordaGN OR A + &&ConcordaGN IF (0 Molto + &&ConcordaGN) (1C N + &&ConcordaGN) ;
 REMOVE Pron IF (0 Molto + &&ConcordaGN) (1 Noun_Adj_PP + &&ConcordaGN) ;	# molti danni
+
+SELECT PreAdv IF (-1 VCop + &&ConcordaSP) (0 Abbastanza) (1 Adj_PP + &&ConcordaSP) ;	# è abbastanza noto
+SELECT Adv IF (-1 VCop + &&ConcordaSP) (0 Abbastanza) (1 Adj_PP + &&ConcordaSP) ;
 
 SELECT Det + &&ConcordaGN IF (0/* Det + &&ConcordaGN) (0/* Pron) (1 N + &&ConcordaGN) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro") OR Vall) ;
 SELECT Det IF (0/* Det) (0/* Pron) (1 N) (2 A) (NOT 0 ("un altro")) (NOT 0 Loro) (NOT 0 ("molto")) (NOT 1 ("un altro")) ;	# problema: le altre pinne grigie
@@ -1141,6 +1151,10 @@ REMOVE PP IF (0 PP + &&ConcordaGN) (0 A + &&ConcordaGN) (-2 N + &&ConcordaGN) (-
 REMOVE A IF (0 PP + &&ConcordaGN) (0 A + &&ConcordaGN) (-2 N + &&ConcordaGN) (-1 A + &&ConcordaGN) (1/* Da) ;	# informazioni autentiche scritte dai cronisti
 
 SELECT PP IF (-1C N + &&ConcordaGN) (0C V) (0 PP + &&ConcordaGN) ;	# delle vesti schiacciate sul corpo
+
+REMOVE A IF (0 PP) (1 Da) ;	# è percorso da
+REMOVE A IF (0 PP) (1 Adv) (2 Da) ;	# è percorso anche da
+SELECT Adv IF (0 ("anche")) (1 Da) ;	# è percorso anche da
 
 REMOVE Adv IF (-1 Barrera_Inicial_Estrict_SN) (0 A + &&ConcordaGN) (0 Adv) (1C N + &&ConcordaGN) ;	# Primo mandato
 
@@ -1599,6 +1613,14 @@ REMOVE Pers IF (-1C Vall + Pers) (0 Vall + Pers) ;	# vide rinchiusi
 REMOVE Pers IF (0C Vall + Pers) (1 Vall + Pers) ;	# vide rinchiusi
 REMOVE Pers IF (-2C Ser + Pers) (-1 Molto) (0 Vall + Pers) ;			# è molto complesso
 REMOVE Pers IF (-2C Ser + Pers) (-1C PreAdv OR Adv) (0 Vall + Pers) (0 A) ;	# è sempre complesso
+
+REMOVE F IF (NOT 1 F) (0 ("capocannoniere")) (NOT 1 F) ;
+
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-1 Ser + &&ConcordaSP) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron) ;	# fu capocannoniere
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-2 Ser + &&ConcordaSP) (-1C Adv OR PreAdv) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron) ;	# fu sempre capocannoniere
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-1 VCop + &&ConcordaSP) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron OR Inf) ;	# sembra capocannoniere
+SELECT Noun_Adj_PP + &&ConcordaSP IF (-2 VCop + &&ConcordaSP) (-1C Adv OR PreAdv) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron OR Inf) ;	# sembra sempre capocannoniere
+
 
 # Selection of dictionary forms if there is only one word
 SELECT N + MascSg IF (-1 BOS) (1 EOS) ;
