@@ -1610,6 +1610,10 @@ SELECT Prep IF (-1 BOS) (1 EOS) ;
 SELECT Adv IF (-1 BOS) (1 EOS) ;
 
 
+REMOVE M IF (-1/* F) (0 ("pedicure")) ;
+REMOVE M IF (0 ("pedicure")) (1 F) ;
+SELECT M IF (-1/* M) (0 ("pedicure")) ;
+SELECT M IF (0 ("pedicure")) (1 M) ;
 REMOVE Ionio IF (0 Ione) (1 MajIni OR unknownMajIni) ;
 REMOVE Ionio IF (-1 V) (0 Ione) ;
 REMOVE N + Ionio IF (0 Ione) (NOT 0 MajIni) ;
