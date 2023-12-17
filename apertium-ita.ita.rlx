@@ -427,10 +427,11 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
-SELECT Det IF (-2 Ci) (-1 Ser) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
-SELECT Det IF (-3 Ci) (-2 Ser) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
-SELECT Det IF (-3 Ci) (-2 Ser) (-1 Ser + PP) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
-SELECT Det IF (-4 Ci) (-3 Ser) (-2 Ser + PP) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
+# Le regole seguenti sono commentate perché le regole di trasferimento ita-srd prevedono l'analisi come "prep + det.def" invece di "det.ind"
+#SELECT Det IF (-2 Ci) (-1 Ser) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
+#SELECT Det IF (-3 Ci) (-2 Ser) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
+#SELECT Det IF (-3 Ci) (-2 Ser) (-1 Ser + PP) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
+#SELECT Det IF (-4 Ci) (-3 Ser) (-2 Ser + PP) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci sono stati dei negoziati
 
 REMOVE N IF (NOT -1/* Det + FemSg OR A + FemSg) (0 ("<era>"i)) (NOT 1C V + Pers) ;	# era figlia
 
@@ -1272,6 +1273,10 @@ REMOVE Sg IF (0 Noun_NP + SP) (0 Noun_NP + Sg) (-1/* Det + Pl) ;			# i metro
 
 REMOVE SP IF (0 ("metro") + Sg) (1 ("quadrato") OR ("cubo")) ;
 SELECT SP IF (0 ("metro") + Sg) (-1 ("in")) ;		# in metro
+
+SELECT A + &&ConcordaGN IF (-1 ("califato") + &&ConcordaGN) (0 A + Gentilizio + &&ConcordaGN) ;
+SELECT A + &&ConcordaGN IF (-1 ("sultanato") + &&ConcordaGN) (0 A + Gentilizio + &&ConcordaGN) ;
+SELECT A + &&ConcordaGN IF (-1 ("emirato") + &&ConcordaGN) (0 A + Gentilizio + &&ConcordaGN) ;
 
 SELECT N IF (-1 Num) (0 ("ora") + Sg) (1 A + Gentilizio + FemSg) ;	# le 5 ora italiana
 
