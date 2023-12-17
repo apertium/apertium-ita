@@ -221,6 +221,7 @@ LIST Tutto = "tutto" ;
 LIST Ultimo = "ultimo" ;
 LIST Un = "un" ;
 LIST Vario = "vario" ;
+LIST Verso = "verso" ;
 LIST Venire = "venire" ;
 LIST Vi = "vi" ;
 
@@ -427,6 +428,7 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
+SELECT Prep IF (-1C Noun_Adj) (0 ("<dei>"i)) ;
 # Le regole seguenti sono commentate perché le regole di trasferimento ita-srd prevedono l'analisi come "prep + det.def" invece di "det.ind"
 #SELECT Det IF (-2 Ci) (-1 Ser) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
 #SELECT Det IF (-3 Ci) (-2 Ser) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
@@ -454,7 +456,7 @@ REMOVE NP IF (0 Di) ;
 
 SELECT Pron IF (0 ("alcun") OR ("ciascun") OR ("qualcun") OR ("nessun")) (1 Prep) ;
 
-SELECT Det IF (-1 Prep) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
+SELECT Det IF (-1 Prep LINK NOT 0/* N) (0 A OR Det) (NOT 0 ("I")) (1 N) ;
 
 SELECT Pron IF (0 ("<gli>") OR ("<Gli>")) (1 ("si")) ;
 
@@ -584,6 +586,10 @@ REMOVE N IF (0 ("dato che")) ;
 SELECT A IF (0 ("prima di")) (-1/* Det + FemSg) ;
 REMOVE A IF (0 ("prima di")) ;
 
+SELECT Prep IF (-1 ("nel caso")) (0 Di) ;
+SELECT Prep IF (0 ("nel caso")) (1 Di) ;
+REMOVE Prep IF (0 ("nel caso")) ;
+
 SELECT ("d'estate") IF (NOT -1 N OR A) (0 ("d'estate")) ;
 REMOVE ("d'estate") ;
 SELECT ("d'inverno") IF (NOT -1 N OR A) (0 ("d'inverno")) ;
@@ -595,6 +601,11 @@ SELECT Prep IF (-1 Dopo) (0 Oltre) ;		# dopo oltre 10 anni
 SELECT Adv IF (0 Circa) (1 Num) ;		# dopo circa 10 anni
 SELECT Prep IF (0 Oltre) (1 Num) ;		# dopo oltre 10 anni
 REMOVE Prep IF (-1 Vall) (0 Circa) (1C Noun_Adj) ;
+
+SELECT Prep IF (0 Verso) (1 Det + &&ConcordaGN) (2 Noun_Adj + &&ConcordaGN) ;
+SELECT Prep IF (0 Verso) (1 Det + &&ConcordaGN) (2 Adv OR PreAdv) (3 A + &&ConcordaGN) ;
+SELECT Prep IF (0 Verso) (1 A + Pl + &&ConcordaGN) (2 N + &&ConcordaGN) ;
+SELECT Prep IF (0 Verso) (1 Adv OR PreAdv) (2 A + Pl + &&ConcordaGN) (3 N + &&ConcordaGN) ;
 
 SELECT Al IF (0 Duce) (-1 Def + MascSg) ;
 
