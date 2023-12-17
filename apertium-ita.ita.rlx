@@ -617,6 +617,14 @@ SELECT A + Vario IF (-1 Det + FemPl) (0 Vario + FemPl) (1 N + FemPl) ;
 SELECT A IF (0 Principale) (-1 Def OR Pos) ;	# il principale responsabile
 
 REMOVE A IF (0 ("<Natale>")) ;
+SELECT N IF (-1 ("per")) (0 ("<Natale>")) ;
+SELECT N IF (-1 ("dopo")) (0 ("<Natale>")) ;
+SELECT N IF (-2 ("vigilia")) (-1 Di) (0 ("<Natale>")) ;
+SELECT N IF (-2 ("cena")) (-1 Di) (0 ("<Natale>")) ;
+SELECT N IF (-2 ("regalo")) (-1 Di) (0 ("<Natale>")) ;
+SELECT N IF (-2 ("albero")) (-1 Di) (0 ("<Natale>")) ;
+SELECT N IF (-2 ("giorno")) (-1 Prep) (0 ("<Natale>")) ;	# giorno di Natale ; giorno dopo Natale
+SELECT N IF (0 ("<Natale>")) (1 Num) ;	# Natale 2023
 
 REMOVE N IF (0 Sette) (1 N + MascPl) ;
 REMOVE N IF (0 Sette) (1 N + FemPl) ;
