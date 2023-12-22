@@ -231,6 +231,8 @@ LIST Mese = "gennaio" "febbraio" "marzo" "aprile" "maggio" "giugno" "luglio" "ag
 
 LIST Gentilizio = "abcaso" "accadiano" "accado" "acheo" "adyghè" "africano" "ainu" "albanese" "algonchino" "alsaziano" "altai" "alvernese" "amazigh" "americano" "amorreo" "andaluso" "angioino" "apache" "arabo" "aragonese" "arameo" "aranese" "armeno" "asiatico" "assiro" "asturiano" "ateniese" "australiano" "avaro" "aymarà" "azero" "balkar" "baltico" "bambara" "bantu" "basco" "bashkir" "battriano" "bavarese" "beluci" "bengalese" "berbero" "bielorusso" "birmano" "bolognese" "borgognone" "boscimane" "boscimano" "bosniaco" "bretone" "bulgaro" "burgundio" "burgundo" "buriato" "cabardino" "cabilo" "calabrese" "calmucco" "cambogiano" "cananeo" "cantonese" "caracalpaco" "caraciai-balcaro" "careliano" "cartaginese" "casciubo" "cassita" "castigliano" "catalano" "ceceno" "ceco" "cecoslovacco" "centroamericano" "ceremisso" "cherokee" "chuvash" "cimmerio" "cinese" "circasso" "ciukcio" "comanche" "coreano" "cornico" "corso" "cretese" "croato" "cumano" "curdo" "dacio" "dalmata" "danese" "dioula" "dorio" "ebraico" "elamita" "emiliano" "eoliano" "eschimese" "estone" "etiope" "etrusco" "europeo" "fenicio" "fiammingo" "finlandese" "fiorentino" "francese" "franco" "frigio" "frisone" "friulano" "fula" "fulani" "gallese" "gallo" "genovese" "georgiano" "giapponese" "giavanese" "goto" "greco" "guaraní" "guascone" "gujarati" "hausa" "hawaiano" "hazara" "hurrita" "ibero" "igbo" "illirio" "indonesiano" "inglese" "inguscio" "inuit" "ionio" "irlandese" "irochese" "islandese" "istriano" "italiano" "ittita" "jacuto" "jakuto" "karachai" "kashmiro" "kazako" "khanti" "khmer" "kirghizo" "komi" "laotiano" "leonese" "lesgo" "lettone" "lezghiano" "lidio" "ligure" "limosino" "linguadociano" "lituano" "lombardo" "longobardo" "loreno" "lussemburghese" "macedone" "maiorchino" "malese" "malgascio" "maltese" "manciù" "mannese" "mansi" "maori" "mapuce" "mari" "marshallese" "miceneo" "micronesiano" "milanese" "mingrelio" "minoico" "minorchino" "mirandese" "moghul" "mohawk" "moldavo" "mongolo" "montenegrino" "mordvino" "mozarabo" "nabateo" "napoletano" "napolitano" "navajo" "nepalese" "nizzardo" "nogai" "normanno" "nordamericano" "norvegese" "nubiano" "occitano" "olandese" "oromo" "osco" "osseto" "ostiaco" "ostrogoto" "ottentotto" "ottomano" "palmireno" "pangiabi" "pashtun" "pecenego" "persiano" "peul" "picardo" "piemontese" "pisano" "polacco" "polinesiano" "portoghese" "provenzale" "punico" "punjabi" "quechua" "rapanui" "romagnolo" "romano" "rumeno" "russo" "ruteno" "sabino" "sakha" "samoano" "saraceno" "sardo" "savoiardo" "scita" "scozzese" "serbo" "siciliano" "sindhi" "singalese" "siriaco" "slavo" "slovacco" "sloveno" "sogdiano" "somalo" "songhai" "sorabo" "spagnolo" "spartano" "sudamericano" "sumero" "svedese" "svevo" "swahili" "tagico" "tailandese" "taiwanese" "tamil" "tartaro" "tataro" "tebano" "tedesco" "telugu" "tibetano" "toscano" "tracio" "troiano" "tuareg" "tunguse" "turco" "turkmeno" "tuvano" "ucraino" "udmurto" "uiguro" "umbro" "ungherese" "unno" "uzbeko" "valdese" "valenciano" "vallone" "vandalo" "veneziano" "vichingo" "vietnamita" "visigoto" "votiaco" "xhosa" "yoruba" "zulu" ;
 
+LIST AdjPre = "principale" ;
+
 LIST Excl = "!" ;
 
 LIST Nsg = (n sg) ;
@@ -429,6 +431,9 @@ REMOVE V IF (0 Sg2) (0/* Prep) ;	# dai (alternativa bèstia però funciona)
 SELECT Prep IF (0 ("<dei>"i)) (1 unknown) ;
 SELECT Prep IF (0 ("<nei>"i)) (1 unknown) ;
 SELECT Prep IF (-1C Noun_Adj) (0 ("<dei>"i)) ;
+SELECT Prep IF (-1 ("<uno>"i)) (0 ("<dei>"i)) ;
+REMOVE Vall + Pers IF (-1 ("<dei>"i)) ;
+REMOVE Vall + Pers IF (-1 ("<nei>"i)) ;
 # Le regole seguenti sono commentate perché le regole di trasferimento ita-srd prevedono l'analisi come "prep + det.def" invece di "det.ind"
 #SELECT Det IF (-2 Ci) (-1 Ser) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
 #SELECT Det IF (-3 Ci) (-2 Ser) (-1 Adv) (0 ("<dei>"i)) (1 Noun_Adj + MascPl) ;	# ci furono dei negoziati
@@ -815,6 +820,21 @@ REMOVE A IF (0 ("accado")) (NOT -1 N) ;
 REMOVE N IF (0 ("accado") + Sg) ;
 REMOVE N IF (0 ("accado") + Fem) ;
 
+SELECT Noun_Adj + Masc IF (-1/1 Det + M) (0C Noun_Adj) ;
+SELECT Noun_Adj + Fem IF (-1/1 Det + F) (0C Noun_Adj) ;
+SELECT Noun_Adj + SgSp IF (-1/1 Det + Sg) (0C Noun_Adj) ;	# della serie TV
+SELECT Noun_Adj + PlSp IF (-1/1 Det + Pl) (0C Noun_Adj) ;
+SELECT Det + Ind IF (-1 ("come")) (0 Det + Ind + Pl) (1C Noun_Adj + Pl) ;	# come dei intrepidi viaggiatori
+SELECT SUB:1 Det IF (0/1 Det + M) (1C Noun_Adj) ;
+SELECT SUB:1 Det IF (0/1 Det + F) (1C Noun_Adj) ;
+SELECT SUB:1 Det IF (0/1 Det + Sg) (1C Noun_Adj) ;	# della serie TV
+SELECT SUB:1 Det IF (0/1 Det + Pl) (1C Noun_Adj) ;
+
+SELECT A + &&ConcordaGN IF (NOT -1 N) (0 AdjPre + &&ConcordaGN) (1 N + &&ConcordaGN) (2C A OR Barrera_Final_Estrict_SN) ; # i principali parchi
+
+SELECT N + &&ConcordaGN IF (-1C Prep) (0 N + &&ConcordaGN LINK NOT 0 MajIni) (1 A + &&ConcordaGN) (2C A OR Barrera_Final_Estrict_SN) ; # dei musulmani ribelli del distretto
+SELECT N + &&ConcordaGN IF (-1/1 Det + &&ConcordaGN) (0 N + &&ConcordaGN LINK NOT 0 MajIni) (1 A + &&ConcordaGN) (2C A OR Barrera_Final_Estrict_SN) ; # dei musulmani ribelli del distretto
+
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1C A) (1 Prep) ;		# le più grandi collezioni di pesci
 SELECT N IF (0 N) (0 V) (NOT 0 PP) (-1 A) (1 Prep) ;	# genere teatrale e musicale nato nel 1856
 SELECT N IF (0 N) (0 A) (-1 Def) (1 ("più")) ;	# il comune più estesso
@@ -1050,8 +1070,8 @@ SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 
 SELECT Aord IF (0 N) (0 Aord + &&ConcordaGN) (-1 Barrera_Inicial_Estrict_SN) (1 N + &&ConcordaGN) (1 PP) (2 Barrera_Final_Estrict_SN) (NOT 2 Da) ;
 
 SELECT Aord IF (-1/* Det + &&ConcordaGN) (0 Aord + &&ConcordaGN) (1C N + &&ConcordaGN) ;
-SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN) (1C N + &&ConcordaGN) ;
-SELECT A IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN LINK NOT 0 N) (1C Gentilizio + &&ConcordaGN) ;
+SELECT A + &&ConcordaGN IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN) (1C N + &&ConcordaGN) ;
+SELECT A + &&ConcordaGN IF (-1/* Det + &&ConcordaGN) (0 A + &&ConcordaGN LINK NOT 0 N) (1C Gentilizio + &&ConcordaGN) ;
 SELECT A OR PP IF (-3/* Det + &&ConcordaGN) (-2 A + &&ConcordaGN) (-1C N + &&ConcordaGN) (0 A + &&ConcordaGN OR PP + &&ConcordaGN) (NOT 0 ("Benedetto")) (NOT 1 Cog) ;	# l'Estremo Oriente Russo ; le prime canzoni scritte da lei ; il primo ministro Benedetto Cairoli
 
 REMOVE A IF (0 A) (0 N) (NOT 0 Aord OR AdjN) (-1/* Det) (1 A) (1 N) (2 CM OR Ant OR Cog) ; 	# allo stato fossile,
@@ -1100,10 +1120,10 @@ REMOVE A IF (0 A) (0 N) (-1/* Prep) (1 A) (1 N) (2/* Det) ; 		# dello stato tede
 REMOVE N IF (0 A) (0 N) (-2/* Det) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 REMOVE N IF (0 A) (0 N) (-2/* Prep) (-1 N) (1/* Det) (NOT -1 Sette) ; 	# dello stato tedesco del Baden-Württemberg
 
-REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Prep) ; 		# sullo stato dei mari ; molto comune nei bambini
-REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) ; 		# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Det) ; 			# sullo stato dei mari
-REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) ; 		# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Prep) (NOT 1 N) ; 		# sullo stato dei mari ; molto comune nei bambini
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Prep) (NOT 1 N) ; 		# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Det) (NOT -1/* Adv) (1/* Det) (NOT 1 N) ; 			# sullo stato dei mari
+REMOVE A IF (0 A) (0 N) (-1/* Prep) (1/* Det) (NOT 1 N) ; 		# sullo stato dei mari
 
 REMOVE A IF (0 A) (0 N) (-1/* Det) (1 A) (NOT 0 Aord OR AdjN) ; # lo stato italiano
 REMOVE Adv IF (0 Adv) (0 N) (-1/* Det) (1 A) ; 			# un'altra specie chimica
