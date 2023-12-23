@@ -1445,6 +1445,7 @@ REMOVE P2 IF (0 N + FemPl) (0 P2) (1 A + FemPl) (NOT -1* CnjAdv) ;		# mettere in
 
 REMOVE P2 IF (-1C N OR V) (0 P2 OR N OR A OR PP) ;		# conserva collezioni di
 REMOVE P1 IF (-1C N OR V) (0 P1 OR N OR A OR PP) ;		# alimenti complessi
+REMOVE P2 IF (-2C V) (-1 Noun_Adj + &&ConcordaGN) (0 Noun_Adj + &&ConcordaGN) ;		# ottenere buoni incassi
 #REMOVE Prs IF (-1C N + &&ConcordaGN) (0 Prs OR A + &&ConcordaGN) ;		# sito attivo ; alimenti complessi
 
 REMOVE Vall IF (0 N + &&ConcordaGN) (0 Vall) (-1 Det + &&ConcordaGN) (1 Adj_PP + &&ConcordaGN) ;	# il filosofo preferito
