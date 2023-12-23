@@ -1038,6 +1038,8 @@ REMOVE Org IF (0 ("Lazio")) ;
 SELECT N IF (-1 Tra) (1 ("e")) (2C N) ;
 SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
+SELECT N IF (0 ("atto")) (1 segles_num_romans) ;
+
 LIST QuartiDiFinale = "quarto" "ottavo" ;
 REMOVE Aord IF (0 N) (0 Aord + &&ConcordaGN) (1 Di) (2 ("finale")) ;	# quarto di finale
 REMOVE Aord IF (0 N) (0 Aord + &&ConcordaGN) (1 Di) (2 ("ora")) ;	# quarto di finale
