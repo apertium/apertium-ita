@@ -591,7 +591,7 @@ REMOVE N IF (0 ("dato che")) ;
 SELECT A IF (0 ("prima di")) (-1/* Det + FemSg) ;
 REMOVE A IF (0 ("prima di")) ;
 
-SELECT Prep IF (-1 ("nel caso")) (0 Di) ;
+SELECT Prep IF (-1 ("<nel caso>"i)) (0 Di) ;
 SELECT Prep IF (0 ("nel caso")) (1 Di) ;
 REMOVE Prep IF (0 ("nel caso")) ;
 
@@ -825,6 +825,7 @@ SELECT Noun_Adj + Fem IF (-1/1 Det + F) (0C Noun_Adj) ;
 SELECT Noun_Adj + SgSp IF (-1/1 Det + Sg) (0C Noun_Adj) ;	# della serie TV
 SELECT Noun_Adj + PlSp IF (-1/1 Det + Pl) (0C Noun_Adj) ;
 SELECT Det + Ind IF (-1 ("come")) (0 Det + Ind + Pl) (1C Noun_Adj + Pl) ;	# come dei intrepidi viaggiatori
+SELECT Det + Ind IF (-1 Prep) (0 Det + Ind + Pl) (1C Noun_Adj + Pl) ;	# a dei intrepidi viaggiatori
 SELECT SUB:1 Det IF (0/1 Det + M) (1C Noun_Adj) ;
 SELECT SUB:1 Det IF (0/1 Det + F) (1C Noun_Adj) ;
 SELECT SUB:1 Det IF (0/1 Det + Sg) (1C Noun_Adj) ;	# della serie TV
