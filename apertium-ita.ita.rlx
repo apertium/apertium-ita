@@ -845,6 +845,10 @@ SELECT N IF (0 N + &&ConcordaGN) (0 V) (-1 ("il cui") + &&ConcordaGN) (1 V) ;	# 
 
 SELECT Sg If (-1 ("il cui") + Sg) (0 V) (NOT 0 N) ;
 SELECT Pl If (-1 ("il cui") + Pl) (0 V) (NOT 0 N) ;
+SELECT Noun_Adj + &&ConcordaGN If (-1 ("il cui") + &&ConcordaGN) (NOT 0 V) ;	# il cui capitale
+SELECT Noun_Adj + &&ConcordaGN If (-1 ("il cui") + &&ConcordaGN) (1C Vall) ;	# il cui capitale è
+SELECT N + &&ConcordaGN If (-1 ("il cui") + &&ConcordaGN) (1C Vall) ;	# il cui capitale è
+SELECT Noun_Adj + &&ConcordaGN If (-1 ("il cui") + &&ConcordaGN) (1 Noun_Adj + &&ConcordaGN) (2C Vall) ;
 
 REMOVE Prep IF (0 Adv) (0 Prep) (-1 V) (1 CnjCoo) ;	# andavano su e giù
 
@@ -1040,6 +1044,13 @@ SELECT N IF (-1 Tra) (1 ("e")) (2C N) ;
 SELECT N IF (-3 Tra) (-2C N) (-1 ("e")) ;
 
 SELECT N IF (0 ("atto")) (1 segles_num_romans) ;
+
+SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
+SELECT N IF (0 ("capitale")) (1/* Di) ;
+SELECT F IF (NOT -1 M) (0 ("capitale")) (0 M) (0 F) (1/* Di) ;
+SELECT F IF (NOT -1 M) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
+SELECT N IF (-1 NP) (0 ("capitale"));
+SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 LIST QuartiDiFinale = "quarto" "ottavo" ;
 REMOVE Aord IF (0 N) (0 Aord + &&ConcordaGN) (1 Di) (2 ("finale")) ;	# quarto di finale
@@ -1340,13 +1351,6 @@ SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 EOS) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjSub) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 CnjAdv) ;
 SELECT N IF (-2C/* Num OR Det) (-1C A) (0C N OR A) (1 Rel) ;
-
-SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
-SELECT N IF (0 ("capitale")) (1/* Di) ;
-SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1/* Di) ;
-SELECT F IF (NOT -1 F) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
-SELECT N IF (-1 NP) (0 ("capitale"));
-SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 REMOVE Adj_PP IF (NOT -1 Noun_Adj_PP OR CnjCoo) (0 N + &&ConcordaGN) (0 Adj_PP) (1 Adj_PP + &&ConcordaGN LINK NOT 0 N) ;	# genere teatrale e musicale nato nel 1856 ; partita giocata
 
