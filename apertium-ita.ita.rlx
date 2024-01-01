@@ -1049,7 +1049,7 @@ SELECT N IF (0 ("mezzo")) (1 Di) (2 ("comunicazione")) ;
 SELECT N IF (0 ("capitale")) (1/* Di) ;
 SELECT F IF (NOT -1 M) (0 ("capitale")) (0 M) (0 F) (1/* Di) ;
 SELECT F IF (NOT -1 M) (0 ("capitale")) (0 M) (0 F) (1 NP) ;
-SELECT N IF (-1 NP) (0 ("capitale"));
+SELECT N IF (NOT -2 BOS) (-1 NP) (0 ("capitale"));
 SELECT A IF (0 ("tale")) (1 N);					# per tale motivo
 
 LIST QuartiDiFinale = "quarto" "ottavo" ;
