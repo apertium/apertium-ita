@@ -592,6 +592,9 @@ REMOVE N IF (0 ("dato che")) ;
 SELECT A IF (0 ("prima di")) (-1/* Det + FemSg) ;
 REMOVE A IF (0 ("prima di")) ;
 
+SELECT A IF (0 ("prima che")) (-1/* Det + FemSg) ;
+REMOVE A IF (0 ("prima che")) ;
+
 SELECT Prep IF (-1 ("<nel caso>"i)) (0 Di) ;
 SELECT Prep IF (0 ("nel caso")) (1 Di) ;
 REMOVE Prep IF (0 ("nel caso")) ;
