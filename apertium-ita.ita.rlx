@@ -23,6 +23,7 @@ LIST Vmod = vbmod ;
 LIST Inf = inf ;
 LIST Ger = ger ;
 LIST PP = pp ;
+LIST Pri = pri ;
 LIST Ifi = ifi ;
 LIST Prs = prs ;
 LIST Pis = pis ;
@@ -1625,6 +1626,8 @@ REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
+REMOVE Prs IF (-1C ("che")) (0 Pri) ;		# , che presenta cotenna
+REMOVE Prs IF (-2C ("che")) (-1 Adv) (0 Pri) ;		# , che non presenta cotenna
 
 SELECT Prs + P3 IF (0 Ser + Prs + P3 + &&ConcordaSP) (1 Det + &&ConcordaSP) (2 Che OR Interr OR Rel) (3 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
 SELECT Prs + P3 IF (-3 Ser + Prs + P3 + &&ConcordaSP) (-2 Det + &&ConcordaSP) (-1 Che OR Interr OR Rel) (0 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
