@@ -1394,6 +1394,11 @@ SELECT A IF (0 ("<mezzo>"i)) (1 ("miliardo") + MascSg) ;
 SELECT Adv IF (-1 N + &&ConcordaGN) (0 Mezzo) (1 Adj_PP + &&ConcordaGN) ;	# frutta mezzo guasta
 SELECT Adv IF (0 Mezzo) (1C PP) ;
 
+# A O PP
+
+REMOVE PP IF (-1 Ser) (0 ("ammalato")) ;
+REMOVE PP IF (-2 Ser) (-1 Adv OR PreAdv) (0 ("ammalato")) ;
+
 # A O V
 
 REMOVE Inf IF (0 Inf) (0 A + MascSg) (-1 N + MascSg) ;
@@ -1631,8 +1636,8 @@ REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
-REMOVE Prs IF (-1C ("che")) (0 Pri) ;		# , che presenta cotenna
-REMOVE Prs IF (-2C ("che")) (-1 Adv) (0 Pri) ;		# , che non presenta cotenna
+REMOVE Prs IF (-1C Che) (0 Pri) ;		# , che presenta cotenna
+REMOVE Prs IF (-2C Che) (-1 Adv) (0 Pri) ;		# , che non presenta cotenna
 
 SELECT Prs + P3 IF (0 Ser + Prs + P3 + &&ConcordaSP) (1 Det + &&ConcordaSP) (2 Che OR Interr OR Rel) (3 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
 SELECT Prs + P3 IF (-3 Ser + Prs + P3 + &&ConcordaSP) (-2 Det + &&ConcordaSP) (-1 Che OR Interr OR Rel) (0 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
@@ -1659,6 +1664,8 @@ SELECT Prs + Pl1 IF (0 Verbs_X_quel_che_X + Prs + Pl1) (1 Interr OR Rel) (2 Tn O
 SELECT Prs + Pl2 IF (0 Verbs_X_quel_che_X + Prs + Pl2) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Pl2) ;
 SELECT Prs + Pl3 IF (0 Verbs_X_quel_che_X + Prs + Pl3) (1 Interr OR Rel) (2 Tn OR Pro) (3C Verbs_X_quel_che_X + Prs + Pl3) ;
 
+REMOVE Noun_Adj IF (-1 Che) (0 Vall + Pers) ;	# che vive fuori città
+REMOVE Noun_Adj IF (-2 Che) (-1C Adv OR PreAdv) (0 Vall + Pers) ;	# che vive sempre fuori città
 
 REMOVE Prs IF (NOT -1* CnjSub OR CnjAdv OR Che + Rel OR (".*# che"r)) ;	# "sperare# che" et sim.
 SELECT Subj IF (-1* ("sperare# che")) (0C Vall) ;
