@@ -1636,8 +1636,10 @@ REMOVE Pers (-3 Si) (-2 Trovare + P3) (-1 Adv) (0 Pers OR PP) ;
 SELECT P3 (-1 Si) (0 Vall + P3) ;	# si tratta di
 
 #REMOVE Prs IF (0 V) (-1 Rel) ;		# tutto ciò che desideri
+REMOVE Pri + P2 IF (-1C Che) (0 Prs + P3) (NOT -1* P2 OR P1) ;		# tutto ciò che desideri
+REMOVE Pri + P2 IF (-2C Che) (-1 Adv OR Pro) (0 Prs + P3) (NOT -1* P2 OR P1) ;
 REMOVE Prs IF (-1C Che) (0 Pri) ;		# , che presenta cotenna
-REMOVE Prs IF (-2C Che) (-1 Adv) (0 Pri) ;		# , che non presenta cotenna
+REMOVE Prs IF (-2C Che) (-1 Adv OR Pro) (0 Pri) ;		# , che non presenta cotenna
 
 SELECT Prs + P3 IF (0 Ser + Prs + P3 + &&ConcordaSP) (1 Det + &&ConcordaSP) (2 Che OR Interr OR Rel) (3 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
 SELECT Prs + P3 IF (-3 Ser + Prs + P3 + &&ConcordaSP) (-2 Det + &&ConcordaSP) (-1 Che OR Interr OR Rel) (0 Ser + Prs + P3 + &&ConcordaSP) ;	# sia quel che sia
@@ -1692,6 +1694,8 @@ SELECT Noun_Adj_PP + &&ConcordaSP IF (-2 Ser + &&ConcordaSP) (-1C Adv OR PreAdv)
 SELECT Noun_Adj_PP + &&ConcordaSP IF (-1 VCop + &&ConcordaSP) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron OR Inf) ;	# sembra capocannoniere
 SELECT Noun_Adj_PP + &&ConcordaSP IF (-2 VCop + &&ConcordaSP) (-1C Adv OR PreAdv) (0 Noun_Adj_PP + &&ConcordaSP LINK NOT 0 Adv OR PreAdv OR Prep OR Num OR Pron OR Inf) ;	# sembra sempre capocannoniere
 
+
+SELECT P3 IF (0C Prs) (0 P3) (NOT -1* P2 OR P1) (NOT 1 P2 OR P1) ;		# tutto ciò che desideri
 
 # Selection of dictionary forms if there is only one word
 SELECT N + MascSg IF (-1 BOS) (1 EOS) ;
